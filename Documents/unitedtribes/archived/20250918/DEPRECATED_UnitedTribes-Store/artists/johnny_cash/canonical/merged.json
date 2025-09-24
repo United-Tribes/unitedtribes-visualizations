@@ -1,0 +1,620 @@
+{
+  "artist_name": "Johnny Cash",
+  "works": [
+    {
+      "title": "The Fabulous Johnny Cash",
+      "release_date": "1958-11",
+      "type": "Album",
+      "mbid": "00da4796-a49b-370f-8ac9-88cd90a4a5ac"
+    },
+    {
+      "title": "The Sound of Johnny Cash",
+      "release_date": "1962-06-04",
+      "type": "Album",
+      "mbid": "1e2773f6-5e57-31dc-acda-3819a5774ff6"
+    },
+    {
+      "title": "From Sea to Shining Sea",
+      "release_date": "1968-01",
+      "type": "Album",
+      "mbid": "1e896abe-d5d5-348b-ad6e-6c9068793dad"
+    },
+    {
+      "title": "The Lure of the Grand Canyon",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "2379d5a7-b5ec-445c-bf0f-bb76ae84dd0a"
+    },
+    {
+      "title": "Johnny Cash With His Hot and Blue Guitar",
+      "release_date": "1957-10-11",
+      "type": "Album",
+      "mbid": "288b58ea-6b89-3dae-8428-2822fb15c7cb"
+    },
+    {
+      "title": "I Walk the Line",
+      "release_date": "1964-06",
+      "type": "Album",
+      "mbid": "394beb31-b770-3d4e-a40d-7fa99b6f0d1a"
+    },
+    {
+      "title": "Blood, Sweat and Tears",
+      "release_date": "1963-01-07",
+      "type": "Album",
+      "mbid": "46a247e5-4d60-3213-872a-b3345f8454e3"
+    },
+    {
+      "title": "Man in Black",
+      "release_date": "1971-05",
+      "type": "Album",
+      "mbid": "4c301360-e5ef-3a4c-befc-1ef642de8b50"
+    },
+    {
+      "title": "Johnny Cash Sings the Ballads of the True West",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "4c59b7f1-23e2-3f9b-9c98-74e35ea72996"
+    },
+    {
+      "title": "Carryin’ On With Johnny Cash & June Carter",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "50031fc5-b480-368a-a7f2-a5db73fd3370"
+    },
+    {
+      "title": "Hymns by Johnny Cash",
+      "release_date": "1959-05",
+      "type": "Album",
+      "mbid": "687df0ac-d420-4809-9bfc-ccd69363783a"
+    },
+    {
+      "title": "America: A 200-Year Salute in Story and Song",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "7201df58-d4e8-37cc-ba0f-c448cc8bc578"
+    },
+    {
+      "title": "The Christmas Spirit",
+      "release_date": "1963-11",
+      "type": "Album",
+      "mbid": "77fd27bd-ffed-3384-87ca-8191fe9e42cb"
+    },
+    {
+      "title": "A Thing Called Love",
+      "release_date": "1972-04",
+      "type": "Album",
+      "mbid": "79620023-4a8e-3809-b103-37a37fc09dd9"
+    },
+    {
+      "title": "Everybody Loves a Nut",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "8546d6ff-c1da-32c8-8171-13a7bc287158"
+    },
+    {
+      "title": "Bitter Tears: Ballads of the American Indian",
+      "release_date": "1964",
+      "type": "Album",
+      "mbid": "8fc2a449-90b5-3698-8dc9-de127b812b1d"
+    },
+    {
+      "title": "Songs of Our Soil",
+      "release_date": "1959-09",
+      "type": "Album",
+      "mbid": "95f5ba76-f661-3eed-a954-42fa1d16ed71"
+    },
+    {
+      "title": "Hello, I’m Johnny Cash",
+      "release_date": "1970-01",
+      "type": "Album",
+      "mbid": "98cfdc81-c6d5-31be-a63c-ee3ec1a707ec"
+    },
+    {
+      "title": "Happiness Is You",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "9e16b2a7-114c-3173-a49b-f67361712d33"
+    },
+    {
+      "title": "Ride This Train",
+      "release_date": "1960-08-01",
+      "type": "Album",
+      "mbid": "b657899c-2f8e-3411-b794-6056a7bd44e0"
+    },
+    {
+      "title": "Orange Blossom Special",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "b7b44840-602a-3202-94ce-47f15f38e792"
+    },
+    {
+      "title": "The Holy Land",
+      "release_date": "1969-01",
+      "type": "Album",
+      "mbid": "de0ead03-22a3-3569-9c26-559dd9a059a0"
+    },
+    {
+      "title": "Keep on the Sunny Side",
+      "release_date": "1964",
+      "type": "Album",
+      "mbid": "f39282bd-ba09-4e8f-a39a-54b7f4baa9bd"
+    },
+    {
+      "title": "Now, There Was a Song!",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "f7753b55-3bd3-30a0-887f-0e186e1b7305"
+    },
+    {
+      "title": "Hymns From the Heart",
+      "release_date": "1962-04-02",
+      "type": "Album",
+      "mbid": "fc6b647d-8915-3578-9465-44be5408c5e6"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "The Million Dollar Quartet"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000816890"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+      },
+      {
+        "type": "biography",
+        "url": "http://countrymusichalloffame.org/full-list-of-inductees/view/johnny-cash"
+      },
+      {
+        "type": "biography",
+        "url": "https://tims.blackcat.nl/messages/johnny_cash.htm"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://albumcredits.com/Profile/1548"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://rcs-discography.com/rcs/artist.php?key=cash3600"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.lpdiscography.com/c/Cash/cash2.htm"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.rocky-52.net/chanteursc/cash_j.htm"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/135946"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.cmt.com/artists/az/cash_johnny/artist.jhtml"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.gactv.com/gac/ar_az_johnny_cash"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/6kACVPfCOnqzgfEF5ryl0x"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/405"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:JohnnyCash1969.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0143599/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Johnny+Cash"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-5284/johnny-cash/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Johnny-cash"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/johnnycash"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.losthighwayrecords.com/johnnycash"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.johnnycash.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n79018367"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/C/Cash,_Johnny/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13892236v"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118519433"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=487534"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/johnny-cash"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6j67rb3"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1116637"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL301275A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/johnny_cash"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/johnny-cash/all"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/1720/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000092586/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Johnny-Cash/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n79018367"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id70936"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/296762/all"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/70936"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/us-en/interpreter/johnny-cash/22802"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700148588"
+      },
+      {
+        "type": "purevolume",
+        "url": "http://www.purevolume.com/johnnycashthegoodprofile"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/665"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/johnny-cash-bd6b1b6.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/JohnnyCash"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/johnnycash"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/johnnycash/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/483720"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/johnnycash"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B001E3EXN2"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/70936"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/156"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.amazon.com/-/e/B000APLVFI"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.pandora.com/artist/johnny-cash/AR5X4hJKgZZKfqP"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/27251336"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q42775"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCLwdOhL6TKbmjRtZ8wIr-Bg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/JohnnyCashVEVO"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCiGs21G3KeE2tpbbMPzn9Qg"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Cash",
+    "musicbrainz": "https://musicbrainz.org/artist/d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "John R. Cash (born J. R. Cash; February 26, 1932 – September 12, 2003) was an American singer-songwriter. Most of his music contains themes of sorrow, moral tribulation, and redemption, especially songs from the later stages of his career. He was known for his deep, calm, bass-baritone voice, the distinctive sound of his backing band, the Tennessee Three, that was characterized by its train-like chugging guitar rhythms, a rebelliousness coupled with an increasingly somber and humble demeanor, and his free prison concerts. Cash wore a trademark all-black stage wardrobe, which earned him the nickname \"Man in Black\".\nBorn to poor cotton farmers in Kingsland, Arkansas, Cash grew up on gospel music and played on a local radio station in high school. He served four years in the Air Force, much of it in West Germany. After his return to the United States, he rose to fame during the mid-1950s in the burgeoning rockabilly scene in Memphis, Tennessee. He traditionally began his concerts by introducing himself with \"Hello, I'm Johnny Cash\". He began to follow that by \"Folsom Prison Blues\", one of his signature songs. His other signature songs include \"I Walk the Line\", \"Ring of Fire\", \"Get Rhythm...",
+    "summary": "John R. Cash (born J. R. Cash; February 26, 1932 – September 12, 2003) was an American singer-songwriter. Most of his music contains themes of sorrow, moral tribulation, and redemption, especially songs from the later stages of his career. He was known for his deep, calm, bass-baritone voice, the distinctive sound of his backing band, the Tennessee Three, that was characterized by its train-like chugging guitar rhythms, a rebelliousness coupled with an increasingly somber and humble demeanor, an...",
+    "url": "https://en.wikipedia.org/wiki/Johnny_Cash",
+    "title": "Johnny Cash",
+    "word_count": 198,
+    "categories": [
+      "Category:1932 births",
+      "Category:2003 deaths",
+      "Category:20th-century American guitarists",
+      "Category:20th-century American male actors",
+      "Category:20th-century American male singers",
+      "Category:20th-century American singer-songwriters",
+      "Category:21st-century American singer-songwriters",
+      "Category:Activists for Native American rights",
+      "Category:Actors from Cleveland County, Arkansas",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles with dead YouTube links",
+      "Category:All articles with dead external links",
+      "Category:All articles with unsourced statements",
+      "Category:American Christian writers",
+      "Category:American Christians",
+      "Category:American Indigenous rights activists",
+      "Category:American acoustic guitarists",
+      "Category:American autobiographers",
+      "Category:American bass-baritones",
+      "Category:American country guitarists",
+      "Category:American country singer-songwriters",
+      "Category:American folk guitarists",
+      "Category:American folk singers",
+      "Category:American male film actors",
+      "Category:American male guitarists",
+      "Category:American male singer-songwriters",
+      "Category:American male television actors",
+      "Category:American male voice actors",
+      "Category:American people of English descent",
+      "Category:American people of Scottish descent",
+      "Category:American performers of Christian music",
+      "Category:American rock singers",
+      "Category:American rockabilly musicians",
+      "Category:Articles with dead YouTube links from February 2022",
+      "Category:Articles with dead external links from March 2023",
+      "Category:Articles with dead external links from October 2022",
+      "Category:Articles with hCards",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from June 2024",
+      "Category:Blues musicians from Arkansas",
+      "Category:CS1: long volume value",
+      "Category:CS1: unfit URL",
+      "Category:CS1 maint: publisher location",
+      "Category:Cash–Carter family",
+      "Category:Charly Records artists",
+      "Category:Columbia Records artists",
+      "Category:Country Music Hall of Fame inductees",
+      "Category:Country musicians from Arkansas",
+      "Category:Deaths from diabetes in the United States"
+    ],
+    "internal_links": [
+      "(Ghost) Riders in the Sky: A Cowboy Legend",
+      "16 Biggest Hits (Johnny Cash album)",
+      "16 Biggest Hits (Johnny Cash and June Carter Cash album)",
+      "1970s energy crisis",
+      "2010 Tony Awards",
+      "20th Century Masters – The Millennium Collection: The Best of Johnny Cash",
+      "25 Minutes to Go",
+      "32nd Annual Grammy Awards",
+      "33rd Annual Grammy Awards",
+      "34th Annual Grammy Awards",
+      "35th Annual Grammy Awards",
+      "36th Annual Grammy Awards",
+      "40th Annual Grammy Awards",
+      "41st Annual Grammy Awards",
+      "45th Annual Grammy Awards",
+      "A Beautiful Time",
+      "A Believer Sings the Truth",
+      "A Boy Named Sue",
+      "A Complete Unknown",
+      "A Concert Behind Prison Walls",
+      "A Full Life: Reflections at 90",
+      "A Gunfight",
+      "A Legend in My Time",
+      "A Little Good News (album)",
+      "A Place in the Sun (Tim McGraw album)",
+      "A Sailor's Guide to Earth",
+      "A Song Flung Up to Heaven",
+      "A Thing Called Love",
+      "A Thing Called Love (song)",
+      "A Very Special Love Song",
+      "A Wild and Crazy Guy",
+      "A Wonderful Time Up There",
+      "Academy Award for Best Actor",
+      "Academy Award for Best Actress",
+      "Adele",
+      "Adolph Green",
+      "Adultery",
+      "Ahmad Jamal",
+      "Al Franken",
+      "Al Gore",
+      "Al Green",
+      "Al Hirschfeld",
+      "Al Hurricane",
+      "Al Jackson Jr.",
+      "Alabama (American band)",
+      "Alabama (band)",
+      "Alan Jackson",
+      "Albuquerque, New Mexico",
+      "Alice in Chains",
+      "Alison Krauss",
+      "Alison Krauss & Union Station",
+      "AllMusic (identifier)",
+      "All Aboard: A Tribute to Johnny Cash",
+      "All Aboard the Blue Train with Johnny Cash",
+      "All Too Well: The Short Film",
+      "Altar call",
+      "Alvin Ailey American Dance Theater",
+      "Always & Forever (Randy Travis album)",
+      "Always on My Mind (Willie Nelson album)",
+      "America: A 200-Year Salute in Story and Song",
+      "America Again",
+      "American Academy of Achievement",
+      "American Broadcasting Company",
+      "American Civil War",
+      "American III: Solitary Man",
+      "American IV: The Man Comes Around",
+      "American Masters",
+      "American Music Award of Merit",
+      "American Recordings (US)",
+      "American Recordings (album)",
+      "American Recordings (record label)",
+      "American V: A Hundred Highways",
+      "American VI: Ain't No Grave",
+      "American folk music",
+      "Americana Music Association",
+      "Ammersee",
+      "Amoco",
+      "Amphetamine",
+      "Amphetamines",
+      "An Inconvenient Truth (book)",
+      "Andrew Lloyd Webber",
+      "Andrew W. Mellon Foundation",
+      "Andrew Wyeth",
+      "André Previn",
+      "Andrés Segovia",
+      "Andy Griffith",
+      "Anita Carter",
+      "Ann Wilson",
+      "Anne Murray",
+      "Annie Lennox",
+      "Anthony Hecht",
+      "Antônio Carlos Jobim",
+      "Any Old Wind That Blows",
+      "Any Old Wind That Blows (song)",
+      "Apache",
+      "Aphonopelma johnnycashi",
+      "Archie Campbell (comedian)",
+      "Aretha Franklin",
+      "Arkansas Democrat-Gazette",
+      "Armando Manzanero"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Johnny_Cash_1977.jpg/330px-Johnny_Cash_1977.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86",
+      "name": "Johnny Cash",
+      "disambiguation": "country music legend",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Kingsland",
+      "life_span": {
+        "begin": "1932-02-26",
+        "end": "2003-09-12"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 59
+    },
+    "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86"
+  },
+  "created_at": "2025-08-20T07:44:42.384187",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "John R. Cash (born J. R. Cash; February 26, 1932 – September 12, 2003) was an American singer-songwriter. Most of his music contains themes of sorrow, moral tribulation, and redemption, especially songs from the later stages of his career. He was known for his deep, calm, bass-baritone voice, the distinctive sound of his backing band, the Tennessee Three, that was characterized by its train-like chugging guitar rhythms, a rebelliousness coupled with an increasingly somber and humble demeanor, and his free prison concerts. Cash wore a trademark all-black stage wardrobe, which earned him the nickname \"Man in Black\".\nBorn to poor cotton farmers in Kingsland, Arkansas, Cash grew up on gospel music and played on a local radio station in high school. He served four years in the Air Force, much of it in West Germany. After his return to the United States, he rose to fame during the mid-1950s in the burgeoning rockabilly scene in Memphis, Tennessee. He traditionally began his concerts by introducing himself with \"Hello, I'm Johnny Cash\". He began to follow that by \"Folsom Prison Blues\", one of his signature songs. His other signature songs include \"I Walk the Line\", \"Ring of Fire\", \"Get Rhythm...",
+  "musicbrainz_info": {
+    "mbid": "d43d12a1-2dc9-4257-a2fd-0a3bb1081b86",
+    "name": "Johnny Cash",
+    "disambiguation": "country music legend",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Kingsland",
+    "life_span": {
+      "begin": "1932-02-26",
+      "end": "2003-09-12"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:35.324549"
+}

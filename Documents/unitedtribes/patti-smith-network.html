@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patti Smith Cultural Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #f48771, #4fc3f7, #ba68c8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+        }
+
+        .node {
+            cursor: pointer;
+            stroke: #2d2d30;
+            stroke-width: 2;
+        }
+
+        .node.primary {
+            stroke: #f48771;
+            stroke-width: 4;
+        }
+
+        .node.secondary {
+            stroke: #4fc3f7;
+            stroke-width: 3;
+        }
+
+        .link {
+            stroke-opacity: 0.6;
+            stroke-width: 2;
+        }
+
+        .link.collaboration {
+            stroke: #ffb74d;
+        }
+
+        .link.mentor_student {
+            stroke: #ba68c8;
+        }
+
+        .link.contemporary {
+            stroke: #4fc3f7;
+        }
+
+        .link.genre_connection {
+            stroke: #81c784;
+        }
+
+        .node-label {
+            font-size: 12px;
+            fill: #fff;
+            text-anchor: middle;
+            pointer-events: none;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        .node-label.primary {
+            font-size: 16px;
+            font-weight: bold;
+            fill: #f48771;
+        }
+
+        .node-label.secondary {
+            font-size: 14px;
+            font-weight: 600;
+            fill: #4fc3f7;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 12px 16px;
+            background: rgba(20, 20, 22, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            pointer-events: none;
+            font-size: 0.9rem;
+            color: #fff;
+            max-width: 350px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .tooltip.visible {
+            opacity: 1;
+        }
+
+        .tooltip h3 {
+            margin: 0 0 8px 0;
+            color: #f48771;
+            font-size: 1rem;
+        }
+
+        .tooltip .relationship-type {
+            color: #4fc3f7;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .tooltip .evidence {
+            color: #cccccc;
+            line-height: 1.4;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        .legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(20, 20, 22, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legend h3 {
+            margin: 0 0 12px 0;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.8rem;
+        }
+
+        .legend-line {
+            width: 20px;
+            height: 2px;
+            margin-right: 8px;
+        }
+
+        .stats {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(20, 20, 22, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stats h3 {
+            margin: 0 0 12px 0;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 0.8rem;
+        }
+
+        .stat-label {
+            color: #cccccc;
+        }
+
+        .stat-value {
+            color: #4fc3f7;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Patti Smith Cultural Network</h1>
+            <div class="subtitle">Exploring the "Godmother of Punk's" artistic connections and influences</div>
+        </div>
+
+        <div class="network-container">
+            <svg id="network"></svg>
+
+            <div class="legend">
+                <h3>Relationship Types</h3>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #ffb74d;"></div>
+                    <span>Collaboration</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #ba68c8;"></div>
+                    <span>Mentor/Student</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #4fc3f7;"></div>
+                    <span>Contemporary</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #81c784;"></div>
+                    <span>Genre Connection</span>
+                </div>
+            </div>
+
+            <div class="stats">
+                <h3>Network Overview</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Total Artists:</span>
+                    <span class="stat-value" id="totalArtists">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Connections:</span>
+                    <span class="stat-value" id="totalConnections">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Art Movements:</span>
+                    <span class="stat-value">Punk, Beat, Visual Art</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Era:</span>
+                    <span class="stat-value">1960s - Present</span>
+                </div>
+            </div>
+
+            <div class="tooltip" id="tooltip">
+                <h3 id="tooltipTitle"></h3>
+                <div id="tooltipContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive Patti Smith cultural network data
+        const pattiSmithData = {
+            "relationships": [
+                // Core artistic relationships
+                {
+                    "source": "Patti Smith",
+                    "target": "Robert Mapplethorpe",
+                    "relationship_type": "mentor_student",
+                    "confidence": 0.9,
+                    "evidence": "Patti Smith discusses living with and being mentored by Robert Mapplethorpe in the Chelsea Hotel in the late 1960s.",
+                    "entity_type": "photographer"
+                },
+                {
+                    "source": "Janis Joplin",
+                    "target": "Patti Smith",
+                    "relationship_type": "collaboration",
+                    "confidence": 0.9,
+                    "evidence": "Patti Smith talks about 'hanging out with and writing lyrics for Janis Joplin'.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Jimi Hendrix",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.9,
+                    "evidence": "Patti Smith recounts meeting Jimi Hendrix at the opening party for Electric Lady Studios in 1970, just weeks before his death.",
+                    "entity_type": "musician"
+                },
+                // Literary influences
+                {
+                    "source": "Patti Smith",
+                    "target": "Arthur Rimbaud",
+                    "relationship_type": "influenced_by",
+                    "confidence": 0.8,
+                    "evidence": "Patti Smith frequently references Arthur Rimbaud as a major poetic influence.",
+                    "entity_type": "poet"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Allen Ginsberg",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.8,
+                    "evidence": "Patti Smith connected with Allen Ginsberg in the Beat Generation literary scene.",
+                    "entity_type": "poet"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Jim Carroll",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.7,
+                    "evidence": "Jim Carroll was part of the same NYC poetry/punk scene as Patti Smith.",
+                    "entity_type": "poet"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Sam Shepard",
+                    "relationship_type": "collaboration",
+                    "confidence": 0.8,
+                    "evidence": "Patti Smith collaborated with playwright Sam Shepard on various projects.",
+                    "entity_type": "playwright"
+                },
+                // Musical connections
+                {
+                    "source": "Patti Smith",
+                    "target": "Bob Dylan",
+                    "relationship_type": "influenced_by",
+                    "confidence": 0.9,
+                    "evidence": "Bob Dylan was a major influence on Patti Smith's approach to lyrical poetry in music.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Lou Reed",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.8,
+                    "evidence": "Lou Reed and Patti Smith were both central figures in the NYC underground music scene.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "John Coltrane",
+                    "relationship_type": "influenced_by",
+                    "confidence": 0.7,
+                    "evidence": "John Coltrane's spiritual jazz approach influenced Patti Smith's musical philosophy.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Michael Stipe",
+                    "relationship_type": "influenced",
+                    "confidence": 0.7,
+                    "evidence": "Michael Stipe of R.E.M. has cited Patti Smith as a major influence.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Johnny Winter",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.6,
+                    "evidence": "Johnny Winter was part of the same era of blues-influenced rock as Patti Smith.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Neil Young",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.6,
+                    "evidence": "Neil Young and Patti Smith shared similar approaches to raw, emotional songwriting.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Stevie Wonder",
+                    "relationship_type": "admiration",
+                    "confidence": 0.6,
+                    "evidence": "Patti Smith has expressed admiration for Stevie Wonder's artistry.",
+                    "entity_type": "musician"
+                },
+                // Cultural icons
+                {
+                    "source": "Patti Smith",
+                    "target": "Jim Morrison",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.7,
+                    "evidence": "Jim Morrison and Patti Smith were both poetry-influenced rock performers of the same era.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Brian Jones",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.6,
+                    "evidence": "Brian Jones represented the rebellious spirit that influenced Patti Smith's era.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Pete Townshend",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.6,
+                    "evidence": "Pete Townshend's artistic approach to rock influenced the punk movement.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Muhammad Ali",
+                    "relationship_type": "admiration",
+                    "confidence": 0.6,
+                    "evidence": "Muhammad Ali's defiant stance and poetry resonated with Patti Smith's artistic philosophy.",
+                    "entity_type": "athlete"
+                },
+                // Contemporary connections
+                {
+                    "source": "Patti Smith",
+                    "target": "Adele",
+                    "relationship_type": "genre_connection",
+                    "confidence": 0.7,
+                    "evidence": "Patti Smith recalls a 'failed attempt to cover Adele in concert'.",
+                    "entity_type": "musician"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Johnny Depp",
+                    "relationship_type": "contemporary",
+                    "confidence": 0.5,
+                    "evidence": "Johnny Depp shares artistic sensibilities with the alternative culture Patti Smith represents.",
+                    "entity_type": "actor"
+                },
+                // Venues and cultural spaces
+                {
+                    "source": "Patti Smith",
+                    "target": "Chelsea Hotel",
+                    "relationship_type": "cultural_space",
+                    "confidence": 0.9,
+                    "evidence": "The Chelsea Hotel was central to Patti Smith's artistic development and relationship with Robert Mapplethorpe.",
+                    "entity_type": "venue"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "CBGB",
+                    "relationship_type": "cultural_space",
+                    "confidence": 0.8,
+                    "evidence": "CBGB was the iconic venue where Patti Smith helped launch the punk movement.",
+                    "entity_type": "venue"
+                },
+                // Albums and works
+                {
+                    "source": "Patti Smith",
+                    "target": "Horses",
+                    "relationship_type": "created",
+                    "confidence": 1.0,
+                    "evidence": "Horses (1975) was Patti Smith's groundbreaking debut album.",
+                    "entity_type": "album"
+                },
+                {
+                    "source": "Patti Smith",
+                    "target": "Just Kids",
+                    "relationship_type": "created",
+                    "confidence": 1.0,
+                    "evidence": "Just Kids is Patti Smith's National Book Award-winning memoir about her relationship with Robert Mapplethorpe.",
+                    "entity_type": "book"
+                }
+            ]
+        };
+
+        class PattiSmithNetwork {
+            constructor() {
+                this.svg = d3.select('#network');
+                this.tooltip = d3.select('#tooltip');
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg.attr('width', this.width).attr('height', this.height);
+
+                this.processData();
+                this.createVisualization();
+                this.setupResize();
+            }
+
+            processData() {
+                const nodes = new Map();
+                const links = [];
+
+                // Add primary node
+                nodes.set('Patti Smith', {
+                    id: 'Patti Smith',
+                    type: 'primary',
+                    entity_type: 'musician',
+                    description: 'Godmother of Punk, poet, visual artist',
+                    era: '1946-present',
+                    movements: ['Punk', 'Beat Generation', 'Visual Art']
+                });
+
+                // Process all relationships
+                pattiSmithData.relationships.forEach(rel => {
+                    const source = rel.source;
+                    const target = rel.target;
+
+                    // Add source node if not exists
+                    if (!nodes.has(source)) {
+                        nodes.set(source, {
+                            id: source,
+                            type: source === 'Patti Smith' ? 'primary' : 'connected',
+                            entity_type: rel.entity_type || 'unknown',
+                            description: this.getEntityDescription(source, rel.entity_type)
+                        });
+                    }
+
+                    // Add target node if not exists
+                    if (!nodes.has(target)) {
+                        nodes.set(target, {
+                            id: target,
+                            type: target === 'Patti Smith' ? 'primary' : 'connected',
+                            entity_type: rel.entity_type || 'unknown',
+                            description: this.getEntityDescription(target, rel.entity_type)
+                        });
+                    }
+
+                    // Create link
+                    links.push({
+                        source: source,
+                        target: target,
+                        type: rel.relationship_type,
+                        evidence: rel.evidence,
+                        confidence: rel.confidence
+                    });
+                });
+
+                this.nodes = Array.from(nodes.values());
+                this.links = this.deduplicateLinks(links);
+
+                // Update stats
+                const entityTypes = [...new Set(this.nodes.map(n => n.entity_type))];
+                document.getElementById('totalArtists').textContent = this.nodes.length;
+                document.getElementById('totalConnections').textContent = this.links.length;
+
+                // Update the era info to show entity types
+                const eraElement = document.querySelector('.stat-item:last-child .stat-value');
+                eraElement.textContent = entityTypes.join(', ');
+            }
+
+            deduplicateLinks(links) {
+                const seen = new Set();
+                return links.filter(link => {
+                    const key = [link.source, link.target, link.type].sort().join('|');
+                    if (seen.has(key)) return false;
+                    seen.add(key);
+                    return true;
+                });
+            }
+
+            getEntityDescription(name, entityType) {
+                const descriptions = {
+                    'Robert Mapplethorpe': 'Photographer, Chelsea Hotel mentor',
+                    'Jimi Hendrix': 'Guitar virtuoso, psychedelic rock pioneer',
+                    'Janis Joplin': 'Blues rock vocalist, 1960s icon',
+                    'Adele': 'Contemporary soul singer',
+                    'Bob Dylan': 'Folk-rock legend, poetic songwriter',
+                    'Lou Reed': 'Velvet Underground founder',
+                    'Arthur Rimbaud': 'French symbolist poet',
+                    'Allen Ginsberg': 'Beat Generation poet',
+                    'John Coltrane': 'Jazz saxophone master',
+                    'Jim Morrison': 'The Doors frontman, poet',
+                    'Michael Stipe': 'R.E.M. vocalist',
+                    'Muhammad Ali': 'Boxing champion, cultural icon',
+                    'Chelsea Hotel': 'Legendary NYC artists\' residence',
+                    'CBGB': 'Birthplace of punk rock',
+                    'Horses': 'Groundbreaking debut album (1975)',
+                    'Just Kids': 'National Book Award memoir',
+                    'Sam Shepard': 'Playwright, actor',
+                    'Jim Carroll': 'Poet, Basketball Diaries author',
+                    'Johnny Depp': 'Actor, musician',
+                    'Patti Smith': 'Godmother of Punk, poet, visual artist'
+                };
+
+                if (descriptions[name]) {
+                    return descriptions[name];
+                }
+
+                // Generate description based on entity type
+                const typeDescriptions = {
+                    'musician': 'Musical artist',
+                    'poet': 'Poet and writer',
+                    'photographer': 'Visual artist',
+                    'playwright': 'Theater writer',
+                    'actor': 'Film and stage performer',
+                    'athlete': 'Sports figure',
+                    'venue': 'Cultural venue',
+                    'album': 'Musical recording',
+                    'book': 'Literary work'
+                };
+
+                return typeDescriptions[entityType] || 'Cultural figure';
+            }
+
+            createVisualization() {
+                // Create force simulation
+                this.simulation = d3.forceSimulation(this.nodes)
+                    .force('link', d3.forceLink(this.links).id(d => d.id).distance(150))
+                    .force('charge', d3.forceManyBody().strength(-800))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide().radius(50));
+
+                // Create links
+                this.linkElements = this.svg.selectAll('.link')
+                    .data(this.links)
+                    .enter().append('line')
+                    .attr('class', d => `link ${d.type}`)
+                    .attr('stroke-width', 3);
+
+                // Create nodes
+                this.nodeElements = this.svg.selectAll('.node')
+                    .data(this.nodes)
+                    .enter().append('circle')
+                    .attr('class', d => `node ${d.type}`)
+                    .attr('r', d => {
+                        if (d.type === 'primary') return 30;
+                        // Size by entity type
+                        const entitySizes = {
+                            'musician': 18,
+                            'poet': 16,
+                            'photographer': 16,
+                            'venue': 14,
+                            'album': 12,
+                            'book': 12,
+                            'playwright': 14,
+                            'actor': 14,
+                            'athlete': 14
+                        };
+                        return entitySizes[d.entity_type] || 12;
+                    })
+                    .attr('fill', d => this.getNodeColor(d))
+                    .call(this.drag())
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Create labels
+                this.labelElements = this.svg.selectAll('.node-label')
+                    .data(this.nodes)
+                    .enter().append('text')
+                    .attr('class', d => `node-label ${d.type}`)
+                    .text(d => d.id)
+                    .attr('dy', d => d.type === 'primary' ? 40 : d.type === 'secondary' ? 35 : 25);
+
+                // Update positions on tick
+                this.simulation.on('tick', () => {
+                    this.linkElements
+                        .attr('x1', d => d.source.x)
+                        .attr('y1', d => d.source.y)
+                        .attr('x2', d => d.target.x)
+                        .attr('y2', d => d.target.y);
+
+                    this.nodeElements
+                        .attr('cx', d => d.x)
+                        .attr('cy', d => d.y);
+
+                    this.labelElements
+                        .attr('x', d => d.x)
+                        .attr('y', d => d.y);
+                });
+            }
+
+            getNodeColor(d) {
+                if (d.type === 'primary') return '#f48771';
+
+                // Color by entity type
+                const entityColors = {
+                    'musician': '#4fc3f7',      // Blue
+                    'poet': '#ba68c8',          // Purple
+                    'photographer': '#ffb74d',  // Orange
+                    'playwright': '#e57373',    // Red
+                    'actor': '#aed581',         // Light green
+                    'athlete': '#ff8a65',       // Coral
+                    'venue': '#9575cd',         // Deep purple
+                    'album': '#ffd54f',         // Yellow
+                    'book': '#a1887f'           // Brown
+                };
+
+                return entityColors[d.entity_type] || '#81c784';
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            showTooltip(event, d) {
+                const title = document.getElementById('tooltipTitle');
+                const content = document.getElementById('tooltipContent');
+
+                title.textContent = d.id;
+
+                // Find connections for this node
+                const connections = this.links.filter(link =>
+                    link.source.id === d.id || link.target.id === d.id
+                );
+
+                let html = `
+                    <div style="color: #cccccc; margin-bottom: 8px;">
+                        <strong>Type:</strong> ${d.entity_type || 'unknown'}
+                    </div>
+                    <div style="color: #cccccc; margin-bottom: 8px;">${d.description}</div>
+                `;
+
+                if (connections.length > 0) {
+                    html += '<div style="margin-top: 12px;"><strong>Connections:</strong></div>';
+                    connections.forEach(conn => {
+                        const otherNode = conn.source.id === d.id ? conn.target.id : conn.source.id;
+                        const direction = conn.source.id === d.id ? '→' : '←';
+                        html += `
+                            <div style="margin: 8px 0; padding: 8px; background: rgba(255,255,255,0.1); border-radius: 4px;">
+                                <div class="relationship-type">${conn.type.replace('_', ' ')}</div>
+                                <div style="color: #cccccc;">${d.id} ${direction} ${otherNode}</div>
+                                ${conn.confidence ? `<div style="color: #81c784; font-size: 0.8rem;">Confidence: ${(conn.confidence * 100).toFixed(0)}%</div>` : ''}
+                                ${conn.evidence ? `<div class="evidence">"${conn.evidence}"</div>` : ''}
+                            </div>
+                        `;
+                    });
+                }
+
+                content.innerHTML = html;
+
+                this.tooltip
+                    .style('left', (event.pageX + 15) + 'px')
+                    .style('top', (event.pageY - 15) + 'px')
+                    .classed('visible', true);
+            }
+
+            hideTooltip() {
+                this.tooltip.classed('visible', false);
+            }
+
+            setupResize() {
+                window.addEventListener('resize', () => {
+                    this.width = window.innerWidth;
+                    this.height = window.innerHeight - 120;
+
+                    this.svg.attr('width', this.width).attr('height', this.height);
+                    this.simulation
+                        .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                        .restart();
+                });
+            }
+        }
+
+        // Initialize when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            new PattiSmithNetwork();
+        });
+    </script>
+</body>
+</html>

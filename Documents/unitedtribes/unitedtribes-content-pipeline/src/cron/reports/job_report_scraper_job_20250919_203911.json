@@ -1,0 +1,28 @@
+{
+  "job_id": "scraper_job_20250919_203911",
+  "start_time": "2025-09-19T20:39:11.575434",
+  "config": {
+    "sources": [
+      "pitchfork",
+      "rolling_stone"
+    ],
+    "max_articles_per_source": 5,
+    "dry_run": false,
+    "enable_safety_checks": true,
+    "enable_s3_upload": true,
+    "log_level": "INFO",
+    "max_runtime_minutes": 60,
+    "notification_email": null
+  },
+  "sources_processed": [],
+  "total_discovered": 0,
+  "total_scraped": 0,
+  "total_uploaded": 0,
+  "errors": [
+    "Batch contains no content items",
+    "Batch contains no content items"
+  ],
+  "end_time": "2025-09-19T20:42:45.142056",
+  "duration_minutes": 3.559443766666667,
+  "overall_success_rate": 0.0
+}

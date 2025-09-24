@@ -1,0 +1,33 @@
+{
+  "job_id": "scraper_job_20250919_232311",
+  "start_time": "2025-09-19T23:23:11.418981",
+  "config": {
+    "sources": [
+      "billboard"
+    ],
+    "max_articles_per_source": 50,
+    "dry_run": false,
+    "enable_safety_checks": true,
+    "enable_s3_upload": true,
+    "log_level": "INFO",
+    "max_runtime_minutes": 60,
+    "notification_email": null
+  },
+  "sources_processed": [
+    {
+      "source": "billboard",
+      "discovered": 30,
+      "scraped": 15,
+      "validated": 15,
+      "uploaded": 15,
+      "success_rate": 0.5
+    }
+  ],
+  "total_discovered": 30,
+  "total_scraped": 15,
+  "total_uploaded": 15,
+  "errors": [],
+  "end_time": "2025-09-19T23:24:49.408207",
+  "duration_minutes": 1.63315385,
+  "overall_success_rate": 0.5
+}

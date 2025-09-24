@@ -1,0 +1,591 @@
+{
+  "artist_name": "Nirvana",
+  "works": [
+    {
+      "title": "Incesticide",
+      "release_date": "1992-12-14",
+      "type": "Album",
+      "mbid": "01cf1391-141b-3c87-8650-45ade6e59070"
+    },
+    {
+      "title": "Greatest Hits",
+      "release_date": "2002-10-23",
+      "type": "Album",
+      "mbid": "0b8fef8c-1cc5-4ce7-b007-05cbd6d5aa0b"
+    },
+    {
+      "title": "Wipeout",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "178b993e-fa9c-36d3-9d73-c5a8ba0c748d"
+    },
+    {
+      "title": "Nevermind",
+      "release_date": "1991-09-24",
+      "type": "Album",
+      "mbid": "1b022e01-4da6-387b-8658-8678046e4cef"
+    },
+    {
+      "title": "Hollywood Rock Festival 93",
+      "release_date": "1993-01-23",
+      "type": "Album",
+      "mbid": "1d4cd1cd-c4a9-48e2-b106-e1e86e482251"
+    },
+    {
+      "title": "From the Muddy Banks of the Wishkah",
+      "release_date": "1996-09-30",
+      "type": "Album",
+      "mbid": "249e7835-5c39-3a10-b15b-e2d3470fb40c"
+    },
+    {
+      "title": "In Utero",
+      "release_date": "1993-09-21",
+      "type": "Album",
+      "mbid": "2a0981fb-9593-3019-864b-ce934d97a16e"
+    },
+    {
+      "title": "Down With Me",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "339ab911-1568-32cf-8997-f00a538208c9"
+    },
+    {
+      "title": "Fatal Attraction",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "3c99a385-2ee7-339e-836e-97032a53cd23"
+    },
+    {
+      "title": "Seventh Heaven",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "3f09f97d-3b18-336c-9760-9ebb7df3497e"
+    },
+    {
+      "title": "Live at Reading",
+      "release_date": "2009-10-30",
+      "type": "Album",
+      "mbid": "48f5d526-0fa6-4ca6-ac59-9b2cf9ef464f"
+    },
+    {
+      "title": "Live! Tonight! Sold Out!!",
+      "release_date": "1994-11-15",
+      "type": "Album",
+      "mbid": "55fca0ec-17ed-4860-b700-ef366574aa42"
+    },
+    {
+      "title": "Nirvana",
+      "release_date": "2002-10-18",
+      "type": "Album",
+      "mbid": "5ab32af4-c62e-3cbf-aa8c-c761581d3b94"
+    },
+    {
+      "title": "ICON",
+      "release_date": "2010-08-31",
+      "type": "Album",
+      "mbid": "5cc5dc44-8860-462e-8aa5-2cf9b71af237"
+    },
+    {
+      "title": "Before We Ever Minded",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "85155291-222f-388a-a5f7-dcaa60b65afd"
+    },
+    {
+      "title": "Live in Buenos Aires 1992",
+      "release_date": "2013",
+      "type": "Album",
+      "mbid": "871e90a3-2ba0-4fcc-9197-484606eec595"
+    },
+    {
+      "title": "Palladium",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "87f0cddc-3663-3fcb-bbfa-fd472f21ea72"
+    },
+    {
+      "title": "In Utero Demos",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "915dc49e-8203-31b8-bb19-ca5996a2b810"
+    },
+    {
+      "title": "2 for 1: Incesticide / In Utero",
+      "release_date": "2011",
+      "type": "Album",
+      "mbid": "95563c6a-92e5-456c-9f86-6fe2ff1d148e"
+    },
+    {
+      "title": "Live and Loud",
+      "release_date": "2013-09-23",
+      "type": "Album",
+      "mbid": "c171986d-83d9-4659-9644-ce9dc2b30836"
+    },
+    {
+      "title": "With the Lights Out",
+      "release_date": "2004-11-23",
+      "type": "Album",
+      "mbid": "d4d28ec1-220a-327c-93c5-ae006be43598"
+    },
+    {
+      "title": "Live at the Paramount",
+      "release_date": "2011-09-26",
+      "type": "Album",
+      "mbid": "e0372c5a-1750-46ec-8f1b-4b76df1fe8e7"
+    },
+    {
+      "title": "Sliver: The Best of the Box",
+      "release_date": "2005-10-31",
+      "type": "Album",
+      "mbid": "e9674d41-d94b-344a-89f5-734736853d5f"
+    },
+    {
+      "title": "Bleach",
+      "release_date": "1989-06-01",
+      "type": "Album",
+      "mbid": "f1afec0b-26dd-3db5-9aa1-c91229a74a24"
+    },
+    {
+      "title": "MTV Unplugged in New York",
+      "release_date": "1994-10-31",
+      "type": "Album",
+      "mbid": "fb3770f6-83fb-32b7-85c4-1f522a92287e"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000357406"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.livenirvana.com/bootography/listing85a9.html?listingquery=all"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.livenirvana.com/digitalnirvana/discography/index.html"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.nirvanaarchive.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/125246"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.livenirvana.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.nirvanaclub.com/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://music.yandex.com/artist/9262"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/415"
+      },
+      {
+        "type": "free_streaming",
+        "url": "http://www.pandora.com/nirvana"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1110321/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Nirvana"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4216/nirvana/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Nirvana"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Nirvana"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/nirvana"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.nirvana.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n92011111"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/N/Nirvana/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13944446b"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/10295339-9"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/nirvana"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/9ae3aff5-1dc2-46ba-a3e5-6654d7ff1b38"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1179730"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/nirvana"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/nirvana-us"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.idref.fr/033595739"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/21724"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/nirvana/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-metal.com/en/band/Nirvana"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Nirvana/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.worldcat.org/wcidentities/lccn-n92-11111"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Apyli2ev5del3s42qsjpnmqwuue"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/112018"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/nirvana"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.junodownload.com/artists/Nirvana/releases/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/us-en/interpreter/nirvana/46708"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id112018"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700298036"
+      },
+      {
+        "type": "purevolume",
+        "url": "http://www.purevolume.com/Nirvana109A"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/169"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/nirvana-7bd69ee8.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/Nirvana"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/Nirvana"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/nirvana/"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/nirvana"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B001DTD5NQ"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/112018"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/19368"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/nirvana"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/us-en/interpreter/nirvana/46708"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/138573893"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q11649"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCzGrGrvf9g8CVVzh_LvGf-g"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nirvana_(band)",
+    "musicbrainz": "https://musicbrainz.org/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence rock culture.\nIn the late 1980s, Nirvana established itself as part of the Seattle grunge scene, releasing its first album, Bleach, for the independent record label Sub Pop in 1989. They developed a sound that relied on dynamic contrasts, often between quiet verses and loud, heavy choruses. After signing to the major label DGC Records in 1990, Nirvana found unexpected mainstream success with \"Smells Like Teen Spirit\", the first single from its landmark second album, Nevermind (1991). A cultural phenomenon of the 1990s, Nevermind was certified diamond and is credited for ending the popularity of hair metal.\nCharacterized by a punk aesthetic, Nirvana's fusion of pop melodies with noise, combined with its themes of abjection and social alienation...",
+    "summary": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence rock culture.\nIn the late 1980s, Nirvana esta...",
+    "url": "https://en.wikipedia.org/wiki/Nirvana_(band)",
+    "title": "Nirvana (band)",
+    "word_count": 187,
+    "categories": [
+      "Category:1987 establishments in Washington (state)",
+      "Category:1994 disestablishments in Washington (state)",
+      "Category:All Wikipedia articles written in American English",
+      "Category:Alternative rock groups from Washington (state)",
+      "Category:American grunge groups",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Brit Award winners",
+      "Category:CS1 maint: numeric names: authors list",
+      "Category:CS1 maint: others in cite AV media (notes)",
+      "Category:Culture of Seattle",
+      "Category:DGC Records artists",
+      "Category:Featured articles",
+      "Category:Grammy Award winners",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:Hard rock musical groups from Washington (state)",
+      "Category:Musical groups disestablished in 1994",
+      "Category:Musical groups established in 1987",
+      "Category:Musical trios from Washington (state)",
+      "Category:Nirvana (band)",
+      "Category:Pages using Sister project links with hidden wikidata",
+      "Category:Pages using Sister project links with wikidata namespace mismatch",
+      "Category:Pages using the EasyTimeline extension",
+      "Category:Pages with non-numeric formatnum arguments",
+      "Category:Punk rock groups from Washington (state)",
+      "Category:Short description is different from Wikidata",
+      "Category:Sub Pop artists",
+      "Category:Use American English from May 2023",
+      "Category:Use mdy dates from February 2020",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia indefinitely semi-protected pages"
+    ],
+    "internal_links": [
+      "'Til Tuesday",
+      "12-12-12: The Concert for Sandy Relief",
+      "1979 (song)",
+      "1991: The Year Punk Broke",
+      "1992 MTV Video Music Awards",
+      "1996 Grammy Awards",
+      "38th Annual Grammy Awards",
+      "3rd Secret",
+      "500 Songs that Shaped Rock and Roll",
+      "50 Cent",
+      "65th Annual Grammy Awards",
+      "A-ha",
+      "A Ghost Is Born",
+      "A Rush of Blood to the Head",
+      "A Tribute to Kurt Cobain",
+      "Aaron Burckhard",
+      "Aberdeen, Washington",
+      "Aberdeen High School (Washington)",
+      "Abjection",
+      "About a Girl (Nirvana song)",
+      "Ace Frehley",
+      "Aerosmith",
+      "Ahmad Jamal",
+      "Al Green",
+      "Alabama Shakes",
+      "Alan McGee",
+      "Alanis Morissette",
+      "Alice in Chains",
+      "Alicia Keys",
+      "AllMusic",
+      "All Apologies",
+      "All Apologies: Kurt Cobain 10 Years On",
+      "All Born Screaming",
+      "Alternative Press (magazine)",
+      "Alternative Press Magazine",
+      "Alternative Songs",
+      "Alternative rock",
+      "American Music Awards",
+      "Andrew Loog Oldham",
+      "André Previn",
+      "Andrés Segovia",
+      "Andy Wallace (producer)",
+      "Aneurysm (song)",
+      "Angry Samoans",
+      "Ann Wilson",
+      "Antônio Carlos Jobim",
+      "Aretha Franklin",
+      "Armando Manzanero",
+      "Art Blakey",
+      "Art Tatum",
+      "Arthur Rubinstein",
+      "Artie Shaw",
+      "Arturo Toscanini",
+      "Ashgate Publishing",
+      "Audio mixing (recorded music)",
+      "Austin Mahone",
+      "Avenged Sevenfold",
+      "Avril Lavigne",
+      "B. B. King",
+      "BBC",
+      "BBC News",
+      "BBC Online",
+      "BBC Radio 1",
+      "Baby boomers",
+      "Barbra Streisand",
+      "Barclays Center",
+      "Beastie Boys",
+      "Beautiful Things (Benson Boone song)",
+      "Beck",
+      "Bee Gees",
+      "Been Caught Stealing",
+      "Been a Son",
+      "Benny Carter",
+      "Benny Goodman",
+      "Benson Boone",
+      "Bessie Smith",
+      "Big John Duncan",
+      "Bill Evans",
+      "Bill Monroe",
+      "Billboard (magazine)",
+      "Billboard 200",
+      "Billie Eilish",
+      "Billie Holiday",
+      "Billy Eckstine",
+      "Bing Crosby",
+      "Black Sabbath",
+      "Blackbear (musician)",
+      "Blackstar (album)",
+      "Bleach (Nirvana album)",
+      "Blew",
+      "Blew (EP)",
+      "Bloody Valentine (song)",
+      "Bo Diddley",
+      "Bob Dylan",
+      "Bob Marley",
+      "Bob Wills",
+      "Bobby Bland",
+      "Bobby Darin",
+      "Bobby Jones (singer)",
+      "Bobby McFerrin"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nirvana_around_1992.jpg/330px-Nirvana_around_1992.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "name": "Nirvana",
+      "disambiguation": "1980s–1990s US grunge band",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "Aberdeen",
+      "life_span": {
+        "begin": "1987",
+        "end": "1994-04-05"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 57
+    },
+    "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+  },
+  "created_at": "2025-08-20T07:20:36.174510",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence rock culture.\nIn the late 1980s, Nirvana established itself as part of the Seattle grunge scene, releasing its first album, Bleach, for the independent record label Sub Pop in 1989. They developed a sound that relied on dynamic contrasts, often between quiet verses and loud, heavy choruses. After signing to the major label DGC Records in 1990, Nirvana found unexpected mainstream success with \"Smells Like Teen Spirit\", the first single from its landmark second album, Nevermind (1991). A cultural phenomenon of the 1990s, Nevermind was certified diamond and is credited for ending the popularity of hair metal.\nCharacterized by a punk aesthetic, Nirvana's fusion of pop melodies with noise, combined with its themes of abjection and social alienation...",
+  "musicbrainz_info": {
+    "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+    "name": "Nirvana",
+    "disambiguation": "1980s–1990s US grunge band",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "Aberdeen",
+    "life_span": {
+      "begin": "1987",
+      "end": "1994-04-05"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:32.800637"
+}

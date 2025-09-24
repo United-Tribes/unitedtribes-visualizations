@@ -1,0 +1,155 @@
+{
+  "artist_name": "Brian Johnson",
+  "works": [
+    {
+      "title": "Keep On Rocking!",
+      "release_date": "1989",
+      "type": "Album",
+      "mbid": "537a29cb-9da2-3f67-9e4c-f9a0f08f091b"
+    },
+    {
+      "title": "Brian Johnson",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "7217804d-2b6c-43f4-ba62-8f9040777671"
+    },
+    {
+      "title": "Strange Man",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "b988c1a9-7539-4e58-8f13-b9606f7fd059"
+    },
+    {
+      "title": "Rockin’ With The Boys 1972-76",
+      "release_date": "1991",
+      "type": "Album",
+      "mbid": "ebb61328-1b3e-42c6-ad0a-20a7a6be8905"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000934811"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/402566"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/0TJOVQKoS7sbGVn8RkkvPI"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0424657/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n2001097842"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/134568753"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/anbd.aut-an53140644"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/containsVIAFID/38133179"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/5726"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/brianjohnsontv/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/393477"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/38133179"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q295948"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Johnson",
+    "musicbrainz": "https://musicbrainz.org/artist/49acbee5-5fb5-4cf1-868f-67bc01de2d84"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Brian Johnson (born 5 October 1947) is an English singer and songwriter. He was the third lead singer of the Australian rock band AC/DC, taking over the role in 1980 after the death of Bon Scott. \nJohnson was one of the founding members of the rock band Geordie, which was formed in Newcastle upon Tyne in 1971. After several hit singles, including the UK Top 10 hit \"All Because of You\" (1973), the band split in 1978. Following the death of Bon Scott on 19 February 1980, Johnson was asked to audition for AC/DC, whose guitarists and founders Angus and Malcolm Young remembered when Scott had been impressed with Johnson as Geordie's frontman. Johnson's first album with AC/DC, Back in Black, became the second-best-selling album of all time, according to most estimates. The Guardian ranked the successful transition to Johnson at No. 36 on their list of 50 key events in rock-music history.\nJohnson and the rest of the band were inducted into the Rock and Roll Hall of Fame in 2003. In March 2016, he temporarily left the band during the Rock or Bust World Tour because of hearing problems. In September 2020, AC/DC confirmed that Johnson, along with bandmates Phil Rudd and Cliff Williams, had rejoined...",
+    "summary": "Brian Johnson (born 5 October 1947) is an English singer and songwriter. He was the third lead singer of the Australian rock band AC/DC, taking over the role in 1980 after the death of Bon Scott. \nJohnson was one of the founding members of the rock band Geordie, which was formed in Newcastle upon Tyne in 1971. After several hit singles, including the UK Top 10 hit \"All Because of You\" (1973), the band split in 1978. Following the death of Bon Scott on 19 February 1980, Johnson was asked to audition for AC/DC, whose guitarists and founders Angus and Malcolm Young remembered when Scott had been impressed with Johnson as Geordie's frontman. Johnson's first album with AC/DC, Back in Black, became the second-best-selling album of all time, according to most estimates. The Guardian ranked the successful transition to Johnson at No. 36 on their list of 50 key events in rock-music history.\nJohnson and the rest of the band were inducted into the Rock and Roll Hall of Fame in 2003. In March 2016...",
+    "url": "https://en.wikipedia.org/wiki/Brian_Johnson",
+    "title": "Brian Johnson",
+    "word_count": 208,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jaguar%27s_%27Perfect_Ten%27_-_Most_important_and_iconic_Jaguar_cars_%28-2022464677%29.jpg/330px-Jaguar%27s_%27Perfect_Ten%27_-_Most_important_and_iconic_Jaguar_cars_%28-2022464677%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "49acbee5-5fb5-4cf1-868f-67bc01de2d84",
+      "name": "Brian Johnson",
+      "disambiguation": "AC/DC lead singer",
+      "type": "Person",
+      "country": "GB",
+      "begin_area": "Dunston",
+      "life_span": {
+        "begin": "1947-10-05",
+        "end": null
+      }
+    },
+    "total_works": 4,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 13
+    },
+    "mbid": "49acbee5-5fb5-4cf1-868f-67bc01de2d84"
+  },
+  "created_at": "2025-08-20T08:33:26.204757",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Brian Johnson (born 5 October 1947) is an English singer and songwriter. He was the third lead singer of the Australian rock band AC/DC, taking over the role in 1980 after the death of Bon Scott. \nJohnson was one of the founding members of the rock band Geordie, which was formed in Newcastle upon Tyne in 1971. After several hit singles, including the UK Top 10 hit \"All Because of You\" (1973), the band split in 1978. Following the death of Bon Scott on 19 February 1980, Johnson was asked to audition for AC/DC, whose guitarists and founders Angus and Malcolm Young remembered when Scott had been impressed with Johnson as Geordie's frontman. Johnson's first album with AC/DC, Back in Black, became the second-best-selling album of all time, according to most estimates. The Guardian ranked the successful transition to Johnson at No. 36 on their list of 50 key events in rock-music history.\nJohnson and the rest of the band were inducted into the Rock and Roll Hall of Fame in 2003. In March 2016, he temporarily left the band during the Rock or Bust World Tour because of hearing problems. In September 2020, AC/DC confirmed that Johnson, along with bandmates Phil Rudd and Cliff Williams, had rejoined...",
+  "musicbrainz_info": {
+    "mbid": "49acbee5-5fb5-4cf1-868f-67bc01de2d84",
+    "name": "Brian Johnson",
+    "disambiguation": "AC/DC lead singer",
+    "type": "Person",
+    "country": "GB",
+    "begin_area": "Dunston",
+    "life_span": {
+      "begin": "1947-10-05",
+      "end": null
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "artist_name": "The Beatles",
+  "works": [
+    {
+      "title": "The Beatles",
+      "release_date": "1968-11-22",
+      "type": "Album",
+      "mbid": "055be730-dcad-31bf-b550-45ba9c202aa3"
+    },
+    {
+      "title": "Yesterday and Today",
+      "release_date": "1966-06-14",
+      "type": "Album",
+      "mbid": "0a4d1024-3463-3c74-8500-ea011bd5d523"
+    },
+    {
+      "title": "Help!",
+      "release_date": "1965-08-06",
+      "type": "Album",
+      "mbid": "0d44e1cb-c6e0-3453-8b68-4d2082f05421"
+    },
+    {
+      "title": "Beatles ’65",
+      "release_date": "1964-12-15",
+      "type": "Album",
+      "mbid": "2d111aea-50f8-33cc-ab63-780bc57068c0"
+    },
+    {
+      "title": "Twist and Shout",
+      "release_date": "1964-02-03",
+      "type": "Album",
+      "mbid": "31770e0a-e537-376d-a7c0-48e507f3105e"
+    },
+    {
+      "title": "The Beatles’ Second Album",
+      "release_date": "1964-04-10",
+      "type": "Album",
+      "mbid": "387bc6cc-ac60-365f-819b-fbc78c486065"
+    },
+    {
+      "title": "Beatles VI",
+      "release_date": "1965-06-14",
+      "type": "Album",
+      "mbid": "3d402374-9538-3c09-8566-2850fa3fce3f"
+    },
+    {
+      "title": "Something New",
+      "release_date": "1964-07-20",
+      "type": "Album",
+      "mbid": "451e7aa4-a782-3979-9aa0-98c03a246fe9"
+    },
+    {
+      "title": "Introducing… The Beatles",
+      "release_date": "1964-01-10",
+      "type": "Album",
+      "mbid": "653895d1-b592-3758-8bb1-8b9ba2bd6cb0"
+    },
+    {
+      "title": "Les Beatles",
+      "release_date": "1964-05-22",
+      "type": "Album",
+      "mbid": "6b125ade-4cd3-47b4-ba10-e7959dcdef41"
+    },
+    {
+      "title": "Revolver",
+      "release_date": "1966-08-05",
+      "type": "Album",
+      "mbid": "72d15666-99a7-321e-b1f3-a3f8c09dff9f"
+    },
+    {
+      "title": "The Beatles’ First!",
+      "release_date": "1964-04",
+      "type": "Album",
+      "mbid": "8ee7d50d-3b1d-4d88-a918-1bafb3586191"
+    },
+    {
+      "title": "Abbey Road",
+      "release_date": "1969-09-26",
+      "type": "Album",
+      "mbid": "9162580e-5df4-32de-80cc-f45a8d8a9b1d"
+    },
+    {
+      "title": "Sgt. Pepper’s Lonely Hearts Club Band",
+      "release_date": "1967-05-26",
+      "type": "Album",
+      "mbid": "9f7a4c28-8fa2-3113-929c-c47a9f7982c3"
+    },
+    {
+      "title": "The Beatles Beat",
+      "release_date": "1964-04",
+      "type": "Album",
+      "mbid": "a4fcc821-2715-3f06-a8eb-a8ee8a7c2772"
+    },
+    {
+      "title": "With The Beatles",
+      "release_date": "1963-11-22",
+      "type": "Album",
+      "mbid": "a63dc65f-09f2-359b-a10e-648f00ecd96c"
+    },
+    {
+      "title": "The Beatles With Tony Sheridan and Guests",
+      "release_date": "1964-02-03",
+      "type": "Album",
+      "mbid": "aa3fd4f5-66a9-43f2-8448-faf402a376c8"
+    },
+    {
+      "title": "Let It Be",
+      "release_date": "1970-05-08",
+      "type": "Album",
+      "mbid": "bff544a7-56e0-3ed6-9e0f-3b676cca9111"
+    },
+    {
+      "title": "Meet The Beatles!",
+      "release_date": "1964-01-20",
+      "type": "Album",
+      "mbid": "c2c696fc-6beb-3dfb-bb15-7bb021ebeb5d"
+    },
+    {
+      "title": "The Beatles vs. The Four Seasons",
+      "release_date": "1964-10-01",
+      "type": "Album",
+      "mbid": "cc8754dd-e760-44ee-94d8-25f077190fc4"
+    },
+    {
+      "title": "The Beatles’ Long Tall Sally",
+      "release_date": "1964-05-11",
+      "type": "Album",
+      "mbid": "d0c93a59-fc4d-3d76-ac38-9c1d11071802"
+    },
+    {
+      "title": "Rubber Soul",
+      "release_date": "1965-12-03",
+      "type": "Album",
+      "mbid": "dca03435-8adb-30a5-ba82-5a162267ff38"
+    },
+    {
+      "title": "Please Please Me",
+      "release_date": "1963-03-22",
+      "type": "Album",
+      "mbid": "de208292-8db5-3aed-a14a-b37a84d8c521"
+    },
+    {
+      "title": "Beatles for Sale",
+      "release_date": "1964-12-04",
+      "type": "Album",
+      "mbid": "f50a3b6f-27f0-3832-bd3f-3568dc557d95"
+    },
+    {
+      "title": "Jolly What! England’s Greatest Recording Stars: The Beatles & Frank Ifield on Stage",
+      "release_date": "1964-02-26",
+      "type": "Album",
+      "mbid": "fd7b1c22-c073-3f06-aa1d-76718bfe578a"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "Johnny Gentle"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Apple Records",
+      "Apple Corps Ltd."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000754032"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+      },
+      {
+        "type": "discography_page",
+        "url": "https://musicalbums.ai/artist/The%20Beatles"
+      },
+      {
+        "type": "discography_page",
+        "url": "https://www.musicmeter.nl/artist/13409"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/82730"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://aboutthebeatles.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://beatlesfanclub.nl/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://www.beatles.ru/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://www.dmbeatles.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.britishbeatlesfanclub.co.uk/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://music.migu.cn/v3/music/artist/961"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://play.anghami.com/artist/4689"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.boomplay.com/artists/3199029"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.kkbox.com/hk/en/artist/OsUSXTUzyafhCb7Mt7"
+      },
+      {
+        "type": "free_streaming",
+        "url": "http://www.pandora.com/beatles"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Fabs.JPG"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1397313/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/The+Beatles"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/The-beatles"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://muzikum.eu/en/the-beatles/lyrics"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/The-Beatles"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.thebeatles.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n79018119"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://castalbums.org/people/The-Beatles/118334"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13901884f"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/2005535-3"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://id.oclc.org/worldcat/entity/E39QQPVp7YDyFJKp4fX79YyFWt"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/the-beatles"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/B/Beatles,_The/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1212427"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL2741516A"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://soundtrackcollector.com/composer/294/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/the-beatles"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/the-beatles"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/the-beatles/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000016837/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.progarchives.com/artist.asp?id=2407"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/The_Beatles"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/The-Beatles/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Apyx6rt3d2amstq7u3ntxenxhkq"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/gb/artist/id136975"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/222117/all"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/gb/artist/136975"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.onkyomusic.com/GB/artist/the-beatles"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.amazon.co.uk/-/e/B000APTK6K"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/132351"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.yesasia.com/0-aid3935936-0-bpt.47-en/list.html"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/41"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/the-beatles-23d6a88b.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/thebeatles"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/thebeatles"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/thebeatles/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/417271"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/thebeatles"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B00GB0QTOY"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/136975"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/3634161"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/the-beatles"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/141205608"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1299"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UC2XdaAVUannpujzv32jcouQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Beatles",
+    "musicbrainz": "https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "The Beatles were an English rock band formed in Liverpool in 1960. The core lineup of the band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are widely regarded as the most influential band in Western popular music and were integral to the development of 1960s counterculture and the recognition of popular music as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways. The band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. As pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.\nLed by primary songwriters Lennon and McCartney, the Beatles evolved from Lennon's previous group, the Quarrymen, and built their reputation by playing clubs in Liverpool and Hamburg, Germany, starting in 1960, initially with Stuart Sutcliffe playing bass. The core trio of Lennon, McCartney and Harrison, together since 1958, went through a succession of drummers, including Pete Best...",
+    "summary": "The Beatles were an English rock band formed in Liverpool in 1960. The core lineup of the band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are widely regarded as the most influential band in Western popular music and were integral to the development of 1960s counterculture and the recognition of popular music as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways...",
+    "url": "https://en.wikipedia.org/wiki/The_Beatles",
+    "title": "The Beatles",
+    "word_count": 186,
+    "categories": [
+      "Category:1960 establishments in England",
+      "Category:1970 disestablishments in England",
+      "Category:All articles containing potentially dated statements",
+      "Category:Apple Corps",
+      "Category:Apple Records artists",
+      "Category:Articles containing explicitly cited American English-language text",
+      "Category:Articles containing potentially dated statements from 2012",
+      "Category:Articles containing potentially dated statements from 2017",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Atco Records artists",
+      "Category:Beat groups",
+      "Category:Brit Award winners",
+      "Category:British Invasion artists",
+      "Category:CS1 Russian-language sources (ru)",
+      "Category:CS1 Spanish-language sources (es)",
+      "Category:CS1 errors: ISBN date",
+      "Category:Capitol Records artists",
+      "Category:Culture of England",
+      "Category:Culture of the United Kingdom",
+      "Category:English musical quartets",
+      "Category:English pop music groups",
+      "Category:English psychedelic rock music groups",
+      "Category:Featured articles",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:MGM Records artists",
+      "Category:Musical groups disestablished in 1970",
+      "Category:Musical groups established in 1960",
+      "Category:Pages using Sister project links with hidden wikidata",
+      "Category:Pages using Sister project links with wikidata namespace mismatch",
+      "Category:Pages using multiple image with auto scaled images",
+      "Category:Pages using the EasyTimeline extension",
+      "Category:Parlophone artists",
+      "Category:Proto-prog groups",
+      "Category:Psychedelic pop music groups",
+      "Category:Rock music groups from Liverpool",
+      "Category:Short description is different from Wikidata",
+      "Category:Spoken articles",
+      "Category:Swan Records artists",
+      "Category:The Beatles",
+      "Category:United Artists Records artists",
+      "Category:Use British English from October 2024",
+      "Category:Use dmy dates from October 2024",
+      "Category:Vee-Jay Records artists",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia indefinitely semi-protected pages",
+      "Category:World Music Awards winners",
+      "Category:World record holders"
+    ],
+    "internal_links": [
+      "(Everything I Do) I Do It for You",
+      "(Is This the Way to) Amarillo",
+      "(It's All Down to) Goodnight Vienna",
+      "(What's the Story) Morning Glory?",
+      "...Baby One More Time",
+      "10 Admiral Grove",
+      "12-Bar Original",
+      "12 Arnold Grove",
+      "1952 in British music",
+      "1953 in British music",
+      "1954 in British music",
+      "1955 in British music",
+      "1956 in British music",
+      "1957 in British music",
+      "1958 in British music",
+      "1959 in British music",
+      "1960 in British music",
+      "1961 in British music",
+      "1962 in British music",
+      "1962–1966",
+      "1963 in British music",
+      "1964: Eyes of the Storm",
+      "1964 in British music",
+      "1965 in British music",
+      "1966 in British music",
+      "1967 in British music",
+      "1967–1970",
+      "1968 in British music",
+      "1969 in British music",
+      "1970 in British music",
+      "1971 in British music",
+      "1972 in British music",
+      "1973 in British music",
+      "1974 in British music",
+      "1975 in British music",
+      "1976 in British music",
+      "1977 in British music",
+      "1978 in British music",
+      "1979 in British music",
+      "1980 in British music",
+      "1981 in British music",
+      "1982 in British music",
+      "1983 in British music",
+      "1984 in British music",
+      "1985 in British music",
+      "1986 in British music",
+      "1987 in British music",
+      "1988 in British music",
+      "1989 (album)",
+      "1989 in British music",
+      "1990 in British music",
+      "1991 in British music",
+      "1992 in British music",
+      "1993 in British music",
+      "1994 in British music",
+      "1995 in British music",
+      "1996 in British music",
+      "1997 in British music",
+      "1998 in British music",
+      "1999 in British music",
+      "1 (Beatles album)",
+      "2000 in British music",
+      "2001 in British music",
+      "2002 in British music",
+      "2003 in British music",
+      "2004 in British music",
+      "2005 in British music",
+      "2006 in British music",
+      "2007 in British music",
+      "2008 in British music",
+      "2009 in British music",
+      "2010 in British music",
+      "2011 in British music",
+      "2012 in British music",
+      "2013 in British music",
+      "2014 in British music",
+      "2015 in British music",
+      "2016 in British music",
+      "2017 in British music",
+      "2018 in British music",
+      "2019 in British music",
+      "2020 in British music",
+      "2021 in British music",
+      "2022 in British music",
+      "2023 in British music",
+      "2024 in British music",
+      "20 Feet from Stardom",
+      "20 Forthlin Road",
+      "20 Greatest Hits (Beatles album)",
+      "21 (Adele album)",
+      "24K Magic (album)",
+      "251 Menlove Avenue",
+      "25 (Adele album)",
+      "30 (album)",
+      "34 Montagu Square, Marylebone",
+      "4147 Lennon",
+      "4149 Harrison",
+      "4150 Starr",
+      "4: John Paul George Ringo",
+      "4 by the Beatles"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Beatles_members_at_New_York_City_in_1964.jpg/330px-The_Beatles_members_at_New_York_City_in_1964.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "name": "The Beatles",
+      "disambiguation": "UK rock band, “The Fab Four”",
+      "type": "Group",
+      "country": "GB",
+      "begin_area": "Liverpool",
+      "life_span": {
+        "begin": "1960",
+        "end": "1970-04-10"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 1,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 66
+    },
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+  },
+  "created_at": "2025-08-20T07:38:27.331626",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "The Beatles were an English rock band formed in Liverpool in 1960. The core lineup of the band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are widely regarded as the most influential band in Western popular music and were integral to the development of 1960s counterculture and the recognition of popular music as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways. The band also explored music styles ranging from folk and Indian music to psychedelia and hard rock. As pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.\nLed by primary songwriters Lennon and McCartney, the Beatles evolved from Lennon's previous group, the Quarrymen, and built their reputation by playing clubs in Liverpool and Hamburg, Germany, starting in 1960, initially with Stuart Sutcliffe playing bass. The core trio of Lennon, McCartney and Harrison, together since 1958, went through a succession of drummers, including Pete Best...",
+  "musicbrainz_info": {
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "name": "The Beatles",
+    "disambiguation": "UK rock band, “The Fab Four”",
+    "type": "Group",
+    "country": "GB",
+    "begin_area": "Liverpool",
+    "life_span": {
+      "begin": "1960",
+      "end": "1970-04-10"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:00.039298"
+}

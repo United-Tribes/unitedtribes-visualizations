@@ -1,0 +1,182 @@
+{
+  "name": "Jazz Legends Targeted Harvest",
+  "description": "Comprehensive content harvest for Blue Note Records jazz artists and extended network",
+  "sources": ["pitchfork", "npr", "rolling_stone", "billboard"],
+  "max_articles_per_source": 50,
+  "max_articles_per_artist": 10,
+  "dry_run": false,
+  "enable_safety_checks": true,
+  "enable_s3_upload": true,
+  "log_level": "INFO",
+  "max_runtime_minutes": 120,
+  "target_artists": {
+    "primary_blue_note_legends": [
+      {
+        "name": "John Coltrane",
+        "priority": "high",
+        "search_terms": ["John Coltrane", "A Love Supreme", "Giant Steps", "My Favorite Things"],
+        "content_types": ["review", "analysis", "documentary", "biography"]
+      },
+      {
+        "name": "Lee Morgan",
+        "priority": "high",
+        "search_terms": ["Lee Morgan", "The Sidewinder", "Search for the New Land"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Art Blakey",
+        "priority": "high",
+        "search_terms": ["Art Blakey", "Jazz Messengers", "Moanin'", "A Night at Birdland"],
+        "content_types": ["review", "analysis", "documentary", "interview"]
+      },
+      {
+        "name": "Horace Silver",
+        "priority": "high",
+        "search_terms": ["Horace Silver", "Song for My Father", "Blowin' the Blues Away"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Charlie Parker",
+        "priority": "high",
+        "search_terms": ["Charlie Parker", "Bird", "Ornithology", "Ko Ko", "bebop"],
+        "content_types": ["review", "analysis", "documentary", "biography"]
+      }
+    ],
+    "blue_note_masters": [
+      {
+        "name": "Grant Green",
+        "priority": "medium",
+        "search_terms": ["Grant Green", "Idle Moments", "Green Street"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Dexter Gordon",
+        "priority": "medium",
+        "search_terms": ["Dexter Gordon", "Go!", "Our Man in Paris"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Kenny Drew",
+        "priority": "medium",
+        "search_terms": ["Kenny Drew", "Undercurrent", "This Is New"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Paul Chambers",
+        "priority": "medium",
+        "search_terms": ["Paul Chambers", "Whims of Chambers", "bass"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Philly Joe Jones",
+        "priority": "medium",
+        "search_terms": ["Philly Joe Jones", "Blues for Dracula", "drums"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Herbie Hancock",
+        "priority": "medium",
+        "search_terms": ["Herbie Hancock", "Takin' Off", "Watermelon Man", "Head Hunters"],
+        "content_types": ["review", "analysis", "interview"]
+      },
+      {
+        "name": "Freddie Hubbard",
+        "priority": "medium",
+        "search_terms": ["Freddie Hubbard", "Open Sesame", "Hub-Tones"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Joe Henderson",
+        "priority": "medium",
+        "search_terms": ["Joe Henderson", "Page One", "Inner Urge"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Donald Byrd",
+        "priority": "medium",
+        "search_terms": ["Donald Byrd", "Fancy Free", "A New Perspective"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Wayne Shorter",
+        "priority": "medium",
+        "search_terms": ["Wayne Shorter", "Speak No Evil", "Juju", "Weather Report"],
+        "content_types": ["review", "analysis", "interview"]
+      },
+      {
+        "name": "Thelonious Monk",
+        "priority": "medium",
+        "search_terms": ["Thelonious Monk", "Brilliant Corners", "Monk's Dream"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Duke Ellington",
+        "priority": "medium",
+        "search_terms": ["Duke Ellington", "Money Jungle", "Ellington at Newport"],
+        "content_types": ["review", "analysis", "biography"]
+      },
+      {
+        "name": "Dizzy Gillespie",
+        "priority": "medium",
+        "search_terms": ["Dizzy Gillespie", "A Night in Tunisia", "bebop"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Joe Pass",
+        "priority": "medium",
+        "search_terms": ["Joe Pass", "Virtuoso", "guitar"],
+        "content_types": ["review", "analysis"]
+      }
+    ],
+    "extended_network": [
+      {
+        "name": "Miles Davis",
+        "priority": "high",
+        "search_terms": ["Miles Davis", "Kind of Blue", "Bitches Brew", "Birth of the Cool"],
+        "content_types": ["review", "analysis", "biography", "documentary"]
+      },
+      {
+        "name": "Bill Evans",
+        "priority": "medium",
+        "search_terms": ["Bill Evans", "Waltz for Debby", "Sunday at the Village Vanguard"],
+        "content_types": ["review", "analysis", "profile"]
+      },
+      {
+        "name": "Cannonball Adderley",
+        "priority": "medium",
+        "search_terms": ["Cannonball Adderley", "Somethin' Else", "alto saxophone"],
+        "content_types": ["review", "analysis"]
+      },
+      {
+        "name": "Bill Charlap",
+        "priority": "low",
+        "search_terms": ["Bill Charlap", "The Bill Charlap Trio"],
+        "content_types": ["review", "interview"]
+      },
+      {
+        "name": "John Scofield",
+        "priority": "low",
+        "search_terms": ["John Scofield", "A Go Go", "jazz guitar"],
+        "content_types": ["review", "interview"]
+      },
+      {
+        "name": "Pat Metheny",
+        "priority": "low",
+        "search_terms": ["Pat Metheny", "Bright Size Life", "Pat Metheny Group"],
+        "content_types": ["review", "interview", "analysis"]
+      }
+    ]
+  },
+  "content_filters": {
+    "min_relevance_score": 0.7,
+    "required_keywords": ["jazz", "album", "music", "review", "artist"],
+    "exclude_patterns": ["concert listing", "ticket sales", "brief mention"],
+    "prefer_content_types": ["review", "analysis", "interview", "profile", "documentary"]
+  },
+  "harvest_strategy": {
+    "prioritize_primary_artists": true,
+    "balance_across_sources": true,
+    "avoid_duplicates": true,
+    "focus_on_albums_and_analysis": true
+  }
+}

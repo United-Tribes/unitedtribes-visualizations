@@ -1,0 +1,375 @@
+{
+  "artist_name": "Laurie Anderson",
+  "works": [
+    {
+      "title": "La Visite Guidée",
+      "release_date": "1996",
+      "type": "Album",
+      "mbid": "06ccff5d-8e78-475f-8ed6-23209852db08"
+    },
+    {
+      "title": "Songs From the Bardo",
+      "release_date": "2019-09-27",
+      "type": "Album",
+      "mbid": "09eb387e-37da-435c-90f4-3c524dc3758b"
+    },
+    {
+      "title": "The Stone: Issue Three",
+      "release_date": "2008-04",
+      "type": "Album",
+      "mbid": "1317905d-bae4-3bfe-8486-441c3f655355"
+    },
+    {
+      "title": "Landfall",
+      "release_date": "2018-02-16",
+      "type": "Album",
+      "mbid": "1b00c993-37f8-408a-ac1c-01ff2dcb6e4c"
+    },
+    {
+      "title": "Homeland",
+      "release_date": "2010-06-21",
+      "type": "Album",
+      "mbid": "1d8e668c-0f31-4dff-9a77-08db405a6cba"
+    },
+    {
+      "title": "2000-05-24: Songs and Stories From Moby Dick, Barbican Theatre, London, UK",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "3f9dceb6-4254-3525-b4cb-ac5429618cee"
+    },
+    {
+      "title": "2014-09-06-Punktfestival: Føniks Kino, Kristiansand, Norway",
+      "release_date": "2014",
+      "type": "Album",
+      "mbid": "41a5ee81-af43-4ef0-b02c-88ee20f1cb1e"
+    },
+    {
+      "title": "The Ugly One With the Jewels and Other Stories",
+      "release_date": "1995-03-14",
+      "type": "Album",
+      "mbid": "41e3d076-50c5-3348-bb81-e50c33150720"
+    },
+    {
+      "title": "Amelia",
+      "release_date": "2024-08-23",
+      "type": "Album",
+      "mbid": "42d8f4f5-755b-4b19-bc14-eb64c3ec0a57"
+    },
+    {
+      "title": "Selections From United States Live",
+      "release_date": "1984",
+      "type": "Album",
+      "mbid": "5ce125c6-bc8c-46cc-ba4d-eb0202024e8a"
+    },
+    {
+      "title": "Dokument #2",
+      "release_date": "2020-01-15",
+      "type": "Album",
+      "mbid": "63e431fa-db58-4613-82d5-d0f7180c077b"
+    },
+    {
+      "title": "Talk Normal: The Laurie Anderson Anthology",
+      "release_date": "2000-10-17",
+      "type": "Album",
+      "mbid": "66dd88f4-d887-3004-a3f8-212e538fe2b4"
+    },
+    {
+      "title": "Home of the Brave",
+      "release_date": "1986",
+      "type": "Album",
+      "mbid": "6a207f44-2340-3265-99f5-a7f5b4d704e6"
+    },
+    {
+      "title": "Live at Town Hall New York City September 19-20, 2001",
+      "release_date": "2002-05-21",
+      "type": "Album",
+      "mbid": "6c1ec3a4-2d43-34a6-b52a-83daa02d3e6d"
+    },
+    {
+      "title": "Bright Red",
+      "release_date": "1994-10-25",
+      "type": "Album",
+      "mbid": "755572b3-93fc-31fa-891e-0a50e5b25c19"
+    },
+    {
+      "title": "Nothing in My Pockets: Secret Diary",
+      "release_date": "2009-02",
+      "type": "Album",
+      "mbid": "8dd4cd70-d1e3-4a41-8578-576bad360f61"
+    },
+    {
+      "title": "Life on a String",
+      "release_date": "2001-08-21",
+      "type": "Album",
+      "mbid": "8e4c5382-0e17-35da-8d54-1783a45c73bd"
+    },
+    {
+      "title": "In Our Sleep",
+      "release_date": "1995-04-11",
+      "type": "Album",
+      "mbid": "99214ee7-91be-3f25-9d30-876ec39cd029"
+    },
+    {
+      "title": "Big Science",
+      "release_date": "1982-04-19",
+      "type": "Album",
+      "mbid": "9b7fd241-b8b6-3b0a-862c-de826b1189ed"
+    },
+    {
+      "title": "Heart of a Dog",
+      "release_date": "2015-10-23",
+      "type": "Album",
+      "mbid": "a95f7851-21d1-4a55-a38a-8ddeb2838501"
+    },
+    {
+      "title": "2008‐10‐31: Paradoxes, Americans Festival, De Oosterpoort, Grote Zaal, Groningen, Netherlands",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "aeda2738-c955-46d1-8938-5ce74ead1151"
+    },
+    {
+      "title": "Strange Angels",
+      "release_date": "1989-10-13",
+      "type": "Album",
+      "mbid": "e23e02ba-e656-3a7b-994d-1ea2592490e2"
+    },
+    {
+      "title": "Mister Heartbreak",
+      "release_date": "1984",
+      "type": "Album",
+      "mbid": "e2f0600e-5e4e-3776-9946-7c387c5f61d6"
+    },
+    {
+      "title": "You’re the Guy I Want to Share My Money With",
+      "release_date": "1981",
+      "type": "Album",
+      "mbid": "e38c8e6a-024c-3e58-bcd9-8562ffb0dc9e"
+    },
+    {
+      "title": "United States Live",
+      "release_date": "1984",
+      "type": "Album",
+      "mbid": "feb31897-99bc-3976-a8f2-64f9333c53d3"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Canal Street Communications, Inc."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000785773"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/86809b51-cbe2-45f1-804a-e66eed635dea"
+      },
+      {
+        "type": "bookbrainz",
+        "url": "https://bookbrainz.org/author/6fff9ef5-4b6f-4f5d-8062-f8c93996bfba"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/26050"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/5hqB3Fxgin9YGYa0mIGf1G"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/4144"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0002173/"
+      },
+      {
+        "type": "interview",
+        "url": "http://www.muzines.co.uk/articles/brave-new-science/2066"
+      },
+      {
+        "type": "interview",
+        "url": "http://www.muzines.co.uk/articles/laurie-anderson/7376"
+      },
+      {
+        "type": "interview",
+        "url": "http://www.muzines.co.uk/articles/making-music-with-big-science/1805"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Laurie+Anderson"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Laurie-anderson"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/officialaurieanderson"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.laurieanderson.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n78045220"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13737034d"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/119296187"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=29867"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6k07vfx"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/laurie_anderson"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000264699/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Laurie-Anderson/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.musik-sammler.de/artist/6518"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n78045220/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id187152"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/187152"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.amazon.com/-/e/B000APXMVY"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.amazon.com/-/e/B000APXMVY"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/46661"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/onlyanexpert"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/LaurieAnderson"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/67607"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/187152"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/39646022"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q235066"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC_VDnmv6HjIo9xYndATGfgw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Laurie_Anderson",
+    "musicbrainz": "https://musicbrainz.org/artist/86809b51-cbe2-45f1-804a-e66eed635dea"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Laura Phillips \"Laurie\" Anderson (born June 5, 1947) is an American avant-garde artist, musician and filmmaker whose work encompasses performance art, pop music, and multimedia projects. Initially trained in violin and sculpting, Anderson pursued a variety of performance art projects in New York City during the 1970s, focusing particularly on language, technology, and visual imagery. She achieved unexpected commercial success when her song \"O Superman\" reached number two on the UK singles chart in 1981.\nAnderson's debut studio album Big Science was released in 1982 and has since been followed by a number of studio and live albums. She starred in and directed the 1986 concert film Home of the Brave. Anderson's creative output has also included theatrical and documentary works, voice acting, art installations, and a CD-ROM. She is a pioneer in electronic music and has invented several musical devices that she has used in her recordings and performance art shows.\n\n",
+    "summary": "Laura Phillips \"Laurie\" Anderson (born June 5, 1947) is an American avant-garde artist, musician and filmmaker whose work encompasses performance art, pop music, and multimedia projects. Initially trained in violin and sculpting, Anderson pursued a variety of performance art projects in New York City during the 1970s, focusing particularly on language, technology, and visual imagery. She achieved unexpected commercial success when her song \"O Superman\" reached number two on the UK singles chart in 1981.\nAnderson's debut studio album Big Science was released in 1982 and has since been followed by a number of studio and live albums. She starred in and directed the 1986 concert film Home of the Brave. Anderson's creative output has also included theatrical and documentary works, voice acting, art installations, and a CD-ROM. She is a pioneer in electronic music and has invented several musical devices that she has used in her recordings and performance art shows.\n\n...",
+    "url": "https://en.wikipedia.org/wiki/Laurie_Anderson",
+    "title": "Laurie Anderson",
+    "word_count": 152,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Laurie_Anderson_at_the_New_Zealand_Festival_of_the_Arts_lunch_2020_%28cropped%29.jpg/330px-Laurie_Anderson_at_the_New_Zealand_Festival_of_the_Arts_lunch_2020_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "86809b51-cbe2-45f1-804a-e66eed635dea",
+      "name": "Laurie Anderson",
+      "disambiguation": "experimental/art rock musician",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Glen Ellyn",
+      "life_span": {
+        "begin": "1947-06-05",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 36
+    },
+    "mbid": "86809b51-cbe2-45f1-804a-e66eed635dea"
+  },
+  "created_at": "2025-08-20T08:50:53.132763",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Laura Phillips \"Laurie\" Anderson (born June 5, 1947) is an American avant-garde artist, musician and filmmaker whose work encompasses performance art, pop music, and multimedia projects. Initially trained in violin and sculpting, Anderson pursued a variety of performance art projects in New York City during the 1970s, focusing particularly on language, technology, and visual imagery. She achieved unexpected commercial success when her song \"O Superman\" reached number two on the UK singles chart in 1981.\nAnderson's debut studio album Big Science was released in 1982 and has since been followed by a number of studio and live albums. She starred in and directed the 1986 concert film Home of the Brave. Anderson's creative output has also included theatrical and documentary works, voice acting, art installations, and a CD-ROM. She is a pioneer in electronic music and has invented several musical devices that she has used in her recordings and performance art shows.\n\n",
+  "musicbrainz_info": {
+    "mbid": "86809b51-cbe2-45f1-804a-e66eed635dea",
+    "name": "Laurie Anderson",
+    "disambiguation": "experimental/art rock musician",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Glen Ellyn",
+    "life_span": {
+      "begin": "1947-06-05",
+      "end": null
+    }
+  }
+}

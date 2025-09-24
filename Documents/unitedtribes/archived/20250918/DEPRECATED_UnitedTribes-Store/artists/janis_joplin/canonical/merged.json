@@ -1,0 +1,377 @@
+{
+  "artist_name": "Janis Joplin",
+  "works": [
+    {
+      "title": "10 grandes éxitos en versión original",
+      "release_date": "1998",
+      "type": "Album",
+      "mbid": "07a71b17-a5cf-4b30-87c7-e2167e04e8b4"
+    },
+    {
+      "title": "The Very Best of Janis Joplin",
+      "release_date": "1988",
+      "type": "Album",
+      "mbid": "092faa87-9034-3299-b68b-719946916840"
+    },
+    {
+      "title": "Janis Joplin - Digitally Remastered",
+      "release_date": "1998",
+      "type": "Album",
+      "mbid": "0b10009e-7ce1-4601-a89a-068cd4fcf855"
+    },
+    {
+      "title": "Super Hits",
+      "release_date": "2000-05-09",
+      "type": "Album",
+      "mbid": "13312a03-a3c7-3b41-aaf5-9afcddb4ce79"
+    },
+    {
+      "title": "The Ultimate Collection",
+      "release_date": "1998-08-17",
+      "type": "Album",
+      "mbid": "14fff3ce-8953-3fdf-99bb-32d1ca2178e1"
+    },
+    {
+      "title": "Big Brother & The Holding Company",
+      "release_date": "1967-09",
+      "type": "Album",
+      "mbid": "2464c8f8-7d3f-32e4-afaa-870ccb18d869"
+    },
+    {
+      "title": "E.P",
+      "release_date": "1971-12-02",
+      "type": "Album",
+      "mbid": "34dd762c-97f2-4611-a386-6148fb770cc4"
+    },
+    {
+      "title": "18 Essential Songs",
+      "release_date": "1995-01-24",
+      "type": "Album",
+      "mbid": "35d3fca3-3d42-31d0-b126-17aa6a3a29fb"
+    },
+    {
+      "title": "The Great Janis",
+      "release_date": "1971",
+      "type": "Album",
+      "mbid": "39f011be-24d8-4f03-b935-e0e73646a7b6"
+    },
+    {
+      "title": "Janis",
+      "release_date": "1975",
+      "type": "Album",
+      "mbid": "403f3b48-ffc1-4f63-8696-3f9b4f343c01"
+    },
+    {
+      "title": "The Legendary Typewriter Tape 6/25/64 Jorma's House",
+      "release_date": "2022-12-02",
+      "type": "Album",
+      "mbid": "5e4875de-9fea-4225-a80b-9d9baf90466d"
+    },
+    {
+      "title": "I Got Dem Ol’ Kozmic Blues Again Mama!",
+      "release_date": "1969-10",
+      "type": "Album",
+      "mbid": "6906dd24-1425-3f07-97df-aa8791d27265"
+    },
+    {
+      "title": "Janis Joplin’s Greatest Hits",
+      "release_date": "1973",
+      "type": "Album",
+      "mbid": "8f875bf3-65b4-342f-86a6-61b5bc7fdf94"
+    },
+    {
+      "title": "Best Of...",
+      "release_date": "1999",
+      "type": "Album",
+      "mbid": "91580896-5dce-36d8-bfe8-4c90ea31e75a"
+    },
+    {
+      "title": "Pearl",
+      "release_date": "1971-01",
+      "type": "Album",
+      "mbid": "99878359-e736-3cdc-a225-548ad17d1c76"
+    },
+    {
+      "title": "Farewell Song",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "a0a19acc-1382-33ad-b7a5-38193e8cc28f"
+    },
+    {
+      "title": "Golden Highlights",
+      "release_date": "1988",
+      "type": "Album",
+      "mbid": "cbe0bd63-28a0-3a00-898a-201757631208"
+    },
+    {
+      "title": "Anthology",
+      "release_date": "1980",
+      "type": "Album",
+      "mbid": "d114e5be-de64-3fb3-b711-964d76ac8791"
+    },
+    {
+      "title": "The Legend",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "dc76fa37-7d1a-4a07-84a4-ddd8929a5c77"
+    },
+    {
+      "title": "Mercedes Benz (Best)",
+      "release_date": "1995",
+      "type": "Album",
+      "mbid": "e1d7b289-cdca-47d4-b83c-d2d9bf6e87e1"
+    },
+    {
+      "title": "Janis Joplin",
+      "release_date": "1991",
+      "type": "Album",
+      "mbid": "e6d34b14-6820-4dd3-854e-f6688206226c"
+    },
+    {
+      "title": "STARBOX",
+      "release_date": "1989-06-10",
+      "type": "Album",
+      "mbid": "e725931a-a4fd-4af6-9c74-356347629187"
+    },
+    {
+      "title": "Janis",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "e8f12506-3236-3d74-a101-87981705e5a1"
+    },
+    {
+      "title": "Absolute Janis",
+      "release_date": "1997-10-10",
+      "type": "Album",
+      "mbid": "f4333782-2bf9-3bff-920b-6814b68dfb14"
+    },
+    {
+      "title": "Box of Pearls: The Janis Joplin Collection",
+      "release_date": "1999-08-02",
+      "type": "Album",
+      "mbid": "f87e6da1-cea3-33e9-920c-c97f9d1cf5a0"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000177060"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/76c9a186-75bd-436a-85c0-823e3efddb7f"
+      },
+      {
+        "type": "biography",
+        "url": "http://rockhall.com/inductees/janis-joplin/bio/"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=555"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.officialjanis.com/disco_boutique.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/120232"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4NgfOZCL9Ml67xzM0xzIvC"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1658"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Janis_Joplin_1970.JPG"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0429767/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Janis+Joplin"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4189/janis-joplin/lyrics.html"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/janisjoplin"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.janisjoplin.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50038070"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb138957526"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118849840"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=495465"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6nc72hq"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-911120"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL6198486A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/janis_joplin"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/janis-joplin/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50038070"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/365673"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/2661"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/janisjoplin"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/janisjoplin"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/janisjoplin/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/19445"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/janis-joplin-music"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/365673"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/457"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/7574301"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1514"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/janisjoplin"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/JanisJoplinVEVO"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Janis_Joplin",
+    "musicbrainz": "https://musicbrainz.org/artist/76c9a186-75bd-436a-85c0-823e3efddb7f"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Janis Lyn Joplin (January 19, 1943 – October 4, 1970) was an American singer and songwriter. One of the most iconic and successful rock performers of her era, she was noted for her powerful mezzo-soprano vocals and her \"electric\" stage presence.\nIn 1967, Joplin rose to prominence following an appearance at the Monterey Pop Festival, where she was the lead singer of the then little-known San Francisco psychedelic rock band Big Brother and the Holding Company. After releasing two albums with the band, she left Big Brother to continue as a solo artist with her own backing groups, first the Kozmic Blues Band and then the Full Tilt Boogie Band. She performed at the 1969 Woodstock Festival and on the Festival Express train tour. Five singles by Joplin reached the US Billboard Hot 100, including a cover of the Kris Kristofferson song \"Me and Bobby McGee\", which posthumously reached number one in March 1971. Her most popular songs include her cover versions of \"Piece of My Heart\", \"Cry Baby\", \"Down on Me\", \"Ball and Chain\", and \"Summertime\", as well as her original song \"Mercedes Benz\", which was her final recording.\nJoplin died of a heroin overdose in 1970, at the age of 27, after releasing...",
+    "summary": "Janis Lyn Joplin (January 19, 1943 – October 4, 1970) was an American singer and songwriter. One of the most iconic and successful rock performers of her era, she was noted for her powerful mezzo-soprano vocals and her \"electric\" stage presence.\nIn 1967, Joplin rose to prominence following an appearance at the Monterey Pop Festival, where she was the lead singer of the then little-known San Francisco psychedelic rock band Big Brother and the Holding Company. After releasing two albums with the band, she left Big Brother to continue as a solo artist with her own backing groups, first the Kozmic Blues Band and then the Full Tilt Boogie Band. She performed at the 1969 Woodstock Festival and on the Festival Express train tour. Five singles by Joplin reached the US Billboard Hot 100, including a cover of the Kris Kristofferson song \"Me and Bobby McGee\", which posthumously reached number one in March 1971. Her most popular songs include her cover versions of \"Piece of My Heart\", \"Cry Baby\", ...",
+    "url": "https://en.wikipedia.org/wiki/Janis_Joplin",
+    "title": "Janis Joplin",
+    "word_count": 205,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Janis_Joplin_1970.JPG/330px-Janis_Joplin_1970.JPG"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+      "name": "Janis Joplin",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Port Arthur",
+      "life_span": {
+        "begin": "1943-01-19",
+        "end": "1970-10-04"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 37
+    },
+    "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f"
+  },
+  "created_at": "2025-08-20T08:10:23.633002",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Janis Lyn Joplin (January 19, 1943 – October 4, 1970) was an American singer and songwriter. One of the most iconic and successful rock performers of her era, she was noted for her powerful mezzo-soprano vocals and her \"electric\" stage presence.\nIn 1967, Joplin rose to prominence following an appearance at the Monterey Pop Festival, where she was the lead singer of the then little-known San Francisco psychedelic rock band Big Brother and the Holding Company. After releasing two albums with the band, she left Big Brother to continue as a solo artist with her own backing groups, first the Kozmic Blues Band and then the Full Tilt Boogie Band. She performed at the 1969 Woodstock Festival and on the Festival Express train tour. Five singles by Joplin reached the US Billboard Hot 100, including a cover of the Kris Kristofferson song \"Me and Bobby McGee\", which posthumously reached number one in March 1971. Her most popular songs include her cover versions of \"Piece of My Heart\", \"Cry Baby\", \"Down on Me\", \"Ball and Chain\", and \"Summertime\", as well as her original song \"Mercedes Benz\", which was her final recording.\nJoplin died of a heroin overdose in 1970, at the age of 27, after releasing...",
+  "musicbrainz_info": {
+    "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+    "name": "Janis Joplin",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Port Arthur",
+    "life_span": {
+      "begin": "1943-01-19",
+      "end": "1970-10-04"
+    }
+  }
+}

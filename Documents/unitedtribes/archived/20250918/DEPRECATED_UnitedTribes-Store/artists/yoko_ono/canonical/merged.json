@@ -1,0 +1,379 @@
+{
+  "artist_name": "Yoko Ono",
+  "works": [
+    {
+      "title": "It’s Alright (I See Rainbows)",
+      "release_date": "1982-11",
+      "type": "Album",
+      "mbid": "2c498918-13b5-3730-942c-42e3ce36f5e1"
+    },
+    {
+      "title": "A Story",
+      "release_date": "1997-07-22",
+      "type": "Album",
+      "mbid": "3908a924-3e5f-4f47-8f81-3093895c4311"
+    },
+    {
+      "title": "Yoko Ono/Plastic Ono Band",
+      "release_date": "1970-12-11",
+      "type": "Album",
+      "mbid": "39fecfe6-ad51-3fad-bd61-2b11e8e1f954"
+    },
+    {
+      "title": "Selected Recordings From Grapefruit",
+      "release_date": "2025-03-21",
+      "type": "Album",
+      "mbid": "46583e07-4f56-4298-9169-e1da26cea14a"
+    },
+    {
+      "title": "Warzone",
+      "release_date": "2018-10-19",
+      "type": "Album",
+      "mbid": "57764f77-6b53-4a17-b370-26e214b0d7bd"
+    },
+    {
+      "title": "Fly",
+      "release_date": "1971-09-21",
+      "type": "Album",
+      "mbid": "733a878c-1ba6-37bc-b3a8-1b0b8beb523f"
+    },
+    {
+      "title": "Double Fantasy",
+      "release_date": "1980-11-17",
+      "type": "Album",
+      "mbid": "790ec782-7344-366c-af67-4a427bcaf991"
+    },
+    {
+      "title": "Starpeace",
+      "release_date": "1985-02-18",
+      "type": "Album",
+      "mbid": "87e0138c-dfb1-38e0-9432-f16400dc6f2c"
+    },
+    {
+      "title": "Onomix",
+      "release_date": "2012",
+      "type": "Album",
+      "mbid": "8c2ab669-2dbf-41cc-96ce-ccabd19c261d"
+    },
+    {
+      "title": "Feeling the Space",
+      "release_date": "1973-11-23",
+      "type": "Album",
+      "mbid": "9df883dd-cafe-3901-9b56-92ca62dede15"
+    },
+    {
+      "title": "Milk and Honey",
+      "release_date": "1984-01-19",
+      "type": "Album",
+      "mbid": "9e51160b-c309-334a-84f9-80feb0112a8f"
+    },
+    {
+      "title": "Wedding Album",
+      "release_date": "1969-10-20",
+      "type": "Album",
+      "mbid": "9ea6179c-075e-3784-b0e0-62813bd94723"
+    },
+    {
+      "title": "Walking on Thin Ice",
+      "release_date": "1992-05-07",
+      "type": "Album",
+      "mbid": "a29c5436-f22a-3f18-b5ff-53d152385a7a"
+    },
+    {
+      "title": "Season of Glass",
+      "release_date": "1981-06-12",
+      "type": "Album",
+      "mbid": "a3851f14-59b0-32e8-8825-f00c2c2ef4c0"
+    },
+    {
+      "title": "Unfinished Music No. 2: Life With the Lions",
+      "release_date": "1969-05-26",
+      "type": "Album",
+      "mbid": "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f"
+    },
+    {
+      "title": "Unfinished Music No. 1: Two Virgins",
+      "release_date": "1968-11-11",
+      "type": "Album",
+      "mbid": "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f"
+    },
+    {
+      "title": "Rising",
+      "release_date": "1995",
+      "type": "Album",
+      "mbid": "b98d7c26-a6dc-3e14-86be-490dfaf70d64"
+    },
+    {
+      "title": "Blueprint for a Sunrise",
+      "release_date": "2001-10-06",
+      "type": "Album",
+      "mbid": "c2744084-a914-3a27-9774-4726ef1e6281"
+    },
+    {
+      "title": "YOKOKIMTHURSTON",
+      "release_date": "2012-09-25",
+      "type": "Album",
+      "mbid": "c2f35de4-a08a-4ce9-8f05-cae185e72950"
+    },
+    {
+      "title": "New York Rock",
+      "release_date": "1994-05-04",
+      "type": "Album",
+      "mbid": "c3051887-401a-36d2-bd99-441f61e3ade2"
+    },
+    {
+      "title": "Onobox",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "cffdf4a1-9a8e-34a3-b865-b7f5d86758bd"
+    },
+    {
+      "title": "Approximately Infinite Universe",
+      "release_date": "1973-01-08",
+      "type": "Album",
+      "mbid": "d170c3d1-874a-3d5b-8f87-e4de93a5ab61"
+    },
+    {
+      "title": "Some Time in New York City",
+      "release_date": "1972-09-15",
+      "type": "Album",
+      "mbid": "e5153705-e798-343c-aeaf-1777db763dd6"
+    },
+    {
+      "title": "Between My Head and the Sky",
+      "release_date": "2009-09-21",
+      "type": "Album",
+      "mbid": "f9e38504-bc2f-40bc-82e4-1a84dc325134"
+    },
+    {
+      "title": "Take Me to the Land of Hell",
+      "release_date": "2013-09-12",
+      "type": "Album",
+      "mbid": "fe14816a-83e0-4837-9e71-e5ed6bd7f1cb"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Ono Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000521704"
+      },
+      {
+        "type": "bandcamp",
+        "url": "https://yokoono.bandcamp.com/"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/b0b33754-a664-43b7-ba00-be0dc4ec2396"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/42754"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19961206175551/http://www.yoko.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19981206132710/http://www.cam.org/~rjoly/yoko/onoweb.html"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/20021003081834/http://www.a-i-u.net/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/2s4tjL6W3qrblOe0raIzwJ"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/174087"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0648780/"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/officialyokoono"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50001903"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/O/Ono,_Yoko/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb120405568"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118590049"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=392134"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/yoko-ono"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w63x8f82"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL425281A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/yoko_ono"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Yoko-Ono/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50001903"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id321559"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/321559"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/4576"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/yokoono"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/YokoOno"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/yokoonopage"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/yokoono/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/yokoonoofficial/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/399524"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/yokoono"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/321559"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/8804"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/111076257"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q117012"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/Y0K0ON0"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoko_Ono",
+    "musicbrainz": "https://musicbrainz.org/artist/b0b33754-a664-43b7-ba00-be0dc4ec2396"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Yoko Ono (Japanese: 小野 洋子, romanized: Ono Yōko, usually spelled in katakana as オノ・ヨーコ; born February 18, 1933) is a Japanese multimedia artist, singer, songwriter, and peace activist. Her work also encompasses performance art and filmmaking.\nOno grew up in Tokyo and moved to New York City in 1952 to join her family. She became involved with New York City's downtown artists scene in the early 1960s, which included the Fluxus group, and became widely known outside the fine art world in 1969 when she married English musician John Lennon of the Beatles, with whom she would subsequently record as a duo in the Plastic Ono Band. The couple used their honeymoon as a stage for public protests against the Vietnam War with what they called a bed-in. She and Lennon remained married until he was murdered in front of the couple's apartment building, The Dakota, on December 8, 1980. Together, they had one son, Sean, who later also became a musician.\nOno began a career in popular music in 1969, forming the Plastic Ono Band with Lennon and producing a number of avant-garde music albums in the 1970s. She achieved commercial and critical success in 1980 with the chart-topping album Double Fantasy, a collaboration...",
+    "summary": "Yoko Ono (Japanese: 小野 洋子, romanized: Ono Yōko, usually spelled in katakana as オノ・ヨーコ; born February 18, 1933) is a Japanese multimedia artist, singer, songwriter, and peace activist. Her work also encompasses performance art and filmmaking.\nOno grew up in Tokyo and moved to New York City in 1952 to join her family. She became involved with New York City's downtown artists scene in the early 1960s, which included the Fluxus group, and became widely known outside the fine art world in 1969 when she married English musician John Lennon of the Beatles, with whom she would subsequently record as a duo in the Plastic Ono Band. The couple used their honeymoon as a stage for public protests against the Vietnam War with what they called a bed-in. She and Lennon remained married until he was murdered in front of the couple's apartment building, The Dakota, on December 8, 1980. Together, they had one son, Sean, who later also became a musician.\nOno began a career in popular music in 1969, formin...",
+    "url": "https://en.wikipedia.org/wiki/Yoko_Ono",
+    "title": "Yoko Ono",
+    "word_count": 205,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/MEX_MM_CONFERENCIA_YOKO_ONO_%28cropped%29.jpg/330px-MEX_MM_CONFERENCIA_YOKO_ONO_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396",
+      "name": "Yoko Ono",
+      "disambiguation": "Japanese‐American musician and artist",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Tokyo",
+      "life_span": {
+        "begin": "1933-02-18",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 37
+    },
+    "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+  },
+  "created_at": "2025-08-20T11:01:19.841376",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Yoko Ono (Japanese: 小野 洋子, romanized: Ono Yōko, usually spelled in katakana as オノ・ヨーコ; born February 18, 1933) is a Japanese multimedia artist, singer, songwriter, and peace activist. Her work also encompasses performance art and filmmaking.\nOno grew up in Tokyo and moved to New York City in 1952 to join her family. She became involved with New York City's downtown artists scene in the early 1960s, which included the Fluxus group, and became widely known outside the fine art world in 1969 when she married English musician John Lennon of the Beatles, with whom she would subsequently record as a duo in the Plastic Ono Band. The couple used their honeymoon as a stage for public protests against the Vietnam War with what they called a bed-in. She and Lennon remained married until he was murdered in front of the couple's apartment building, The Dakota, on December 8, 1980. Together, they had one son, Sean, who later also became a musician.\nOno began a career in popular music in 1969, forming the Plastic Ono Band with Lennon and producing a number of avant-garde music albums in the 1970s. She achieved commercial and critical success in 1980 with the chart-topping album Double Fantasy, a collaboration...",
+  "musicbrainz_info": {
+    "mbid": "b0b33754-a664-43b7-ba00-be0dc4ec2396",
+    "name": "Yoko Ono",
+    "disambiguation": "Japanese‐American musician and artist",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Tokyo",
+    "life_span": {
+      "begin": "1933-02-18",
+      "end": null
+    }
+  }
+}

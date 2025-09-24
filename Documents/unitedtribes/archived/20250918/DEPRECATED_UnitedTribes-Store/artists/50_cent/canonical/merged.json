@@ -1,0 +1,577 @@
+{
+  "artist_name": "50 Cent",
+  "works": [
+    {
+      "title": "No Mercy, No Fear",
+      "release_date": "2002",
+      "type": "Album",
+      "mbid": "1f85dcd7-5134-3d4a-8f6f-c70f0db19090"
+    },
+    {
+      "title": "G‐Unit Radio, Part 4: No Peace Talks!",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "41140278-b3bf-36e3-adfa-6f00cab6cb8e"
+    },
+    {
+      "title": "Tha Gangsta Mix",
+      "release_date": "2005-02-11",
+      "type": "Album",
+      "mbid": "49b9adb1-b85d-3d01-9fa4-77be6771abce"
+    },
+    {
+      "title": "Exclusives and Remixes, Volume 2",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "4af18406-44ee-3a24-a86b-fbfcc4867399"
+    },
+    {
+      "title": "Come and Get You",
+      "release_date": "2018-07-18",
+      "type": "Album",
+      "mbid": "4c66f162-2b00-44f1-9ddd-e3508cccd5a6"
+    },
+    {
+      "title": "NY State of Mind, Vol. 1",
+      "release_date": "2011-11-07",
+      "type": "Album",
+      "mbid": "5a379158-82bf-4e15-87b6-134960c1da46"
+    },
+    {
+      "title": "Curtis",
+      "release_date": "2007-09-10",
+      "type": "Album",
+      "mbid": "64057bd1-ac2c-3a65-94b8-7540037c4a09"
+    },
+    {
+      "title": "Best of 50 Cent",
+      "release_date": "2017-03-31",
+      "type": "Album",
+      "mbid": "6ff60ca7-3ebb-4fd3-95c9-41d1675cba36"
+    },
+    {
+      "title": "Freestyle B4 Paystyle",
+      "release_date": "2007-07-10",
+      "type": "Album",
+      "mbid": "701b9b26-62db-34ee-bf43-cd5622203d29"
+    },
+    {
+      "title": "The Massacre",
+      "release_date": "2005-03-03",
+      "type": "Album",
+      "mbid": "7cf9ea18-827d-362d-858e-26faab3242ee"
+    },
+    {
+      "title": "G‐Unit, Pt. 5: Bulletproof",
+      "release_date": "2003-02-08",
+      "type": "Album",
+      "mbid": "7dc8eb67-e529-3bbd-8b02-861d3389e0bd"
+    },
+    {
+      "title": "Live at the Hard Rock",
+      "release_date": "2007",
+      "type": "Album",
+      "mbid": "7fcd88ea-77c1-4b27-98b5-5260ad8efdf4"
+    },
+    {
+      "title": "Rare",
+      "release_date": "2018-06-05",
+      "type": "Album",
+      "mbid": "84d78993-d97b-4827-a129-894689424ad2"
+    },
+    {
+      "title": "Guess Who’s Back?",
+      "release_date": "2002-04-26",
+      "type": "Album",
+      "mbid": "88fe68c7-7f2c-4b4d-b8e1-acbba5b6a2a0"
+    },
+    {
+      "title": "The Hits and Unreleased, Volume 1",
+      "release_date": "2002",
+      "type": "Album",
+      "mbid": "955665e9-9742-3e6b-9c75-876692b90d69"
+    },
+    {
+      "title": "’90s & My Heart’s Broken",
+      "release_date": "2009-02-14",
+      "type": "Album",
+      "mbid": "9711e40c-f886-4ab8-b4f9-1ab6cff72be2"
+    },
+    {
+      "title": "G‐Unit Radio: Smokin’ Day 2",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "9fe62121-91a2-41dc-8dff-fae72e754a91"
+    },
+    {
+      "title": "Animal Ambition: An Untamed Desire to Win",
+      "release_date": "2014-06-02",
+      "type": "Album",
+      "mbid": "a558a6b3-a5e2-4b64-9097-e55551b9306a"
+    },
+    {
+      "title": "Best of 50 Cent",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "dc60b5e3-c776-3506-89e4-617f7f67eba7"
+    },
+    {
+      "title": "Elephant in the Sand",
+      "release_date": "2008-03-11",
+      "type": "Album",
+      "mbid": "dd2d1ee6-eb93-436e-9f80-c3d8acfa095f"
+    },
+    {
+      "title": "Get Rich or Die Tryin’ / The Massacre",
+      "release_date": "2009-11-03",
+      "type": "Album",
+      "mbid": "de67db83-d8ff-4a4e-b878-515a3827090d"
+    },
+    {
+      "title": "G‐Unit Radio, Part 2: International Ballers",
+      "release_date": "2003-06-10",
+      "type": "Album",
+      "mbid": "e212e0e9-7e4a-4de0-8fc0-504b0c15e790"
+    },
+    {
+      "title": "Get Rich or Die Tryin’",
+      "release_date": "2003-02-04",
+      "type": "Album",
+      "mbid": "f624ead2-e4ba-4e52-bea5-4362b1c67b14"
+    },
+    {
+      "title": "Before I Self Destruct",
+      "release_date": "2009-11-09",
+      "type": "Album",
+      "mbid": "f79c54a1-080b-468a-9ddc-943a65bf77d1"
+    },
+    {
+      "title": "Bulletproof: The Mixtape",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "fed70de4-1262-48dc-96f4-b6ed67c4c8e0"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Aftermath Entertainment",
+      "SK",
+      "Shady Records",
+      "SMS Audio",
+      "G Unit",
+      "ThisIs50.com"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000919805"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/30"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/8e68819d-71be-4e7d-b41d-f1df81b01d3f"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/668482"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/79578"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/3q7HBObVc0L8jNeTe5Gofh"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/66"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:50_Cent_2012.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1265067/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/50+Cent"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4864/50-cent/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/50-cent"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/50-Cent"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/50cent"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://50cent.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/5/50_Cent/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/130656402"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/50-cent"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/50_cent"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/50-cent"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/142395"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/50-cent/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/50-Cent/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id112058"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/50-cent"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/50-cent/50457"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.junodownload.com/artists/50+Cent/releases/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700240368"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/13856"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/50-cent-2bd69cce.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/50cent"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/50cent"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/50cent/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.reverbnation.com/50centofficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@50cent"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/407361"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/50_cent"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000QJO3TY"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/112058"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/112058"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/17548"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/50-cent"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/713910"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/62764191"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q6060"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/50CentVEVO"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCOcnYBwT1jb6EHlS0cwhNkA"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/50_Cent",
+    "musicbrainz": "https://musicbrainz.org/artist/8e68819d-71be-4e7d-b41d-f1df81b01d3f"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Curtis James Jackson III (born July 6, 1975), known professionally as 50 Cent, is an American rapper, actor, and television producer. Born in Queens, a borough of New York City, Jackson began pursuing a musical career in 1996. In 1999–2000, he recorded his debut album Power of the Dollar for Columbia Records; however, he was struck by nine bullets during a shooting in May 2000, causing its release to be cancelled and Jackson to be dropped from the label. His 2002 mixtape, Guess Who's Back?, was discovered by Detroit rapper Eminem, who signed Jackson to his label Shady Records, an imprint of Dr. Dre's Aftermath Entertainment and Interscope Records that same year.\nHis debut studio album, Get Rich or Die Tryin' (2003), was released to critical acclaim and commercial success. Peaking atop the Billboard 200, it spawned the Billboard Hot 100-number one singles \"In da Club\" and \"21 Questions\" (featuring Nate Dogg), and received nonuple platinum certification by the Recording Industry Association of America (RIAA). That same year, he launched the record label G-Unit Records, namesake of a hip hop group he formed two years prior; the label's initial signees were its members, fellow East Coast...",
+    "summary": "Curtis James Jackson III (born July 6, 1975), known professionally as 50 Cent, is an American rapper, actor, and television producer. Born in Queens, a borough of New York City, Jackson began pursuing a musical career in 1996. In 1999–2000, he recorded his debut album Power of the Dollar for Columbia Records; however, he was struck by nine bullets during a shooting in May 2000, causing its release to be cancelled and Jackson to be dropped from the label. His 2002 mixtape, Guess Who's Back?, was ...",
+    "url": "https://en.wikipedia.org/wiki/50_Cent",
+    "title": "50 Cent",
+    "word_count": 196,
+    "categories": [
+      "Category:1975 births",
+      "Category:20th-century American male rappers",
+      "Category:20th-century American rappers",
+      "Category:21st-century African-American businesspeople",
+      "Category:21st-century African-American male actors",
+      "Category:21st-century African-American writers",
+      "Category:21st-century American businesspeople",
+      "Category:21st-century American male actors",
+      "Category:21st-century American male rappers",
+      "Category:21st-century American male writers",
+      "Category:21st-century American memoirists",
+      "Category:21st-century American rappers",
+      "Category:50 Cent",
+      "Category:African-American company founders",
+      "Category:African-American fashion designers",
+      "Category:African-American film producers",
+      "Category:African-American investors",
+      "Category:African-American male rappers",
+      "Category:African-American male songwriters",
+      "Category:African-American memoirists",
+      "Category:African-American publishers (people)",
+      "Category:African-American record producers",
+      "Category:African-American television producers",
+      "Category:Aftermath Entertainment artists",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles containing potentially dated statements",
+      "Category:All articles with unsourced statements",
+      "Category:All articles with vague or ambiguous time",
+      "Category:American autobiographers",
+      "Category:American book publishing company founders",
+      "Category:American boxing promoters",
+      "Category:American businesspeople convicted of crimes",
+      "Category:American businesspeople in fashion",
+      "Category:American chairpersons of corporations",
+      "Category:American chief executives of food industry companies",
+      "Category:American cosmetics businesspeople",
+      "Category:American drink industry businesspeople",
+      "Category:American fashion designers",
+      "Category:American hip-hop record producers",
+      "Category:American investors",
+      "Category:American male film actors",
+      "Category:American male television actors",
+      "Category:American male video game actors",
+      "Category:American marketing businesspeople",
+      "Category:American mining businesspeople",
+      "Category:American music industry executives",
+      "Category:American music publishers (people)",
+      "Category:American nonprofit businesspeople",
+      "Category:American people convicted of drug offenses",
+      "Category:American reality television producers"
+    ],
+    "internal_links": [
+      "\"Freeway\" Rick Ross",
+      "'Til Tuesday",
+      "13 (2010 film)",
+      "1989 (album)",
+      "1 (Beatles album)",
+      "2005 MTV Video Music Awards",
+      "2008 BET Hip Hop Awards",
+      "2008 financial crisis",
+      "2025 New York City mayoral election",
+      "21 (Adele album)",
+      "21 Questions",
+      "25 (Adele album)",
+      "2 Chainz",
+      "40 Glocc",
+      "4:44",
+      "50 Cent: Blood on the Sand",
+      "50 Cent: Bulletproof",
+      "50 Cent: The Money and the Power",
+      "50 Cent (disambiguation)",
+      "50 Cent Is the Future",
+      "50 Cent albums discography",
+      "50 Cent singles discography",
+      "50 Cent videography",
+      "50 Central",
+      "52nd Street (album)",
+      "5 (Murder by Numbers)",
+      "8 Mile: Music from and Inspired by the Motion Picture",
+      "99 Problems",
+      "9 mm caliber",
+      "A-ha",
+      "AAVE",
+      "ABC News (United States)",
+      "Access Granted",
+      "Ace of Base",
+      "Adam Levine",
+      "Adele",
+      "Affidavit",
+      "Aftermath Entertainment",
+      "Agency for the Performing Arts",
+      "Air Jordan",
+      "Akon",
+      "Alanis Morissette",
+      "Album",
+      "Alex da Kid",
+      "Alicia Keys",
+      "AllMusic",
+      "AllMusic (identifier)",
+      "All Things Fall Apart",
+      "All We Got Iz Us",
+      "All or Nothing (Fat Joe album)",
+      "Altered state of consciousness",
+      "Amagi Brilliant Park",
+      "America's Next Top Model",
+      "American Music Award",
+      "American Music Award for Favorite Rap/Hip Hop Artist",
+      "American Music Awards",
+      "Amil (rapper)",
+      "Amusement Park (50 Cent song)",
+      "Andre Dirrell",
+      "Andrew Jackson High School (Queens)",
+      "Angie Martinez",
+      "Animal Ambition",
+      "Apple Inc.",
+      "Archive.today",
+      "Are You Experienced",
+      "Arlington, Texas",
+      "Arrested Development (group)",
+      "Artists and repertoire",
+      "As I Am (Alicia Keys album)",
+      "Ashanti (singer)",
+      "Asia (Asia album)",
+      "Asia (band)",
+      "Assault",
+      "August Alsina",
+      "Austin Mahone",
+      "Autism Speaks",
+      "Autistic",
+      "Avenged Sevenfold",
+      "Avril Lavigne",
+      "Ayo Technology",
+      "BBC",
+      "BET (TV channel)",
+      "BET Award for Best Male Hip Hop Artist",
+      "BET Award for Best New Artist",
+      "BET Awards",
+      "BME Recordings",
+      "BMF (TV series)",
+      "Baby by Me",
+      "Bacdafucup",
+      "Backstreet Boys",
+      "Bad Boy Records",
+      "Bad Bunny",
+      "Bad Day (Daniel Powter song)",
+      "Balrog (Street Fighter)",
+      "Bar (music)",
+      "Barack Obama",
+      "Barry Jenkins",
+      "Battery (crime)",
+      "Beanie Sigel",
+      "Before I Self Destruct"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg/330px-Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+      "name": "50 Cent",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "South Jamaica",
+      "life_span": {
+        "begin": "1975-07-06",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 6,
+      "instruments": 0,
+      "related_urls": 47
+    },
+    "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f"
+  },
+  "created_at": "2025-08-20T07:57:49.060889",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Curtis James Jackson III (born July 6, 1975), known professionally as 50 Cent, is an American rapper, actor, and television producer. Born in Queens, a borough of New York City, Jackson began pursuing a musical career in 1996. In 1999–2000, he recorded his debut album Power of the Dollar for Columbia Records; however, he was struck by nine bullets during a shooting in May 2000, causing its release to be cancelled and Jackson to be dropped from the label. His 2002 mixtape, Guess Who's Back?, was discovered by Detroit rapper Eminem, who signed Jackson to his label Shady Records, an imprint of Dr. Dre's Aftermath Entertainment and Interscope Records that same year.\nHis debut studio album, Get Rich or Die Tryin' (2003), was released to critical acclaim and commercial success. Peaking atop the Billboard 200, it spawned the Billboard Hot 100-number one singles \"In da Club\" and \"21 Questions\" (featuring Nate Dogg), and received nonuple platinum certification by the Recording Industry Association of America (RIAA). That same year, he launched the record label G-Unit Records, namesake of a hip hop group he formed two years prior; the label's initial signees were its members, fellow East Coast...",
+  "musicbrainz_info": {
+    "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+    "name": "50 Cent",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "South Jamaica",
+    "life_span": {
+      "begin": "1975-07-06",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:21.159701"
+}

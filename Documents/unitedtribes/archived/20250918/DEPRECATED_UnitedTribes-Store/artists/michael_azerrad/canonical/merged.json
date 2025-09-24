@@ -1,0 +1,106 @@
+{
+  "artist_name": "Michael Azerrad",
+  "works": [],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/1853042"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n93037819"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb124490573"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL639514A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n93037819"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/19773239"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q647640"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Azerrad",
+    "musicbrainz": "https://musicbrainz.org/artist/532857f4-2f6c-4e89-a280-1cdb68c3e6ec"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Michael Azerrad is an American author, music journalist, editor, and musician. As a graduate of Columbia University, he has written for publications such as Spin, Rolling Stone, and The New York Times. Azerrad's 1993 biography Come as You Are: The Story of Nirvana was named by Q as one of the 50 greatest rock books ever written. His 2001 book Our Band Could Be Your Life, a collection of profiles on prominent indie rock bands, received similar critical acclaim.\n\n",
+    "summary": "Michael Azerrad is an American author, music journalist, editor, and musician. As a graduate of Columbia University, he has written for publications such as Spin, Rolling Stone, and The New York Times. Azerrad's 1993 biography Come as You Are: The Story of Nirvana was named by Q as one of the 50 greatest rock books ever written. His 2001 book Our Band Could Be Your Life, a collection of profiles on prominent indie rock bands, received similar critical acclaim.\n\n...",
+    "url": "https://en.wikipedia.org/wiki/Michael_Azerrad",
+    "title": "Michael Azerrad",
+    "word_count": 79,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Michael_Azerrad.jpg/330px-Michael_Azerrad.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "532857f4-2f6c-4e89-a280-1cdb68c3e6ec",
+      "name": "Michael Azerrad",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "New York",
+      "life_span": {
+        "begin": "1961-05-08",
+        "end": null
+      }
+    },
+    "total_works": 0,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 7
+    },
+    "mbid": "532857f4-2f6c-4e89-a280-1cdb68c3e6ec"
+  },
+  "created_at": "2025-08-20T10:59:30.831194",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Michael Azerrad is an American author, music journalist, editor, and musician. As a graduate of Columbia University, he has written for publications such as Spin, Rolling Stone, and The New York Times. Azerrad's 1993 biography Come as You Are: The Story of Nirvana was named by Q as one of the 50 greatest rock books ever written. His 2001 book Our Band Could Be Your Life, a collection of profiles on prominent indie rock bands, received similar critical acclaim.\n\n",
+  "musicbrainz_info": {
+    "mbid": "532857f4-2f6c-4e89-a280-1cdb68c3e6ec",
+    "name": "Michael Azerrad",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "New York",
+    "life_span": {
+      "begin": "1961-05-08",
+      "end": null
+    }
+  }
+}

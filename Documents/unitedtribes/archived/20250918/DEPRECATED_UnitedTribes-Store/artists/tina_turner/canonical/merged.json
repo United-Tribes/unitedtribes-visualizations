@@ -1,0 +1,606 @@
+{
+  "artist_name": "Tina Turner",
+  "works": [
+    {
+      "title": "Tina Turner",
+      "release_date": "1996",
+      "type": "Album",
+      "mbid": "0a9ec3c7-981a-4408-b1cc-ce31331d9e07"
+    },
+    {
+      "title": "Good Hearted Woman",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "3059b524-9b74-45a7-8ba0-2520da1278a2"
+    },
+    {
+      "title": "So Fine",
+      "release_date": "1987",
+      "type": "Album",
+      "mbid": "390c956a-2db4-483a-b904-29013de5d4ec"
+    },
+    {
+      "title": "Tina Turner Sings Country",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "3d3f5379-be78-39ee-970f-e075fc579770"
+    },
+    {
+      "title": "Children Beyond: Understanding Through Singing",
+      "release_date": "2011",
+      "type": "Album",
+      "mbid": "41e037c2-6c8d-4c15-ac74-87c6cb72a1f8"
+    },
+    {
+      "title": "Country My Way",
+      "release_date": "2003-08-12",
+      "type": "Album",
+      "mbid": "45f11b4f-8ee4-3955-b2d6-475a4063d7a9"
+    },
+    {
+      "title": "All That Glitters",
+      "release_date": "2000",
+      "type": "Album",
+      "mbid": "5234fea2-80f9-3296-adba-1813c390855b"
+    },
+    {
+      "title": "Acid Queen",
+      "release_date": "1975",
+      "type": "Album",
+      "mbid": "5316a137-86d2-3531-b10b-aa23473c7056"
+    },
+    {
+      "title": "Dues Paid",
+      "release_date": "1999",
+      "type": "Album",
+      "mbid": "596432a4-b957-40b6-b9c5-a661a47fa2d7"
+    },
+    {
+      "title": "Wildest Dreams",
+      "release_date": "1996-04-22",
+      "type": "Album",
+      "mbid": "614c1a23-3f2f-3a07-afd9-8e898a504f42"
+    },
+    {
+      "title": "Soul Deep",
+      "release_date": "2004",
+      "type": "Album",
+      "mbid": "67353240-c220-3876-8c79-ea4f31a08ddc"
+    },
+    {
+      "title": "Foreign Affair",
+      "release_date": "1989-09-12",
+      "type": "Album",
+      "mbid": "6ef79cde-6fca-3ac7-a5e6-d78d795fd036"
+    },
+    {
+      "title": "Tina Turns the Country On",
+      "release_date": "1974",
+      "type": "Album",
+      "mbid": "74737c0f-911d-4eec-a7bd-f02787002a00"
+    },
+    {
+      "title": "The Collected Recordings: Sixties to Nineties",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "7f7c3765-9a36-34c7-b6b6-35c7fe382ca6"
+    },
+    {
+      "title": "The Magic Collection",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "888689b4-5c27-4b6e-b2e0-598d177c011f"
+    },
+    {
+      "title": "Simply the Best",
+      "release_date": "1991-09-30",
+      "type": "Album",
+      "mbid": "942b967c-5190-3f77-bc8d-30804e84110b"
+    },
+    {
+      "title": "The Edge",
+      "release_date": "1980",
+      "type": "Album",
+      "mbid": "96977ac9-efcc-42d8-926c-97749f14dbd7"
+    },
+    {
+      "title": "Love Explosion",
+      "release_date": "1979",
+      "type": "Album",
+      "mbid": "976b1f1b-2273-3f42-8921-699fa7284ca7"
+    },
+    {
+      "title": "Twenty Four Seven",
+      "release_date": "1999-10-28",
+      "type": "Album",
+      "mbid": "b51946fa-14cb-3ec6-add5-5ec67f5525e5"
+    },
+    {
+      "title": "Break Every Rule",
+      "release_date": "1986-09-24",
+      "type": "Album",
+      "mbid": "b7cda27a-6174-3b99-aaf9-d2420a62319c"
+    },
+    {
+      "title": "Shake a Tail Feather",
+      "release_date": "2000",
+      "type": "Album",
+      "mbid": "c4f24971-d8b2-4ad0-b4f8-35f5bef69139"
+    },
+    {
+      "title": "Private Dancer",
+      "release_date": "1984-05-29",
+      "type": "Album",
+      "mbid": "cffc5347-3b75-37cc-9120-0ae98b2748dc"
+    },
+    {
+      "title": "All the Best",
+      "release_date": "2004-10-29",
+      "type": "Album",
+      "mbid": "d88fb0be-72f4-3011-b8ca-44911494b868"
+    },
+    {
+      "title": "tina turns the country on",
+      "release_date": "2024",
+      "type": "Album",
+      "mbid": "e54fa21e-bf08-401c-a945-b8ae6bc83bd9"
+    },
+    {
+      "title": "Rough",
+      "release_date": "1978-11",
+      "type": "Album",
+      "mbid": "f5cde969-6193-3ed9-8feb-ed817fb43bb9"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "USA for Africa"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Capitol Records, Inc."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000597309"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/50425"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/9072df14-b61e-42e2-b4f4-6bbb7fdb5586"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/24221"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/2641117"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.tinaturnerfanclub.eu/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/1zuJe6b1roixEKMOtyrEak"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1454"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Tina_turner_21021985_01_350.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0877913/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Tina+Turner"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4022/tina-turner/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Tina-turner"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Tina-Turner"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/tinaturner"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.tinaturnerofficial.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb139006103"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118763237"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://id.loc.gov/authorities/names/n83046564"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/tina-turner"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/T/Turner,_Tina/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6rx9jhq"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1008686"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL4890850A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/tina-turner"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/tina-turner"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/tina-turner/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000017855/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Tina-Turner/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n83046564"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.maniadb.com/artist/132027"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=A55yzc3gaxf2wnhto44bjnho3ru"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id488075"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/488075"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/_/22698"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1238"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/tina-turner-63d6bef3.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/lovetinaturner"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/108011713503328857616"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/tinaturner"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/TinaTurner"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/tinaturner/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@officialtinaturner"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/353621"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/tina-turner-official"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000QJNPQG"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/488075"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/9214"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/tina-turner"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/210542814"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/74275996"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q131814"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCfBkblXPcSNt784AZz5J6AQ"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/TinaTurnerQueenTV"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UC3XcDooUnwiaiTPlICV6-ig"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tina_Turner",
+    "musicbrainz": "https://musicbrainz.org/artist/9072df14-b61e-42e2-b4f4-6bbb7fdb5586"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Tina Turner (born Anna Mae Bullock; November 26, 1939 – May 24, 2023) was a singer, songwriter, actress and author. Dubbed the \"Queen of Rock 'n' Roll\", her vocal prowess, raspy voice and electrifying stage presence broke the racial barrier in rock music. She is one of the best-selling recording artists of all time, with estimated sales of 100 million records.\nTurner rose to prominence in 1960 as the lead singer of the husband-wife duo Ike & Tina Turner, known for their explosive live performances with the Ikettes and Kings of Rhythm. After years of marital abuse, she left in 1976, and embarked on a solo career. She made a musical comeback with her multi-platinum album Private Dancer (1984), whose single \"What's Love Got to Do with It\" won the Grammy Award for Record of the Year and became her only number-one song on the Billboard Hot 100. Turner's worldwide chart success continued with \"Let's Stay Together\", \"Better Be Good to Me\", \"Private Dancer\", \"We Don't Need Another Hero (Thunderdome)\", \"It's Only Love\", \"Typical Male\", \"The Best\", \"I Don't Wanna Lose You\", \"I Don't Wanna Fight\" and \"GoldenEye\". \nTurner's Break Every Rule World Tour (1987–88) became the highest-grossing female...",
+    "summary": "Tina Turner (born Anna Mae Bullock; November 26, 1939 – May 24, 2023) was a singer, songwriter, actress and author. Dubbed the \"Queen of Rock 'n' Roll\", her vocal prowess, raspy voice and electrifying stage presence broke the racial barrier in rock music. She is one of the best-selling recording artists of all time, with estimated sales of 100 million records.\nTurner rose to prominence in 1960 as the lead singer of the husband-wife duo Ike & Tina Turner, known for their explosive live performanc...",
+    "url": "https://en.wikipedia.org/wiki/Tina_Turner",
+    "title": "Tina Turner",
+    "word_count": 199,
+    "categories": [
+      "Category:1939 births",
+      "Category:2023 deaths",
+      "Category:20th-century African-American actresses",
+      "Category:20th-century African-American women singers",
+      "Category:20th-century American Buddhists",
+      "Category:20th-century American actresses",
+      "Category:20th-century American singers",
+      "Category:20th-century American women singers",
+      "Category:21st-century African-American actresses",
+      "Category:21st-century African-American women singers",
+      "Category:21st-century American Buddhists",
+      "Category:21st-century American actresses",
+      "Category:21st-century American memoirists",
+      "Category:21st-century American women singers",
+      "Category:Actresses from Los Angeles County, California",
+      "Category:Actresses from St. Louis",
+      "Category:Actresses from Tennessee",
+      "Category:African-American Buddhists",
+      "Category:African-American choreographers",
+      "Category:African-American female dancers",
+      "Category:African-American memoirists",
+      "Category:African-American rock singers",
+      "Category:African-American women memoirists",
+      "Category:All Wikipedia articles written in American English",
+      "Category:American Buddhists",
+      "Category:American Nichiren Buddhists",
+      "Category:American choreographers",
+      "Category:American contraltos",
+      "Category:American emigrants to Switzerland",
+      "Category:American film actresses",
+      "Category:American musicians with disabilities",
+      "Category:American pop rock singers",
+      "Category:American rhythm and blues singers",
+      "Category:American soul singers",
+      "Category:American television actresses",
+      "Category:American women memoirists",
+      "Category:American women pop singers",
+      "Category:American women rock singers",
+      "Category:American writers with disabilities",
+      "Category:Articles containing French-language text",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Baptists from Tennessee",
+      "Category:Biography with signature",
+      "Category:CS1: unfit URL",
+      "Category:CS1 French-language sources (fr)",
+      "Category:CS1 German-language sources (de)",
+      "Category:CS1 Italian-language sources (it)",
+      "Category:CS1 Spanish-language sources (es)",
+      "Category:CS1 Swiss High German-language sources (de-ch)"
+    ],
+    "internal_links": [
+      "'Nuff Said (Ike & Tina Turner album)",
+      ".38 caliber",
+      "1001 Albums You Must Hear Before You Die",
+      "14th Dalai Lama",
+      "24K Magic (song)",
+      "27th Annual Grammy Awards",
+      "50th Annual Grammy Awards",
+      "634-5789 (Soulsville, U.S.A.)",
+      "66th Annual Grammy Awards",
+      "A&M Records",
+      "AARP",
+      "ABC News (United States)",
+      "AEG Live",
+      "A Change Is Gonna Come",
+      "A Fool for a Fool",
+      "A Fool in Love",
+      "A Love Like Yours (Don't Come Knocking Everyday)",
+      "A Taste of Honey (song)",
+      "Aaliyah",
+      "About Damn Time",
+      "Academy Awards",
+      "Acid Queen",
+      "Acid Queen (album)",
+      "Addicted to Love (song)",
+      "Adele",
+      "Adrienne Warren",
+      "Afida Turner",
+      "African-American studies",
+      "African American Lives 2",
+      "African Americans",
+      "Afterglow (Tina Turner song)",
+      "Ahmad Jamal",
+      "Airwaves (Ike & Tina Turner album)",
+      "Al Green",
+      "Alain Berset",
+      "Alanis Morissette",
+      "Albert King",
+      "Aldwych Theatre",
+      "Alfre Woodard",
+      "Alicia Keys",
+      "Alimony",
+      "Alison Krauss",
+      "AllMusic (identifier)",
+      "All I Wanna Do (Sheryl Crow song)",
+      "All the Best: The Live Collection",
+      "All the Best (Tina Turner album)",
+      "All the Invisible Children",
+      "Alline Bullock",
+      "Ally McBeal",
+      "Amandla Stenberg",
+      "Amazon (company)",
+      "American Bandstand",
+      "American Music Award for Favorite Pop/Rock Female Artist",
+      "American Music Award for Favorite Soul/R&B Female Artist",
+      "Amsterdam Airport Schiphol",
+      "Amy Winehouse",
+      "Andrew Lloyd Webber",
+      "André Previn",
+      "Andrés Segovia",
+      "Angela Bassett",
+      "Angela Lansbury",
+      "Anita Baker",
+      "Ann-Margret",
+      "Ann Wilson",
+      "Annie Lennox",
+      "Another Day in Paradise",
+      "Anthology film",
+      "Antônio Carlos Jobim",
+      "Apartheid",
+      "Aquarius/Let the Sunshine In",
+      "Aretha Franklin",
+      "Ariana Grande",
+      "Armando Manzanero",
+      "Art Blakey",
+      "Art Lassiter",
+      "Art Tatum",
+      "Arthur Brooks (singer)",
+      "Arthur Rubinstein",
+      "Artie Shaw",
+      "Arturo Toscanini",
+      "Assisted suicide",
+      "Associated Press News",
+      "Astrud Gilberto",
+      "B.B. King",
+      "B. B. King",
+      "BBC",
+      "BET Awards 2023",
+      "BMG Rights Management",
+      "Baby, Get It On",
+      "Back Stabbers (song)",
+      "Back Where You Started",
+      "Bad Guy (Billie Eilish song)",
+      "Bad Romance",
+      "Ball of Confusion (That's What the World Is Today)",
+      "Baptist church",
+      "Barack Obama",
+      "Barbara McNair",
+      "Barbie doll",
+      "Barbra Streisand",
+      "Barnes-Jewish Hospital"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tina_turner_21021985_01_350.jpg/330px-Tina_turner_21021985_01_350.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "9072df14-b61e-42e2-b4f4-6bbb7fdb5586",
+      "name": "Tina Turner",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "CH",
+      "begin_area": "Nutbush",
+      "life_span": {
+        "begin": "1939-11-26",
+        "end": "2023-05-24"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 55
+    },
+    "mbid": "9072df14-b61e-42e2-b4f4-6bbb7fdb5586"
+  },
+  "created_at": "2025-08-20T08:01:01.496808",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Tina Turner (born Anna Mae Bullock; November 26, 1939 – May 24, 2023) was a singer, songwriter, actress and author. Dubbed the \"Queen of Rock 'n' Roll\", her vocal prowess, raspy voice and electrifying stage presence broke the racial barrier in rock music. She is one of the best-selling recording artists of all time, with estimated sales of 100 million records.\nTurner rose to prominence in 1960 as the lead singer of the husband-wife duo Ike & Tina Turner, known for their explosive live performances with the Ikettes and Kings of Rhythm. After years of marital abuse, she left in 1976, and embarked on a solo career. She made a musical comeback with her multi-platinum album Private Dancer (1984), whose single \"What's Love Got to Do with It\" won the Grammy Award for Record of the Year and became her only number-one song on the Billboard Hot 100. Turner's worldwide chart success continued with \"Let's Stay Together\", \"Better Be Good to Me\", \"Private Dancer\", \"We Don't Need Another Hero (Thunderdome)\", \"It's Only Love\", \"Typical Male\", \"The Best\", \"I Don't Wanna Lose You\", \"I Don't Wanna Fight\" and \"GoldenEye\". \nTurner's Break Every Rule World Tour (1987–88) became the highest-grossing female...",
+  "musicbrainz_info": {
+    "mbid": "9072df14-b61e-42e2-b4f4-6bbb7fdb5586",
+    "name": "Tina Turner",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "CH",
+    "begin_area": "Nutbush",
+    "life_span": {
+      "begin": "1939-11-26",
+      "end": "2023-05-24"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:24.053118"
+}

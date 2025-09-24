@@ -1,0 +1,339 @@
+{
+  "artist_name": "Count Basie",
+  "works": [
+    {
+      "title": "Inside Basie Outside",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "00e35f18-3df5-48fa-868f-a8c6c43ae11a"
+    },
+    {
+      "title": "Arthur Prysock / Count Basie",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "183808d2-9697-3985-80bb-70e2126ce8b3"
+    },
+    {
+      "title": "The Board of Directors Annual Report",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "1acbe013-5893-35cc-befa-cc786aa3e002"
+    },
+    {
+      "title": "The Atomic Mr. Basie",
+      "release_date": "1958-03",
+      "type": "Album",
+      "mbid": "1b464368-017c-3aba-8a2d-437bcf43b5d0"
+    },
+    {
+      "title": "Just The Blues",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "2e4bb31c-969f-40e2-a956-121cc3687e4d"
+    },
+    {
+      "title": "String Along With Basie",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "31a0c0fd-9ca3-456d-87a7-3f988916ef5a"
+    },
+    {
+      "title": "Basie Swingin' Voices Singin'",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "50c94989-09d5-46fc-b236-2717efb2b656"
+    },
+    {
+      "title": "Sammy Davis & Count Basie: Our Shining Hour",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "55d52b01-2c2d-3591-8b49-b9c5c0a74c4c"
+    },
+    {
+      "title": "Sing Along With Basie",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "59b19f3e-c4e1-45aa-8227-53f34cb84262"
+    },
+    {
+      "title": "Basie Picks the Winners",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "5e29b354-c3b5-402b-aaad-933d4b4147cb"
+    },
+    {
+      "title": "Basie Rides Again",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "5eb50a48-43a0-4e5d-8e5d-a8bf95768d45"
+    },
+    {
+      "title": "Basie Plays Hefti",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "5f2cf9d9-da06-424d-b4ca-a5e4a581fea4"
+    },
+    {
+      "title": "Count At The Organ",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "647b78c4-20d2-48aa-bbed-882c82c1c6bd"
+    },
+    {
+      "title": "First Time! The Count Meets the Duke",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "65890654-7523-33e0-a825-2bf9fe8efe41"
+    },
+    {
+      "title": "Big Band Scene '65",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "7b6cfcae-c35b-4b9b-b91c-c44acb7f28cb"
+    },
+    {
+      "title": "Count Basie Captures Walt Disney's The Happiest Millionaire",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "80f635a2-144a-40df-8eef-224367f0aedc"
+    },
+    {
+      "title": "From Broadway To Paris",
+      "release_date": "1973",
+      "type": "Album",
+      "mbid": "83bc01ab-958f-4179-ac5c-6bc748bd2ed0"
+    },
+    {
+      "title": "Count Basie + Voices",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "94fc591d-8058-4ac8-b98e-953688f9233f"
+    },
+    {
+      "title": "Count Basie / Sarah Vaughan",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "aa6338cc-0fa0-3c69-886f-279d84a78f7c"
+    },
+    {
+      "title": "King of Swing",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "b874d6cd-9c94-36ad-8ba0-6297f9ace03a"
+    },
+    {
+      "title": "The Board of Directors",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "bcfe321a-593f-471d-b2a8-07dabbc2c0e1"
+    },
+    {
+      "title": "Count Basie and His Orchestra Swings / Tony Bennett Sings",
+      "release_date": "1959",
+      "type": "Album",
+      "mbid": "ec302f7c-9324-35be-90e8-435f319f3626"
+    },
+    {
+      "title": "Basie & Eckstine Incorporated",
+      "release_date": "1959",
+      "type": "Album",
+      "mbid": "f2f05fd5-48e7-34a8-bc06-3ec6e281da95"
+    },
+    {
+      "title": "Basie Roars Again",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "f6838e65-9717-490e-8dbd-06bfaa918ab8"
+    },
+    {
+      "title": "Manufacturers of Soul",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "f79cfd49-78d7-3d9b-bb90-802a59b6e0e1"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "Katie Crippen"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000127044"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/0dbd6300-efdc-420b-857e-895e18fad317"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/145262"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/2jFZlvIea42ZvcCw4OeEdA"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/7306"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Count_Basie_in_Rhythm_and_Blues_Revue.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0059831/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Count+Basie"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-7030/count-basie/lyrics.html"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n81016968"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://adp.library.ucsb.edu/names/103042"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb138912118"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118821431"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=89863"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6125rrp"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-910553"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL589938A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/count_basie"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/count-basie/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n81016968"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id28327"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/6492"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/28327"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/4518"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/46945530"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q107008"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC4w6_foxgGue-rPbVb0BMow"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Count_Basie",
+    "musicbrainz": "https://musicbrainz.org/artist/0dbd6300-efdc-420b-857e-895e18fad317"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "William James \"Count\" Basie (; August 21, 1904 – April 26, 1984) was an American jazz pianist, organist, bandleader, and composer. In 1935, he formed the Count Basie Orchestra, and in 1936 took them to Chicago for a long engagement and their first recording. He led the group for almost 50 years, creating innovations like the use of two \"split\" tenor saxophones, emphasizing the rhythm section, riffing with a big band, using arrangers to broaden their sound, his minimalist piano style, and others.\nMany musicians came to prominence under his direction, including the tenor saxophonists Lester Young and Herschel Evans, the guitarist Freddie Green, trumpeters Buck Clayton and Harry \"Sweets\" Edison, plunger trombonist Al Grey, and singers Jimmy Rushing, Helen Humes, Dennis Rowland, Thelma Carpenter, and Joe Williams.\nAs a composer, Basie is known for writing such jazz standards as \"Blue and Sentimental\", \"Jumpin' at the Woodside\" and \"One O'Clock Jump\".",
+    "summary": "William James \"Count\" Basie (; August 21, 1904 – April 26, 1984) was an American jazz pianist, organist, bandleader, and composer. In 1935, he formed the Count Basie Orchestra, and in 1936 took them to Chicago for a long engagement and their first recording. He led the group for almost 50 years, creating innovations like the use of two \"split\" tenor saxophones, emphasizing the rhythm section, riffing with a big band, using arrangers to broaden their sound, his minimalist piano style, and others.\nMany musicians came to prominence under his direction, including the tenor saxophonists Lester Young and Herschel Evans, the guitarist Freddie Green, trumpeters Buck Clayton and Harry \"Sweets\" Edison, plunger trombonist Al Grey, and singers Jimmy Rushing, Helen Humes, Dennis Rowland, Thelma Carpenter, and Joe Williams.\nAs a composer, Basie is known for writing such jazz standards as \"Blue and Sentimental\", \"Jumpin' at the Woodside\" and \"One O'Clock Jump\"....",
+    "url": "https://en.wikipedia.org/wiki/Count_Basie",
+    "title": "Count Basie",
+    "word_count": 151,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Count_Basie_%281955_Kriegsmann_portrait_-_square_crop%29.jpg/330px-Count_Basie_%281955_Kriegsmann_portrait_-_square_crop%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "0dbd6300-efdc-420b-857e-895e18fad317",
+      "name": "Count Basie",
+      "disambiguation": "pianist",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Red Bank",
+      "life_span": {
+        "begin": "1904-08-21",
+        "end": "1984-04-26"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 1,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 27
+    },
+    "mbid": "0dbd6300-efdc-420b-857e-895e18fad317"
+  },
+  "created_at": "2025-08-20T07:51:21.455997",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "William James \"Count\" Basie (; August 21, 1904 – April 26, 1984) was an American jazz pianist, organist, bandleader, and composer. In 1935, he formed the Count Basie Orchestra, and in 1936 took them to Chicago for a long engagement and their first recording. He led the group for almost 50 years, creating innovations like the use of two \"split\" tenor saxophones, emphasizing the rhythm section, riffing with a big band, using arrangers to broaden their sound, his minimalist piano style, and others.\nMany musicians came to prominence under his direction, including the tenor saxophonists Lester Young and Herschel Evans, the guitarist Freddie Green, trumpeters Buck Clayton and Harry \"Sweets\" Edison, plunger trombonist Al Grey, and singers Jimmy Rushing, Helen Humes, Dennis Rowland, Thelma Carpenter, and Joe Williams.\nAs a composer, Basie is known for writing such jazz standards as \"Blue and Sentimental\", \"Jumpin' at the Woodside\" and \"One O'Clock Jump\".",
+  "musicbrainz_info": {
+    "mbid": "0dbd6300-efdc-420b-857e-895e18fad317",
+    "name": "Count Basie",
+    "disambiguation": "pianist",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Red Bank",
+    "life_span": {
+      "begin": "1904-08-21",
+      "end": "1984-04-26"
+    }
+  }
+}

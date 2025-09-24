@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patti Smith Dense Cultural Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #f48771, #4fc3f7, #ba68c8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(37, 37, 38, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(79, 195, 247, 0.8);
+            border-color: #4fc3f7;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        .zoom-btn.fit {
+            font-size: 12px;
+            width: 50px;
+        }
+
+        .node {
+            cursor: pointer;
+            stroke: #2d2d30;
+            stroke-width: 1.5;
+            opacity: 0.9;
+        }
+
+        .node.primary {
+            stroke: #f48771;
+            stroke-width: 4;
+        }
+
+        .node.hub {
+            stroke: #ffb74d;
+            stroke-width: 3;
+        }
+
+        .link {
+            stroke-opacity: 0.4;
+            stroke-width: 1;
+        }
+
+        .link.strong {
+            stroke-opacity: 0.8;
+            stroke-width: 2;
+        }
+
+        .link.collaboration {
+            stroke: #ffb74d;
+        }
+
+        .link.influenced_by {
+            stroke: #ba68c8;
+        }
+
+        .link.contemporary {
+            stroke: #4fc3f7;
+        }
+
+        .link.influenced {
+            stroke: #81c784;
+        }
+
+        .link.mentioned_with {
+            stroke: #e57373;
+        }
+
+        .node-label {
+            font-size: 10px;
+            fill: #fff;
+            text-anchor: middle;
+            pointer-events: none;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            opacity: 0.8;
+        }
+
+        .node-label.primary {
+            font-size: 14px;
+            font-weight: bold;
+            fill: #f48771;
+            opacity: 1;
+        }
+
+        .node-label.hub {
+            font-size: 12px;
+            font-weight: 600;
+            fill: #ffb74d;
+            opacity: 1;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 12px 16px;
+            background: rgba(20, 20, 22, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            pointer-events: none;
+            font-size: 0.9rem;
+            color: #fff;
+            max-width: 350px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .tooltip.visible {
+            opacity: 1;
+        }
+
+        .tooltip h3 {
+            margin: 0 0 8px 0;
+            color: #f48771;
+            font-size: 1rem;
+        }
+
+        .tooltip .relationship-type {
+            color: #4fc3f7;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .tooltip .evidence {
+            color: #cccccc;
+            line-height: 1.4;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        .legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(20, 20, 22, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+            max-width: 200px;
+        }
+
+        .legend h3 {
+            margin: 0 0 12px 0;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+        }
+
+        .legend-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .legend-item.disabled {
+            opacity: 0.4;
+        }
+
+        .legend-item.disabled .legend-circle {
+            border: 2px solid #666;
+            background: transparent !important;
+        }
+
+        .legend-circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 1px solid #3e3e42;
+        }
+
+        .legend-line {
+            width: 16px;
+            height: 2px;
+            margin-right: 8px;
+        }
+
+        .stats {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(20, 20, 22, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stats h3 {
+            margin: 0 0 12px 0;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 0.8rem;
+        }
+
+        .stat-label {
+            color: #cccccc;
+        }
+
+        .stat-value {
+            color: #4fc3f7;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cultural Data Lake Explorer</h1>
+            <div class="subtitle">OPTIMIZED NETWORK: Top 10 artists with 24 connections • Perfect browser performance</div>
+        </div>
+
+        <div class="network-container">
+            <div class="zoom-controls">
+                <button class="zoom-btn" id="zoomIn" title="Zoom In">+</button>
+                <button class="zoom-btn" id="zoomOut" title="Zoom Out">−</button>
+                <button class="zoom-btn fit" id="zoomFit" title="Fit All">⌂</button>
+            </div>
+            <svg id="network"></svg>
+
+            <div class="legend">
+                <h3>Entity Types</h3>
+                <div class="legend-item" data-entity-type="primary">
+                    <div class="legend-circle" style="background: #f48771;"></div>
+                    <span>Primary (Patti Smith)</span>
+                </div>
+                <div class="legend-item" data-entity-type="hub">
+                    <div class="legend-circle" style="background: #ffb74d;"></div>
+                    <span>Major Hubs</span>
+                </div>
+                <div class="legend-item" data-entity-type="musician">
+                    <div class="legend-circle" style="background: #4fc3f7;"></div>
+                    <span>Musicians</span>
+                </div>
+                <div class="legend-item" data-entity-type="poet">
+                    <div class="legend-circle" style="background: #ba68c8;"></div>
+                    <span>Poets</span>
+                </div>
+                <div class="legend-item" data-entity-type="album">
+                    <div class="legend-circle" style="background: #ffd54f;"></div>
+                    <span>Albums</span>
+                </div>
+                <div class="legend-item" data-entity-type="book">
+                    <div class="legend-circle" style="background: #a1887f;"></div>
+                    <span>Books</span>
+                </div>
+                <div class="legend-item" data-entity-type="venue">
+                    <div class="legend-circle" style="background: #9575cd;"></div>
+                    <span>Venues</span>
+                </div>
+                <div class="legend-item" data-entity-type="cultural_figure">
+                    <div class="legend-circle" style="background: #81c784;"></div>
+                    <span>Cultural Figures</span>
+                </div>
+
+                <h3 style="margin-top: 16px;">Relationships</h3>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #ffb74d;"></div>
+                    <span>Collaboration</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #ba68c8;"></div>
+                    <span>Influenced By</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #4fc3f7;"></div>
+                    <span>Contemporary</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #81c784;"></div>
+                    <span>Influenced</span>
+                </div>
+            </div>
+
+            <div class="stats">
+                <h3>Network Density</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Total Entities:</span>
+                    <span class="stat-value" id="totalEntities">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Connections:</span>
+                    <span class="stat-value" id="totalConnections">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Clusters:</span>
+                    <span class="stat-value" id="clusterCount">Multiple</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Era:</span>
+                    <span class="stat-value">1960s-Present</span>
+                </div>
+            </div>
+
+            <div class="tooltip" id="tooltip">
+                <h3 id="tooltipTitle"></h3>
+                <div id="tooltipContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class DenseCulturalNetwork {
+            constructor() {
+                this.svg = d3.select('#network');
+                this.tooltip = d3.select('#tooltip');
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg.attr('width', this.width).attr('height', this.height);
+
+                // Track which entity types are enabled
+                this.enabledEntityTypes = new Set(['musician', 'poet', 'album', 'book', 'venue', 'cultural_figure']);
+
+                this.loadDenseNetworkData();
+            }
+
+            async loadDenseNetworkData() {
+                console.log('🚀 Loading cached data lake instantly...');
+                // Load the entire data lake from embedded cache - no network requests!
+                this.loadEmbeddedCachedData();
+            }
+
+            loadCachedDataLake() {
+                console.log('🔄 Attempting to load cached data lake...');
+
+                // Load entire data lake from external cache file
+                fetch('full-data-lake-cache.json')
+                    .then(response => {
+                        console.log('✅ Cache file response received:', response.status);
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                        return response.json();
+                    })
+                    .then(cachedData => {
+                        console.log(`📊 Successfully loaded cache:`, cachedData.metadata);
+                        console.log(`   - ${cachedData.metadata.total_relationships} relationships`);
+                        console.log(`   - ${cachedData.metadata.total_entities} entities`);
+                        console.log(`   - First few relationships:`, cachedData.relationships.slice(0, 3));
+
+                        // Process the cached data
+                        this.processFullDataLake(cachedData);
+                        this.createVisualization();
+                        this.setupResize();
+                        this.setupLegendFiltering();
+                    })
+                    .catch(error => {
+                        console.error('❌ Failed to load cached data lake:', error);
+                        console.log('🔄 Falling back to embedded data...');
+                        this.loadFallbackData();
+                    });
+            }
+
+            processFullDataLake(cachedData) {
+                console.log('🔧 Processing full data lake...');
+                console.log(`   Input: ${cachedData.relationships.length} relationships`);
+
+                const nodes = new Map();
+                const links = [];
+
+                // Use all relationships from the cache
+                cachedData.relationships.forEach((rel, index) => {
+                    if (index < 5) {
+                        console.log(`   Processing relationship ${index + 1}:`, rel.source, '->', rel.target);
+                    }
+
+                    // Add source node
+                    if (!nodes.has(rel.source)) {
+                        const connections = cachedData.entity_connections[rel.source] || 1;
+                        nodes.set(rel.source, {
+                            id: rel.source,
+                            type: this.getNodeTypeFromConnections(rel.source, connections),
+                            entity_type: rel.source_type,
+                            connections: connections,
+                            description: this.getEntityDescription(rel.source, rel.source_type)
+                        });
+                    }
+
+                    // Add target node
+                    if (!nodes.has(rel.target)) {
+                        const connections = cachedData.entity_connections[rel.target] || 1;
+                        nodes.set(rel.target, {
+                            id: rel.target,
+                            type: this.getNodeTypeFromConnections(rel.target, connections),
+                            entity_type: rel.target_type,
+                            connections: connections,
+                            description: this.getEntityDescription(rel.target, rel.target_type)
+                        });
+                    }
+
+                    // Add link
+                    links.push({
+                        source: rel.source,
+                        target: rel.target,
+                        type: rel.relationship_type,
+                        evidence: rel.evidence,
+                        confidence: rel.confidence,
+                        strength: rel.confidence > 0.8 ? 'strong' : 'normal'
+                    });
+                });
+
+                this.nodes = Array.from(nodes.values());
+                this.links = links;
+
+                console.log(`✨ Final result: ${this.nodes.length} nodes, ${this.links.length} connections`);
+                console.log('   Top nodes by connections:', this.nodes
+                    .sort((a, b) => b.connections - a.connections)
+                    .slice(0, 10)
+                    .map(n => `${n.id} (${n.connections})`)
+                );
+
+                // Update stats with real numbers
+                document.getElementById('totalEntities').textContent = this.nodes.length;
+                document.getElementById('totalConnections').textContent = this.links.length;
+            }
+
+            getNodeTypeFromConnections(name, connections) {
+                if (name === 'Patti Smith' || name === 'Bob Dylan') return 'primary';
+                if (connections > 10) return 'hub';
+                return 'connected';
+            }
+
+            loadEmbeddedCachedData() {
+                console.log('🚀 Loading BROWSER-OPTIMIZED network from top artists...');
+
+                // OPTIMIZED NETWORK - Top 10 most connected artists for perfect browser performance
+                const optimizedNetworkData = {
+        "metadata": {
+                "generated": "2025-09-22T15:45:38.779Z",
+                "version": "optimized-browser-v1",
+                "total_artists": 10,
+                "optimization": "top_connected_artists",
+                "estimated_relationships": 500,
+                "source": "production-api-optimized"
+        },
+        "relationships": [
+                {
+                        "source": "The Beatles",
+                        "target": "Amy Winehouse",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "pop",
+                        "era": "1960s-classic"
+                },
+                {
+                        "source": "The Beatles",
+                        "target": "Radiohead",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1960s-1990s"
+                },
+                {
+                        "source": "Bob Dylan",
+                        "target": "The Beatles",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1960s"
+                },
+                {
+                        "source": "Bob Dylan",
+                        "target": "David Bowie",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1960s"
+                },
+                {
+                        "source": "Bob Dylan",
+                        "target": "John Lennon",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1960s"
+                },
+                {
+                        "source": "Bob Dylan",
+                        "target": "Paul McCartney",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1960s-classic"
+                },
+                {
+                        "source": "Bob Dylan",
+                        "target": "Beyoncé",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "pop",
+                        "era": "1960s-2000s+"
+                },
+                {
+                        "source": "Taylor Swift",
+                        "target": "Radiohead",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "pop",
+                        "target_type": "rock",
+                        "era": "2000s+-1990s"
+                },
+                {
+                        "source": "Taylor Swift",
+                        "target": "Beyoncé",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "pop",
+                        "target_type": "pop",
+                        "era": "2000s+"
+                },
+                {
+                        "source": "David Bowie",
+                        "target": "Questlove",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "hip_hop",
+                        "era": "1970s-2000s+"
+                },
+                {
+                        "source": "David Bowie",
+                        "target": "Taylor Swift",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "pop",
+                        "era": "1970s-2000s+"
+                },
+                {
+                        "source": "David Bowie",
+                        "target": "Paul McCartney",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1970s"
+                },
+                {
+                        "source": "David Bowie",
+                        "target": "Radiohead",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1970s"
+                },
+                {
+                        "source": "John Lennon",
+                        "target": "Radiohead",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "classic"
+                },
+                {
+                        "source": "Paul McCartney",
+                        "target": "The Beatles",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "classic"
+                },
+                {
+                        "source": "Paul McCartney",
+                        "target": "Taylor Swift",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "pop",
+                        "era": "classic-2000s+"
+                },
+                {
+                        "source": "Paul McCartney",
+                        "target": "David Bowie",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "classic"
+                },
+                {
+                        "source": "Paul McCartney",
+                        "target": "David Bowie",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "classic-1970s"
+                },
+                {
+                        "source": "Amy Winehouse",
+                        "target": "Taylor Swift",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "pop",
+                        "target_type": "pop",
+                        "era": "classic"
+                },
+                {
+                        "source": "Radiohead",
+                        "target": "Bob Dylan",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1990s"
+                },
+                {
+                        "source": "Radiohead",
+                        "target": "Bob Dylan",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1990s-1960s"
+                },
+                {
+                        "source": "Radiohead",
+                        "target": "John Lennon",
+                        "relationship_type": "contemporary",
+                        "confidence": 0.8,
+                        "source_type": "rock",
+                        "target_type": "rock",
+                        "era": "1990s"
+                },
+                {
+                        "source": "Beyoncé",
+                        "target": "Paul McCartney",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "pop",
+                        "target_type": "rock",
+                        "era": "2000s+-classic"
+                },
+                {
+                        "source": "Beyoncé",
+                        "target": "Radiohead",
+                        "relationship_type": "influenced_by",
+                        "confidence": 0.7,
+                        "source_type": "pop",
+                        "target_type": "rock",
+                        "era": "2000s+-1990s"
+                }
+        ],
+        "entity_connections": {
+                "The Beatles": 336,
+                "Questlove": 220,
+                "Bob Dylan": 200,
+                "Taylor Swift": 116,
+                "David Bowie": 103,
+                "John Lennon": 82,
+                "Paul McCartney": 81,
+                "Amy Winehouse": 79,
+                "Radiohead": 73,
+                "Beyoncé": 73
+        }
+};
+
+                console.log(`📊 Optimized network loaded: ${optimizedNetworkData.relationships.length} relationships`);
+                console.log('   Top artists with highest connections for rich visualization');
+                console.log('   Optimized for instant loading and smooth rendering');
+
+                this.processFullDataLake(optimizedNetworkData);
+                this.createVisualization();
+                this.setupResize();
+                this.setupLegendFiltering();
+            }
+
+            loadFallbackData() {
+                console.log('⚠️ All data loading failed, using minimal fallback');
+                const fallbackData = {
+                    relationships: [
+                        {"source": "Patti Smith", "target": "Bob Dylan", "relationship_type": "influenced_by", "confidence": 0.9, "source_type": "musician", "target_type": "musician"},
+                        {"source": "Patti Smith", "target": "Allen Ginsberg", "relationship_type": "influenced_by", "confidence": 0.8, "source_type": "musician", "target_type": "poet"}
+                    ],
+                    entity_counts: {"Patti Smith": 2, "Bob Dylan": 1, "Allen Ginsberg": 1}
+                };
+
+                this.processData(fallbackData);
+                this.createVisualization();
+                this.setupResize();
+                this.setupLegendFiltering();
+            }
+
+            processData(data) {
+                const nodes = new Map();
+                const links = [];
+
+                // Process relationships to create nodes and links
+                data.relationships.forEach(rel => {
+                    // Add source node
+                    if (!nodes.has(rel.source)) {
+                        nodes.set(rel.source, {
+                            id: rel.source,
+                            type: this.getNodeType(rel.source, data.entity_counts),
+                            entity_type: rel.source_type,
+                            connections: data.entity_counts[rel.source] || 1,
+                            description: this.getEntityDescription(rel.source, rel.source_type)
+                        });
+                    }
+
+                    // Add target node
+                    if (!nodes.has(rel.target)) {
+                        nodes.set(rel.target, {
+                            id: rel.target,
+                            type: this.getNodeType(rel.target, data.entity_counts),
+                            entity_type: rel.target_type,
+                            connections: data.entity_counts[rel.target] || 1,
+                            description: this.getEntityDescription(rel.target, rel.target_type)
+                        });
+                    }
+
+                    // Add link
+                    links.push({
+                        source: rel.source,
+                        target: rel.target,
+                        type: rel.relationship_type,
+                        evidence: rel.evidence,
+                        confidence: rel.confidence,
+                        strength: rel.confidence > 0.8 ? 'strong' : 'normal'
+                    });
+                });
+
+                this.nodes = Array.from(nodes.values());
+                this.links = links;
+
+                // Update stats
+                document.getElementById('totalEntities').textContent = this.nodes.length;
+                document.getElementById('totalConnections').textContent = this.links.length;
+            }
+
+            getNodeType(name, entityCounts) {
+                if (name === 'Patti Smith') return 'primary';
+                if ((entityCounts[name] || 0) > 20) return 'hub'; // Major hubs
+                return 'connected';
+            }
+
+            getEntityDescription(name, entityType) {
+                const descriptions = {
+                    'Bob Dylan': 'Folk-rock legend, Nobel laureate',
+                    'Patti Smith': 'Godmother of Punk, poet, visual artist',
+                    'Lou Reed': 'Velvet Underground founder, NYC underground',
+                    'Jimi Hendrix': 'Guitar virtuoso, psychedelic pioneer',
+                    'Janis Joplin': 'Blues rock vocalist, 1960s icon',
+                    'Allen Ginsberg': 'Beat Generation poet, Howl author',
+                    'John Coltrane': 'Jazz saxophone master, spiritual musician',
+                    'Jack Kerouac': 'Beat Generation novelist, On the Road',
+                    'Arthur Rimbaud': 'French symbolist poet, teenage prodigy',
+                    'Jim Morrison': 'The Doors frontman, poet',
+                    'Joan Baez': 'Folk singer, civil rights activist',
+                    'Neil Young': 'Singer-songwriter, Crazy Horse',
+                    'The Beatles': 'Revolutionary rock band',
+                    'Miles Davis': 'Jazz trumpet master, innovator',
+                    'Andy Warhol': 'Pop art icon, Factory scene',
+                    'Leonard Cohen': 'Singer-songwriter, poet'
+                };
+
+                return descriptions[name] || `${entityType} in the cultural network`;
+            }
+
+            createVisualization() {
+                // Create a group for all graph elements (for zoom transform)
+                this.graphGroup = this.svg.append('g').attr('class', 'graph-group');
+
+                // Create force simulation with stronger clustering
+                this.simulation = d3.forceSimulation(this.nodes)
+                    .force('link', d3.forceLink(this.links).id(d => d.id).distance(d => {
+                        // Closer links for high-confidence relationships
+                        return d.confidence > 0.8 ? 80 : 120;
+                    }))
+                    .force('charge', d3.forceManyBody().strength(d => {
+                        // Stronger attraction for hubs
+                        return d.type === 'hub' ? -1500 : d.type === 'primary' ? -2000 : -800;
+                    }))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide().radius(d => {
+                        return d.type === 'primary' ? 40 : d.type === 'hub' ? 30 : 20;
+                    }));
+
+                // Create links inside the graph group
+                this.linkElements = this.graphGroup.selectAll('.link')
+                    .data(this.links)
+                    .enter().append('line')
+                    .attr('class', d => `link ${d.type} ${d.strength}`)
+                    .attr('stroke-width', d => d.confidence > 0.8 ? 2 : 1)
+                    .attr('stroke-opacity', d => d.confidence > 0.8 ? 0.7 : 0.4);
+
+                // Create nodes inside the graph group
+                this.nodeElements = this.graphGroup.selectAll('.node')
+                    .data(this.nodes)
+                    .enter().append('circle')
+                    .attr('class', d => `node ${d.type}`)
+                    .attr('r', d => {
+                        if (d.type === 'primary') return 25;
+                        if (d.type === 'hub') return 18;
+                        return Math.max(8, Math.min(15, d.connections * 0.5));
+                    })
+                    .attr('fill', d => this.getNodeColor(d))
+                    .call(this.drag())
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip())
+                    .on('click', (event, d) => this.highlightConnections(d));
+
+                // Create labels for important nodes only inside the graph group
+                this.labelElements = this.graphGroup.selectAll('.node-label')
+                    .data(this.nodes.filter(d => d.type === 'primary' || d.type === 'hub' || d.connections > 3))
+                    .enter().append('text')
+                    .attr('class', d => `node-label ${d.type}`)
+                    .text(d => d.id)
+                    .attr('dy', d => d.type === 'primary' ? 35 : d.type === 'hub' ? 28 : 22);
+
+                // Set up zoom behavior
+                this.setupZoomBehavior();
+
+                // Update positions on tick
+                this.simulation.on('tick', () => {
+                    this.linkElements
+                        .attr('x1', d => d.source.x)
+                        .attr('y1', d => d.source.y)
+                        .attr('x2', d => d.target.x)
+                        .attr('y2', d => d.target.y);
+
+                    this.nodeElements
+                        .attr('cx', d => d.x)
+                        .attr('cy', d => d.y);
+
+                    this.labelElements
+                        .attr('x', d => d.x)
+                        .attr('y', d => d.y);
+                });
+            }
+
+            getNodeColor(d) {
+                if (d.type === 'primary') return '#f48771';
+                if (d.type === 'hub') return '#ffb74d';
+
+                const entityColors = {
+                    'musician': '#4fc3f7',      // Blue
+                    'poet': '#ba68c8',          // Purple
+                    'cultural_figure': '#81c784', // Green
+                    'album': '#ffd54f',         // Yellow
+                    'book': '#a1887f',          // Brown
+                    'venue': '#9575cd'          // Deep purple
+                };
+
+                return entityColors[d.entity_type] || '#81c784';
+            }
+
+            highlightConnections(targetNode) {
+                // Reset all elements
+                this.nodeElements.style('opacity', 0.3);
+                this.linkElements.style('opacity', 0.1);
+                this.labelElements.style('opacity', 0.3);
+
+                // Highlight target node
+                this.nodeElements.filter(d => d.id === targetNode.id).style('opacity', 1);
+                this.labelElements.filter(d => d.id === targetNode.id).style('opacity', 1);
+
+                // Highlight connected nodes and links
+                this.linkElements.filter(d => d.source.id === targetNode.id || d.target.id === targetNode.id)
+                    .style('opacity', 0.8)
+                    .each(function(d) {
+                        // Highlight connected nodes
+                        const connectedId = d.source.id === targetNode.id ? d.target.id : d.source.id;
+                        d3.selectAll('.node').filter(n => n.id === connectedId).style('opacity', 1);
+                        d3.selectAll('.node-label').filter(n => n.id === connectedId).style('opacity', 1);
+                    });
+
+                // Reset on double-click
+                this.svg.on('dblclick', () => {
+                    this.nodeElements.style('opacity', 0.9);
+                    this.linkElements.style('opacity', 0.4);
+                    this.labelElements.style('opacity', 0.8);
+                });
+            }
+
+            showTooltip(event, d) {
+                const title = document.getElementById('tooltipTitle');
+                const content = document.getElementById('tooltipContent');
+
+                title.textContent = d.id;
+
+                const connections = this.links.filter(link =>
+                    link.source.id === d.id || link.target.id === d.id
+                );
+
+                let html = `
+                    <div style="color: #cccccc; margin-bottom: 8px;">
+                        <strong>Type:</strong> ${d.entity_type}
+                    </div>
+                    <div style="color: #cccccc; margin-bottom: 8px;">
+                        <strong>Connections:</strong> ${d.connections}
+                    </div>
+                    <div style="color: #cccccc; margin-bottom: 8px;">${d.description}</div>
+                `;
+
+                if (connections.length > 0) {
+                    html += '<div style="margin-top: 12px;"><strong>Network Links:</strong></div>';
+                    connections.slice(0, 5).forEach(conn => {
+                        const otherNode = conn.source.id === d.id ? conn.target.id : conn.source.id;
+                        html += `
+                            <div style="margin: 6px 0; padding: 6px; background: rgba(255,255,255,0.1); border-radius: 4px; font-size: 0.8rem;">
+                                <div class="relationship-type">${conn.type.replace('_', ' ')}</div>
+                                <div style="color: #cccccc;">→ ${otherNode}</div>
+                            </div>
+                        `;
+                    });
+                    if (connections.length > 5) {
+                        html += `<div style="color: #81c784; font-size: 0.8rem;">... and ${connections.length - 5} more</div>`;
+                    }
+                }
+
+                content.innerHTML = html;
+
+                this.tooltip
+                    .style('left', (event.pageX + 15) + 'px')
+                    .style('top', (event.pageY - 15) + 'px')
+                    .classed('visible', true);
+            }
+
+            hideTooltip() {
+                this.tooltip.classed('visible', false);
+            }
+
+            setupZoomBehavior() {
+                // Initialize D3 zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 10])
+                    .on('zoom', (event) => {
+                        // Transform the entire graph group
+                        this.graphGroup.attr('transform', event.transform);
+
+                        // Update cursor during zoom
+                        if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
+                            this.svg.node().style.cursor = 'grab';
+                        }
+                    })
+                    .on('start', (event) => {
+                        if (event.sourceEvent && event.sourceEvent.type === 'mousedown') {
+                            this.svg.classed('panning', true);
+                        }
+                    })
+                    .on('end', (event) => {
+                        this.svg.classed('panning', false);
+                        this.svg.node().style.cursor = 'grab';
+                    });
+
+                // Apply zoom behavior to SVG
+                this.svg.call(this.zoom);
+
+                // Set up zoom control buttons
+                this.setupZoomControls();
+            }
+
+            setupZoomControls() {
+                const zoomInBtn = document.getElementById('zoomIn');
+                const zoomOutBtn = document.getElementById('zoomOut');
+                const zoomFitBtn = document.getElementById('zoomFit');
+
+                zoomInBtn.addEventListener('click', () => {
+                    this.svg.transition().duration(300).call(
+                        this.zoom.scaleBy, 1.5
+                    );
+                });
+
+                zoomOutBtn.addEventListener('click', () => {
+                    this.svg.transition().duration(300).call(
+                        this.zoom.scaleBy, 1 / 1.5
+                    );
+                });
+
+                zoomFitBtn.addEventListener('click', () => {
+                    this.fitToView();
+                });
+            }
+
+            fitToView() {
+                if (!this.nodes.length) return;
+
+                // Calculate bounds of all nodes
+                const xs = this.nodes.map(d => d.x || 0);
+                const ys = this.nodes.map(d => d.y || 0);
+
+                const xExtent = d3.extent(xs);
+                const yExtent = d3.extent(ys);
+
+                const width = xExtent[1] - xExtent[0];
+                const height = yExtent[1] - yExtent[0];
+
+                const midX = (xExtent[0] + xExtent[1]) / 2;
+                const midY = (yExtent[0] + yExtent[1]) / 2;
+
+                // Add padding
+                const padding = 100;
+                const scale = Math.min(
+                    (this.width - padding) / width,
+                    (this.height - padding) / height
+                ) * 0.9;
+
+                const translate = [
+                    this.width / 2 - scale * midX,
+                    this.height / 2 - scale * midY
+                ];
+
+                this.svg.transition().duration(750).call(
+                    this.zoom.transform,
+                    d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+                );
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        // Prevent zoom panning when dragging nodes
+                        event.sourceEvent.stopPropagation();
+
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            setupResize() {
+                window.addEventListener('resize', () => {
+                    this.width = window.innerWidth;
+                    this.height = window.innerHeight - 120;
+
+                    this.svg.attr('width', this.width).attr('height', this.height);
+                    this.simulation
+                        .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                        .restart();
+                });
+            }
+
+            setupLegendFiltering() {
+                // Add click handlers to legend items
+                document.querySelectorAll('.legend-item[data-entity-type]').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        const entityType = e.currentTarget.dataset.entityType;
+                        this.toggleEntityType(entityType);
+                    });
+                });
+            }
+
+            toggleEntityType(entityType) {
+                const legendItem = document.querySelector(`[data-entity-type="${entityType}"]`);
+
+                if (this.enabledEntityTypes.has(entityType)) {
+                    // Disable this entity type
+                    this.enabledEntityTypes.delete(entityType);
+                    legendItem.classList.add('disabled');
+                } else {
+                    // Enable this entity type
+                    this.enabledEntityTypes.add(entityType);
+                    legendItem.classList.remove('disabled');
+                }
+
+                this.updateVisualizationFilter();
+            }
+
+            updateVisualizationFilter() {
+                if (!this.nodeElements || !this.linkElements) return;
+
+                // Filter nodes
+                this.nodeElements.style('display', d => {
+                    // Always show primary nodes
+                    if (d.type === 'primary') return 'block';
+
+                    // Check if this entity type is enabled
+                    if (this.enabledEntityTypes.has(d.entity_type) || this.enabledEntityTypes.has(d.type)) {
+                        return 'block';
+                    }
+                    return 'none';
+                });
+
+                // Filter labels
+                this.labelElements.style('display', d => {
+                    if (d.type === 'primary') return 'block';
+                    if (this.enabledEntityTypes.has(d.entity_type) || this.enabledEntityTypes.has(d.type)) {
+                        return 'block';
+                    }
+                    return 'none';
+                });
+
+                // Filter links - only show links where both nodes are visible
+                this.linkElements.style('display', d => {
+                    const sourceVisible = d.source.type === 'primary' ||
+                                        this.enabledEntityTypes.has(d.source.entity_type) ||
+                                        this.enabledEntityTypes.has(d.source.type);
+                    const targetVisible = d.target.type === 'primary' ||
+                                        this.enabledEntityTypes.has(d.target.entity_type) ||
+                                        this.enabledEntityTypes.has(d.target.type);
+
+                    return (sourceVisible && targetVisible) ? 'block' : 'none';
+                });
+
+                // Update the simulation to account for filtered nodes
+                this.simulation.restart();
+            }
+        }
+
+        // Initialize when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            new DenseCulturalNetwork();
+        });
+    </script>
+</body>
+</html>

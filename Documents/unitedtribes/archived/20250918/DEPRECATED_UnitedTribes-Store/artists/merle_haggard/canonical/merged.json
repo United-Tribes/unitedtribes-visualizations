@@ -1,0 +1,460 @@
+{
+  "artist_name": "Merle Haggard",
+  "works": [
+    {
+      "title": "I’m a Lonesome Fugitive",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "05cc7b39-86df-3a5a-9123-55a2108177ee"
+    },
+    {
+      "title": "A Portrait of Merle Haggard",
+      "release_date": "1969-09-02",
+      "type": "Album",
+      "mbid": "13406ec6-e2b4-38b0-8bd9-4d3ea97e7276"
+    },
+    {
+      "title": "It’s Not Love (But It’s Not Bad)",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "23cfa9b4-ed9c-44fd-8851-6bd08e9afb34"
+    },
+    {
+      "title": "If We Make It Through December",
+      "release_date": "1974-02",
+      "type": "Album",
+      "mbid": "352590e0-706c-31cb-bc6c-72fb6a635705"
+    },
+    {
+      "title": "Pride in What I Am",
+      "release_date": "1969",
+      "type": "Album",
+      "mbid": "51198e95-7c24-499c-a8be-559301a514da"
+    },
+    {
+      "title": "Strangers",
+      "release_date": "1965-09-06",
+      "type": "Album",
+      "mbid": "55139cfa-b41a-3706-acca-16172fc7763d"
+    },
+    {
+      "title": "Honky Tonkin’",
+      "release_date": "1971",
+      "type": "Album",
+      "mbid": "6a9704ed-972e-4903-85a9-9be8f8748973"
+    },
+    {
+      "title": "Let Me Tell You About a Song",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "6fb1c20b-3311-4153-a3c2-b6c3095e5ff0"
+    },
+    {
+      "title": "Getting to Know Merle Haggard’s Strangers",
+      "release_date": "1971",
+      "type": "Album",
+      "mbid": "79523e4d-4234-4ddf-8663-89d2cd0724f0"
+    },
+    {
+      "title": "A Tribute to the Best Damn Fiddle Player in the World: Or, My Salute to Bob Wills",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "7bdd3c01-21c7-3d36-9782-bfad0971ae03"
+    },
+    {
+      "title": "Merle Haggard's Christmas Present: Something Old, Something New",
+      "release_date": "1973-11",
+      "type": "Album",
+      "mbid": "7dfef744-fae2-30bf-8069-5c38e6537ef8"
+    },
+    {
+      "title": "Sing Me Back Home",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "86c1a4fe-3b86-4aa8-a979-1a814409b386"
+    },
+    {
+      "title": "Introducing My Friends The Strangers",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "915810b8-7b16-4218-b4c1-c4b3f0e80297"
+    },
+    {
+      "title": "Branded Man",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "92658cdc-d17c-33ad-b362-21429b8b219c"
+    },
+    {
+      "title": "Presents His 30th Album",
+      "release_date": "1974-08",
+      "type": "Album",
+      "mbid": "97c739a2-6b32-4c75-b090-fa39fedc4da6"
+    },
+    {
+      "title": "It’s All in the Movies",
+      "release_date": "1973",
+      "type": "Album",
+      "mbid": "a9eb8ed5-2438-4ddc-a01a-a3ddad77e7b6"
+    },
+    {
+      "title": "Hag",
+      "release_date": "1971-04-22",
+      "type": "Album",
+      "mbid": "aa0cdac7-b197-456c-babf-653e68607c8f"
+    },
+    {
+      "title": "Mama Tried",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "b0367154-a32d-3540-aea9-58414f745e3b"
+    },
+    {
+      "title": "The Legend of Bonnie & Clyde",
+      "release_date": "1968-04-08",
+      "type": "Album",
+      "mbid": "b0bd5b3c-219e-46be-b3e8-e619d4b4d2cc"
+    },
+    {
+      "title": "Totally Instrumental With One Exception",
+      "release_date": "1973",
+      "type": "Album",
+      "mbid": "b0d86eb8-dc04-488e-a40c-a09200aad1df"
+    },
+    {
+      "title": "Someday We’ll Look Back",
+      "release_date": "1971",
+      "type": "Album",
+      "mbid": "bb627082-f2c4-4a21-84bf-839006ebc1e9"
+    },
+    {
+      "title": "Swinging Doors and the Bottle Let Me Down",
+      "release_date": "1966-10-17",
+      "type": "Album",
+      "mbid": "bb8517f4-b54f-3a58-8ef7-e1f9cbe119c5"
+    },
+    {
+      "title": "Just Between the Two of Us",
+      "release_date": "1966-04-11",
+      "type": "Album",
+      "mbid": "d862a6a9-63df-4025-abcc-618725f9af77"
+    },
+    {
+      "title": "Same Train, a Different Time",
+      "release_date": "1969",
+      "type": "Album",
+      "mbid": "e4424524-cf53-3dd0-ae3f-9545463a3bd3"
+    },
+    {
+      "title": "Sing Me Back Home",
+      "release_date": "1968-01-02",
+      "type": "Album",
+      "mbid": "f43f0150-d49e-3020-87ff-cb4f8380fa5f"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "Frizzell & Friends"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000410219"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/deb2448c-6fdf-4d31-921e-757630515dbd"
+      },
+      {
+        "type": "biography",
+        "url": "http://countrymusichalloffame.org/Inductees/InducteeDetail/merle-haggard"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/274750"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/3803562"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/2ptmyXoL7poH6Zq62h1QT9"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/8510"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0353588/"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-13255/merle-haggard/lyrics.html"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/merlehaggard"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://merlehaggard.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/merle_haggard"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n81053687/"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1503"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/merlehaggard"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/merlehaggard"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/1051"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/56796315"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q183092"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/TheMerleHaggard"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Merle_Haggard",
+    "musicbrainz": "https://musicbrainz.org/artist/deb2448c-6fdf-4d31-921e-757630515dbd"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Merle Ronald Haggard (April 6, 1937 – April 6, 2016) was an American country music singer, songwriter, guitarist, and fiddler. Widely regarded as one of the greatest and most influential figures in country music, he was a central pioneer of the Bakersfield sound. With a career spanning over five decades, Haggard had 38 number-one hits on the US country charts, several of which also made the Billboard all-genre singles chart.\nHaggard overcame a troubled childhood, criminal convictions and time in prison to launch a successful country music career. He gained popularity with his songs about the working class; these occasionally contained themes contrary to the anti–Vietnam War sentiment of some popular music of the time. \nHaggard received many honors and awards, including a Kennedy Center Honor (2010); a Grammy Lifetime Achievement Award (2006); a BMI Icon Award (2006); and induction into the Nashville Songwriters Hall of Fame (1977); Country Music Hall of Fame (1994) and Oklahoma Music Hall of Fame (1997). He died of pneumonia on April 6, 2016—his 79th birthday—at his ranch in Shasta County, California.",
+    "summary": "Merle Ronald Haggard (April 6, 1937 – April 6, 2016) was an American country music singer, songwriter, guitarist, and fiddler. Widely regarded as one of the greatest and most influential figures in country music, he was a central pioneer of the Bakersfield sound. With a career spanning over five decades, Haggard had 38 number-one hits on the US country charts, several of which also made the Billboard all-genre singles chart.\nHaggard overcame a troubled childhood, criminal convictions and time in...",
+    "url": "https://en.wikipedia.org/wiki/Merle_Haggard",
+    "title": "Merle Haggard",
+    "word_count": 177,
+    "categories": [
+      "Category:1937 births",
+      "Category:2016 deaths",
+      "Category:20th-century American guitarists",
+      "Category:20th-century American male singers",
+      "Category:20th-century American singer-songwriters",
+      "Category:21st-century American male singers",
+      "Category:21st-century American singer-songwriters",
+      "Category:Activists from California",
+      "Category:All articles with unsourced statements",
+      "Category:American anti–Iraq War activists",
+      "Category:American country guitarists",
+      "Category:American country singer-songwriters",
+      "Category:American gun rights activists",
+      "Category:American male guitarists",
+      "Category:American male singer-songwriters",
+      "Category:Anti- (record label) artists",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from August 2016",
+      "Category:Articles with unsourced statements from October 2009",
+      "Category:Bakersfield sound",
+      "Category:CS1 maint: bot: original URL status unknown",
+      "Category:CS1 maint: multiple names: authors list",
+      "Category:CS1 maint: others in cite AV media (notes)",
+      "Category:Capitol Records artists",
+      "Category:Country Music Hall of Fame inductees",
+      "Category:Country musicians from California",
+      "Category:Curb Records artists",
+      "Category:Deaths from pneumonia in California",
+      "Category:Epic Records artists",
+      "Category:Grammy Award winners",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:Guitarists from California",
+      "Category:Kennedy Center honorees",
+      "Category:MCA Records artists",
+      "Category:Outlaw country singers",
+      "Category:Pages using Sister project links with hidden wikidata",
+      "Category:People from Kern County, California",
+      "Category:Recipients of gubernatorial pardons in California",
+      "Category:Short description is different from Wikidata",
+      "Category:Singer-songwriters from California",
+      "Category:The Strangers (American band) members",
+      "Category:Use mdy dates from April 2016",
+      "Category:Vanguard Records artists",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia indefinitely move-protected pages"
+    ],
+    "internal_links": [
+      "(My Friends Are Gonna Be) Strangers",
+      "16 Biggest Hits (Merle Haggard album)",
+      "1994 (album)",
+      "1996 (Merle Haggard album)",
+      "2003 invasion of Iraq",
+      "56th Annual Grammy Awards",
+      "5:01 Blues",
+      "5:01 Blues (album)",
+      "A Better Love Next Time",
+      "A Friend in California (album)",
+      "A Friend in California (song)",
+      "A Legend in My Time",
+      "A Little Good News (album)",
+      "A Place in the Sun (Tim McGraw album)",
+      "A Place to Fall Apart",
+      "A Portrait of Merle Haggard",
+      "A Taste of Yesterday's Wine",
+      "A Tribute to the Best Damn Fiddle Player in the World (or, My Salute to Bob Wills)",
+      "A Very Special Love Song",
+      "A Working Man Can't Get Nowhere Today",
+      "A Working Man Can't Get Nowhere Today (song)",
+      "Academy Award",
+      "Academy of Country Music",
+      "Academy of Country Music Award for Entertainer of the Year",
+      "Al Green",
+      "Al Pacino",
+      "Alabama (American band)",
+      "Alabama (band)",
+      "Alan Jackson",
+      "Albert E. Brumley",
+      "Alex Lacamoire",
+      "Alison Krauss",
+      "AllMusic",
+      "Almost Persuaded (song)",
+      "Always & Forever (Randy Travis album)",
+      "Always Wanting You",
+      "Always on My Mind (Willie Nelson album)",
+      "Amber Waves of Grain",
+      "America's Most Wanted Band",
+      "American IV: The Man Comes Around",
+      "American Masters",
+      "American Music Award of Merit",
+      "Andy Blankenbuehler",
+      "Andy Wickham",
+      "Angioplasty",
+      "Anne Murray",
+      "Annie Lennox",
+      "Anti- (record label)",
+      "Are the Good Times Really Over (I Wish a Buck Was Still Silver)",
+      "Arlo Guthrie",
+      "Asleep at the Wheel",
+      "At Folsom Prison",
+      "At San Quentin",
+      "Atchison, Topeka and Santa Fe Railway",
+      "BBC",
+      "BMI Awards",
+      "Back to the Barrooms",
+      "Bakersfield, California",
+      "Bakersfield sound",
+      "Bar Room Buddies",
+      "Barbara Cook",
+      "Barbara Mandrell",
+      "Based on a True Story...",
+      "Behind Closed Doors (Charlie Rich album)",
+      "Bell Bottom Country",
+      "Ben Sorensen's REAL Country",
+      "Benny Goodman",
+      "Bernard MacMahon (filmmaker)",
+      "Berry Gordy",
+      "Big Brother and the Holding Company",
+      "Big City (Merle Haggard album)",
+      "Big City (Merle Haggard song)",
+      "Bill Graham (promoter)",
+      "Bill T. Jones",
+      "Billboard (magazine)",
+      "Billboard Hot 100",
+      "Billy Burnette",
+      "Billy Joel",
+      "Bing Crosby",
+      "Blaine Larsen",
+      "Blake Shelton",
+      "Blue Clear Sky",
+      "Blue Jungle",
+      "Blue Underground",
+      "Bluegrass music",
+      "Bob Edwards Show",
+      "Bob Eubanks",
+      "Bob Wills",
+      "Bon Jovi",
+      "Bonnie Owens",
+      "Bookkeeping",
+      "Born to Boogie (album)",
+      "Boxcar",
+      "Brad Paisley",
+      "Branded Man",
+      "Branded Man (song)",
+      "Brenda Lee",
+      "Broadcast Music Incorporated",
+      "Bronco Billy",
+      "Brooks & Dunn"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Merle_Haggard_in_1971.jpg/330px-Merle_Haggard_in_1971.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "deb2448c-6fdf-4d31-921e-757630515dbd",
+      "name": "Merle Haggard",
+      "disambiguation": "US country singer, guitarist, fiddler & songwriter",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Oildale",
+      "life_span": {
+        "begin": "1937-04-06",
+        "end": "2016-04-06"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 20
+    },
+    "mbid": "deb2448c-6fdf-4d31-921e-757630515dbd"
+  },
+  "created_at": "2025-08-20T07:40:27.874144",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Merle Ronald Haggard (April 6, 1937 – April 6, 2016) was an American country music singer, songwriter, guitarist, and fiddler. Widely regarded as one of the greatest and most influential figures in country music, he was a central pioneer of the Bakersfield sound. With a career spanning over five decades, Haggard had 38 number-one hits on the US country charts, several of which also made the Billboard all-genre singles chart.\nHaggard overcame a troubled childhood, criminal convictions and time in prison to launch a successful country music career. He gained popularity with his songs about the working class; these occasionally contained themes contrary to the anti–Vietnam War sentiment of some popular music of the time. \nHaggard received many honors and awards, including a Kennedy Center Honor (2010); a Grammy Lifetime Achievement Award (2006); a BMI Icon Award (2006); and induction into the Nashville Songwriters Hall of Fame (1977); Country Music Hall of Fame (1994) and Oklahoma Music Hall of Fame (1997). He died of pneumonia on April 6, 2016—his 79th birthday—at his ranch in Shasta County, California.",
+  "musicbrainz_info": {
+    "mbid": "deb2448c-6fdf-4d31-921e-757630515dbd",
+    "name": "Merle Haggard",
+    "disambiguation": "US country singer, guitarist, fiddler & songwriter",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Oildale",
+    "life_span": {
+      "begin": "1937-04-06",
+      "end": "2016-04-06"
+    }
+  },
+  "updated_at": "2025-08-20T08:13:56.626889"
+}

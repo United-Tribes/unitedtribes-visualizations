@@ -1,0 +1,62 @@
+{
+  "author_name": "Jerry Levitan",
+  "entity_type": "music_author",
+  "works": [],
+  "relationships": {},
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jerry_Levitan"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Jerry Levitan (born 1954) is a Canadian best known as \"the kid who interviewed John Lennon\". He produced and starred in the animated short I Met the Walrus about his meeting with John Lennon and Yoko Ono in Toronto, Ontario, Canada in 1969. Though only 14 years old, Levitan beat the world media and conducted an exclusive 30-minute interview with them about peace, The Beatles, and their music. The film won a Daytime Emmy in 2009 in the category of New Approaches, Daytime Entertainment. It was also nominated for an Oscar in 2008 for best animated short, and won Best Animated at the Manhattan Short Film Festival, the American Film Festival and the Middle East International Film Festival. He is the author of the best selling, autobiographical book, I Met The Walrus published May 2009 by HarperCollins.",
+    "summary": "Jerry Levitan (born 1954) is a Canadian filmmaker best known as \"the kid who interviewed John Lennon\". He created the Emmy-winning animated documentary I Met the Walrus about his 1969 meeting with John Lennon and Yoko Ono when he was only 14 years old.",
+    "url": "https://en.wikipedia.org/wiki/Jerry_Levitan",
+    "title": "Jerry Levitan",
+    "word_count": 150,
+    "categories": ["Canadian filmmakers", "Documentary filmmakers"],
+    "internal_links": ["John Lennon", "Yoko Ono", "The Beatles", "Toronto"],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/JL20_109.jpg/330px-JL20_109.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {},
+    "total_works": 0,
+    "relationship_counts": {},
+    "mbid": ""
+  },
+  "created_at": "2025-08-20T12:22:35.262040",
+  "sources_processed": [
+    "wikipedia"
+  ],
+  "validation_details": {
+    "signals": [],
+    "warnings": [],
+    "category_scores": {},
+    "wikipedia_analysis": {
+      "author_signals": [
+        "author",
+        "book",
+        "published"
+      ],
+      "musician_signals": [],
+      "publication_mentions": [],
+      "recent_work_found": false,
+      "author_score": 0.5,
+      "musician_score": 0
+    },
+    "provenance_analysis": {
+      "context_type": "seed_list",
+      "surrounding_text_analysis": {
+        "author_signals": [],
+        "musician_signals": []
+      },
+      "source_publication": "United Tribes",
+      "disambiguation_hints": {
+        "source": "curated_seed_list"
+      }
+    },
+    "final_confidence": 0.66,
+    "is_valid_author": true
+  },
+  "wikipedia_summary": "Jerry Levitan (born 1954) is a Canadian filmmaker best known as \"the kid who interviewed John Lennon\". He created the Emmy-winning animated documentary I Met the Walrus about his 1969 meeting with John Lennon and Yoko Ono when he was only 14 years old.",
+  "musicbrainz_info": {}
+}

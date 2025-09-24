@@ -1,0 +1,584 @@
+{
+  "artist_name": "John Lennon",
+  "works": [
+    {
+      "title": "Lennon",
+      "release_date": "1990-09-27",
+      "type": "Album",
+      "mbid": "05432930-1c7d-365b-98cf-7cb49dbf3d13"
+    },
+    {
+      "title": "Mind Games (The Evolution Documentary)",
+      "release_date": "2024-08-30",
+      "type": "Album",
+      "mbid": "08f9e559-233d-4809-b92e-3ce60c5e2bc8"
+    },
+    {
+      "title": "Home tapes",
+      "release_date": "2010",
+      "type": "Album",
+      "mbid": "164773d7-6fa5-4c8e-af7d-10769a2c369b"
+    },
+    {
+      "title": "Rock ’n’ Roll",
+      "release_date": "1975-02-17",
+      "type": "Album",
+      "mbid": "316bd588-952e-34b0-aeff-b8fd43ef9cf8"
+    },
+    {
+      "title": "Menlove Ave.",
+      "release_date": "1986-10-27",
+      "type": "Album",
+      "mbid": "4f29fc90-197f-3eb3-bfe0-321dad3bb342"
+    },
+    {
+      "title": "Mind Games",
+      "release_date": "1973-11-02",
+      "type": "Album",
+      "mbid": "611a001d-dae3-390c-babf-bba33ee4ba31"
+    },
+    {
+      "title": "Double Fantasy",
+      "release_date": "1980-11-17",
+      "type": "Album",
+      "mbid": "790ec782-7344-366c-af67-4a427bcaf991"
+    },
+    {
+      "title": "Mind Games The Elements Mixes 2024",
+      "release_date": "2024-08-16",
+      "type": "Album",
+      "mbid": "85aef4eb-2077-40fc-b2ed-23e1de58a658"
+    },
+    {
+      "title": "John Lennon/Plastic Ono Band",
+      "release_date": "1970-12-11",
+      "type": "Album",
+      "mbid": "8be83468-4917-390d-82b6-d890f058cd22"
+    },
+    {
+      "title": "Milk and Honey",
+      "release_date": "1984-01-19",
+      "type": "Album",
+      "mbid": "9e51160b-c309-334a-84f9-80feb0112a8f"
+    },
+    {
+      "title": "Wedding Album",
+      "release_date": "1969-10-20",
+      "type": "Album",
+      "mbid": "9ea6179c-075e-3784-b0e0-62813bd94723"
+    },
+    {
+      "title": "Mind Games (The Raw Studio Mixes)",
+      "release_date": "2024-09-13",
+      "type": "Album",
+      "mbid": "ae42e7da-bb1d-4969-b481-97de11be1337"
+    },
+    {
+      "title": "Unfinished Music No. 2: Life With the Lions",
+      "release_date": "1969-05-26",
+      "type": "Album",
+      "mbid": "ae59682d-3dfe-3a0c-b9e5-87623bd0ae6f"
+    },
+    {
+      "title": "Unfinished Music No. 1: Two Virgins",
+      "release_date": "1968-11-11",
+      "type": "Album",
+      "mbid": "b7cb0753-b05f-35c7-bcc2-85e1c783bd0f"
+    },
+    {
+      "title": "Walls and Bridges",
+      "release_date": "1974-10-04",
+      "type": "Album",
+      "mbid": "cf90044e-b161-3cda-99c7-2390802023b9"
+    },
+    {
+      "title": "Mind Games (The Out-takes)",
+      "release_date": "2024-09-27",
+      "type": "Album",
+      "mbid": "dad332ee-84c0-4b17-8bb5-2f0265ba2792"
+    },
+    {
+      "title": "Mind Games - The Elemental Mixes",
+      "release_date": "2024-08-02",
+      "type": "Album",
+      "mbid": "df0b2b59-d3d0-42de-8269-61e32f356688"
+    },
+    {
+      "title": "Shaved Fish",
+      "release_date": "1975-10-24",
+      "type": "Album",
+      "mbid": "e5006a47-bd00-374a-a5f6-30b09cb1a6fc"
+    },
+    {
+      "title": "Some Time in New York City",
+      "release_date": "1972-09-15",
+      "type": "Album",
+      "mbid": "e5153705-e798-343c-aeaf-1777db763dd6"
+    },
+    {
+      "title": "Litolff: Scherzo / Tchaikovsky: Marche Slave / Offenbach: Dances from \"Gaite Parisienne\" / Lennon-McCartney: Yesterday",
+      "release_date": "1996",
+      "type": "Album",
+      "mbid": "eaf5b144-63f1-4bd6-be95-eb5cefb06e24"
+    },
+    {
+      "title": "Karaoke Lennon & McCartney",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "f12b1165-231a-49f4-95a1-4e10622c03f4"
+    },
+    {
+      "title": "Imagine",
+      "release_date": "1971-09-09",
+      "type": "Album",
+      "mbid": "f242f304-0f1f-33a5-81a2-7a965b30e3b5"
+    },
+    {
+      "title": "Beatles Classic Hits",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "f71ef9c1-47e0-312b-b874-14f16e5990c3"
+    },
+    {
+      "title": "The John Lennon Collection",
+      "release_date": "1989-10-26",
+      "type": "Album",
+      "mbid": "f733db12-dec2-38ff-8236-7163c815750e"
+    },
+    {
+      "title": "Lennon Legend: The Very Best of John Lennon",
+      "release_date": "1997-10-27",
+      "type": "Album",
+      "mbid": "fb276ff7-0a07-3629-a46e-3c88f294e5a7"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "The Dirty Mac"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Northern Songs Ltd.",
+      "Lennon Music",
+      "Maclen Music, Inc."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000232564"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.rockabilly.nl/references/messages/john_lennon.htm"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.rockhall.com/inductees/john-lennon/"
+      },
+      {
+        "type": "discography_page",
+        "url": "https://web.archive.org/web/19981205111705/http://www.discographynet.com/lennon/lennon.html"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.jpgr.co.uk/i_bootleg_tracks_john.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/2053803"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/46481"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/779927"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19970408071646/http://www.bagism.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19981203113344/http://www.merseyworld.com/imagine/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19981203152318/http://www.casagrande.com/~bilig/lennon.html"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4x1nvY2FN8jxqAFA0DA02H"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/7wcH6naXfssACcXRregV1H"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/226"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/83460222"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Lie_In_15_--_John_rehearses_Give_Peace_A_Chance.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0006168/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/John+Lennon"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-5260/john-lennon/lyrics.html"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.johnlennon.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n80017868"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13896546z"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118571575"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=6852"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/john-lennon"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/L/Lennon,_John/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6kp872t"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1012313"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL240631A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/john-lennon"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/john-lennon/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n80017868"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id4416594"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/gb/artist/4416594"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/143"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/+JohnLennonOfficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/johnlennon"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/johnlennon"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/johnlennon/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/johnlennonofficial/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@johnlennon"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/131344"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/4416594"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/8803"
+      },
+      {
+        "type": "vgmdb",
+        "url": "https://vgmdb.net/artist/8174"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/196844"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1203"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCYU4eunPInnHTNWfGvOgkbg"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Lennon",
+    "musicbrainz": "https://musicbrainz.org/artist/4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "John Winston Ono Lennon (born John Winston Lennon; 9 October 1940 – 8 December 1980) was an English musician and activist. He gained global fame as the founder, co-lead vocalist and rhythm guitarist of the Beatles. Lennon's songwriting partnership with Paul McCartney remains the most successful in history.\nBorn in Liverpool, Lennon became involved in the skiffle craze as a teenager. In 1956, he formed the Quarrymen, which evolved into the Beatles in 1960. Lennon initially was the group's de facto leader, a role he gradually seemed to cede to McCartney, writing and co-writing songs with increasing innovation, including \"Strawberry Fields Forever\", which he later cited as his finest work with the band. Lennon soon expanded his work into other media by participating in numerous films, including How I Won the War, and authoring In His Own Write and A Spaniard in the Works, both collections of nonsense writings and line drawings. Starting with \"All You Need Is Love\", his songs were adopted as anthems by the anti-war movement and the counterculture of the 1960s.\nIn 1969, he started the Plastic Ono Band with his second wife, multimedia artist Yoko Ono, held the two-week-long anti-war demonstration...",
+    "summary": "John Winston Ono Lennon (born John Winston Lennon; 9 October 1940 – 8 December 1980) was an English musician and activist. He gained global fame as the founder, co-lead vocalist and rhythm guitarist of the Beatles. Lennon's songwriting partnership with Paul McCartney remains the most successful in history.\nBorn in Liverpool, Lennon became involved in the skiffle craze as a teenager. In 1956, he formed the Quarrymen, which evolved into the Beatles in 1960. Lennon initially was the group's de fact...",
+    "url": "https://en.wikipedia.org/wiki/John_Lennon",
+    "title": "John Lennon",
+    "word_count": 196,
+    "categories": [
+      "Category:1940 births",
+      "Category:1980 deaths",
+      "Category:1980 murders in the United States",
+      "Category:20th-century English guitarists",
+      "Category:20th-century English illustrators",
+      "Category:20th-century English male actors",
+      "Category:20th-century English male singers",
+      "Category:20th-century English pianists",
+      "Category:20th-century English singer-songwriters",
+      "Category:20th-century English singers",
+      "Category:Alumni of Liverpool College of Art",
+      "Category:Apple Records artists",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Atco Records artists",
+      "Category:Beat musicians",
+      "Category:Best Original Music Score Academy Award winners",
+      "Category:Biography with signature",
+      "Category:Brit Award winners",
+      "Category:British comics artists",
+      "Category:British critics of religions",
+      "Category:British harmonica players",
+      "Category:British humorous poets",
+      "Category:British nonviolence advocates",
+      "Category:British people of Irish descent",
+      "Category:British political music artists",
+      "Category:British rhythm guitarists",
+      "Category:COINTELPRO targets",
+      "Category:CS1 Russian-language sources (ru)",
+      "Category:Capitol Records artists",
+      "Category:Commons category link from Wikidata",
+      "Category:Counterculture of the 1960s",
+      "Category:Counterculture of the 1970s",
+      "Category:Deaths by firearm in Manhattan",
+      "Category:English anti-war activists",
+      "Category:English emigrants to the United States",
+      "Category:English expatriate musicians in the United States",
+      "Category:English experimental musicians",
+      "Category:English former Christians",
+      "Category:English male film actors",
+      "Category:English male guitarists",
+      "Category:English male pianists",
+      "Category:English male pop singers",
+      "Category:English male rock singers",
+      "Category:English male singer-songwriters",
+      "Category:English murder victims",
+      "Category:English pacifists",
+      "Category:English people convicted of drug offences",
+      "Category:English people murdered abroad"
+    ],
+    "internal_links": [
+      "(Just Like) Starting Over",
+      "100 Greatest Britons",
+      "10 Admiral Grove",
+      "12 Arnold Grove",
+      "16 mm film",
+      "1965 Birthday Honours",
+      "1972 Republican National Convention",
+      "1989 (album)",
+      "20 Feet from Stardom",
+      "20 Forthlin Road",
+      "21 (Adele album)",
+      "24K Magic (album)",
+      "251 Menlove Avenue",
+      "25 (Adele album)",
+      "34 Montagu Square, Marylebone",
+      "4147 Lennon",
+      "52nd Street (album)",
+      "72nd Street (Manhattan)",
+      "A. R. Rahman",
+      "ABKCO Records",
+      "AWOL",
+      "A Bug's Life (soundtrack)",
+      "A Cellarful of Noise",
+      "A Hard Day's Night (film)",
+      "A Hard Day's Night (song)",
+      "A Man and His Music",
+      "A Salute to the Beatles: Once upon a Time",
+      "A Spaniard in the Works",
+      "A Story",
+      "A Toot and a Snore in '74",
+      "A Whole New World",
+      "A World Without Love",
+      "Aaron Copland",
+      "Abbey Road",
+      "Abbey Road, London",
+      "Abbey Road Studios",
+      "Abbie Hoffman",
+      "Academy Award for Best Original Score",
+      "Acorn (book)",
+      "Acoustic (John Lennon album)",
+      "Ad Lib Club",
+      "Adam Clayton",
+      "Adele",
+      "Adolph Deutsch",
+      "Adrienne Kennedy",
+      "Ahmad Jamal",
+      "Ain't That a Shame",
+      "Al Green",
+      "Al Jardine",
+      "Aladdin (1992 soundtrack)",
+      "Alan Livingston",
+      "Alan Menken",
+      "Alan Price",
+      "Alan White (Yes drummer)",
+      "Alan and Marilyn Bergman",
+      "Alanis Morissette",
+      "Aleatory",
+      "Alexandre Desplat",
+      "Alexis Petridis",
+      "Alfred Lennon",
+      "Alfred Newman",
+      "Alicia Keys",
+      "Alison Krauss",
+      "Alistair Taylor",
+      "AllMusic (identifier)",
+      "All Those Years Ago",
+      "All Together Now (2008 film)",
+      "All You Need Is Love",
+      "All You Need Is Love: The Story of Popular Music",
+      "Allan Williams",
+      "Allee Willis",
+      "Allen Klein",
+      "Always on My Mind",
+      "American Beauty: Original Motion Picture Score",
+      "American Civil Liberties Union",
+      "American Masters",
+      "American Symphony (film)",
+      "Amsterdam Hilton Hotel",
+      "Amy (2015 film)",
+      "Amy Wadge",
+      "Amy Winehouse",
+      "Anatomy of a Murder",
+      "Anderson .Paak",
+      "Andre Previn",
+      "Andrew Dost",
+      "André Previn",
+      "Andrés Segovia",
+      "Andy Peebles",
+      "Angel (Yoko Ono song)",
+      "Anglican",
+      "Ann Arbor, Michigan",
+      "Ann Wilson",
+      "Anne Dudley",
+      "Annie Lennox",
+      "Anthony Cox (producer)",
+      "Anthony Newley",
+      "Anti-war movement",
+      "Antonio Sánchez (drummer)",
+      "Antônio Carlos Jobim",
+      "Apotheosis (film)"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/John_Lennon%2C_1974_%28restored_cropped%29.jpg/330px-John_Lennon%2C_1974_%28restored_cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+      "name": "John Lennon",
+      "disambiguation": "The Beatles",
+      "type": "Person",
+      "country": "GB",
+      "begin_area": "Liverpool",
+      "life_span": {
+        "begin": "1940-10-09",
+        "end": "1980-12-08"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 3,
+      "instruments": 0,
+      "related_urls": 49
+    },
+    "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+  },
+  "created_at": "2025-08-20T07:34:50.064034",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "John Winston Ono Lennon (born John Winston Lennon; 9 October 1940 – 8 December 1980) was an English musician and activist. He gained global fame as the founder, co-lead vocalist and rhythm guitarist of the Beatles. Lennon's songwriting partnership with Paul McCartney remains the most successful in history.\nBorn in Liverpool, Lennon became involved in the skiffle craze as a teenager. In 1956, he formed the Quarrymen, which evolved into the Beatles in 1960. Lennon initially was the group's de facto leader, a role he gradually seemed to cede to McCartney, writing and co-writing songs with increasing innovation, including \"Strawberry Fields Forever\", which he later cited as his finest work with the band. Lennon soon expanded his work into other media by participating in numerous films, including How I Won the War, and authoring In His Own Write and A Spaniard in the Works, both collections of nonsense writings and line drawings. Starting with \"All You Need Is Love\", his songs were adopted as anthems by the anti-war movement and the counterculture of the 1960s.\nIn 1969, he started the Plastic Ono Band with his second wife, multimedia artist Yoko Ono, held the two-week-long anti-war demonstration...",
+  "musicbrainz_info": {
+    "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+    "name": "John Lennon",
+    "disambiguation": "The Beatles",
+    "type": "Person",
+    "country": "GB",
+    "begin_area": "Liverpool",
+    "life_span": {
+      "begin": "1940-10-09",
+      "end": "1980-12-08"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:44.685908"
+}

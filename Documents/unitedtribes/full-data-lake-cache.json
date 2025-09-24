@@ -1,0 +1,2483 @@
+{
+  "metadata": {
+    "generated": "2025-09-22T15:24:25.575Z",
+    "version": "2.0",
+    "total_relationships": 220,
+    "total_entities": 191,
+    "data_sources": 8
+  },
+  "relationships": [
+    {
+      "source": "Dua Lipa",
+      "target": "Allen Ginsberg** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Dua Lipa in Conversation With Patti Smith, Author of Just Kids",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Martin Scorsese",
+      "target": "Allen Ginsberg",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: 2005 Martin Scorsese on Bob Dylan Documentary 🎥📼",
+      "source_type": "entity",
+      "target_type": "poet"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Allen Ginsberg",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith was Just Kids | Celebrity Memoir Book Club | Full Episode",
+      "source_type": "musician",
+      "target_type": "poet"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Freewheelin' Bob Dylan",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "The Freewheelin' Bob Dylan (Album) - Released: 1963-05-27",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Nashville Skyline",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Nashville Skyline (Album) - Released: 1969-04-09",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "John Wesley Harding",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "John Wesley Harding (Album) - Released: 1967-12-27",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Blonde on Blonde",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Blonde on Blonde (Album) - Released: 1966-05-16",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Oh Mercy",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Oh Mercy (Album) - Released: 1989-09-12",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Knocked Out Loaded",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Knocked Out Loaded (Album) - Released: 1986-07-14",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Shot of Love",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Shot of Love (Album) - Released: 1981-08-10",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Basement Tapes",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "The Basement Tapes (Album) - Released: 1975-06-26",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "New Morning",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "New Morning (Album) - Released: 1970-10-21",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Street‐Legal",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Street‐Legal (Album) - Released: 1978-06-15",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Infidels",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Infidels (Album) - Released: 1983-10-27",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Self Portrait",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Self Portrait (Album) - Released: 1970-06-08",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Bringing It All Back Home",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Bringing It All Back Home (Album) - Released: 1965-03-22",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Times They Are A‐Changin",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "The Times They Are A‐Changin' (Album) - Released: 1964-02-10",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Slow Train Coming",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Slow Train Coming (Album) - Released: 1979-08-20",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Blood on the Tracks",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Blood on the Tracks (Album) - Released: 1975-01-20",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Saved",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Saved (Album) - Released: 1980-06-19",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Dylan",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Dylan (Album) - Released: 1973-11-16",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Empire Burlesque",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Empire Burlesque (Album) - Released: 1985-05-30",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Planet Waves",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Planet Waves (Album) - Released: 1974-01-17",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Another Side of Bob Dylan",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Another Side of Bob Dylan (Album) - Released: 1964-08-08",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Down in the Groove",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Down in the Groove (Album) - Released: 1988-05-19",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Highway 61 Revisited",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Highway 61 Revisited (Album) - Released: 1965-08-30",
+      "source_type": "musician",
+      "target_type": "album"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Desire",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Desire (Album) - Released: 1976-01-05",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "When I Paint My Masterpiece",
+      "relationship_type": "covers",
+      "confidence": 0.9,
+      "evidence": "Bob Dylan, some 50 years after writing and recording the original version of When I Paint My Masterpiece, he reimagined that song for a project called Shadow Kingdom, which is an album and it's out.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Shadow Kingdom",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "What you see in this film is Dylan and a band performing on a sound stage meant to look like a small smoky nightclub. And the spoiler alert is this. Dylan is actually lip-syncing and the band, as it says in the Wikipedia article about the film Shadow Kingdom, the players are finger-syncing.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Woody Guthrie",
+      "relationship_type": "influenced",
+      "confidence": 0.9,
+      "evidence": "Anybody knows anything about Dylan knows. One of the reasons the main reason he came to New York City from upstate Minnesota, ebbing. Hibbing? Duluth area was to see Woody Guthrie, his hero. Who was essentially dying in New York City at the time.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Cain's Ballroom",
+      "relationship_type": "performed_at",
+      "confidence": 0.8,
+      "evidence": "The Caine's ballroom is in Tulsa, one of the most famous concert venues in America. That is the site where Bob Wills in the Texas playboys. REINED FROM nineteen thirty five TO nineteen forty two.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Leon Russell",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.8,
+      "evidence": "LION RUSSELL'S FROM TALSA. DILEN WAS THERE RECORDING A TRACK WITH LION IN THE EARLY 70s. THAT'S WHERE WATCH the river flow came from",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Mavis Staples",
+      "relationship_type": "featured_on",
+      "confidence": 0.8,
+      "evidence": "He began working on a track paying tribute to his Lady Love at the time Mavis Staples. Ah, yeah. So I was close to being married to a girl. Yeah. He he started working on some lines for Mavis, a song about Mavis. Wow. She sings the blues in a long white robe. Here's a couple of lines I'm quoting. I dream she's singing in my sleep. But worse, I wake up thinking that I'm in church.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Dylan Center",
+      "relationship_type": "signed_to",
+      "confidence": 0.9,
+      "evidence": "The George Kiser Foundation bought this in twenty sixteen. That's the same foundation that operates the Woody Guthrie Center. So I'm sure that had something to do with it.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Tangled Up in Blue",
+      "relationship_type": "produced",
+      "confidence": 0.9,
+      "evidence": "Early one morning, the sun was shining. He was lying in bed. Wonder if she changed it all over her hair was still red. You know any way to do thing thing. And I thought sure That was the end of your the end of your I was was going to be be roasted and was all over all over for me.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Kevin Odogard",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "I got a phone call. I was a railroad brakeman. I thought it was the crew caller. Didn't want to go to work. It was 10 below outside. It was freezing. I ignored it. And it just kept ringing and ringing and finally picked it up. And it was David Simmerman, looking for a guitar.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Billy Peterson",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "Peterson shows up and thinks he's at another ad gig. And he sits down and he looks up and there's Bob Dylan. And he says, hey man, what's going on?",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bill Berg",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "Bill Berg, who went on to be a really successful animator at Disney, that I doubt that he ever looked back with any sense of regret whatsoever. His life went in a different direction, which satisfied him enormously. Hey, He on on the Little and the Lion King, you know. You have beauty and the Beast.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Greg Inhofer",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "Greg Inhofer was on five of the songs and got nothing. There is, five downside of what they There is that, you know, say the I live there they called know nice in there is, know, people and salt of the earth and not and salt of the earth say that about New York, right? But the downside is sometimes you get stepped on and these guys were truly truly on.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Chris Weber",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "Chris Weber went into the booth with Chris Weber, who's here in the room, with me now. And he struck up a conversation with him, and he's warming, and he's something, and... really good. Chris played it for me the other day and really a nice folk piece and Dylan said, hey, well, that's pretty good. Play me something else, he wrote, and he played him another one. Dylan was developing this great relationship and he said, well, you really, really play well and listen to this.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bruce Springsteen",
+      "target": "Bob Dylan",
+      "relationship_type": "influenced",
+      "confidence": 0.9,
+      "evidence": "I wouldn't be here without you. He performed Dylan's The Times They Are A Change In in 1997 at the Kennedy Center when Dylan was a Kennedy Center anoree.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Elvis Costello",
+      "relationship_type": "influenced",
+      "confidence": 0.9,
+      "evidence": "as a kid is angular melodies and hyper literate lyrics were in constant rotation in my household and his sounds saved my own musical sensibilities in a profound way",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joan Baez",
+      "target": "Bob Dylan",
+      "relationship_type": "influenced",
+      "confidence": 0.9,
+      "evidence": "By the time she helped launch Bob Dylan's career by inviting him on stage with her in the early sixties, Joan was already an international sensation.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Joan Baez",
+      "target": "Bob Dylan",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.9,
+      "evidence": "By the time she helped launch Bob Dylan's career by inviting him on stage with her in the early sixties, Joan was already an international sensation.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Bob Dylan",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "Madeleine Peyroux recorded songs by Bob Dylan and Leonard Cohen",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Annie Bartholomew",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "Annie Bartholomew's album 'Sisters of Whitechapel' is inspired by the stories of Victorian women who came north during the Klondike Gold Rush, which relates to the themes and historical context explored in Bob Dylan's reimagined songs.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Buck Meek",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Buck Meek from the band Big Thief is one of the players featured in the film 'Shadow Kingdom', which features Bob Dylan's reimagined performances of his early songs.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "T-Bone Burnett",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Along with T-Bone Burnett, Don Woz, Greg Lees and others, Bob Dylan dug into the first half of his career and recorded 13 songs for a streaming webcast.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Judy Collins",
+      "relationship_type": "genre_connection",
+      "confidence": 0.9,
+      "evidence": "Judy Collins made her name during the sixties folk Revival, covering songs by other artists like Leonard Cohen and Bob Dylan, using her crisp soprano to transform them.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Old Crow Medicine Show",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Old Crow's most successful song to date, the platinum certified wagon Wheel, was written around a Bob Dylan course catch Herd on an Old Dylan bootleg.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Roger McGuinn",
+      "relationship_type": "contemporary",
+      "confidence": 0.9,
+      "evidence": "McGuinn reminisces about playing alongside the likes of Bob Dylan and Richie Havens in the early 1960s in Greenwich Village cafes.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Joni Mitchell",
+      "relationship_type": "contemporary",
+      "confidence": 0.9,
+      "evidence": "McGuinn notes that the new folk singers like Joni Mitchell and Bob Dylan were writing their own songs, rather than performing traditional folk songs.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Odetta",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "I looked at NPR's Top one hundred folk songs, and only eight of them were traditional. The rest of them were, you know, James Taylor, Joni Mitchell, Eric Anderson, John Denver, I mean, everybody but the hundreds of years old, like the child ballads, the cowboys songs, the sea shanties, the prison songs, all these songs were just neglected.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Roger McGuinn",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "McGuinn talks about how playing basketball with Bob Dylan helped inspire Dylan's Rolling Thunder Review tour.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Band",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "The transcript discusses how The Band started out as the backup band for a rockabilly singer, before going on to collaborate extensively with Bob Dylan.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Les Paul",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "The transcript notes that Les Paul pioneered the use of home studios and overdubbing techniques, which influenced Dylan and The Band's unconventional recording approaches.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Robbie Robertson",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Robbie Robertson discusses his longtime work with Bob Dylan, including recording in unconventional spaces like 'Big Pink' and Sammy Davis Jr.'s house.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Van Morrison",
+      "relationship_type": "contemporary",
+      "confidence": 0.7,
+      "evidence": "Robbie Robertson discusses an argument he had with Van Morrison about the merits of live vs. studio recording, suggesting they were contemporaries working in a similar musical landscape.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Joan Baez",
+      "relationship_type": "mentor_student",
+      "confidence": 0.9,
+      "evidence": "By the time she helped launch Bob Dylan's career by inviting him on stage with her in the early sixties, Joan was already an international sensation.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Madeleine Peyroux",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "the later she recorded songs by Bob Dylan and Leonard Cohen.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Daniel Lanois",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Lanois made some of my favorite albums, Bob Dylan's Time Out of Mind",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Jim James",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "Jim James recalls 'the surreal moment he saw Bob Dylan disappear into the music while playing with him live'.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "J.S. Ondara",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "J.S. Ondara's first album 'Tales of America' is full of 'great songs, wistful, cautionary, even violent songs about leaving home and finding oneself in a strange country, pursuing an unknown path' - similar themes to Bob Dylan's work.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Jeff Buckley",
+      "relationship_type": "influence",
+      "confidence": 0.7,
+      "evidence": "J.S. Ondara discovered Jeff Buckley's music 'quite accidentally as a kid' through pirated CDs, suggesting Buckley was influenced by or connected to the musical style of Bob Dylan.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Don Was",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "He's also worked with Bob Dylan and as a Rolling Stones go to producer.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Buffy Sainte-Marie",
+      "relationship_type": "contemporary",
+      "confidence": 0.9,
+      "evidence": "Buffy Sainte-Marie was a pioneering artist in the Greenwich Village folk scene, playing alongside people like Bob Dylan.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Tom Petty and the Heartbreakers",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "The content mentions that Benmont Tench, the keyboardist for Tom Petty and the Heartbreakers, played with the band when they toured with Bob Dylan.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Jim James",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "Jim James discusses how the songs on The Waterfall II album reflect a sense of 'breaking up with life' during the pandemic, similar to the breakup themes in Bob Dylan's music.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "My Morning Jacket",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "Jim James mentions that My Morning Jacket 'might not exist if it hadn't been for Kermit The Frog's Rainbow Connection', suggesting Dylan's influence on the band through that iconic song.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Johnny Cash",
+      "target": "Bob Dylan",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "I got to work with Johnny Cash at the end of his career and his voice was definitely failing at the end, and it was really it really impacted him emotionally in a great way, in a terrible way",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Pete Seeger",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Pete Seeger, who influenced Dylan is portrayed in the film by Edward Norton.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Lion Russell",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "DILEN WAS THERE RECORDING A TRACK WITH LION IN THE EARLY 70s. THAT'S WHERE WATCH the river flow came from",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Leon Russell",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "DILEN WAS THERE RECORDING A TRACK WITH LION IN THE EARLY 70s. THAT'S WHERE WATCH the river flow came from",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Jimmy Carter",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.9,
+      "evidence": "The podcast discusses the connections between Bob Dylan's music and Jimmy Carter's presidency, indicating that music was an important part of Carter's life and presidency.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "other_artists_in_Greenwich_Village",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "The book discusses how Dylan's success and songwriting inspired other artists in the Greenwich Village scene to start writing and recording their own original songs, rather than just performing traditional folk songs.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "other_artists",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "The book indicates that Dylan's success in writing and recording his own songs inspired other artists in the Greenwich Village scene to also start writing and recording their own original material, rather than just performing traditional folk songs.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Neil Young",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.9,
+      "evidence": "Neil Young is in the same place as Dylan with On the Beach, right?",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Robert Wyatt",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "Robert Wyatt of the Soft Machine releases Rock Bottom, which is a title that really stands for the Times. He's, you know, finding catharsis in being paralyzed.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Van Morrison",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "And Van Morrison is in a dark place too with Vidon Fleese emotional turmoil in that record.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Johnny Mitchell",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Johnny Mitchell is swerving into jazz with court and spark.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Barry White",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Barry White can't get enough, right? You know, what does Bob Dylan have to say anymore?",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Hawks",
+      "relationship_type": "band_member",
+      "confidence": 0.9,
+      "evidence": "November 73 already had done recording sessions with the band reunited. When they last played together, the band was known as the Hawks and that Apollo tour. of the UK when they were getting booed on stage every night for being electric as opposed to focus. Now they were coming back as sort of the, you know, oh my God, this is coming back to us and we are greeting them with open arms and open wallets.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Mike Campbell",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "He's also collaborated with Don Henley, Stevie Nix, Bob Dylan, and many more.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Elvis Costello",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "As a kid, Elvis Costello's 'angular melodies and hyper literate lyrics were in constant rotation in my household and his sounds saved my own musical sensibilities in a profound way'.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Scarlet Rivera",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Scarlet Rivera, a previously unknown musician whose hypnotic violin became the signature sound of Bob Dylan's newly minted touring group, the Rolling Thunder Revue, and his gestational new album, Desire.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Buddy Holly",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "From the fabled teenage eye contact with Buddy Holly to the arrest in Springsteen's childhood neighborhood—it seems too unlikely to be true, and too preposterously random to invent.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Bruce Springsteen",
+      "relationship_type": "geographic",
+      "confidence": 0.8,
+      "evidence": "From the fabled teenage eye contact with Buddy Holly to the arrest in Springsteen's childhood neighborhood—it seems too unlikely to be true, and too preposterously random to invent.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Jerry Garcia",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Bob Dylan, stricken by the death of Jerry Garcia and sensing a hellhound on his own trail, turned to his beloved old blues records to exorcise the quickening dread he felt upon realizing that the bell also tolls for Zimmerman.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Charley Patton",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Dylan and Lanois started with looping jams inspired by Charley Patton's old 78s.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Ronnie Wood",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Bob Dylan took the stage at JFK Stadium late in the day, just past 10:30 p.m., accompanied by Ronnie Wood and Keith Richards of The Rolling Stones, each with acoustic guitars.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Keith Richards",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Bob Dylan took the stage at JFK Stadium late in the day, just past 10:30 p.m., accompanied by Ronnie Wood and Keith Richards of The Rolling Stones, each with acoustic guitars.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Willie Nelson",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Forty years ago, at the Live Aid festival in Philadelphia on July 13, 1985, it took Bob Dylan just a few moments to set in motion the music industry's longest-running concert for a cause — Willie Nelson's Farm Aid.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "John Mellencamp",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.8,
+      "evidence": "How Bob Dylan's Live Aid Remark — 'Pay The Mortgages on Some of the Farms' — Sparked 40 Years of Activism By Willie Nelson, Neil Young, John Mellencamp & More",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "David Bowie",
+      "target": "Bob Dylan",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "It's kind of a bizarro concept, and it's not Bowie's best album, but it is the one that got him noticed. And for that reason alone, it deserves some mention. David Bowie, Five Years, a great anthem actually on Sound of Pinnins. I'll kiss you, you're beautiful, I want you to walk. We've got five years stuck on fire. Five years, what a surprise we've got. Five years, my freedom's so large. Five years, that is all we've got. We've got five years, what a surprise. Five years. Bowie, Five Years, that's all we've got left, Jim.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Eminem",
+      "target": "Bob Dylan",
+      "relationship_type": "geographic",
+      "confidence": 0.8,
+      "evidence": "The song is called Walk on Water. It was recorded at Chenggula, which is just up the road from Reuben's house. Bob Dylan used to record there In fact, one of Dylan's old tour buses has been converted into a studio.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Benmont Tench",
+      "target": "Bob Dylan",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Rick and Benmont got together over zoom to commemorate the release of the Wild Flowers box set, but their conversation veered other places too, like the Heartbreaker's time on the road with Bob Dylan.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Benmont Tench",
+      "target": "Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "The Heartbreakers toured with Bob Dylan.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Mike Campbell",
+      "target": "Don Henley, Stevie Nicks, Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "He's also collaborated with Don Henley, Stevie Nix, Bob Dylan, and many more.",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Johnny Cash",
+      "target": "Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "Dylan's latest installment in his long-running Bootleg series is one of the shortest, the highlight of which is his collaboration with Johnny Cash.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Neil Young",
+      "target": "Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "Neil Young played his songs 'Cortez' and 'Hitchhiker' for Bob Dylan in the studio, and Dylan commented that 'Hitchhiker' was 'a very honest song'.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Bob Dylan",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "It was the height of the folk revival and Lou wasn't interested in everything folk, whatever vehicle or that he could use to get his ideas out.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Ringo Starr",
+      "target": "Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "Ringo mentions working as a session player for Bob Dylan after the Beatles broke up.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Slash",
+      "target": "Bob Dylan",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "a lot of songwriters I was early influenced by bob dylan",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Slash",
+      "target": "Bob Dylan",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "Slash was invited to participate in a Music Cares show where Bob Dylan selected the performers.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Bob Dylan",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Listening to Dylan had showed [John Lennon] that it was possible instead to treat pop songwriting as art, in the sense Lennon understood the term — as a means of personal expression that could also allow for experimentation and playing games.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Diatonic harmonica players (Little Walter, Sonny Boy Williamson, Charlie McCoy, Bob Dylan)",
+      "relationship_type": "genre_connection",
+      "confidence": 0.8,
+      "evidence": "Diatonic harmonicas are the ones you're likely to hear on country, blues, and folk recordings — they're the instrument played by people like Little Walter, Sonny Boy Williamson, Charlie McCoy, and Bob Dylan.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Bob Dylan",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Dylan had been on the group's radar for some time — Paul McCartney in the Anthology book seems to have a confused memory of seeing Madhouse on Castle Street, the TV play Dylan had appeared in in January 1963 — but early 1964 had seen him rise in prominence to the point that he was a major star, not just an obscure folk singer.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "John Lennon",
+      "target": "Bob Dylan",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "The stylistic influence of Dylan is very noticeable, as much in the instrumentation as in the lyrics. While several early Beatles singles had featured Lennon playing harmonica, he had been playing a chromatic harmonica... On 'I'm a Loser', though, Lennon plays a diatonic harmonica — an instrument that he would refer to as a 'harp' rather than a harmonica, because he associated it with the blues, where it's often referred to as a harp. Diatonic harmonicas are the instrument of choice for blues players because they allow more note-bending, and it's easier to play a full chord on them — the downside, that you have a smaller selection of notes available, is less important in the blues, which tends towards harmonic minimalism. Diatonic harmonicas are the ones you're likely to hear on country, blues, and folk recordings — they're the instrument played by people like Little Walter, Sonny Boy Williamson, Charlie McCoy, and Bob Dylan.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Woody Guthrie",
+      "relationship_type": "influenced_by",
+      "confidence": 0.95,
+      "evidence": "Bob Dylan has frequently cited Woody Guthrie as a major influence on his folk music style and songwriting approach.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Madeleine Peyroux",
+      "target": "Bob Dylan",
+      "relationship_type": "covers",
+      "confidence": 0.9,
+      "evidence": "In nineteen ninety six, Atlantic Records released Madeline's debut album, where she covered tunes from the thirties and forties by artists like Bessie Smith and Billie Holliday, and the later she recorded songs by Bob Dylan and Leonard Cohen.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "beatles",
+      "target": "Bob Dylan (aliases: Dylan)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: How the Beatles Changed the World (Documentary) | Amplified",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Beatles Changed The",
+      "target": "Bob Dylan (aliases: Dylan)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: How the Beatles Changed the World (Documentary) | Amplified",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "bob_dylan",
+      "target": "Bob Dylan (aliases: Dylan, Bob, Bobby Dylan)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: A Complete Unknown | Bob Dylan and the Biopic Formula",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Tour Companions:",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Joan Baez",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Bobby Neuwirth",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Musical Contemporaries:",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Donovan",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Alan Price",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Herman's Hermits",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Press and Media:",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Terry Ellis",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Industry Figures:",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Tito Burns",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Johnny (Granada TV)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Stewart (BBC)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Bob Dylan — Dont Look Back",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Musicians & Performers (Chronological by first mention)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: BOB DYLAN - No Direction Home (A Martin Scorsese picture) FULL Complete Blu-ray",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Dua Lipa",
+      "target": "Bob Dylan** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Dua Lipa in Conversation With Patti Smith, Author of Just Kids",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Martin Scorsese",
+      "target": "Bob Dylan",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: 2005 Martin Scorsese on Bob Dylan Documentary 🎥📼",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Bob Dylan",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Janis Joplin",
+      "target": "Joan Baez",
+      "relationship_type": "contemporary_of",
+      "confidence": 0.8,
+      "evidence": "They were so sure, I mean the Grossman's and the people at Columbia were so sure that I would go with Columbia because that had Dylan and Peter Paul and Mary Janice Joplin and just collecting them like that.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Janis Joplin",
+      "target": "Patti Smith",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Patti Smith talks about 'hanging out with and writing lyrics for Janis Joplin'.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Janis Joplin",
+      "target": "Joe Boyd",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Joe Boyd was a vital link between the US and UK counterculture and musical underground from the mid-sixties through the early seventies, during which time Janis Joplin was active.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Janis Joplin",
+      "target": "Nick Gravinidis",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Gravinitis wrote the song 'Buried by the Blues' for Janis Joplin, and she was ready to record the vocals for it when she died.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Books That Changed",
+      "target": "Janis Joplin",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Books That Changed My Life: Alyson Gorske & Just Kids - Patti Smith",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Dua Lipa",
+      "target": "Janis Joplin** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Dua Lipa in Conversation With Patti Smith, Author of Just Kids",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Janis Joplin",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Pete Townshend",
+      "target": "Jimi Hendrix",
+      "relationship_type": "contemporary_of",
+      "confidence": 0.9,
+      "evidence": "Pete Townshend would smash his guitar to bits. Jimi Hendrix would play guitar behind his head and pretend to have sex with it and then light it on fire.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Nile Rodgers",
+      "target": "Jimi Hendrix",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "Nile Rodgers comments on the large hands of 'real guitar players like these guys like Steve Y and Shit and Hendrix', noting that as a classical guitarist with smaller hands, he has to 'really have to get this stretch in certain pieces'.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Jimi Hendrix",
+      "relationship_type": "contemporary",
+      "confidence": 0.9,
+      "evidence": "Patti Smith recounts meeting Jimi Hendrix at the opening party for Electric Lady Studios in 1970, just weeks before his death.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Little Richard",
+      "target": "Jimi Hendrix",
+      "relationship_type": "band_member",
+      "confidence": 0.8,
+      "evidence": "You know, so he's going to lean into his past as a drag queen, Princess Livone, on the Chitlin circuit and take that performance, artifice and makeup and use it to protect himself in this new rock and roll space that he's creating and connecting with all kinds of audiences through. He has in his band, Jimi Hendrix.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Books That Changed",
+      "target": "Jimi Hendrix",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Books That Changed My Life: Alyson Gorske & Just Kids - Patti Smith",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Dua Lipa",
+      "target": "Jimi Hendrix** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Dua Lipa in Conversation With Patti Smith, Author of Just Kids",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Jimi Hendrix",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Quest For Craft",
+      "target": "Jimi Hendrix",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Quest for Craft: Season 1 | Chapter 3: Patti Smith",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "John Lennon",
+      "target": "John Coltrane",
+      "relationship_type": "influence",
+      "confidence": 0.8,
+      "evidence": "The speaker mentions sneaking out as a 12-year-old to see these jazz artists perform, describing it as 'another sexy world' that she was drawn to.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "The Byrds",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "We're first going to have to explain this: [Excerpt: John Coltrane, 'India (#3)'] Before we begin this, I just want to say something. This episode runs long, and covers a *lot* of musical ground, and as part of that it covers several of the most important musicians of the twentieth century — but musicians in the fields of jazz, which is a music I know something about, but am not an expert in, and Hindustani classical music, which is very much not even close to my area of expertise.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Ravi Shankar",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "We're first going to have to explain this: [Excerpt: John Coltrane, 'India (#3)'] Before we begin this, I just want to say something. This episode runs long, and covers a *lot* of musical ground, and as part of that it covers several of the most important musicians of the twentieth century — but musicians in the fields of jazz, which is a music I know something about, but am not an expert in, and Hindustani classical music, which is very much not even close to my area of expertise.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joni Mitchell",
+      "target": "John Coltrane",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "Lisa Robinson talks about hearing Miles Davis, Thelonious Monk, and John Coltrane as a young listener, saying 'it just sounded like another sexy world down there'.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Bbc4 Legends The",
+      "target": "John Coltrane** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: BBC4 Legends The Charlie Parker Story",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Blue Note Records",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Blue Note Record's Magnificent 7: Payton, Wilson, Coltrane, Charlap, Washington, Bernstein and Nash",
+      "source_type": "venue",
+      "target_type": "musician"
+    },
+    {
+      "source": "Books That Changed",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Books That Changed My Life: Alyson Gorske & Just Kids - Patti Smith",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Inside The Last",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Inside the Last Rolling Stones Recording Session with Don Was | The Kenny Aronoff Sessions",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Curtis Fuller",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Lee Morgan",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Paul Chambers",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Philly Joe Jones",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Kenny Drew",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Kenny Durham",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "JJ Johnson",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Coltrane",
+      "target": "Art Blakey",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: John Coltrane's Blue Train Session The Inside Story with Curtis Fuller",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Taking On John",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Taking on John Coltrane's A Love Supreme: History, Music Theory Analysis, and Arrangement",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "The Real Mccoy",
+      "target": "Elvin Jones",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: The Real McCoy: Don Was & Nduduzo Makhathini On A McCoy Tyner Classic",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Real Mccoy",
+      "target": "John Coltrane",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: The Real McCoy: Don Was & Nduduzo Makhathini On A McCoy Tyner Classic",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "The World According",
+      "target": "John Coltrane** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: The World According To John Coltrane (Full VHS 1991) DELUXE EDITION",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Top 10 Blue",
+      "target": "John Coltrane** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Top 10 Blue Note Records on Vinyl || Tone Poets & Classic Series",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Gorillas",
+      "target": "Lou Reed",
+      "relationship_type": "collaborated_with",
+      "confidence": 0.8,
+      "evidence": "Dubbed is the world's first virtual group, the Gorilla's rotating lineup includes collaborations with De La Soul, Stevie Nicks, Bobby Womack, and Lou Reed.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Laurie Anderson",
+      "target": "Lou Reed",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "He would marry a third time the impressive artist Laurie Anderson and they remained together until his death from liver disease a decade ago on October 27th 2013.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "David Bowie",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "David Bowie and a number of other artists at the time 'paved the way' for queer artists to present themselves in the media",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Death Cab for Cutie",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Death Cab for Cutie are celebrating twenty five years as a band with their tenth album called asphalt meadows",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "NoSo",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.7,
+      "evidence": "NoSo's song 'Parasites' addresses their younger self, reassuring that there's hope and the future",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Sylvan Esso",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "Sylvan Esso have a new single called 'Sunburn' about the way in over indulgence",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Gorillaz",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Gorillas' rotating lineup includes collaborations with Lou Reed.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Velvet Underground",
+      "relationship_type": "band_member",
+      "confidence": 0.9,
+      "evidence": "Lou Reed becomes Lou Reed's and Sterling is a tugboat captain who, really nobody heard from for years until the short lived Velvet Underground me units except he didn't play on some Luna tracks in nineteen ninety nine.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Sterling Morrison",
+      "relationship_type": "band_member",
+      "confidence": 0.9,
+      "evidence": "Lou Reed becomes Lou Reed's and Sterling is a tugboat captain who, really nobody heard from for years until the short lived Velvet Underground me units except he didn't play on some Luna tracks in nineteen ninety nine.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "The Velvet Underground",
+      "relationship_type": "band_member",
+      "confidence": 0.9,
+      "evidence": "After making four of the most important albums in rock history, the Velvet Underground, Lou Reed becomes a solo artist.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Doug Yull",
+      "relationship_type": "collaboration",
+      "confidence": 0.8,
+      "evidence": "And was a very heartfelt letter that's kind of like it's really great to see that kind of stuff.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Mike Rathke",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "The one I wanna talk about is that band that he had in the late nineties, I thought it was a terrific band. I got to see them play a bunch of shows, Mike Raseke, Fernando Sanders, Tony Smith, trio of guys banking him that were empatica Fernando had been working with him for a long time.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Fernando Saunders",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "The one I wanna talk about is that band that he had in the late nineties, I thought it was a terrific band. I got to see them play a bunch of shows, Mike Raseke, Fernando Sanders, Tony Smith, trio of guys banking him that were empatica Fernando had been working with him for a long time.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Tony Smith",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "The one I wanna talk about is that band that he had in the late nineties, I thought it was a terrific band. I got to see them play a bunch of shows, Mike Raseke, Fernando Sanders, Tony Smith, trio of guys banking him that were empatica Fernando had been working with him for a long time.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Doug Yule",
+      "relationship_type": "band_member",
+      "confidence": 0.8,
+      "evidence": "And was a very heartfelt letter that's kind of like it's really great to see that kind of stuff. The original home that inspired Kony Island baby, you know, Lou wanted you know, after the velvet's split up, they really dove deep into this era where Lou was doing poetry primarily, getting getting it published in very places.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "King of New York",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.9,
+      "evidence": "The author of the book 'Lou Reed, the King of New York' is mentioned.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "John Cale",
+      "relationship_type": "band_member",
+      "confidence": 0.9,
+      "evidence": "The Velvet Underground formed in 1964 with members Lou Reed, John Cale, Sterling Morrison, and Angus Mcleish on drums.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Joan Baez",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "It was the height of the folk revival and Lou wasn't interested in everything folk, whatever vehicle or that he could use to get his ideas out.",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Sonic Youth",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "evidence": "David Bowie's fiftieth birthday celebration at Madison Square Garden at which he had a number of artists perform younger artists mostly a Sonic Youth, but other folks, but Lou Reed was the guest of honor and they played in a maybe four songs together scooting Queen bit which is. A song that. Though he wrote for Lou Reed and he introduced Lou Reed that night as well as the King of New York",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Candy Darling",
+      "relationship_type": "thematic_similarity",
+      "confidence": 0.9,
+      "evidence": "The song 'Candy Says' was inspired in part by the trans actress Candy Darling.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Lester Bangs",
+      "relationship_type": "mentor_student",
+      "confidence": 0.8,
+      "evidence": "Lester Bangs was one of the biggest boosters of Lou Reed's work, writing a positive review of the Velvet Underground in Rolling Stone. However, their relationship soured after Bangs wrote a transphobic article about Reed.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Sonic Youth",
+      "relationship_type": "influence",
+      "confidence": 0.9,
+      "evidence": "I know you've performed with Sonic Youth, who have obviously taken cues from Metal Machine Music",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Zeitkratzer",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "In 2002, Ulrick Krieger transcribed the album and arranged for it to be performed-- with Reed on guitar-- by Zeitkratzer, an 11-member classical ensemble.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Ulrick Krieger",
+      "relationship_type": "collaboration",
+      "confidence": 0.9,
+      "evidence": "Ulrick Krieger, who's the guy who transcribed it for Zeitkratzer-- he's an independent musician, he plays with a lot of different bands-- he called and said, \"I want to do this, I've always loved the piece and I want to transcribe it.\"",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Lou Reed",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Robert Mapplethorpe",
+      "relationship_type": "mentor_student",
+      "confidence": 0.9,
+      "evidence": "Patti Smith discusses living with and being mentored by Robert Mapplethorpe in the Chelsea Hotel in the late 1960s.",
+      "source_type": "musician",
+      "target_type": "cultural_figure"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Adele",
+      "relationship_type": "genre_connection",
+      "confidence": 0.7,
+      "evidence": "Patti Smith recalls a 'failed attempt to cover Adele in concert'.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Victoria La Grand",
+      "relationship_type": "influenced",
+      "confidence": 0.7,
+      "evidence": "There was a mixture of like the warm, gooey, the velvety layers, the velvet underground, and then there's also the reggae and then yeah, it's just a whole combo of things.",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Dua Lipa",
+      "target": "Patti Smith** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Dua Lipa in Conversation With Patti Smith, Author of Just Kids",
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lessons From Rick",
+      "target": "Patti Smith",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Lessons from Rick Rubin and Patti Smith: From Apathy to Introspection in Art.",
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Musicians and Performers",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Johnny Winter",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Michael Stipe",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Brian Jones",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Jim Morrison",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Stevie Wonder",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Adele",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Neil Young",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith | Broken Record (Hosted by Malcolm Gladwell)",
+      "source_type": "musician",
+      "target_type": "musician"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Musicians & Artists",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Arthur Rimbaud",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "poet"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Pete Townshend",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Lenny",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Sam Shepard",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "cultural_figure"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Muhammad Ali",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith in 1976 on Getting Bleeped",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Musicians & Performers (Chronological by first mention)",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith - Interview, Stockholm October 1976",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Musical Artists",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith on Bob Dylan and DONT LOOK BACK",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Primary Influences:",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith on Bob Dylan and DONT LOOK BACK",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Patti Smith** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith On Losing Her Voice & Mainstream Recognition | Explains It All | Harper's BAZAAR",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "David Remnick** -",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith Reveals the Story Behind Her Most Successful Song and Performs Live With David Remnick",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Memoir Subjects and Literary Figures",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith was Just Kids | Celebrity Memoir Book Club | Full Episode",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Johnny Depp",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith was Just Kids | Celebrity Memoir Book Club | Full Episode",
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Patti Smith",
+      "target": "Jim Carroll",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Patti Smith was Just Kids | Celebrity Memoir Book Club | Full Episode",
+      "source_type": "musician",
+      "target_type": "poet"
+    },
+    {
+      "source": "Quest For Craft",
+      "target": "Patti Smith",
+      "relationship_type": "mentioned_with",
+      "confidence": 0.85,
+      "evidence": "Mentioned together in video analysis: Quest for Craft: Season 1 | Chapter 3: Patti Smith",
+      "source_type": "entity",
+      "target_type": "musician"
+    }
+  ],
+  "entity_connections": {
+    "Dua Lipa": 5,
+    "Allen Ginsberg** -": 1,
+    "Martin Scorsese": 2,
+    "Allen Ginsberg": 2,
+    "Patti Smith": 35,
+    "Bob Dylan": 121,
+    "The Freewheelin' Bob Dylan": 1,
+    "Nashville Skyline": 1,
+    "John Wesley Harding": 1,
+    "Blonde on Blonde": 1,
+    "Oh Mercy": 1,
+    "Knocked Out Loaded": 1,
+    "Shot of Love": 1,
+    "The Basement Tapes": 1,
+    "New Morning": 1,
+    "Street‐Legal": 1,
+    "Infidels": 1,
+    "Self Portrait": 1,
+    "Bringing It All Back Home": 1,
+    "The Times They Are A‐Changin": 1,
+    "Slow Train Coming": 1,
+    "Blood on the Tracks": 1,
+    "Saved": 1,
+    "Dylan": 1,
+    "Empire Burlesque": 1,
+    "Planet Waves": 1,
+    "Another Side of Bob Dylan": 1,
+    "Down in the Groove": 1,
+    "Highway 61 Revisited": 1,
+    "Desire": 1,
+    "When I Paint My Masterpiece": 1,
+    "Shadow Kingdom": 1,
+    "Woody Guthrie": 2,
+    "Cain's Ballroom": 1,
+    "Leon Russell": 2,
+    "Mavis Staples": 1,
+    "The Dylan Center": 1,
+    "Tangled Up in Blue": 1,
+    "Kevin Odogard": 1,
+    "Billy Peterson": 1,
+    "Bill Berg": 1,
+    "Greg Inhofer": 1,
+    "Chris Weber": 1,
+    "Bruce Springsteen": 2,
+    "Elvis Costello": 2,
+    "Joan Baez": 6,
+    "Billie Holiday": 1,
+    "Annie Bartholomew": 1,
+    "Buck Meek": 1,
+    "T-Bone Burnett": 1,
+    "Judy Collins": 1,
+    "Old Crow Medicine Show": 1,
+    "Roger McGuinn": 2,
+    "Joni Mitchell": 2,
+    "Odetta": 1,
+    "The Band": 1,
+    "Les Paul": 1,
+    "Robbie Robertson": 1,
+    "Van Morrison": 2,
+    "Madeleine Peyroux": 2,
+    "Daniel Lanois": 1,
+    "Jim James": 2,
+    "J.S. Ondara": 1,
+    "Jeff Buckley": 1,
+    "Don Was": 1,
+    "Buffy Sainte-Marie": 1,
+    "Tom Petty and the Heartbreakers": 1,
+    "My Morning Jacket": 1,
+    "Johnny Cash": 2,
+    "Pete Seeger": 1,
+    "Lion Russell": 1,
+    "Jimmy Carter": 1,
+    "other_artists_in_Greenwich_Village": 1,
+    "other_artists": 1,
+    "Neil Young": 3,
+    "Robert Wyatt": 1,
+    "Johnny Mitchell": 1,
+    "Barry White": 1,
+    "The Hawks": 1,
+    "Mike Campbell": 2,
+    "Scarlet Rivera": 1,
+    "Buddy Holly": 1,
+    "Jerry Garcia": 1,
+    "Charley Patton": 1,
+    "Ronnie Wood": 1,
+    "Keith Richards": 1,
+    "Willie Nelson": 1,
+    "John Mellencamp": 1,
+    "David Bowie": 2,
+    "Eminem": 1,
+    "Benmont Tench": 2,
+    "Don Henley, Stevie Nicks, Bob Dylan": 1,
+    "Lou Reed": 26,
+    "Ringo Starr": 1,
+    "Slash": 2,
+    "The Beatles": 3,
+    "Diatonic harmonica players (Little Walter, Sonny Boy Williamson, Charlie McCoy, Bob Dylan)": 1,
+    "John Lennon": 2,
+    "beatles": 1,
+    "Bob Dylan (aliases: Dylan)": 2,
+    "Beatles Changed The": 1,
+    "bob_dylan": 1,
+    "Bob Dylan (aliases: Dylan, Bob, Bobby Dylan)": 1,
+    "Tour Companions:": 1,
+    "Bobby Neuwirth": 1,
+    "Musical Contemporaries:": 1,
+    "Donovan": 1,
+    "Alan Price": 1,
+    "Herman's Hermits": 1,
+    "Press and Media:": 1,
+    "Terry Ellis": 1,
+    "Industry Figures:": 1,
+    "Tito Burns": 1,
+    "Johnny (Granada TV)": 1,
+    "Stewart (BBC)": 1,
+    "Musicians & Performers (Chronological by first mention)": 2,
+    "Bob Dylan** -": 1,
+    "Janis Joplin": 6,
+    "Joe Boyd": 1,
+    "Nick Gravinidis": 1,
+    "Books That Changed": 3,
+    "Janis Joplin** -": 1,
+    "Pete Townshend": 2,
+    "Jimi Hendrix": 7,
+    "Nile Rodgers": 1,
+    "Little Richard": 1,
+    "Jimi Hendrix** -": 1,
+    "Quest For Craft": 2,
+    "John Coltrane": 18,
+    "The Byrds": 1,
+    "Ravi Shankar": 1,
+    "Bbc4 Legends The": 1,
+    "John Coltrane** -": 3,
+    "Blue Note Records": 1,
+    "Inside The Last": 1,
+    "Curtis Fuller": 1,
+    "Lee Morgan": 1,
+    "Paul Chambers": 1,
+    "Philly Joe Jones": 1,
+    "Kenny Drew": 1,
+    "Kenny Durham": 1,
+    "JJ Johnson": 1,
+    "Art Blakey": 1,
+    "Taking On John": 1,
+    "The Real Mccoy": 2,
+    "Elvin Jones": 1,
+    "The World According": 1,
+    "Top 10 Blue": 1,
+    "Gorillas": 1,
+    "Laurie Anderson": 1,
+    "Death Cab for Cutie": 1,
+    "NoSo": 1,
+    "Sylvan Esso": 1,
+    "Gorillaz": 1,
+    "Velvet Underground": 1,
+    "Sterling Morrison": 1,
+    "The Velvet Underground": 1,
+    "Doug Yull": 1,
+    "Mike Rathke": 1,
+    "Fernando Saunders": 1,
+    "Tony Smith": 1,
+    "Doug Yule": 1,
+    "King of New York": 1,
+    "John Cale": 1,
+    "Sonic Youth": 2,
+    "Candy Darling": 1,
+    "Lester Bangs": 1,
+    "Zeitkratzer": 1,
+    "Ulrick Krieger": 1,
+    "Robert Mapplethorpe": 1,
+    "Adele": 2,
+    "Victoria La Grand": 1,
+    "Patti Smith** -": 2,
+    "Lessons From Rick": 1,
+    "Musicians and Performers": 1,
+    "Johnny Winter": 1,
+    "Michael Stipe": 1,
+    "Brian Jones": 1,
+    "Jim Morrison": 1,
+    "Stevie Wonder": 1,
+    "Musicians & Artists": 1,
+    "Arthur Rimbaud": 1,
+    "Lenny": 1,
+    "Sam Shepard": 1,
+    "Muhammad Ali": 1,
+    "Musical Artists": 1,
+    "Primary Influences:": 1,
+    "David Remnick** -": 1,
+    "Memoir Subjects and Literary Figures": 1,
+    "Johnny Depp": 1,
+    "Jim Carroll": 1
+  },
+  "top_hubs": [
+    {
+      "name": "Bob Dylan",
+      "connections": 121,
+      "type": "musician"
+    },
+    {
+      "name": "Patti Smith",
+      "connections": 35,
+      "type": "musician"
+    },
+    {
+      "name": "Lou Reed",
+      "connections": 26,
+      "type": "musician"
+    },
+    {
+      "name": "John Coltrane",
+      "connections": 18,
+      "type": "musician"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "connections": 7,
+      "type": "musician"
+    },
+    {
+      "name": "Joan Baez",
+      "connections": 6,
+      "type": "musician"
+    },
+    {
+      "name": "Janis Joplin",
+      "connections": 6,
+      "type": "musician"
+    },
+    {
+      "name": "Dua Lipa",
+      "connections": 5,
+      "type": "entity"
+    },
+    {
+      "name": "Neil Young",
+      "connections": 3,
+      "type": "musician"
+    },
+    {
+      "name": "The Beatles",
+      "connections": 3,
+      "type": "musician"
+    },
+    {
+      "name": "Books That Changed",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "John Coltrane** -",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "Martin Scorsese",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Allen Ginsberg",
+      "connections": 2,
+      "type": "poet"
+    },
+    {
+      "name": "Woody Guthrie",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Leon Russell",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Elvis Costello",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Roger McGuinn",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Joni Mitchell",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Van Morrison",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Madeleine Peyroux",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Jim James",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Johnny Cash",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Mike Campbell",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "David Bowie",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Benmont Tench",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Slash",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "John Lennon",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Bob Dylan (aliases: Dylan)",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Musicians & Performers (Chronological by first mention)",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Pete Townshend",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Quest For Craft",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "The Real Mccoy",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Sonic Youth",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Adele",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Patti Smith** -",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Allen Ginsberg** -",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "The Freewheelin' Bob Dylan",
+      "connections": 1,
+      "type": "album"
+    },
+    {
+      "name": "Nashville Skyline",
+      "connections": 1,
+      "type": "album"
+    },
+    {
+      "name": "John Wesley Harding",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Blonde on Blonde",
+      "connections": 1,
+      "type": "album"
+    },
+    {
+      "name": "Oh Mercy",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Knocked Out Loaded",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Shot of Love",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "The Basement Tapes",
+      "connections": 1,
+      "type": "album"
+    },
+    {
+      "name": "New Morning",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Street‐Legal",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Infidels",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Self Portrait",
+      "connections": 1,
+      "type": "entity"
+    }
+  ],
+  "clusters": {
+    "Beat Generation": [
+      "Allen Ginsberg",
+      "Jack Kerouac",
+      "William Burroughs",
+      "Lawrence Ferlinghetti"
+    ],
+    "Punk/CBGB": [
+      "Patti Smith",
+      "Television",
+      "Ramones",
+      "Talking Heads",
+      "Richard Hell"
+    ],
+    "60s Rock": [
+      "Bob Dylan",
+      "Jimi Hendrix",
+      "Janis Joplin",
+      "The Beatles",
+      "The Rolling Stones"
+    ],
+    "Jazz": [
+      "John Coltrane",
+      "Miles Davis",
+      "Thelonious Monk",
+      "Charlie Parker"
+    ],
+    "Folk": [
+      "Joan Baez",
+      "Woody Guthrie",
+      "Pete Seeger",
+      "Phil Ochs"
+    ],
+    "NYC Underground": [
+      "Lou Reed",
+      "Andy Warhol",
+      "The Velvet Underground",
+      "John Cale"
+    ]
+  },
+  "entity_types": {
+    "musicians": 207,
+    "poets": 4,
+    "albums": 6,
+    "books": 0,
+    "venues": 1
+  }
+}

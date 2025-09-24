@@ -1,0 +1,390 @@
+{
+  "artist_name": "Jools Holland",
+  "works": [
+    {
+      "title": "World of His Own",
+      "release_date": "1990",
+      "type": "Album",
+      "mbid": "00059c10-95f2-3e08-bf9f-0cbbca8f177a"
+    },
+    {
+      "title": "The Collection",
+      "release_date": "2008",
+      "type": "Album",
+      "mbid": "06513ab9-1349-3be1-abe8-e7d21c6a6d1f"
+    },
+    {
+      "title": "Solo Piano",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "0a2f3445-0dcb-3dfb-b6b0-834cf065ef43"
+    },
+    {
+      "title": "The Full Complement",
+      "release_date": "1991",
+      "type": "Album",
+      "mbid": "5a84efbd-fa53-30d2-b561-286756723c05"
+    },
+    {
+      "title": "Swing Fever",
+      "release_date": "2024-02-23",
+      "type": "Album",
+      "mbid": "780a52c3-02c2-437a-8180-6cecb5da7f03"
+    },
+    {
+      "title": "Tom Jones & Jools Holland",
+      "release_date": "2004-09-27",
+      "type": "Album",
+      "mbid": "8137af99-47a6-32e4-94ec-8ffac29d511a"
+    },
+    {
+      "title": "The Best Of",
+      "release_date": "1998",
+      "type": "Album",
+      "mbid": "927bbb14-794c-3c86-8dd4-51116c701ac5"
+    },
+    {
+      "title": "Pianola: Piano & Friends",
+      "release_date": "2021-11-19",
+      "type": "Album",
+      "mbid": "959753e8-0c88-47ae-9c92-d14ff3d8e8fc"
+    },
+    {
+      "title": "Jools Holland Meets Rock ‘A’ Boogie Billy",
+      "release_date": "1984",
+      "type": "Album",
+      "mbid": "a89d72cf-2271-4705-bcb3-b0411094d428"
+    },
+    {
+      "title": "A Lovely Life to Live",
+      "release_date": "2018-11-23",
+      "type": "Album",
+      "mbid": "b337f65c-e6b9-4577-9dda-63c77681e3f5"
+    },
+    {
+      "title": "The A-Z Geographers' Guide to the Piano",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "bb6aca50-988e-308e-a806-2405dd9995a1"
+    },
+    {
+      "title": "As You See Me Now",
+      "release_date": "2017-11-17",
+      "type": "Album",
+      "mbid": "cdf992a6-a1cf-4bd3-bb63-921dae7d4150"
+    },
+    {
+      "title": "Piano",
+      "release_date": "2016-12-02",
+      "type": "Album",
+      "mbid": "eabc4706-6376-40a0-9494-8c65dc87657e"
+    },
+    {
+      "title": "Jools & Ruby",
+      "release_date": "2015-12-04",
+      "type": "Album",
+      "mbid": "fbcba102-f170-4ff0-95fa-8db347481905"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "Isabella Coulstock",
+      "Trevor Moss & Hannah-Lou"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000257274"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/29a6f210-8c16-404a-9c0f-c26e26ecb29c"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/126416"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.joolsholland.org.uk/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/6eLbRJP12OhyvUv4ntto4e"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/66617"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Jools_Holland_at_the_BAFTA's_(cropped).jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0390735/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.joolsholland.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n94062315"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb140672993"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/133737233"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/jools_holland"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n94062315/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id14194823"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/joolsholland"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/jools.holland.official/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/38828"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/121960101"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q181991"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCNFul0clNqtk0c-qN7-huAQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jools_Holland",
+    "musicbrainz": "https://musicbrainz.org/artist/29a6f210-8c16-404a-9c0f-c26e26ecb29c"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Julian Miles Holland  (born 24 January 1958) is an English pianist, bandleader, singer, composer and television presenter. He was an original member of the band Squeeze and has worked with many artists including Marc Almond, Jayne County, Tom Jones, José Feliciano, Sting, Eric Clapton, Mark Knopfler, George Harrison, David Gilmour, Ringo Starr, Dr. John, Bono, Rod Stewart, The The, Ruby Turner, and Amy Winehouse.\nFrom 1982 until 1987, Holland co-presented the Channel 4 music programme The Tube. Since 1992, he has hosted Later... with Jools Holland, a music-based show aired on BBC2, on which his annual show Hootenanny is based. Holland is a published author and appears on television shows besides his own. He regularly hosted the programme Jools Holland on BBC Radio 2.\nIn 2004 he collaborated with Welsh singer Tom Jones on an album of traditional R&B music. He achieved his first UK number one album in 2024 with Swing Fever, a collaboration with Rod Stewart.",
+    "summary": "Julian Miles Holland  (born 24 January 1958) is an English pianist, bandleader, singer, composer and television presenter. He was an original member of the band Squeeze and has worked with many artists including Marc Almond, Jayne County, Tom Jones, José Feliciano, Sting, Eric Clapton, Mark Knopfler, George Harrison, David Gilmour, Ringo Starr, Dr. John, Bono, Rod Stewart, The The, Ruby Turner, and Amy Winehouse.\nFrom 1982 until 1987, Holland co-presented the Channel 4 music programme The Tube. ...",
+    "url": "https://en.wikipedia.org/wiki/Jools_Holland",
+    "title": "Jools Holland",
+    "word_count": 158,
+    "categories": [
+      "Category:1958 births",
+      "Category:20th-century English pianists",
+      "Category:20th-century male pianists",
+      "Category:21st-century English pianists",
+      "Category:21st-century male pianists",
+      "Category:All articles with dead external links",
+      "Category:Articles with dead external links from September 2010",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:BBC Radio 2 presenters",
+      "Category:BBC television presenters",
+      "Category:Boogie-woogie pianists",
+      "Category:British Army honorary colonels",
+      "Category:British television show creators",
+      "Category:Deputy lieutenants of Kent",
+      "Category:East West Records artists",
+      "Category:English bandleaders",
+      "Category:English male pianists",
+      "Category:English new wave musicians",
+      "Category:English people of Irish descent",
+      "Category:English rock pianists",
+      "Category:English television presenters",
+      "Category:I.R.S. Records artists",
+      "Category:Jools Holland's Rhythm and Blues Orchestra members",
+      "Category:Living people",
+      "Category:Musicians from the Royal Borough of Greenwich",
+      "Category:Officers of the Order of the British Empire",
+      "Category:Pages using embedded infobox templates with the title parameter",
+      "Category:People from Blackheath, London",
+      "Category:Short description is different from Wikidata",
+      "Category:Squeeze (band) members",
+      "Category:Television personalities from the London Borough of Lewisham",
+      "Category:Television personalities from the Royal Borough of Greenwich",
+      "Category:The Sunday Night Band members",
+      "Category:Use British English from October 2013",
+      "Category:Use dmy dates from May 2021",
+      "Category:Webarchive template wayback links"
+    ],
+    "internal_links": [
+      "101 (City of London) Engineer Regiment",
+      "A Hyperactive Workout for the Flying Squad",
+      "A Night in London",
+      "AllMusic",
+      "Alternative TV",
+      "Amy Winehouse",
+      "Andy Metcalfe",
+      "Annie Get Your Gun (song)",
+      "Another Nail in My Heart",
+      "Anutha Zone",
+      "Argybargy",
+      "Ash Soan",
+      "Autobiography",
+      "B. B. King",
+      "BBC2",
+      "BBC Radio 2",
+      "BBC Radio 3",
+      "BBC Radio 4",
+      "Babylon and On",
+      "Bang Bang (Squeeze song)",
+      "Bangla Bangers",
+      "Berlin",
+      "Between the Devil and the Deep Blue Sea (song)",
+      "Beverley Knight",
+      "Big Town Playboys",
+      "Black Coffee in Bed",
+      "Blackheath, London",
+      "Blues",
+      "Bob Geldof",
+      "Bono",
+      "Boogie-woogie",
+      "Brainwashed (George Harrison album)",
+      "British Academy Television Awards 2009",
+      "British Phonographic Industry",
+      "British Satellite Broadcasting",
+      "Canterbury Cathedral",
+      "Canterbury Christ Church University",
+      "Cash (The Young Ones)",
+      "Celebrity Gogglebox",
+      "Channel 4",
+      "Chris Cheney",
+      "Chris Difford",
+      "Christmas Day (Squeeze song)",
+      "Christopher Holland",
+      "Chrome Molly",
+      "Colonel (United Kingdom)",
+      "Concert for George",
+      "Cool for Cats (album)",
+      "Cool for Cats (song)",
+      "Cooling Castle",
+      "Cosi Fan Tutti Frutti",
+      "Cradle to the Grave (album)",
+      "Crying in My Sleep",
+      "David Gilmour",
+      "David Sanborn",
+      "Daylight (The Selecter album)",
+      "De Dijk",
+      "Deep in the Heart of Nowhere",
+      "Deputy Lieutenant",
+      "Deuces Wild (B. B. King album)",
+      "Difford & Tilbrook",
+      "Difford & Tilbrook (album)",
+      "Discogs",
+      "Domino (Squeeze album)",
+      "Don't Forget Your Toothbrush",
+      "Don Snow",
+      "Down in the Valley (Squeeze song)",
+      "Dr. John",
+      "East End of London",
+      "East Side Story (Squeeze album)",
+      "East West Records",
+      "Eddi Reader",
+      "Eddie and the Hot Rods",
+      "Edward Lambton, 7th Earl of Durham",
+      "Edwin Astley",
+      "Eric Clapton",
+      "Everything in the World",
+      "Farfisa Beat",
+      "Filthy Rich & Catflap",
+      "Fine Young Cannibals",
+      "Frank (Amy Winehouse album)",
+      "Frank (Squeeze album)",
+      "French and Saunders",
+      "Fuck Off (song)",
+      "George Harrison",
+      "Gilson Lavis",
+      "Glenn Tilbrook",
+      "Good Thing (Fine Young Cannibals song)",
+      "Goodbye Girl (Squeeze song)",
+      "Gospel (Mica Paris album)",
+      "Gramophone record",
+      "GuilFest",
+      "Guilfest",
+      "Hammond organ",
+      "Heartbreaking World",
+      "Heaven Knows (Squeeze song)",
+      "Heavy Soul (Paul Weller album)",
+      "Hits of the Year",
+      "Hold On Tight (Solomon Burke and De Dijk album)",
+      "Honorary fellow"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jools_Holland_at_the_BAFTA%27s_%28cropped%29.jpg/330px-Jools_Holland_at_the_BAFTA%27s_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "29a6f210-8c16-404a-9c0f-c26e26ecb29c",
+      "name": "Jools Holland",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "GB",
+      "begin_area": "Blackheath",
+      "life_span": {
+        "begin": "1958-01-24",
+        "end": null
+      }
+    },
+    "total_works": 14,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 2,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 21
+    },
+    "mbid": "29a6f210-8c16-404a-9c0f-c26e26ecb29c"
+  },
+  "created_at": "2025-08-19T19:17:52.044191",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Julian Miles Holland  (born 24 January 1958) is an English pianist, bandleader, singer, composer and television presenter. He was an original member of the band Squeeze and has worked with many artists including Marc Almond, Jayne County, Tom Jones, José Feliciano, Sting, Eric Clapton, Mark Knopfler, George Harrison, David Gilmour, Ringo Starr, Dr. John, Bono, Rod Stewart, The The, Ruby Turner, and Amy Winehouse.\nFrom 1982 until 1987, Holland co-presented the Channel 4 music programme The Tube. Since 1992, he has hosted Later... with Jools Holland, a music-based show aired on BBC2, on which his annual show Hootenanny is based. Holland is a published author and appears on television shows besides his own. He regularly hosted the programme Jools Holland on BBC Radio 2.\nIn 2004 he collaborated with Welsh singer Tom Jones on an album of traditional R&B music. He achieved his first UK number one album in 2024 with Swing Fever, a collaboration with Rod Stewart.",
+  "musicbrainz_info": {
+    "mbid": "29a6f210-8c16-404a-9c0f-c26e26ecb29c",
+    "name": "Jools Holland",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "GB",
+    "begin_area": "Blackheath",
+    "life_span": {
+      "begin": "1958-01-24",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:13:50.626977"
+}

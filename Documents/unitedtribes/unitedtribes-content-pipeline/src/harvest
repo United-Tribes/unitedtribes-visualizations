@@ -1,0 +1,144 @@
+#!/bin/bash
+#
+# United Tribes Content Harvester
+# Convenient wrapper script for the content scraping system
+#
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+SCRAPER_SCRIPT="$SCRIPT_DIR/cron/scraper_job.py"
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+show_help() {
+    echo -e "${BLUE}🌾 United Tribes Content Harvester${NC}"
+    echo "=================================="
+    echo
+    echo "USAGE:"
+    echo "  ./harvest [OPTIONS]"
+    echo
+    echo "COMMON COMMANDS:"
+    echo "  ./harvest test                          # Safe test run (dry mode)"
+    echo "  ./harvest run                           # Basic harvest"
+    echo "  ./harvest weekly                        # Weekly production harvest"
+    echo "  ./harvest logs                          # View recent logs"
+    echo "  ./harvest status                        # Check system health"
+    echo
+    echo "ADVANCED OPTIONS:"
+    echo "  ./harvest --sources pitchfork npr       # Specify sources"
+    echo "  ./harvest --max-articles 20             # Limit articles"
+    echo "  ./harvest --dry-run                     # Test mode"
+    echo
+    echo "EXAMPLES:"
+    echo "  ./harvest test                          # Always start here"
+    echo "  ./harvest --sources pitchfork --max-articles 10"
+    echo "  ./harvest weekly                        # For production use"
+    echo
+}
+
+run_safety_check() {
+    echo -e "${YELLOW}🛡️ Running safety checks...${NC}"
+    python3 "$SCRIPT_DIR/safety_checklist.py"
+    return $?
+}
+
+show_logs() {
+    LOG_FILE="$SCRIPT_DIR/cron/logs/scraper_$(date +%Y%m%d).log"
+    if [[ -f "$LOG_FILE" ]]; then
+        echo -e "${BLUE}📋 Showing logs: $LOG_FILE${NC}"
+        tail -f "$LOG_FILE"
+    else
+        echo -e "${YELLOW}⚠️  No log file found for today${NC}"
+        echo "Looking for recent logs..."
+        ls -la "$SCRIPT_DIR/cron/logs/" | tail -5
+    fi
+}
+
+check_status() {
+    echo -e "${BLUE}🔍 Checking Content Harvester Status${NC}"
+    echo "===================================="
+
+    # Check API health
+    echo -n "API Health: "
+    API_STATUS=$(curl -s "https://166ws8jk15.execute-api.us-east-1.amazonaws.com/prod/health" | jq -r '.status' 2>/dev/null)
+    if [[ "$API_STATUS" == "healthy" ]]; then
+        echo -e "${GREEN}✅ $API_STATUS${NC}"
+    else
+        echo -e "${RED}❌ $API_STATUS${NC}"
+    fi
+
+    # Check S3 access
+    echo -n "S3 Access: "
+    if aws s3 ls s3://ut-v2-prod-lake-east1/ > /dev/null 2>&1; then
+        echo -e "${GREEN}✅ Connected${NC}"
+    else
+        echo -e "${RED}❌ Failed${NC}"
+    fi
+
+    # Check recent harvests
+    echo -n "Recent Harvests: "
+    RECENT_COUNT=$(aws s3 ls s3://ut-v2-prod-lake-east1/scraped-content/ --recursive 2>/dev/null | wc -l)
+    echo -e "${GREEN}$RECENT_COUNT files${NC}"
+
+    echo
+    echo "Recent activity:"
+    aws s3 ls s3://ut-v2-prod-lake-east1/scraped-content/ --recursive 2>/dev/null | tail -3
+}
+
+# Main command handling
+case "${1:-help}" in
+    "test")
+        echo -e "${YELLOW}🧪 Running test harvest (dry run)${NC}"
+        python3 "$SCRAPER_SCRIPT" --dry-run --sources pitchfork --max-articles 2
+        ;;
+
+    "run")
+        echo -e "${GREEN}🌾 Running basic harvest${NC}"
+        if run_safety_check; then
+            python3 "$SCRAPER_SCRIPT" --sources pitchfork --max-articles 5
+        else
+            echo -e "${RED}❌ Safety checks failed - harvest aborted${NC}"
+            exit 1
+        fi
+        ;;
+
+    "weekly")
+        echo -e "${GREEN}🌾 Running weekly production harvest${NC}"
+        if run_safety_check; then
+            python3 "$SCRAPER_SCRIPT" --sources pitchfork npr --max-articles 20
+        else
+            echo -e "${RED}❌ Safety checks failed - harvest aborted${NC}"
+            exit 1
+        fi
+        ;;
+
+    "logs")
+        show_logs
+        ;;
+
+    "status")
+        check_status
+        ;;
+
+    "help"|"-h"|"--help")
+        show_help
+        ;;
+
+    *)
+        # Pass through all other arguments to the scraper script
+        echo -e "${BLUE}🌾 Running Content Harvester with custom options${NC}"
+        echo "Arguments: $@"
+        echo
+
+        if run_safety_check; then
+            python3 "$SCRAPER_SCRIPT" "$@"
+        else
+            echo -e "${RED}❌ Safety checks failed - harvest aborted${NC}"
+            exit 1
+        fi
+        ;;
+esac

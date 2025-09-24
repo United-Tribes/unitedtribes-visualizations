@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Tribes Chord Diagram</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #fff;
+        }
+
+        .header {
+            background: #2d2d30;
+            padding: 1rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        .controls {
+            background: #252526;
+            padding: 1rem;
+            border-bottom: 1px solid #3e3e42;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .control-group label {
+            font-size: 0.8rem;
+            color: #cccccc;
+        }
+
+        input, select, button {
+            padding: 0.5rem;
+            border: 1px solid #3e3e42;
+            background: #1e1e1e;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #0e639c;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background: #1177bb;
+        }
+
+        button:disabled {
+            background: #464647;
+            cursor: not-allowed;
+        }
+
+        .main-container {
+            display: flex;
+            height: calc(100vh - 140px);
+        }
+
+        .sidebar {
+            width: 300px;
+            background: #252526;
+            border-right: 1px solid #3e3e42;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        .chord-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1a1a1a;
+            position: relative;
+        }
+
+        #chordDiagram {
+            background: #1a1a1a;
+        }
+
+        .loading {
+            color: #cccccc;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .error {
+            color: #f48771;
+            background: #3c1c1c;
+            border: 1px solid #5a1e1e;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(37, 37, 38, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            pointer-events: none;
+            font-size: 0.9rem;
+            color: #fff;
+            max-width: 300px;
+            z-index: 1000;
+        }
+
+        .legend {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .legend h3 {
+            margin: 0 0 0.5rem 0;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            margin-right: 0.5rem;
+        }
+
+        .stats {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .stats h3 {
+            margin: 0 0 0.5rem 0;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.25rem;
+            font-size: 0.9rem;
+        }
+
+        .stat-label {
+            color: #cccccc;
+        }
+
+        .stat-value {
+            color: #4fc3f7;
+            font-weight: bold;
+        }
+
+        .artist-list {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 1rem;
+        }
+
+        .artist-list h3 {
+            margin: 0 0 0.5rem 0;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .artist-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+            cursor: pointer;
+            padding: 0.25rem;
+            border-radius: 3px;
+        }
+
+        .artist-item:hover {
+            background: #3e3e42;
+        }
+
+        .artist-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-controls button {
+            font-size: 0.8rem;
+            padding: 0.4rem 0.8rem;
+            background: #464647;
+        }
+
+        .filter-controls button.active {
+            background: #0e639c;
+        }
+
+        .chord-arc {
+            stroke: #3e3e42;
+            stroke-width: 1;
+        }
+
+        .chord-ribbon {
+            fill-opacity: 0.7;
+            stroke-width: 0.5;
+            stroke: #1a1a1a;
+        }
+
+        .chord-ribbon:hover {
+            fill-opacity: 0.9;
+        }
+
+        .chord-label {
+            font-size: 11px;
+            fill: #fff;
+            text-anchor: middle;
+        }
+
+        .chord-label.rotated {
+            text-anchor: start;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎵 United Tribes Chord Diagram</h1>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Artist Focus</label>
+            <input type="text" id="artistFocus" placeholder="e.g., Patti Smith, Art Blakey" value="">
+        </div>
+
+        <div class="control-group">
+            <label>Connection Type</label>
+            <select id="connectionType">
+                <option value="all">All Relationships</option>
+                <option value="collaboration">Collaborations</option>
+                <option value="mentor_student">Mentor/Student</option>
+                <option value="contemporary">Contemporary</option>
+                <option value="influence">Influence</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Min Connections</label>
+            <input type="range" id="minConnections" min="1" max="20" step="1" value="2">
+            <span id="minConnectionsValue">2</span>
+        </div>
+
+        <button id="loadChordButton">Load Chord Diagram</button>
+
+        <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="jazz">Jazz</button>
+            <button class="filter-btn" data-filter="rock">Rock</button>
+            <button class="filter-btn" data-filter="punk">Punk</button>
+            <button class="filter-btn" data-filter="folk">Folk</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="stats" id="chordStats" style="display: none;">
+                <h3>Connection Statistics</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Total Artists:</span>
+                    <span class="stat-value" id="totalArtists">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Total Connections:</span>
+                    <span class="stat-value" id="totalConnections">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Strongest Connection:</span>
+                    <span class="stat-value" id="strongestConnection">-</span>
+                </div>
+            </div>
+
+            <div class="legend" id="chordLegend" style="display: none;">
+                <h3>Relationship Types</h3>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffb74d;"></div>
+                    <span>Collaboration</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ba68c8;"></div>
+                    <span>Mentor/Student</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4fc3f7;"></div>
+                    <span>Contemporary</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #81c784;"></div>
+                    <span>Influence</span>
+                </div>
+            </div>
+
+            <div class="artist-list" id="artistList">
+                <h3>Select artists to explore connections</h3>
+            </div>
+        </div>
+
+        <div class="chord-container">
+            <div id="chordDiagram" class="loading">
+                Enter artist names or click "Load Chord Diagram" to explore musical connections
+            </div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip" style="display: none;"></div>
+
+    <script>
+        class ChordDiagramVisualizer {
+            constructor() {
+                this.apiBase = 'https://166ws8jk15.execute-api.us-east-1.amazonaws.com/prod';
+                this.currentData = null;
+                this.svg = null;
+                this.chord = null;
+                this.tooltip = d3.select('#tooltip');
+
+                // Color schemes for different relationship types
+                this.colors = {
+                    collaboration: '#ffb74d',
+                    mentor_student: '#ba68c8',
+                    contemporary: '#4fc3f7',
+                    influence: '#81c784',
+                    genre_connection: '#f48771'
+                };
+
+                this.initializeEventListeners();
+            }
+
+            initializeEventListeners() {
+                document.getElementById('loadChordButton').addEventListener('click', () => this.loadChordDiagram());
+
+                document.getElementById('minConnections').addEventListener('input', (e) => {
+                    document.getElementById('minConnectionsValue').textContent = e.target.value;
+                    if (this.currentData) this.updateChordDiagram();
+                });
+
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => this.applyGenreFilter(e.target.dataset.filter));
+                });
+            }
+
+            async loadChordDiagram() {
+                const focusArtist = document.getElementById('artistFocus').value.trim();
+                const connectionType = document.getElementById('connectionType').value;
+
+                const loadButton = document.getElementById('loadChordButton');
+                loadButton.disabled = true;
+                loadButton.textContent = 'Loading...';
+
+                document.getElementById('chordDiagram').innerHTML = '<div class="loading">Loading chord diagram data...</div>';
+
+                try {
+                    // If focus artist specified, get their network
+                    if (focusArtist) {
+                        await this.loadArtistNetwork(focusArtist);
+                    } else {
+                        // Load sample of well-connected artists
+                        await this.loadSampleNetwork();
+                    }
+
+                } catch (error) {
+                    console.error('Failed to load chord diagram:', error);
+                    document.getElementById('chordDiagram').innerHTML = `
+                        <div class="error">
+                            <h3>Failed to load chord diagram</h3>
+                            <p>${error.message}</p>
+                        </div>
+                    `;
+                } finally {
+                    loadButton.disabled = false;
+                    loadButton.textContent = 'Load Chord Diagram';
+                }
+            }
+
+            async loadArtistNetwork(artist) {
+                const response = await fetch(`${this.apiBase}/v2/broker`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        query: `tell me about ${artist}`,
+                        domain: 'music'
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API request failed: ${response.status}`);
+                }
+
+                const data = await response.json();
+                this.currentData = this.processNetworkData(data, artist);
+                this.renderChordDiagram();
+            }
+
+            async loadSampleNetwork() {
+                // Load data for several well-connected artists
+                const sampleArtists = ['Art Blakey', 'Miles Davis', 'Bob Dylan', 'Patti Smith', 'The Beatles'];
+                const allData = { artists: new Set(), connections: [] };
+
+                for (const artist of sampleArtists) {
+                    try {
+                        const response = await fetch(`${this.apiBase}/v2/broker`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                query: `tell me about ${artist}`,
+                                domain: 'music'
+                            })
+                        });
+
+                        if (response.ok) {
+                            const data = await response.json();
+                            const processed = this.processNetworkData(data, artist);
+
+                            // Merge data
+                            processed.artists.forEach(a => allData.artists.add(a));
+                            allData.connections.push(...processed.connections);
+                        }
+                    } catch (error) {
+                        console.warn(`Failed to load data for ${artist}:`, error);
+                    }
+                }
+
+                this.currentData = {
+                    artists: Array.from(allData.artists),
+                    connections: allData.connections
+                };
+
+                this.renderChordDiagram();
+            }
+
+            processNetworkData(apiData, focusArtist) {
+                const artists = new Set([focusArtist]);
+                const connections = [];
+
+                console.log('Processing API data:', apiData);
+
+                if (apiData.connections && apiData.connections.direct_connections) {
+                    apiData.connections.direct_connections.forEach(connection => {
+                        const entityName = connection.entity;
+                        artists.add(entityName);
+
+                        if (connection.top_connections) {
+                            connection.top_connections.forEach(rel => {
+                                const sourceEntity = entityName;
+                                const targetEntity = rel.target;
+
+                                artists.add(sourceEntity);
+                                artists.add(targetEntity);
+
+                                connections.push({
+                                    source: sourceEntity,
+                                    target: targetEntity,
+                                    type: rel.type,
+                                    confidence: rel.confidence || 0.8,
+                                    evidence: rel.evidence,
+                                    themes: rel.themes || []
+                                });
+                            });
+                        }
+                    });
+                }
+
+                console.log('Processed artists:', Array.from(artists));
+                console.log('Processed connections:', connections);
+
+                return {
+                    artists: Array.from(artists),
+                    connections: connections
+                };
+            }
+
+            renderChordDiagram() {
+                if (!this.currentData) return;
+
+                // Clear previous diagram
+                d3.select('#chordDiagram').selectAll('*').remove();
+
+                const container = document.getElementById('chordDiagram');
+                const width = Math.min(container.clientWidth - 40, container.clientHeight - 40);
+                const height = width;
+                const innerRadius = Math.min(width, height) * 0.35;
+                const outerRadius = innerRadius + 20;
+
+                this.svg = d3.select('#chordDiagram')
+                    .append('svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .append('g')
+                    .attr('transform', `translate(${width / 2},${height / 2})`);
+
+                // Create adjacency matrix
+                const { matrix, artistNames } = this.createAdjacencyMatrix();
+
+                if (matrix.length === 0) {
+                    document.getElementById('chordDiagram').innerHTML = '<div class="error">No connections found for the selected criteria</div>';
+                    return;
+                }
+
+                // Create chord layout
+                this.chord = d3.chord()
+                    .padAngle(0.05)
+                    .sortSubgroups(d3.descending);
+
+                const chords = this.chord(matrix);
+
+                // Color scale
+                const colorScale = d3.scaleOrdinal()
+                    .domain(artistNames)
+                    .range(d3.schemeCategory10);
+
+                // Draw arcs
+                const arc = d3.arc()
+                    .innerRadius(innerRadius)
+                    .outerRadius(outerRadius);
+
+                const ribbon = d3.ribbon()
+                    .radius(innerRadius);
+
+                // Add arcs
+                const arcs = this.svg.selectAll('.chord-arc')
+                    .data(chords.groups)
+                    .enter().append('path')
+                    .attr('class', 'chord-arc')
+                    .attr('d', arc)
+                    .style('fill', (d, i) => colorScale(artistNames[i]))
+                    .style('stroke', '#3e3e42')
+                    .on('mouseover', (event, d) => this.showArcTooltip(event, d, artistNames))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Add ribbons
+                const ribbons = this.svg.selectAll('.chord-ribbon')
+                    .data(chords)
+                    .enter().append('path')
+                    .attr('class', 'chord-ribbon')
+                    .attr('d', ribbon)
+                    .style('fill', d => colorScale(artistNames[d.source.index]))
+                    .style('fill-opacity', 0.7)
+                    .on('mouseover', (event, d) => this.showRibbonTooltip(event, d, artistNames))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Add labels
+                const labels = this.svg.selectAll('.chord-label')
+                    .data(chords.groups)
+                    .enter().append('text')
+                    .attr('class', 'chord-label')
+                    .each(function(d) {
+                        d.angle = (d.startAngle + d.endAngle) / 2;
+                    })
+                    .attr('dy', '.35em')
+                    .attr('transform', d => {
+                        const angle = d.angle * 180 / Math.PI - 90;
+                        const radius = outerRadius + 10;
+                        return `rotate(${angle}) translate(${radius},0) ${angle > 90 ? 'rotate(180)' : ''}`;
+                    })
+                    .style('text-anchor', d => (d.angle * 180 / Math.PI - 90) > 90 ? 'end' : 'start')
+                    .text((d, i) => artistNames[i])
+                    .style('font-size', '11px')
+                    .style('fill', '#fff');
+
+                this.updateStats(artistNames, matrix);
+                this.updateArtistList(artistNames, colorScale);
+                this.showLegend();
+            }
+
+            createAdjacencyMatrix() {
+                const minConnections = parseInt(document.getElementById('minConnections').value);
+                const connectionType = document.getElementById('connectionType').value;
+
+                console.log('Creating matrix with min connections:', minConnections, 'type:', connectionType);
+                console.log('Current data connections:', this.currentData.connections);
+
+                // Count connections for each artist
+                const connectionCounts = new Map();
+
+                this.currentData.connections.forEach(conn => {
+                    if (connectionType !== 'all' && conn.type !== connectionType) return;
+
+                    connectionCounts.set(conn.source, (connectionCounts.get(conn.source) || 0) + 1);
+                    connectionCounts.set(conn.target, (connectionCounts.get(conn.target) || 0) + 1);
+                });
+
+                console.log('Connection counts:', connectionCounts);
+
+                // Filter artists by minimum connections, but be more lenient
+                const filteredArtists = Array.from(connectionCounts.entries())
+                    .filter(([artist, count]) => count >= Math.max(1, minConnections - 1))
+                    .map(([artist]) => artist)
+                    .slice(0, 12); // Limit for visualization clarity
+
+                console.log('Filtered artists:', filteredArtists);
+
+                if (filteredArtists.length === 0) {
+                    console.log('No artists found, using all available artists');
+                    // Fall back to using all artists if filters are too strict
+                    const allArtists = Array.from(new Set([
+                        ...this.currentData.connections.map(c => c.source),
+                        ...this.currentData.connections.map(c => c.target)
+                    ])).slice(0, 10);
+
+                    if (allArtists.length === 0) {
+                        return { matrix: [], artistNames: [] };
+                    }
+
+                    const matrix = Array(allArtists.length).fill().map(() =>
+                        Array(allArtists.length).fill(0)
+                    );
+
+                    this.currentData.connections.forEach(conn => {
+                        if (connectionType !== 'all' && conn.type !== connectionType) return;
+
+                        const sourceIndex = allArtists.indexOf(conn.source);
+                        const targetIndex = allArtists.indexOf(conn.target);
+
+                        if (sourceIndex !== -1 && targetIndex !== -1) {
+                            const weight = Math.max(1, Math.round((conn.confidence || 0.8) * 10));
+                            matrix[sourceIndex][targetIndex] += weight;
+                            matrix[targetIndex][sourceIndex] += weight;
+                        }
+                    });
+
+                    return { matrix, artistNames: allArtists };
+                }
+
+                // Create adjacency matrix
+                const matrix = Array(filteredArtists.length).fill().map(() =>
+                    Array(filteredArtists.length).fill(0)
+                );
+
+                this.currentData.connections.forEach(conn => {
+                    if (connectionType !== 'all' && conn.type !== connectionType) return;
+
+                    const sourceIndex = filteredArtists.indexOf(conn.source);
+                    const targetIndex = filteredArtists.indexOf(conn.target);
+
+                    if (sourceIndex !== -1 && targetIndex !== -1) {
+                        const weight = Math.max(1, Math.round((conn.confidence || 0.8) * 10));
+                        matrix[sourceIndex][targetIndex] += weight;
+                        matrix[targetIndex][sourceIndex] += weight;
+                    }
+                });
+
+                console.log('Final matrix:', matrix);
+                return { matrix, artistNames: filteredArtists };
+            }
+
+            showArcTooltip(event, d, artistNames) {
+                const artist = artistNames[d.index];
+                const connections = d.value;
+
+                this.tooltip.style('display', 'block')
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <strong>${artist}</strong><br>
+                        Total Connections: ${connections}<br>
+                        Click to explore this artist
+                    `);
+            }
+
+            showRibbonTooltip(event, d, artistNames) {
+                const sourceArtist = artistNames[d.source.index];
+                const targetArtist = artistNames[d.target.index];
+                const strength = d.source.value;
+
+                // Find specific connection details
+                const connection = this.currentData.connections.find(c =>
+                    (c.source === sourceArtist && c.target === targetArtist) ||
+                    (c.source === targetArtist && c.target === sourceArtist)
+                );
+
+                this.tooltip.style('display', 'block')
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <strong>${sourceArtist} ↔ ${targetArtist}</strong><br>
+                        Connection Strength: ${strength}<br>
+                        ${connection ? `Type: ${connection.type}<br>` : ''}
+                        ${connection && connection.evidence ? `Evidence: ${connection.evidence.substring(0, 100)}...` : ''}
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('display', 'none');
+            }
+
+            updateStats(artistNames, matrix) {
+                const totalArtists = artistNames.length;
+                const totalConnections = matrix.reduce((sum, row) =>
+                    sum + row.reduce((rowSum, val) => rowSum + val, 0), 0) / 2;
+
+                let strongestConnection = { artists: '', strength: 0 };
+
+                for (let i = 0; i < matrix.length; i++) {
+                    for (let j = i + 1; j < matrix[i].length; j++) {
+                        if (matrix[i][j] > strongestConnection.strength) {
+                            strongestConnection = {
+                                artists: `${artistNames[i]} ↔ ${artistNames[j]}`,
+                                strength: matrix[i][j]
+                            };
+                        }
+                    }
+                }
+
+                document.getElementById('totalArtists').textContent = totalArtists;
+                document.getElementById('totalConnections').textContent = totalConnections;
+                document.getElementById('strongestConnection').textContent =
+                    strongestConnection.artists || 'None';
+
+                document.getElementById('chordStats').style.display = 'block';
+            }
+
+            updateArtistList(artistNames, colorScale) {
+                const listContainer = document.getElementById('artistList');
+
+                let html = '<h3>Artists in Diagram</h3>';
+                artistNames.forEach(artist => {
+                    html += `
+                        <div class="artist-item" onclick="document.getElementById('artistFocus').value='${artist}'; this.scrollIntoView();">
+                            <div class="artist-color" style="background: ${colorScale(artist)};"></div>
+                            <span>${artist}</span>
+                        </div>
+                    `;
+                });
+
+                listContainer.innerHTML = html;
+            }
+
+            showLegend() {
+                document.getElementById('chordLegend').style.display = 'block';
+            }
+
+            applyGenreFilter(genre) {
+                // Update button states
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                document.querySelector(`[data-filter="${genre}"]`).classList.add('active');
+
+                // Filter logic would be implemented here based on themes in the data
+                // For now, just re-render with current data
+                if (this.currentData) {
+                    this.renderChordDiagram();
+                }
+            }
+
+            updateChordDiagram() {
+                if (this.currentData) {
+                    this.renderChordDiagram();
+                }
+            }
+        }
+
+        // Initialize the visualizer when the page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            new ChordDiagramVisualizer();
+        });
+    </script>
+</body>
+</html>

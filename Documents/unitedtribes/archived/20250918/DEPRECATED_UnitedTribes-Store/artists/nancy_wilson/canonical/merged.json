@@ -1,0 +1,433 @@
+{
+  "artist_name": "Nancy Wilson",
+  "works": [
+    {
+      "title": "Nancy Wilson / Cannonball Adderley",
+      "release_date": "1962-09",
+      "type": "Album",
+      "mbid": "0182be48-7232-31ef-a721-98289aff34ab"
+    },
+    {
+      "title": "Today, Tomorrow, Forever",
+      "release_date": "1964",
+      "type": "Album",
+      "mbid": "0ef27af2-7bef-308d-b434-678b715d72f8"
+    },
+    {
+      "title": "Nancy - Naturally",
+      "release_date": "1966-12",
+      "type": "Album",
+      "mbid": "154c8a96-8e0f-4fa8-ad80-db9eadfc45ad"
+    },
+    {
+      "title": "Something Wonderful",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "296dbbed-d02f-3729-81ef-6937f4882cb4"
+    },
+    {
+      "title": "Hurt So Bad",
+      "release_date": "1969",
+      "type": "Album",
+      "mbid": "30ab989e-dd07-46e8-8826-7d66d744a0ad"
+    },
+    {
+      "title": "All in Love is Fair",
+      "release_date": "1974",
+      "type": "Album",
+      "mbid": "37f979df-910c-4768-9b01-83d4d1a128a9"
+    },
+    {
+      "title": "Now I'm A Woman",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "3d4b9ab8-0f7b-4cc6-910c-c5f719d5f658"
+    },
+    {
+      "title": "Kaleidoscope",
+      "release_date": "1971",
+      "type": "Album",
+      "mbid": "4210c222-a9c6-4c78-8d73-061ed6965023"
+    },
+    {
+      "title": "Like in Love",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "53e675af-e43b-403f-9078-4c41ee5d14e9"
+    },
+    {
+      "title": "A Touch of Today",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "5a61068a-150f-3e8d-952f-2aa4ffc463c7"
+    },
+    {
+      "title": "The Swingin’s Mutual!",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "6cd3f129-d19f-3466-93e3-6631285f1a84"
+    },
+    {
+      "title": "Hello Young Lovers",
+      "release_date": "1962-07",
+      "type": "Album",
+      "mbid": "93bb37e8-c4d2-41d2-848a-e4e64146c0c1"
+    },
+    {
+      "title": "Welcome to My Love",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "94343818-f104-3066-b843-484e9969722e"
+    },
+    {
+      "title": "The Nancy Wilson Show!",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "9a2aaa6f-e79c-41ef-8640-a7fa5a2e8e05"
+    },
+    {
+      "title": "Yesterday’s Love Songs / Today’s Blues",
+      "release_date": "1963",
+      "type": "Album",
+      "mbid": "a935e4e2-5683-37c5-9c4d-daf42bbc518f"
+    },
+    {
+      "title": "Son of a Preacher Man",
+      "release_date": "1969",
+      "type": "Album",
+      "mbid": "b58980cf-cf7f-4666-aeec-d864fae5e123"
+    },
+    {
+      "title": "Just for Now",
+      "release_date": "1967",
+      "type": "Album",
+      "mbid": "c29a9a80-b9ba-4cd2-a3f2-2cca44bf3725"
+    },
+    {
+      "title": "Broadway – My Way",
+      "release_date": "1963-03",
+      "type": "Album",
+      "mbid": "c37b70d4-ec42-3958-9c26-d0eb6099c07a"
+    },
+    {
+      "title": "The Sound Of Nancy Wilson",
+      "release_date": "1969",
+      "type": "Album",
+      "mbid": "c4f1449a-5881-4b91-a2c6-9540aadc79e4"
+    },
+    {
+      "title": "How Glad I Am",
+      "release_date": "1964",
+      "type": "Album",
+      "mbid": "cb601d81-ecd8-3f2d-9a03-ea7d202952bb"
+    },
+    {
+      "title": "From Broadway With Love",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "d03338d3-321a-4609-b22e-b681a4b50d32"
+    },
+    {
+      "title": "Now I’m a Woman",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "d4ebbeba-4812-30b9-a28d-cf31fe8ad4cd"
+    },
+    {
+      "title": "Easy",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "e19447c3-6deb-4d1d-9090-f0c711455ae0"
+    },
+    {
+      "title": "Hollywood – My Way",
+      "release_date": "1963",
+      "type": "Album",
+      "mbid": "ecb37566-376a-4ad4-ae91-bcfc4f64b43f"
+    },
+    {
+      "title": "Tender Loving Care",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "ef6d6028-864e-4c45-b074-2271c7f9d467"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000368367"
+      },
+      {
+        "type": "biography",
+        "url": "https://web.archive.org/web/20120208080535/http://missnancywilson.com/index.php?option=com_content&task=view&id=12&Itemid=26"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/97917"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/2JfVCMa3FlvQRlLT5uH9zb"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/3241"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Nancy_Wilson.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0933897/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.missnancywilson.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n88172131"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb139012289"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/134558308"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6cs858v"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/nancy-wilson-2"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n88172131"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1831"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/718"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/39563664"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q467690"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nancy_Wilson_(rock_musician)",
+    "musicbrainz": "https://musicbrainz.org/artist/f597eafc-4dc5-4bc4-a019-a5035a3c8502"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Nancy Lamoureux Wilson (born March 16, 1954) is an American musician. She rose to fame alongside her older sister Ann as guitarist and second vocalist in the rock band Heart.\nRaised in Bellevue, Washington, Wilson began playing music as a teenager. During college, she joined her sister who had recently become the singer of Heart. Considered the first hard rock band fronted by women to achieve widespread commercial success, Heart released numerous albums throughout the late 1970s and 1980s; the albums Dreamboat Annie (1975) and Little Queen (1977) generated chart singles such as \"Magic Man\", \"Crazy on You\", and \"Barracuda\". The band also had commercial success with their eighth, ninth, and tenth studio albums, Heart, Bad Animals, and Brigade, which were released in 1985, 1987, and 1990 respectively. Heart has sold over 35 million records.\nWilson has been lauded for her guitar playing, noted for blending elements of flamenco and classical guitar styles with hard rock. In 2016, Gibson ranked Wilson the eighth-greatest female guitarist of all time. She is also an accomplished singer in her own right, being the lead vocalist in the song \"These Dreams\", which became Heart's first number-one...",
+    "summary": "Nancy Lamoureux Wilson (born March 16, 1954) is an American musician. She rose to fame alongside her older sister Ann as guitarist and second vocalist in the rock band Heart.\nRaised in Bellevue, Washington, Wilson began playing music as a teenager. During college, she joined her sister who had recently become the singer of Heart. Considered the first hard rock band fronted by women to achieve widespread commercial success, Heart released numerous albums throughout the late 1970s and 1980s; the a...",
+    "url": "https://en.wikipedia.org/wiki/Nancy_Wilson_(rock_musician)",
+    "title": "Nancy Wilson (rock musician)",
+    "word_count": 192,
+    "categories": [
+      "Category:1954 births",
+      "Category:20th-century American guitarists",
+      "Category:20th-century American women guitarists",
+      "Category:21st-century American singers",
+      "Category:21st-century American women singers",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles lacking reliable references",
+      "Category:All articles with unsourced statements",
+      "Category:American people of French-Canadian descent",
+      "Category:American people of Scottish descent",
+      "Category:American rock guitarists",
+      "Category:American women rock singers",
+      "Category:Articles lacking reliable references from December 2020",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from November 2020",
+      "Category:Commons category link is on Wikidata",
+      "Category:Guitarists from Washington (state)",
+      "Category:Heart (band) members",
+      "Category:Living people",
+      "Category:Pacific University alumni",
+      "Category:People from Bellevue, Washington",
+      "Category:People from Woodinville, Washington",
+      "Category:Portland State University alumni",
+      "Category:Resonator guitarists",
+      "Category:Short description is different from Wikidata",
+      "Category:Short description matches Wikidata",
+      "Category:Use American English from December 2024",
+      "Category:Use mdy dates from December 2024"
+    ],
+    "internal_links": [
+      "Acoustic guitar",
+      "Adult Contemporary (chart)",
+      "Ahmad Jamal",
+      "Air guitar",
+      "Al Green",
+      "Albert King",
+      "Alex Lifeson",
+      "Alive in Seattle",
+      "AllMusic",
+      "All I Wanna Do Is Make Love to You",
+      "Allies (song)",
+      "Almost Famous",
+      "Almost Famous (soundtrack)",
+      "Alone (i-Ten song)",
+      "American Society of Composers, Authors and Publishers",
+      "American colonial architecture",
+      "André Previn",
+      "Andrés Segovia",
+      "Ann Wilson",
+      "Antônio Carlos Jobim",
+      "Ar Hyd y Nos",
+      "Arena rock",
+      "Aretha Franklin",
+      "Armando Manzanero",
+      "Art Blakey",
+      "Art Tatum",
+      "Arthur Rubinstein",
+      "Artie Shaw",
+      "Arturo Toscanini",
+      "Auburn, Washington",
+      "B. B. King",
+      "Bad Animals",
+      "Barbra Streisand",
+      "Barracuda (song)",
+      "Beautiful Broken",
+      "Bebe le Strange (song)",
+      "Bee Gees",
+      "Bellevue, Washington",
+      "Benny Carter",
+      "Benny Goodman",
+      "Bessie Smith",
+      "Bill Evans",
+      "Bill Monroe",
+      "Billboard (magazine)",
+      "Billboard 200",
+      "Billboard Hot 100",
+      "Billboard Top 100",
+      "Billie Holiday",
+      "Billy Eckstine",
+      "Bing Crosby",
+      "Black Sabbath",
+      "Black on Black (song)",
+      "Bo Diddley",
+      "Bob Dylan",
+      "Bob Marley",
+      "Bob Wills",
+      "Bobby Bland",
+      "Bobby Darin",
+      "Bobby Jones (singer)",
+      "Bobby McFerrin",
+      "Bonnie Raitt",
+      "Booker T. & the M.G.'s",
+      "Brenda Lee",
+      "Brigade (album)",
+      "British Academy Film Awards",
+      "Buddy Guy",
+      "Buddy Holly",
+      "Burt Bacharach",
+      "Bébé le Strange",
+      "CBS News",
+      "Cab Calloway",
+      "Cameron Crowe",
+      "Carole King",
+      "Carter Family",
+      "Celia Cruz",
+      "Charles Mingus",
+      "Charles R. Cross",
+      "Charley Pride",
+      "Charlie Haden",
+      "Charlie Parker",
+      "Cheap Trick",
+      "Chet Atkins",
+      "Chicago (band)",
+      "Chris Cornell",
+      "Chuck Berry",
+      "Chuck D",
+      "City's Burning",
+      "Clark Terry",
+      "Clifton Chenier",
+      "Cocaine",
+      "Corvallis, Oregon",
+      "Count Basie",
+      "Crazy on You",
+      "Cream (band)",
+      "Crying in the Chapel",
+      "Curtis Mayfield",
+      "Darian Sahanaja",
+      "Dave Brubeck",
+      "David \"Honeyboy\" Edwards",
+      "David Bowie"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NancyWilsonHWOFSept2012_%28crop%29.jpg/330px-NancyWilsonHWOFSept2012_%28crop%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "f597eafc-4dc5-4bc4-a019-a5035a3c8502",
+      "name": "Nancy Wilson",
+      "disambiguation": "jazz/blues/soul singer",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Chillicothe",
+      "life_span": {
+        "begin": "1937-02-20",
+        "end": "2018-12-13"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 18
+    },
+    "mbid": "f597eafc-4dc5-4bc4-a019-a5035a3c8502"
+  },
+  "created_at": "2025-08-20T08:05:20.656352",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Nancy Lamoureux Wilson (born March 16, 1954) is an American musician. She rose to fame alongside her older sister Ann as guitarist and second vocalist in the rock band Heart.\nRaised in Bellevue, Washington, Wilson began playing music as a teenager. During college, she joined her sister who had recently become the singer of Heart. Considered the first hard rock band fronted by women to achieve widespread commercial success, Heart released numerous albums throughout the late 1970s and 1980s; the albums Dreamboat Annie (1975) and Little Queen (1977) generated chart singles such as \"Magic Man\", \"Crazy on You\", and \"Barracuda\". The band also had commercial success with their eighth, ninth, and tenth studio albums, Heart, Bad Animals, and Brigade, which were released in 1985, 1987, and 1990 respectively. Heart has sold over 35 million records.\nWilson has been lauded for her guitar playing, noted for blending elements of flamenco and classical guitar styles with hard rock. In 2016, Gibson ranked Wilson the eighth-greatest female guitarist of all time. She is also an accomplished singer in her own right, being the lead vocalist in the song \"These Dreams\", which became Heart's first number-one...",
+  "musicbrainz_info": {
+    "mbid": "f597eafc-4dc5-4bc4-a019-a5035a3c8502",
+    "name": "Nancy Wilson",
+    "disambiguation": "jazz/blues/soul singer",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Chillicothe",
+    "life_span": {
+      "begin": "1937-02-20",
+      "end": "2018-12-13"
+    }
+  },
+  "updated_at": "2025-08-20T08:12:57.528800"
+}

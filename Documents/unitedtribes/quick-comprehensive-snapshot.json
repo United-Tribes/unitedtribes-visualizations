@@ -1,0 +1,1464 @@
+{
+  "metadata": {
+    "generated": "2025-09-22T16:00:27.803Z",
+    "version": "quick-comprehensive-v1",
+    "total_relationships": 92,
+    "total_entities": 123,
+    "queries_executed": 5,
+    "source": "strategic-api-snapshot"
+  },
+  "relationships": [
+    {
+      "source": "Melissa Etheridge",
+      "target": "Yes, I Am",
+      "relationship_type": "influenced",
+      "evidence": "The show opens with \"American Girl,\" a non-single track from her 1993 album Yes, I Am. The set closed with her biggest hits: \"Come to My Window\" and \"I'm The Only One\" from Yes, I Am, and \"Bring Me So",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Melissa Etheridge",
+      "target": "A Burning Woman",
+      "relationship_type": "influenced",
+      "evidence": "\"A Burning Woman\" was informed by her correspondence and conversation with five of the inmates. The women opened up about their circumstances, how they ended up in prison and their lives during incarc",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joey Kramer",
+      "target": "Aerosmith",
+      "relationship_type": "member_of",
+      "evidence": "More than a decade since it first launched, Aerosmith drummer Joey Kramer has announced the closure of his Rockin' & Roastin' Coffee line.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joey Kramer",
+      "target": "Rockin' & Roastin' Coffee",
+      "relationship_type": "influenced",
+      "evidence": "Rockin' & Roastin' Coffee was first launched by Kramer in 2012 after years spent on the road as a touring musician and being subjected to copious cups of bad coffee.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Chris Barber",
+      "target": "Lonnie Donegan",
+      "relationship_type": "mentor_student",
+      "evidence": "We've seen Barber before, in a couple of episodes, but this, even more than his leading the band that brought Lonnie Donegan to fame, is where his influence on popular music really changes everything.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Louis Armstrong",
+      "target": "Joe King Oliver",
+      "relationship_type": "mentor_student",
+      "evidence": "Armstrong didn't come up with this himself. He actually modeled his sound after his first mentor, the legendary New Orleans trumpeter, Joe King Oliver. And I'll illustrate this for you, Charlie, becau",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Fire with Fire",
+      "relationship_type": "influenced",
+      "evidence": "Celebrating 50's birthday weekend, 50 Cent Action launches with a Curtis Collection of movies starring Curtis \"50 Cent\" Jackson, including Freelancers, Righteous Kill, Fire with Fire, Set Up, Blood Ou",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Dr. Dre",
+      "relationship_type": "collaborated_with",
+      "evidence": "Fif discussed his theory that Jay-Z tried to keep him from performing at the 2022 Super Bowl halftime show with Dr. Dre and Snoop.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Snoop",
+      "relationship_type": "collaborated_with",
+      "evidence": "Fif discussed his theory that Jay-Z tried to keep him from performing at the 2022 Super Bowl halftime show with Dr. Dre and Snoop.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "BTS",
+      "target": "The Late Late Show With James Corden",
+      "relationship_type": "performed_at",
+      "evidence": "There they are on The Late Late Show With James Corden, handing each other presents while crooning into their hand mics.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Ethan Miller",
+      "target": "Silver Current",
+      "relationship_type": "member_of",
+      "evidence": "Live in Brooklyn 2011 was originally made available in 2020 as part of the deluge of official bootlegs that's flooded Sonic Youth's Bandcamp page, but it's the first live recording from that batch to ",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Tortured Poets Department",
+      "target": "Folk-more",
+      "relationship_type": "contemporary_of",
+      "evidence": "Swift picks up threads from Folk-more and Midnights without quite pulling anything loose.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Old Crow Medicine Show",
+      "target": "Merrell Haggard",
+      "relationship_type": "mentor_student",
+      "evidence": "For me, I had this one chance encounter with Merrell Haggard and we did We did a tour together. You know. It was some most amazing tour.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joni_Mitchell",
+      "target": "Brandi Carlile",
+      "relationship_type": "mentor_student",
+      "evidence": "Brandy Carlyle's knack for uplifting the musicians she loves is exemplary. After her own hard earned ascent to success over the course of seven studio albums, Brandy started to turn her sights to prod",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Andra Day",
+      "relationship_type": "influenced",
+      "evidence": "For her powerful portrayal as the influential jazz singer Billie Holiday, Andra Day took home the prestigious Golden Globe for actress in a drama moti",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Annie Bartholomew",
+      "target": "All for the Klondike's Gold",
+      "relationship_type": "influenced",
+      "evidence": "The song All for the Klondike's Gold is about the women left behind by their male companions who suffered death en route to the Klondike. Alone, women",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Judy Heumann",
+      "target": "Americans with Disabilities Act",
+      "relationship_type": "influenced",
+      "evidence": "Judy was part of a movement that wanted to change the world, to give everyone more access and the right kind of environment, to feel like they belong.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "John Lennon",
+      "target": "Yoko Ono",
+      "relationship_type": "collaboration",
+      "evidence": "The movie is a chronicle of the couple's new life in New York post-Beatles in 1972, following them as they move into an apartment in Greenwich Village",
+      "confidence": 0.9,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Robbie Robertson",
+      "target": "The Band",
+      "relationship_type": "band_member",
+      "evidence": "Robbie is a 16-year-old guitar phenom in this band, along with Levon Helm, Rick Danko, Richard Manuel and Garth Hudson. The future members of what would become the band.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Paul Stanley",
+      "target": "KISS",
+      "relationship_type": "band_member",
+      "evidence": "KISS spent the majority of its five-decade career disguising their faces in makeup. Now, as the band plans the next phase for its music and iconic characters, KISS is still leaving its fans with myste",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Paul Stanley",
+      "target": "Paul Stanley's Soul Station",
+      "relationship_type": "member_of",
+      "evidence": "Stanley leads a retro-soul band, Paul Stanley's Soul Station, that plays original and classic soul songs and released an album, Now and Then, in 2021.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Aerosmith",
+      "target": "Joe Perry",
+      "relationship_type": "band_member",
+      "evidence": "Aerosmith's Joe Perry claims he's unsure of what the future holds for the band, noting Steven Tyler lacks the desire and ability to head out on tour.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Aerosmith",
+      "target": "Steven Tyler",
+      "relationship_type": "band_member",
+      "evidence": "Aerosmith's Joe Perry claims he's unsure of what the future holds for the band, noting Steven Tyler lacks the desire and ability to head out on tour.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Aerosmith",
+      "target": "Tom Hamilton",
+      "relationship_type": "band_member",
+      "evidence": "Bassist Tom Hamilton refuted claims the band were over completely, noting Aerosmith were 'still alive' despite the recent retirement news.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Band",
+      "target": "Bob Ludwig",
+      "relationship_type": "collaboration",
+      "evidence": "The transcript describes how The Band brought their 'Brown Album' to mastering engineer Bob Ludwig, who initially had doubts but then came to appreciate the album's unique qualities, comparing it to h",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Band",
+      "target": "Sammy Davis Jr.",
+      "relationship_type": "geographic",
+      "evidence": "The transcript describes how The Band recorded their 'Brown Album' at Sammy Davis Jr.'s house in the Hollywood Hills, converting his pool house into a makeshift studio.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Band",
+      "target": "Tony May",
+      "relationship_type": "collaboration",
+      "evidence": "The transcript discusses how The Band worked with producer Tony May to mix their 'Brown Album', but were unhappy with his more polished approach compared to their desired 'earthy' sound.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Ulrick Krieger",
+      "relationship_type": "collaboration",
+      "evidence": "Ulrick Krieger, who's the guy who transcribed it for Zeitkratzer-- he's an independent musician, he plays with a lot of different bands-- he called and said, \"I want to do this, I've always loved the ",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Sterling Morrison",
+      "relationship_type": "band_member",
+      "evidence": "Sterling Morrison, this great Velvet Underground rhythm guitarist, after the band splits, becomes a tugboat captain who really nobody heard from for years until the short-lived Velvet Underground reun",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Lou Reed",
+      "target": "Velvet Underground",
+      "relationship_type": "band_member",
+      "evidence": "The Feelies are one of the bands I'd say in both of our careers that have meant the most to us. Coming together in the late punk era in New York City, although they were from the suburbs of New Jersey",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Ann Wilson",
+      "target": "Nancy Wilson",
+      "relationship_type": "band_member",
+      "evidence": "Ann Wilson is the powerhouse lead singer of the band Heart, who celebrated classic debut album Dreamboat. Annie came out nearly fifty years ago. Last week, we featured an interview with her sister and",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Bon Jovi",
+      "target": "E Street Band",
+      "relationship_type": "contemporary",
+      "evidence": "Bon Jovi notes that when he was starting out, there weren't many rock artists in their 60s to look to as examples, but now there are acts like the Rolling Stones, U2, and the E Street Band who are all",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Slash",
+      "target": "Gary Clark Jr.",
+      "relationship_type": "collaboration",
+      "evidence": "Slash's new album, Orgy of the Damned, features Gary Clark Jr. on vocals and guitar for the song 'Crossroads'.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Slash",
+      "target": "Billy F. Gibbons",
+      "relationship_type": "collaboration",
+      "evidence": "Slash's new album, Orgy of the Damned, features ZZ Top's Billy F. Gibbons on vocals and guitar for the song 'Hoochie Coochie Man'.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Tom Petty",
+      "relationship_type": "band_member",
+      "evidence": "Mike found the most success in his long-running music career with Tom Petty as a crucial member of the Heartbreakers. From 1976 to 2017, what a run! He played lead guitar and co-wrote some of the bigg",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Tony Orlando",
+      "relationship_type": "influence",
+      "evidence": "The tracklist reaches as far as Beatles for Sale cuts \"I'll Follow the Sun\" and \"Kansas City/Hey-Hey-Hey!\" but stops short of showcasing the more reflective, emotionally invested songcraft that would ",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Andra Day",
+      "target": "Golden Globe",
+      "relationship_type": "influenced",
+      "evidence": "The 36-year-old Grammy-nominated singer has already snagged two Golden Globe nominations this year for best performance by an actress in a motion picture (drama) and best song in a motion picture for ",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "drummers",
+      "target": "rock bands",
+      "relationship_type": "influenced",
+      "evidence": "A great drummer can turn a mediocre band into a much better band.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Galaxie 500",
+      "target": "Velvet Underground",
+      "relationship_type": "influenced",
+      "evidence": "Ah but the created as moody atmospheric vibe with just guitar bass and drums are in it was beautiful haunting and and there was at same time as sort o",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Mike Bloomfield",
+      "target": "Mike Campbell",
+      "relationship_type": "influenced",
+      "evidence": "I saw an article in there once. It might have been Roth Gleason about, you know, his review of the Paul Butterfield album. And so I went and got it. A",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Tony Orlando",
+      "relationship_type": "influenced",
+      "evidence": "The tracklist reaches as far as Beatles for Sale cuts \"I'll Follow the Sun\" and \"Kansas City/Hey-Hey-Hey!\" but stops short of showcasing the more refl",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Lady Sings the Blues",
+      "relationship_type": "influenced",
+      "evidence": "Holiday's wildly honest autobiography, Lady Sings the Blues, adds an additional layer, moving through the chanteuse's difficult Baltimore upbringing i",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Ann_Wilson",
+      "target": "Rob Halford",
+      "relationship_type": "collaboration",
+      "evidence": "Parton's first rock collection is due out on Nov. 17 and will feature 30 songs, including 21 covers and nine originals. One of those fresh tracks also",
+      "confidence": 0.9,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Laurie Anderson",
+      "target": "Marc Ribot",
+      "relationship_type": "collaboration",
+      "evidence": "A handful of guest musicians, including jazz guitarist Marc Ribot, flesh out Anderson's impressionistic soundscapes, but they're so carefully integrat",
+      "confidence": 0.9,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Brandi Carlile",
+      "target": "Tanya Tucker",
+      "relationship_type": "collaboration",
+      "evidence": "Brandy Carlyle's knack for uplifting the musicians she loves is exemplary. After her own hard earned ascent to success over the course of seven studio",
+      "confidence": 0.9,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Brandi Carlile",
+      "target": "Brandi Clark",
+      "relationship_type": "collaboration",
+      "evidence": "Brandy Carlyle's knack for uplifting the musicians she loves is exemplary. After her own hard earned ascent to success over the course of seven studio",
+      "confidence": 0.9,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Questlove",
+      "target": "Jimmy Fallon",
+      "relationship_type": "band_member",
+      "evidence": "Questlove is the drummer for the Roots, the house band for The Tonight Show with Jimmy Fallon.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Questlove",
+      "target": "Amin and Aecan",
+      "relationship_type": "influence",
+      "evidence": "Questlove says Amin and Aecan are 'really influential DJs that have really inspired my DJ career' and that they play 'really obscure music that's really under the radar'.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Questlove",
+      "target": "Lee Andrews",
+      "relationship_type": "mentor_student",
+      "evidence": "Questlove grew up in West Philadelphia, but spent a lot of time on the road traveling with his father, the late Lee Andrews, of the doo-wop group Lee Andrews and the Hearts. Lee Andrews' record collec",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Questlove",
+      "target": "Jimmy Fallon",
+      "relationship_type": "collaboration",
+      "evidence": "Questlove is the co-founder of the hip hop band The Roots, the house band of The Tonight Show with Jimmy Fallon.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Questlove",
+      "target": "Jimmy Fallon",
+      "relationship_type": "contemporary",
+      "evidence": "Questlove is the co-founder of the hip hop band The Roots, the house band of The Tonight Show with Jimmy Fallon.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Andra Day",
+      "target": "Critics Choice Awards",
+      "relationship_type": "influenced",
+      "evidence": "She earned similar nods for the 2021 Critics Choice Awards, including best actress and best song.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Roger Ebert",
+      "relationship_type": "mentor_student",
+      "evidence": "Greg Scott mentions that he 'worked with Roger and he was a mentor', drawing a parallel between the hosts' relationship and that of film critics Siskel and Ebert.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Decembers, Antigone and Sarah",
+      "relationship_type": "collaboration",
+      "evidence": "Chris Wallop, the producer of the new Rat Boys album, has also worked with artists like Decembers, Antigone and Sarah, indicating a network of artists influenced by or connected to The Beatles' sound.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joni Mitchell",
+      "target": "Brandi Carlile",
+      "relationship_type": "mentor_student",
+      "evidence": "Brandi Carlile recounts a story of Joni Mitchell giving her a second chance to showcase her music for Rick Rubin after Carlile had a bad reaction to cough medicine during the initial showcase.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Luther Vandross",
+      "target": "Harlem Cultural Festival",
+      "relationship_type": "performed_at",
+      "evidence": "The irony is that the production company could not shoot the last week of performances because they had to shoot a pilot of a television show that how Tolleson begged them, like, look, may I forget th",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "venue"
+    },
+    {
+      "source": "Beyoncé",
+      "target": "Curtis Allen Jones",
+      "relationship_type": "collaboration",
+      "evidence": "The podcast specifically mentions that the song 'Cozy' features production from Curtis Allen Jones, also known as DJ Honey Dijon, indicating a direct creative collaboration between Beyoncé and this ar",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Damon Albarn",
+      "target": "The Ballad of Darren",
+      "relationship_type": "influenced",
+      "evidence": "Recently he reunited with Blur to release the band's latest album, called The Ballad of Darren.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Mary Ford",
+      "target": "Less Ball",
+      "relationship_type": "collaboration",
+      "evidence": "Steve Miller describes Less Ball and Mary Ford rehearsing and performing together, and how he was influenced by their use of multi-tracking technology",
+      "confidence": 0.9,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Sly and the Family Stone",
+      "target": "Prince",
+      "relationship_type": "influence",
+      "evidence": "Their music influenced Prince, George Clinton, and Funkadelic, The Ohio Players, Earthwind and Fire, and many hip-hop artists.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Sly and the Family Stone",
+      "target": "George Clinton",
+      "relationship_type": "influence",
+      "evidence": "Their music influenced Prince, George Clinton, and Funkadelic, The Ohio Players, Earthwind and Fire, and many hip-hop artists.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Sly and the Family Stone",
+      "target": "Earth, Wind & Fire",
+      "relationship_type": "influence",
+      "evidence": "Their music influenced Prince, George Clinton, and Funkadelic, The Ohio Players, Earthwind and Fire, and many hip-hop artists.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Melissa Etheridge",
+      "target": "The Awakening",
+      "relationship_type": "influenced",
+      "evidence": "\"Unexpected Rain\" is \"a deep track on a deep album, The Awakening,\" she says. \"I rarely do 'Unexpected Rain.'\"",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Andra Day",
+      "target": "The United States vs. Billie Holiday",
+      "relationship_type": "influenced",
+      "evidence": "Her titular role in the upcoming biopic The United States vs. Billie Holiday, which will premiere on Hulu Friday (Feb. 26), peels back the curtain on the legendary jazz singer's declining physical hea",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Martin Luther King Jr.",
+      "relationship_type": "thematic_similarity",
+      "evidence": "Jeff Jampol, who manages the estates of the Doors, Janis Joplin and others, likens 'Strange Fruit' to Martin Luther King Jr.'s 'I Have a Dream' speech and Sam Cooke's 'A Change Is Gonna Come' as an et",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Joey Kramer",
+      "target": "Linda",
+      "relationship_type": "influenced",
+      "evidence": "After the years of working to recover from the devastation to our business from the impact of Covid, significant increases in the cost of doing business and the tragic, painful loss of my wife, Linda,",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Sly Stone",
+      "target": "Martin Luther King Jr.",
+      "relationship_type": "thematic_similarity",
+      "evidence": "Sly is basically kind of the embodiment of what Martin Luther King's 'I Have a Dream' speech was about, like this utopian multiracial mix of Black and whites, men and women together.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Sly Stone",
+      "target": "Martin Luther King",
+      "relationship_type": "contemporary_of",
+      "evidence": "Sly's success is a little bit different than Ray Charles or Chuck Berry or James Brown, anyone that was entertaining during either the Reconstruction period or the Civil Rights period. So Sly is basic",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Caught in the Crossfire",
+      "relationship_type": "influenced",
+      "evidence": "Celebrating 50's birthday weekend, 50 Cent Action launches with a Curtis Collection of movies starring Curtis \"50 Cent\" Jackson, including Freelancers, Righteous Kill, Fire with Fire, Set Up, Blood Ou",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Sabrina Carpenter",
+      "target": "The Goodwin Games",
+      "relationship_type": "influenced",
+      "evidence": "At 14-years-old, Goodwin — named after one of the singer-actress' first gigs, a role on quickly scrapped series The Goodwin Games — has been with the musician since she first kicked off her career sta",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Chappell Roan",
+      "target": "Cocteau Twins",
+      "relationship_type": "influenced",
+      "evidence": "Channeling Cocteau Twins and the Cranberries, Chappell Roan puts her spin on plaintive 1980s dream pop.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Johnny Cash",
+      "target": "Martin Luther King",
+      "relationship_type": "thematic_similarity",
+      "evidence": "He scored his first top 10 on Billboard's Hot Country Songs in 1970 with 'Six White Horses,' a tribute to John F. Kennedy, Robert F. Kennedy and Martin Luther King.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Strange Fruit",
+      "relationship_type": "influenced",
+      "evidence": "The film, The United States vs. Billie Holiday, dives deep into Holiday's role in the Civil Rights movement, when her 1939 song about lynching, \"Strange Fruit,\" made her a target of the FBI in a growi",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Etta James",
+      "relationship_type": "contemporary",
+      "evidence": "Jay Cooper, a music attorney who represents the estates of Etta James, Glen Campbell and John Denver, says 'It's painful to read that she died with a few pennies in her bank account,' says Jay Cooper,",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "Glen Campbell",
+      "relationship_type": "contemporary",
+      "evidence": "Jay Cooper, a music attorney who represents the estates of Etta James, Glen Campbell and John Denver, says 'It's painful to read that she died with a few pennies in her bank account,' says Jay Cooper,",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Billie Holiday",
+      "target": "John Denver",
+      "relationship_type": "contemporary",
+      "evidence": "Jay Cooper, a music attorney who represents the estates of Etta James, Glen Campbell and John Denver, says 'It's painful to read that she died with a few pennies in her bank account,' says Jay Cooper,",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Pluto TV",
+      "relationship_type": "signed_to",
+      "evidence": "Coinciding with the G-Unit head's 50th birthday on Sunday (July 6), the 50 Cent Action channel has officially launched on Pluto TV.",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "50 Cent",
+      "target": "Shaniqua Tompkins",
+      "relationship_type": "signed_to",
+      "evidence": "Jackson purchased these rights to preserve them for use in future biographical or autobiographical projects, but also in part because he was concerned that Tompkins would attempt to monetize their his",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Andra Day",
+      "target": "Hulu",
+      "relationship_type": "signed_to",
+      "evidence": "Her titular role in the upcoming biopic The United States vs. Billie Holiday, which will premiere on Hulu Friday (Feb. 26), peels back the curtain on the legendary jazz singer's declining physical hea",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Elton John",
+      "target": "Brian Eno",
+      "relationship_type": "contemporary",
+      "evidence": "Many fellow '70s musicians, from Brian Eno to David Bowie, claimed the Château hosts centuries' worth of something supernatural, with some going so far as to suggest that each record made there—think ",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Elton John",
+      "target": "David Bowie",
+      "relationship_type": "contemporary",
+      "evidence": "Many fellow '70s musicians, from Brian Eno to David Bowie, claimed the Château hosts centuries' worth of something supernatural, with some going so far as to suggest that each record made there—think ",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "musician"
+    },
+    {
+      "source": "Elton John",
+      "target": "T. Rex",
+      "relationship_type": "contemporary",
+      "evidence": "Many fellow '70s musicians, from Brian Eno to David Bowie, claimed the Château hosts centuries' worth of something supernatural, with some going so far as to suggest that each record made there—think ",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Elton John",
+      "target": "Ray Bradbury",
+      "relationship_type": "influence",
+      "evidence": "Longtime collaborator Bernie Taupin said in 2016 that the true inspiration for \"Rocket Man\" came from a 1951 short story by Ray Bradbury, about an astronaut father who leaves his wife and son for mont",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Jack Antonoff",
+      "relationship_type": "collaborated_with",
+      "evidence": "Returning to Jack Antonoff and the National's Aaron Dessner, her primary songwriting and producing partners of the last several years, Swift picks up threads from Folk-more and Midnights without quite",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Jack Antonoff",
+      "relationship_type": "collaboration",
+      "evidence": "Returning to Jack Antonoff and the National's Aaron Dessner, her primary songwriting and producing partners of the last several years, Swift picks up threads from Folk-more and Midnights without quite",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Rocket from the Tombs",
+      "relationship_type": "genre_connection",
+      "evidence": "The podcast discusses how Pere Ubu and Rocket from the Tombs 'charted this sound' of punk rock in the mid-1970s, suggesting a genre connection to The Beatles.",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Gato Barbieri",
+      "relationship_type": "influence",
+      "evidence": "Gato Barbieri was an Argentine saxophonist in the 1960s who 'was really into avant-garde, he was listening to John Coltrane, he was listening to all these other people. That's where his head was. He w",
+      "confidence": 0.8,
+      "source_type": "musician",
+      "target_type": "entity"
+    },
+    {
+      "source": "G-Unit Books",
+      "target": "Shaniqua Tompkins",
+      "relationship_type": "signed_to",
+      "evidence": "Tompkins sold her life rights to G-Unit Books in 2007 in exchange for $80,000 and a percentage of future royalties from related projects",
+      "confidence": 0.8,
+      "source_type": "book",
+      "target_type": "entity"
+    },
+    {
+      "source": "The United States vs. Billie Holiday",
+      "target": "Hulu",
+      "relationship_type": "signed_to",
+      "evidence": "If you want to watch the new Golden Globe winner navigate the world of the late legendary jazz icon, you can watch The United States vs. Billie Holiday on Hulu here with a subscription, or with a 30-d",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Tom Hamilton",
+      "target": "Aerosmith",
+      "relationship_type": "member_of",
+      "evidence": "Ultimately, these shows were canceled entirely when the band announced their retirement from touring in Aug. 2024. That same month, bassist Tom Hamilton refuted claims the band were over completely, n",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Amy Winehouse",
+      "target": "Billie Holiday",
+      "relationship_type": "influenced",
+      "evidence": "She had a tendency to overindulge in the vocal tics-- the slurred consonants, the hyper-articulated melisma, the extravagant ornaments, the imitations",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    },
+    {
+      "source": "Elton John",
+      "target": "Ray Bradbury",
+      "relationship_type": "influenced",
+      "evidence": "Longtime collaborator Bernie Taupin said in 2016 that the true inspiration for \"Rocket Man\" came from a 1951 short story by Ray Bradbury, about an ast",
+      "confidence": 0.8,
+      "source_type": "entity",
+      "target_type": "entity"
+    }
+  ],
+  "entity_connections": {
+    "Melissa Etheridge": 3,
+    "Yes, I Am": 1,
+    "A Burning Woman": 1,
+    "Joey Kramer": 3,
+    "Aerosmith": 5,
+    "Rockin' & Roastin' Coffee": 1,
+    "Chris Barber": 1,
+    "Lonnie Donegan": 1,
+    "Louis Armstrong": 1,
+    "Joe King Oliver": 1,
+    "50 Cent": 6,
+    "Fire with Fire": 1,
+    "Dr. Dre": 1,
+    "Snoop": 1,
+    "BTS": 1,
+    "The Late Late Show With James Corden": 1,
+    "Ethan Miller": 1,
+    "Silver Current": 1,
+    "The Tortured Poets Department": 1,
+    "Folk-more": 1,
+    "Old Crow Medicine Show": 1,
+    "Merrell Haggard": 1,
+    "Joni_Mitchell": 1,
+    "Brandi Carlile": 4,
+    "Billie Holiday": 8,
+    "Andra Day": 5,
+    "Annie Bartholomew": 1,
+    "All for the Klondike's Gold": 1,
+    "Judy Heumann": 1,
+    "Americans with Disabilities Act": 1,
+    "John Lennon": 1,
+    "Yoko Ono": 1,
+    "Robbie Robertson": 1,
+    "The Band": 4,
+    "Paul Stanley": 2,
+    "KISS": 1,
+    "Paul Stanley's Soul Station": 1,
+    "Joe Perry": 1,
+    "Steven Tyler": 1,
+    "Tom Hamilton": 2,
+    "Bob Ludwig": 1,
+    "Sammy Davis Jr.": 1,
+    "Tony May": 1,
+    "Lou Reed": 3,
+    "Ulrick Krieger": 1,
+    "Sterling Morrison": 1,
+    "Velvet Underground": 2,
+    "Ann Wilson": 1,
+    "Nancy Wilson": 1,
+    "Bon Jovi": 1,
+    "E Street Band": 1,
+    "Slash": 2,
+    "Gary Clark Jr.": 1,
+    "Billy F. Gibbons": 1,
+    "The Beatles": 7,
+    "Tom Petty": 1,
+    "Tony Orlando": 2,
+    "Golden Globe": 1,
+    "drummers": 1,
+    "rock bands": 1,
+    "Galaxie 500": 1,
+    "Mike Bloomfield": 1,
+    "Mike Campbell": 1,
+    "Lady Sings the Blues": 1,
+    "Ann_Wilson": 1,
+    "Rob Halford": 1,
+    "Laurie Anderson": 1,
+    "Marc Ribot": 1,
+    "Tanya Tucker": 1,
+    "Brandi Clark": 1,
+    "Questlove": 5,
+    "Jimmy Fallon": 3,
+    "Amin and Aecan": 1,
+    "Lee Andrews": 1,
+    "Critics Choice Awards": 1,
+    "Roger Ebert": 1,
+    "Decembers, Antigone and Sarah": 1,
+    "Joni Mitchell": 1,
+    "Luther Vandross": 1,
+    "Harlem Cultural Festival": 1,
+    "Beyoncé": 1,
+    "Curtis Allen Jones": 1,
+    "Damon Albarn": 1,
+    "The Ballad of Darren": 1,
+    "Mary Ford": 1,
+    "Less Ball": 1,
+    "Sly and the Family Stone": 3,
+    "Prince": 1,
+    "George Clinton": 1,
+    "Earth, Wind & Fire": 1,
+    "The Awakening": 1,
+    "The United States vs. Billie Holiday": 2,
+    "Martin Luther King Jr.": 2,
+    "Linda": 1,
+    "Sly Stone": 2,
+    "Martin Luther King": 2,
+    "Caught in the Crossfire": 1,
+    "Sabrina Carpenter": 1,
+    "The Goodwin Games": 1,
+    "Chappell Roan": 1,
+    "Cocteau Twins": 1,
+    "Johnny Cash": 1,
+    "Strange Fruit": 1,
+    "Etta James": 1,
+    "Glen Campbell": 1,
+    "John Denver": 1,
+    "Pluto TV": 1,
+    "Shaniqua Tompkins": 2,
+    "Hulu": 2,
+    "Elton John": 5,
+    "Brian Eno": 1,
+    "David Bowie": 1,
+    "T. Rex": 1,
+    "Ray Bradbury": 2,
+    "Taylor Swift": 2,
+    "Jack Antonoff": 2,
+    "Rocket from the Tombs": 1,
+    "Gato Barbieri": 1,
+    "G-Unit Books": 1,
+    "Amy Winehouse": 1
+  },
+  "top_entities": [
+    {
+      "name": "Billie Holiday",
+      "connections": 8,
+      "type": "entity"
+    },
+    {
+      "name": "The Beatles",
+      "connections": 7,
+      "type": "musician"
+    },
+    {
+      "name": "50 Cent",
+      "connections": 6,
+      "type": "entity"
+    },
+    {
+      "name": "Aerosmith",
+      "connections": 5,
+      "type": "entity"
+    },
+    {
+      "name": "Andra Day",
+      "connections": 5,
+      "type": "entity"
+    },
+    {
+      "name": "Questlove",
+      "connections": 5,
+      "type": "musician"
+    },
+    {
+      "name": "Elton John",
+      "connections": 5,
+      "type": "entity"
+    },
+    {
+      "name": "Brandi Carlile",
+      "connections": 4,
+      "type": "entity"
+    },
+    {
+      "name": "The Band",
+      "connections": 4,
+      "type": "entity"
+    },
+    {
+      "name": "Melissa Etheridge",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "Joey Kramer",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "Lou Reed",
+      "connections": 3,
+      "type": "musician"
+    },
+    {
+      "name": "Jimmy Fallon",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "Sly and the Family Stone",
+      "connections": 3,
+      "type": "entity"
+    },
+    {
+      "name": "Paul Stanley",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Tom Hamilton",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Velvet Underground",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Slash",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Tony Orlando",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "The United States vs. Billie Holiday",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Sly Stone",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Martin Luther King",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Shaniqua Tompkins",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Hulu",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Ray Bradbury",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Taylor Swift",
+      "connections": 2,
+      "type": "musician"
+    },
+    {
+      "name": "Jack Antonoff",
+      "connections": 2,
+      "type": "entity"
+    },
+    {
+      "name": "Yes, I Am",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "A Burning Woman",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Rockin' & Roastin' Coffee",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Chris Barber",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Lonnie Donegan",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Louis Armstrong",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Joe King Oliver",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Fire with Fire",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Dr. Dre",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Snoop",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "BTS",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "The Late Late Show With James Corden",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Ethan Miller",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Silver Current",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "The Tortured Poets Department",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Folk-more",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Old Crow Medicine Show",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Merrell Haggard",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Joni_Mitchell",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Annie Bartholomew",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "All for the Klondike's Gold",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Judy Heumann",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Americans with Disabilities Act",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "John Lennon",
+      "connections": 1,
+      "type": "musician"
+    },
+    {
+      "name": "Yoko Ono",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Robbie Robertson",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "KISS",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Paul Stanley's Soul Station",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Joe Perry",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Steven Tyler",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Bob Ludwig",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Sammy Davis Jr.",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Tony May",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Ulrick Krieger",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Sterling Morrison",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Ann Wilson",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Nancy Wilson",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Bon Jovi",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "E Street Band",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Gary Clark Jr.",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Billy F. Gibbons",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Tom Petty",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Golden Globe",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "drummers",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "rock bands",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Galaxie 500",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Mike Bloomfield",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Mike Campbell",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Lady Sings the Blues",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Ann_Wilson",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Rob Halford",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Laurie Anderson",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Marc Ribot",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Tanya Tucker",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Brandi Clark",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Amin and Aecan",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Lee Andrews",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Critics Choice Awards",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Roger Ebert",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Decembers, Antigone and Sarah",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Joni Mitchell",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Luther Vandross",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Harlem Cultural Festival",
+      "connections": 1,
+      "type": "venue"
+    },
+    {
+      "name": "Beyoncé",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Curtis Allen Jones",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Damon Albarn",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "The Ballad of Darren",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Mary Ford",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Less Ball",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Prince",
+      "connections": 1,
+      "type": "musician"
+    },
+    {
+      "name": "George Clinton",
+      "connections": 1,
+      "type": "entity"
+    },
+    {
+      "name": "Earth, Wind & Fire",
+      "connections": 1,
+      "type": "entity"
+    }
+  ]
+}

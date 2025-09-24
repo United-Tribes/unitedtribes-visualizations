@@ -1,0 +1,512 @@
+{
+  "artist_name": "BTS",
+  "works": [
+    {
+      "title": "PERMISSION TO DANCE ON STAGE - LIVE",
+      "release_date": "2025-07-18",
+      "type": "Album",
+      "mbid": "026c4502-ae2b-4bec-9399-5218ec3c6936"
+    },
+    {
+      "title": "LOVE YOURSELF 結 ‘Answer’",
+      "release_date": "2018-08-24",
+      "type": "Album",
+      "mbid": "205347cd-aae4-4121-b6ba-b57474b3c580"
+    },
+    {
+      "title": "MAP OF THE SOUL : 7 〜 THE JOURNEY 〜",
+      "release_date": "2020-07-14",
+      "type": "Album",
+      "mbid": "3a91498a-4e50-4a77-93e2-a7b599b9739e"
+    },
+    {
+      "title": "MAP OF THE SOUL : 7",
+      "release_date": "2020-02-21",
+      "type": "Album",
+      "mbid": "728f288b-eb1c-4ce1-98a1-d4124c897aaf"
+    },
+    {
+      "title": "WAKE UP",
+      "release_date": "2014-12-24",
+      "type": "Album",
+      "mbid": "75ec671d-bd15-4bfa-baeb-f6054d2202db"
+    },
+    {
+      "title": "BE",
+      "release_date": "2020-11-20",
+      "type": "Album",
+      "mbid": "7917fe48-906d-464f-9909-0e4d18d59192"
+    },
+    {
+      "title": "YOUTH",
+      "release_date": "2016-09-07",
+      "type": "Album",
+      "mbid": "7b70f452-a540-4fc8-933e-3b1d6800e290"
+    },
+    {
+      "title": "화양연화 Young Forever",
+      "release_date": "2016-05-02",
+      "type": "Album",
+      "mbid": "8c72972f-e54e-47b0-bcb0-275dbe3ec43a"
+    },
+    {
+      "title": "FACE YOURSELF",
+      "release_date": "2018-04-04",
+      "type": "Album",
+      "mbid": "a3ed68fc-eb06-4c18-a61f-beb9f955337e"
+    },
+    {
+      "title": "Proof",
+      "release_date": "2022-06-10",
+      "type": "Album",
+      "mbid": "b07a485f-cde7-4160-8b69-72ff3bf277ce"
+    },
+    {
+      "title": "THE BEST OF 防彈少年團",
+      "release_date": "2017-01-06",
+      "type": "Album",
+      "mbid": "b5218775-bed4-4675-961b-4fdf54735489"
+    },
+    {
+      "title": "BTS, THE BEST",
+      "release_date": "2021-06-16",
+      "type": "Album",
+      "mbid": "b60d3e59-647c-493f-a4fb-3530cee04a16"
+    },
+    {
+      "title": "LOVE YOURSELF 轉 ‘Tear’",
+      "release_date": "2018-05-18",
+      "type": "Album",
+      "mbid": "bdc4aa4d-bfba-4ef1-b3b6-ffc68055877e"
+    },
+    {
+      "title": "2 COOL 4 SKOOL / O!RUL8,2?",
+      "release_date": "2014-04-23",
+      "type": "Album",
+      "mbid": "ca01d0c3-440f-4784-85b9-5de9d2e2199b"
+    },
+    {
+      "title": "WINGS",
+      "release_date": "2016-10-10",
+      "type": "Album",
+      "mbid": "ddbf733c-1182-42a2-9bae-059afcbc3b93"
+    },
+    {
+      "title": "DARK&WILD",
+      "release_date": "2014-08-20",
+      "type": "Album",
+      "mbid": "ea958ad6-4519-44f8-8c7c-18b3f16218f4"
+    },
+    {
+      "title": "BTS WORLD: Original Soundtrack",
+      "release_date": "2019-06-28",
+      "type": "Album",
+      "mbid": "f26a2441-41a4-401f-940b-50de9261f8b3"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Def Jam Recordings",
+      "PONY CANYON",
+      "The Orchard",
+      "BIGHIT MUSIC",
+      "BigHit Entertainment"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0003136056"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/695158"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/5034422"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/6982223"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Bangtan_Boys_in_October_2013.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm7808003/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/BTS"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/api/artists/70113"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Bts"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/BTS"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://bts.ibighit.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://bts-official.jp/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://cafe.daum.net/BANGTAN"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2017138930"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/1174925353"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/bts"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/bts"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.generasia.com/wiki/Bangtan_Boys"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no2017138930"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/kr/artist/id883131348"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/1468413/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.bugs.co.kr/artist/80079394"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.melon.com/artist/detail.htm?artistId=672375"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/145300"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/bts_bighit"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/BTS_jp_official"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/BTS_twt"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/bangtan.official"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/bts.bighitofficial/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/8268208"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/bangtan"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/kr/artist/883131348"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.bugs.co.kr/artist/80079394"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/6201832"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.melon.com/artist/detail.htm?artistId=672375"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/916150943133426760004"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q13580495"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCiPNSjTu0sFVUUFfhPCdEsA"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/BTS",
+    "musicbrainz": "https://musicbrainz.org/artist/0d79fe8e-ba27-4859-bb8c-2f255f346853"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jung Kook, who co-write or co-produce much of their material. Originally a hip hop group, they expanded their musical style to incorporate a wide range of genres, while their lyrics have focused on subjects including mental health, the troubles of school-age youth and coming of age, loss, the journey towards self-love, individualism, and the consequences of fame and recognition. Their discography and adjacent work has also referenced literature, philosophy and psychology, and includes an alternate universe storyline.\nBTS debuted in 2013 under Big Hit Entertainment with the single album 2 Cool 4 Skool. BTS released their first Korean and Japanese-language studio albums, Dark & Wild and Wake Up respectively, in 2014. The group's second Korean studio album, Wings (2016), was their first to sell one million copies in South Korea. By 2017, BTS had crossed into the global music market and led the Korean Wave into the United States, becoming the first Korean ensemble to receive a Gold certification...",
+    "summary": "BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jung Kook, who co-write or co-produce much of their material. Originally a hip hop group, they expanded their musical style to incorporate a wide range of genres, while their lyrics have focused on subjects including mental health, the troubles of school-age youth and coming of age, loss, the...",
+    "url": "https://en.wikipedia.org/wiki/BTS",
+    "title": "BTS",
+    "word_count": 195,
+    "categories": [
+      "Category:2013 establishments in South Korea",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles containing potentially dated statements",
+      "Category:All articles with dead external links",
+      "Category:American Music Awards winners",
+      "Category:Articles containing Japanese-language text",
+      "Category:Articles containing Korean-language text",
+      "Category:Articles containing potentially dated statements from 2023",
+      "Category:Articles containing video clips",
+      "Category:Articles with dead external links from July 2025",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with hCards",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:Asia Game Changer Award winners",
+      "Category:BTS",
+      "Category:CS1 Japanese-language sources (ja)",
+      "Category:CS1 Korean-language sources (ko)",
+      "Category:CS1 maint: DOI inactive as of July 2025",
+      "Category:CS1 uses Japanese-language script (ja)",
+      "Category:CS1 uses Korean-language script (ko)",
+      "Category:Circle Chart Music Award winners",
+      "Category:Columbia Records artists",
+      "Category:Commons category link from Wikidata",
+      "Category:English-language singers from South Korea",
+      "Category:Featured articles",
+      "Category:Hybe Corporation artists",
+      "Category:Japanese-language singers of South Korea",
+      "Category:K-pop music groups",
+      "Category:Korean Music Award winners",
+      "Category:MAMA Award winners",
+      "Category:MTV Europe Music Award winners",
+      "Category:MTV Video Music Award winners",
+      "Category:Melon Music Award winners",
+      "Category:Musical groups established in 2013",
+      "Category:Musical groups from Seoul",
+      "Category:NME Awards winners",
+      "Category:Official website different in Wikidata and Wikipedia",
+      "Category:Pages containing links to subscription-only content",
+      "Category:Recipients of the Order of Cultural Merit (South Korea)",
+      "Category:Short description is different from Wikidata",
+      "Category:Shorty Award winners",
+      "Category:South Korean boy bands",
+      "Category:South Korean contemporary R&B musical groups",
+      "Category:South Korean dance music groups",
+      "Category:South Korean electronic dance music groups",
+      "Category:South Korean hip-hop groups",
+      "Category:South Korean musical septets",
+      "Category:Universal Music Group artists",
+      "Category:Use American English from July 2018"
+    ],
+    "internal_links": [
+      "\"O\"-Jung.Ban.Hap.",
+      "&Team",
+      "'N Sync",
+      "(Everything I Do) I Do It for You",
+      "(G)I-dle",
+      "...Baby One More Time",
+      "0+1=1 (I Promise You)",
+      "015B",
+      "1TYM",
+      "1X1=1 (To Be One)",
+      "2015 BTS Live Trilogy Episode II: The Red Bullet",
+      "2016 Melon Music Awards",
+      "2016 South Korean political scandal",
+      "2017 BTS Live Trilogy Episode III: The Wings Tour",
+      "2017 Billboard Music Awards",
+      "2017 Melon Music Awards",
+      "2017 Mnet Asian Music Awards",
+      "2018 Billboard Music Awards",
+      "2018 Mnet Asian Music Awards",
+      "2019 Billboard Music Awards",
+      "2019 Melon Music Awards",
+      "2019 Mnet Asian Music Awards",
+      "2020 MTV Video Music Awards",
+      "2022 Billboard Music Awards",
+      "2022 MAMA Awards",
+      "21 (Adele album)",
+      "25 (Adele album)",
+      "2AM (band)",
+      "2NE1",
+      "2NE1 (2011 EP)",
+      "2PM",
+      "2 Cool 4 Skool",
+      "30 (album)",
+      "34th Golden Disc Awards",
+      "3D (song)",
+      "4Men",
+      "4Minute",
+      "5-Star (Stray Kids album)",
+      "50 Most Influential (Bloomberg Markets ranking)",
+      "5 Seconds of Summer",
+      "5x20 All the Best!! 1999–2019",
+      "61st Grammy Awards",
+      "62nd Annual Grammy Awards",
+      "62nd Japan Record Awards",
+      "63rd Annual Grammy Awards",
+      "64th Annual Grammy Awards",
+      "65th Annual Grammy Awards",
+      "7 Seconds (song)",
+      "8Eight",
+      "AB6IX",
+      "ABS-CBN",
+      "AKMU",
+      "AOA (group)",
+      "A Brand New Day (BTS and Zara Larsson song)",
+      "A Midsummer Night's Sweetness",
+      "Academy Award for Best Picture",
+      "Academy Awards",
+      "Ace of Base",
+      "Adele",
+      "Aerosmith",
+      "Aespa",
+      "African popular music",
+      "After School (band)",
+      "After School (group)",
+      "Agust D",
+      "Ailee",
+      "Air Supply",
+      "Airplane Pt. 2",
+      "Al1",
+      "Album-equivalent units",
+      "Album era",
+      "Alive (Big Bang EP)",
+      "All Night (BTS and Juice Wrld song)",
+      "All Saints (group)",
+      "All in My Head (Flex)",
+      "All the Small Things",
+      "Alone (Jimin song)",
+      "American Music Award for Artist of the Year",
+      "American Music Award for Favorite Pop/Rock Band/Duo/Group",
+      "American Music Award for Favorite Pop/Rock Song",
+      "American Music Awards",
+      "American Music Awards of 2019",
+      "American Music Awards of 2021",
+      "Amygdala (song)",
+      "An Ode",
+      "Anastacia",
+      "Angel Pt. 1",
+      "Animation",
+      "Another One Bites the Dust",
+      "Anthology album",
+      "Anti-Hero (song)",
+      "Anti-establishment",
+      "Aoen",
+      "Apink",
+      "Arashi",
+      "Ariana Grande",
+      "Armageddon (Aespa album)",
+      "Armageddon (Aespa song)",
+      "Aron (singer)",
+      "As It Was"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/330px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "disambiguation": "",
+      "type": "Group",
+      "country": "KR",
+      "begin_area": "Seoul",
+      "life_span": {
+        "begin": "2013-06-13",
+        "end": null
+      }
+    },
+    "total_works": 17,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 5,
+      "instruments": 0,
+      "related_urls": 43
+    },
+    "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853"
+  },
+  "created_at": "2025-08-20T07:18:47.086615",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "BTS (Korean: 방탄소년단; RR: Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jung Kook, who co-write or co-produce much of their material. Originally a hip hop group, they expanded their musical style to incorporate a wide range of genres, while their lyrics have focused on subjects including mental health, the troubles of school-age youth and coming of age, loss, the journey towards self-love, individualism, and the consequences of fame and recognition. Their discography and adjacent work has also referenced literature, philosophy and psychology, and includes an alternate universe storyline.\nBTS debuted in 2013 under Big Hit Entertainment with the single album 2 Cool 4 Skool. BTS released their first Korean and Japanese-language studio albums, Dark & Wild and Wake Up respectively, in 2014. The group's second Korean studio album, Wings (2016), was their first to sell one million copies in South Korea. By 2017, BTS had crossed into the global music market and led the Korean Wave into the United States, becoming the first Korean ensemble to receive a Gold certification...",
+  "musicbrainz_info": {
+    "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+    "name": "BTS",
+    "disambiguation": "",
+    "type": "Group",
+    "country": "KR",
+    "begin_area": "Seoul",
+    "life_span": {
+      "begin": "2013-06-13",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:38.265829"
+}

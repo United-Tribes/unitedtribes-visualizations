@@ -1,0 +1,98 @@
+{
+  "artist_name": "Bob Boilen",
+  "works": [],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0001374783"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/1397868"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://bobboilen.info/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/bobboilen"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4931862"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bob_Boilen",
+    "musicbrainz": "https://musicbrainz.org/artist/01979bc7-5160-4446-82cc-9a63e697ba2c"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Bob B Boilen (born April 10, 1953, in Brooklyn, New York City) is an American musician and media personality. He was the host and creator of NPR's online music show All Songs Considered and the co-creator of NPR's Tiny Desk Concerts, a series originally conceived of by NPR's Stephen Thompson. He retired from NPR in October 2023 after 35 years.\nSince 2021, Boilen has hosted the weekly show My Tiny Morning Show on WOWD-LP. He will become the station's program director in June 2024.",
+    "summary": "Bob B Boilen (born April 10, 1953, in Brooklyn, New York City) is an American musician and media personality. He was the host and creator of NPR's online music show All Songs Considered and the co-creator of NPR's Tiny Desk Concerts, a series originally conceived of by NPR's Stephen Thompson. He retired from NPR in October 2023 after 35 years.\nSince 2021, Boilen has hosted the weekly show My Tiny Morning Show on WOWD-LP. He will become the station's program director in June 2024....",
+    "url": "https://en.wikipedia.org/wiki/Bob_Boilen",
+    "title": "Bob Boilen",
+    "word_count": 84,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bob_Boilen_2014.jpg/330px-Bob_Boilen_2014.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "01979bc7-5160-4446-82cc-9a63e697ba2c",
+      "name": "Bob Boilen",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Brooklyn",
+      "life_span": {
+        "begin": "1953-04-10",
+        "end": null
+      }
+    },
+    "total_works": 0,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 5
+    },
+    "mbid": "01979bc7-5160-4446-82cc-9a63e697ba2c"
+  },
+  "created_at": "2025-08-20T11:01:53.626493",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Bob B Boilen (born April 10, 1953, in Brooklyn, New York City) is an American musician and media personality. He was the host and creator of NPR's online music show All Songs Considered and the co-creator of NPR's Tiny Desk Concerts, a series originally conceived of by NPR's Stephen Thompson. He retired from NPR in October 2023 after 35 years.\nSince 2021, Boilen has hosted the weekly show My Tiny Morning Show on WOWD-LP. He will become the station's program director in June 2024.",
+  "musicbrainz_info": {
+    "mbid": "01979bc7-5160-4446-82cc-9a63e697ba2c",
+    "name": "Bob Boilen",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Brooklyn",
+    "life_span": {
+      "begin": "1953-04-10",
+      "end": null
+    }
+  }
+}

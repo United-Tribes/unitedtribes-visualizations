@@ -1,0 +1,411 @@
+{
+  "artist_name": "Melissa Etheridge",
+  "works": [
+    {
+      "title": "Brother Bear 2 (Original Soundtrack)",
+      "release_date": "2006-08-15",
+      "type": "Album",
+      "mbid": "15717557-5d40-3471-a4ac-94aa7ec0f708"
+    },
+    {
+      "title": "The Bayou",
+      "release_date": "1989",
+      "type": "Album",
+      "mbid": "20b3b401-3f66-45a3-a2cf-23c44cfca465"
+    },
+    {
+      "title": "One Way Out",
+      "release_date": "2021-09-17",
+      "type": "Album",
+      "mbid": "23632918-b463-44f8-b0ea-195298ffddec"
+    },
+    {
+      "title": "Greatest Hits: The Road Less Traveled",
+      "release_date": "2005-10-04",
+      "type": "Album",
+      "mbid": "26446385-1a87-321a-bc06-180e26f9a8d2"
+    },
+    {
+      "title": "Melissa Etheridge X Jewel",
+      "release_date": "2024-06-04",
+      "type": "Album",
+      "mbid": "2f90f25c-49d6-4101-83ad-8e8ff78b00f6"
+    },
+    {
+      "title": "Forum de Montreal",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "3b9196a3-0fc9-470f-a49f-cc6d9cf8c6c6"
+    },
+    {
+      "title": "Brave and Crazy",
+      "release_date": "1989-09-25",
+      "type": "Album",
+      "mbid": "4e50cb4e-64e8-3a6b-8029-e8c43ef8135b"
+    },
+    {
+      "title": "Beautiful Day",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "54f6436f-ad7f-4aee-bc0d-7ffd1b9c775a"
+    },
+    {
+      "title": "Lucky",
+      "release_date": "2004-02-10",
+      "type": "Album",
+      "mbid": "5957d6d3-8b19-3258-bba0-bf9d09e5e973"
+    },
+    {
+      "title": "Icon",
+      "release_date": "2011-03-01",
+      "type": "Album",
+      "mbid": "635d67e7-47b1-430a-a346-2527ffaec652"
+    },
+    {
+      "title": "The Medicine Show",
+      "release_date": "2019-04-12",
+      "type": "Album",
+      "mbid": "6d1c8a04-7ea8-4e6b-ba3c-6fb87f8bc13d"
+    },
+    {
+      "title": "A New Thought for Christmas",
+      "release_date": "2008-09-30",
+      "type": "Album",
+      "mbid": "712bc569-8df2-30fe-8f91-e59be6c03d44"
+    },
+    {
+      "title": "Fearless Love",
+      "release_date": "2010-04-23",
+      "type": "Album",
+      "mbid": "732d83b8-30e1-46b5-8080-335aa570eca1"
+    },
+    {
+      "title": "This Is M.E.",
+      "release_date": "2014-09-30",
+      "type": "Album",
+      "mbid": "74bcb40d-f42e-4e27-89a7-6e59a63754a7"
+    },
+    {
+      "title": "Breakdown",
+      "release_date": "1999-10-05",
+      "type": "Album",
+      "mbid": "77b9bf63-ec28-3f60-ae7b-3874d2d8df96"
+    },
+    {
+      "title": "Melissa Etheridge Sings Janis Joplin",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "873e3f15-2eae-3253-b3fd-349b0b426587"
+    },
+    {
+      "title": "Yes I Am",
+      "release_date": "1993-09-21",
+      "type": "Album",
+      "mbid": "a8a7a9db-64ac-312f-8df2-be1de7509bd9"
+    },
+    {
+      "title": "Your Little Secret",
+      "release_date": "1995-11-14",
+      "type": "Album",
+      "mbid": "bbf6b770-b1d8-378b-abc8-c6c2337d055a"
+    },
+    {
+      "title": "Memphis Rock and Soul",
+      "release_date": "2016-10-07",
+      "type": "Album",
+      "mbid": "c31d9791-d821-4145-91fc-250b37900398"
+    },
+    {
+      "title": "Melissa Etheridge",
+      "release_date": "1988",
+      "type": "Album",
+      "mbid": "cb9d38fa-5a3e-3182-a942-87ba1669cbd2"
+    },
+    {
+      "title": "4th Street Feeling",
+      "release_date": "2012-08-31",
+      "type": "Album",
+      "mbid": "d937ad75-e49c-4938-ba75-0ddd29df031b"
+    },
+    {
+      "title": "No Souvenirs: Live in the U.S.A.",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "ee675dac-cb37-323f-8cf0-92c7b78115b9"
+    },
+    {
+      "title": "Never Enough",
+      "release_date": "1992-03-17",
+      "type": "Album",
+      "mbid": "f08292c4-efce-36fb-9451-977068a6be39"
+    },
+    {
+      "title": "Skin",
+      "release_date": "2001-06-23",
+      "type": "Album",
+      "mbid": "f37c6903-6052-3a0a-96b5-6c29c681625f"
+    },
+    {
+      "title": "The Awakening",
+      "release_date": "2007-09-25",
+      "type": "Album",
+      "mbid": "f6065764-54fc-3730-a1a7-d7455379c5c3"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "Artists Stand Up to Cancer"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000345355"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/254511"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/01Ppu7N8uYJI8SAONo2YZA"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/3142"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Melissa_etheridge_spirit_mountain_august_24_2010_live.JPG"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0004902/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Melissa+Etheridge"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Melissa-etheridge"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Melissa-Etheridge"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4295/melissa-etheridge/lyrics.html"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/melissaetheridge"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.melissaetheridge.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n91122914"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb139744130"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/119518325"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://id.oclc.org/worldcat/entity/E39PBJxWXh4R94WR7kBwjQw9jC"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/melissa-etheridge"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/0c135395-9467-41fc-baca-0e66ce75dd2b"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6dz3n23"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL1602629A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/melissa_etheridge"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/melissa-etheridge"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.ibdb.com/person.php?id=489595"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.idref.fr/084291214"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/melissa-etheridge/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.themoviedb.org/person/71425"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Melissa-Etheridge/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n91122914/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/117519"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id117519"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/8878"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/melissa-etheridge-3d6b987.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/speak_true"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/MelissaEtheridge"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/melissa_etheridge/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/424921"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/melissaetheridge"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000QJSTXK"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/117519"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/30059"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/melissa-etheridge"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/85896722"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q270669"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC-0dv2mN6SeXwkEKtfKXJnQ"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCUmm-xpEYJfwvc2RrfJIV4g"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Melissa_Etheridge",
+    "musicbrainz": "https://musicbrainz.org/artist/b3ae82c2-e60b-4551-a76d-6620f1b456aa"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Melissa Lou Etheridge (born May 29, 1961) is an American singer, songwriter, musician, and guitarist. Her eponymous debut album was released in 1988 and became an underground success. It peaked at No. 22 on the Billboard 200 and its lead single, \"Bring Me Some Water\", garnered Etheridge her first Grammy Award nomination for Best Rock Vocal Performance, Female in 1989. Her second album, Brave and Crazy, appeared that same year and earned Etheridge two more Grammy nominations. In 1992, Etheridge released her third album, Never Enough, and its lead single, \"Ain't It Heavy\", won Etheridge her first Grammy Award.\nIn 1993, she released what would become her mainstream breakthrough album, Yes I Am. Its tracks \"I'm the Only One\", \"If I Wanted To\", and \"Come to My Window\" all reached the Top 40 in the United States, while the latter earned Etheridge her second Grammy Award. Yes I Am spent 138 weeks on the Billboard 200, peaking at No. 15, and earning a RIAA certification of 6× Platinum, her largest selling album to date. Her fifth album, Your Little Secret, was released in 1995 and peaked at No. 6 on the Billboard 200, her highest-charting album to date. Its tracks \"Nowhere to Go\" and \"I Want...",
+    "summary": "Melissa Lou Etheridge (born May 29, 1961) is an American singer, songwriter, musician, and guitarist. Her eponymous debut album was released in 1988 and became an underground success. It peaked at No. 22 on the Billboard 200 and its lead single, \"Bring Me Some Water\", garnered Etheridge her first Grammy Award nomination for Best Rock Vocal Performance, Female in 1989. Her second album, Brave and Crazy, appeared that same year and earned Etheridge two more Grammy nominations. In 1992, Etheridge released her third album, Never Enough, and its lead single, \"Ain't It Heavy\", won Etheridge her first Grammy Award.\nIn 1993, she released what would become her mainstream breakthrough album, Yes I Am. Its tracks \"I'm the Only One\", \"If I Wanted To\", and \"Come to My Window\" all reached the Top 40 in the United States, while the latter earned Etheridge her second Grammy Award. Yes I Am spent 138 weeks on the Billboard 200, peaking at No. 15, and earning a RIAA certification of 6× Platinum, her lar...",
+    "url": "https://en.wikipedia.org/wiki/Melissa_Etheridge",
+    "title": "Melissa Etheridge",
+    "word_count": 206,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/MelissaEtheridgeHWOFSept2011.jpg/330px-MelissaEtheridgeHWOFSept2011.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "b3ae82c2-e60b-4551-a76d-6620f1b456aa",
+      "name": "Melissa Etheridge",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Leavenworth",
+      "life_span": {
+        "begin": "1961-05-29",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 45
+    },
+    "mbid": "b3ae82c2-e60b-4551-a76d-6620f1b456aa"
+  },
+  "created_at": "2025-08-20T08:23:16.836788",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Melissa Lou Etheridge (born May 29, 1961) is an American singer, songwriter, musician, and guitarist. Her eponymous debut album was released in 1988 and became an underground success. It peaked at No. 22 on the Billboard 200 and its lead single, \"Bring Me Some Water\", garnered Etheridge her first Grammy Award nomination for Best Rock Vocal Performance, Female in 1989. Her second album, Brave and Crazy, appeared that same year and earned Etheridge two more Grammy nominations. In 1992, Etheridge released her third album, Never Enough, and its lead single, \"Ain't It Heavy\", won Etheridge her first Grammy Award.\nIn 1993, she released what would become her mainstream breakthrough album, Yes I Am. Its tracks \"I'm the Only One\", \"If I Wanted To\", and \"Come to My Window\" all reached the Top 40 in the United States, while the latter earned Etheridge her second Grammy Award. Yes I Am spent 138 weeks on the Billboard 200, peaking at No. 15, and earning a RIAA certification of 6× Platinum, her largest selling album to date. Her fifth album, Your Little Secret, was released in 1995 and peaked at No. 6 on the Billboard 200, her highest-charting album to date. Its tracks \"Nowhere to Go\" and \"I Want...",
+  "musicbrainz_info": {
+    "mbid": "b3ae82c2-e60b-4551-a76d-6620f1b456aa",
+    "name": "Melissa Etheridge",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Leavenworth",
+    "life_span": {
+      "begin": "1961-05-29",
+      "end": null
+    }
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "artist_name": "Sonic Youth",
+  "works": [
+    {
+      "title": "Murray Street",
+      "release_date": "2002-06-05",
+      "type": "Album",
+      "mbid": "1fa9181e-91a9-3f29-8f4f-d73b18199da0"
+    },
+    {
+      "title": "Daydream Nation",
+      "release_date": "1988-10",
+      "type": "Album",
+      "mbid": "24769a99-8189-3d8c-947e-dbc8574dad5c"
+    },
+    {
+      "title": "Dirty",
+      "release_date": "1992-07-20",
+      "type": "Album",
+      "mbid": "30fef5ef-b1d4-36b5-8f75-f45b8e76c545"
+    },
+    {
+      "title": "NYC Ghosts & Flowers",
+      "release_date": "2000-05-16",
+      "type": "Album",
+      "mbid": "3647fec7-42c3-34a5-ae1a-bdf97f57a6f1"
+    },
+    {
+      "title": "Rather Ripped",
+      "release_date": "2006-06-05",
+      "type": "Album",
+      "mbid": "4c528cc1-e920-38f5-9ee4-12e36afc388b"
+    },
+    {
+      "title": "14 Tracks: The Other Side of Sonic Youth",
+      "release_date": "2009-03-11",
+      "type": "Album",
+      "mbid": "4f3fab52-0921-48e4-8a92-d811dfdc0da0"
+    },
+    {
+      "title": "Rarities 1",
+      "release_date": "2020-08-07",
+      "type": "Album",
+      "mbid": "56d88da0-2911-43ce-bf05-709b5b3ec6e5"
+    },
+    {
+      "title": "Sonic Nurse",
+      "release_date": "2004-06-07",
+      "type": "Album",
+      "mbid": "65697dec-0741-3e6d-bd81-72de8a079824"
+    },
+    {
+      "title": "Bad Moon Rising",
+      "release_date": "1985",
+      "type": "Album",
+      "mbid": "74e5dba6-af28-346b-80b8-4559ef0c1d4f"
+    },
+    {
+      "title": "EVOL",
+      "release_date": "1986-05",
+      "type": "Album",
+      "mbid": "77641c44-b2d6-3cfb-a82c-37bbec30abfd"
+    },
+    {
+      "title": "Goo",
+      "release_date": "1990-06-26",
+      "type": "Album",
+      "mbid": "8114542a-d659-3b5f-a11f-cf86ed7fa84d"
+    },
+    {
+      "title": "Confusion Is Sex",
+      "release_date": "1983",
+      "type": "Album",
+      "mbid": "89af14c4-5ee2-3415-aacc-065425656a12"
+    },
+    {
+      "title": "Terrastock 5",
+      "release_date": "2002",
+      "type": "Album",
+      "mbid": "89c74cb7-2abd-485c-83c8-070e1e48caa0"
+    },
+    {
+      "title": "Mix Tape #6",
+      "release_date": "2007-08",
+      "type": "Album",
+      "mbid": "8a82247f-dfdb-4cad-890d-144dcc32076d"
+    },
+    {
+      "title": "The Destroyed Room: B-Sides and Rarities",
+      "release_date": "2006-12-11",
+      "type": "Album",
+      "mbid": "9014076e-d8e6-3e23-a88f-e575ad18ba82"
+    },
+    {
+      "title": "Washing Machine",
+      "release_date": "1995-01-01",
+      "type": "Album",
+      "mbid": "9722731f-48ec-3958-a6b7-a08521fcf115"
+    },
+    {
+      "title": "Experimental Jet Set, Trash and No Star",
+      "release_date": "1994-04-26",
+      "type": "Album",
+      "mbid": "98800fc1-53a8-3084-aeb9-91b7674cf5d0"
+    },
+    {
+      "title": "The Eternal",
+      "release_date": "2009-06-03",
+      "type": "Album",
+      "mbid": "a2d6d282-a46a-31d3-9389-de6d63772b35"
+    },
+    {
+      "title": "Hidros 3",
+      "release_date": "2004-09-21",
+      "type": "Album",
+      "mbid": "a7a43590-7272-3b0f-9482-cbbdecd8cd39"
+    },
+    {
+      "title": "Mix Tape #1",
+      "release_date": "2004",
+      "type": "Album",
+      "mbid": "afaac78d-37c5-44f0-a8c2-a5a58f555f03"
+    },
+    {
+      "title": "Screaming Fields of Sonic Love",
+      "release_date": "1994",
+      "type": "Album",
+      "mbid": "bd45c4d5-0f75-3e48-bf91-850cf52d44b1"
+    },
+    {
+      "title": "Mix Tape #4",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "cc5f054b-ef50-47a7-87ea-c701e692d7d5"
+    },
+    {
+      "title": "A Thousand Leaves",
+      "release_date": "1998-04-21",
+      "type": "Album",
+      "mbid": "d2450e24-9345-376e-b6cc-dfd6b0138de1"
+    },
+    {
+      "title": "Sister",
+      "release_date": "1987-06",
+      "type": "Album",
+      "mbid": "e4256ddc-fa26-3e7f-933b-4de77b05f519"
+    },
+    {
+      "title": "Hits Are for Squares",
+      "release_date": "2008-06-10",
+      "type": "Album",
+      "mbid": "ff0f3c8b-6fc2-349d-a3a9-db94341d52d7"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Sonic Youth Archive",
+      "Sonic Death"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000755156"
+      },
+      {
+        "type": "bandcamp",
+        "url": "https://sonicyoutharchive.bandcamp.com/"
+      },
+      {
+        "type": "bandcamp",
+        "url": "https://sonicyouth.bandcamp.com/"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/861"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/5cbef01b-cc35-4f52-af7b-d0df0c4f61b9"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/17199"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/5UqTO8smerMvxHYA5xsXb6"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1302"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Sonic_Youth_2009.05.30_001.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1019247/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Sonic+Youth"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-6322/sonic-youth/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Sonic-youth"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Sonic-Youth"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/sonicyouth"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.sonicyouth.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n91121165"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb139220737"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/5505643-X"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/sonic-youth"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/S/Sonic_Youth/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/sonic_youth"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/sonic-youth"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/2087"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/6808/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/Sonic_Youth"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Sonic-Youth/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.worldcat.org/identities/lccn-n91121165/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id36034"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/sonic-youth"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700145298"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/530"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/sonic-youth-2bd6b812.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/thesonicyouth"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/sonicyouth"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/sonicyouth_official/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/496057"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/sonicyouth"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000QK7Z0C"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/36034"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/17551"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/sonic-youth"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/121920269"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q188626"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/sonicyouthvevo"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sonic_Youth",
+    "musicbrainz": "https://musicbrainz.org/artist/5cbef01b-cc35-4f52-af7b-d0df0c4f61b9"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Sonic Youth was an American rock band formed in New York City in 1981. Founding members Kim Gordon (bass, vocals, guitar), Thurston Moore (lead guitar, vocals) and Lee Ranaldo (rhythm guitar, vocals) remained together for the entire history of the band, while Steve Shelley (drums) followed a series of short-term drummers in 1985, rounding out the core line-up. Jim O'Rourke (bass, guitar, keyboards) was also a member of the band from 1999 to 2005, and Mark Ibold (bass, guitar) was a member from 2006 to 2011.\nSonic Youth emerged from the experimental no wave art and music scene in New York before evolving into a more conventional rock band and becoming a prominent member of the American noise rock scene. Sonic Youth has been praised for having \"redefined what rock guitar could do\" using a wide variety of unorthodox guitar tunings while preparing guitars with objects like drumsticks and screwdrivers to alter the instruments' timbre. The band was a pivotal influence on the alternative and indie rock movements.\nAfter gaining a large underground following and critical praise through releases with SST Records in the late 1980s, the band experienced mainstream success throughout the 1990s and...",
+    "summary": "Sonic Youth was an American rock band formed in New York City in 1981. Founding members Kim Gordon (bass, vocals, guitar), Thurston Moore (lead guitar, vocals) and Lee Ranaldo (rhythm guitar, vocals) remained together for the entire history of the band, while Steve Shelley (drums) followed a series of short-term drummers in 1985, rounding out the core line-up. Jim O'Rourke (bass, guitar, keyboards) was also a member of the band from 1999 to 2005, and Mark Ibold (bass, guitar) was a member from 2006 to 2011.\nSonic Youth emerged from the experimental no wave art and music scene in New York before evolving into a more conventional rock band and becoming a prominent member of the American noise rock scene. Sonic Youth has been praised for having \"redefined what rock guitar could do\" using a wide variety of unorthodox guitar tunings while preparing guitars with objects like drumsticks and screwdrivers to alter the instruments' timbre. The band was a pivotal influence on the alternative and ...",
+    "url": "https://en.wikipedia.org/wiki/Sonic_Youth",
+    "title": "Sonic Youth",
+    "word_count": 195,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sonicyouth2011lineup.png/330px-Sonicyouth2011lineup.png"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "5cbef01b-cc35-4f52-af7b-d0df0c4f61b9",
+      "name": "Sonic Youth",
+      "disambiguation": "US rock band",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "New York",
+      "life_span": {
+        "begin": "1981",
+        "end": "2011-11-14"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 45
+    },
+    "mbid": "5cbef01b-cc35-4f52-af7b-d0df0c4f61b9"
+  },
+  "created_at": "2025-08-20T08:37:03.160570",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Sonic Youth was an American rock band formed in New York City in 1981. Founding members Kim Gordon (bass, vocals, guitar), Thurston Moore (lead guitar, vocals) and Lee Ranaldo (rhythm guitar, vocals) remained together for the entire history of the band, while Steve Shelley (drums) followed a series of short-term drummers in 1985, rounding out the core line-up. Jim O'Rourke (bass, guitar, keyboards) was also a member of the band from 1999 to 2005, and Mark Ibold (bass, guitar) was a member from 2006 to 2011.\nSonic Youth emerged from the experimental no wave art and music scene in New York before evolving into a more conventional rock band and becoming a prominent member of the American noise rock scene. Sonic Youth has been praised for having \"redefined what rock guitar could do\" using a wide variety of unorthodox guitar tunings while preparing guitars with objects like drumsticks and screwdrivers to alter the instruments' timbre. The band was a pivotal influence on the alternative and indie rock movements.\nAfter gaining a large underground following and critical praise through releases with SST Records in the late 1980s, the band experienced mainstream success throughout the 1990s and...",
+  "musicbrainz_info": {
+    "mbid": "5cbef01b-cc35-4f52-af7b-d0df0c4f61b9",
+    "name": "Sonic Youth",
+    "disambiguation": "US rock band",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "New York",
+    "life_span": {
+      "begin": "1981",
+      "end": "2011-11-14"
+    }
+  }
+}

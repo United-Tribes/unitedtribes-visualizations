@@ -1,0 +1,509 @@
+{
+  "artist_name": "AC/DC",
+  "works": [
+    {
+      "title": "The Razors Edge",
+      "release_date": "1990-09-21",
+      "type": "Album",
+      "mbid": "03759365-2f74-3f12-b884-280d3aa17f0e"
+    },
+    {
+      "title": "Power Up",
+      "release_date": "2020-11-13",
+      "type": "Album",
+      "mbid": "17841c18-e49d-45d6-b11b-db867ab6d452"
+    },
+    {
+      "title": "3 Record Set",
+      "release_date": "1980",
+      "type": "Album",
+      "mbid": "21075907-5013-4d86-b116-379a800772c4"
+    },
+    {
+      "title": "High Voltage",
+      "release_date": "1975-02-17",
+      "type": "Album",
+      "mbid": "2b81e645-4586-4456-843a-9bc19a217470"
+    },
+    {
+      "title": "For Those About to Rock (We Salute You)",
+      "release_date": "1981-11-23",
+      "type": "Album",
+      "mbid": "331084ff-497b-3e3a-958e-0fefdae80cb6"
+    },
+    {
+      "title": "Vol. 1",
+      "release_date": "1981",
+      "type": "Album",
+      "mbid": "3552c01a-9ef0-4335-b2f5-8b374d9268de"
+    },
+    {
+      "title": "Ballbreaker",
+      "release_date": "1995-09-22",
+      "type": "Album",
+      "mbid": "46fd6f83-e94a-3060-8457-13b8ea8e1262"
+    },
+    {
+      "title": "Double Dynamite 2 Originals",
+      "release_date": "1979",
+      "type": "Album",
+      "mbid": "5b908300-e915-4205-91c5-300df4129698"
+    },
+    {
+      "title": "For Those About to Rock",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "723536ce-0b7f-4ba5-bdd7-514bdbb1ce73"
+    },
+    {
+      "title": "Rock and Roll Ain’t Noise Pollution",
+      "release_date": "1981-07-30",
+      "type": "Album",
+      "mbid": "72bee2b7-af7d-4e4a-98fe-a6579979d005"
+    },
+    {
+      "title": "Rock or Bust",
+      "release_date": "2014-11-28",
+      "type": "Album",
+      "mbid": "8bc8ca25-77ae-43a6-a242-038093dbcb08"
+    },
+    {
+      "title": "Flick of the Switch",
+      "release_date": "1983-08-15",
+      "type": "Album",
+      "mbid": "91a288b8-8404-3d1e-991c-cdc837cf915d"
+    },
+    {
+      "title": "Vol. 2",
+      "release_date": "1987",
+      "type": "Album",
+      "mbid": "9a3052fb-7986-4bec-b458-744da18be5c2"
+    },
+    {
+      "title": "Fly on the Wall",
+      "release_date": "1985-06-28",
+      "type": "Album",
+      "mbid": "af8a0f91-5326-3acb-b6e1-03a9b22d30e6"
+    },
+    {
+      "title": "Black Ice",
+      "release_date": "2008-10-17",
+      "type": "Album",
+      "mbid": "afca53c1-c5b3-3f91-8590-281b0aa12722"
+    },
+    {
+      "title": "Blow Up Your Video",
+      "release_date": "1988-01-18",
+      "type": "Album",
+      "mbid": "baab9433-37a8-32ee-a1d3-34c7d6cf6e69"
+    },
+    {
+      "title": "High Voltage",
+      "release_date": "1976-05-14",
+      "type": "Album",
+      "mbid": "c7962404-3148-46ba-bf57-d96633079708"
+    },
+    {
+      "title": "Stiff Upper Lip",
+      "release_date": "2000-02-25",
+      "type": "Album",
+      "mbid": "c8dcd7b4-d104-3559-bc18-a62f559e912e"
+    },
+    {
+      "title": "Let There Be Rock",
+      "release_date": "1977-03-21",
+      "type": "Album",
+      "mbid": "c9673ff0-15b5-394d-a5ec-3d2a27dfce83"
+    },
+    {
+      "title": "Powerage",
+      "release_date": "1978-05-05",
+      "type": "Album",
+      "mbid": "d1b829ec-6112-3562-b38f-26949564e106"
+    },
+    {
+      "title": "Back in Black",
+      "release_date": "1980-07-25",
+      "type": "Album",
+      "mbid": "d3bc1a64-7561-3787-b680-0003aa50f8f1"
+    },
+    {
+      "title": "T.N.T.",
+      "release_date": "1975-12-01",
+      "type": "Album",
+      "mbid": "e01e5b5c-5ca6-3876-b6ff-b9ad88dd71ee"
+    },
+    {
+      "title": "The Early Years",
+      "release_date": "1990",
+      "type": "Album",
+      "mbid": "e755a36c-8f1d-42d4-9d7d-86cc01b8c8c1"
+    },
+    {
+      "title": "Dirty Deeds Done Dirt Cheap",
+      "release_date": "1976-09-20",
+      "type": "Album",
+      "mbid": "f30734f4-333c-344c-98e9-71174cc5ebde"
+    },
+    {
+      "title": "Highway to Hell",
+      "release_date": "1979-07-27",
+      "type": "Album",
+      "mbid": "f85647ec-a69b-3b0a-ad04-bb6076c4dcf1"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000574772"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/26647"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/66c662b6-6e2f-4930-8610-912e24c63ed1"
+      },
+      {
+        "type": "biography",
+        "url": "https://www.legacyrecordings.com/AC/DC/Biography.aspx"
+      },
+      {
+        "type": "discography_page",
+        "url": "https://www.acdc-discography.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/84752"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://brutig.wordpress.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://disney.fandom.com/wiki/AC/DC"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://familyguy.fandom.com/wiki/AC/DC"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://fanart.tv/artist/66c662b6-6e2f-4930-8610-912e24c63ed1/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://www.acdc-italia.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://www.joeroacdc.de/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://youtube.fandom.com/wiki/AC/DC"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/115"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:ACDC_In_Tacoma_2009.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0009540/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/AC%2FDC"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Ac-dc"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/AC-DC"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/acdc"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.acdc.com/"
+      },
+      {
+        "type": "online_community",
+        "url": "https://www.reddit.com/r/ACDC/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n78011846"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13901479r"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/1221288-X"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/acdc"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/99de48fa-8bf5-4b32-ba75-c82caeb0f04d"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/A/AC-DC/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-783697"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/authors/OL2779459A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/ac_dc"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/acdc"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.idref.fr/027573540"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/21822"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/82/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000041071/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-metal.com/en/band/AC*DC"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/AC-DC"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/ACDC/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n78011846/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Azhdgf37pznwrc7j5tayla77k2m"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/au/artist/id5040714"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/au/artist/5040714"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://uk.7digital.com/artist/ac-dc"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.hdtracks.com/#/artist/AC%2FDC"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.microsoft.com/en-au/store/music/artist/ac-dc/d6040100-0200-11db-89ca-0019b92a3933"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1516"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/acdc-23d6807b.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/6750402929"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/acdc/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/acdc"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@acdc"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/276130"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/acdcofficial"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com.au/artists/B00136B4M8"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/au/artist/5040714"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/5040714"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/5040714"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/945"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/acdc"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.amazon.com/gp/product/B00136B4M8"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/144189738"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q27593"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCB0JSO6d5ysH2Mmqz5I9rIw"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCmPuJ2BltKsGE2966jLgCnw"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCVm4YdI3hobkwsHTTOMVJKg"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCB0JSO6d5ysH2Mmqz5I9rIw"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCmPuJ2BltKsGE2966jLgCnw"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCVm4YdI3hobkwsHTTOMVJKg"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/AC/DC",
+    "musicbrainz": "https://musicbrainz.org/artist/66c662b6-6e2f-4930-8610-912e24c63ed1"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "AC/DC are an Australian rock band formed in Sydney in 1973. Their music has been variously described as hard rock, blues rock and heavy metal, although the band calls it simply \"rock and roll\". They are cited as a formative influence on the new wave of British heavy metal bands. The band was inducted into the Rock and Roll Hall of Fame in 2003 and have sold over 200 million records worldwide, making them one of the best-selling artists of all time.\nAC/DC were founded by brothers Angus (lead guitar) and Malcolm Young (rhythm guitar), with Colin Burgess (drums), Larry Van Kriedt (bass guitar) and Dave Evans (lead vocals). They underwent several line-up changes before releasing their debut Australasian-only album, High Voltage (1975). Membership stabilised after the release of Let There Be Rock (1977), with the Young brothers, Phil Rudd on drums, Cliff Williams on bass guitar and Bon Scott on lead vocals. Seven months after the release of Highway to Hell (1979), Scott died of alcohol poisoning and English singer Brian Johnson was then recruited as their new frontman. Their first album with Johnson, Back in Black (1980), dedicated to Scott's memory, became the second best-selling album...",
+    "summary": "AC/DC are an Australian rock band formed in Sydney in 1973. Their music has been variously described as hard rock, blues rock and heavy metal, although the band calls it simply \"rock and roll\". They are cited as a formative influence on the new wave of British heavy metal bands. The band was inducted into the Rock and Roll Hall of Fame in 2003 and have sold over 200 million records worldwide, making them one of the best-selling artists of all time.\nAC/DC were founded by brothers Angus (lead guitar) and Malcolm Young (rhythm guitar), with Colin Burgess (drums), Larry Van Kriedt (bass guitar) and Dave Evans (lead vocals). They underwent several line-up changes before releasing their debut Australasian-only album, High Voltage (1975). Membership stabilised after the release of Let There Be Rock (1977), with the Young brothers, Phil Rudd on drums, Cliff Williams on bass guitar and Bon Scott on lead vocals. Seven months after the release of Highway to Hell (1979), Scott died of alcohol pois...",
+    "url": "https://en.wikipedia.org/wiki/AC/DC",
+    "title": "AC/DC",
+    "word_count": 198,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/330px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+      "name": "AC/DC",
+      "disambiguation": "Australian hard rock band",
+      "type": "Group",
+      "country": "AU",
+      "begin_area": "Sydney",
+      "life_span": {
+        "begin": "1973-11",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 70
+    },
+    "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1"
+  },
+  "created_at": "2025-08-20T08:28:20.089741",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "AC/DC are an Australian rock band formed in Sydney in 1973. Their music has been variously described as hard rock, blues rock and heavy metal, although the band calls it simply \"rock and roll\". They are cited as a formative influence on the new wave of British heavy metal bands. The band was inducted into the Rock and Roll Hall of Fame in 2003 and have sold over 200 million records worldwide, making them one of the best-selling artists of all time.\nAC/DC were founded by brothers Angus (lead guitar) and Malcolm Young (rhythm guitar), with Colin Burgess (drums), Larry Van Kriedt (bass guitar) and Dave Evans (lead vocals). They underwent several line-up changes before releasing their debut Australasian-only album, High Voltage (1975). Membership stabilised after the release of Let There Be Rock (1977), with the Young brothers, Phil Rudd on drums, Cliff Williams on bass guitar and Bon Scott on lead vocals. Seven months after the release of Highway to Hell (1979), Scott died of alcohol poisoning and English singer Brian Johnson was then recruited as their new frontman. Their first album with Johnson, Back in Black (1980), dedicated to Scott's memory, became the second best-selling album...",
+  "musicbrainz_info": {
+    "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+    "name": "AC/DC",
+    "disambiguation": "Australian hard rock band",
+    "type": "Group",
+    "country": "AU",
+    "begin_area": "Sydney",
+    "life_span": {
+      "begin": "1973-11",
+      "end": null
+    }
+  }
+}

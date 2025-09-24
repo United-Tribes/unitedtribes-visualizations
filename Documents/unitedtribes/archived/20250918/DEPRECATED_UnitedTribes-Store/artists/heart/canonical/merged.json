@@ -1,0 +1,514 @@
+{
+  "artist_name": "Heart",
+  "works": [
+    {
+      "title": "Passionworks",
+      "release_date": "1983-08-20",
+      "type": "Album",
+      "mbid": "08d2cf66-bb2d-3fe0-8d3e-ef7ec23a89ad"
+    },
+    {
+      "title": "Fanatic",
+      "release_date": "2012-09-28",
+      "type": "Album",
+      "mbid": "1ba6bf7e-b8b6-40a8-8767-d79f9c9a9f52"
+    },
+    {
+      "title": "Heart",
+      "release_date": "1985-06",
+      "type": "Album",
+      "mbid": "1bfd8ea4-0310-3bc5-876e-7bba6e23c6b6"
+    },
+    {
+      "title": "Bébé le Strange",
+      "release_date": "1980-02-14",
+      "type": "Album",
+      "mbid": "28c5dc3d-0b3d-35ca-98cf-93368a5b5254"
+    },
+    {
+      "title": "Little Queen",
+      "release_date": "1977-05-15",
+      "type": "Album",
+      "mbid": "2ece6f20-db6e-39b3-a370-28e6011cddcf"
+    },
+    {
+      "title": "Dog & Butterfly",
+      "release_date": "1978-10-07",
+      "type": "Album",
+      "mbid": "3375278e-6a10-3fbb-b65a-61514a027fc2"
+    },
+    {
+      "title": "Red Velvet Car",
+      "release_date": "2010-08-27",
+      "type": "Album",
+      "mbid": "38176158-9ff5-4a99-922a-bdcb4c247f45"
+    },
+    {
+      "title": "Desire Walks On",
+      "release_date": "1993-10-30",
+      "type": "Album",
+      "mbid": "5ff6db60-4236-3ce2-8a4d-0a3ffa14aeec"
+    },
+    {
+      "title": "Greatest Hits",
+      "release_date": "1998-08-25",
+      "type": "Album",
+      "mbid": "634a3f58-9596-3ff7-a049-8defaae5f7fd"
+    },
+    {
+      "title": "Beautiful Broken",
+      "release_date": "2016-07-08",
+      "type": "Album",
+      "mbid": "640f35ed-4b28-431a-a231-c6aaa3e46d99"
+    },
+    {
+      "title": "Dreamboat Annie",
+      "release_date": "1975-09",
+      "type": "Album",
+      "mbid": "65ebadae-3fcc-32c2-a161-a2cd53854c9b"
+    },
+    {
+      "title": "These Dreams: Heart’s Greatest Hits",
+      "release_date": "1997-03-11",
+      "type": "Album",
+      "mbid": "695e998c-522b-34fc-a9d6-e9e35fbc15d8"
+    },
+    {
+      "title": "Private Audition",
+      "release_date": "1982-05-14",
+      "type": "Album",
+      "mbid": "71c51c27-5cd2-3d6a-b7fa-06ddbab07c5f"
+    },
+    {
+      "title": "Jupiters Darling",
+      "release_date": "2004-06-22",
+      "type": "Album",
+      "mbid": "757326ba-cf6e-3a69-a780-1067d0a9cd9d"
+    },
+    {
+      "title": "Magazine",
+      "release_date": "1977-04-19",
+      "type": "Album",
+      "mbid": "786fa740-433b-3cbc-8eba-3975772347a8"
+    },
+    {
+      "title": "The Collection",
+      "release_date": "2005-11-15",
+      "type": "Album",
+      "mbid": "80c17452-3eb4-484c-995f-272ab2e5c40f"
+    },
+    {
+      "title": "Definitive Collection",
+      "release_date": "1995-12-11",
+      "type": "Album",
+      "mbid": "988f1afe-a88c-3342-8b60-588fd7a02eda"
+    },
+    {
+      "title": "Ballads: The Greatest Hits",
+      "release_date": "1996-07-03",
+      "type": "Album",
+      "mbid": "a608a913-c4c5-3b52-83bb-c19c3c3559ef"
+    },
+    {
+      "title": "Greatest Hits / Live",
+      "release_date": "1980-11-29",
+      "type": "Album",
+      "mbid": "a9e2a142-3083-3e66-9150-5f44836d69c4"
+    },
+    {
+      "title": "Greatest Hits: 1985–1995",
+      "release_date": "2000-06-27",
+      "type": "Album",
+      "mbid": "bb864441-1563-3962-a62d-3c78a7812379"
+    },
+    {
+      "title": "Brigade",
+      "release_date": "1990-03-26",
+      "type": "Album",
+      "mbid": "c2e6f148-1299-3eca-8e7f-b0986b327ab4"
+    },
+    {
+      "title": "Bad Animals",
+      "release_date": "1987-06-05",
+      "type": "Album",
+      "mbid": "c3cb483f-b0b6-3e3e-9c23-2a773b4a665f"
+    },
+    {
+      "title": "Love Alive",
+      "release_date": "2005-09-27",
+      "type": "Album",
+      "mbid": "d0321bfe-2434-3bcb-9c0f-c501adcdfa25"
+    },
+    {
+      "title": "The Essential Heart",
+      "release_date": "2002-11-26",
+      "type": "Album",
+      "mbid": "d46e1094-4e5d-3e75-bef1-5cd0e568e6a7"
+    },
+    {
+      "title": "Heart: Best of the Early Years",
+      "release_date": "1981",
+      "type": "Album",
+      "mbid": "e92da246-f377-3e09-8490-87e6ab93b28d"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Heart General Partnership"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000671953"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1091"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.heart-music.com/albums/albums.asp"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/136201"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/34jw2BbxjoYalTp8cJFCPv"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/7359"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Heart_at_the_Beacon_Theater,_2012.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1517651/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Heart"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/heart"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/heart"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.heart-music.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n78096794"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/H/Heart/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13903918d"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/1217780-5"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/heart"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/heart"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/heart"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/heart/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/Heart"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Heart/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n78096794"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Apimofcb7jpdp4twm7cxtjtnqb4"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/487883"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.7digital.com/artist/heart"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/13389"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/heart-6bd6bed2.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/officialheart"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/heart"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/heartofficial/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/2476336"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000QJNS5Y"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/487883"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/1002"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/heart"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/127759871"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q941662"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/thebandheart"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Heart",
+    "musicbrainz": "https://musicbrainz.org/artist/bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels. The heart and blood vessels together make the circulatory system. The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs. In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.\nIn humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles. Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart. In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow. The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.  \nThe heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through...",
+    "summary": "The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels. The heart and blood vessels together make the circulatory system. The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs. In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.\nIn humans, the heart is divi...",
+    "url": "https://en.wikipedia.org/wiki/Heart",
+    "title": "Heart",
+    "word_count": 202,
+    "categories": [
+      "Category:All articles with unsourced statements",
+      "Category:Articles containing video clips",
+      "Category:Articles with empty listen template",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from November 2024",
+      "Category:Articles with unsourced statements from October 2024",
+      "Category:CS1 maint: multiple names: authors list",
+      "Category:Cardiac anatomy",
+      "Category:Good articles",
+      "Category:Heart",
+      "Category:Organs (anatomy)",
+      "Category:Pages using Sister project links with default search",
+      "Category:Pages using the WikiHiero extension",
+      "Category:Short description is different from Wikidata",
+      "Category:Use dmy dates from November 2020",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia articles incorporating a citation from the 1911 Encyclopaedia Britannica with Wikisource reference",
+      "Category:Wikipedia indefinitely semi-protected biographies of living people",
+      "Category:Wikipedia medicine articles ready to translate"
+    ],
+    "internal_links": [
+      "ACE inhibitor",
+      "ACTC1",
+      "AV nodal reentrant tachycardia",
+      "Absolute refractory period",
+      "Accelerans nerve",
+      "Acta Physiologica",
+      "Actin",
+      "Action potential",
+      "Adrenaline",
+      "Adrian Kantrowitz",
+      "Afterload",
+      "Aleut",
+      "Allied health profession",
+      "American Journal of Physiology",
+      "Amiodarone",
+      "Ammit",
+      "Amniote",
+      "Amphibian",
+      "Anaemia",
+      "Anatomical terminology",
+      "Anatomy of the human heart",
+      "Ancient Egyptian deities",
+      "Ancient Egyptian religion",
+      "Ancient Greece",
+      "Ancient Greek",
+      "Andrea Alpago",
+      "Andreas Vesalius",
+      "Angina",
+      "Angina pectoris",
+      "Angiography",
+      "Animal",
+      "Annual Review of Medicine",
+      "Anopheles gambiae",
+      "Anterior cardiac veins",
+      "Anterior interventricular sulcus",
+      "Anterior longitudinal sulcus",
+      "Anticuchos",
+      "Antimineralocorticoid",
+      "Antiplatelet drug",
+      "Anubis",
+      "Aorta",
+      "Aortic body",
+      "Aortic pressure",
+      "Aortic sinus",
+      "Aortic stenosis",
+      "Aortic valve",
+      "Aortic valve area calculation",
+      "Apex of the heart",
+      "ArXiv (identifier)",
+      "Archosaur",
+      "Aristotle",
+      "Arrhythmia",
+      "Arrhythmogenic cardiomyopathy",
+      "Arrythmia",
+      "Arteries",
+      "Arteriole",
+      "Artery",
+      "Arthropod",
+      "Arthur Keith",
+      "Articulation (anatomy)",
+      "Artificial cardiac pacemaker",
+      "Artificial heart valve",
+      "Ascending aorta",
+      "Aspirin",
+      "Atherosclerosis",
+      "Athlete",
+      "Atrial action potential",
+      "Atrial fibrillation",
+      "Atrial flutter",
+      "Atrial septal defect",
+      "Atrial tachycardia",
+      "Atrioventricular node",
+      "Atrioventricular septum",
+      "Atrioventricular valve",
+      "Atrium (heart)",
+      "Atropine",
+      "Auscultation",
+      "Australian cuisine",
+      "Autopsy",
+      "Autoregulation",
+      "Autorhythmicity",
+      "Axial twist theory",
+      "Aztec",
+      "BBC News",
+      "Bachmann's bundle",
+      "Bainbridge reflex",
+      "Balinese cuisine",
+      "Baltimore",
+      "Baroreceptor",
+      "Baroreflex",
+      "Bartley P. Griffith",
+      "Basal metabolic rate",
+      "Base of the heart",
+      "Basic metabolic panel",
+      "Bathmotropic",
+      "Beats per minute",
+      "Bedside test",
+      "Beef",
+      "Benign early repolarization",
+      "Beta-1 adrenergic receptor"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Heart_anterior_exterior_view.png/330px-Heart_anterior_exterior_view.png"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9",
+      "name": "Heart",
+      "disambiguation": "rock band, Ann and Nancy Wilson",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "Seattle",
+      "life_span": {
+        "begin": "1973",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 40
+    },
+    "mbid": "bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9"
+  },
+  "created_at": "2025-08-20T08:06:33.561045",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels. The heart and blood vessels together make the circulatory system. The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs. In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.\nIn humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles. Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart. In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow. The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.  \nThe heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through...",
+  "musicbrainz_info": {
+    "mbid": "bdbd48f5-abf3-4a4f-9a21-4551dbc3fde9",
+    "name": "Heart",
+    "disambiguation": "rock band, Ann and Nancy Wilson",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "Seattle",
+    "life_span": {
+      "begin": "1973",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:02.974501"
+}

@@ -1,0 +1,401 @@
+{
+  "artist_name": "Blink-182",
+  "works": [
+    {
+      "title": "blink‐182",
+      "release_date": "2003-11-15",
+      "type": "Album",
+      "mbid": "04e0cb66-e8ee-38b9-863d-b4f21dee887d"
+    },
+    {
+      "title": "Sand in My Eyes",
+      "release_date": "2000",
+      "type": "Album",
+      "mbid": "0806a2d9-6bfa-40ec-8b63-ed87c63551c0"
+    },
+    {
+      "title": "Cheshire Cat",
+      "release_date": "1995-02-17",
+      "type": "Album",
+      "mbid": "0a467c9c-c9f7-3a86-bce1-c013e3bacd5f"
+    },
+    {
+      "title": "Dude Ranch",
+      "release_date": "1997-04-14",
+      "type": "Album",
+      "mbid": "19b6b24f-b273-3d4b-91f4-0720cd0f3bcd"
+    },
+    {
+      "title": "Studio Outtakes",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "19bbd1bf-4220-4ef9-a5bd-1cb52133b58f"
+    },
+    {
+      "title": "Pop Disaster Tour Live at Marcus Amphitheater, Milwaukee, WI, USA",
+      "release_date": "2002-06-16",
+      "type": "Album",
+      "mbid": "1b8c1096-6b18-4e9a-aa6d-4260c93c3cae"
+    },
+    {
+      "title": "The Urethra Chronicles",
+      "release_date": "1999",
+      "type": "Album",
+      "mbid": "1cf78339-a0f7-3acf-a613-fc374057bc2f"
+    },
+    {
+      "title": "ONE MORE TIME…",
+      "release_date": "2023-10-20",
+      "type": "Album",
+      "mbid": "520d6d45-19c8-4ee1-a954-180e7902f3da"
+    },
+    {
+      "title": "NINE",
+      "release_date": "2019-09-20",
+      "type": "Album",
+      "mbid": "5eae653a-fb0d-4b3f-8ced-875ad83b6371"
+    },
+    {
+      "title": "Jacket of All Trades",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "5ef5faf6-7db4-3dcc-9ef6-e285560fb6c8"
+    },
+    {
+      "title": "Flyswatter",
+      "release_date": "1993-05",
+      "type": "Album",
+      "mbid": "6b6db6d6-3a4f-4535-a6de-3494ae4e5012"
+    },
+    {
+      "title": "Summer Sonic at Chiba Marine Stadium, Chiba, Japan",
+      "release_date": "2003-08-02",
+      "type": "Album",
+      "mbid": "786e7e53-6ce4-43e8-836d-2266203ee8c5"
+    },
+    {
+      "title": "The B-Sides File",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "8d3f6fb3-7e50-46f6-94fa-466c3f8f8381"
+    },
+    {
+      "title": "Icon",
+      "release_date": "2013-03-19",
+      "type": "Album",
+      "mbid": "909f51e0-b33d-4a76-8122-2aee5847ff82"
+    },
+    {
+      "title": "The Mark, Tom, and Travis Show (The Enema Strikes Back!)",
+      "release_date": "2000-11-07",
+      "type": "Album",
+      "mbid": "916dacf4-041d-382f-bdd6-e8bd24c8b83e"
+    },
+    {
+      "title": "California",
+      "release_date": "2016-07-01",
+      "type": "Album",
+      "mbid": "986ceaa4-3a6e-4ec8-acb9-79d3110fc94b"
+    },
+    {
+      "title": "Enema of the State / Take Off Your Pants and Jacket / Blink‐182",
+      "release_date": "2011-09-20",
+      "type": "Album",
+      "mbid": "9da25295-60d7-41e9-85a5-ebc47fe6fcdd"
+    },
+    {
+      "title": "Buddha",
+      "release_date": "1994-01",
+      "type": "Album",
+      "mbid": "b9ed79e9-b925-3631-bf80-98258226e5c6"
+    },
+    {
+      "title": "The B Sides",
+      "release_date": "2000",
+      "type": "Album",
+      "mbid": "c5baeaf2-14eb-4be4-8df7-5745bfb7d2be"
+    },
+    {
+      "title": "Enema of the State",
+      "release_date": "1999-06-01",
+      "type": "Album",
+      "mbid": "cd367c59-eb86-384b-bbc7-62f6d2d677b9"
+    },
+    {
+      "title": "Greatest Hits",
+      "release_date": "2005-10-28",
+      "type": "Album",
+      "mbid": "d40233d7-f8af-3daa-9c29-a96bac9b2a7c"
+    },
+    {
+      "title": "blink-182: Drum Play-Along Volume 10",
+      "release_date": "2008-02-01",
+      "type": "Album",
+      "mbid": "dbdf9cab-c1a8-4008-a78a-a02494b4aa22"
+    },
+    {
+      "title": "Take Off Your Pants and Jacket",
+      "release_date": "2001-06-11",
+      "type": "Album",
+      "mbid": "e9acecde-4ae1-3430-baf7-eae53cb9d75f"
+    },
+    {
+      "title": "7 Album Box Set",
+      "release_date": "2016-10-07",
+      "type": "Album",
+      "mbid": "ed55decc-8e80-40d6-afb4-614042017706"
+    },
+    {
+      "title": "Neighborhoods",
+      "release_date": "2011-09-23",
+      "type": "Album",
+      "mbid": "efb9eedc-b036-4fbe-a436-281342259800"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Fun With Goats",
+      "MCA Records, Inc.",
+      "Geffen Records"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000757342"
+      },
+      {
+        "type": "bandcamp",
+        "url": "https://blink182.bandcamp.com/"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/26335"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/0743b15a-3c32-48c8-ad58-cb325350befa"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/80395"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19981201180009/http://ccwf.cc.utexas.edu/~riemondi/blink182.htm"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://web.archive.org/web/19990210055925/http://www.geocities.com/SunsetStrip/Lounge/2316/blink.html"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/409"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Blink-182_2011-12-11_10.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1485933/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/blink-182"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Blink-182"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/blink182"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.blink182.com/"
+      },
+      {
+        "type": "online_community",
+        "url": "http://blink182fans.livejournal.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/B/blink-182/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/blink-182"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/blink_182"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/5079/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/Blink_182"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id116851"
+      },
+      {
+        "type": "purevolume",
+        "url": "http://www.purevolume.com/blink182"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/blink182-4bd68fae.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/118144981832890789090"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/blink182"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/blink182"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/blink182/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.threads.com/@blink182"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@blink182"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/479410"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/blink-182"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000TDU58U"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/116851"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/29850"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/blink-182"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/790708"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/144463619"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q482477"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCdvlHk5SZWwr9HjUcwtu8ng"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCf2WBemooP2gBBx3lrraNQw"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCo23ROZAe-BZYHpzBu9630Q"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Blink-182",
+    "musicbrainz": "https://musicbrainz.org/artist/0743b15a-3c32-48c8-ad58-cb325350befa"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Blink-182 is an American rock band formed in Poway, California, in 1992. Its current and most widely recognized line-up consists of bassist and vocalist Mark Hoppus, guitarist and vocalist Tom DeLonge, and drummer Travis Barker. Though its sound has diversified throughout their career, its musical style, described as pop-punk, blends catchy pop melodies with fast-paced punk rock. Its lyrics primarily focus on relationships, adolescent frustration, and maturity—or lack thereof. The group emerged from a suburban, Southern California skate punk scene and first gained notoriety for high-energy live shows and irreverent humor.\nThe band's debut, Cheshire Cat, and second studio album Dude Ranch, were released in 1995 and 1997 respectively, through independent imprint Grilled Cheese, a subdivision of Cargo Records. These releases helped the band gain moderate success around the local San Diego punk scene and abroad (namely Australia), which brought attention from major labels amid the punk rock resurgence on a mainstream scale post-Dookie. After years of independent recording and touring, including stints on the Warped Tour, the group signed to MCA Records. Its third and fourth albums—Enema of the State (1999) and Take Off Your Pants and Jacket (2001)—had the greatest commercial success while the singles \"All the Small Things\", \"Dammit\", and \"What's My Age Again?\" became hit songs and MTV staples. Later efforts, including an untitled album (2003), Neighborhoods (2011), and an EP Dogs Eating Dogs (2012), marked stylistic shifts. Hoppus is the only member to remain in the band throughout its history. DeLonge left the group twice, a decade apart, before returning again. Founding drummer Scott Raynor recorded and toured with the group before being dismissed in 1998 and replaced by Barker. During DeLonge's absence from 2015 to 2022, the band included Alkaline Trio singer and guitarist Matt Skiba, with whom it recorded two albums, California (2016), and Nine (2019), and toured in support of both. Their ninth album, One More Time..., was released on October 20, 2023.\nBlink-182's straightforward approach and simple arrangements, which helped initiate pop-punk's second mainstream rise, made it popular among generations of audiences. The group has sold 50 million albums worldwide and 15.3 million in the U.S.\n\n",
+    "summary": "Blink-182 is an American rock band formed in Poway, California, in 1992. Its current and most widely recognized line-up consists of bassist and vocalist Mark Hoppus, guitarist and vocalist Tom DeLonge, and drummer Travis Barker. Though its sound has diversified throughout their career, its musical style, described as pop-punk, blends catchy pop melodies with fast-paced punk rock. Its lyrics primarily focus on relationships, adolescent frustration, and maturity—or lack thereof. The group emerged from a suburban, Southern California skate punk scene and first gained notoriety for high-energy live shows and irreverent humor.\nThe band's debut, Cheshire Cat, and second studio album Dude Ranch, were released in 1995 and 1997 respectively, through independent imprint Grilled Cheese, a subdivision of Cargo Records. These releases helped the band gain moderate success around the local San Diego punk scene and abroad (namely Australia), which brought attention from major labels amid the punk roc...",
+    "url": "https://en.wikipedia.org/wiki/Blink-182",
+    "title": "Blink-182",
+    "word_count": 355,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Blink-182_2011-12-11_04.jpg/330px-Blink-182_2011-12-11_04.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "0743b15a-3c32-48c8-ad58-cb325350befa",
+      "name": "blink‐182",
+      "disambiguation": "",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "Poway",
+      "life_span": {
+        "begin": "1992-08-01",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 3,
+      "instruments": 0,
+      "related_urls": 42
+    },
+    "mbid": "0743b15a-3c32-48c8-ad58-cb325350befa"
+  },
+  "created_at": "2025-08-20T07:30:36.307536",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Blink-182 is an American rock band formed in Poway, California, in 1992. Its current and most widely recognized line-up consists of bassist and vocalist Mark Hoppus, guitarist and vocalist Tom DeLonge, and drummer Travis Barker. Though its sound has diversified throughout their career, its musical style, described as pop-punk, blends catchy pop melodies with fast-paced punk rock. Its lyrics primarily focus on relationships, adolescent frustration, and maturity—or lack thereof. The group emerged from a suburban, Southern California skate punk scene and first gained notoriety for high-energy live shows and irreverent humor.\nThe band's debut, Cheshire Cat, and second studio album Dude Ranch, were released in 1995 and 1997 respectively, through independent imprint Grilled Cheese, a subdivision of Cargo Records. These releases helped the band gain moderate success around the local San Diego punk scene and abroad (namely Australia), which brought attention from major labels amid the punk rock resurgence on a mainstream scale post-Dookie. After years of independent recording and touring, including stints on the Warped Tour, the group signed to MCA Records. Its third and fourth albums—Enema of the State (1999) and Take Off Your Pants and Jacket (2001)—had the greatest commercial success while the singles \"All the Small Things\", \"Dammit\", and \"What's My Age Again?\" became hit songs and MTV staples. Later efforts, including an untitled album (2003), Neighborhoods (2011), and an EP Dogs Eating Dogs (2012), marked stylistic shifts. Hoppus is the only member to remain in the band throughout its history. DeLonge left the group twice, a decade apart, before returning again. Founding drummer Scott Raynor recorded and toured with the group before being dismissed in 1998 and replaced by Barker. During DeLonge's absence from 2015 to 2022, the band included Alkaline Trio singer and guitarist Matt Skiba, with whom it recorded two albums, California (2016), and Nine (2019), and toured in support of both. Their ninth album, One More Time..., was released on October 20, 2023.\nBlink-182's straightforward approach and simple arrangements, which helped initiate pop-punk's second mainstream rise, made it popular among generations of audiences. The group has sold 50 million albums worldwide and 15.3 million in the U.S.\n\n",
+  "musicbrainz_info": {
+    "mbid": "0743b15a-3c32-48c8-ad58-cb325350befa",
+    "name": "blink‐182",
+    "disambiguation": "",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "Poway",
+    "life_span": {
+      "begin": "1992-08-01",
+      "end": null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "scraper_job_20250919_205731",
+  "start_time": "2025-09-19T20:57:31.743048",
+  "config": {
+    "sources": [
+      "rolling_stone"
+    ],
+    "max_articles_per_source": 2,
+    "dry_run": false,
+    "enable_safety_checks": true,
+    "enable_s3_upload": true,
+    "log_level": "INFO",
+    "max_runtime_minutes": 60,
+    "notification_email": null
+  },
+  "sources_processed": [
+    {
+      "source": "rolling_stone",
+      "discovered": 2,
+      "scraped": 1,
+      "validated": 1,
+      "uploaded": 1,
+      "success_rate": 0.5
+    }
+  ],
+  "total_discovered": 2,
+  "total_scraped": 1,
+  "total_uploaded": 1,
+  "errors": [],
+  "end_time": "2025-09-19T21:00:01.659604",
+  "duration_minutes": 2.4986096,
+  "overall_success_rate": 0.5
+}

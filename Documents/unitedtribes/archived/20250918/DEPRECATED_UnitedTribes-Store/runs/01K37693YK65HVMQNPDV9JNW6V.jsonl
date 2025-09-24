@@ -1,0 +1,1 @@
+{"run_id": "01K37693YK65HVMQNPDV9JNW6V", "source": "guardian", "started_at": "2025-08-21T20:49:13.683573+00:00", "completed_at": "2025-08-21T20:49:16.253981+00:00", "total_urls": 1, "successful_fetches": 1, "failed_fetches": 0, "total_documents": 1, "errors": [], "config": {"query": null, "artist": "Taylor Swift", "limit": 2, "qps": 1.0, "concurrency": 3, "respect_robots": true}}

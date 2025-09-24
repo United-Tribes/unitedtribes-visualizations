@@ -1,0 +1,411 @@
+{
+  "artist_name": "Amy Winehouse",
+  "works": [
+    {
+      "title": "2007-02-08: Paradiso, Amsterdam, Netherlands",
+      "release_date": "2007",
+      "type": "Album",
+      "mbid": "28749cbd-34be-391d-bc8e-ab82971f9a2e"
+    },
+    {
+      "title": "Greatest Hits",
+      "release_date": "2008",
+      "type": "Album",
+      "mbid": "2f834c8d-70ff-4244-acb0-6f08545cd1ec"
+    },
+    {
+      "title": "The Soul of Unplugged and Electrified",
+      "release_date": "2008",
+      "type": "Album",
+      "mbid": "402505a5-e4e3-4790-b881-9f536fb8ed90"
+    },
+    {
+      "title": "The Rarities",
+      "release_date": "2016",
+      "type": "Album",
+      "mbid": "4e44da84-21f2-47ad-a44d-2f7b47a6cb50"
+    },
+    {
+      "title": "Live Eurockéennes De Belfort 2007",
+      "release_date": "2007-06-29",
+      "type": "Album",
+      "mbid": "54301b58-471d-41ca-90c6-d292aa70b708"
+    },
+    {
+      "title": "2007-10-15: Absolutely Live, Tempodrom, Berlin (Radio FM 1 Broadcast)",
+      "release_date": "2008-01-22",
+      "type": "Album",
+      "mbid": "5b4bbd28-8205-38dc-ac85-ec3a4fb81185"
+    },
+    {
+      "title": "The Other Side of Amy Winehouse: B-sides, Remixes & Rarities",
+      "release_date": "2007",
+      "type": "Album",
+      "mbid": "5bd6bcb0-9727-3282-9e68-839d731f2c5a"
+    },
+    {
+      "title": "Remixes",
+      "release_date": "2020",
+      "type": "Album",
+      "mbid": "6030347b-be0f-43b8-b3e1-d16ddaa42ed0"
+    },
+    {
+      "title": "New Collection",
+      "release_date": "2008",
+      "type": "Album",
+      "mbid": "60363837-adbe-445d-8fa3-b9df49364ed8"
+    },
+    {
+      "title": "Amy",
+      "release_date": "2015-10-30",
+      "type": "Album",
+      "mbid": "628ed87c-789d-4839-b92d-df7b1ed8c86d"
+    },
+    {
+      "title": "Back to Black",
+      "release_date": "2006-10-30",
+      "type": "Album",
+      "mbid": "6eac2e57-ee50-36f8-b0c4-c4c847a2c098"
+    },
+    {
+      "title": "Lioness: Hidden Treasures",
+      "release_date": "2011-12-02",
+      "type": "Album",
+      "mbid": "86da8ce7-05ef-4109-8186-c6fa69c57729"
+    },
+    {
+      "title": "The Ska Collection",
+      "release_date": "2014",
+      "type": "Album",
+      "mbid": "912459a6-f92f-4131-aad7-81de7ef3fdec"
+    },
+    {
+      "title": "Frank & Back to Black",
+      "release_date": "2008",
+      "type": "Album",
+      "mbid": "943e83f7-f231-4e4b-995b-488111f1751e"
+    },
+    {
+      "title": "The Album Collection",
+      "release_date": "2012",
+      "type": "Album",
+      "mbid": "9a0ff7de-9b2c-4b83-902d-2293e2bbb504"
+    },
+    {
+      "title": "Frank",
+      "release_date": "2003-10-20",
+      "type": "Album",
+      "mbid": "9a9d41e9-2080-3293-8676-9e26f44a05b1"
+    },
+    {
+      "title": "Frank - Remixes",
+      "release_date": "2007-01-01",
+      "type": "Album",
+      "mbid": "9d945f21-62a1-4356-8fcc-a1cf724031a3"
+    },
+    {
+      "title": "Remixes & B Sides",
+      "release_date": "2007",
+      "type": "Album",
+      "mbid": "a07ac8dd-a0bc-4638-a32f-e0de2c751734"
+    },
+    {
+      "title": "2007-06-26: Hove Festival, Arendal, Norway",
+      "release_date": "2007-06-26",
+      "type": "Album",
+      "mbid": "a2a922cd-b8ea-41ab-88fa-4ed45a41f287"
+    },
+    {
+      "title": "2007-03-08: London, UK",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "b7041eb8-0b5f-44f2-87ee-3bdf986bf80b"
+    },
+    {
+      "title": "Unreleased Rarities",
+      "release_date": "2016-09",
+      "type": "Album",
+      "mbid": "b87e2596-4e3f-4d33-a3b9-4a4e80a1f315"
+    },
+    {
+      "title": "2007-02-19: Astoria, London, UK",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "d95fc636-8af2-4dab-a44b-f585c8248a0e"
+    },
+    {
+      "title": "I Told You I Was Trouble: Amy Winehouse Live in London",
+      "release_date": "2007-11-05",
+      "type": "Album",
+      "mbid": "e486d041-a5c0-3afc-be8d-e506172e4ec3"
+    },
+    {
+      "title": "Amy Winehouse at the BBC",
+      "release_date": "2012-11-16",
+      "type": "Album",
+      "mbid": "ea0ce6b1-9842-4a39-bbcc-d953fad2d2bc"
+    },
+    {
+      "title": "The Collection",
+      "release_date": "2015-12-11",
+      "type": "Album",
+      "mbid": "f5ba8c33-4d26-4ad4-8149-7b7316e8663a"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "Raye Cosbert"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000627026"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1300"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+      },
+      {
+        "type": "biography",
+        "url": "https://www.theaudiodb.com/artist/111638"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/151223"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.sofeminine.co.uk/w/star/f2699/fan-club/Amy-Winehouse.html"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/9052"
+      },
+      {
+        "type": "image",
+        "url": "http://img.metro.co.uk/i/pix/2007/02/winehousePA_450x300.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Amy_Winehouse_Eurockeennes_2007.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1561881/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Amy+Winehouse"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4850/amy-winehouse/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Amy-winehouse"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/amywinehouse"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.amywinehouse.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.universal-music.co.jp/amy-winehouse/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2004056320"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://imvdb.com/n/amy-winehouse"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb146389839"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/134167953"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/amy_winehouse"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.musik-sammler.de/artist/31650"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.worldcat.org/identities/lccn-no2004056320/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/gb/artist/id13125609"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/gb/artist/13125609"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://tower.jp/artist/372165"
+      },
+      {
+        "type": "purevolume",
+        "url": "http://www.purevolume.com/winehouse"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/22392"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/amy-winehouse-bd6bd8e.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/+amywinehouse"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/amywinehouse"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/amywinehouse"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/amywinehouse/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@amywinehouse"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/134511"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/amy-winehouse"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.co.uk/artists/B001E2UWTC"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/13125609"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/15796"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/40585299"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q15897"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/AmyWinehouseVEVO"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/AmyWinehouseVideo"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCMRsEwcN5cXdvqNP-UBup_A"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Amy_Winehouse",
+    "musicbrainz": "https://musicbrainz.org/artist/dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Amy Jade Winehouse (14 September 1983 – 23 July 2011) was an English singer, songwriter, musician, and businesswoman. She was known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. A cultural icon of the 21st century, Winehouse sold over 30 million records sold worldwide and won six Grammy Awards among other accolades. \nWinehouse was a member of the National Youth Jazz Orchestra in her youth, signing to Simon Fuller's 19 Management in 2002 and soon recording a number of songs before signing a publishing deal with EMI. She also formed a working relationship with producer Salaam Remi through these record publishers. Winehouse's debut album, Frank, was released in 2003. Many of the album's songs were influenced by jazz and, apart from two covers, were co-written by Winehouse. Frank was a critical and commercial success in the UK, and beyond, and was nominated for the UK's Mercury Prize. The song \"Stronger Than Me\" won her the Ivor Novello Award for Best Contemporary Song from the British Academy of Songwriters, Composers and Authors.\nWinehouse released her follow-up album, Back to Black...",
+    "summary": "Amy Jade Winehouse (14 September 1983 – 23 July 2011) was an English singer, songwriter, musician, and businesswoman. She was known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. A cultural icon of the 21st century, Winehouse sold over 30 million records sold worldwide and won six Grammy Awards among other accolades. \nWinehouse was a member of the National Youth Jazz Orchestra in her youth, signing to Simon Fuller's 19 Management in 2002 and soon recording a number of songs before signing a publishing deal with EMI. She also formed a working relationship with producer Salaam Remi through these record publishers. Winehouse's debut album, Frank, was released in 2003. Many of the album's songs were influenced by jazz and, apart from two covers, were co-written by Winehouse. Frank was a critical and commercial success in the UK, and beyond, and was nominated for the UK's Mercury Prize...",
+    "url": "https://en.wikipedia.org/wiki/Amy_Winehouse",
+    "title": "Amy Winehouse",
+    "word_count": 193,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Amy_Winehouse_f4962007_crop.jpg/330px-Amy_Winehouse_f4962007_crop.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+      "name": "Amy Winehouse",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "GB",
+      "begin_area": "Southgate",
+      "life_span": {
+        "begin": "1983-09-14",
+        "end": "2011-07-23"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 1,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 45
+    },
+    "mbid": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3"
+  },
+  "created_at": "2025-08-20T08:16:16.677098",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Amy Jade Winehouse (14 September 1983 – 23 July 2011) was an English singer, songwriter, musician, and businesswoman. She was known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. A cultural icon of the 21st century, Winehouse sold over 30 million records sold worldwide and won six Grammy Awards among other accolades. \nWinehouse was a member of the National Youth Jazz Orchestra in her youth, signing to Simon Fuller's 19 Management in 2002 and soon recording a number of songs before signing a publishing deal with EMI. She also formed a working relationship with producer Salaam Remi through these record publishers. Winehouse's debut album, Frank, was released in 2003. Many of the album's songs were influenced by jazz and, apart from two covers, were co-written by Winehouse. Frank was a critical and commercial success in the UK, and beyond, and was nominated for the UK's Mercury Prize. The song \"Stronger Than Me\" won her the Ivor Novello Award for Best Contemporary Song from the British Academy of Songwriters, Composers and Authors.\nWinehouse released her follow-up album, Back to Black...",
+  "musicbrainz_info": {
+    "mbid": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+    "name": "Amy Winehouse",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "GB",
+    "begin_area": "Southgate",
+    "life_span": {
+      "begin": "1983-09-14",
+      "end": "2011-07-23"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "artist_name": "One Direction",
+  "works": [
+    {
+      "title": "Take Me Home",
+      "release_date": "2012-11-09",
+      "type": "Album",
+      "mbid": "1174aa3d-1c9e-4745-be8d-e21a61b1a22d"
+    },
+    {
+      "title": "Four",
+      "release_date": "2014-11-17",
+      "type": "Album",
+      "mbid": "1a59a87b-24b1-41fa-8d84-ee7ebcb6f0af"
+    },
+    {
+      "title": "Reaching for the Stars, Part 2: The Next Chapter",
+      "release_date": "2013",
+      "type": "Album",
+      "mbid": "5860b865-4366-46b4-b47d-21a3a6f89c36"
+    },
+    {
+      "title": "Midnight Memories",
+      "release_date": "2013-11-25",
+      "type": "Album",
+      "mbid": "81f9c781-683e-4a4e-ba86-799e3c4c4be9"
+    },
+    {
+      "title": "Made in the A.M.",
+      "release_date": "2015-11-13",
+      "type": "Album",
+      "mbid": "8dcbc499-2325-47bf-9e92-30bc5b0603e2"
+    },
+    {
+      "title": "Going Our Way",
+      "release_date": "2013",
+      "type": "Album",
+      "mbid": "a4a6062e-088e-4ed8-8e8a-36d522c06b7a"
+    },
+    {
+      "title": "Up All Night: The Live Tour",
+      "release_date": "2012-05-28",
+      "type": "Album",
+      "mbid": "c384dbd8-2d58-425b-908a-33c23c568252"
+    },
+    {
+      "title": "Where We Are: Live from San Siro Stadium",
+      "release_date": "2014",
+      "type": "Album",
+      "mbid": "d0b373f8-5869-4559-85d5-7cee11210f07"
+    },
+    {
+      "title": "Up All Night",
+      "release_date": "2011-11-18",
+      "type": "Album",
+      "mbid": "efba7763-a237-4bba-85e7-ba94f59f8c2c"
+    },
+    {
+      "title": "All for One: An Unauthorised Biography",
+      "release_date": "2012",
+      "type": "Album",
+      "mbid": "fa8eed54-05d5-4387-8ef2-856184561e8e"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Syco Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0002766592"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1089381"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/1a425bbd-cca4-4b2c-aeb7-71cb176c828a"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/2432320"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.onedirection.net/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1007876"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:One_Direction_2013.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm4108424/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/One+Direction"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-10951/one-direction/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/One-direction"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/One-Direction"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/onedirection"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.onedirectionmusic.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2011153486"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb16599012w"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/1021845329"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/one-direction"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/e7c54d64-778b-49da-8ecc-2aa2e22e6681"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1504661"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/one_direction"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/21974"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/313585/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000386325/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/One-Direction/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no2011153486"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/gb/artist/id396754057"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/126546/all"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/gb/artist/396754057"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/gb-en/interpreter/one-direction/675079"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700609238"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/67602"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/onedirection"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/121930497861753"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/onedirection/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/3732956"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/onedirectionmusic"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B004MAMGYC"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/396754057"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/4092933"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/one-direction/675079"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/250413045"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q146027"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCb2HGwORFBo94DmRx4oLzow"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCbW18JZRgko_mOGm5er8Yzg"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCREhun2tPd7aQnJczZM_Mww"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/One_Direction",
+    "musicbrainz": "https://musicbrainz.org/artist/1a425bbd-cca4-4b2c-aeb7-71cb176c828a"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "One Direction, often shortened to 1D, were an English–Irish pop boy band formed in London in 2010. The group consisted of Niall Horan, Liam Payne, Harry Styles, Louis Tomlinson and Zayn Malik (until his departure in 2015). The group sold over 70 million records worldwide, making them one of the best-selling boy bands of all time, before going on an indefinite hiatus in 2016.\nFormed on British singing competition The X Factor in 2010, the group were propelled to global success by social media. One Direction's debut single \"What Makes You Beautiful\" was a commercial and international success, reaching number one on the UK singles chart and being performed by the band at the 2012 Summer Olympics closing ceremony. They became the first British act to have their debut album top the charts on the Billboard 200 with Up All Night (2011), and subsequently became the first band to have their first four albums debut at number one following the releases of Take Me Home (2012), Midnight Memories (2013), and Four (2014). The band's fifth and final album prior to their hiatus was Made in the A.M. (2015).\nConsidered teen idols, One Direction were often subject to fan hysteria comparable to Beatlemania...",
+    "summary": "One Direction, often shortened to 1D, were an English–Irish pop boy band formed in London in 2010. The group consisted of Niall Horan, Liam Payne, Harry Styles, Louis Tomlinson and Zayn Malik (until his departure in 2015). The group sold over 70 million records worldwide, making them one of the best-selling boy bands of all time, before going on an indefinite hiatus in 2016.\nFormed on British singing competition The X Factor in 2010, the group were propelled to global success by social media. One Direction's debut single \"What Makes You Beautiful\" was a commercial and international success, reaching number one on the UK singles chart and being performed by the band at the 2012 Summer Olympics closing ceremony. They became the first British act to have their debut album top the charts on the Billboard 200 with Up All Night (2011), and subsequently became the first band to have their first four albums debut at number one following the releases of Take Me Home (2012), Midnight Memories (2...",
+    "url": "https://en.wikipedia.org/wiki/One_Direction",
+    "title": "One Direction",
+    "word_count": 202,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/One_Direction_Sydney_4.jpg/330px-One_Direction_Sydney_4.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a",
+      "name": "One Direction",
+      "disambiguation": "English‐Irish pop boy band",
+      "type": "Group",
+      "country": "GB",
+      "begin_area": "Wembley",
+      "life_span": {
+        "begin": "2010-07-23",
+        "end": "2015-12-31"
+      }
+    },
+    "total_works": 10,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 47
+    },
+    "mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a"
+  },
+  "created_at": "2025-08-20T08:38:45.374459",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "One Direction, often shortened to 1D, were an English–Irish pop boy band formed in London in 2010. The group consisted of Niall Horan, Liam Payne, Harry Styles, Louis Tomlinson and Zayn Malik (until his departure in 2015). The group sold over 70 million records worldwide, making them one of the best-selling boy bands of all time, before going on an indefinite hiatus in 2016.\nFormed on British singing competition The X Factor in 2010, the group were propelled to global success by social media. One Direction's debut single \"What Makes You Beautiful\" was a commercial and international success, reaching number one on the UK singles chart and being performed by the band at the 2012 Summer Olympics closing ceremony. They became the first British act to have their debut album top the charts on the Billboard 200 with Up All Night (2011), and subsequently became the first band to have their first four albums debut at number one following the releases of Take Me Home (2012), Midnight Memories (2013), and Four (2014). The band's fifth and final album prior to their hiatus was Made in the A.M. (2015).\nConsidered teen idols, One Direction were often subject to fan hysteria comparable to Beatlemania...",
+  "musicbrainz_info": {
+    "mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a",
+    "name": "One Direction",
+    "disambiguation": "English‐Irish pop boy band",
+    "type": "Group",
+    "country": "GB",
+    "begin_area": "Wembley",
+    "life_span": {
+      "begin": "2010-07-23",
+      "end": "2015-12-31"
+    }
+  }
+}

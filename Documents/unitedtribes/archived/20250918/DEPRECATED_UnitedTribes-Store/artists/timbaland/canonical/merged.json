@@ -1,0 +1,514 @@
+{
+  "artist_name": "Timbaland",
+  "works": [
+    {
+      "title": "It's Your Night",
+      "release_date": "2019-07-22",
+      "type": "Album",
+      "mbid": "06e01baf-607b-407f-89a6-9e095627bcf5"
+    },
+    {
+      "title": "New South: The Album B4 the Album",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "122a85c0-f155-3211-9e0b-dc2eac88e186"
+    },
+    {
+      "title": "Can We Do It Again",
+      "release_date": "2018-11-27",
+      "type": "Album",
+      "mbid": "23fb4b49-cf50-43e0-975f-efc3f4bb1213"
+    },
+    {
+      "title": "TIMBO PROGRESSION",
+      "release_date": "2025-03-28",
+      "type": "Album",
+      "mbid": "2510a0fd-39a0-4edc-8223-8bc48b638ad3"
+    },
+    {
+      "title": "People Like Myself",
+      "release_date": "2018-07-18",
+      "type": "Album",
+      "mbid": "26ba56af-821d-44f6-8f64-a3556b6bea49"
+    },
+    {
+      "title": "King Stays King",
+      "release_date": "2015-12-25",
+      "type": "Album",
+      "mbid": "2bf33975-e39a-47a1-9b2a-022742b090cd"
+    },
+    {
+      "title": "Shock Value",
+      "release_date": "2007-04-02",
+      "type": "Album",
+      "mbid": "54b13731-592c-340e-b7dc-339691ba54ab"
+    },
+    {
+      "title": "Timbaland Thursdays",
+      "release_date": "2011",
+      "type": "Album",
+      "mbid": "8478e635-c03b-46b4-be32-0085d9e2101c"
+    },
+    {
+      "title": "Shock Value II",
+      "release_date": "2009-01-01",
+      "type": "Album",
+      "mbid": "8a4f1172-4e83-489b-94d8-48cbd45b9717"
+    },
+    {
+      "title": "Tim's Bio: From the Motion Picture: Life From da Bassment",
+      "release_date": "1998-11-24",
+      "type": "Album",
+      "mbid": "8b4d0323-3cc6-3c48-9d25-fae9d3b19eb2"
+    },
+    {
+      "title": "Greatest Remixes, Volume 1",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "a114b314-e0f4-38f7-9d4b-68f403a5d2b8"
+    },
+    {
+      "title": "Timbaland: Greatest Beats, Vol. 1",
+      "release_date": "2014-04-09",
+      "type": "Album",
+      "mbid": "b29fe6fe-0432-43d1-baee-19a05873cbfc"
+    },
+    {
+      "title": "Drop",
+      "release_date": "2018-08-13",
+      "type": "Album",
+      "mbid": "b9ddd4d1-43e3-4ee1-b9fd-f01343f55d8c"
+    },
+    {
+      "title": "Remix & Soundtrack Collection",
+      "release_date": "2007",
+      "type": "Album",
+      "mbid": "ed8f2fcc-21f2-480d-8b7f-91f46aeb741f"
+    },
+    {
+      "title": "Timbaland: Greatest Beats, Vol. 2",
+      "release_date": "2014-04-09",
+      "type": "Album",
+      "mbid": "f38588da-5765-4391-983f-762e9f93501e"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Mosely",
+      "Beatclub Records",
+      "Timbaland Productions",
+      "Timbaland Music Inc.",
+      "Blackground Records, LLC",
+      "Mosley Music Group LLC"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000602378"
+      },
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0001088943"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1238"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/35125"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/610304"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/5Y5TRrQiqgUO4S36tzjIRZ"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/9662"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0608856/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Timbaland"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-4830/timbaland/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Timbaland"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/timbaland"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://timbaland.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.timbalandmusic.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no98070298"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb14031721g"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/135107008"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/timbaland"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/authors/OL6928298A/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/authors/OL7674778A/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL7605315A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/timbaland"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/timbaland/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000073063/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Timbaland/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no98070298"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.maniadb.com/artist/131998"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id3342627"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/9394"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/timbaland-bd6bdb6.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/115115002231020182671"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/Timbaland"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/Timbaland"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/timbaland/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.reverbnation.com/timbaland"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@timbaland"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/213449"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/timbaland"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B001Q55NPA"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/3342627"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/15708"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/timbaland"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/795318"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/78396403"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q179257"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/TimbalandVEVO"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCStR3TnjvL7CL8ZNFPKmRXw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Timbaland",
+    "musicbrainz": "https://musicbrainz.org/artist/daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Timothy Zachery Mosley (born March 10, 1972), known professionally as Timbaland, is an American songwriter and record producer. Born and raised in Norfolk, Virginia, he is widely acclaimed for his distinctive production work and \"stuttering\" rhythmic style. In 2007, Entertainment Weekly stated that \"just about every current pop trend can be traced back to him—from sultry, urban-edged R&B songstresses [...] to the art of incorporating avant-garde sounds into No. 1 hits.\" He has won four Grammy Awards from 22 nominations.\nTimbaland's first major production credit was on the album Ginuwine... the Bachelor (1996) by R&B singer Ginuwine. Further commercial success on his following productions—including Aaliyah's album One in a Million (1996) and Missy Elliott's album Supa Dupa Fly (1997)—made him a sought-after producer for R&B and hip-hop acts. He performed as a recording artist himself while doing so, releasing three albums as part of the Virginia-based hip-hop duo Timbaland & Magoo, along with his debut solo album, Tim's Bio (1998). He produced Justin Timberlake's 2002 single \"Cry Me a River\", and thereafter produced the majority of Timberlake's subsequent releases—including FutureSex/LoveSounds...",
+    "summary": "Timothy Zachery Mosley (born March 10, 1972), known professionally as Timbaland, is an American songwriter and record producer. Born and raised in Norfolk, Virginia, he is widely acclaimed for his distinctive production work and \"stuttering\" rhythmic style. In 2007, Entertainment Weekly stated that \"just about every current pop trend can be traced back to him—from sultry, urban-edged R&B songstresses [...] to the art of incorporating avant-garde sounds into No. 1 hits.\" He has won four Grammy Aw...",
+    "url": "https://en.wikipedia.org/wiki/Timbaland",
+    "title": "Timbaland",
+    "word_count": 180,
+    "categories": [
+      "Category:1972 births",
+      "Category:20th-century American male rappers",
+      "Category:20th-century American rappers",
+      "Category:21st-century American rappers",
+      "Category:African-American Christians",
+      "Category:African-American male rappers",
+      "Category:African-American male singers",
+      "Category:African-American male songwriters",
+      "Category:African-American record producers",
+      "Category:All articles with unsourced statements",
+      "Category:All articles with vague or ambiguous time",
+      "Category:American contemporary R&B singers",
+      "Category:American hip-hop record producers",
+      "Category:American hip-hop singers",
+      "Category:American male pop singers",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from July 2014",
+      "Category:Articles with unsourced statements from June 2016",
+      "Category:Atlantic Records artists",
+      "Category:Biography with signature",
+      "Category:CS1: unfit URL",
+      "Category:CS1 Indonesian-language sources (id)",
+      "Category:Commons category link from Wikidata",
+      "Category:Epic Records artists",
+      "Category:Good articles",
+      "Category:Grammy Award winners for dance and electronic music",
+      "Category:Interscope Records artists",
+      "Category:Living people",
+      "Category:Musicians from Norfolk, Virginia",
+      "Category:Musicians from Virginia Beach, Virginia",
+      "Category:Pop rappers",
+      "Category:Rappers from Virginia",
+      "Category:Record producers from Virginia",
+      "Category:Roc Nation artists",
+      "Category:Short description is different from Wikidata",
+      "Category:Singers from Virginia",
+      "Category:Songwriters from Virginia",
+      "Category:Swing Mob artists",
+      "Category:Timbaland",
+      "Category:Use mdy dates from October 2019",
+      "Category:Vague or ambiguous time from July 2014",
+      "Category:Webarchive template wayback links"
+    ],
+    "internal_links": [
+      "(Sittin' On) The Dock of the Bay",
+      "*NSYNC",
+      "1500 or Nothin'",
+      "4 All the Sistas Around da World",
+      "4 Minutes",
+      "50 Cent",
+      "6lack",
+      "9th Inning",
+      "Aaliyah",
+      "Activision Blizzard",
+      "Adorn (song)",
+      "Afrobeats",
+      "Afrodisiac (Brandy album)",
+      "Afrojack",
+      "After the Love Has Gone",
+      "Agnez Mo",
+      "Ain't No Sunshine",
+      "Akon",
+      "Alicia Keys",
+      "Alive (Rüfüs Du Sol song)",
+      "All-points bulletin",
+      "AllMusic",
+      "AllMusic (identifier)",
+      "All for You (Janet Jackson song)",
+      "Amtrak",
+      "Anderson .Paak",
+      "Andre Eric Proctor",
+      "Anita Baker",
+      "Anonymous (Bobby Valentino song)",
+      "Apologize (OneRepublic song)",
+      "Apologize (song)",
+      "Are You That Somebody?",
+      "Ashlee Simpson",
+      "Atlantic Records",
+      "Avant-garde",
+      "Ayo Technology",
+      "B.O.M.B. (album)",
+      "BBC",
+      "Babyface (musician)",
+      "Baha Men",
+      "Bangarang",
+      "Barrett Strong",
+      "Barry Hankerson",
+      "Basler Zeitung",
+      "Be Without You",
+      "Beaterator",
+      "Beck",
+      "Belgrade",
+      "Believe (Cher song)",
+      "Believe (Dima Bilan song)",
+      "Betty Wright",
+      "Beyoncé",
+      "Beyoncé Knowles",
+      "Big Pimpin'",
+      "Big Sean",
+      "Bill Champlin",
+      "Bill Withers",
+      "Billboard (magazine)",
+      "Billboard 200",
+      "Billboard Hot 100",
+      "Billie Jean",
+      "Bittersweet World",
+      "Björk",
+      "Blackballing",
+      "Blackground Records",
+      "Block Party (album)",
+      "Boo'd Up",
+      "Boz Scaggs",
+      "Brandy Norwood",
+      "Break My Soul",
+      "Brian Soko",
+      "Brit Smith",
+      "Britney Spears",
+      "Brody Brown",
+      "Bruno Mars",
+      "Bruno Spoerri",
+      "Bryan-Michael Cox",
+      "Bubba Sparxxx",
+      "Busta Rhymes",
+      "Carry On (Donna Summer song)",
+      "Carry Out",
+      "Carter Lang",
+      "CeeLo Green",
+      "Chad Kroeger",
+      "Charlene (Tweet album)",
+      "Cher",
+      "Ching Ching",
+      "Chris Cornell",
+      "Chris Martin",
+      "Clarity (Zedd song)",
+      "Clean Bandit",
+      "Clipse",
+      "Closer to the Truth",
+      "Coke Bottle (song)",
+      "Coldplay",
+      "Color Him Father",
+      "Come into My World",
+      "Common (rapper)",
+      "Contemporary R&B",
+      "Crazy in Love"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Timbaland_%2847903248821%29_%28cropped%29.jpg/330px-Timbaland_%2847903248821%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+      "name": "Timbaland",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Norfolk",
+      "life_span": {
+        "begin": "1972-03-10",
+        "end": null
+      }
+    },
+    "total_works": 15,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 6,
+      "instruments": 0,
+      "related_urls": 48
+    },
+    "mbid": "daa09819-5da5-4c7a-8bef-eb372bb27ff1"
+  },
+  "created_at": "2025-08-20T08:12:04.994010",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Timothy Zachery Mosley (born March 10, 1972), known professionally as Timbaland, is an American songwriter and record producer. Born and raised in Norfolk, Virginia, he is widely acclaimed for his distinctive production work and \"stuttering\" rhythmic style. In 2007, Entertainment Weekly stated that \"just about every current pop trend can be traced back to him—from sultry, urban-edged R&B songstresses [...] to the art of incorporating avant-garde sounds into No. 1 hits.\" He has won four Grammy Awards from 22 nominations.\nTimbaland's first major production credit was on the album Ginuwine... the Bachelor (1996) by R&B singer Ginuwine. Further commercial success on his following productions—including Aaliyah's album One in a Million (1996) and Missy Elliott's album Supa Dupa Fly (1997)—made him a sought-after producer for R&B and hip-hop acts. He performed as a recording artist himself while doing so, releasing three albums as part of the Virginia-based hip-hop duo Timbaland & Magoo, along with his debut solo album, Tim's Bio (1998). He produced Justin Timberlake's 2002 single \"Cry Me a River\", and thereafter produced the majority of Timberlake's subsequent releases—including FutureSex/LoveSounds...",
+  "musicbrainz_info": {
+    "mbid": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+    "name": "Timbaland",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Norfolk",
+    "life_span": {
+      "begin": "1972-03-10",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:26.491019"
+}

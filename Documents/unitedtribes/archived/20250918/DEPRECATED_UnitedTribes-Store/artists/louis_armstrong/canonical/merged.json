@@ -1,0 +1,526 @@
+{
+  "artist_name": "Louis Armstrong",
+  "works": [
+    {
+      "title": "Hello, Dolly!",
+      "release_date": "1964",
+      "type": "Album",
+      "mbid": "0435d127-cf55-3c6e-b487-e764ebd8cc24"
+    },
+    {
+      "title": "Louis Armstrong Meets Oscar Peterson",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "2cd03f5b-d935-326f-9368-f34583f46570"
+    },
+    {
+      "title": "Louie and the Dukes of Dixieland",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "399a036d-da20-4ab1-b64d-f873569652e5"
+    },
+    {
+      "title": "Louis Armstrong Plays W.C. Handy",
+      "release_date": "1954",
+      "type": "Album",
+      "mbid": "3c6e5005-cad2-4444-825f-71e4b8324d51"
+    },
+    {
+      "title": "Paris 1934",
+      "release_date": "1947",
+      "type": "Album",
+      "mbid": "631cf627-391c-474a-af29-bce5f083f623"
+    },
+    {
+      "title": "Satchmo in Style",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "69d2e187-60c8-4a93-bd01-336953004119"
+    },
+    {
+      "title": "Ella and Louis",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "6a8ec885-544e-3b31-859a-a73289a01421"
+    },
+    {
+      "title": "I’ve Got the World on a String",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "6e35f9b7-fdbe-4571-8984-d7ef2d9294bf"
+    },
+    {
+      "title": "Ella and Louis Again",
+      "release_date": "1957-10-11",
+      "type": "Album",
+      "mbid": "7108712f-b350-310b-9419-232dceaaba00"
+    },
+    {
+      "title": "Disney Songs the Satchmo Way",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "71b61f0f-2875-3771-a759-ca9112a21c88"
+    },
+    {
+      "title": "Louis Armstrong and His Friends",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "769e79f6-c24f-43b8-bc92-e207802eeae5"
+    },
+    {
+      "title": "Satchmo Sings Evergreens",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "92c0fafa-45e8-458e-9564-1102628cd493"
+    },
+    {
+      "title": "Porgy & Bess",
+      "release_date": "1957-08",
+      "type": "Album",
+      "mbid": "95a6a9de-094e-3234-bca2-b7a6918b1d95"
+    },
+    {
+      "title": "Recording Together for the First Time",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "a2a439e6-35b8-4be8-ac40-e7794e402091"
+    },
+    {
+      "title": "Louis and Earl",
+      "release_date": "1941",
+      "type": "Album",
+      "mbid": "ad407935-f42b-419b-b4e2-6f63dfb7cfdf"
+    },
+    {
+      "title": "The Great Reunion",
+      "release_date": "1963",
+      "type": "Album",
+      "mbid": "adfee37a-06ca-342d-b6b9-60eb2b02ceab"
+    },
+    {
+      "title": "Ella and Louis Again, Volume Two",
+      "release_date": "1957-10-11",
+      "type": "Album",
+      "mbid": "af90681f-036f-48f7-be9b-156de7e4a61f"
+    },
+    {
+      "title": "Louis Under the Stars",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "ba1287c4-205d-4f02-ad7b-337676beb013"
+    },
+    {
+      "title": "Louis and the Good Book",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "c2638429-cadb-388d-9003-8aa22f7f7d86"
+    },
+    {
+      "title": "Louis and the Angels",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "c4071ae1-e82b-4cb1-b4a8-f7bf5d39e6be"
+    },
+    {
+      "title": "A Day With Satchmo",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "dbe4e427-b026-4141-b1fb-bd67f66fb723"
+    },
+    {
+      "title": "Bing & Satchmo",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "de4dfc70-cf26-37dc-a6d0-5ab56e7fa338"
+    },
+    {
+      "title": "Satch Plays Fats: A Tribute to the Immortal Fats Waller",
+      "release_date": "1955",
+      "type": "Album",
+      "mbid": "e67a8008-e2a1-3df0-95d5-81c30c319175"
+    },
+    {
+      "title": "Louis ‘Country & Western’ Armstrong",
+      "release_date": "1970",
+      "type": "Album",
+      "mbid": "e93e8424-4144-4a77-ac60-7c9a1671a1e6"
+    },
+    {
+      "title": "What a Wonderful World",
+      "release_date": "1968",
+      "type": "Album",
+      "mbid": "ead21b33-dc38-32da-95ba-99dc5247189a"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000234518"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/eea8a864-fcda-4602-9569-38ab446decd6"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.redhotjazz.com/louie.html"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://michaelminn.net/discographies/armstrong/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/38201"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/19eLuQmk9aCobbVDHc6eek"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/2337"
+      },
+      {
+        "type": "free_streaming",
+        "url": "http://www.pandora.com/louis-armstrong"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_restored.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0001918/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Louis+Armstrong"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Louis-armstrong"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50001506"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/A/Armstrong,_Louis/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://adp.library.ucsb.edu/names/101863"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13890884w"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118504053"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=70755"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6xs5vvk"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1307946"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL4374239A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/louis_armstrong"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Louis-Armstrong/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50001506"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.musik-sammler.de/artist/3740"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/518462"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.amazon.com/-/e/B000APTKDS"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/2823"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/louis-armstrong-bd6b5d6.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/louisarmstrong"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/239754"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/518462"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/518462"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/1072"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/195226"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1779"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+    "musicbrainz": "https://musicbrainz.org/artist/eea8a864-fcda-4602-9569-38ab446decd6"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972. His influence crossed musical genres, with inductions into the DownBeat Jazz Hall of Fame, the Rock and Roll Hall of Fame, and the National Rhythm & Blues Hall of Fame, among others.\nArmstrong was born and raised in New Orleans. Coming to prominence in the 1920s as an inventive trumpet and cornet player, he was a foundational influence in jazz, shifting the focus of the music from collective improvisation to solo performance. Around 1922, Armstrong followed his mentor, Joe \"King\" Oliver, to Chicago to play in Oliver's Creole Jazz Band. Armstrong earned a reputation at \"cutting contests\", and his fame reached band leader Fletcher Henderson. Armstrong moved to New York City, where he became a featured and musically influential band...",
+    "summary": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972. His influence crossed musical genre...",
+    "url": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+    "title": "Louis Armstrong",
+    "word_count": 195,
+    "categories": [
+      "Category:1901 births",
+      "Category:1971 deaths",
+      "Category:20th-century African-American male actors",
+      "Category:20th-century African-American male singers",
+      "Category:20th-century American jazz composers",
+      "Category:20th-century American male actors",
+      "Category:20th-century American male singers",
+      "Category:20th-century American trumpeters",
+      "Category:ABC Records artists",
+      "Category:African-American history in New Orleans",
+      "Category:African-American jazz composers",
+      "Category:African-American jazz musicians",
+      "Category:African-American male songwriters",
+      "Category:African American adoptees",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles with dead external links",
+      "Category:American adoptees",
+      "Category:American baritones",
+      "Category:American big band bandleaders",
+      "Category:American comedy musicians",
+      "Category:American jazz bandleaders",
+      "Category:American jazz cornetists",
+      "Category:American jazz singers",
+      "Category:American jazz trumpeters",
+      "Category:American male film actors",
+      "Category:American male jazz composers",
+      "Category:American male trumpeters",
+      "Category:American radio hosts",
+      "Category:American street performers",
+      "Category:Articles with dead external links from August 2023",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with hCards",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:Audio Fidelity Records artists",
+      "Category:Biography with signature",
+      "Category:Black & Blue Records artists",
+      "Category:Burials at Flushing Cemetery",
+      "Category:Columbia Records artists",
+      "Category:Commons category link from Wikidata",
+      "Category:Culture of New Orleans",
+      "Category:Decca Records artists",
+      "Category:Dixieland bandleaders",
+      "Category:Dixieland singers",
+      "Category:Dixieland trumpeters",
+      "Category:DownBeat Jazz Hall of Fame members",
+      "Category:Gennett Records artists",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:Jazz musicians from New Orleans",
+      "Category:Jazz musicians from New York (state)"
+    ],
+    "internal_links": [
+      "(Up A) Lazy River",
+      "1949 in radio",
+      "52nd Street (album)",
+      "9179 Satchmo",
+      "AFI's 100 Years...100 Stars",
+      "A Kiss to Build a Dream On",
+      "A Man Called Adam (film)",
+      "A Rhapsody in Black and Blue",
+      "A Wonderful World (musical)",
+      "Adelaide Hall",
+      "Against All Odds (Take a Look at Me Now)",
+      "Ahmad Jamal",
+      "Ain't Misbehavin' (song)",
+      "Al Capone",
+      "Al Green",
+      "Al Hibbler",
+      "Al Jarreau",
+      "Alan King",
+      "Alassio",
+      "Alberta Hunter",
+      "Alexander's Ragtime Band",
+      "AllMusic",
+      "All of Me (Ruth Etting song)",
+      "All of Me (jazz standard)",
+      "American Antiquarian Society",
+      "American Film Institute",
+      "American civil rights movement",
+      "Andrew Delaplaine",
+      "André Previn",
+      "Andrés Segovia",
+      "Andy Razaf",
+      "Ann Druyan",
+      "Ann Wilson",
+      "Anthony Holborne",
+      "Antônio Carlos Jobim",
+      "Appoggiatura",
+      "April in Paris (song)",
+      "Aretha Franklin",
+      "Armando Manzanero",
+      "Armstrong Secret 9",
+      "Arrangement",
+      "Art Blakey",
+      "Art Garfunkel",
+      "Art Tatum",
+      "Arthur Grumiaux",
+      "Arthur Rubinstein",
+      "Artie Shaw",
+      "Arturo Toscanini",
+      "Arvell Shaw",
+      "Aurin Squire",
+      "Autumn in New York (song)",
+      "B. B. King",
+      "Baby, It's Cold Outside",
+      "Back Home Again in Indiana",
+      "Baptist",
+      "Barbra Streisand",
+      "Barney Bigard",
+      "Barrett Deems",
+      "Barry Manilow",
+      "Basin Street Blues",
+      "Bavarian State Opera",
+      "Bee Gees",
+      "Benny Carter",
+      "Benny Goodman",
+      "Bessie Smith",
+      "Bewitched (2005 film)",
+      "Big Butter and Egg Man",
+      "Bill Evans",
+      "Bill Monroe",
+      "Billboard Hot 100",
+      "Billie Holiday",
+      "Billy Berg's",
+      "Billy Eckstine",
+      "Billy Joel",
+      "Billy Kyle",
+      "Bing & Satchmo",
+      "Bing Crosby",
+      "Bix Beiderbecke",
+      "Black Benny",
+      "Black Sabbath",
+      "Black and tan clubs",
+      "Blind Willie Johnson",
+      "Blue Turning Grey Over You",
+      "Blueberry Hill (song)",
+      "Bo Diddley",
+      "Bob Dylan",
+      "Bob Gaudio",
+      "Bob Marley",
+      "Bob Wills",
+      "Bobby Bland",
+      "Bobby Darin",
+      "Bobby Jones (singer)",
+      "Bobby McFerrin",
+      "Body and Soul (1930 song)",
+      "Bonnie Raitt",
+      "Booker T. & the M.G.'s",
+      "Boutte, Louisiana",
+      "Brand New Day (Sting song)",
+      "Brandenburg Concertos",
+      "Breakin' Away (album)"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Louis_Armstrong_in_Color_%28restored%29.jpg/330px-Louis_Armstrong_in_Color_%28restored%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "eea8a864-fcda-4602-9569-38ab446decd6",
+      "name": "Louis Armstrong",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "New Orleans",
+      "life_span": {
+        "begin": "1901-08-04",
+        "end": "1971-07-06"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 36
+    },
+    "mbid": "eea8a864-fcda-4602-9569-38ab446decd6"
+  },
+  "created_at": "2025-08-20T07:49:34.753266",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Louis Daniel Armstrong (August 4, 1901 – July 6, 1971), nicknamed \"Satchmo\", \"Satch\", and \"Pops\", was an American trumpeter and vocalist. He was among the most influential figures in jazz. His career spanned five decades and several eras in the history of jazz. Armstrong received numerous accolades including the Grammy Award for Best Male Vocal Performance for Hello, Dolly! in 1965, as well as a posthumous win for the Grammy Lifetime Achievement Award in 1972. His influence crossed musical genres, with inductions into the DownBeat Jazz Hall of Fame, the Rock and Roll Hall of Fame, and the National Rhythm & Blues Hall of Fame, among others.\nArmstrong was born and raised in New Orleans. Coming to prominence in the 1920s as an inventive trumpet and cornet player, he was a foundational influence in jazz, shifting the focus of the music from collective improvisation to solo performance. Around 1922, Armstrong followed his mentor, Joe \"King\" Oliver, to Chicago to play in Oliver's Creole Jazz Band. Armstrong earned a reputation at \"cutting contests\", and his fame reached band leader Fletcher Henderson. Armstrong moved to New York City, where he became a featured and musically influential band...",
+  "musicbrainz_info": {
+    "mbid": "eea8a864-fcda-4602-9569-38ab446decd6",
+    "name": "Louis Armstrong",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "New Orleans",
+    "life_span": {
+      "begin": "1901-08-04",
+      "end": "1971-07-06"
+    }
+  },
+  "updated_at": "2025-08-20T08:13:38.673765"
+}

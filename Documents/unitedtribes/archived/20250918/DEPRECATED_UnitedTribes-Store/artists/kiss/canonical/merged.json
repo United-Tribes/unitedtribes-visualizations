@@ -1,0 +1,476 @@
+{
+  "artist_name": "KISS",
+  "works": [
+    {
+      "title": "Love Gun",
+      "release_date": "1977-06-17",
+      "type": "Album",
+      "mbid": "08bf1119-22bf-3740-af9c-a6215437414b"
+    },
+    {
+      "title": "The Best of Solo-Albums",
+      "release_date": "1978",
+      "type": "Album",
+      "mbid": "0d4d4d50-52fb-4a8c-97c9-d2eb6b33c6a2"
+    },
+    {
+      "title": "Solos",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "114f8f74-011d-434a-82cf-e2470f368d86"
+    },
+    {
+      "title": "Dressed to Kill",
+      "release_date": "1975-03-19",
+      "type": "Album",
+      "mbid": "17ca8b4b-c72b-352a-8258-1d6670312fdb"
+    },
+    {
+      "title": "Psycho Circus",
+      "release_date": "1998-09-20",
+      "type": "Album",
+      "mbid": "24398015-83f2-351f-90d9-c63dd5f12903"
+    },
+    {
+      "title": "Monster",
+      "release_date": "2012-10-05",
+      "type": "Album",
+      "mbid": "28c5684e-59e1-400c-81fb-1ceb3d0fdd18"
+    },
+    {
+      "title": "Crazy Nights",
+      "release_date": "1987-09-15",
+      "type": "Album",
+      "mbid": "38fccb34-80b0-338b-8659-f6602ad99e57"
+    },
+    {
+      "title": "Dynasty",
+      "release_date": "1979-05-23",
+      "type": "Album",
+      "mbid": "46f879d8-d3a6-375b-814d-0c548cbedbc0"
+    },
+    {
+      "title": "Hotter Than Hell",
+      "release_date": "1974-10-22",
+      "type": "Album",
+      "mbid": "4b05a315-c78f-3bad-a08b-e713d25a13bc"
+    },
+    {
+      "title": "Destroyer",
+      "release_date": "1976-03-15",
+      "type": "Album",
+      "mbid": "541eb339-d0c6-3740-b665-8ad6c09da331"
+    },
+    {
+      "title": "Creatures of the Night",
+      "release_date": "1982-10-13",
+      "type": "Album",
+      "mbid": "5a1ee51b-223d-4644-a32d-92a758f37e07"
+    },
+    {
+      "title": "The Originals II",
+      "release_date": "1978-03-25",
+      "type": "Album",
+      "mbid": "6441aa80-1172-4c4e-bdb9-c331b875c369"
+    },
+    {
+      "title": "Lick It Up",
+      "release_date": "1983-09-18",
+      "type": "Album",
+      "mbid": "76c0b42e-6d05-3119-bef5-5fcc9182b07f"
+    },
+    {
+      "title": "Music From “The Elder”",
+      "release_date": "1981-11-10",
+      "type": "Album",
+      "mbid": "8ee07b4e-25bb-36cc-9cc5-7330b7776f71"
+    },
+    {
+      "title": "Carnival of Souls: The Final Sessions",
+      "release_date": "1997-10-25",
+      "type": "Album",
+      "mbid": "961003de-e4ac-3e3d-85c7-ca33217b1758"
+    },
+    {
+      "title": "KISS",
+      "release_date": "1974-02-08",
+      "type": "Album",
+      "mbid": "a997e8ed-6e37-315b-bfdf-cd31f14e3fcc"
+    },
+    {
+      "title": "Sonic Boom",
+      "release_date": "2009-09-09",
+      "type": "Album",
+      "mbid": "b33dea66-4d7f-4cdc-9fa4-be4e113853f0"
+    },
+    {
+      "title": "Animalize",
+      "release_date": "1984-09-13",
+      "type": "Album",
+      "mbid": "cc94de97-a20d-3aff-9fb5-10a1d0cab5a7"
+    },
+    {
+      "title": "The Originals",
+      "release_date": "1976-07-21",
+      "type": "Album",
+      "mbid": "e85a5daa-68d1-4786-bf59-77a5a3bac982"
+    },
+    {
+      "title": "Revenge",
+      "release_date": "1992-05-14",
+      "type": "Album",
+      "mbid": "ef0484e3-eb90-3806-bfce-fea9cd68d058"
+    },
+    {
+      "title": "Double Platinum",
+      "release_date": "1978-04-02",
+      "type": "Album",
+      "mbid": "f094e33a-da8a-3ef8-9313-41ab292897c6"
+    },
+    {
+      "title": "Rock and Roll Over",
+      "release_date": "1976-11-01",
+      "type": "Album",
+      "mbid": "f519711d-54f8-307a-bad4-6e619d8214d1"
+    },
+    {
+      "title": "Asylum",
+      "release_date": "1985-09-16",
+      "type": "Album",
+      "mbid": "f55bc564-3174-3967-956c-f35ce9ca353a"
+    },
+    {
+      "title": "Unmasked",
+      "release_date": "1980-05-20",
+      "type": "Album",
+      "mbid": "fa8dde87-048e-3d7c-a630-3428e1f7dc13"
+    },
+    {
+      "title": "Hot in the Shade",
+      "release_date": "1989-10-17",
+      "type": "Album",
+      "mbid": "fd26bc55-ab84-3820-8d5e-9bc6a77e5cac"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "KISS",
+      "KISS Records",
+      "KISS Organization, Ltd.",
+      "Casablanca Records",
+      "KISS Music Co.",
+      "KISS Songs Inc."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000084209"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/50049"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/e1f1e33e-2e4c-4d43-b91b-7064068d3283"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.its-official.com/kiss.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/153073"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://music.migu.cn/v3/music/artist/395"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/07XSN3sPlIlB2L2XNcTwJw"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/67"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Kiss_Love_Gun_era.png"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1653348/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Kiss"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-5281/kiss/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Kiss"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/%E3%82%AD%E3%83%BC%E3%83%A4%E3%82%AD%E3%83%83%E3%82%B9"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/kiss"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.kissonline.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://mvdbase.com/person.php?id=A5200"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/6059853-0"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/kiss"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-980863"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/kiss"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://worldcat.org/identities/np-kiss/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/kiss"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45worlds.com/live/artist/kiss"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45worlds.com/vinyl/artist/kiss"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/3967"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/kiss/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000069829/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Kiss/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.spirit-of-metal.com/groupe-groupe-Kiss-l-en.html"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.spirit-of-rock.com/groupe-groupe-Kiss-l-en.html"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id118108"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Adtzjfq4zpkvchcuv4mkpfx7pha"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/21916/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/de/artist/118108"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/118108"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/kiss"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.hdtracks.com/music/artist/view/id/4634/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/gb-en/interpreter/kiss/download-streaming-albums"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700164504"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.yesasia.com/0-aid1248065-0-bpt.47-en/list.html"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1533"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/kiss-6bd69ec6.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/kiss"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/KISS"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/kissonline/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/337267"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/kiss-official"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B001E30DWC"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/de/artist/118108"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/118108"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/118108"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/27478"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/kiss"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/146095513"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q124179"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCL0dlEc0rXV1CIawUKeme4g"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCyOw2FDjfQOFQH7paKxNVvA"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCY_ZXmsISy8JUBHPorQ9j6g"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCL0dlEc0rXV1CIawUKeme4g"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kiss",
+    "musicbrainz": "https://musicbrainz.org/artist/e1f1e33e-2e4c-4d43-b91b-7064068d3283"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "A kiss is the touching or pressing of one's lips against another person, animal or object. Cultural connotations of kissing vary widely; depending on the culture and context, a kiss can express sentiments of love, passion, romance, sexual attraction, sexual activity, sexual intercourse, sexual arousal, affection, respect, greeting, peace, or good luck, among many others. In some situations, a kiss is a ritual, formal or symbolic gesture indicating devotion, respect, or a sacramental.\nThe word comes from Old English cyssan ('to kiss'), in turn from coss ('a kiss').",
+    "summary": "A kiss is the touching or pressing of one's lips against another person, animal or object. Cultural connotations of kissing vary widely; depending on the culture and context, a kiss can express sentiments of love, passion, romance, sexual attraction, sexual activity, sexual intercourse, sexual arousal, affection, respect, greeting, peace, or good luck, among many others. In some situations, a kiss is a ritual, formal or symbolic gesture indicating devotion, respect, or a sacramental.\nThe word comes from Old English cyssan ('to kiss'), in turn from coss ('a kiss')....",
+    "url": "https://en.wikipedia.org/wiki/Kiss",
+    "title": "Kiss",
+    "word_count": 88,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cassatt_Mary_Maternal_Kiss_1896.jpg/330px-Cassatt_Mary_Maternal_Kiss_1896.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+      "name": "KISS",
+      "disambiguation": "US rock band",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "Queens",
+      "life_span": {
+        "begin": "1973-01",
+        "end": "2023-12-02"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 6,
+      "instruments": 0,
+      "related_urls": 60
+    },
+    "mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283"
+  },
+  "created_at": "2025-08-20T08:45:20.842729",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "A kiss is the touching or pressing of one's lips against another person, animal or object. Cultural connotations of kissing vary widely; depending on the culture and context, a kiss can express sentiments of love, passion, romance, sexual attraction, sexual activity, sexual intercourse, sexual arousal, affection, respect, greeting, peace, or good luck, among many others. In some situations, a kiss is a ritual, formal or symbolic gesture indicating devotion, respect, or a sacramental.\nThe word comes from Old English cyssan ('to kiss'), in turn from coss ('a kiss').",
+  "musicbrainz_info": {
+    "mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+    "name": "KISS",
+    "disambiguation": "US rock band",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "Queens",
+    "life_span": {
+      "begin": "1973-01",
+      "end": "2023-12-02"
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "generated": "2025-09-22T15:45:38.779Z",
+    "version": "optimized-browser-v1",
+    "total_artists": 10,
+    "optimization": "top_connected_artists",
+    "estimated_relationships": 500,
+    "source": "production-api-optimized"
+  },
+  "artists": [
+    {
+      "entity": "The Beatles",
+      "connection_strength": 336,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Questlove",
+      "connection_strength": 220,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Bob Dylan",
+      "connection_strength": 200,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Taylor Swift",
+      "connection_strength": 116,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "David Bowie",
+      "connection_strength": 103,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "John Lennon",
+      "connection_strength": 82,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Paul McCartney",
+      "connection_strength": 81,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Amy Winehouse",
+      "connection_strength": 79,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Radiohead",
+      "connection_strength": 73,
+      "reason": "Frequently connected in your domain of interest"
+    },
+    {
+      "entity": "Beyoncé",
+      "connection_strength": 73,
+      "reason": "Frequently connected in your domain of interest"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "The Beatles",
+      "target": "Amy Winehouse",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "pop",
+      "era": "1960s-classic"
+    },
+    {
+      "source": "The Beatles",
+      "target": "Radiohead",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1960s-1990s"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "The Beatles",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1960s"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "David Bowie",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1960s"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "John Lennon",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1960s"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Paul McCartney",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1960s-classic"
+    },
+    {
+      "source": "Bob Dylan",
+      "target": "Beyoncé",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "pop",
+      "era": "1960s-2000s+"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Radiohead",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "pop",
+      "target_type": "rock",
+      "era": "2000s+-1990s"
+    },
+    {
+      "source": "Taylor Swift",
+      "target": "Beyoncé",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "pop",
+      "target_type": "pop",
+      "era": "2000s+"
+    },
+    {
+      "source": "David Bowie",
+      "target": "Questlove",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "hip_hop",
+      "era": "1970s-2000s+"
+    },
+    {
+      "source": "David Bowie",
+      "target": "Taylor Swift",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "pop",
+      "era": "1970s-2000s+"
+    },
+    {
+      "source": "David Bowie",
+      "target": "Paul McCartney",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1970s"
+    },
+    {
+      "source": "David Bowie",
+      "target": "Radiohead",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1970s"
+    },
+    {
+      "source": "John Lennon",
+      "target": "Radiohead",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "classic"
+    },
+    {
+      "source": "Paul McCartney",
+      "target": "The Beatles",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "classic"
+    },
+    {
+      "source": "Paul McCartney",
+      "target": "Taylor Swift",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "pop",
+      "era": "classic-2000s+"
+    },
+    {
+      "source": "Paul McCartney",
+      "target": "David Bowie",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "classic"
+    },
+    {
+      "source": "Paul McCartney",
+      "target": "David Bowie",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "classic-1970s"
+    },
+    {
+      "source": "Amy Winehouse",
+      "target": "Taylor Swift",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "pop",
+      "target_type": "pop",
+      "era": "classic"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Bob Dylan",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1990s"
+    },
+    {
+      "source": "Radiohead",
+      "target": "Bob Dylan",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1990s-1960s"
+    },
+    {
+      "source": "Radiohead",
+      "target": "John Lennon",
+      "relationship_type": "contemporary",
+      "confidence": 0.8,
+      "source_type": "rock",
+      "target_type": "rock",
+      "era": "1990s"
+    },
+    {
+      "source": "Beyoncé",
+      "target": "Paul McCartney",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "pop",
+      "target_type": "rock",
+      "era": "2000s+-classic"
+    },
+    {
+      "source": "Beyoncé",
+      "target": "Radiohead",
+      "relationship_type": "influenced_by",
+      "confidence": 0.7,
+      "source_type": "pop",
+      "target_type": "rock",
+      "era": "2000s+-1990s"
+    }
+  ],
+  "performance_notes": {
+    "browser_optimized": true,
+    "max_nodes": 10,
+    "estimated_render_time": "< 2 seconds",
+    "memory_usage": "< 10MB"
+  }
+}

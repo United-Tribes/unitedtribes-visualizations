@@ -1,0 +1,230 @@
+{
+  "artist_name": "Dave Grohl",
+  "works": [
+    {
+      "title": "The Hanukkah Sessions 2020",
+      "release_date": "2021-12-30",
+      "type": "Album",
+      "mbid": "18aa05df-ae7d-4bfd-8842-ecdc216e7b09"
+    },
+    {
+      "title": "The Storyteller",
+      "release_date": "2021-10-05",
+      "type": "Album",
+      "mbid": "1e574018-ead0-48fe-8a07-aafb524c7ef0"
+    },
+    {
+      "title": "The Hanukkah Sessions 2022",
+      "release_date": "2023-01-20",
+      "type": "Album",
+      "mbid": "2cf39061-06fe-432f-a92b-5ce2a64f5115"
+    },
+    {
+      "title": "The Hanukkah Sessions 2021",
+      "release_date": "2021-12-31",
+      "type": "Album",
+      "mbid": "437331d4-406b-4500-a34a-ad37c80fb735"
+    },
+    {
+      "title": "Touch",
+      "release_date": "1997-03-11",
+      "type": "Album",
+      "mbid": "b4991851-2743-3827-a903-434b5a68f84f"
+    },
+    {
+      "title": "Play",
+      "release_date": "2018-08-10",
+      "type": "Album",
+      "mbid": "e56ebed6-a10b-4f58-b7c1-ea4891717eb2"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "MJ Twelve Music",
+      "Roswell Records"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000180516"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/4d5f891d-9bce-45ae-ad86-912dd27252fa"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/203017"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/7mRVAzlt1fAAR9Cut6Rq8c"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1518322"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Foo_Fighters_Tenacious_D_concert_in_2011.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0342970/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Dave+Grohl"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Dave-grohl"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no00059212"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb14031138j"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/130639052"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1198369"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/dave_grohl"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.metal-archives.com/artists/Dave_Grohl/29937"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/dave-grohl/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Dave-Grohl/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/containsVIAFID/38921323"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Ayuqu7attqmwb4ztiy7553oxv7y"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id526643"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.7digital.com/artist/dave-grohl"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/7289"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/dave-grohl-3d689b7.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/foofightersdave"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/318156"
+      },
+      {
+        "type": "vgmdb",
+        "url": "https://vgmdb.net/artist/48614"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/38921323"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q12006"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dave_Grohl",
+    "musicbrainz": "https://musicbrainz.org/artist/4d5f891d-9bce-45ae-ad86-912dd27252fa"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "David Eric Grohl (; born January 14, 1969) is an American musician. He founded the rock band Foo Fighters, of which he is the lead singer, guitarist, principal songwriter, and only consistent member. From 1990 to 1994, he was the drummer of the grunge band Nirvana.\nIn 1986, at age 17, Grohl joined the punk rock band Scream, replacing drummer Kent Stax. After Scream broke up in 1990, Grohl became the drummer for Nirvana. He first appeared on the band's second album, Nevermind (1991). After the 1994 suicide of Kurt Cobain, Nirvana disbanded and Grohl formed Foo Fighters as a one-man project. After he released the album Foo Fighters in 1995, he assembled a full band to tour and record under the Foo Fighters name. They have since released 11 studio albums.\nGrohl is also the drummer and co-founder of the rock supergroup Them Crooked Vultures, and has recorded and toured with Queens of the Stone Age and Tenacious D. He has organized side projects Late!, which released the album Pocketwatch, and Probot. Grohl began directing Foo Fighters music videos in 1997. He released his debut documentary, Sound City, in 2013, then the 2014 documentary miniseries Sonic Highways and the 2021 documentary film What Drives Us. In 2021, Grohl released an autobiography, The Storyteller: Tales of Life and Music. In 2022, he and the Foo Fighters starred as themselves in the comedy horror film Studio 666.\nIn 2016, Rolling Stone ranked Grohl the 27th-best drummer of all time. Grohl was inducted into the Rock and Roll Hall of Fame as part of Nirvana in 2014 and as a member of Foo Fighters in 2021.",
+    "summary": "David Eric Grohl (; born January 14, 1969) is an American musician. He founded the rock band Foo Fighters, of which he is the lead singer, guitarist, principal songwriter, and only consistent member. From 1990 to 1994, he was the drummer of the grunge band Nirvana.\nIn 1986, at age 17, Grohl joined the punk rock band Scream, replacing drummer Kent Stax. After Scream broke up in 1990, Grohl became the drummer for Nirvana. He first appeared on the band's second album, Nevermind (1991). After the 1994 suicide of Kurt Cobain, Nirvana disbanded and Grohl formed Foo Fighters as a one-man project. After he released the album Foo Fighters in 1995, he assembled a full band to tour and record under the Foo Fighters name. They have since released 11 studio albums.\nGrohl is also the drummer and co-founder of the rock supergroup Them Crooked Vultures, and has recorded and toured with Queens of the Stone Age and Tenacious D. He has organized side projects Late!, which released the album Pocketwatch, ...",
+    "url": "https://en.wikipedia.org/wiki/Dave_Grohl",
+    "title": "Dave Grohl",
+    "word_count": 274,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Musician_Dave_Grohl_during_a_Global_Music_Diplomacy_Initiative_Launch_Event_%2853220578259%29_%28cropped%29.jpg/330px-Musician_Dave_Grohl_during_a_Global_Music_Diplomacy_Initiative_Launch_Event_%2853220578259%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "4d5f891d-9bce-45ae-ad86-912dd27252fa",
+      "name": "Dave Grohl",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Warren",
+      "life_span": {
+        "begin": "1969-01-14",
+        "end": null
+      }
+    },
+    "total_works": 6,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 28
+    },
+    "mbid": "4d5f891d-9bce-45ae-ad86-912dd27252fa"
+  },
+  "created_at": "2025-08-20T07:19:13.636740",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "David Eric Grohl (; born January 14, 1969) is an American musician. He founded the rock band Foo Fighters, of which he is the lead singer, guitarist, principal songwriter, and only consistent member. From 1990 to 1994, he was the drummer of the grunge band Nirvana.\nIn 1986, at age 17, Grohl joined the punk rock band Scream, replacing drummer Kent Stax. After Scream broke up in 1990, Grohl became the drummer for Nirvana. He first appeared on the band's second album, Nevermind (1991). After the 1994 suicide of Kurt Cobain, Nirvana disbanded and Grohl formed Foo Fighters as a one-man project. After he released the album Foo Fighters in 1995, he assembled a full band to tour and record under the Foo Fighters name. They have since released 11 studio albums.\nGrohl is also the drummer and co-founder of the rock supergroup Them Crooked Vultures, and has recorded and toured with Queens of the Stone Age and Tenacious D. He has organized side projects Late!, which released the album Pocketwatch, and Probot. Grohl began directing Foo Fighters music videos in 1997. He released his debut documentary, Sound City, in 2013, then the 2014 documentary miniseries Sonic Highways and the 2021 documentary film What Drives Us. In 2021, Grohl released an autobiography, The Storyteller: Tales of Life and Music. In 2022, he and the Foo Fighters starred as themselves in the comedy horror film Studio 666.\nIn 2016, Rolling Stone ranked Grohl the 27th-best drummer of all time. Grohl was inducted into the Rock and Roll Hall of Fame as part of Nirvana in 2014 and as a member of Foo Fighters in 2021.",
+  "musicbrainz_info": {
+    "mbid": "4d5f891d-9bce-45ae-ad86-912dd27252fa",
+    "name": "Dave Grohl",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Warren",
+    "life_span": {
+      "begin": "1969-01-14",
+      "end": null
+    }
+  }
+}

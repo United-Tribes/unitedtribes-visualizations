@@ -1,0 +1,467 @@
+{
+  "artist_name": "Sabrina Carpenter",
+  "works": [
+    {
+      "title": "Eyes Wide Open",
+      "release_date": "2015-04-14",
+      "type": "Album",
+      "mbid": "098b431c-7e67-42ff-841a-ca79cac99a09"
+    },
+    {
+      "title": "Track by Track: Sabrina Carpenter",
+      "release_date": "2024-08-26",
+      "type": "Album",
+      "mbid": "18ba0c1c-cafb-405e-b5a1-08ebaad4a3d3"
+    },
+    {
+      "title": "Man’s Best Friend",
+      "release_date": "2025-08-29",
+      "type": "Album",
+      "mbid": "192a95dc-d993-4768-9f77-4496b6460400"
+    },
+    {
+      "title": "emails i can't send (demos)",
+      "release_date": "2024",
+      "type": "Album",
+      "mbid": "45b8d81f-9859-483a-989d-4b1309effedb"
+    },
+    {
+      "title": "Singular: Act II",
+      "release_date": "2019-07-19",
+      "type": "Album",
+      "mbid": "5fbab65e-737a-4883-8162-850eae076393"
+    },
+    {
+      "title": "emails i can’t send",
+      "release_date": "2022-07-15",
+      "type": "Album",
+      "mbid": "6bbcb652-6188-4a5c-9125-b745d16e1f27"
+    },
+    {
+      "title": "dream girl",
+      "release_date": "2024-05-10",
+      "type": "Album",
+      "mbid": "bab3af63-bd04-4295-8ab7-0eecfc1c81a2"
+    },
+    {
+      "title": "Short n’ Sweet",
+      "release_date": "2024-08-23",
+      "type": "Album",
+      "mbid": "c8bea388-c195-4177-bf9b-7469f6e695a1"
+    },
+    {
+      "title": "EVOLution",
+      "release_date": "2016-10-14",
+      "type": "Album",
+      "mbid": "d3b429d5-e066-4e4a-8729-49c60a041425"
+    },
+    {
+      "title": "Singular: Act III - The Sessions",
+      "release_date": "2024",
+      "type": "Album",
+      "mbid": "d9482a4e-d157-47d3-a38c-ed3178223dfd"
+    },
+    {
+      "title": "Singular: Act I",
+      "release_date": "2018-11-09",
+      "type": "Album",
+      "mbid": "f2f2f9fe-f3ee-479b-99c3-f63f3b8230d2"
+    },
+    {
+      "title": "CLOUDS: Music from the Disney+ Original Movie",
+      "release_date": "2020-10-16",
+      "type": "Album",
+      "mbid": "f4a40bdc-45ed-4728-846f-062a157bd110"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0002814181"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1503835"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/4378284"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1176900"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_2019.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_February_2015.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm4248775/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Sabrina%20Carpenter"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Sabrina-carpenter"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://muzikum.eu/en/sabrina-carpenter/lyrics"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Sabrina-Carpenter"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.sabrinacarpenter.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2014142474"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/sabrina-carpenter"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/sabrina-carpenter"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/94191"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/sabrina-carpenter/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000447433/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Sabrina-Carpenter/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no2014142474"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id390647681"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/470703/all"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/390647681"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/gb-en/interpreter/sabrina-carpenter/927232"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700727607"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/sabrina-carpenter-4bdd3b6a.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/SabrinaAnnLynn"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/sabrinacarpenter"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/sabrinacarpenter/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@sabrinacarpenter"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/8365868"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/sabrinacarpenter"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B0041PYBGY"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/fr/artist/390647681"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/390647681"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/4751756"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/sabrina-carpenter/927232"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.livenation.co.uk/artist-947392"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/311580451"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q7396400"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCz51ZodJbYUNfkdPHOjJKKw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sabrina_Carpenter",
+    "musicbrainz": "https://musicbrainz.org/artist/1882fe91-cdd9-49c9-9956-8e06a3810bd4"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Sabrina Annlynn Carpenter (born May 11, 1999) is an American singer, songwriter, and actress. She first gained prominence starring on the Disney Channel series Girl Meets World (2014–2017). She signed with the Disney-owned Hollywood Records and released her debut single, \"Can't Blame a Girl for Trying\" in 2014, followed by her debut studio album Eyes Wide Open in 2015, which peaked at number 43 on the US Billboard 200. She then released the following dance-pop oriented albums Evolution (2016), Singular: Act I (2018), and Singular: Act II (2019).\nCarpenter joined Island Records in 2021, releasing her fifth album, Emails I Can't Send (2022), featuring the singles \"Nonsense\" and \"Feather\". The album peaked at number 23 on the US Billboard 200. Her sixth studio album, Short n' Sweet (2024), topped the Billboard 200, produced the top-three US Billboard Hot 100 singles \"Espresso\", \"Please Please Please\" and \"Taste\", and won two Grammy Awards. Her upcoming seventh studio album, Man's Best Friend (2025), includes the US number-one single \"Manchild\".\nCarpenter has appeared in films, including Adventures in Babysitting (2016), The Hate U Give (2018), The Short History of the Long Road (2019)...",
+    "summary": "Sabrina Annlynn Carpenter (born May 11, 1999) is an American singer, songwriter, and actress. She first gained prominence starring on the Disney Channel series Girl Meets World (2014–2017). She signed with the Disney-owned Hollywood Records and released her debut single, \"Can't Blame a Girl for Trying\" in 2014, followed by her debut studio album Eyes Wide Open in 2015, which peaked at number 43 on the US Billboard 200. She then released the following dance-pop oriented albums Evolution (2016), S...",
+    "url": "https://en.wikipedia.org/wiki/Sabrina_Carpenter",
+    "title": "Sabrina Carpenter",
+    "word_count": 189,
+    "categories": [
+      "Category:1999 births",
+      "Category:21st-century American actresses",
+      "Category:21st-century American singers",
+      "Category:21st-century American women singers",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles needing additional references",
+      "Category:American child actresses",
+      "Category:American child singers",
+      "Category:American contemporary R&B singers",
+      "Category:American dance-pop musicians",
+      "Category:American film actresses",
+      "Category:American music YouTubers",
+      "Category:American sopranos",
+      "Category:American television actresses",
+      "Category:American voice actresses",
+      "Category:American women in electronic music",
+      "Category:American women pop singers",
+      "Category:Articles needing additional references from August 2025",
+      "Category:Articles with MusicBrainz artist links",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Biography with signature",
+      "Category:CS1 Danish-language sources (da)",
+      "Category:CS1 French-language sources (fr)",
+      "Category:CS1 Spanish-language sources (es)",
+      "Category:Commons category link from Wikidata",
+      "Category:Electropop musicians",
+      "Category:Grammy Award winners",
+      "Category:Hollywood Records artists",
+      "Category:Island Records artists",
+      "Category:Living people",
+      "Category:MusicBrainz artist same as Wikidata",
+      "Category:People from Quakertown, Pennsylvania",
+      "Category:Sabrina Carpenter",
+      "Category:Short description is different from Wikidata",
+      "Category:Short description matches Wikidata",
+      "Category:Singers from Pennsylvania",
+      "Category:Use American English from February 2020",
+      "Category:Use mdy dates from December 2024",
+      "Category:Webarchive template wayback links",
+      "Category:Wikipedia semi-protected pages"
+    ],
+    "internal_links": [
+      "...Baby One More Time",
+      "1989 (album)",
+      "2015 Radio Disney Music Awards",
+      "2016 Radio Disney Music Awards",
+      "2017 Radio Disney Music Awards",
+      "2018 MTV Video Music Awards",
+      "2018 Radio Disney Music Awards",
+      "2019 iHeartRadio Music Awards",
+      "2022 Sundance Film Festival",
+      "2023 MTV Europe Music Awards",
+      "2023 MTV Video Music Awards",
+      "2024 Billboard Music Awards",
+      "2024 Kids' Choice Awards",
+      "2024 MTV Europe Music Awards",
+      "2024 MTV Video Music Awards",
+      "2024 Summer Olympics",
+      "2024 United States presidential election",
+      "2024 iHeartRadio Music Awards",
+      "2025 Kids' Choice Awards",
+      "2025 iHeartRadio Music Awards",
+      "21 (Adele album)",
+      "21 Savage",
+      "25 (Adele album)",
+      "67th Annual Grammy Awards",
+      "7 Seconds (song)",
+      "ABBA",
+      "ABC News (United States)",
+      "APRA Awards (Australia)",
+      "APRA Music Awards of 2025",
+      "A Nonsense Christmas with Sabrina Carpenter",
+      "Acoustic music",
+      "Acts of reparation",
+      "Adele",
+      "Adventures in Babysitting (2016 film)",
+      "Alan Walker (music producer)",
+      "Ali Forney Center",
+      "Alien (Jonas Blue and Sabrina Carpenter song)",
+      "AllMusic (identifier)",
+      "Allmusic",
+      "Almost Love (song)",
+      "Alternative Press (magazine)",
+      "Alton Mason",
+      "Amazon Prime Video",
+      "Amazon Studios",
+      "American Broadcasting Company",
+      "American Music Award for Artist of the Year",
+      "American Music Award for Favorite Pop/Rock Album",
+      "American Music Award for Favorite Pop/Rock Female Artist",
+      "American Music Award for Favorite Pop/Rock Song",
+      "American Music Award for Single of the Year",
+      "American Music Awards",
+      "American Music Awards of 2025",
+      "American Red Cross",
+      "American Society of Composers, Authors and Publishers",
+      "American Songwriter",
+      "Amy Winehouse",
+      "Andi Mack",
+      "Anti-Hero (song)",
+      "Anxiety",
+      "Arena",
+      "Aretha Franklin",
+      "Ariana Grande",
+      "Ariel Winter",
+      "As It Was",
+      "Associated Press",
+      "August Wilson Theatre",
+      "Austin & Ally",
+      "Avril Lavigne",
+      "Aéropostale (company)",
+      "BBC",
+      "BST Hyde Park",
+      "BTS",
+      "Baby (Justin Bieber song)",
+      "Back to Black",
+      "Backstreet Boys",
+      "Bad Blood (Taylor Swift song)",
+      "Bad Guy (Billie Eilish song)",
+      "Bad Habits (Ed Sheeran song)",
+      "Bad Romance",
+      "Baha Men",
+      "Bang Bang (Jessie J, Ariana Grande and Nicki Minaj song)",
+      "Barry Keoghan",
+      "Beautiful (Christina Aguilera song)",
+      "Because I Liked a Boy",
+      "Bed Chem",
+      "Beyoncé",
+      "Billboard (magazine)",
+      "Billboard 200",
+      "Billboard Español",
+      "Billboard Global 200",
+      "Billboard Hot 100",
+      "Billboard Music Award for Top Artist",
+      "Billboard Music Award for Top Female Artist",
+      "Billboard Music Award for Top Hot 100 Artist",
+      "Billboard Music Award for Top Radio Songs Artist",
+      "Billboard Music Award for Top Streaming Songs Artist",
+      "Billboard Music Awards",
+      "Billboard Philippines",
+      "Billie Eilish",
+      "Billy Ray Cyrus"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Primavera2025_%28139_of_182%29_%2854574520207%29_%28cropped%29.jpg/330px-Primavera2025_%28139_of_182%29_%2854574520207%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+      "name": "Sabrina Carpenter",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Bucks County",
+      "life_span": {
+        "begin": "1999-05-11",
+        "end": null
+      }
+    },
+    "total_works": 12,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 43
+    },
+    "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4"
+  },
+  "created_at": "2025-08-19T19:39:08.443391",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Sabrina Annlynn Carpenter (born May 11, 1999) is an American singer, songwriter, and actress. She first gained prominence starring on the Disney Channel series Girl Meets World (2014–2017). She signed with the Disney-owned Hollywood Records and released her debut single, \"Can't Blame a Girl for Trying\" in 2014, followed by her debut studio album Eyes Wide Open in 2015, which peaked at number 43 on the US Billboard 200. She then released the following dance-pop oriented albums Evolution (2016), Singular: Act I (2018), and Singular: Act II (2019).\nCarpenter joined Island Records in 2021, releasing her fifth album, Emails I Can't Send (2022), featuring the singles \"Nonsense\" and \"Feather\". The album peaked at number 23 on the US Billboard 200. Her sixth studio album, Short n' Sweet (2024), topped the Billboard 200, produced the top-three US Billboard Hot 100 singles \"Espresso\", \"Please Please Please\" and \"Taste\", and won two Grammy Awards. Her upcoming seventh studio album, Man's Best Friend (2025), includes the US number-one single \"Manchild\".\nCarpenter has appeared in films, including Adventures in Babysitting (2016), The Hate U Give (2018), The Short History of the Long Road (2019)...",
+  "musicbrainz_info": {
+    "mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+    "name": "Sabrina Carpenter",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Bucks County",
+    "life_span": {
+      "begin": "1999-05-11",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:08.219194"
+}

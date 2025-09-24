@@ -1,0 +1,6242 @@
+{
+  "pitchfork.com": {
+    "display_name": "Pitchfork",
+    "type": "publication",
+    "counts": {
+      "links": 381,
+      "text_mentions": 381,
+      "title_mentions": 40
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/best-music-books-of-2024/",
+        "discovered_url": "https://pitchfork.com/feature",
+        "mention_type": "content_link"
+      },
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/best-music-books-of-2024/",
+        "mention_name": "pitchfork",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/5-10-15-20/",
+        "discovered_url": "https://pitchfork.com/feature",
+        "mention_type": "content_link"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 1190
+  },
+  "spin.com": {
+    "display_name": "Spin",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 65,
+      "title_mentions": 1
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/reviews/albums/",
+        "mention_name": "spin",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://pitchfork.com/reviews/albums/",
+        "mention_name": "spin",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Nancy Wilson",
+        "source_url": "https://pitchfork.com/reviews/albums/",
+        "mention_name": "spin",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 66
+  },
+  "spotify.com": {
+    "display_name": "the joe rogan experience",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 44,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://open.spotify.com/artist/5hW4L92KnC6dX9t7tYM4Ve",
+        "discovered_url": "https://open.spotify.com/artist/5hW4L92KnC6dX9t7tYM4Ve",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
+        "discovered_url": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://pitchfork.com/features/podcast/",
+        "mention_name": "dissect",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 44
+  },
+  "nme.com": {
+    "display_name": "Nme",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 30,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/9937-the-25-best-music-videos-of-the-1970s/",
+        "mention_name": "nme",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://pitchfork.com/features/interview/6169-the-constantines/",
+        "mention_name": "nme",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://en.wikipedia.org/wiki/Eminem",
+        "mention_name": "nme",
+        "mention_type": "wikipedia_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 30
+  },
+  "vice.com": {
+    "display_name": "Vice",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 29,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://pitchfork.com/reviews/tracks/justin-bieber-ariana-grande-stuck-with-u/",
+        "mention_name": "vice",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://pitchfork.com/reviews/tracks/justin-bieber-yummy/",
+        "mention_name": "vice",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://pitchfork.com/features/guest-lists/6014-andrew-bird-ten-songs-or-albums-that-still-bust-my-bunker/",
+        "mention_name": "vice",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 29
+  },
+  "complex.com": {
+    "display_name": "Complex",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 18,
+      "title_mentions": 1
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://pitchfork.com/reviews/albums/justin-bieber-swag/",
+        "mention_name": "complex",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-1960s/",
+        "mention_name": "complex",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "https://pitchfork.com/features/article/6007-africa-100-the-indestructible-beat/",
+        "mention_name": "complex",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 19
+  },
+  "rollingstone.com": {
+    "display_name": "Rolling Stone",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 16,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+        "mention_name": "rolling stone",
+        "mention_type": "wikipedia_mention"
+      },
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/9937-the-25-best-music-videos-of-the-1970s/",
+        "mention_name": "rolling stone",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://en.wikipedia.org/wiki/Travis_Barker",
+        "mention_name": "rolling stone",
+        "mention_type": "wikipedia_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 16
+  },
+  "billboard.com": {
+    "display_name": "Billboard",
+    "type": "publication",
+    "counts": {
+      "links": 1,
+      "text_mentions": 11,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://en.wikipedia.org/wiki/Justin_Bieber",
+        "mention_name": "billboard",
+        "mention_type": "wikipedia_mention"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://pitchfork.com/reviews/albums/justin-bieber-swag/",
+        "mention_name": "billboard",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/the-50-best-movie-scores-of-all-time/",
+        "mention_name": "billboard",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 13
+  },
+  "variety.com": {
+    "display_name": "Variety",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 12,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/9937-the-25-best-music-videos-of-the-1970s/",
+        "mention_name": "variety",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://pitchfork.com/reviews/albums/justin-bieber-changes/",
+        "mention_name": "variety",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-1960s/",
+        "mention_name": "variety",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 12
+  },
+  "theguardian.com": {
+    "display_name": "The Guardian",
+    "type": "publication",
+    "counts": {
+      "links": 1,
+      "text_mentions": 2,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.theguardian.com/music/2025/aug/19/paul-mccartney-beatles-elizabeth-alker-avant-garde-composers-john-cage-i-am-the-walrus",
+        "discovered_url": "https://www.theguardian.com/mu",
+        "mention_type": "content_link"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.theguardian.com/music/2025/aug/19/paul-mccartney-beatles-elizabeth-alker-avant-garde-composers-john-cage-i-am-the-walrus",
+        "mention_name": "the guardian",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://pitchfork.com/features/overtones/everything-is-interpolated-inside-musics-nostalgia-industrial-complex/",
+        "mention_name": "the guardian",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 12
+  },
+  "nytimes.com": {
+    "display_name": "The New York Times",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 7,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Michael Azerrad",
+        "source_url": "https://en.wikipedia.org/wiki/Michael_Azerrad",
+        "mention_name": "the new york times",
+        "mention_type": "wikipedia_mention"
+      },
+      {
+        "artist": "Merle Haggard",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/the-story-of-outlaw-country-in-33-songs/",
+        "mention_name": "the new york times",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://pitchfork.com/features/greil-marcus-real-life-rock-top-10/9906-the-life-beneath-our-feet-trump-don-delillo-and-the-nihilistic-impulse/",
+        "mention_name": "the new york times",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 7
+  },
+  "theatlantic.com": {
+    "display_name": "The Atlantic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 3,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/the-200-best-albums-of-the-1960s/",
+        "mention_name": "the atlantic",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "https://pitchfork.com/features/article/6007-africa-100-the-indestructible-beat/",
+        "mention_name": "the atlantic",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Lou Reed",
+        "source_url": "https://pitchfork.com/reviews/albums/9477-coney-island-baby/",
+        "mention_name": "the atlantic",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 3
+  },
+  "consequence.net": {
+    "display_name": "Consequence",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 2,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/best-music-books-of-2024/",
+        "mention_name": "consequence",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Bts",
+        "source_url": "https://en.wikipedia.org/wiki/BTS",
+        "mention_name": "consequence",
+        "mention_type": "wikipedia_mention"
+      },
+      {
+        "artist": "Kim Gordon",
+        "source_url": "https://pitchfork.com/reviews/tracks/18521-kim-gordon-murdered-out/",
+        "mention_name": "consequence",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 2
+  },
+  "vulture.com": {
+    "display_name": "Vulture",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 2,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://pitchfork.com/reviews/albums/paul-mccartney-mccartney-iii-imagined/",
+        "mention_name": "vulture",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "https://pitchfork.com/reviews/albums/10900-frank/",
+        "mention_name": "vulture",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Dave Grohl",
+        "source_url": "https://en.wikipedia.org/wiki/Dave_Grohl",
+        "mention_name": "vulture",
+        "mention_type": "wikipedia_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 2
+  },
+  "vox.com": {
+    "display_name": "Vox",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 2,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://pitchfork.com/reviews/albums/12022-boy-october-war/",
+        "mention_name": "vox",
+        "mention_type": "text_mention"
+      },
+      {
+        "artist": "Kim Gordon",
+        "source_url": "https://pitchfork.com/features/lists-and-guides/best-electronic-music-2024/",
+        "mention_name": "vox",
+        "mention_type": "text_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 2
+  },
+  "wikipedia.org": {
+    "display_name": "Wikipedia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+        "discovered_url": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+        "mention_type": "canonical_wikipedia"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://en.wikipedia.org/wiki/AC/DC",
+        "discovered_url": "https://en.wikipedia.org/wiki/AC/DC",
+        "mention_type": "canonical_wikipedia"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://en.wikipedia.org/wiki/Justin_Bieber",
+        "discovered_url": "https://en.wikipedia.org/wiki/Justin_Bieber",
+        "mention_type": "canonical_wikipedia"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musicbrainz.org": {
+    "display_name": "Musicbrainz",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://musicbrainz.org/artist/a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+        "discovered_url": "https://musicbrainz.org/artist/a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+        "mention_type": "canonical_musicbrainz"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://musicbrainz.org/artist/66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "discovered_url": "https://musicbrainz.org/artist/66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "mention_type": "canonical_musicbrainz"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://musicbrainz.org/artist/e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "discovered_url": "https://musicbrainz.org/artist/e0140a67-e4d1-4f13-8a01-364355bee46e",
+        "mention_type": "canonical_musicbrainz"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "allmusic.com": {
+    "display_name": "Allmusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.allmusic.com/artist/mn0000270491",
+        "discovered_url": "https://www.allmusic.com/artist/mn0000270491",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.allmusic.com/artist/mn0000574772",
+        "discovered_url": "https://www.allmusic.com/artist/mn0000574772",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.allmusic.com/artist/mn0002165952",
+        "discovered_url": "https://www.allmusic.com/artist/mn0002165952",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bbc.co.uk": {
+    "display_name": "Bbc.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.bbc.co.uk/music/artists/a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+        "discovered_url": "https://www.bbc.co.uk/music/artists/a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.bbc.co.uk/music/artists/66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "discovered_url": "https://www.bbc.co.uk/music/artists/66c662b6-6e2f-4930-8610-912e24c63ed1",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.bbc.co.uk/music/artists/b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "discovered_url": "https://www.bbc.co.uk/music/artists/b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "discogs.com": {
+    "display_name": "Discogs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.discogs.com/artist/90233",
+        "discovered_url": "https://www.discogs.com/artist/90233",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.discogs.com/artist/84752",
+        "discovered_url": "https://www.discogs.com/artist/84752",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.discogs.com/artist/1602787",
+        "discovered_url": "https://www.discogs.com/artist/1602787",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "deezer.com": {
+    "display_name": "Deezer",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.deezer.com/artist/3283",
+        "discovered_url": "https://www.deezer.com/artist/3283",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.deezer.com/artist/115",
+        "discovered_url": "https://www.deezer.com/artist/115",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.deezer.com/artist/288166",
+        "discovered_url": "https://www.deezer.com/artist/288166",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "wikimedia.org": {
+    "display_name": "Wikimedia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Joni_Mitchell_1983.jpg",
+        "discovered_url": "https://commons.wikimedia.org/wiki/File:Joni_Mitchell_1983.jpg",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ACDC_In_Tacoma_2009.jpg",
+        "discovered_url": "https://commons.wikimedia.org/wiki/File:ACDC_In_Tacoma_2009.jpg",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Justin_Bieber_ABC.jpg",
+        "discovered_url": "https://commons.wikimedia.org/wiki/File:Justin_Bieber_ABC.jpg",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "imdb.com": {
+    "display_name": "Imdb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.imdb.com/name/nm0593474/",
+        "discovered_url": "https://www.imdb.com/name/nm0593474/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.imdb.com/name/nm0009540/",
+        "discovered_url": "https://www.imdb.com/name/nm0009540/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.imdb.com/name/nm3595501/",
+        "discovered_url": "https://www.imdb.com/name/nm3595501/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "last.fm": {
+    "display_name": "Last.Fm",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.last.fm/music/Joni+Mitchell",
+        "discovered_url": "https://www.last.fm/music/Joni+Mitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.last.fm/music/AC%2FDC",
+        "discovered_url": "https://www.last.fm/music/AC%2FDC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.last.fm/music/Justin+Bieber",
+        "discovered_url": "https://www.last.fm/music/Justin+Bieber",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "muzikum.eu": {
+    "display_name": "Muzikum.Eu",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "http://muzikum.eu/en/122-6840/joni-mitchell/lyrics.html",
+        "discovered_url": "http://muzikum.eu/en/122-6840/joni-mitchell/lyrics.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://muzikum.eu/en/122-8583/justin-bieber/lyrics.html",
+        "discovered_url": "http://muzikum.eu/en/122-8583/justin-bieber/lyrics.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://muzikum.eu/en/122-5399/paul-mccartney/lyrics.html",
+        "discovered_url": "http://muzikum.eu/en/122-5399/paul-mccartney/lyrics.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jonimitchell.com": {
+    "display_name": "Jonimitchell",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://jonimitchell.com/",
+        "discovered_url": "https://jonimitchell.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "loc.gov": {
+    "display_name": "Loc.Gov",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "http://id.loc.gov/authorities/names/n82108794",
+        "discovered_url": "http://id.loc.gov/authorities/names/n82108794",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "http://id.loc.gov/authorities/names/n78011846",
+        "discovered_url": "http://id.loc.gov/authorities/names/n78011846",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://id.loc.gov/authorities/names/no2009188439",
+        "discovered_url": "http://id.loc.gov/authorities/names/no2009188439",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bnf.fr": {
+    "display_name": "Bnf.Fr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://catalogue.bnf.fr/ark:/12148/cb13897572r",
+        "discovered_url": "https://catalogue.bnf.fr/ark:/12148/cb13897572r",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://catalogue.bnf.fr/ark:/12148/cb13901479r",
+        "discovered_url": "https://catalogue.bnf.fr/ark:/12148/cb13901479r",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://catalogue.bnf.fr/ark:/12148/cb16209403n",
+        "discovered_url": "https://catalogue.bnf.fr/ark:/12148/cb16209403n",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "d-nb.info": {
+    "display_name": "D-Nb.Info",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://d-nb.info/gnd/121085600",
+        "discovered_url": "https://d-nb.info/gnd/121085600",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://d-nb.info/gnd/1221288-X",
+        "discovered_url": "https://d-nb.info/gnd/1221288-X",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://d-nb.info/gnd/140795472",
+        "discovered_url": "https://d-nb.info/gnd/140795472",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ibdb.com": {
+    "display_name": "Ibdb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://ibdb.com/person.php?id=84088",
+        "discovered_url": "https://ibdb.com/person.php?id=84088",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.ibdb.com/person.php?id=497693",
+        "discovered_url": "https://www.ibdb.com/person.php?id=497693",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://ibdb.com/person.php?id=11631",
+        "discovered_url": "https://ibdb.com/person.php?id=11631",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "imvdb.com": {
+    "display_name": "Imvdb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://imvdb.com/n/joni-mitchell",
+        "discovered_url": "https://imvdb.com/n/joni-mitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://imvdb.com/n/acdc",
+        "discovered_url": "https://imvdb.com/n/acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://imvdb.com/n/justin-bieber",
+        "discovered_url": "http://imvdb.com/n/justin-bieber",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "openlibrary.org": {
+    "display_name": "Openlibrary",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://openlibrary.org/works/OL396367A",
+        "discovered_url": "https://openlibrary.org/works/OL396367A",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://openlibrary.org/authors/OL2779459A",
+        "discovered_url": "https://openlibrary.org/authors/OL2779459A",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://openlibrary.org/works/OL6832375A",
+        "discovered_url": "https://openlibrary.org/works/OL6832375A",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "rateyourmusic.com": {
+    "display_name": "Rateyourmusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://rateyourmusic.com/artist/joni_mitchell",
+        "discovered_url": "https://rateyourmusic.com/artist/joni_mitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://rateyourmusic.com/artist/ac_dc",
+        "discovered_url": "https://rateyourmusic.com/artist/ac_dc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://rateyourmusic.com/artist/justin-bieber",
+        "discovered_url": "https://rateyourmusic.com/artist/justin-bieber",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "worldcat.org": {
+    "display_name": "Worldcat",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.worldcat.org/identities/lccn-n82108794",
+        "discovered_url": "https://www.worldcat.org/identities/lccn-n82108794",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.worldcat.org/identities/lccn-n78011846/",
+        "discovered_url": "https://www.worldcat.org/identities/lccn-n78011846/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.worldcat.org/identities/lccn-no2009188439",
+        "discovered_url": "https://www.worldcat.org/identities/lccn-no2009188439",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "secondhandsongs.com": {
+    "display_name": "Secondhandsongs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://secondhandsongs.com/artist/5191",
+        "discovered_url": "https://secondhandsongs.com/artist/5191",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://secondhandsongs.com/artist/1516",
+        "discovered_url": "https://secondhandsongs.com/artist/1516",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://secondhandsongs.com/artist/45405",
+        "discovered_url": "https://secondhandsongs.com/artist/45405",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "twitter.com": {
+    "display_name": "Twitter",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://twitter.com/jonimitchell",
+        "discovered_url": "https://twitter.com/jonimitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://twitter.com/acdc",
+        "discovered_url": "https://twitter.com/acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://twitter.com/justinbieber",
+        "discovered_url": "https://twitter.com/justinbieber",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "facebook.com": {
+    "display_name": "Facebook",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.facebook.com/jonimitchell",
+        "discovered_url": "https://www.facebook.com/jonimitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.facebook.com/6750402929",
+        "discovered_url": "https://www.facebook.com/6750402929",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.facebook.com/JustinBieber",
+        "discovered_url": "https://www.facebook.com/JustinBieber",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "instagram.com": {
+    "display_name": "Instagram",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.instagram.com/jonimitchell/",
+        "discovered_url": "https://www.instagram.com/jonimitchell/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.instagram.com/acdc/",
+        "discovered_url": "https://www.instagram.com/acdc/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.instagram.com/justinbieber/",
+        "discovered_url": "https://www.instagram.com/justinbieber/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "songkick.com": {
+    "display_name": "Songkick",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.songkick.com/artists/310304",
+        "discovered_url": "https://www.songkick.com/artists/310304",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.songkick.com/artists/276130",
+        "discovered_url": "https://www.songkick.com/artists/276130",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.songkick.com/artists/2596951",
+        "discovered_url": "https://www.songkick.com/artists/2596951",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "apple.com": {
+    "display_name": "Apple",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://music.apple.com/ca/artist/203373",
+        "discovered_url": "https://music.apple.com/ca/artist/203373",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://music.apple.com/gb/artist/203373",
+        "discovered_url": "https://music.apple.com/gb/artist/203373",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://itunes.apple.com/au/artist/id5040714",
+        "discovered_url": "https://itunes.apple.com/au/artist/id5040714",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tidal.com": {
+    "display_name": "Tidal",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://tidal.com/artist/13572",
+        "discovered_url": "https://tidal.com/artist/13572",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://tidal.com/artist/945",
+        "discovered_url": "https://tidal.com/artist/945",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://tidal.com/artist/3639248",
+        "discovered_url": "https://tidal.com/artist/3639248",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "viaf.org": {
+    "display_name": "Viaf",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "http://viaf.org/viaf/85454013",
+        "discovered_url": "http://viaf.org/viaf/85454013",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "http://viaf.org/viaf/144189738",
+        "discovered_url": "http://viaf.org/viaf/144189738",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://viaf.org/viaf/103075654",
+        "discovered_url": "http://viaf.org/viaf/103075654",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "wikidata.org": {
+    "display_name": "Wikidata",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.wikidata.org/wiki/Q205721",
+        "discovered_url": "https://www.wikidata.org/wiki/Q205721",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.wikidata.org/wiki/Q27593",
+        "discovered_url": "https://www.wikidata.org/wiki/Q27593",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.wikidata.org/wiki/Q34086",
+        "discovered_url": "https://www.wikidata.org/wiki/Q34086",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "youtube.com": {
+    "display_name": "Youtube",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Joni Mitchell",
+        "source_url": "https://www.youtube.com/@JoniMitchell",
+        "discovered_url": "https://www.youtube.com/@JoniMitchell",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.youtube.com/channel/UCB0JSO6d5ysH2Mmqz5I9rIw",
+        "discovered_url": "https://www.youtube.com/channel/UCB0JSO6d5ysH2Mmqz5I9rIw",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.youtube.com/channel/UCmPuJ2BltKsGE2966jLgCnw",
+        "discovered_url": "https://www.youtube.com/channel/UCmPuJ2BltKsGE2966jLgCnw",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bandsintown.com": {
+    "display_name": "Bandsintown",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.bandsintown.com/a/26647",
+        "discovered_url": "https://www.bandsintown.com/a/26647",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.bandsintown.com/a/307871",
+        "discovered_url": "https://www.bandsintown.com/a/307871",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.bandsintown.com/a/1754",
+        "discovered_url": "https://www.bandsintown.com/a/1754",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "legacyrecordings.com": {
+    "display_name": "Legacyrecordings",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.legacyrecordings.com/AC/DC/Biography.aspx",
+        "discovered_url": "https://www.legacyrecordings.com/AC/DC/Biography.aspx",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "acdc-discography.com": {
+    "display_name": "Acdc-Discography",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.acdc-discography.com/",
+        "discovered_url": "https://www.acdc-discography.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "wordpress.com": {
+    "display_name": "Wordpress",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://brutig.wordpress.com/",
+        "discovered_url": "https://brutig.wordpress.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "fandom.com": {
+    "display_name": "Fandom",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://disney.fandom.com/wiki/AC/DC",
+        "discovered_url": "https://disney.fandom.com/wiki/AC/DC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://familyguy.fandom.com/wiki/AC/DC",
+        "discovered_url": "https://familyguy.fandom.com/wiki/AC/DC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://youtube.fandom.com/wiki/AC/DC",
+        "discovered_url": "https://youtube.fandom.com/wiki/AC/DC",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "fanart.tv": {
+    "display_name": "Fanart.Tv",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://fanart.tv/artist/66c662b6-6e2f-4930-8610-912e24c63ed1/",
+        "discovered_url": "https://fanart.tv/artist/66c662b6-6e2f-4930-8610-912e24c63ed1/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://fanart.tv/artist/3d2b98e5-556f-4451-a3ff-c50ea18d57cb/",
+        "discovered_url": "https://fanart.tv/artist/3d2b98e5-556f-4451-a3ff-c50ea18d57cb/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "acdc-italia.com": {
+    "display_name": "Acdc-Italia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.acdc-italia.com/",
+        "discovered_url": "https://www.acdc-italia.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "joeroacdc.de": {
+    "display_name": "Joeroacdc.De",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.joeroacdc.de/",
+        "discovered_url": "https://www.joeroacdc.de/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "genius.com": {
+    "display_name": "Genius",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://genius.com/artists/Ac-dc",
+        "discovered_url": "https://genius.com/artists/Ac-dc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://genius.com/artists/Justin-bieber",
+        "discovered_url": "https://genius.com/artists/Justin-bieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://genius.com/artists/Travis-barker",
+        "discovered_url": "https://genius.com/artists/Travis-barker",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musixmatch.com": {
+    "display_name": "Musixmatch",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.musixmatch.com/artist/AC-DC",
+        "discovered_url": "https://www.musixmatch.com/artist/AC-DC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.musixmatch.com/artist/Justin-Bieber",
+        "discovered_url": "https://www.musixmatch.com/artist/Justin-Bieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.musixmatch.com/artist/Eminem",
+        "discovered_url": "https://www.musixmatch.com/artist/Eminem",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "myspace.com": {
+    "display_name": "Myspace",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://myspace.com/acdc",
+        "discovered_url": "https://myspace.com/acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://myspace.com/justinbieber",
+        "discovered_url": "https://myspace.com/justinbieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://myspace.com/immawinnerbaby",
+        "discovered_url": "https://myspace.com/immawinnerbaby",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "acdc.com": {
+    "display_name": "Acdc",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.acdc.com/",
+        "discovered_url": "https://www.acdc.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "reddit.com": {
+    "display_name": "Reddit",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.reddit.com/r/ACDC/",
+        "discovered_url": "https://www.reddit.com/r/ACDC/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.reddit.com/r/Aerosmith/",
+        "discovered_url": "https://www.reddit.com/r/Aerosmith/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jaxsta.com": {
+    "display_name": "Jaxsta",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://jaxsta.com/profile/99de48fa-8bf5-4b32-ba75-c82caeb0f04d",
+        "discovered_url": "https://jaxsta.com/profile/99de48fa-8bf5-4b32-ba75-c82caeb0f04d",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://jaxsta.com/profile/9b05375a-8ca3-4ae7-a2d9-51d0823257d4",
+        "discovered_url": "https://jaxsta.com/profile/9b05375a-8ca3-4ae7-a2d9-51d0823257d4",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://jaxsta.com/profile/04d08892-946e-4f52-9672-70e399a7760b",
+        "discovered_url": "https://jaxsta.com/profile/04d08892-946e-4f52-9672-70e399a7760b",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musicmoz.org": {
+    "display_name": "Musicmoz",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://musicmoz.org/Bands_and_Artists/A/AC-DC/",
+        "discovered_url": "https://musicmoz.org/Bands_and_Artists/A/AC-DC/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "http://musicmoz.org/Bands_and_Artists/E/Eminem/",
+        "discovered_url": "http://musicmoz.org/Bands_and_Artists/E/Eminem/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "http://musicmoz.org/Bands_and_Artists/A/Armstrong,_Louis/",
+        "discovered_url": "http://musicmoz.org/Bands_and_Artists/A/Armstrong,_Louis/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "nla.gov.au": {
+    "display_name": "Nla.Gov.Au",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://nla.gov.au/nla.party-783697",
+        "discovered_url": "https://nla.gov.au/nla.party-783697",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://nla.gov.au/nla.party-1448152",
+        "discovered_url": "https://nla.gov.au/nla.party-1448152",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://nla.gov.au/nla.party-815399",
+        "discovered_url": "https://nla.gov.au/nla.party-815399",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "45cat.com": {
+    "display_name": "45Cat",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.45cat.com/artist/acdc",
+        "discovered_url": "https://www.45cat.com/artist/acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.45cat.com/artist/eminem",
+        "discovered_url": "https://www.45cat.com/artist/eminem",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.45cat.com/artist/paul-mccartney",
+        "discovered_url": "https://www.45cat.com/artist/paul-mccartney",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "idref.fr": {
+    "display_name": "Idref.Fr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.idref.fr/027573540",
+        "discovered_url": "https://www.idref.fr/027573540",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.idref.fr/052554422",
+        "discovered_url": "https://www.idref.fr/052554422",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Melissa Etheridge",
+        "source_url": "https://www.idref.fr/084291214",
+        "discovered_url": "https://www.idref.fr/084291214",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "livefans.jp": {
+    "display_name": "Livefans.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.livefans.jp/artists/21822",
+        "discovered_url": "https://www.livefans.jp/artists/21822",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.livefans.jp/artists/264",
+        "discovered_url": "https://www.livefans.jp/artists/264",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://www.livefans.jp/artists/18460",
+        "discovered_url": "https://www.livefans.jp/artists/18460",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musik-sammler.de": {
+    "display_name": "Musik-Sammler.De",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.musik-sammler.de/artist/82/",
+        "discovered_url": "https://www.musik-sammler.de/artist/82/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.musik-sammler.de/artist/justin-bieber/",
+        "discovered_url": "https://www.musik-sammler.de/artist/justin-bieber/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.musik-sammler.de/artist/eminem/",
+        "discovered_url": "https://www.musik-sammler.de/artist/eminem/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "muziekweb.nl": {
+    "display_name": "Muziekweb.Nl",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.muziekweb.nl/Link/M00000041071/POPULAR/",
+        "discovered_url": "https://www.muziekweb.nl/Link/M00000041071/POPULAR/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.muziekweb.nl/Link/M00000347908/POPULAR/",
+        "discovered_url": "https://www.muziekweb.nl/Link/M00000347908/POPULAR/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://www.muziekweb.nl/Link/M00000219288/POPULAR/",
+        "discovered_url": "https://www.muziekweb.nl/Link/M00000219288/POPULAR/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "spirit-of-metal.com": {
+    "display_name": "Spirit-Of-Metal",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.spirit-of-metal.com/en/band/AC*DC",
+        "discovered_url": "https://www.spirit-of-metal.com/en/band/AC*DC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.spirit-of-metal.com/en/band/Aerosmith",
+        "discovered_url": "https://www.spirit-of-metal.com/en/band/Aerosmith",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://spirit-of-metal.com/groupe-groupe-Bon_Jovi-l-en",
+        "discovered_url": "https://spirit-of-metal.com/groupe-groupe-Bon_Jovi-l-en",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "spirit-of-rock.com": {
+    "display_name": "Spirit-Of-Rock",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.spirit-of-rock.com/en/band/AC-DC",
+        "discovered_url": "https://www.spirit-of-rock.com/en/band/AC-DC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.spirit-of-rock.com/en/band/Paul_McCartney",
+        "discovered_url": "https://www.spirit-of-rock.com/en/band/Paul_McCartney",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.spirit-of-rock.com/en/band/The_Beatles",
+        "discovered_url": "https://www.spirit-of-rock.com/en/band/The_Beatles",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "whosampled.com": {
+    "display_name": "Whosampled",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.whosampled.com/ACDC/",
+        "discovered_url": "https://www.whosampled.com/ACDC/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.whosampled.com/Justin-Bieber/",
+        "discovered_url": "https://www.whosampled.com/Justin-Bieber/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://www.whosampled.com/Travis-Barker/",
+        "discovered_url": "https://www.whosampled.com/Travis-Barker/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "google.com": {
+    "display_name": "Google",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://play.google.com/store/music/artist?id=Azhdgf37pznwrc7j5tayla77k2m",
+        "discovered_url": "https://play.google.com/store/music/artist?id=Azhdgf37pznwrc7j5tayla77k2m",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://plus.google.com/114501909900126662096",
+        "discovered_url": "https://plus.google.com/114501909900126662096",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://play.google.com/store/music/artist?id=As2n6c7fmjt6fyysxuwgjgynzp4",
+        "discovered_url": "https://play.google.com/store/music/artist?id=As2n6c7fmjt6fyysxuwgjgynzp4",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "7digital.com": {
+    "display_name": "7Digital",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://uk.7digital.com/artist/ac-dc",
+        "discovered_url": "https://uk.7digital.com/artist/ac-dc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://us.7digital.com/artist/Eminem",
+        "discovered_url": "https://us.7digital.com/artist/Eminem",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.7digital.com/artist/eminem",
+        "discovered_url": "https://www.7digital.com/artist/eminem",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "hdtracks.com": {
+    "display_name": "Hdtracks",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.hdtracks.com/#/artist/AC%2FDC",
+        "discovered_url": "https://www.hdtracks.com/#/artist/AC%2FDC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.hdtracks.com/#/artist/Eminem",
+        "discovered_url": "https://www.hdtracks.com/#/artist/Eminem",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "https://www.hdtracks.com/music/artist/view/id/4634/",
+        "discovered_url": "https://www.hdtracks.com/music/artist/view/id/4634/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "microsoft.com": {
+    "display_name": "Microsoft",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.microsoft.com/en-au/store/music/artist/ac-dc/d6040100-0200-11db-89ca-0019b92a3933",
+        "discovered_url": "https://www.microsoft.com/en-au/store/music/artist/ac-dc/d6040100-0200-11db-89ca-0019b92a3933",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.microsoft.com/en-us/store/music/artist/aerosmith/5b020000-0200-11db-89ca-0019b92a3933",
+        "discovered_url": "https://www.microsoft.com/en-us/store/music/artist/aerosmith/5b020000-0200-11db-89ca-0019b92a3933",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "setlist.fm": {
+    "display_name": "Setlist.Fm",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.setlist.fm/setlists/acdc-23d6807b.html",
+        "discovered_url": "https://www.setlist.fm/setlists/acdc-23d6807b.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.setlist.fm/setlists/justin-bieber-43d4f7ff.html",
+        "discovered_url": "https://www.setlist.fm/setlists/justin-bieber-43d4f7ff.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.setlist.fm/setlists/eminem-bd68122.html",
+        "discovered_url": "https://www.setlist.fm/setlists/eminem-bd68122.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tiktok.com": {
+    "display_name": "Tiktok",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.tiktok.com/@acdc",
+        "discovered_url": "https://www.tiktok.com/@acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.tiktok.com/@justinbieber",
+        "discovered_url": "https://www.tiktok.com/@justinbieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.tiktok.com/@eminem",
+        "discovered_url": "https://www.tiktok.com/@eminem",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "soundcloud.com": {
+    "display_name": "Soundcloud",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://soundcloud.com/acdcofficial",
+        "discovered_url": "https://soundcloud.com/acdcofficial",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://soundcloud.com/justinbieber",
+        "discovered_url": "https://soundcloud.com/justinbieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://soundcloud.com/travis-barker-official",
+        "discovered_url": "https://soundcloud.com/travis-barker-official",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "amazon.com.au": {
+    "display_name": "Amazon.Au",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://music.amazon.com.au/artists/B00136B4M8",
+        "discovered_url": "https://music.amazon.com.au/artists/B00136B4M8",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "napster.com": {
+    "display_name": "Napster",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://us.napster.com/artist/acdc",
+        "discovered_url": "https://us.napster.com/artist/acdc",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://us.napster.com/artist/eminem",
+        "discovered_url": "https://us.napster.com/artist/eminem",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "https://us.napster.com/artist/the-beatles",
+        "discovered_url": "https://us.napster.com/artist/the-beatles",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "amazon.com": {
+    "display_name": "Amazon",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ac Dc",
+        "source_url": "https://www.amazon.com/gp/product/B00136B4M8",
+        "discovered_url": "https://www.amazon.com/gp/product/B00136B4M8",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://music.amazon.com/artists/B000S2JA4W",
+        "discovered_url": "https://music.amazon.com/artists/B000S2JA4W",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "https://www.amazon.com/-/e/B000APTKDS",
+        "discovered_url": "https://www.amazon.com/-/e/B000APTKDS",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tumblr.com": {
+    "display_name": "Tumblr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://justinbieber.tumblr.com/",
+        "discovered_url": "https://justinbieber.tumblr.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "U2",
+        "source_url": "https://u2.tumblr.com/",
+        "discovered_url": "https://u2.tumblr.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://taylorswift.tumblr.com/",
+        "discovered_url": "https://taylorswift.tumblr.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "thejustinbiebershrine.com": {
+    "display_name": "Thejustinbiebershrine",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://thejustinbiebershrine.com/",
+        "discovered_url": "http://thejustinbiebershrine.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "justinbiebermusic.com": {
+    "display_name": "Justinbiebermusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "http://www.justinbiebermusic.com/",
+        "discovered_url": "http://www.justinbiebermusic.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "qobuz.com": {
+    "display_name": "Qobuz",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.qobuz.com/us-en/interpreter/justin-bieber/148205",
+        "discovered_url": "https://www.qobuz.com/us-en/interpreter/justin-bieber/148205",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.qobuz.com/us-en/interpreter/eminem/46971",
+        "discovered_url": "https://www.qobuz.com/us-en/interpreter/eminem/46971",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390",
+        "discovered_url": "https://www.qobuz.com/gb-en/interpreter/the-beatles/26390",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "vk.com": {
+    "display_name": "Vk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://vk.com/justinbieberofficial",
+        "discovered_url": "https://vk.com/justinbieberofficial",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://vk.com/bonjoviofficial",
+        "discovered_url": "https://vk.com/bonjoviofficial",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://vk.com/artist/taylorswift",
+        "discovered_url": "https://vk.com/artist/taylorswift",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "threads.com": {
+    "display_name": "Threads",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.threads.com/@justinbieber",
+        "discovered_url": "https://www.threads.com/@justinbieber",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.threads.com/@aerosmith",
+        "discovered_url": "https://www.threads.com/@aerosmith",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Chappell Roan",
+        "source_url": "https://www.threads.com/@chappellroan",
+        "discovered_url": "https://www.threads.com/@chappellroan",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "weibo.com": {
+    "display_name": "Weibo",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Justin Bieber",
+        "source_url": "https://www.weibo.com/u/7218012856",
+        "discovered_url": "https://www.weibo.com/u/7218012856",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.weibo.com/eminemcnbbs",
+        "discovered_url": "https://www.weibo.com/eminemcnbbs",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.weibo.com/u/3981271467",
+        "discovered_url": "https://www.weibo.com/u/3981271467",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "archive.org": {
+    "display_name": "Archive",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Nancy Wilson",
+        "source_url": "https://web.archive.org/web/20120208080535/http://missnancywilson.com/index.php?option=com_content&task=view&id=12&Itemid=26",
+        "discovered_url": "https://web.archive.org/web/20120208080535/http://missnancywilson.com/index.php?option=com_content&task=view&id=12&Itemid=26",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://web.archive.org/web/19970131061939/http://cip2.e-technik.uni-erlangen.de:8080/hyplan/gernhard/macca.html",
+        "discovered_url": "https://web.archive.org/web/19970131061939/http://cip2.e-technik.uni-erlangen.de:8080/hyplan/gernhard/macca.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "John Lennon",
+        "source_url": "https://web.archive.org/web/19981205111705/http://www.discographynet.com/lennon/lennon.html",
+        "discovered_url": "https://web.archive.org/web/19981205111705/http://www.discographynet.com/lennon/lennon.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "missnancywilson.com": {
+    "display_name": "Missnancywilson",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Nancy Wilson",
+        "source_url": "http://www.missnancywilson.com/",
+        "discovered_url": "http://www.missnancywilson.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "snaccooperative.org": {
+    "display_name": "Snaccooperative",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Nancy Wilson",
+        "source_url": "http://snaccooperative.org/ark:/99166/w6cs858v",
+        "discovered_url": "http://snaccooperative.org/ark:/99166/w6cs858v",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "http://snaccooperative.org/ark:/99166/w6tq9d37",
+        "discovered_url": "http://snaccooperative.org/ark:/99166/w6tq9d37",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://snaccooperative.org/ark:/99166/w6639nkm",
+        "discovered_url": "http://snaccooperative.org/ark:/99166/w6639nkm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "travisbarker.com": {
+    "display_name": "Travisbarker",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Travis Barker",
+        "source_url": "http://www.travisbarker.com/",
+        "discovered_url": "http://www.travisbarker.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "vgmdb.net": {
+    "display_name": "Vgmdb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Travis Barker",
+        "source_url": "https://vgmdb.net/artist/19691",
+        "discovered_url": "https://vgmdb.net/artist/19691",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://vgmdb.net/artist/44339",
+        "discovered_url": "https://vgmdb.net/artist/44339",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://vgmdb.net/artist/8175",
+        "discovered_url": "https://vgmdb.net/artist/8175",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "blogspot.com": {
+    "display_name": "Blogspot",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "http://shady-media.blogspot.com/2014/07/list-of-all-eminem-songs-1988-2014_21.html",
+        "discovered_url": "http://shady-media.blogspot.com/2014/07/list-of-all-eminem-songs-1988-2014_21.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Eminem",
+        "source_url": "http://shady-media.blogspot.com/",
+        "discovered_url": "http://shady-media.blogspot.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "eminem.net": {
+    "display_name": "Eminem",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "http://www.eminem.net/",
+        "discovered_url": "http://www.eminem.net/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "trshady.com": {
+    "display_name": "Trshady",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "http://www.trshady.com/",
+        "discovered_url": "http://www.trshady.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "pandora.com": {
+    "display_name": "Pandora",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "http://www.pandora.com/eminem",
+        "discovered_url": "http://www.pandora.com/eminem",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "http://www.pandora.com/louis-armstrong",
+        "discovered_url": "http://www.pandora.com/louis-armstrong",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "http://www.pandora.com/beatles",
+        "discovered_url": "http://www.pandora.com/beatles",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "eminem.com": {
+    "display_name": "Eminem",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.eminem.com/",
+        "discovered_url": "https://www.eminem.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "beatport.com": {
+    "display_name": "Beatport",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.beatport.com/artist/eminem/48400",
+        "discovered_url": "https://www.beatport.com/artist/eminem/48400",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://www.beatport.com/artist/bon-jovi/772266",
+        "discovered_url": "https://www.beatport.com/artist/bon-jovi/772266",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "50 Cent",
+        "source_url": "https://www.beatport.com/artist/50-cent/50457",
+        "discovered_url": "https://www.beatport.com/artist/50-cent/50457",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "junodownload.com": {
+    "display_name": "Junodownload",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.junodownload.com/artists/Eminem/releases/",
+        "discovered_url": "https://www.junodownload.com/artists/Eminem/releases/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.junodownload.com/artists/Paul+Mccartney/releases/",
+        "discovered_url": "https://www.junodownload.com/artists/Paul+Mccartney/releases/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "50 Cent",
+        "source_url": "https://www.junodownload.com/artists/50+Cent/releases/",
+        "discovered_url": "https://www.junodownload.com/artists/50+Cent/releases/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ticketmaster.com": {
+    "display_name": "Ticketmaster",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Eminem",
+        "source_url": "https://www.ticketmaster.com/artist/722998",
+        "discovered_url": "https://www.ticketmaster.com/artist/722998",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.ticketmaster.com/artist/734396",
+        "discovered_url": "https://www.ticketmaster.com/artist/734396",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://www.ticketmaster.com/artist/734608",
+        "discovered_url": "https://www.ticketmaster.com/artist/734608",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "pbs.org": {
+    "display_name": "Pbs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://www.pbs.org/wnet/gperf/education/ellington.html",
+        "discovered_url": "http://www.pbs.org/wnet/gperf/education/ellington.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "redhotjazz.com": {
+    "display_name": "Redhotjazz",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://www.redhotjazz.com/duke.html",
+        "discovered_url": "http://www.redhotjazz.com/duke.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://www.redhotjazz.com/duke.html",
+        "discovered_url": "http://www.redhotjazz.com/duke.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "http://www.redhotjazz.com/louie.html",
+        "discovered_url": "http://www.redhotjazz.com/louie.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "dukeellington.com": {
+    "display_name": "Dukeellington",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://www.dukeellington.com/",
+        "discovered_url": "http://www.dukeellington.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "dukeellingtonlegacy.com": {
+    "display_name": "Dukeellingtonlegacy",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "http://www.dukeellingtonlegacy.com/",
+        "discovered_url": "http://www.dukeellingtonlegacy.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ucsb.edu": {
+    "display_name": "Ucsb.Edu",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Duke Ellington",
+        "source_url": "https://adp.library.ucsb.edu/names/102155",
+        "discovered_url": "https://adp.library.ucsb.edu/names/102155",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "https://adp.library.ucsb.edu/names/101863",
+        "discovered_url": "https://adp.library.ucsb.edu/names/101863",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Billie Holiday",
+        "source_url": "https://adp.library.ucsb.edu/names/102008",
+        "discovered_url": "https://adp.library.ucsb.edu/names/102008",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "michaelminn.net": {
+    "display_name": "Michaelminn",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Louis Armstrong",
+        "source_url": "http://michaelminn.net/discographies/armstrong/",
+        "discovered_url": "http://michaelminn.net/discographies/armstrong/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "mplcommunications.com": {
+    "display_name": "Mplcommunications",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://www.mplcommunications.com/mccartney/Discography_Albums.asp",
+        "discovered_url": "http://www.mplcommunications.com/mccartney/Discography_Albums.asp",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "paulmccartney.com": {
+    "display_name": "Paulmccartney",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://www.paulmccartney.com/",
+        "discovered_url": "http://www.paulmccartney.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "castalbums.org": {
+    "display_name": "Castalbums",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://castalbums.org/people/Paul-McCartney/3953",
+        "discovered_url": "http://castalbums.org/people/Paul-McCartney/3953",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "https://castalbums.org/people/The-Beatles/118334",
+        "discovered_url": "https://castalbums.org/people/The-Beatles/118334",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "U2",
+        "source_url": "https://castalbums.org/people/U2/27522",
+        "discovered_url": "https://castalbums.org/people/U2/27522",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "mvdbase.com": {
+    "display_name": "Mvdbase",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://mvdbase.com/person.php?id=A4031",
+        "discovered_url": "http://mvdbase.com/person.php?id=A4031",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "http://mvdbase.com/person.php?id=A5200",
+        "discovered_url": "http://mvdbase.com/person.php?id=A5200",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ocremix.org": {
+    "display_name": "Ocremix",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://ocremix.org/artist/14057/paul-mccartney",
+        "discovered_url": "https://ocremix.org/artist/14057/paul-mccartney",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "soundtrackcollector.com": {
+    "display_name": "Soundtrackcollector",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://soundtrackcollector.com/composer/3012/",
+        "discovered_url": "http://soundtrackcollector.com/composer/3012/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "http://soundtrackcollector.com/composer/294/",
+        "discovered_url": "http://soundtrackcollector.com/composer/294/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Elton John",
+        "source_url": "http://soundtrackcollector.com/composer/1480/",
+        "discovered_url": "http://soundtrackcollector.com/composer/1480/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "theatricalia.com": {
+    "display_name": "Theatricalia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "http://theatricalia.com/person/26hm",
+        "discovered_url": "http://theatricalia.com/person/26hm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "onkyomusic.com": {
+    "display_name": "Onkyomusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://www.onkyomusic.com/GB/artist/paul-mccartney",
+        "discovered_url": "https://www.onkyomusic.com/GB/artist/paul-mccartney",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.onkyomusic.com/GB/artist/the-beatles",
+        "discovered_url": "https://www.onkyomusic.com/GB/artist/the-beatles",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "giphy.com": {
+    "display_name": "Giphy",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Mccartney",
+        "source_url": "https://giphy.com/paulmccartney",
+        "discovered_url": "https://giphy.com/paulmccartney",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "joolsholland.org.uk": {
+    "display_name": "Joolsholland.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Jools Holland",
+        "source_url": "http://www.joolsholland.org.uk/",
+        "discovered_url": "http://www.joolsholland.org.uk/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "joolsholland.com": {
+    "display_name": "Joolsholland",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Jools Holland",
+        "source_url": "http://www.joolsholland.com/",
+        "discovered_url": "http://www.joolsholland.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "countrymusichalloffame.org": {
+    "display_name": "Countrymusichalloffame",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Merle Haggard",
+        "source_url": "http://countrymusichalloffame.org/Inductees/InducteeDetail/merle-haggard",
+        "discovered_url": "http://countrymusichalloffame.org/Inductees/InducteeDetail/merle-haggard",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://countrymusichalloffame.org/full-list-of-inductees/view/johnny-cash",
+        "discovered_url": "http://countrymusichalloffame.org/full-list-of-inductees/view/johnny-cash",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "merlehaggard.com": {
+    "display_name": "Merlehaggard",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Merle Haggard",
+        "source_url": "http://merlehaggard.com/",
+        "discovered_url": "http://merlehaggard.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musicalbums.ai": {
+    "display_name": "Musicalbums.Ai",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://musicalbums.ai/artist/The%20Beatles",
+        "discovered_url": "https://musicalbums.ai/artist/The%20Beatles",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "musicmeter.nl": {
+    "display_name": "Musicmeter.Nl",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.musicmeter.nl/artist/13409",
+        "discovered_url": "https://www.musicmeter.nl/artist/13409",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "aboutthebeatles.com": {
+    "display_name": "Aboutthebeatles",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://aboutthebeatles.com/",
+        "discovered_url": "https://aboutthebeatles.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "beatlesfanclub.nl": {
+    "display_name": "Beatlesfanclub.Nl",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://beatlesfanclub.nl/",
+        "discovered_url": "https://beatlesfanclub.nl/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "beatles.ru": {
+    "display_name": "Beatles.Ru",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.beatles.ru/",
+        "discovered_url": "https://www.beatles.ru/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "dmbeatles.com": {
+    "display_name": "Dmbeatles",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.dmbeatles.com/",
+        "discovered_url": "https://www.dmbeatles.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "britishbeatlesfanclub.co.uk": {
+    "display_name": "Britishbeatlesfanclub.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "http://www.britishbeatlesfanclub.co.uk/",
+        "discovered_url": "http://www.britishbeatlesfanclub.co.uk/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "migu.cn": {
+    "display_name": "Migu.Cn",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://music.migu.cn/v3/music/artist/961",
+        "discovered_url": "https://music.migu.cn/v3/music/artist/961",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "https://music.migu.cn/v3/music/artist/395",
+        "discovered_url": "https://music.migu.cn/v3/music/artist/395",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://music.migu.cn/v3/music/artist/288906",
+        "discovered_url": "https://music.migu.cn/v3/music/artist/288906",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "anghami.com": {
+    "display_name": "Anghami",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://play.anghami.com/artist/4689",
+        "discovered_url": "https://play.anghami.com/artist/4689",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://play.anghami.com/artist/4732",
+        "discovered_url": "https://play.anghami.com/artist/4732",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "boomplay.com": {
+    "display_name": "Boomplay",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.boomplay.com/artists/3199029",
+        "discovered_url": "https://www.boomplay.com/artists/3199029",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.boomplay.com/artists/2092407",
+        "discovered_url": "https://www.boomplay.com/artists/2092407",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.boomplay.com/artists/1910212",
+        "discovered_url": "https://www.boomplay.com/artists/1910212",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "kkbox.com": {
+    "display_name": "Kkbox",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.kkbox.com/hk/en/artist/OsUSXTUzyafhCb7Mt7",
+        "discovered_url": "https://www.kkbox.com/hk/en/artist/OsUSXTUzyafhCb7Mt7",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.kkbox.com/hk/en/artist/KqGSBUJYQwYgkNtSSR",
+        "discovered_url": "https://www.kkbox.com/hk/en/artist/KqGSBUJYQwYgkNtSSR",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "thebeatles.com": {
+    "display_name": "Thebeatles",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.thebeatles.com/",
+        "discovered_url": "https://www.thebeatles.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "oclc.org": {
+    "display_name": "Oclc",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://id.oclc.org/worldcat/entity/E39QQPVp7YDyFJKp4fX79YyFWt",
+        "discovered_url": "https://id.oclc.org/worldcat/entity/E39QQPVp7YDyFJKp4fX79YyFWt",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "U2",
+        "source_url": "https://id.oclc.org/worldcat/entity/E39QQPVp7PhHm9gmb43gBbbm9t",
+        "discovered_url": "https://id.oclc.org/worldcat/entity/E39QQPVp7PhHm9gmb43gBbbm9t",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Melissa Etheridge",
+        "source_url": "https://id.oclc.org/worldcat/entity/E39PBJxWXh4R94WR7kBwjQw9jC",
+        "discovered_url": "https://id.oclc.org/worldcat/entity/E39PBJxWXh4R94WR7kBwjQw9jC",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "progarchives.com": {
+    "display_name": "Progarchives",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.progarchives.com/artist.asp?id=2407",
+        "discovered_url": "https://www.progarchives.com/artist.asp?id=2407",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "mora.jp": {
+    "display_name": "Mora.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://mora.jp/artist/222117/all",
+        "discovered_url": "https://mora.jp/artist/222117/all",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://mora.jp/artist/11574/",
+        "discovered_url": "https://mora.jp/artist/11574/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "https://mora.jp/artist/21916/",
+        "discovered_url": "https://mora.jp/artist/21916/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "amazon.co.uk": {
+    "display_name": "Amazon.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.amazon.co.uk/-/e/B000APTK6K",
+        "discovered_url": "https://www.amazon.co.uk/-/e/B000APTK6K",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "https://music.amazon.co.uk/artists/B001E2UWTC",
+        "discovered_url": "https://music.amazon.co.uk/artists/B001E2UWTC",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Elton John",
+        "source_url": "https://music.amazon.co.uk/artists/B000QJK22G",
+        "discovered_url": "https://music.amazon.co.uk/artists/B000QJK22G",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "cdjapan.co.jp": {
+    "display_name": "Cdjapan.Co.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.cdjapan.co.jp/person/132351",
+        "discovered_url": "https://www.cdjapan.co.jp/person/132351",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.cdjapan.co.jp/person/700246017",
+        "discovered_url": "https://www.cdjapan.co.jp/person/700246017",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://www.cdjapan.co.jp/person/700170789",
+        "discovered_url": "https://www.cdjapan.co.jp/person/700170789",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "yesasia.com": {
+    "display_name": "Yesasia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "The Beatles",
+        "source_url": "https://www.yesasia.com/0-aid3935936-0-bpt.47-en/list.html",
+        "discovered_url": "https://www.yesasia.com/0-aid3935936-0-bpt.47-en/list.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "https://www.yesasia.com/0-aid1248065-0-bpt.47-en/list.html",
+        "discovered_url": "https://www.yesasia.com/0-aid1248065-0-bpt.47-en/list.html",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.yesasia.com/0-aid1895644-0-bpt.47-en/list.html",
+        "discovered_url": "https://www.yesasia.com/0-aid1895644-0-bpt.47-en/list.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "heart-music.com": {
+    "display_name": "Heart-Music",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Heart",
+        "source_url": "http://www.heart-music.com/albums/albums.asp",
+        "discovered_url": "http://www.heart-music.com/albums/albums.asp",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Heart",
+        "source_url": "https://www.heart-music.com/",
+        "discovered_url": "https://www.heart-music.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "theaudiodb.com": {
+    "display_name": "Theaudiodb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "https://www.theaudiodb.com/artist/111638",
+        "discovered_url": "https://www.theaudiodb.com/artist/111638",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "sofeminine.co.uk": {
+    "display_name": "Sofeminine.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "http://www.sofeminine.co.uk/w/star/f2699/fan-club/Amy-Winehouse.html",
+        "discovered_url": "http://www.sofeminine.co.uk/w/star/f2699/fan-club/Amy-Winehouse.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "metro.co.uk": {
+    "display_name": "Metro.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "http://img.metro.co.uk/i/pix/2007/02/winehousePA_450x300.jpg",
+        "discovered_url": "http://img.metro.co.uk/i/pix/2007/02/winehousePA_450x300.jpg",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "amywinehouse.com": {
+    "display_name": "Amywinehouse",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "http://www.amywinehouse.com/",
+        "discovered_url": "http://www.amywinehouse.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "universal-music.co.jp": {
+    "display_name": "Universal-Music.Co.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "http://www.universal-music.co.jp/amy-winehouse/",
+        "discovered_url": "http://www.universal-music.co.jp/amy-winehouse/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "U2",
+        "source_url": "https://www.universal-music.co.jp/u2/discography/",
+        "discovered_url": "https://www.universal-music.co.jp/u2/discography/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.universal-music.co.jp/taylor-swift/",
+        "discovered_url": "https://www.universal-music.co.jp/taylor-swift/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tower.jp": {
+    "display_name": "Tower.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "https://tower.jp/artist/372165",
+        "discovered_url": "https://tower.jp/artist/372165",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Elton John",
+        "source_url": "https://tower.jp/artist/175643",
+        "discovered_url": "https://tower.jp/artist/175643",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "purevolume.com": {
+    "display_name": "Purevolume",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Amy Winehouse",
+        "source_url": "http://www.purevolume.com/winehouse",
+        "discovered_url": "http://www.purevolume.com/winehouse",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://purevolume.com/bonjovi",
+        "discovered_url": "https://purevolume.com/bonjovi",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.purevolume.com/johnnycashthegoodprofile",
+        "discovered_url": "http://www.purevolume.com/johnnycashthegoodprofile",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "berniemarsden.co.uk": {
+    "display_name": "Berniemarsden.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bernie Marsden",
+        "source_url": "http://www.berniemarsden.co.uk/",
+        "discovered_url": "http://www.berniemarsden.co.uk/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "pro-quo.com": {
+    "display_name": "Pro-Quo",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.pro-quo.com/aerosmith/",
+        "discovered_url": "https://www.pro-quo.com/aerosmith/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "aerosmithtemple.com": {
+    "display_name": "Aerosmithtemple",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Aerosmith",
+        "source_url": "http://www.aerosmithtemple.com/",
+        "discovered_url": "http://www.aerosmithtemple.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "aerosmith-lyrics.com": {
+    "display_name": "Aerosmith-Lyrics",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Aerosmith",
+        "source_url": "http://www.aerosmith-lyrics.com/",
+        "discovered_url": "http://www.aerosmith-lyrics.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "aerosmith.com": {
+    "display_name": "Aerosmith",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Aerosmith",
+        "source_url": "https://www.aerosmith.com/",
+        "discovered_url": "https://www.aerosmith.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "hln.be": {
+    "display_name": "Hln.Be",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bon Jovi",
+        "source_url": "http://www.hln.be/regio/nieuws-uit-oostkamp/parkpop-strikt-ramones-en-foo-fighters-of-toch-hun-geweldige-tributebands-a2215106/",
+        "discovered_url": "http://www.hln.be/regio/nieuws-uit-oostkamp/parkpop-strikt-ramones-en-foo-fighters-of-toch-hun-geweldige-tributebands-a2215106/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bonjovi.com": {
+    "display_name": "Bonjovi",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://bonjovi.com/",
+        "discovered_url": "https://bonjovi.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "metalmusicarchives.com": {
+    "display_name": "Metalmusicarchives",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bon Jovi",
+        "source_url": "https://www.metalmusicarchives.com/artist/bon-jovi",
+        "discovered_url": "https://www.metalmusicarchives.com/artist/bon-jovi",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Slash",
+        "source_url": "https://www.metalmusicarchives.com/artist/slash",
+        "discovered_url": "https://www.metalmusicarchives.com/artist/slash",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "maniadb.com": {
+    "display_name": "Maniadb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bon Jovi",
+        "source_url": "http://www.maniadb.com/artist/118130",
+        "discovered_url": "http://www.maniadb.com/artist/118130",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Tina Turner",
+        "source_url": "http://www.maniadb.com/artist/132027",
+        "discovered_url": "http://www.maniadb.com/artist/132027",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Timbaland",
+        "source_url": "http://www.maniadb.com/artist/131998",
+        "discovered_url": "http://www.maniadb.com/artist/131998",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "its-official.com": {
+    "display_name": "Its-Official",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Kiss",
+        "source_url": "http://www.its-official.com/kiss.html",
+        "discovered_url": "http://www.its-official.com/kiss.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "kissonline.com": {
+    "display_name": "Kissonline",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Kiss",
+        "source_url": "http://www.kissonline.com/",
+        "discovered_url": "http://www.kissonline.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "45worlds.com": {
+    "display_name": "45Worlds",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Kiss",
+        "source_url": "https://www.45worlds.com/live/artist/kiss",
+        "discovered_url": "https://www.45worlds.com/live/artist/kiss",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kiss",
+        "source_url": "https://www.45worlds.com/vinyl/artist/kiss",
+        "discovered_url": "https://www.45worlds.com/vinyl/artist/kiss",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "sabrinacarpenter.com": {
+    "display_name": "Sabrinacarpenter",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Sabrina Carpenter",
+        "source_url": "http://www.sabrinacarpenter.com/",
+        "discovered_url": "http://www.sabrinacarpenter.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "livenation.co.uk": {
+    "display_name": "Livenation.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Sabrina Carpenter",
+        "source_url": "https://www.livenation.co.uk/artist-947392",
+        "discovered_url": "https://www.livenation.co.uk/artist-947392",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "yandex.com": {
+    "display_name": "Yandex",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Chappell Roan",
+        "source_url": "https://music.yandex.com/artist/5246714",
+        "discovered_url": "https://music.yandex.com/artist/5246714",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "iamchappellroan.com": {
+    "display_name": "Iamchappellroan",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Chappell Roan",
+        "source_url": "http://iamchappellroan.com/",
+        "discovered_url": "http://iamchappellroan.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "themoviedb.org": {
+    "display_name": "Themoviedb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Chappell Roan",
+        "source_url": "https://www.themoviedb.org/person/4528424",
+        "discovered_url": "https://www.themoviedb.org/person/4528424",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Melissa Etheridge",
+        "source_url": "https://www.themoviedb.org/person/71425",
+        "discovered_url": "https://www.themoviedb.org/person/71425",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "wikidot.com": {
+    "display_name": "Wikidot",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Questlove",
+        "source_url": "http://brucebase.wikidot.com/relation:questlove",
+        "discovered_url": "http://brucebase.wikidot.com/relation:questlove",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "questlove.com": {
+    "display_name": "Questlove",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Questlove",
+        "source_url": "http://www.questlove.com/",
+        "discovered_url": "http://www.questlove.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "annwilsonofheart.com": {
+    "display_name": "Annwilsonofheart",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Ann Wilson",
+        "source_url": "http://www.annwilsonofheart.com/",
+        "discovered_url": "http://www.annwilsonofheart.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "50cent.com": {
+    "display_name": "50Cent",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "50 Cent",
+        "source_url": "http://50cent.com/",
+        "discovered_url": "http://50cent.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "reverbnation.com": {
+    "display_name": "Reverbnation",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "50 Cent",
+        "source_url": "https://www.reverbnation.com/50centofficial",
+        "discovered_url": "https://www.reverbnation.com/50centofficial",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Timbaland",
+        "source_url": "https://www.reverbnation.com/timbaland",
+        "discovered_url": "https://www.reverbnation.com/timbaland",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "2pac.com": {
+    "display_name": "2Pac",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Tupac Shakur",
+        "source_url": "https://www.2pac.com/",
+        "discovered_url": "https://www.2pac.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tinaturnerfanclub.eu": {
+    "display_name": "Tinaturnerfanclub.Eu",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Tina Turner",
+        "source_url": "http://www.tinaturnerfanclub.eu/",
+        "discovered_url": "http://www.tinaturnerfanclub.eu/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tinaturnerofficial.com": {
+    "display_name": "Tinaturnerofficial",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Tina Turner",
+        "source_url": "https://www.tinaturnerofficial.com/",
+        "discovered_url": "https://www.tinaturnerofficial.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ew.com": {
+    "display_name": "Entertainment Weekly",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Timbaland",
+        "source_url": "https://en.wikipedia.org/wiki/Timbaland",
+        "mention_name": "entertainment weekly",
+        "mention_type": "wikipedia_mention"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "timbaland.com": {
+    "display_name": "Timbaland",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Timbaland",
+        "source_url": "https://timbaland.com/",
+        "discovered_url": "https://timbaland.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "timbalandmusic.com": {
+    "display_name": "Timbalandmusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Timbaland",
+        "source_url": "http://www.timbalandmusic.com/",
+        "discovered_url": "http://www.timbalandmusic.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "wolfgangs.com": {
+    "display_name": "Wolfgangs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "https://www.wolfgangs.com/bob-dylan/",
+        "discovered_url": "https://www.wolfgangs.com/bob-dylan/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jrd.org.uk": {
+    "display_name": "Jrd.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "http://cds.jrd.org.uk/list/titles.bob.shtml",
+        "discovered_url": "http://cds.jrd.org.uk/list/titles.bob.shtml",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jokerman.org.uk": {
+    "display_name": "Jokerman.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "http://jokerman.org.uk/lb/LosslessBob.html",
+        "discovered_url": "http://jokerman.org.uk/lb/LosslessBob.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "boblinks.com": {
+    "display_name": "Boblinks",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "http://www.boblinks.com/",
+        "discovered_url": "http://www.boblinks.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bobsboots.com": {
+    "display_name": "Bobsboots",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "http://www.bobsboots.com/",
+        "discovered_url": "http://www.bobsboots.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "searchingforagem.com": {
+    "display_name": "Searchingforagem",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "http://www.searchingforagem.com/",
+        "discovered_url": "http://www.searchingforagem.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bobdylan.com": {
+    "display_name": "Bobdylan",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bob Dylan",
+        "source_url": "https://bobdylan.com/",
+        "discovered_url": "https://bobdylan.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "paulstanley.com": {
+    "display_name": "Paulstanley",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Stanley",
+        "source_url": "https://www.paulstanley.com/",
+        "discovered_url": "https://www.paulstanley.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "animenewsnetwork.com": {
+    "display_name": "Animenewsnetwork",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Stanley",
+        "source_url": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=153805",
+        "discovered_url": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=153805",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Gene Simmons",
+        "source_url": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=70873",
+        "discovered_url": "https://www.animenewsnetwork.com/encyclopedia/people.php?id=70873",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "starzik.com": {
+    "display_name": "Starzik",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Paul Stanley",
+        "source_url": "http://www.starzik.com/mp3/artistes/Stanley-Paul-239486-0.html",
+        "discovered_url": "http://www.starzik.com/mp3/artistes/Stanley-Paul-239486-0.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "snakepit.org": {
+    "display_name": "Snakepit",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Slash",
+        "source_url": "http://www.snakepit.org/",
+        "discovered_url": "http://www.snakepit.org/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "telegraph.co.uk": {
+    "display_name": "Telegraph.Co.Uk",
+    "type": "podcast",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Slash",
+        "source_url": "http://www.telegraph.co.uk/culture/music/rockandpopfeatures/7820653/Slash-interview.html",
+        "discovered_url": "http://www.telegraph.co.uk/culture/music/rockandpopfeatures/7820653/Slash-interview.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "slashonline.com": {
+    "display_name": "Slashonline",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Slash",
+        "source_url": "https://slashonline.com/",
+        "discovered_url": "https://slashonline.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Slash",
+        "source_url": "http://www.slashonline.com/",
+        "discovered_url": "http://www.slashonline.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "tmstor.es": {
+    "display_name": "Tmstor.Es",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Slash",
+        "source_url": "https://slash.tmstor.es/",
+        "discovered_url": "https://slash.tmstor.es/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bandcamp.com": {
+    "display_name": "Bandcamp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Sonic Youth",
+        "source_url": "https://sonicyoutharchive.bandcamp.com/",
+        "discovered_url": "https://sonicyoutharchive.bandcamp.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Sonic Youth",
+        "source_url": "https://sonicyouth.bandcamp.com/",
+        "discovered_url": "https://sonicyouth.bandcamp.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Kim Gordon",
+        "source_url": "https://kimgordon.bandcamp.com/",
+        "discovered_url": "https://kimgordon.bandcamp.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "sonicyouth.com": {
+    "display_name": "Sonicyouth",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Sonic Youth",
+        "source_url": "http://www.sonicyouth.com/",
+        "discovered_url": "http://www.sonicyouth.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "blackcat.nl": {
+    "display_name": "Blackcat.Nl",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "https://tims.blackcat.nl/messages/johnny_cash.htm",
+        "discovered_url": "https://tims.blackcat.nl/messages/johnny_cash.htm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "albumcredits.com": {
+    "display_name": "Albumcredits",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://albumcredits.com/Profile/1548",
+        "discovered_url": "http://albumcredits.com/Profile/1548",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "rcs-discography.com": {
+    "display_name": "Rcs-Discography",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://rcs-discography.com/rcs/artist.php?key=cash3600",
+        "discovered_url": "http://rcs-discography.com/rcs/artist.php?key=cash3600",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "lpdiscography.com": {
+    "display_name": "Lpdiscography",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.lpdiscography.com/c/Cash/cash2.htm",
+        "discovered_url": "http://www.lpdiscography.com/c/Cash/cash2.htm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "rocky-52.net": {
+    "display_name": "Rocky-52",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.rocky-52.net/chanteursc/cash_j.htm",
+        "discovered_url": "http://www.rocky-52.net/chanteursc/cash_j.htm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "cmt.com": {
+    "display_name": "Cmt",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.cmt.com/artists/az/cash_johnny/artist.jhtml",
+        "discovered_url": "http://www.cmt.com/artists/az/cash_johnny/artist.jhtml",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "gactv.com": {
+    "display_name": "Gactv",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.gactv.com/gac/ar_az_johnny_cash",
+        "discovered_url": "http://www.gactv.com/gac/ar_az_johnny_cash",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "losthighwayrecords.com": {
+    "display_name": "Losthighwayrecords",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "http://www.losthighwayrecords.com/johnnycash",
+        "discovered_url": "http://www.losthighwayrecords.com/johnnycash",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "johnnycash.com": {
+    "display_name": "Johnnycash",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Johnny Cash",
+        "source_url": "https://www.johnnycash.com/",
+        "discovered_url": "https://www.johnnycash.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "ibighit.com": {
+    "display_name": "Ibighit",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "http://bts.ibighit.com/",
+        "discovered_url": "http://bts.ibighit.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bts-official.jp": {
+    "display_name": "Bts-Official.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "http://bts-official.jp/",
+        "discovered_url": "http://bts-official.jp/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "daum.net": {
+    "display_name": "Daum",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "http://cafe.daum.net/BANGTAN",
+        "discovered_url": "http://cafe.daum.net/BANGTAN",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "generasia.com": {
+    "display_name": "Generasia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "https://www.generasia.com/wiki/Bangtan_Boys",
+        "discovered_url": "https://www.generasia.com/wiki/Bangtan_Boys",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bugs.co.kr": {
+    "display_name": "Bugs.Co.Kr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "https://music.bugs.co.kr/artist/80079394",
+        "discovered_url": "https://music.bugs.co.kr/artist/80079394",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bts",
+        "source_url": "https://music.bugs.co.kr/artist/80079394",
+        "discovered_url": "https://music.bugs.co.kr/artist/80079394",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "genie.co.kr": {
+    "display_name": "Genie.Co.Kr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635",
+        "discovered_url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bts",
+        "source_url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635",
+        "discovered_url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80221635",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "melon.com": {
+    "display_name": "Melon",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Bts",
+        "source_url": "https://www.melon.com/artist/detail.htm?artistId=672375",
+        "discovered_url": "https://www.melon.com/artist/detail.htm?artistId=672375",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Bts",
+        "source_url": "https://www.melon.com/artist/detail.htm?artistId=672375",
+        "discovered_url": "https://www.melon.com/artist/detail.htm?artistId=672375",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.melon.com/artist/detail.htm?artistId=325867",
+        "discovered_url": "https://www.melon.com/artist/detail.htm?artistId=325867",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "free.fr": {
+    "display_name": "Free.Fr",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "http://u2discography.free.fr/u2/",
+        "discovered_url": "http://u2discography.free.fr/u2/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "atu2.com": {
+    "display_name": "Atu2",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://www.atu2.com/",
+        "discovered_url": "https://www.atu2.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "u2songs.com": {
+    "display_name": "U2Songs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://www.u2songs.com/",
+        "discovered_url": "https://www.u2songs.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "u2wanderer.org": {
+    "display_name": "U2Wanderer",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "http://www.u2wanderer.org/",
+        "discovered_url": "http://www.u2wanderer.org/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "j-lyric.net": {
+    "display_name": "J-Lyric",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://j-lyric.net/artist/a051023/",
+        "discovered_url": "https://j-lyric.net/artist/a051023/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "u2.com": {
+    "display_name": "U2",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://www.u2.com/",
+        "discovered_url": "https://www.u2.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "livejournal.com": {
+    "display_name": "Livejournal",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://u2.livejournal.com/",
+        "discovered_url": "https://u2.livejournal.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Elton John",
+        "source_url": "http://ej_fans.livejournal.com/",
+        "discovered_url": "http://ej_fans.livejournal.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Blink 182",
+        "source_url": "http://blink182fans.livejournal.com/",
+        "discovered_url": "http://blink182fans.livejournal.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "goodreads.com": {
+    "display_name": "Goodreads",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://www.goodreads.com/author/show/56632",
+        "discovered_url": "https://www.goodreads.com/author/show/56632",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "librarything.com": {
+    "display_name": "Librarything",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "U2",
+        "source_url": "https://www.librarything.com/author/1321396846",
+        "discovered_url": "https://www.librarything.com/author/1321396846",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "bookbrainz.org": {
+    "display_name": "Bookbrainz",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Elton John",
+        "source_url": "https://bookbrainz.org/author/fb5fcd43-631b-4477-8c9f-c2f6774cf50a",
+        "discovered_url": "https://bookbrainz.org/author/fb5fcd43-631b-4477-8c9f-c2f6774cf50a",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Laurie Anderson",
+        "source_url": "https://bookbrainz.org/author/6fff9ef5-4b6f-4f5d-8062-f8c93996bfba",
+        "discovered_url": "https://bookbrainz.org/author/6fff9ef5-4b6f-4f5d-8062-f8c93996bfba",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://bookbrainz.org/author/9ebd399c-3e9d-4421-b4cb-b72f83023123",
+        "discovered_url": "https://bookbrainz.org/author/9ebd399c-3e9d-4421-b4cb-b72f83023123",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "eltonography.com": {
+    "display_name": "Eltonography",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Elton John",
+        "source_url": "http://www.eltonography.com/",
+        "discovered_url": "http://www.eltonography.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "eltonjohn.com": {
+    "display_name": "Eltonjohn",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Elton John",
+        "source_url": "https://www.eltonjohn.com/",
+        "discovered_url": "https://www.eltonjohn.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "concerts50.com": {
+    "display_name": "Concerts50",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Elton John",
+        "source_url": "https://concerts50.com/artists/elton-john-tour-dates-usa",
+        "discovered_url": "https://concerts50.com/artists/elton-john-tour-dates-usa",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "pinterest.com": {
+    "display_name": "Pinterest",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Elton John",
+        "source_url": "https://www.pinterest.com/eltonjohndotcom/",
+        "discovered_url": "https://www.pinterest.com/eltonjohndotcom/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "melissaetheridge.com": {
+    "display_name": "Melissaetheridge",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Melissa Etheridge",
+        "source_url": "http://www.melissaetheridge.com/",
+        "discovered_url": "http://www.melissaetheridge.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "rockhall.com": {
+    "display_name": "Rockhall",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Billie Holiday",
+        "source_url": "http://rockhall.com/inductees/billie-holiday/bio/",
+        "discovered_url": "http://rockhall.com/inductees/billie-holiday/bio/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "John Lennon",
+        "source_url": "http://www.rockhall.com/inductees/john-lennon/",
+        "discovered_url": "http://www.rockhall.com/inductees/john-lennon/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Janis Joplin",
+        "source_url": "http://rockhall.com/inductees/janis-joplin/bio/",
+        "discovered_url": "http://rockhall.com/inductees/janis-joplin/bio/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "billieholiday.be": {
+    "display_name": "Billieholiday.Be",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Billie Holiday",
+        "source_url": "http://www.billieholiday.be/",
+        "discovered_url": "http://www.billieholiday.be/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "billieholidaysongs.com": {
+    "display_name": "Billieholidaysongs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Billie Holiday",
+        "source_url": "http://www.billieholidaysongs.com/",
+        "discovered_url": "http://www.billieholidaysongs.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "billieholiday.com": {
+    "display_name": "Billieholiday",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Billie Holiday",
+        "source_url": "https://billieholiday.com/",
+        "discovered_url": "https://billieholiday.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Billie Holiday",
+        "source_url": "http://www.billieholiday.com/",
+        "discovered_url": "http://www.billieholiday.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "muzines.co.uk": {
+    "display_name": "Muzines.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Laurie Anderson",
+        "source_url": "http://www.muzines.co.uk/articles/brave-new-science/2066",
+        "discovered_url": "http://www.muzines.co.uk/articles/brave-new-science/2066",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Laurie Anderson",
+        "source_url": "http://www.muzines.co.uk/articles/laurie-anderson/7376",
+        "discovered_url": "http://www.muzines.co.uk/articles/laurie-anderson/7376",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Laurie Anderson",
+        "source_url": "http://www.muzines.co.uk/articles/making-music-with-big-science/1805",
+        "discovered_url": "http://www.muzines.co.uk/articles/making-music-with-big-science/1805",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "laurieanderson.com": {
+    "display_name": "Laurieanderson",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Laurie Anderson",
+        "source_url": "http://www.laurieanderson.com/",
+        "discovered_url": "http://www.laurieanderson.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "rockabilly.nl": {
+    "display_name": "Rockabilly.Nl",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "John Lennon",
+        "source_url": "http://www.rockabilly.nl/references/messages/john_lennon.htm",
+        "discovered_url": "http://www.rockabilly.nl/references/messages/john_lennon.htm",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jpgr.co.uk": {
+    "display_name": "Jpgr.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "John Lennon",
+        "source_url": "http://www.jpgr.co.uk/i_bootleg_tracks_john.html",
+        "discovered_url": "http://www.jpgr.co.uk/i_bootleg_tracks_john.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "johnlennon.com": {
+    "display_name": "Johnlennon",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "John Lennon",
+        "source_url": "http://www.johnlennon.com/",
+        "discovered_url": "http://www.johnlennon.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "findagrave.com": {
+    "display_name": "Findagrave",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Janis Joplin",
+        "source_url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=555",
+        "discovered_url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=555",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Charlie Parker",
+        "source_url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=1426&pt=Charlie%20Parker",
+        "discovered_url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=1426&pt=Charlie%20Parker",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "officialjanis.com": {
+    "display_name": "Officialjanis",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Janis Joplin",
+        "source_url": "http://www.officialjanis.com/disco_boutique.html",
+        "discovered_url": "http://www.officialjanis.com/disco_boutique.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "janisjoplin.com": {
+    "display_name": "Janisjoplin",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Janis Joplin",
+        "source_url": "http://www.janisjoplin.com/",
+        "discovered_url": "http://www.janisjoplin.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "metal-archives.com": {
+    "display_name": "Metal-Archives",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Dave Grohl",
+        "source_url": "https://www.metal-archives.com/artists/Dave_Grohl/29937",
+        "discovered_url": "https://www.metal-archives.com/artists/Dave_Grohl/29937",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Lou Reed",
+        "source_url": "https://www.metal-archives.com/artists/Lou_Reed/297671",
+        "discovered_url": "https://www.metal-archives.com/artists/Lou_Reed/297671",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "genesimmons.com": {
+    "display_name": "Genesimmons",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Gene Simmons",
+        "source_url": "http://www.genesimmons.com/",
+        "discovered_url": "http://www.genesimmons.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "arrakis.es": {
+    "display_name": "Arrakis.Es",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Lou Reed",
+        "source_url": "http://www.arrakis.es/~e.miquel/rnranimal/",
+        "discovered_url": "http://www.arrakis.es/~e.miquel/rnranimal/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Lou Reed",
+        "source_url": "http://www.arrakis.es/~e.miquel/rnranimal/",
+        "discovered_url": "http://www.arrakis.es/~e.miquel/rnranimal/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "loureed.it": {
+    "display_name": "Loureed.It",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Lou Reed",
+        "source_url": "http://www.loureed.it/",
+        "discovered_url": "http://www.loureed.it/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "loureed.com": {
+    "display_name": "Loureed",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Lou Reed",
+        "source_url": "http://www.loureed.com/",
+        "discovered_url": "http://www.loureed.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "loureed.org": {
+    "display_name": "Loureed",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Lou Reed",
+        "source_url": "http://www.loureed.org/",
+        "discovered_url": "http://www.loureed.org/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "kimaltheagordon.com": {
+    "display_name": "Kimaltheagordon",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Kim Gordon",
+        "source_url": "https://kimaltheagordon.com/",
+        "discovered_url": "https://kimaltheagordon.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "jazzdisco.org": {
+    "display_name": "Jazzdisco",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Charlie Parker",
+        "source_url": "http://www.jazzdisco.org/bird/",
+        "discovered_url": "http://www.jazzdisco.org/bird/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Charlie Parker",
+        "source_url": "http://www.jazzdisco.org/charlie-parker/discography/",
+        "discovered_url": "http://www.jazzdisco.org/charlie-parker/discography/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "kyushu-ns.ac.jp": {
+    "display_name": "Kyushu-Ns.Ac.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Charlie Parker",
+        "source_url": "http://www.kyushu-ns.ac.jp/~allan/Documents/CP_M.html",
+        "discovered_url": "http://www.kyushu-ns.ac.jp/~allan/Documents/CP_M.html",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "birdlives.co.uk": {
+    "display_name": "Birdlives.Co.Uk",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Charlie Parker",
+        "source_url": "http://www.birdlives.co.uk/",
+        "discovered_url": "http://www.birdlives.co.uk/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "taylorswift.com.br": {
+    "display_name": "Taylorswift.Br",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://taylorswift.com.br/",
+        "discovered_url": "https://taylorswift.com.br/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "taylorswiftswitzerland.ch": {
+    "display_name": "Taylorswiftswitzerland.Ch",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://taylorswiftswitzerland.ch/",
+        "discovered_url": "https://taylorswiftswitzerland.ch/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "taylorswiftweb.net": {
+    "display_name": "Taylorswiftweb",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.taylorswiftweb.net/",
+        "discovered_url": "https://www.taylorswiftweb.net/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "webs.com": {
+    "display_name": "Webs",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://taylorswiftfanclubofficial.webs.com/",
+        "discovered_url": "https://taylorswiftfanclubofficial.webs.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "metamus.ru": {
+    "display_name": "Metamus.Ru",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "http://www.metamus.ru/name/3933/",
+        "discovered_url": "http://www.metamus.ru/name/3933/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "taylorswift.com": {
+    "display_name": "Taylorswift",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.taylorswift.com/",
+        "discovered_url": "https://www.taylorswift.com/",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://store.taylorswift.com/collections/music-products",
+        "discovered_url": "https://store.taylorswift.com/collections/music-products",
+        "mention_type": "musicbrainz_related_url"
+      },
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://storeca.taylorswift.com/*/music/",
+        "discovered_url": "https://storeca.taylorswift.com/*/music/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "taylorswift.jp": {
+    "display_name": "Taylorswift.Jp",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "http://taylorswift.jp/",
+        "discovered_url": "http://taylorswift.jp/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "umusic.ca": {
+    "display_name": "Umusic.Ca",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://shop.umusic.ca/artist.html?a=taylor_swift",
+        "discovered_url": "https://shop.umusic.ca/artist.html?a=taylor_swift",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "universal-music.de": {
+    "display_name": "Universal-Music.De",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://taylorswift.universal-music.de/",
+        "discovered_url": "https://taylorswift.universal-music.de/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "avana.asia": {
+    "display_name": "Avana.Asia",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://universalmusicshop.avana.asia/categories/67133",
+        "discovered_url": "https://universalmusicshop.avana.asia/categories/67133",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "target.com": {
+    "display_name": "Target",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.target.com/c/-/N-54u4c",
+        "discovered_url": "https://www.target.com/c/-/N-54u4c",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "urbanoutfitters.com": {
+    "display_name": "Urbanoutfitters",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.urbanoutfitters.com/taylor-swift-exclusive-collection",
+        "discovered_url": "https://www.urbanoutfitters.com/taylor-swift-exclusive-collection",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "snapchat.com": {
+    "display_name": "Snapchat",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://snapchat.com/add/taylorswift",
+        "discovered_url": "https://snapchat.com/add/taylorswift",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "livenation.com": {
+    "display_name": "Livenation",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.livenation.com/artist/K8vZ9175Tr0",
+        "discovered_url": "https://www.livenation.com/artist/K8vZ9175Tr0",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "dailymotion.com": {
+    "display_name": "Dailymotion",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Taylor Swift",
+        "source_url": "https://www.dailymotion.com/taylorswift",
+        "discovered_url": "https://www.dailymotion.com/taylorswift",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "onedirection.net": {
+    "display_name": "Onedirection",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "One Direction",
+        "source_url": "http://www.onedirection.net/",
+        "discovered_url": "http://www.onedirection.net/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "onedirectionmusic.com": {
+    "display_name": "Onedirectionmusic",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "One Direction",
+        "source_url": "http://www.onedirectionmusic.com/",
+        "discovered_url": "http://www.onedirectionmusic.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  },
+  "blink182.com": {
+    "display_name": "Blink182",
+    "type": "publication",
+    "counts": {
+      "links": 0,
+      "text_mentions": 0,
+      "title_mentions": 0
+    },
+    "examples": [
+      {
+        "artist": "Blink 182",
+        "source_url": "https://www.blink182.com/",
+        "discovered_url": "https://www.blink182.com/",
+        "mention_type": "musicbrainz_related_url"
+      }
+    ],
+    "last_seen": "2025-08-20",
+    "score": 0
+  }
+}

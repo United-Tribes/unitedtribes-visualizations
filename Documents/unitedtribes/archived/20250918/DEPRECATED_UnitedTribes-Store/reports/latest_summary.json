@@ -1,0 +1,170 @@
+{
+  "run_id": "session_20250819_102725_533c63bb",
+  "start_time": "2025-08-19T10:27:25.405667",
+  "end_time": "",
+  "artists_processed": [
+    "Taylor Swift",
+    "Joni Mitchell"
+  ],
+  "sources_attempted": [
+    "rolling_stone",
+    "npr_music",
+    "consequence",
+    "pitchfork",
+    "nme",
+    "nytimes",
+    "musicbrainz",
+    "wikipedia",
+    "billboard",
+    "variety",
+    "guardian"
+  ],
+  "total_articles": 0,
+  "total_words": 0,
+  "success_rate": 0.0,
+  "errors": [],
+  "new_entities_discovered": 0,
+  "pitchfork": {
+    "total_articles": 9,
+    "total_words": 12858,
+    "artists_processed": [
+      "Taylor Swift",
+      "Joni Mitchell"
+    ],
+    "last_updated": "2025-08-19T10:32:43.290998"
+  },
+  "backlog": {
+    "artists_discovered": 394,
+    "sources_discovered": 3,
+    "total_mentions": 415,
+    "files_processed": 4,
+    "last_updated": "2025-08-19T11:11:19.023438"
+  },
+  "sources_backlog": {
+    "total_domains": 258,
+    "top_publications": [
+      {
+        "domain": "pitchfork.com",
+        "display_name": "Pitchfork",
+        "score": 1190,
+        "counts": {
+          "links": 381,
+          "text_mentions": 381,
+          "title_mentions": 40
+        }
+      },
+      {
+        "domain": "spin.com",
+        "display_name": "Spin",
+        "score": 66,
+        "counts": {
+          "links": 0,
+          "text_mentions": 65,
+          "title_mentions": 1
+        }
+      },
+      {
+        "domain": "spotify.com",
+        "display_name": "the joe rogan experience",
+        "score": 44,
+        "counts": {
+          "links": 0,
+          "text_mentions": 44,
+          "title_mentions": 0
+        }
+      },
+      {
+        "domain": "nme.com",
+        "display_name": "Nme",
+        "score": 30,
+        "counts": {
+          "links": 0,
+          "text_mentions": 30,
+          "title_mentions": 0
+        }
+      },
+      {
+        "domain": "vice.com",
+        "display_name": "Vice",
+        "score": 29,
+        "counts": {
+          "links": 0,
+          "text_mentions": 29,
+          "title_mentions": 0
+        }
+      }
+    ],
+    "top_podcasts": [
+      {
+        "domain": "telegraph.co.uk",
+        "display_name": "Telegraph.Co.Uk",
+        "score": 0,
+        "counts": {
+          "links": 0,
+          "text_mentions": 0,
+          "title_mentions": 0
+        }
+      }
+    ],
+    "last_updated": "2025-08-20T12:30:31.835014"
+  },
+  "guardian": {
+    "total_articles": 13,
+    "total_words": 14987,
+    "artists_processed": [
+      "Paul McCartney",
+      "Taylor Swift",
+      "Joni Mitchell"
+    ],
+    "attempted": 13,
+    "saved_fulltext": 13,
+    "skipped_snippets": 0,
+    "paywalled": 0,
+    "errors": 0,
+    "rate_limit_events": 0,
+    "duration_sec": 27.676523,
+    "last_updated": "2025-08-20T15:50:40.902942"
+  },
+  "billboard": {
+    "total_articles": 210,
+    "total_words": 154592,
+    "artists_processed": [
+      "BTS",
+      "Questlove",
+      "Aerosmith",
+      "Bon Jovi",
+      "KISS",
+      "Sabrina Carpenter",
+      "Taylor Swift",
+      "Chappell Roan",
+      "Ann Wilson",
+      "50 Cent",
+      "Tupac Shakur",
+      "Tina Turner",
+      "Timbaland",
+      "Bob Dylan",
+      "Paul Stanley",
+      "Yoko Ono",
+      "Nirvana",
+      "Slash",
+      "Sonic Youth",
+      "Johnny Cash",
+      "U2",
+      "Elton John",
+      "Brian Johnson",
+      "Melissa Etheridge",
+      "Billie Holiday",
+      "John Lennon",
+      "Count Basie",
+      "Janis Joplin",
+      "Dave Grohl",
+      "Gene Simmons",
+      "Lou Reed",
+      "Kim Gordon"
+    ],
+    "attempted": 316,
+    "extracted": 210,
+    "skipped_short": 106,
+    "last_updated": "2025-08-20T18:26:27.355916"
+  }
+}

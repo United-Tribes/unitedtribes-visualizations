@@ -1,0 +1,510 @@
+{
+  "artist_name": "Duke Ellington",
+  "works": [
+    {
+      "title": "Ella at Duke’s Place",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "03510992-9fd7-30e3-9a17-cf8b20bed0b3"
+    },
+    {
+      "title": "Duke Ellington Meets Coleman Hawkins",
+      "release_date": "1963-02",
+      "type": "Album",
+      "mbid": "0bbc462f-554b-3cc3-b4c5-a78c6a313d5a"
+    },
+    {
+      "title": "Money Jungle",
+      "release_date": "1962",
+      "type": "Album",
+      "mbid": "1c18538e-e9be-3449-8be1-f3cdc7b493e0"
+    },
+    {
+      "title": "The Early Duke Ellington",
+      "release_date": "1963-01-23",
+      "type": "Album",
+      "mbid": "317998ff-0f2a-4ae4-ad9b-6b96bc49413b"
+    },
+    {
+      "title": "Duke Ellington, Fletcher Henderson, Artie Shaw and Their Orchestras",
+      "release_date": "1965",
+      "type": "Album",
+      "mbid": "3c24b56c-3c87-4e67-b2e1-0cc86aad1be8"
+    },
+    {
+      "title": "Serenade to Sweden",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "44c7e02e-e60e-4428-9ba3-23df9cd3613c"
+    },
+    {
+      "title": "Dance Air Force Date 1960",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "46d402fc-44f4-40ea-af53-2c5f1fb299ad"
+    },
+    {
+      "title": "Duke Ellington & John Coltrane",
+      "release_date": "1963",
+      "type": "Album",
+      "mbid": "4f64c4fc-1de9-3b28-970c-e86f78c631be"
+    },
+    {
+      "title": "Piano Reflections",
+      "release_date": "1953",
+      "type": "Album",
+      "mbid": "5a1e1c50-e710-4e8c-8214-ea3f342705c8"
+    },
+    {
+      "title": "At Newport",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "620dd228-71ac-4c58-9e96-adc0edb48105"
+    },
+    {
+      "title": "First Time! The Count Meets the Duke",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "65890654-7523-33e0-a825-2bf9fe8efe41"
+    },
+    {
+      "title": "Ellington Indigos (Expanded Edition)",
+      "release_date": "1958-02-10",
+      "type": "Album",
+      "mbid": "75c29d17-0686-41c4-aa09-86e4bdd0ee12"
+    },
+    {
+      "title": "The Duke",
+      "release_date": "1940",
+      "type": "Album",
+      "mbid": "783a784f-8b61-4437-8ef4-617bbde86e89"
+    },
+    {
+      "title": "Back to Back: Duke Ellington and Johnny Hodges Play the Blues",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "86ba50d8-ff17-3b8e-94a8-08e02e6926fa"
+    },
+    {
+      "title": "Blues in Orbit",
+      "release_date": "1960",
+      "type": "Album",
+      "mbid": "9032cfdc-4a1a-4364-b43f-ec26a1e7f272"
+    },
+    {
+      "title": "The Duke Plays Ellington",
+      "release_date": "1954-08",
+      "type": "Album",
+      "mbid": "a1915c4f-211c-449f-8714-a13754c480e0"
+    },
+    {
+      "title": "Recording Together for the First Time",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "a2a439e6-35b8-4be8-ac40-e7794e402091"
+    },
+    {
+      "title": "The Great Reunion",
+      "release_date": "1963",
+      "type": "Album",
+      "mbid": "adfee37a-06ca-342d-b6b9-60eb2b02ceab"
+    },
+    {
+      "title": "Piano in the Foreground",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "c67ec5b5-0a13-36fa-878f-2209b5fcc29b"
+    },
+    {
+      "title": "One Night Stand",
+      "release_date": "1945-11-18",
+      "type": "Album",
+      "mbid": "ce4d0379-ee9c-47a2-ad54-c36acff58619"
+    },
+    {
+      "title": "Black Brown and Beige: A Duke Ellington Tone Parallel to the American Negro",
+      "release_date": "1946",
+      "type": "Album",
+      "mbid": "e510fa7e-9deb-4061-b3be-f958109926a6"
+    },
+    {
+      "title": "Mercer Records Presents the Billy Strayhorn Trio",
+      "release_date": "1951-06",
+      "type": "Album",
+      "mbid": "e8b6c9cb-ba81-4d07-8125-f1f6a99db106"
+    },
+    {
+      "title": "Concert of Sacred Music",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "e9bbdc99-637b-4ad0-af66-83f791bf0ad9"
+    },
+    {
+      "title": "The Duke At Tanglewood",
+      "release_date": "1966",
+      "type": "Album",
+      "mbid": "f03bd470-b642-42f1-b4b5-a3f5a39c5fda"
+    },
+    {
+      "title": "Side by Side",
+      "release_date": "1959",
+      "type": "Album",
+      "mbid": "f8d5a1fd-04c9-338c-b1a4-811e3b65f684"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Tempo Music, Inc.",
+      "Tempo",
+      "Sylvia Records"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000120323"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.pbs.org/wnet/gperf/education/ellington.html"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.redhotjazz.com/duke.html"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.redhotjazz.com/duke.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/145257"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4F7Q5NV6h5TSwCainz8S5A"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/57504"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Duke_Ellington_-_publicity.JPG"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0254153/"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Duke-ellington"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.dukeellington.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.dukeellingtonlegacy.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50080187"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://adp.library.ucsb.edu/names/102155"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13893638w"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118529994"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=11631"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6639nkm"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-815399"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL1953949A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/duke_ellington"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50080187/"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/4305"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/duke-ellington-13d6b5d5.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/dukeellington"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/67111"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/1156"
+      },
+      {
+        "type": "vgmdb",
+        "url": "https://vgmdb.net/artist/44339"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/66651610"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4030"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington",
+    "musicbrainz": "https://musicbrainz.org/artist/3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Edward Kennedy \"Duke\" Ellington (April 29, 1899 – May 24, 1974) was an African American jazz pianist, composer, and leader of his eponymous jazz orchestra from 1924 through the rest of his life. \nBorn and raised in Washington, D.C., Ellington was based in New York City from the mid-1920s and gained a national profile through his orchestra's appearances at the Cotton Club in Harlem. A master at writing miniatures for the three-minute 78 rpm recording format, Ellington wrote or collaborated on more than one thousand compositions; his extensive body of work is the largest recorded personal jazz legacy, and many of his pieces have become standards. He also recorded songs written by his bandsmen, such as Juan Tizol's \"Caravan\", which brought a Spanish tinge to big band jazz.\nAt the end of the 1930s, Ellington began a nearly thirty five-year collaboration with composer-arranger-pianist Billy Strayhorn, whom he called his writing and arranging companion. With Strayhorn, he composed multiple extended compositions, or suites, as well as many short pieces. For a few years at the beginning of Strayhorn's involvement, Ellington's orchestra featured bassist Jimmy Blanton and tenor saxophonist Ben...",
+    "summary": "Edward Kennedy \"Duke\" Ellington (April 29, 1899 – May 24, 1974) was an African American jazz pianist, composer, and leader of his eponymous jazz orchestra from 1924 through the rest of his life. \nBorn and raised in Washington, D.C., Ellington was based in New York City from the mid-1920s and gained a national profile through his orchestra's appearances at the Cotton Club in Harlem. A master at writing miniatures for the three-minute 78 rpm recording format, Ellington wrote or collaborated on mor...",
+    "url": "https://en.wikipedia.org/wiki/Duke_Ellington",
+    "title": "Duke Ellington",
+    "word_count": 188,
+    "categories": [
+      "Category:1899 births",
+      "Category:1974 deaths",
+      "Category:20th-century American conductors (music)",
+      "Category:20th-century American jazz composers",
+      "Category:20th-century American male musicians",
+      "Category:African-American conductors (music)",
+      "Category:African-American film score composers",
+      "Category:African-American jazz composers",
+      "Category:African-American jazz pianists",
+      "Category:African-American male composers",
+      "Category:All articles lacking reliable references",
+      "Category:All articles with unsourced statements",
+      "Category:Alpha Phi Alpha members",
+      "Category:American Prince Hall Freemasons",
+      "Category:American autobiographers",
+      "Category:American big band bandleaders",
+      "Category:American film score composers",
+      "Category:American jazz bandleaders",
+      "Category:American jazz pianists",
+      "Category:American male conductors (music)",
+      "Category:American male film score composers",
+      "Category:American male jazz composers",
+      "Category:American male jazz pianists",
+      "Category:American male musical theatre composers",
+      "Category:American musical theatre composers",
+      "Category:American recipients of the Legion of Honour",
+      "Category:Articles containing video clips",
+      "Category:Articles lacking reliable references from August 2022",
+      "Category:Articles with International Music Score Library Project links",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from August 2022",
+      "Category:Bethlehem Records artists",
+      "Category:Big band pianists",
+      "Category:Biography with signature",
+      "Category:Black Lion Records artists",
+      "Category:Broadway composers and lyricists",
+      "Category:Burials at Woodlawn Cemetery (Bronx, New York)",
+      "Category:CS1: unfit URL",
+      "Category:Columbia Records artists",
+      "Category:Commons link from Wikidata",
+      "Category:Composers from New York City",
+      "Category:Composers with IMSLP links",
+      "Category:Deaths from lung cancer in New York (state)",
+      "Category:Deaths from pneumonia in New York City",
+      "Category:Decca Records artists",
+      "Category:DownBeat Jazz Hall of Fame members",
+      "Category:Duke Ellington",
+      "Category:Fellows of the American Academy of Arts and Sciences",
+      "Category:Gennett Records artists"
+    ],
+    "internal_links": [
+      "(In My) Solitude",
+      "...And His Mother Called Him Bill",
+      "100 Greatest African Americans",
+      "110th Street (Manhattan)",
+      "1942–1944 musicians' strike",
+      "1999 Pulitzer Prize",
+      "50 State Quarters",
+      "70th Birthday Concert (Duke Ellington album)",
+      "A. Leon Higginbotham Jr.",
+      "A. Philip Randolph",
+      "A Bug's Life (soundtrack)",
+      "A Drum Is a Woman",
+      "Aaron Bell (musician)",
+      "Abdullah Ibrahim",
+      "Academy Award",
+      "Academy Award for Best Score",
+      "Acoustic recording",
+      "Adelaide Hall",
+      "African American",
+      "African Flower",
+      "Afro-Bossa",
+      "Al Hibbler",
+      "Al Jolson",
+      "Al Killian",
+      "Al Sears",
+      "Aladdin (1992 soundtrack)",
+      "Alan Menken",
+      "Alan and Marilyn Bergman",
+      "Alex Haley",
+      "Alexandre Desplat",
+      "Alice Babs",
+      "All Too Soon",
+      "Allee Willis",
+      "Alpha Phi Alpha",
+      "Alvin Ailey",
+      "American Beauty: Original Motion Picture Score",
+      "Amos 'n' Andy",
+      "Anatomy of a Murder",
+      "Andrew Young",
+      "André Previn",
+      "Andy Razaf",
+      "Aniekan Udofia",
+      "Anthony Overton",
+      "Antonio Sánchez (drummer)",
+      "Archibald Grimké",
+      "Aretha Franklin",
+      "Aria",
+      "Armstrong High School (Washington, D.C.)",
+      "Art Baron",
+      "Art Spiegelman",
+      "Arthur Krock",
+      "Arthur Whetsel",
+      "Atlantic City",
+      "Atlantic City, New Jersey",
+      "Atticus Ross",
+      "Azure (song)",
+      "Back to Back: Duke Ellington and Johnny Hodges Play the Blues",
+      "Barbara Jordan",
+      "Barney Bigard",
+      "Barry Kernfeld",
+      "Barry Ulanov",
+      "Beauty and the Beast (1991 soundtrack)",
+      "Beggar's Holiday",
+      "Belle of the Nineties",
+      "Ben Carson",
+      "Ben Webster",
+      "Benjamin Hooks",
+      "Benjamin Mays",
+      "Benny Goodman",
+      "Berklee College of Music",
+      "Betty Roché",
+      "Beverly Hills Cop (soundtrack)",
+      "Big band",
+      "Bill Cosby",
+      "Billie Holiday",
+      "Billy Strayhorn",
+      "Billy Taylor (jazz bassist)",
+      "Birdman (film score)",
+      "Black, Brown, and Beige",
+      "Black, Brown and Beige",
+      "Black, Brown and Beige (1946 album)",
+      "Black, Brown and Beige (1958 album)",
+      "Black Panther (soundtrack)",
+      "Black and Tan (film)",
+      "Black and Tan Fantasy",
+      "Blood Count",
+      "Blue Rose (album)",
+      "Bluebird Records",
+      "Blues in Orbit",
+      "Bob Clearmountain",
+      "Bob Dylan",
+      "Bob Thiele",
+      "Bobby Durham (jazz musician)",
+      "Booty Wood",
+      "Braggin' in Brass: The Immortal 1938 Year",
+      "Breakfast at Tiffany's: Music from the Motion Picture",
+      "Britt Woodman",
+      "Brooklyn",
+      "Brunswick Records",
+      "Bugle"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Duke_Ellington_-_publicity.JPG/330px-Duke_Ellington_-_publicity.JPG"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f",
+      "name": "Duke Ellington",
+      "disambiguation": "US composer, pianist & jazz bandleader",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Washington, D.C.",
+      "life_span": {
+        "begin": "1899-04-29",
+        "end": "1974-05-24"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 3,
+      "instruments": 0,
+      "related_urls": 31
+    },
+    "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f"
+  },
+  "created_at": "2025-08-20T07:47:49.307142",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Edward Kennedy \"Duke\" Ellington (April 29, 1899 – May 24, 1974) was an African American jazz pianist, composer, and leader of his eponymous jazz orchestra from 1924 through the rest of his life. \nBorn and raised in Washington, D.C., Ellington was based in New York City from the mid-1920s and gained a national profile through his orchestra's appearances at the Cotton Club in Harlem. A master at writing miniatures for the three-minute 78 rpm recording format, Ellington wrote or collaborated on more than one thousand compositions; his extensive body of work is the largest recorded personal jazz legacy, and many of his pieces have become standards. He also recorded songs written by his bandsmen, such as Juan Tizol's \"Caravan\", which brought a Spanish tinge to big band jazz.\nAt the end of the 1930s, Ellington began a nearly thirty five-year collaboration with composer-arranger-pianist Billy Strayhorn, whom he called his writing and arranging companion. With Strayhorn, he composed multiple extended compositions, or suites, as well as many short pieces. For a few years at the beginning of Strayhorn's involvement, Ellington's orchestra featured bassist Jimmy Blanton and tenor saxophonist Ben...",
+  "musicbrainz_info": {
+    "mbid": "3af06bc4-68ad-4cae-bb7a-7eeeb45e411f",
+    "name": "Duke Ellington",
+    "disambiguation": "US composer, pianist & jazz bandleader",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Washington, D.C.",
+    "life_span": {
+      "begin": "1899-04-29",
+      "end": "1974-05-24"
+    }
+  },
+  "updated_at": "2025-08-20T08:13:33.870793"
+}

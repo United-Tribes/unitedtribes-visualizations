@@ -1,0 +1,410 @@
+{
+  "artist_name": "Lou Reed",
+  "works": [
+    {
+      "title": "Ecstasy",
+      "release_date": "2000-04-03",
+      "type": "Album",
+      "mbid": "001c2db4-68d0-34ba-80e0-992628859eba"
+    },
+    {
+      "title": "Walk on the Wild Side: The Best of Lou Reed",
+      "release_date": "1977",
+      "type": "Album",
+      "mbid": "15085020-d16f-3d70-914b-131f2da99775"
+    },
+    {
+      "title": "Growing Up in Public",
+      "release_date": "1980",
+      "type": "Album",
+      "mbid": "21405612-346a-395a-8684-2bccfcf9b88e"
+    },
+    {
+      "title": "Lulu",
+      "release_date": "2011-01-01",
+      "type": "Album",
+      "mbid": "38d1077e-c270-49a8-92ca-87e7eb8d9fe4"
+    },
+    {
+      "title": "New Sensations",
+      "release_date": "1984-04",
+      "type": "Album",
+      "mbid": "63174695-db15-33e7-babc-c98e590a5e2d"
+    },
+    {
+      "title": "Transformer",
+      "release_date": "1972-11-08",
+      "type": "Album",
+      "mbid": "6c8345df-f822-33af-b64a-eff2e46941b9"
+    },
+    {
+      "title": "Set the Twilight Reeling",
+      "release_date": "1996-02-20",
+      "type": "Album",
+      "mbid": "6e8ee4ff-ba4d-346d-b289-5b630c8c9ae4"
+    },
+    {
+      "title": "Legendary Hearts",
+      "release_date": "1983-03",
+      "type": "Album",
+      "mbid": "752ba621-0a8a-3ee0-ae10-5850d3f5c631"
+    },
+    {
+      "title": "Rock and Roll Heart",
+      "release_date": "1976",
+      "type": "Album",
+      "mbid": "79dbe4c9-5ebb-303a-86b9-64d214c5600c"
+    },
+    {
+      "title": "Metal Machine Music",
+      "release_date": "1975-07",
+      "type": "Album",
+      "mbid": "865bba17-7198-369f-ac67-d9cd71f74683"
+    },
+    {
+      "title": "Rock and Roll Diary 1967–1980",
+      "release_date": "1980",
+      "type": "Album",
+      "mbid": "88a79b62-6c3b-3e0c-8e0b-ceeac26fb0ea"
+    },
+    {
+      "title": "Hudson River Wind Meditations",
+      "release_date": "2007-04-11",
+      "type": "Album",
+      "mbid": "8a317972-c157-3584-b44a-cd2cb138c14e"
+    },
+    {
+      "title": "Historia de la música rock - 27",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "94f2c2cd-672a-4c72-a39a-5783a23bdeba"
+    },
+    {
+      "title": "Songs for Drella",
+      "release_date": "1990-04-11",
+      "type": "Album",
+      "mbid": "97d100a8-e42c-38ff-8ae5-eb31331fd82b"
+    },
+    {
+      "title": "The Blue Mask",
+      "release_date": "1982-02",
+      "type": "Album",
+      "mbid": "99f7c49e-cc46-3f29-95f1-93008fd9307e"
+    },
+    {
+      "title": "Lou Reed",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "9ee88042-a19e-36dd-8123-0c99f6349d3b"
+    },
+    {
+      "title": "The Bells",
+      "release_date": "1979",
+      "type": "Album",
+      "mbid": "aa1d5332-25d3-32e5-99e1-f52f5421cd45"
+    },
+    {
+      "title": "Mistrial",
+      "release_date": "1986",
+      "type": "Album",
+      "mbid": "b8c43339-0001-3889-875c-aa9b314f6687"
+    },
+    {
+      "title": "New York",
+      "release_date": "1989-01-10",
+      "type": "Album",
+      "mbid": "bf543d9f-f0de-3f46-87b4-f9cddf58806b"
+    },
+    {
+      "title": "Coney Island Baby",
+      "release_date": "1975-12",
+      "type": "Album",
+      "mbid": "c517ee05-356e-3944-b13f-8d505a4012cb"
+    },
+    {
+      "title": "Berlin",
+      "release_date": "1973-10",
+      "type": "Album",
+      "mbid": "c6190069-644f-3b41-92aa-1e771e451036"
+    },
+    {
+      "title": "Magic and Loss",
+      "release_date": "1992-01-13",
+      "type": "Album",
+      "mbid": "dc2c5ff6-b0a1-3fbf-8c70-91619cd59304"
+    },
+    {
+      "title": "The Raven",
+      "release_date": "2003-01-28",
+      "type": "Album",
+      "mbid": "e288b7b4-1e64-32ca-b7ad-494e9b294415"
+    },
+    {
+      "title": "Sally Can’t Dance",
+      "release_date": "1974",
+      "type": "Album",
+      "mbid": "e4ba363a-c837-3a09-8838-23c3d84e1bf9"
+    },
+    {
+      "title": "Street Hassle",
+      "release_date": "1978",
+      "type": "Album",
+      "mbid": "eee74a21-7c13-35fb-93a1-5ccca994383e"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "Artists United Against Apartheid"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Lou Reed Music",
+      "Sister Ray Enterprises Inc"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000233066"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.arrakis.es/~e.miquel/rnranimal/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/11879"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.arrakis.es/~e.miquel/rnranimal/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.loureed.it/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/42TFhl7WlMRXiNqzSrnzPL"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1009"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Lou_Reed_Malaga,_Spain_1.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0715563/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Lou+Reed"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-5267/lou-reed/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Lou-reed"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/officialloureed"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.loureed.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.loureed.org/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n91053113"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/R/Reed,_Lou/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb12015805s"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/11930225X"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=84104"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/lou-reed"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6sf3t0h"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1092279"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL227410A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/lou_reed"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.metal-archives.com/artists/Lou_Reed/297671"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/lou-reed/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000063409/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Lou-Reed/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n91053113"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/mx/artist/id167203"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Ayl2dsnrmliw37np3zvvbpdkala"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/167203"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/88"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/LouReed"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/550980"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/167203"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/231"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/19689232"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q189080"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/LouReed"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/LouReedVEVO"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCRG5sTutjbCCru6kPN1j-Bw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Lou_Reed",
+    "musicbrainz": "https://musicbrainz.org/artist/9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Lewis Allan Reed (March 2, 1942 – October 27, 2013) was an American musician and songwriter. He was the guitarist, singer, and principal songwriter for the rock band the Velvet Underground and had a solo career that spanned five decades. Although not commercially successful during its existence, the Velvet Underground came to be regarded as one of the most influential bands in the history of underground and alternative rock music. Reed's distinctive deadpan voice, poetic and transgressive lyrics, and experimental guitar playing were trademarks throughout his long career.\nHaving played guitar and sung in doo-wop groups in high school, Reed studied poetry at Syracuse University under Delmore Schwartz, and served as a radio DJ, hosting a late-night avant-garde music program while at college. After graduating from Syracuse, he went to work for Pickwick Records in New York City, a low-budget record company that specialized in sound-alike recordings, as a songwriter and session musician. A fellow session player at Pickwick was John Cale; together with Sterling Morrison and Angus MacLise, they would form the Velvet Underground in 1965. After building a reputation in the avant garde music scene...",
+    "summary": "Lewis Allan Reed (March 2, 1942 – October 27, 2013) was an American musician and songwriter. He was the guitarist, singer, and principal songwriter for the rock band the Velvet Underground and had a solo career that spanned five decades. Although not commercially successful during its existence, the Velvet Underground came to be regarded as one of the most influential bands in the history of underground and alternative rock music. Reed's distinctive deadpan voice, poetic and transgressive lyrics, and experimental guitar playing were trademarks throughout his long career.\nHaving played guitar and sung in doo-wop groups in high school, Reed studied poetry at Syracuse University under Delmore Schwartz, and served as a radio DJ, hosting a late-night avant-garde music program while at college. After graduating from Syracuse, he went to work for Pickwick Records in New York City, a low-budget record company that specialized in sound-alike recordings, as a songwriter and session musician. A f...",
+    "url": "https://en.wikipedia.org/wiki/Lou_Reed",
+    "title": "Lou Reed",
+    "word_count": 187,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lou_reed_%28cropped%29.jpg/330px-Lou_reed_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+      "name": "Lou Reed",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Brooklyn",
+      "life_span": {
+        "begin": "1942-03-02",
+        "end": "2013-10-27"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 44
+    },
+    "mbid": "9d1ebcfe-4c15-4d18-95d3-d919898638a1"
+  },
+  "created_at": "2025-08-20T08:49:08.979453",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Lewis Allan Reed (March 2, 1942 – October 27, 2013) was an American musician and songwriter. He was the guitarist, singer, and principal songwriter for the rock band the Velvet Underground and had a solo career that spanned five decades. Although not commercially successful during its existence, the Velvet Underground came to be regarded as one of the most influential bands in the history of underground and alternative rock music. Reed's distinctive deadpan voice, poetic and transgressive lyrics, and experimental guitar playing were trademarks throughout his long career.\nHaving played guitar and sung in doo-wop groups in high school, Reed studied poetry at Syracuse University under Delmore Schwartz, and served as a radio DJ, hosting a late-night avant-garde music program while at college. After graduating from Syracuse, he went to work for Pickwick Records in New York City, a low-budget record company that specialized in sound-alike recordings, as a songwriter and session musician. A fellow session player at Pickwick was John Cale; together with Sterling Morrison and Angus MacLise, they would form the Velvet Underground in 1965. After building a reputation in the avant garde music scene...",
+  "musicbrainz_info": {
+    "mbid": "9d1ebcfe-4c15-4d18-95d3-d919898638a1",
+    "name": "Lou Reed",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Brooklyn",
+    "life_span": {
+      "begin": "1942-03-02",
+      "end": "2013-10-27"
+    }
+  }
+}

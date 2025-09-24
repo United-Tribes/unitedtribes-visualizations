@@ -1,0 +1,428 @@
+{
+  "artist_name": "Chappell Roan",
+  "works": [
+    {
+      "title": "Live at Lollapalooza",
+      "release_date": "2024",
+      "type": "Album",
+      "mbid": "43328d9b-91fb-4473-bb71-1a9f9c3ddb9e"
+    },
+    {
+      "title": "The Midwest Princess Demos",
+      "release_date": "2024",
+      "type": "Album",
+      "mbid": "a75c826c-f265-4cd5-9b64-f00ef4779234"
+    },
+    {
+      "title": "The Rise and Fall of a Midwest Princess",
+      "release_date": "2023-09-22",
+      "type": "Album",
+      "mbid": "eda0f5d3-44eb-42cf-bcfd-5c9f93e05c7a"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "KRA International Inc."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0003654352"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/14727853"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/6360106"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://music.yandex.com/artist/5246714"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/7GlBOeep6PqTfFi59PTUUN"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/12945219"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm11490513/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Chappell+Roan"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Chappell-roan"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://muzikum.eu/en/chappell-roan/lyrics"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Chappell-Roan"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://iamchappellroan.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2024107086"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb18175050n"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/1306486653"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/chappell-roan"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/chappell-roan"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/chappell-roan/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000603513/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.themoviedb.org/person/4528424"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Chappell-Roan/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no2024107086/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id1264818718"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/1725827/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/1725828/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/856151/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/1264818718"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/us-en/interpreter/chappellroan-10003224933/3224933"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/235192"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/chappell-roan-6bcad6ce.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/ChappellRoan"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/ChappellRoan"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/chappellroan/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.threads.com/@chappellroan"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@chappellroan"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/9198519"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/chappellroan"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B074BDDGNN"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/1264818718"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/8977726"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/us-en/interpreter/chappellroan-10003224933/3224933"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/3383169829218837320005"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q110281146"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCTKTRVaWrythRIGNfZYBp2A"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UC1cYfQGC1eXrSO-hxMd7ESQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Chappell_Roan",
+    "musicbrainz": "https://musicbrainz.org/artist/56a55378-f155-48de-80a5-d80104221267"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Kayleigh Rose Amstutz (born February 19, 1998), known professionally as Chappell Roan (  CHAP-əl ROHN), is an American singer and songwriter. She is known for her camp and drag queen–influenced aesthetic. Her debut EP, School Nights (2017), was released by Atlantic Records. After years without success, she was dropped from the label in 2020. Her debut studio album, The Rise and Fall of a Midwest Princess (2023), was released through Island Records and received critical acclaim. The album garnered a cult following and became a sleeper hit.\nRoan rose to prominence in 2024 with the single \"Good Luck, Babe!\", which reached number four on the US Billboard Hot 100 and became a global top-five single. It was a catalyst for the success of her debut album, which eventually topped the charts in the UK, Ireland, and New Zealand and reached number two on the US Billboard 200. Several album tracks subsequently entered various charts, including \"Hot to Go!\" and \"Pink Pony Club\", which both reached the top five in the UK. At the 67th Grammy Awards, Roan became one of only 15 artists to be nominated for all the \"Big Four\" awards in one night, winning Best New Artist.",
+    "summary": "Kayleigh Rose Amstutz (born February 19, 1998), known professionally as Chappell Roan (  CHAP-əl ROHN), is an American singer and songwriter. She is known for her camp and drag queen–influenced aesthetic. Her debut EP, School Nights (2017), was released by Atlantic Records. After years without success, she was dropped from the label in 2020. Her debut studio album, The Rise and Fall of a Midwest Princess (2023), was released through Island Records and received critical acclaim. The album garnere...",
+    "url": "https://en.wikipedia.org/wiki/Chappell_Roan",
+    "title": "Chappell Roan",
+    "word_count": 199,
+    "categories": [
+      "Category:1998 births",
+      "Category:21st-century American LGBTQ people",
+      "Category:21st-century American singer-songwriters",
+      "Category:21st-century American women singers",
+      "Category:AFAB queens",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles containing potentially dated statements",
+      "Category:American LGBTQ singer-songwriters",
+      "Category:American activists for Palestinian solidarity",
+      "Category:American drag queens",
+      "Category:American former Christians",
+      "Category:American lesbian musicians",
+      "Category:American lesbian writers",
+      "Category:American musicians with disabilities",
+      "Category:American queer musicians",
+      "Category:American sopranos",
+      "Category:American women in electronic music",
+      "Category:American women pop singers",
+      "Category:Articles containing potentially dated statements from August 2022",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Atlantic Records artists",
+      "Category:Brit Award winners",
+      "Category:CS1 Danish-language sources (da)",
+      "Category:CS1 French-language sources (fr)",
+      "Category:CS1 maint: others",
+      "Category:CS1 maint: url-status",
+      "Category:Chappell Roan",
+      "Category:Commons category link from Wikidata",
+      "Category:Demisexual women",
+      "Category:Grammy Award winners",
+      "Category:Island Records artists",
+      "Category:LGBTQ musicians with disabilities",
+      "Category:LGBTQ people from Missouri",
+      "Category:Lesbian singer-songwriters",
+      "Category:Living people",
+      "Category:MTV Video Music Award winners",
+      "Category:Pages including recorded pronunciations",
+      "Category:Pages using the Phonos extension",
+      "Category:People from Greene County, Missouri",
+      "Category:People with bipolar disorder",
+      "Category:Short description is different from Wikidata",
+      "Category:Singer-songwriters from Missouri",
+      "Category:Singers with disabilities",
+      "Category:Use American English from September 2024",
+      "Category:Use mdy dates from August 2024"
+    ],
+    "internal_links": [
+      "'Til Tuesday",
+      "2024 ARIA Music Awards",
+      "2024 Billboard Music Awards",
+      "2024 MTV Europe Music Awards",
+      "2024 MTV Video Music Awards",
+      "2025 iHeartRadio Music Awards",
+      "50 Cent",
+      "67th Annual Grammy Awards",
+      "67th Grammy Awards",
+      "A-ha",
+      "ABC News (Australia)",
+      "ARIA Award for Best International Artist",
+      "ARIA Music Awards",
+      "A Nonsense Christmas with Sabrina Carpenter",
+      "A Taste of Honey (band)",
+      "Adele",
+      "After Midnight (Chappell Roan song)",
+      "Alanis Morissette",
+      "Alessia Cara",
+      "Alicia Keys",
+      "Alt-J",
+      "America's Got Talent",
+      "America (band)",
+      "American Music Award for Artist of the Year",
+      "American Music Award for Favorite Pop/Rock Album",
+      "American Music Award for Favorite Pop/Rock Female Artist",
+      "American Music Award for Favorite Pop/Rock Song",
+      "American Music Award for New Artist of the Year",
+      "American Music Awards",
+      "American Music Awards of 2025",
+      "American Society of Composers, Authors and Publishers",
+      "Amy Winehouse",
+      "Ariana Grande",
+      "Arrested Development (group)",
+      "Art-pop",
+      "Artist 100",
+      "Atlantic Records",
+      "Austin Mahone",
+      "Avenged Sevenfold",
+      "Avril Lavigne",
+      "BBC",
+      "BMI Film & TV Awards",
+      "Bandcamp",
+      "Ben Platt",
+      "Bette Midler",
+      "Beyoncé",
+      "Big Four (Grammy Awards)",
+      "Billboard (magazine)",
+      "Billboard 200",
+      "Billboard Hot 100",
+      "Billboard Music Award for Top Female Artist",
+      "Billboard Music Award for Top New Artist",
+      "Billboard Music Awards",
+      "Billie Eilish",
+      "Bipolar II disorder",
+      "Birth name",
+      "Bob Newhart",
+      "Bobbie Gentry",
+      "Bobby Darin",
+      "Bon Iver",
+      "Boy George",
+      "Brain cancer",
+      "Brit Award for International Artist",
+      "Brit Award for International Song",
+      "Brit Awards",
+      "Britney Spears",
+      "Bruce Hornsby",
+      "Bruce Springsteen",
+      "Burlesque",
+      "COVID-19 pandemic",
+      "Call Her Daddy",
+      "Camp (style)",
+      "Can't Catch Me Now",
+      "Capitol Hill Block Party",
+      "Cardi B",
+      "Carly Simon",
+      "Carrie Underwood",
+      "Casual (song)",
+      "Celeste (singer)",
+      "Chance the Rapper",
+      "Chappell Roan discography",
+      "Christian right",
+      "Christian rock",
+      "Christina Aguilera",
+      "Christopher Cross",
+      "Club Kids",
+      "Coachella 2024",
+      "Coachella Music Festival",
+      "Coast Modern",
+      "Compulsory heterosexuality",
+      "Connor Franta",
+      "Corinne Bailey Rae",
+      "Counting Crows",
+      "Crosby, Stills, Nash & Young",
+      "Crowded House",
+      "Cult following",
+      "Culture Club",
+      "Curley Fletcher",
+      "Cursive",
+      "Cyndi Lauper"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Chappell_Roan_%40_Hollywood_Palladium_11_18_2022_%2853886905209%29.jpg/330px-Chappell_Roan_%40_Hollywood_Palladium_11_18_2022_%2853886905209%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "56a55378-f155-48de-80a5-d80104221267",
+      "name": "Chappell Roan",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Willard",
+      "life_span": {
+        "begin": "1998-02-19",
+        "end": null
+      }
+    },
+    "total_works": 3,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 45
+    },
+    "mbid": "56a55378-f155-48de-80a5-d80104221267"
+  },
+  "created_at": "2025-08-19T19:49:35.891585",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Kayleigh Rose Amstutz (born February 19, 1998), known professionally as Chappell Roan (  CHAP-əl ROHN), is an American singer and songwriter. She is known for her camp and drag queen–influenced aesthetic. Her debut EP, School Nights (2017), was released by Atlantic Records. After years without success, she was dropped from the label in 2020. Her debut studio album, The Rise and Fall of a Midwest Princess (2023), was released through Island Records and received critical acclaim. The album garnered a cult following and became a sleeper hit.\nRoan rose to prominence in 2024 with the single \"Good Luck, Babe!\", which reached number four on the US Billboard Hot 100 and became a global top-five single. It was a catalyst for the success of her debut album, which eventually topped the charts in the UK, Ireland, and New Zealand and reached number two on the US Billboard 200. Several album tracks subsequently entered various charts, including \"Hot to Go!\" and \"Pink Pony Club\", which both reached the top five in the UK. At the 67th Grammy Awards, Roan became one of only 15 artists to be nominated for all the \"Big Four\" awards in one night, winning Best New Artist.",
+  "musicbrainz_info": {
+    "mbid": "56a55378-f155-48de-80a5-d80104221267",
+    "name": "Chappell Roan",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Willard",
+    "life_span": {
+      "begin": "1998-02-19",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:12.975610"
+}

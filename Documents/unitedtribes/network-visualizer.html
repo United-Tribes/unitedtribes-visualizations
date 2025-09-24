@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Tribes Network Visualizer</title>
+    <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/cytoscape-cose-bilkent@4.1.0/cytoscape-cose-bilkent.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #fff;
+        }
+
+        .header {
+            background: #2d2d30;
+            padding: 1rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        .controls {
+            background: #252526;
+            padding: 1rem;
+            border-bottom: 1px solid #3e3e42;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .control-group label {
+            font-size: 0.8rem;
+            color: #cccccc;
+        }
+
+        input, select, button {
+            padding: 0.5rem;
+            border: 1px solid #3e3e42;
+            background: #1e1e1e;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #0e639c;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover {
+            background: #1177bb;
+        }
+
+        button:disabled {
+            background: #464647;
+            cursor: not-allowed;
+        }
+
+        .layout-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .layout-buttons button {
+            background: #464647;
+            font-size: 0.8rem;
+            padding: 0.4rem 0.8rem;
+        }
+
+        .layout-buttons button.active {
+            background: #0e639c;
+        }
+
+        .main-container {
+            display: flex;
+            height: calc(100vh - 140px);
+        }
+
+        .sidebar {
+            width: 300px;
+            background: #252526;
+            border-right: 1px solid #3e3e42;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #cy {
+            width: 100%;
+            height: 100%;
+            background: #1a1a1a;
+        }
+
+        .info-panel {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(37, 37, 38, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 1rem;
+            max-width: 350px;
+            display: none;
+        }
+
+        .info-panel h3 {
+            margin: 0 0 0.5rem 0;
+            color: #fff;
+        }
+
+        .relationship-item {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .relationship-type {
+            font-weight: bold;
+            color: #4fc3f7;
+            font-size: 0.9rem;
+        }
+
+        .confidence {
+            color: #81c784;
+            font-size: 0.8rem;
+        }
+
+        .evidence {
+            color: #cccccc;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .themes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+        }
+
+        .theme-tag {
+            background: #3e3e42;
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-size: 1.1rem;
+            color: #cccccc;
+        }
+
+        .error {
+            color: #f48771;
+            background: #3c1c1c;
+            border: 1px solid #5a1e1e;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem;
+        }
+
+        .stats {
+            background: #1e1e1e;
+            border: 1px solid #3e3e42;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .stats h3 {
+            margin: 0 0 0.5rem 0;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.25rem;
+            font-size: 0.9rem;
+        }
+
+        .stat-label {
+            color: #cccccc;
+        }
+
+        .stat-value {
+            color: #4fc3f7;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎵 United Tribes Network Visualizer</h1>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Search Artist</label>
+            <input type="text" id="artistSearch" placeholder="e.g., Patti Smith, Art Blakey" value="Patti Smith">
+        </div>
+
+        <div class="control-group">
+            <label>Domain</label>
+            <select id="domainSelect">
+                <option value="music">Music</option>
+                <option value="all">All</option>
+            </select>
+        </div>
+
+        <button id="loadButton">Load Network</button>
+
+        <div class="layout-buttons">
+            <button class="layout-btn active" data-layout="cose">Force</button>
+            <button class="layout-btn" data-layout="circle">Circle</button>
+            <button class="layout-btn" data-layout="grid">Grid</button>
+            <button class="layout-btn" data-layout="breadthfirst">Hierarchy</button>
+        </div>
+
+        <div class="control-group">
+            <label>Min Confidence</label>
+            <input type="range" id="confidenceSlider" min="0" max="1" step="0.1" value="0.7">
+            <span id="confidenceValue">0.7</span>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="stats" id="networkStats" style="display: none;">
+                <h3>Network Statistics</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Nodes:</span>
+                    <span class="stat-value" id="nodeCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Edges:</span>
+                    <span class="stat-value" id="edgeCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Clusters:</span>
+                    <span class="stat-value" id="clusterCount">0</span>
+                </div>
+            </div>
+
+            <div id="relationshipList">
+                <h3>Select an artist to see relationships</h3>
+            </div>
+        </div>
+
+        <div class="network-container">
+            <div id="cy" class="loading">
+                Enter an artist name and click "Load Network" to explore connections
+            </div>
+
+            <div class="info-panel" id="infoPanel">
+                <h3 id="panelTitle">Node Information</h3>
+                <div id="panelContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class NetworkVisualizer {
+            constructor() {
+                this.cy = null;
+                this.currentData = null;
+                this.apiBase = 'https://166ws8jk15.execute-api.us-east-1.amazonaws.com/prod';
+                this.currentLayout = 'cose';
+
+                // Register the cose-bilkent layout if available
+                if (typeof cytoscape !== 'undefined' && typeof cytoscapeCoseBilkent !== 'undefined') {
+                    cytoscape.use(cytoscapeCoseBilkent);
+                    this.currentLayout = 'cose-bilkent';
+                }
+
+                this.initializeEventListeners();
+            }
+
+            initializeEventListeners() {
+                document.getElementById('loadButton').addEventListener('click', () => this.loadNetwork());
+                document.getElementById('artistSearch').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') this.loadNetwork();
+                });
+
+                document.querySelectorAll('.layout-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => this.changeLayout(e.target.dataset.layout));
+                });
+
+                const confidenceSlider = document.getElementById('confidenceSlider');
+                confidenceSlider.addEventListener('input', (e) => {
+                    document.getElementById('confidenceValue').textContent = e.target.value;
+                    this.filterByConfidence(parseFloat(e.target.value));
+                });
+            }
+
+            async loadNetwork() {
+                const artist = document.getElementById('artistSearch').value.trim();
+                const domain = document.getElementById('domainSelect').value;
+
+                if (!artist) return;
+
+                const loadButton = document.getElementById('loadButton');
+                loadButton.disabled = true;
+                loadButton.textContent = 'Loading...';
+
+                document.getElementById('cy').innerHTML = '<div class="loading">Loading network data...</div>';
+
+                try {
+                    const response = await fetch(`${this.apiBase}/v2/broker`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            query: `tell me about ${artist}`,
+                            domain: domain
+                        })
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`API request failed: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    this.currentData = data;
+                    this.renderNetwork(data);
+                    this.updateStats(data);
+
+                } catch (error) {
+                    console.error('Failed to load network:', error);
+                    document.getElementById('cy').innerHTML = `
+                        <div class="error">
+                            <h3>Failed to load network</h3>
+                            <p>${error.message}</p>
+                            <p>Please check the artist name and try again.</p>
+                        </div>
+                    `;
+                } finally {
+                    loadButton.disabled = false;
+                    loadButton.textContent = 'Load Network';
+                }
+            }
+
+            renderNetwork(data) {
+                const elements = this.convertToElements(data);
+
+                if (this.cy) {
+                    this.cy.destroy();
+                }
+
+                this.cy = cytoscape({
+                    container: document.getElementById('cy'),
+                    elements: elements,
+                    style: [
+                        {
+                            selector: 'node',
+                            style: {
+                                'background-color': '#4fc3f7',
+                                'label': 'data(label)',
+                                'color': '#fff',
+                                'text-valign': 'center',
+                                'text-halign': 'center',
+                                'font-size': '12px',
+                                'width': 'mapData(connections, 0, 20, 20, 60)',
+                                'height': 'mapData(connections, 0, 20, 20, 60)',
+                                'text-outline-width': 2,
+                                'text-outline-color': '#1a1a1a'
+                            }
+                        },
+                        {
+                            selector: 'node[type="primary"]',
+                            style: {
+                                'background-color': '#f48771',
+                                'width': 80,
+                                'height': 80,
+                                'font-size': '14px',
+                                'font-weight': 'bold'
+                            }
+                        },
+                        {
+                            selector: 'edge',
+                            style: {
+                                'width': 'mapData(confidence, 0.5, 1, 1, 4)',
+                                'line-color': '#81c784',
+                                'target-arrow-color': '#81c784',
+                                'target-arrow-shape': 'triangle',
+                                'curve-style': 'bezier',
+                                'opacity': 'mapData(confidence, 0.5, 1, 0.4, 0.8)'
+                            }
+                        },
+                        {
+                            selector: 'edge[type="collaboration"]',
+                            style: {
+                                'line-color': '#ffb74d',
+                                'target-arrow-color': '#ffb74d'
+                            }
+                        },
+                        {
+                            selector: 'edge[type="mentor_student"]',
+                            style: {
+                                'line-color': '#ba68c8',
+                                'target-arrow-color': '#ba68c8'
+                            }
+                        },
+                        {
+                            selector: 'edge[type="contemporary"]',
+                            style: {
+                                'line-color': '#4fc3f7',
+                                'target-arrow-color': '#4fc3f7'
+                            }
+                        },
+                        {
+                            selector: 'node:selected',
+                            style: {
+                                'border-width': 3,
+                                'border-color': '#fff'
+                            }
+                        }
+                    ],
+                    layout: {
+                        name: this.currentLayout,
+                        animate: true,
+                        animationDuration: 1000
+                    }
+                });
+
+                this.setupInteractions();
+            }
+
+            convertToElements(data) {
+                const nodes = new Map();
+                const edges = [];
+
+                // Extract the main artist
+                const mainArtist = document.getElementById('artistSearch').value.trim();
+
+                // Add main artist node
+                nodes.set(mainArtist, {
+                    data: {
+                        id: mainArtist,
+                        label: mainArtist,
+                        type: 'primary',
+                        connections: 0
+                    }
+                });
+
+                // Process connections
+                if (data.connections && data.connections.direct_connections) {
+                    data.connections.direct_connections.forEach(connection => {
+                        const entityName = connection.entity_name;
+
+                        // Add connected entity node
+                        if (!nodes.has(entityName)) {
+                            nodes.set(entityName, {
+                                data: {
+                                    id: entityName,
+                                    label: entityName,
+                                    connections: connection.connection_count || 1
+                                }
+                            });
+                        }
+
+                        // Add relationships as edges
+                        if (connection.relationships) {
+                            connection.relationships.forEach(rel => {
+                                edges.push({
+                                    data: {
+                                        id: `${rel.source_entity}-${rel.target_entity}-${edges.length}`,
+                                        source: rel.source_entity,
+                                        target: rel.target_entity,
+                                        type: rel.relationship_type,
+                                        confidence: rel.confidence || 0.8,
+                                        evidence: rel.evidence,
+                                        themes: rel.themes || []
+                                    }
+                                });
+
+                                // Ensure both nodes exist
+                                [rel.source_entity, rel.target_entity].forEach(entity => {
+                                    if (!nodes.has(entity)) {
+                                        nodes.set(entity, {
+                                            data: {
+                                                id: entity,
+                                                label: entity,
+                                                connections: 1
+                                            }
+                                        });
+                                    }
+                                });
+                            });
+                        }
+                    });
+                }
+
+                return [...nodes.values(), ...edges];
+            }
+
+            setupInteractions() {
+                this.cy.on('tap', 'node', (evt) => {
+                    const node = evt.target;
+                    this.showNodeInfo(node);
+                    this.showRelationships(node.id());
+                });
+
+                this.cy.on('tap', (evt) => {
+                    if (evt.target === this.cy) {
+                        document.getElementById('infoPanel').style.display = 'none';
+                    }
+                });
+            }
+
+            showNodeInfo(node) {
+                const panel = document.getElementById('infoPanel');
+                const title = document.getElementById('panelTitle');
+                const content = document.getElementById('panelContent');
+
+                title.textContent = node.data('label');
+
+                const connections = node.connectedEdges().length;
+                const neighbors = node.neighborhood('node').length;
+
+                content.innerHTML = `
+                    <div class="stat-item">
+                        <span class="stat-label">Direct Connections:</span>
+                        <span class="stat-value">${connections}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Network Position:</span>
+                        <span class="stat-value">${node.data('type') === 'primary' ? 'Primary' : 'Connected'}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Neighbors:</span>
+                        <span class="stat-value">${neighbors}</span>
+                    </div>
+                `;
+
+                panel.style.display = 'block';
+            }
+
+            showRelationships(nodeId) {
+                const listContainer = document.getElementById('relationshipList');
+                const edges = this.cy.edges(`[source="${nodeId}"], [target="${nodeId}"]`);
+
+                if (edges.length === 0) {
+                    listContainer.innerHTML = '<h3>No relationships found</h3>';
+                    return;
+                }
+
+                let html = `<h3>Relationships for ${nodeId}</h3>`;
+
+                edges.forEach(edge => {
+                    const data = edge.data();
+                    const otherNode = data.source === nodeId ? data.target : data.source;
+                    const direction = data.source === nodeId ? '→' : '←';
+
+                    html += `
+                        <div class="relationship-item">
+                            <div class="relationship-type">
+                                ${nodeId} ${direction} ${otherNode}
+                            </div>
+                            <div class="confidence">
+                                ${data.type} (confidence: ${(data.confidence * 100).toFixed(0)}%)
+                            </div>
+                            ${data.evidence ? `<div class="evidence">${data.evidence}</div>` : ''}
+                            ${data.themes && data.themes.length > 0 ? `
+                                <div class="themes">
+                                    ${data.themes.map(theme => `<span class="theme-tag">${theme}</span>`).join('')}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                });
+
+                listContainer.innerHTML = html;
+            }
+
+            changeLayout(layoutName) {
+                if (!this.cy) return;
+
+                // Update button states
+                document.querySelectorAll('.layout-btn').forEach(btn => btn.classList.remove('active'));
+                document.querySelector(`[data-layout="${layoutName}"]`).classList.add('active');
+
+                this.currentLayout = layoutName;
+
+                const layoutOptions = {
+                    name: layoutName,
+                    animate: true,
+                    animationDuration: 1000
+                };
+
+                // Layout-specific options
+                if (layoutName === 'cose-bilkent') {
+                    layoutOptions.idealEdgeLength = 100;
+                    layoutOptions.nodeRepulsion = 4500;
+                } else if (layoutName === 'cose') {
+                    layoutOptions.idealEdgeLength = 100;
+                    layoutOptions.nodeRepulsion = 4500;
+                } else if (layoutName === 'breadthfirst') {
+                    layoutOptions.directed = true;
+                    layoutOptions.roots = this.cy.nodes('[type="primary"]');
+                }
+
+                this.cy.layout(layoutOptions).run();
+            }
+
+            filterByConfidence(minConfidence) {
+                if (!this.cy) return;
+
+                this.cy.edges().forEach(edge => {
+                    const confidence = edge.data('confidence') || 0.8;
+                    if (confidence >= minConfidence) {
+                        edge.style('display', 'element');
+                    } else {
+                        edge.style('display', 'none');
+                    }
+                });
+            }
+
+            updateStats(data) {
+                const statsPanel = document.getElementById('networkStats');
+                const nodeCount = this.cy ? this.cy.nodes().length : 0;
+                const edgeCount = this.cy ? this.cy.edges().length : 0;
+
+                document.getElementById('nodeCount').textContent = nodeCount;
+                document.getElementById('edgeCount').textContent = edgeCount;
+                document.getElementById('clusterCount').textContent = data.connections?.direct_connections?.length || 0;
+
+                statsPanel.style.display = 'block';
+            }
+        }
+
+        // Initialize the visualizer when the page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            new NetworkVisualizer();
+        });
+    </script>
+</body>
+</html>

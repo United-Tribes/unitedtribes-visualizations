@@ -1,0 +1,306 @@
+{
+  "artist_name": "Slash",
+  "works": [
+    {
+      "title": "Live in Manchester",
+      "release_date": "2010-07-03",
+      "type": "Album",
+      "mbid": "41dd4c90-6170-42e1-8e70-8fdd9ea3a0fa"
+    },
+    {
+      "title": "Live at the Roxy 25.09.14",
+      "release_date": "2015-06-15",
+      "type": "Album",
+      "mbid": "44ca397a-4075-436c-a5bc-41de570d7020"
+    },
+    {
+      "title": "Thunder",
+      "release_date": "1995",
+      "type": "Album",
+      "mbid": "79357579-47e5-43a2-864c-2fb60d16b5a5"
+    },
+    {
+      "title": "Universal Monsters",
+      "release_date": "2018-09-15",
+      "type": "Album",
+      "mbid": "888542e8-84ed-40e1-be21-989e8463deac"
+    },
+    {
+      "title": "Live in Australia, August 2010",
+      "release_date": "2010-08-16",
+      "type": "Album",
+      "mbid": "8f9efb71-92f9-40d5-b81a-b5070692340e"
+    },
+    {
+      "title": "Made in Stoke 24/7/11",
+      "release_date": "2011-11-09",
+      "type": "Album",
+      "mbid": "b39dbcd7-e3c3-4488-b9e5-0d9b682522fa"
+    },
+    {
+      "title": "Slash",
+      "release_date": "2010-03-31",
+      "type": "Album",
+      "mbid": "b41ac508-2d26-4323-9bb5-be7ec9bf3318"
+    },
+    {
+      "title": "Living The Dream Tour (Live)",
+      "release_date": "2019-09-20",
+      "type": "Album",
+      "mbid": "d535475d-e0b6-4915-aa5e-3a5bbbd6eff5"
+    },
+    {
+      "title": "Nothing Left to Fear (Original Motion Picture Soundtrack)",
+      "release_date": "2013-10-04",
+      "type": "Album",
+      "mbid": "d8907806-af1d-4da5-9478-cb8549d1e95c"
+    },
+    {
+      "title": "Orgy of the Damned",
+      "release_date": "2024-05-17",
+      "type": "Album",
+      "mbid": "e8ac02f8-3507-4d59-a80c-3b2fd00fe7e1"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Geffen Records",
+      "Dik Hayd Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000021009"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/5e7a7026-dfc5-4aba-8496-95140716f3db"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/170015"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/715278"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.snakepit.org/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4Cqia9vrAbm7ANXbJGXsTE"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/52dwLBXhLh1mEMssxptmah"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/10336"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/5645701"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:SlashHWOFJul2012.jpg"
+      },
+      {
+        "type": "interview",
+        "url": "http://www.telegraph.co.uk/culture/music/rockandpopfeatures/7820653/Slash-interview.html"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Slash"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-9876/slash/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Slash"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Slash"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/slash"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://slashonline.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.slashonline.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/S/Slash/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/slash-3"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/slash"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.metalmusicarchives.com/artist/slash"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id115556"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/280708/all"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/115556"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://slash.tmstor.es/"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/8491"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/Slash"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/slashhudson"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/slash"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/slash"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/slash/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@slash"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/slashmusic-1"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/115556"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/3502582"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/slash/41605"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/29519334"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q34166"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC6WCQjfkWnDWvFfw_YDrq5g"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCCmhkOml3mM0nXpSM-k_PFw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Slash",
+    "musicbrainz": "https://musicbrainz.org/artist/5e7a7026-dfc5-4aba-8496-95140716f3db"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Slash may refer to:\n\nSlash (punctuation), the \"/\" character",
+    "summary": "Slash may refer to:\n\nSlash (punctuation), the \"/\" character...",
+    "url": "https://en.wikipedia.org/wiki/Slash",
+    "title": "Slash",
+    "word_count": 9,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": ""
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "5e7a7026-dfc5-4aba-8496-95140716f3db",
+      "name": "Slash",
+      "disambiguation": "Guns N’ Roses guitarist",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Hampstead",
+      "life_span": {
+        "begin": "1965-07-23",
+        "end": null
+      }
+    },
+    "total_works": 10,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 41
+    },
+    "mbid": "5e7a7026-dfc5-4aba-8496-95140716f3db"
+  },
+  "created_at": "2025-08-20T08:24:19.717245",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Slash may refer to:\n\nSlash (punctuation), the \"/\" character",
+  "musicbrainz_info": {
+    "mbid": "5e7a7026-dfc5-4aba-8496-95140716f3db",
+    "name": "Slash",
+    "disambiguation": "Guns N’ Roses guitarist",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Hampstead",
+    "life_span": {
+      "begin": "1965-07-23",
+      "end": null
+    }
+  }
+}

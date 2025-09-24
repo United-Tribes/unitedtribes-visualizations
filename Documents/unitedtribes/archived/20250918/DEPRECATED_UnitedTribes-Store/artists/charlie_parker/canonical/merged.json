@@ -1,0 +1,367 @@
+{
+  "artist_name": "Charlie Parker",
+  "works": [
+    {
+      "title": "Bird and Diz",
+      "release_date": "1952",
+      "type": "Album",
+      "mbid": "069a4693-1752-36da-9707-d98b47a57146"
+    },
+    {
+      "title": "Jam Session",
+      "release_date": "1990",
+      "type": "Album",
+      "mbid": "25a15425-3af4-3482-85e8-5b48bebd03b6"
+    },
+    {
+      "title": "Blue Rondo",
+      "release_date": "1997",
+      "type": "Album",
+      "mbid": "2666e0ed-0642-4511-bd58-e56bfa0a4cff"
+    },
+    {
+      "title": "Super Session",
+      "release_date": "2002-12-06",
+      "type": "Album",
+      "mbid": "2e8fc1d4-2ff1-4a38-b043-3fce7d6ff1e2"
+    },
+    {
+      "title": "The Happy \"Bird\"",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "3efae46d-2851-4efe-a65f-1ce2bc522a1c"
+    },
+    {
+      "title": "Charlie Parker Sextet",
+      "release_date": "1950",
+      "type": "Album",
+      "mbid": "522fa0de-52b7-40b3-86c8-e3cc6b272c9c"
+    },
+    {
+      "title": "Charlie Parker in Sweden 1950",
+      "release_date": "1986",
+      "type": "Album",
+      "mbid": "5b528e97-545b-432f-b225-37aafd536c45"
+    },
+    {
+      "title": "An Evening at Home With the Bird",
+      "release_date": "1992",
+      "type": "Album",
+      "mbid": "6bcf15a5-0c8f-334b-bb3a-a86a448fb178"
+    },
+    {
+      "title": "Royal Roost Bop",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "742ed2f3-a257-4cbf-bbb2-c725c8ee90f4"
+    },
+    {
+      "title": "Plays Cole Porter - The Genius of Charlie Parker #5",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "80c1c261-5e9b-4c30-a10b-b15327ed9a6e"
+    },
+    {
+      "title": "The Charlie Parker Story",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "9186abe8-6467-4ac3-88d5-fafad14df2d2"
+    },
+    {
+      "title": "Once There Was Bird",
+      "release_date": "1962-10",
+      "type": "Album",
+      "mbid": "9b2716f1-e7d2-4240-a262-9e7332dcd213"
+    },
+    {
+      "title": "Charlie Parker Memorial Vol. 1",
+      "release_date": "1955",
+      "type": "Album",
+      "mbid": "9ef52823-2b69-4c0f-a0a9-4ae49b30e789"
+    },
+    {
+      "title": "Bird - Diz - Bud - Max",
+      "release_date": "1953",
+      "type": "Album",
+      "mbid": "a290825f-e322-44ac-9659-a6a843acdd7c"
+    },
+    {
+      "title": "Bird And Diz",
+      "release_date": "2020",
+      "type": "Album",
+      "mbid": "a3ba3b30-bfb0-4d66-8b32-202f3ddeb676"
+    },
+    {
+      "title": "Charlie Parker With Strings",
+      "release_date": "1949-11-30",
+      "type": "Album",
+      "mbid": "a62849c1-252f-4044-a6f8-3b72aa3057ee"
+    },
+    {
+      "title": "Charlie Parker",
+      "release_date": "1954",
+      "type": "Album",
+      "mbid": "a6f4e373-a93b-4f0f-ac8e-d9b84327e7d5"
+    },
+    {
+      "title": "An Historical Meeting At The Summit",
+      "release_date": "1961",
+      "type": "Album",
+      "mbid": "a8ebec02-a727-430e-8b7b-eac5c3138dd8"
+    },
+    {
+      "title": "Red Norvo's Fabulous Jam Session",
+      "release_date": "1951",
+      "type": "Album",
+      "mbid": "b7b5ecfe-b8a3-42cf-92dd-9bd49b1e51b4"
+    },
+    {
+      "title": "Bird’s Night",
+      "release_date": "1991-09-01",
+      "type": "Album",
+      "mbid": "b9636102-5eeb-4122-b3a6-2d809da0fb2f"
+    },
+    {
+      "title": "Bird on the Wing",
+      "release_date": "1993",
+      "type": "Album",
+      "mbid": "ccace884-636b-39f8-993c-3ad0a8264efc"
+    },
+    {
+      "title": "South of the Border",
+      "release_date": "1952",
+      "type": "Album",
+      "mbid": "d3af9d64-afb5-481a-8e74-5c63a323f62c"
+    },
+    {
+      "title": "Bird's Nest",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "daf961c2-aa31-4a5c-993a-6dd90226388f"
+    },
+    {
+      "title": "Fragments",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "e48a8516-6769-45fe-bf3c-13d12d5d5ef3"
+    },
+    {
+      "title": "At Café Society",
+      "release_date": "2020",
+      "type": "Album",
+      "mbid": "f053cd50-bc1a-42c2-9e05-95457569d5c4"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "The Quintet"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000211758"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/c7356af9-9ea6-4a78-a55b-c73775716312"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=1426&pt=Charlie%20Parker"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.jazzdisco.org/bird/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.jazzdisco.org/charlie-parker/discography/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.kyushu-ns.ac.jp/~allan/Documents/CP_M.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/1424206"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/753336"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/75617"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.birdlives.co.uk/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/4Ww5mwS7BWYjoZTUIrMHfC"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/2692"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Charlie_Parker,_Tommy_Potter,_Miles_Davis,_Max_Roach_(Gottlieb_06941).jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0662127/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Charlie+Parker"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Charlie-parker"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50050327"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://adp.library.ucsb.edu/names/336464"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13898247z"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118739328"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w67086vq"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-911160"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL4918032A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/charlie_parker"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/charlie-parker/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50050327"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/artist/id284786497"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/284786497"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/138"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/284786497"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/284786497"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/872"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/10034216"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q103767"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Charlie_Parker",
+    "musicbrainz": "https://musicbrainz.org/artist/c7356af9-9ea6-4a78-a55b-c73775716312"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Charles Parker Jr. (August 29, 1920 – March 12, 1955), nicknamed \"Bird\" or \"Yardbird\", was an American jazz saxophonist, bandleader, and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic technique, and advanced harmonies. He was a virtuoso and introduced revolutionary rhythmic and harmonic ideas into jazz, including rapid passing chords, new variants of altered chords, and chord substitutions. Parker primarily played the alto saxophone.\nParker was an icon for the hipster subculture and later the Beat Generation, personifying the jazz musician as an uncompromising artist and intellectual rather than just an entertainer.\n\n",
+    "summary": "Charles Parker Jr. (August 29, 1920 – March 12, 1955), nicknamed \"Bird\" or \"Yardbird\", was an American jazz saxophonist, bandleader, and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic technique, and advanced harmonies. He was a virtuoso and introduced revolutionary rhythmic and harmonic ideas into jazz, including rapid passing chords, new variants of altered chords, and chord substitutions. Parker primarily played the alto saxophone.\nParker was an icon for the hipster subculture and later the Beat Generation, personifying the jazz musician as an uncompromising artist and intellectual rather than just an entertainer.\n\n...",
+    "url": "https://en.wikipedia.org/wiki/Charlie_Parker",
+    "title": "Charlie Parker",
+    "word_count": 108,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Portrait_of_Charlie_Parker_in_1947.jpg/330px-Portrait_of_Charlie_Parker_in_1947.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312",
+      "name": "Charlie Parker",
+      "disambiguation": "a.k.a. “Bird”, jazz alto saxophonist",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Kansas City",
+      "life_span": {
+        "begin": "1920-08-29",
+        "end": "1955-03-12"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 1,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 34
+    },
+    "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312"
+  },
+  "created_at": "2025-08-20T07:53:27.052754",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Charles Parker Jr. (August 29, 1920 – March 12, 1955), nicknamed \"Bird\" or \"Yardbird\", was an American jazz saxophonist, bandleader, and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic technique, and advanced harmonies. He was a virtuoso and introduced revolutionary rhythmic and harmonic ideas into jazz, including rapid passing chords, new variants of altered chords, and chord substitutions. Parker primarily played the alto saxophone.\nParker was an icon for the hipster subculture and later the Beat Generation, personifying the jazz musician as an uncompromising artist and intellectual rather than just an entertainer.\n\n",
+  "musicbrainz_info": {
+    "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312",
+    "name": "Charlie Parker",
+    "disambiguation": "a.k.a. “Bird”, jazz alto saxophonist",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Kansas City",
+    "life_span": {
+      "begin": "1920-08-29",
+      "end": "1955-03-12"
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "artist_name": "Bon Jovi",
+  "works": [
+    {
+      "title": "These Days",
+      "release_date": "1995-06-02",
+      "type": "Album",
+      "mbid": "0dd13464-edfd-3466-bb16-f63ca268ab37"
+    },
+    {
+      "title": "Keep the Faith",
+      "release_date": "1992-10-30",
+      "type": "Album",
+      "mbid": "0e2ccac6-fd7b-3b8e-8dfe-07b56b61cb29"
+    },
+    {
+      "title": "This Left Feels Right",
+      "release_date": "2003-11-03",
+      "type": "Album",
+      "mbid": "2b4fbb93-96a8-320c-b230-5a1b2f79f1a9"
+    },
+    {
+      "title": "Best Ballads",
+      "release_date": "1998",
+      "type": "Album",
+      "mbid": "2fb31baf-17d3-34af-9028-bcb1d72c0b6a"
+    },
+    {
+      "title": "Target Exclusive",
+      "release_date": "2003",
+      "type": "Album",
+      "mbid": "32f4b74d-cc61-361d-a6ef-0eb0a66fbed5"
+    },
+    {
+      "title": "2020",
+      "release_date": "2020-10-02",
+      "type": "Album",
+      "mbid": "3c6fe7fd-0d0f-4e11-a217-8f0304f0b319"
+    },
+    {
+      "title": "Hidden Treasures",
+      "release_date": "1996",
+      "type": "Album",
+      "mbid": "5251620f-b1c4-386c-a30b-d98d740fbb65"
+    },
+    {
+      "title": "Crush",
+      "release_date": "2000-05-17",
+      "type": "Album",
+      "mbid": "6024045a-2d30-3ab5-8eb2-b6e5f61a78d3"
+    },
+    {
+      "title": "7800° Fahrenheit",
+      "release_date": "1985-06-05",
+      "type": "Album",
+      "mbid": "63d759cc-eec6-3db5-933c-3f210627806a"
+    },
+    {
+      "title": "Burning Bridges",
+      "release_date": "2015-08-21",
+      "type": "Album",
+      "mbid": "73a6c7ae-0fd3-49dd-9a3a-d843ace27612"
+    },
+    {
+      "title": "Hard & Hot",
+      "release_date": "1991",
+      "type": "Album",
+      "mbid": "80b243d7-3060-35c0-9491-3ef1f0544162"
+    },
+    {
+      "title": "Cross Road",
+      "release_date": "1994-10-04",
+      "type": "Album",
+      "mbid": "83ec3494-9cec-3f5f-b5f8-306caf7676f9"
+    },
+    {
+      "title": "Forever",
+      "release_date": "2024-06-07",
+      "type": "Album",
+      "mbid": "90cc8a89-a76c-44aa-9d5a-f163daa2710e"
+    },
+    {
+      "title": "Lost Highway",
+      "release_date": "2007-06-11",
+      "type": "Album",
+      "mbid": "9105c0d4-eeaf-3c7e-9f68-278860b08c01"
+    },
+    {
+      "title": "The Circle",
+      "release_date": "2009-11-02",
+      "type": "Album",
+      "mbid": "a5651aef-e3bf-46dd-86f1-cf3091e4a388"
+    },
+    {
+      "title": "New Jersey",
+      "release_date": "1988-09-19",
+      "type": "Album",
+      "mbid": "aa1ba758-0a80-3734-9bf8-4f554822b153"
+    },
+    {
+      "title": "100,000,000 Bon Jovi Fans Can't Be Wrong",
+      "release_date": "2004-11-16",
+      "type": "Album",
+      "mbid": "b93c4bab-0ebb-3b23-8728-8eb3e2540205"
+    },
+    {
+      "title": "Bon Jovi",
+      "release_date": "1984-01-23",
+      "type": "Album",
+      "mbid": "d60113b0-ab11-3c61-b74b-160cb1ed5fc6"
+    },
+    {
+      "title": "Bounce",
+      "release_date": "2002-09-11",
+      "type": "Album",
+      "mbid": "df345e43-0e8b-35d4-9a67-616d3a073d24"
+    },
+    {
+      "title": "What About Now",
+      "release_date": "2013-01-01",
+      "type": "Album",
+      "mbid": "e02f8bbd-27a1-4d93-aced-ad32dd51d6bf"
+    },
+    {
+      "title": "Have a Nice Day",
+      "release_date": "2005-09-14",
+      "type": "Album",
+      "mbid": "e2838c6e-a8b4-3a8e-9877-8d32faf33a9f"
+    },
+    {
+      "title": "Tokyo Road",
+      "release_date": "2001-03-28",
+      "type": "Album",
+      "mbid": "e3df20b1-52be-3562-abb0-354e2434d13f"
+    },
+    {
+      "title": "Slippery When Wet",
+      "release_date": "1986-08-10",
+      "type": "Album",
+      "mbid": "f07346e6-c889-33b8-83c8-ad987d7b14f6"
+    },
+    {
+      "title": "Double Up",
+      "release_date": "1985",
+      "type": "Album",
+      "mbid": "fd092ceb-a431-4906-a15d-3a018435ed87"
+    },
+    {
+      "title": "This House Is Not for Sale",
+      "release_date": "2016-10-21",
+      "type": "Album",
+      "mbid": "fd527e07-7928-4b28-89f2-965bdbfc04ae"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Vertigo",
+      "Mercury Records",
+      "Island",
+      "Captain Kidd Corp."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000069534"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/300"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/5dcdb5eb-cb72-4e6e-9e63-b7bace604965"
+      },
+      {
+        "type": "biography",
+        "url": "http://www.hln.be/regio/nieuws-uit-oostkamp/parkpop-strikt-ramones-en-foo-fighters-of-toch-hun-geweldige-tributebands-a2215106/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/124541"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/58lV9VcRSjABbAbfWS6skp"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/637"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Bon_Jovi_1.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm1654945/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Bon+Jovi"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Bon-jovi"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://muzikum.eu/en/122-3429/bon-jovi/lyrics"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Bon-Jovi"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/bonjovi"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://bonjovi.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n88615903"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13902067w"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/5232504-0"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/bon-jovi"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/B/Bon_Jovi"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/bon_jovi"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://spirit-of-metal.com/groupe-groupe-Bon_Jovi-l-en"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/bon-jovi"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/18460"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.metalmusicarchives.com/artist/bon-jovi"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/bon-jovi/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000004197/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Bon-Jovi/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n88615903"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.maniadb.com/artist/118130"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=An4e5bnhixdhofvtjcwa2vxmwoe"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/11574/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/122782"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.7digital.com/artist/bon-jovi"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/bon-jovi/772266"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/gb-en/interpreter/bon-jovi/download-streaming-albums"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700170789"
+      },
+      {
+        "type": "purevolume",
+        "url": "https://purevolume.com/bonjovi"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/2043"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/bon-jovi-33d6b851.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/+BonJovi"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/bonjovi"
+      },
+      {
+        "type": "social_network",
+        "url": "https://vk.com/bonjoviofficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/BonJovi"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/bonjovi/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@bonjovi"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/263609"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/bonjovi"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/bon-jovi-com"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B001E77IFI"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/122782"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/27418"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/bon-jovi"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/bon-jovi/download-streaming-albums"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/734608"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/121021571"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q259254"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCkBwnm7GOfYHsacwUjriC-w"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCwlTofOAY79PS_GhmborAdA"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCCL-yoaPLR-7bxZM1xlcQcQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bon_Jovi",
+    "musicbrainz": "https://musicbrainz.org/artist/5dcdb5eb-cb72-4e6e-9e63-b7bace604965"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Bon Jovi is an American rock band formed in Sayreville, New Jersey in 1983. The band consists of singer Jon Bon Jovi, keyboardist David Bryan, drummer Tico Torres, guitarists John Shanks and Phil X, percussionist Everett Bradley, and bassist Hugh McDonald. Original bassist Alec John Such left the band in 1994, and longtime guitarist and co-songwriter Richie Sambora left in 2013.\nIn 1984, Bon Jovi released their self-titled debut album, and its single \"Runaway\" managed to reach the Top 40 of the Billboard Hot 100. In 1986, the band achieved widespread success and global recognition with their third album, Slippery When Wet, which included three Top 10 singles on the Billboard Hot 100, two of which reached No. 1: \"You Give Love a Bad Name\" and \"Livin' on a Prayer\". Their fourth album, New Jersey (1988), was also commercially successful, featuring five Top 10 singles, including the number ones \"Bad Medicine\" and \"I'll Be There for You\". The band toured and recorded during the late 1980s, culminating in the 1988–90 New Jersey Syndicate Tour.\nIn 1992, the band returned with the double-platinum Keep the Faith, which included the hit \"Bed of Roses\". This was followed by their biggest-selling...",
+    "summary": "Bon Jovi is an American rock band formed in Sayreville, New Jersey in 1983. The band consists of singer Jon Bon Jovi, keyboardist David Bryan, drummer Tico Torres, guitarists John Shanks and Phil X, percussionist Everett Bradley, and bassist Hugh McDonald. Original bassist Alec John Such left the band in 1994, and longtime guitarist and co-songwriter Richie Sambora left in 2013.\nIn 1984, Bon Jovi released their self-titled debut album, and its single \"Runaway\" managed to reach the Top 40 of the Billboard Hot 100. In 1986, the band achieved widespread success and global recognition with their third album, Slippery When Wet, which included three Top 10 singles on the Billboard Hot 100, two of which reached No. 1: \"You Give Love a Bad Name\" and \"Livin' on a Prayer\". Their fourth album, New Jersey (1988), was also commercially successful, featuring five Top 10 singles, including the number ones \"Bad Medicine\" and \"I'll Be There for You\". The band toured and recorded during the late 1980s, ...",
+    "url": "https://en.wikipedia.org/wiki/Bon_Jovi",
+    "title": "Bon Jovi",
+    "word_count": 198,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Bonjoviband2013.png/330px-Bonjoviband2013.png"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "5dcdb5eb-cb72-4e6e-9e63-b7bace604965",
+      "name": "Bon Jovi",
+      "disambiguation": "group",
+      "type": "Group",
+      "country": "US",
+      "begin_area": "Sayreville",
+      "life_span": {
+        "begin": "1983",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 4,
+      "instruments": 0,
+      "related_urls": 60
+    },
+    "mbid": "5dcdb5eb-cb72-4e6e-9e63-b7bace604965"
+  },
+  "created_at": "2025-08-20T08:40:30.443957",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Bon Jovi is an American rock band formed in Sayreville, New Jersey in 1983. The band consists of singer Jon Bon Jovi, keyboardist David Bryan, drummer Tico Torres, guitarists John Shanks and Phil X, percussionist Everett Bradley, and bassist Hugh McDonald. Original bassist Alec John Such left the band in 1994, and longtime guitarist and co-songwriter Richie Sambora left in 2013.\nIn 1984, Bon Jovi released their self-titled debut album, and its single \"Runaway\" managed to reach the Top 40 of the Billboard Hot 100. In 1986, the band achieved widespread success and global recognition with their third album, Slippery When Wet, which included three Top 10 singles on the Billboard Hot 100, two of which reached No. 1: \"You Give Love a Bad Name\" and \"Livin' on a Prayer\". Their fourth album, New Jersey (1988), was also commercially successful, featuring five Top 10 singles, including the number ones \"Bad Medicine\" and \"I'll Be There for You\". The band toured and recorded during the late 1980s, culminating in the 1988–90 New Jersey Syndicate Tour.\nIn 1992, the band returned with the double-platinum Keep the Faith, which included the hit \"Bed of Roses\". This was followed by their biggest-selling...",
+  "musicbrainz_info": {
+    "mbid": "5dcdb5eb-cb72-4e6e-9e63-b7bace604965",
+    "name": "Bon Jovi",
+    "disambiguation": "group",
+    "type": "Group",
+    "country": "US",
+    "begin_area": "Sayreville",
+    "life_span": {
+      "begin": "1983",
+      "end": null
+    }
+  }
+}

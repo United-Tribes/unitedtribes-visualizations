@@ -1,0 +1,594 @@
+{
+  "artist_name": "Bob Dylan",
+  "works": [
+    {
+      "title": "The Freewheelin’ Bob Dylan",
+      "release_date": "1963-05-27",
+      "type": "Album",
+      "mbid": "169b62aa-c3a5-3ed9-bed1-cc47c4bc51ad"
+    },
+    {
+      "title": "Nashville Skyline",
+      "release_date": "1969-04-09",
+      "type": "Album",
+      "mbid": "2ca28746-8987-3015-b54c-75b3aa8ca1a1"
+    },
+    {
+      "title": "John Wesley Harding",
+      "release_date": "1967-12-27",
+      "type": "Album",
+      "mbid": "32981714-597a-32dd-9f29-b2f7566fed89"
+    },
+    {
+      "title": "Blonde on Blonde",
+      "release_date": "1966-05-16",
+      "type": "Album",
+      "mbid": "329fb554-2a81-3d8a-8e22-ec2c66810019"
+    },
+    {
+      "title": "Oh Mercy",
+      "release_date": "1989-09-12",
+      "type": "Album",
+      "mbid": "36675813-6c3c-33fa-8eaf-b1cd66d4f006"
+    },
+    {
+      "title": "Knocked Out Loaded",
+      "release_date": "1986-07-14",
+      "type": "Album",
+      "mbid": "423bf65a-6e28-3a14-8ea7-08912eb15e29"
+    },
+    {
+      "title": "Shot of Love",
+      "release_date": "1981-08-10",
+      "type": "Album",
+      "mbid": "4491344e-1ffd-339d-a2c5-e6a369b4708e"
+    },
+    {
+      "title": "The Basement Tapes",
+      "release_date": "1975-06-26",
+      "type": "Album",
+      "mbid": "47873729-6db0-3431-99e7-0292e939dadf"
+    },
+    {
+      "title": "New Morning",
+      "release_date": "1970-10-21",
+      "type": "Album",
+      "mbid": "4f2b915f-cc82-3c18-ac9b-05f3d4df622d"
+    },
+    {
+      "title": "Street‐Legal",
+      "release_date": "1978-06-15",
+      "type": "Album",
+      "mbid": "5883c91a-43ea-34e6-922d-1dc12fd48467"
+    },
+    {
+      "title": "Infidels",
+      "release_date": "1983-10-27",
+      "type": "Album",
+      "mbid": "60f27712-263a-348c-8eda-b5315a67e8c2"
+    },
+    {
+      "title": "Self Portrait",
+      "release_date": "1970-06-08",
+      "type": "Album",
+      "mbid": "6163aa70-d97f-34e5-a5bf-54b7d85a7ea0"
+    },
+    {
+      "title": "Bob Dylan",
+      "release_date": "1962-03-19",
+      "type": "Album",
+      "mbid": "6ac612a5-e815-3fed-b341-8b3faa351df4"
+    },
+    {
+      "title": "Bringing It All Back Home",
+      "release_date": "1965-03-22",
+      "type": "Album",
+      "mbid": "6cadda7c-fbd0-3b19-9546-56915e3305d8"
+    },
+    {
+      "title": "The Times They Are A‐Changin’",
+      "release_date": "1964-02-10",
+      "type": "Album",
+      "mbid": "846f8032-9a85-3f4f-b7f5-28c86573d044"
+    },
+    {
+      "title": "Slow Train Coming",
+      "release_date": "1979-08-20",
+      "type": "Album",
+      "mbid": "84b2989d-4364-3882-9570-30d4a048c487"
+    },
+    {
+      "title": "Blood on the Tracks",
+      "release_date": "1975-01-20",
+      "type": "Album",
+      "mbid": "9c1b8072-eb1d-33d2-af8c-984d46e40902"
+    },
+    {
+      "title": "Saved",
+      "release_date": "1980-06-19",
+      "type": "Album",
+      "mbid": "a11f33bf-1573-3b99-bcc6-d0c6e6592bcd"
+    },
+    {
+      "title": "Dylan",
+      "release_date": "1973-11-16",
+      "type": "Album",
+      "mbid": "a876f1e5-9a1a-32ef-a7f2-8971511bd19f"
+    },
+    {
+      "title": "Empire Burlesque",
+      "release_date": "1985-05-30",
+      "type": "Album",
+      "mbid": "a90b32b2-c84d-35ad-bab3-07e6799cde5b"
+    },
+    {
+      "title": "Planet Waves",
+      "release_date": "1974-01-17",
+      "type": "Album",
+      "mbid": "aedd518d-d7e0-3595-80c7-54d2aad292f8"
+    },
+    {
+      "title": "Another Side of Bob Dylan",
+      "release_date": "1964-08-08",
+      "type": "Album",
+      "mbid": "b18ef710-0e47-3c10-ab0b-6631533549ee"
+    },
+    {
+      "title": "Down in the Groove",
+      "release_date": "1988-05-19",
+      "type": "Album",
+      "mbid": "ce8a72cf-10c7-3dea-b9e7-3dd260a9ed5c"
+    },
+    {
+      "title": "Highway 61 Revisited",
+      "release_date": "1965-08-30",
+      "type": "Album",
+      "mbid": "fb48b1dc-412f-36aa-8820-1023c08c46c6"
+    },
+    {
+      "title": "Desire",
+      "release_date": "1976-01-05",
+      "type": "Album",
+      "mbid": "fc325dd3-73ed-36aa-9c77-6b65a958e3cf"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "Artists United Against Apartheid",
+      "USA for Africa"
+    ],
+    "members": [],
+    "associated_acts": [
+      "Neverending Tour Band"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Dwarf Music",
+      "Egyptian Records",
+      "Big Sky Music",
+      "Ram’s Horn Music",
+      "CBS Records Inc.",
+      "Special Rider Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000066915"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/487"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/72c536dc-7137-4477-a521-567eeb840fa8"
+      },
+      {
+        "type": "biography",
+        "url": "https://www.wolfgangs.com/bob-dylan/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://cds.jrd.org.uk/list/titles.bob.shtml"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://jokerman.org.uk/lb/LosslessBob.html"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.boblinks.com/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.bobsboots.com/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.searchingforagem.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/444635"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/59792"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/834818"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/808"
+      },
+      {
+        "type": "free_streaming",
+        "url": "http://www.pandora.com/bob-dylan"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Bob_Dylan_-_Azkena_Rock_Festival_2010_1.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0001168/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Bob+Dylan"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-3919/bob-dylan/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Bob-dylan"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/bobdylan"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://bobdylan.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50030190"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/D/Dylan,_Bob/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://artists.spotify.com/songwriter/1d77BnaN7rMcHBcqA6YSR3"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13893566v"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118528408"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=84040"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/bob-dylan"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/be618fdb-c6ad-4f66-907d-4ed0a92c6012"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-812744"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL26505A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/bob-dylan"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://snaccooperative.org/ark:/99166/w6wd4h4j"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/bob-dylan"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/bob-dylan/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50030190"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id462006"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/158"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/bob-dylan-1bd6adb8.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/bobdylan"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/bobdylan"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/bobdylan/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/408511"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/bobdylan"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/de/artist/462006"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/80"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/111894442"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q392"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCnRI0ay61tY-fKYzzB3fCnw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bob_Dylan",
+    "musicbrainz": "https://musicbrainz.org/artist/72c536dc-7137-4477-a521-567eeb840fa8"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Bob Dylan (legally Robert Dylan; born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter. Described as one of the greatest songwriters of all time, Dylan has been a major figure in popular culture over his 68-year career. With an estimated 125 million records sold worldwide, he is one of the best-selling musicians. Dylan added increasingly sophisticated lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political, social, and philosophical influences, defying pop music conventions and appealing to the burgeoning counterculture.\nDylan was born in St. Louis County, Minnesota. He moved to New York City in 1961 to pursue a career in music. Following his 1962 debut album, Bob Dylan, featuring traditional folk and blues material, he released his breakthrough album The Freewheelin' Bob Dylan (1963), which included \"Girl from the North Country\" and \"A Hard Rain's a-Gonna Fall\", adapting older folk songs. His songs \"Blowin' in the Wind\" (1963) and \"The Times They Are a-Changin'\" (1964) became anthems for the civil rights and antiwar movements. In 1965 and 1966, Dylan created...",
+    "summary": "Bob Dylan (legally Robert Dylan; born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter. Described as one of the greatest songwriters of all time, Dylan has been a major figure in popular culture over his 68-year career. With an estimated 125 million records sold worldwide, he is one of the best-selling musicians. Dylan added increasingly sophisticated lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poe...",
+    "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
+    "title": "Bob Dylan",
+    "word_count": 187,
+    "categories": [
+      "Category:1941 births",
+      "Category:20th-century American Jews",
+      "Category:20th-century American guitarists",
+      "Category:20th-century American male singers",
+      "Category:20th-century American male writers",
+      "Category:20th-century American singer-songwriters",
+      "Category:20th-century American songwriters",
+      "Category:21st-century American Jews",
+      "Category:21st-century American guitarists",
+      "Category:21st-century American male singers",
+      "Category:21st-century American male writers",
+      "Category:21st-century American singer-songwriters",
+      "Category:21st-century American songwriters",
+      "Category:All Wikipedia articles written in American English",
+      "Category:American Christians",
+      "Category:American Nobel laureates",
+      "Category:American acoustic guitarists",
+      "Category:American album-cover and concert-poster artists",
+      "Category:American autobiographers",
+      "Category:American blues guitarists",
+      "Category:American blues singers",
+      "Category:American country guitarists",
+      "Category:American country singer-songwriters",
+      "Category:American folk guitarists",
+      "Category:American folk rock musicians",
+      "Category:American folk singers",
+      "Category:American gospel singers",
+      "Category:American harmonica players",
+      "Category:American male guitarists",
+      "Category:American male singer-songwriters",
+      "Category:American multi-instrumentalists",
+      "Category:American people of Lithuanian-Jewish descent",
+      "Category:American people of Turkish-Jewish descent",
+      "Category:American people of Ukrainian-Jewish descent",
+      "Category:American political music artists",
+      "Category:American radio DJs",
+      "Category:American rock guitarists",
+      "Category:American rock singers",
+      "Category:American rock songwriters",
+      "Category:Articles containing video clips",
+      "Category:Articles with hAudio microformats",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Artists from Minnesota",
+      "Category:Asylum Records artists",
+      "Category:Best Original Song Academy Award–winning songwriters",
+      "Category:Biography with signature",
+      "Category:Bob Dylan",
+      "Category:CS1: unfit URL",
+      "Category:Christians from Minnesota"
+    ],
+    "internal_links": [
+      "\"Love and Theft\"",
+      "'Twas the Night Before Christmas",
+      "(I'm Gonna) Love Me Again",
+      "(I've Had) The Time of My Life",
+      "1901 Nobel Prize in Literature",
+      "1902 Nobel Prize in Literature",
+      "1903 Nobel Prize in Literature",
+      "1904 Nobel Prize in Literature",
+      "1905 Nobel Prize in Literature",
+      "1906 Nobel Prize in Literature",
+      "1907 Nobel Prize in Literature",
+      "1908 Nobel Prize in Literature",
+      "1909 Nobel Prize in Literature",
+      "1910 Nobel Prize in Literature",
+      "1911 Nobel Prize in Literature",
+      "1912 Nobel Prize in Literature",
+      "1913 Nobel Prize in Literature",
+      "1914 Nobel Prize in Literature",
+      "1915 Nobel Prize in Literature",
+      "1916 Nobel Prize in Literature",
+      "1917 Nobel Prize in Literature",
+      "1918 Nobel Prize in Literature",
+      "1919 Nobel Prize in Literature",
+      "1920 Nobel Prize in Literature",
+      "1921 Nobel Prize in Literature",
+      "1922 Nobel Prize in Literature",
+      "1923 Nobel Prize in Literature",
+      "1925 Nobel Prize in Literature",
+      "1926 Nobel Prize in Literature",
+      "1927 Nobel Prize in Literature",
+      "1928 Nobel Prize in Literature",
+      "1929 Nobel Prize in Literature",
+      "1930 Nobel Prize in Literature",
+      "1931 Nobel Prize in Literature",
+      "1932 Nobel Prize in Literature",
+      "1933 Nobel Prize in Literature",
+      "1934 Nobel Prize in Literature",
+      "1935 Nobel Prize in Literature",
+      "1936 Nobel Prize in Literature",
+      "1937 Nobel Prize in Literature",
+      "1938 Nobel Prize in Literature",
+      "1939 Nobel Prize in Literature",
+      "1940 Nobel Prize in Literature",
+      "1941 Nobel Prize in Literature",
+      "1942 Nobel Prize in Literature",
+      "1943 Nobel Prize in Literature",
+      "1944 Nobel Prize in Literature",
+      "1945 Nobel Prize in Literature",
+      "1946 Nobel Prize in Literature",
+      "1947 Nobel Prize in Literature",
+      "1948 Nobel Prize in Literature",
+      "1949 Nobel Prize in Literature",
+      "1950 Nobel Prize in Literature",
+      "1951 Nobel Prize in Literature",
+      "1952 Nobel Prize in Literature",
+      "1953 Nobel Prize in Literature",
+      "1954 Nobel Prize in Literature",
+      "1955 Nobel Prize in Literature",
+      "1956 Nobel Prize in Literature",
+      "1957 Nobel Prize in Literature",
+      "1958 Nobel Prize in Literature",
+      "1959 Nobel Prize in Literature",
+      "1960 Nobel Prize in Literature",
+      "1961 Nobel Prize in Literature",
+      "1962 Nobel Prize in Literature",
+      "1963 Nobel Prize in Literature",
+      "1964 Nobel Prize in Literature",
+      "1965 Nobel Prize in Literature",
+      "1966 Nobel Prize in Literature",
+      "1967 Nobel Prize in Literature",
+      "1968 Nobel Prize in Literature",
+      "1969 Nobel Prize in Literature",
+      "1970 (album)",
+      "1970 Nobel Prize in Literature",
+      "1971 Nobel Prize in Literature",
+      "1972 Nobel Prize in Literature",
+      "1973 Nobel Prize in Literature",
+      "1974 Nobel Prize in Literature",
+      "1975 Nobel Prize in Literature",
+      "1976 Nobel Prize in Literature",
+      "1977 Nobel Prize in Literature",
+      "1978 Nobel Prize in Literature",
+      "1978 Tour",
+      "1979 Nobel Prize in Literature",
+      "1980 Nobel Prize in Literature",
+      "1981 Nobel Prize in Literature",
+      "1982 Nobel Prize in Literature",
+      "1983 Nobel Prize in Literature",
+      "1984 Nobel Prize in Literature",
+      "1985 Nobel Prize in Literature",
+      "1986 Nobel Prize in Literature",
+      "1987 Nobel Prize in Literature",
+      "1988 Nobel Prize in Literature",
+      "1989 (album)",
+      "1989 Nobel Prize in Literature",
+      "1990 Nobel Prize in Literature",
+      "1991 Nobel Prize in Literature",
+      "1992 Nobel Prize in Literature",
+      "1993 Nobel Prize in Literature",
+      "1994 Nobel Prize in Literature"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg/330px-DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+      "name": "Bob Dylan",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Duluth",
+      "life_span": {
+        "begin": "1941-05-24",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 2,
+      "members": 0,
+      "associated_acts": 1,
+      "producers": 0,
+      "composers": 0,
+      "labels": 6,
+      "instruments": 0,
+      "related_urls": 50
+    },
+    "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+  },
+  "created_at": "2025-08-19T19:16:17.809718",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Bob Dylan (legally Robert Dylan; born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter. Described as one of the greatest songwriters of all time, Dylan has been a major figure in popular culture over his 68-year career. With an estimated 125 million records sold worldwide, he is one of the best-selling musicians. Dylan added increasingly sophisticated lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political, social, and philosophical influences, defying pop music conventions and appealing to the burgeoning counterculture.\nDylan was born in St. Louis County, Minnesota. He moved to New York City in 1961 to pursue a career in music. Following his 1962 debut album, Bob Dylan, featuring traditional folk and blues material, he released his breakthrough album The Freewheelin' Bob Dylan (1963), which included \"Girl from the North Country\" and \"A Hard Rain's a-Gonna Fall\", adapting older folk songs. His songs \"Blowin' in the Wind\" (1963) and \"The Times They Are a-Changin'\" (1964) became anthems for the civil rights and antiwar movements. In 1965 and 1966, Dylan created...",
+  "musicbrainz_info": {
+    "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+    "name": "Bob Dylan",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Duluth",
+    "life_span": {
+      "begin": "1941-05-24",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:14:28.888117"
+}

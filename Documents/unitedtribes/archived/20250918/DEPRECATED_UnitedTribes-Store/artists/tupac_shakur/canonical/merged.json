@@ -1,0 +1,131 @@
+{
+  "artist_name": "Tupac Shakur",
+  "works": [
+    {
+      "title": "The Rose, Vol. 2: Music Inspired by Tupac’s Poetry",
+      "release_date": "2005-09-20",
+      "type": "Album",
+      "mbid": "20a44185-7181-4a18-b912-d8801d3d9e0b"
+    },
+    {
+      "title": "East & West Coast Rival",
+      "release_date": "1996-07-30",
+      "type": "Album",
+      "mbid": "c107f6cf-70a9-4a38-9254-e842c640529f"
+    },
+    {
+      "title": "The Rose That Grew From Concrete, Volume 1",
+      "release_date": "2000-10-17",
+      "type": "Album",
+      "mbid": "c154cfb6-7107-35e0-86c7-8d7cd7a19382"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Amaru Publishing",
+      "Out da Gutta Records",
+      "Interscope Records",
+      "Death Row Records",
+      "Joshua’s Dream"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/176766"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0000637/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.2pac.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/120393336"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/authors/OL1400173A/"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/54339977"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q6107"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tupac_Shakur",
+    "musicbrainz": "https://musicbrainz.org/artist/98b5a1d4-3f58-412f-950c-ee9d82743705"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Tupac Amaru Shakur (  TOO-pahk shə-KOOR; born Lesane Parish Crooks; June 16, 1971 – September 13, 1996), also known by his stage names 2Pac and Makaveli, was an American rapper and actor. He is regarded as one of the greatest rappers of all time, one of the most influential musical artists of the 20th century, and a prominent political activist for Black America. He is among the best-selling music artists, having sold more than 75 million records worldwide. Some of Shakur's music addressed social injustice, political issues, and the marginalization of African Americans, but his later works explored gangsta rap and violent lyrics.\nShakur was born in New York City to parents who were Black Panther Party members. Raised by his mother, Afeni Shakur, he relocated to the San Francisco Bay Area in 1988. His debut album 2Pacalypse Now (1991) cemented him as a central figure in West Coast hip-hop for his political rap lyrics. Shakur achieved further critical and commercial success with his subsequent albums Strictly 4 My N.I.G.G.A.Z... (1993) and Me Against the World (1995). His Diamond-certified album All Eyez on Me (1996), the first hip-hop double album, abandoned introspective lyrics for...",
+    "summary": "Tupac Amaru Shakur (  TOO-pahk shə-KOOR; born Lesane Parish Crooks; June 16, 1971 – September 13, 1996), also known by his stage names 2Pac and Makaveli, was an American rapper and actor. He is regarded as one of the greatest rappers of all time, one of the most influential musical artists of the 20th century, and a prominent political activist for Black America. He is among the best-selling music artists, having sold more than 75 million records worldwide. Some of Shakur's music addressed social injustice, political issues, and the marginalization of African Americans, but his later works explored gangsta rap and violent lyrics.\nShakur was born in New York City to parents who were Black Panther Party members. Raised by his mother, Afeni Shakur, he relocated to the San Francisco Bay Area in 1988. His debut album 2Pacalypse Now (1991) cemented him as a central figure in West Coast hip-hop for his political rap lyrics. Shakur achieved further critical and commercial success with his subs...",
+    "url": "https://en.wikipedia.org/wiki/Tupac_Shakur",
+    "title": "Tupac Shakur",
+    "word_count": 194,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tupac%27s_passport_headshot.jpg/330px-Tupac%27s_passport_headshot.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705",
+      "name": "Tupac Shakur",
+      "disambiguation": "2Pac’s personal identity",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "East Harlem",
+      "life_span": {
+        "begin": "1971-06-16",
+        "end": "1996-09-13"
+      }
+    },
+    "total_works": 3,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 5,
+      "instruments": 0,
+      "related_urls": 7
+    },
+    "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705"
+  },
+  "created_at": "2025-08-20T08:34:19.958099",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Tupac Amaru Shakur (  TOO-pahk shə-KOOR; born Lesane Parish Crooks; June 16, 1971 – September 13, 1996), also known by his stage names 2Pac and Makaveli, was an American rapper and actor. He is regarded as one of the greatest rappers of all time, one of the most influential musical artists of the 20th century, and a prominent political activist for Black America. He is among the best-selling music artists, having sold more than 75 million records worldwide. Some of Shakur's music addressed social injustice, political issues, and the marginalization of African Americans, but his later works explored gangsta rap and violent lyrics.\nShakur was born in New York City to parents who were Black Panther Party members. Raised by his mother, Afeni Shakur, he relocated to the San Francisco Bay Area in 1988. His debut album 2Pacalypse Now (1991) cemented him as a central figure in West Coast hip-hop for his political rap lyrics. Shakur achieved further critical and commercial success with his subsequent albums Strictly 4 My N.I.G.G.A.Z... (1993) and Me Against the World (1995). His Diamond-certified album All Eyez on Me (1996), the first hip-hop double album, abandoned introspective lyrics for...",
+  "musicbrainz_info": {
+    "mbid": "98b5a1d4-3f58-412f-950c-ee9d82743705",
+    "name": "Tupac Shakur",
+    "disambiguation": "2Pac’s personal identity",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "East Harlem",
+    "life_span": {
+      "begin": "1971-06-16",
+      "end": "1996-09-13"
+    }
+  }
+}

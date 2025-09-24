@@ -1,0 +1,504 @@
+{
+  "artist_name": "Joni Mitchell",
+  "works": [
+    {
+      "title": "Hejira",
+      "release_date": "1976-11",
+      "type": "Album",
+      "mbid": "039f2ae4-36dd-3608-9103-67ce7f6c9288"
+    },
+    {
+      "title": "Dog Eat Dog",
+      "release_date": "1985-10",
+      "type": "Album",
+      "mbid": "0e361dbc-ef9e-368f-bd09-eadd9949403c"
+    },
+    {
+      "title": "The Hissing of Summer Lawns",
+      "release_date": "1975-11",
+      "type": "Album",
+      "mbid": "169a1a7e-f91e-3b10-a136-d94eba6eee2e"
+    },
+    {
+      "title": "Big Yellow Taxi",
+      "release_date": "1999",
+      "type": "Album",
+      "mbid": "21b8e068-07b9-30dc-bc82-2ff9d9abf39e"
+    },
+    {
+      "title": "Court and Spark",
+      "release_date": "1974-01-17",
+      "type": "Album",
+      "mbid": "3bd19e28-698e-3b7e-a8ec-f872bf001651"
+    },
+    {
+      "title": "Blue",
+      "release_date": "1971-06-22",
+      "type": "Album",
+      "mbid": "42d725fb-a8b7-388c-8866-3b02789af326"
+    },
+    {
+      "title": "Turbulent Indigo",
+      "release_date": "1994-10-25",
+      "type": "Album",
+      "mbid": "44c2e136-1f25-3497-bf10-cce444ed8003"
+    },
+    {
+      "title": "The Beginning of Survival",
+      "release_date": "2004-07-27",
+      "type": "Album",
+      "mbid": "577f7ac0-b2dd-36a0-839a-75495b010c08"
+    },
+    {
+      "title": "Misses",
+      "release_date": "1996-10-29",
+      "type": "Album",
+      "mbid": "5b986cb5-4325-36f2-ae49-30d422f14b4b"
+    },
+    {
+      "title": "Hits",
+      "release_date": "1996-10-29",
+      "type": "Album",
+      "mbid": "5ffcbfc1-5624-3b54-a9e6-a8d5f89fa4d4"
+    },
+    {
+      "title": "Taming the Tiger",
+      "release_date": "1998-09-28",
+      "type": "Album",
+      "mbid": "6be55409-66a3-39a1-bab1-be3e1abb9f3e"
+    },
+    {
+      "title": "Don Juan’s Reckless Daughter",
+      "release_date": "1977-12",
+      "type": "Album",
+      "mbid": "77460a4d-7800-3eac-9446-ba6fde5a8553"
+    },
+    {
+      "title": "Shine",
+      "release_date": "2007-09-24",
+      "type": "Album",
+      "mbid": "7755111c-36a7-396b-b1e7-d7aaea1fc051"
+    },
+    {
+      "title": "Travelogue",
+      "release_date": "2002-11-19",
+      "type": "Album",
+      "mbid": "946a077e-59c9-38eb-87c2-8770b0038873"
+    },
+    {
+      "title": "The Complete Geffen Recordings",
+      "release_date": "2003-09-23",
+      "type": "Album",
+      "mbid": "a5648b19-432b-3025-a9da-0521c31655b6"
+    },
+    {
+      "title": "For the Roses",
+      "release_date": "1972-10",
+      "type": "Album",
+      "mbid": "a5b7d474-4a69-31fc-86c9-c14eb6a1f963"
+    },
+    {
+      "title": "Mingus",
+      "release_date": "1979-06",
+      "type": "Album",
+      "mbid": "a8579333-0a29-3f17-95e2-ec58d5c94a2d"
+    },
+    {
+      "title": "Night Ride Home",
+      "release_date": "1991-03-05",
+      "type": "Album",
+      "mbid": "acf0a079-ce99-327e-b0fc-c325d64c643d"
+    },
+    {
+      "title": "Ladies of the Canyon",
+      "release_date": "1970-04",
+      "type": "Album",
+      "mbid": "b04408f3-7a41-30f0-89c0-eba1efea3aae"
+    },
+    {
+      "title": "Chalk Mark in a Rain Storm",
+      "release_date": "1988",
+      "type": "Album",
+      "mbid": "df5414f0-7a20-34fd-bd41-8cd862b9dfe2"
+    },
+    {
+      "title": "Clouds",
+      "release_date": "1969-05",
+      "type": "Album",
+      "mbid": "e0f5f627-ce00-3ed1-a3d4-8e19440b7acf"
+    },
+    {
+      "title": "The World of Joni Mitchell",
+      "release_date": "1989",
+      "type": "Album",
+      "mbid": "e1c0683f-a2ff-4a89-8077-f1f4503cb273"
+    },
+    {
+      "title": "Both Sides Now",
+      "release_date": "2000-02-08",
+      "type": "Album",
+      "mbid": "e4ef3a81-ca60-3dfe-84de-c858ce967f84"
+    },
+    {
+      "title": "Song to a Seagull",
+      "release_date": "1968-03",
+      "type": "Album",
+      "mbid": "f8d2916c-b1ce-3918-9038-3f3dec7ec682"
+    },
+    {
+      "title": "Wild Things Run Fast",
+      "release_date": "1982-10",
+      "type": "Album",
+      "mbid": "fbd0f3a8-8f84-3ca6-bb89-47f4f1710ded"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [
+      "Spirit of the Forest",
+      "Northern Lights"
+    ],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Siquomb Pub. Corp.",
+      "Crazy Crow Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000270491"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/a6de8ef9-b1a1-4756-97aa-481bbb8a4069"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/90233"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/5hW4L92KnC6dX9t7tYM4Ve"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/3283"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Joni_Mitchell_1983.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0593474/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Joni+Mitchell"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-6840/joni-mitchell/lyrics.html"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://jonimitchell.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n82108794"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13897572r"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/121085600"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=84088"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/joni-mitchell"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL396367A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/joni_mitchell"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n82108794"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/5191"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/jonimitchell"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/jonimitchell"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/jonimitchell/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/310304"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/ca/artist/203373"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/203373"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/13572"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/85454013"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q205721"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@JoniMitchell"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+    "musicbrainz": "https://musicbrainz.org/artist/a6de8ef9-b1a1-4756-97aa-481bbb8a4069"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Roberta Joan Mitchell  (née Anderson; born November 7, 1943) is a Canadian and American singer-songwriter, multi-instrumentalist, and painter. As one of the most influential singer-songwriters to emerge from the 1960s folk music circuit, Mitchell became known for her personal lyrics and unconventional compositions, which grew to incorporate elements of pop, jazz, rock, and other genres. Among her accolades are eleven Grammy Awards, and induction into the Rock and Roll Hall of Fame in 1997. Rolling Stone, in 2002, named her \"one of the greatest songwriters ever\", and AllMusic, in a 2011 biography, stated \"Joni Mitchell may stand as the most important and influential female recording artist of the late 20th century.\"\nMitchell began singing in small nightclubs in Saskatoon and throughout western Canada, before moving on to the nightclubs of Toronto. She moved to the United States and began touring in 1965. Some of her original songs (\"Urge for Going\", \"Chelsea Morning\", \"Both Sides, Now\", \"The Circle Game\") were first recorded by other singers, allowing her to sign with Reprise Records and record her debut album, Song to a Seagull, in 1968. Settling in Southern California, Mitchell helped...",
+    "summary": "Roberta Joan Mitchell  (née Anderson; born November 7, 1943) is a Canadian and American singer-songwriter, multi-instrumentalist, and painter. As one of the most influential singer-songwriters to emerge from the 1960s folk music circuit, Mitchell became known for her personal lyrics and unconventional compositions, which grew to incorporate elements of pop, jazz, rock, and other genres. Among her accolades are eleven Grammy Awards, and induction into the Rock and Roll Hall of Fame in 1997. Rolli...",
+    "url": "https://en.wikipedia.org/wiki/Joni_Mitchell",
+    "title": "Joni Mitchell",
+    "word_count": 188,
+    "categories": [
+      "Category:1943 births",
+      "Category:20th-century Canadian singer-songwriters",
+      "Category:20th-century Canadian women guitarists",
+      "Category:20th-century Canadian women singers",
+      "Category:21st-century Canadian singer-songwriters",
+      "Category:21st-century Canadian women guitarists",
+      "Category:21st-century Canadian women singers",
+      "Category:APRA Award winners",
+      "Category:All Wikipedia articles written in Canadian English",
+      "Category:All articles with dead external links",
+      "Category:Appalachian dulcimer players",
+      "Category:Articles with dead external links from May 2017",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Asylum Records artists",
+      "Category:Biography with signature",
+      "Category:CS1: unfit URL",
+      "Category:Canadian Music Hall of Fame inductees",
+      "Category:Canadian expatriate musicians in the United States",
+      "Category:Canadian folk-pop singers",
+      "Category:Canadian folk singer-songwriters",
+      "Category:Canadian people of Irish descent",
+      "Category:Canadian people of Norwegian descent",
+      "Category:Canadian people of Scottish descent",
+      "Category:Canadian people of Sámi descent",
+      "Category:Canadian women folk guitarists",
+      "Category:Canadian women folk singers",
+      "Category:Canadian women painters",
+      "Category:Canadian women pop singers",
+      "Category:Canadian women record producers",
+      "Category:Canadian women rock singers",
+      "Category:Canadian women singer-songwriters",
+      "Category:Companions of the Order of Canada",
+      "Category:Crossover (music)",
+      "Category:Geffen Records artists",
+      "Category:Gershwin Prize recipients",
+      "Category:Governor General's Award winners",
+      "Category:Grammy Award winners",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:Jack Richardson Producer of the Year Award winners",
+      "Category:Joni Mitchell",
+      "Category:Juno Award for Artist of the Year winners",
+      "Category:Juno Award for Vocal Jazz Album of the Year winners",
+      "Category:Kennedy Center honorees",
+      "Category:Living people",
+      "Category:Musicians from Saskatoon",
+      "Category:Nonesuch Records artists",
+      "Category:Official website different in Wikidata and Wikipedia",
+      "Category:Pages using Sister project links with hidden wikidata",
+      "Category:People from Bel Air, Los Angeles"
+    ],
+    "internal_links": [
+      "(You're So Square) Baby I Don't Care",
+      "1989 (album)",
+      "2010 Winter Olympics opening ceremony",
+      "21 (Adele album)",
+      "25 (Adele album)",
+      "44th Annual Grammy Awards",
+      "66th Annual Grammy Awards",
+      "AOL",
+      "A Case of You (song)",
+      "A Perfect Circle",
+      "A Tribute to Joni Mitchell",
+      "Abstract expressionist",
+      "Adele",
+      "Aden Bowman Collegiate",
+      "Aerosmith",
+      "Afghanistan National Institute of Music",
+      "Aidan Dunne",
+      "Aimee Mann",
+      "Alanis Morissette",
+      "Alberta Ballet Company",
+      "Alberta College of Art",
+      "AllMusic",
+      "AllMusic (identifier)",
+      "Allison Crowe",
+      "Amchitka (album)",
+      "Amy Grant",
+      "Amy Winehouse",
+      "Ana Moura",
+      "Andy Kim (singer)",
+      "Andy Wickham",
+      "Angélique Kidjo",
+      "Ann Powers",
+      "Anna Netrebko",
+      "Anne-Sophie Mutter",
+      "Anne Murray",
+      "Annie Lennox",
+      "Anti-vaxxer",
+      "Anya Taylor-Joy",
+      "Apollo Theater",
+      "Appalachian dulcimer",
+      "April Wine",
+      "Aretha Franklin",
+      "Ariana Grande",
+      "Art Nouveau",
+      "Arthur Kratzmann",
+      "Arturo Sandoval",
+      "Arvo Pärt",
+      "Asylum Records",
+      "At Newport (Joni Mitchell album)",
+      "B-side",
+      "B.B. King",
+      "Bachman–Turner Overdrive",
+      "Back to Black",
+      "Baltic states",
+      "Barbara Hannigan",
+      "Barbra Streisand",
+      "Barenaked Ladies",
+      "Barry Gibb",
+      "Beatles",
+      "Bee Gees",
+      "Ben Ratliff",
+      "Benjamin Orr",
+      "Berkeley Community Theatre",
+      "Bernie Taupin",
+      "Bernie Worrell",
+      "Berry Gordy",
+      "Bette Midler",
+      "Big Yellow Taxi",
+      "Bill Clinton",
+      "Bill Monroe",
+      "Billboard (magazine)",
+      "Billie Eilish",
+      "Billy Bass Nelson",
+      "Billy Crystal",
+      "Billy Idol",
+      "Billy Joel",
+      "Biopic",
+      "Björk",
+      "Black Eyed Peas",
+      "Blackface",
+      "Blake Mills",
+      "Blue (Joni Mitchell album)",
+      "Blue (Joni Mitchell song)",
+      "Blue 50 (Demos & Outtakes)",
+      "Blue Rodeo",
+      "Bob Dylan",
+      "Bob Ezrin",
+      "Bob Rock",
+      "Bobby Curtola",
+      "Boing Boing",
+      "Bonnie Raitt",
+      "Bono",
+      "Bootsy Collins",
+      "Born and Raised (John Mayer album)",
+      "Boston",
+      "Both Sides, Now",
+      "Both Sides Now",
+      "Both Sides Now (Joni Mitchell album)",
+      "Brain aneurysm",
+      "Brand New Day (Sting album)"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Joni_Mitchell_2021_Kennedy_Center_Honors_%28cropped%29.jpg/330px-Joni_Mitchell_2021_Kennedy_Center_Honors_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+      "name": "Joni Mitchell",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "CA",
+      "begin_area": "Fort Macleod",
+      "life_span": {
+        "begin": "1943-11-07",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 2,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 29
+    },
+    "mbid": "a6de8ef9-b1a1-4756-97aa-481bbb8a4069"
+  },
+  "created_at": "2025-08-19T10:32:11.948360",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Roberta Joan Mitchell  (née Anderson; born November 7, 1943) is a Canadian and American singer-songwriter, multi-instrumentalist, and painter. As one of the most influential singer-songwriters to emerge from the 1960s folk music circuit, Mitchell became known for her personal lyrics and unconventional compositions, which grew to incorporate elements of pop, jazz, rock, and other genres. Among her accolades are eleven Grammy Awards, and induction into the Rock and Roll Hall of Fame in 1997. Rolling Stone, in 2002, named her \"one of the greatest songwriters ever\", and AllMusic, in a 2011 biography, stated \"Joni Mitchell may stand as the most important and influential female recording artist of the late 20th century.\"\nMitchell began singing in small nightclubs in Saskatoon and throughout western Canada, before moving on to the nightclubs of Toronto. She moved to the United States and began touring in 1965. Some of her original songs (\"Urge for Going\", \"Chelsea Morning\", \"Both Sides, Now\", \"The Circle Game\") were first recorded by other singers, allowing her to sign with Reprise Records and record her debut album, Song to a Seagull, in 1968. Settling in Southern California, Mitchell helped...",
+  "musicbrainz_info": {
+    "mbid": "a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+    "name": "Joni Mitchell",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "CA",
+    "begin_area": "Fort Macleod",
+    "life_span": {
+      "begin": "1943-11-07",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:12:49.425292"
+}

@@ -1,0 +1,490 @@
+{
+  "artist_name": "Elton John",
+  "works": [
+    {
+      "title": "Don’t Shoot Me I’m Only the Piano Player",
+      "release_date": "1972",
+      "type": "Album",
+      "mbid": "0293c693-a065-395b-b9be-06a7f69b3e57"
+    },
+    {
+      "title": "Too Low for Zero",
+      "release_date": "1983-05-23",
+      "type": "Album",
+      "mbid": "06e023f6-8b88-3554-9ce6-e2b8f1e69925"
+    },
+    {
+      "title": "A Single Man",
+      "release_date": "1978-10-10",
+      "type": "Album",
+      "mbid": "09064761-d34e-335b-a3da-eb4063042dc6"
+    },
+    {
+      "title": "Blue Moves",
+      "release_date": "1976-10-22",
+      "type": "Album",
+      "mbid": "2071430f-44d2-3ed2-a172-dd38d590ccc4"
+    },
+    {
+      "title": "Reg Strikes Back",
+      "release_date": "1988",
+      "type": "Album",
+      "mbid": "20df37ba-ed63-3fd2-aea9-4a5c67f44d88"
+    },
+    {
+      "title": "Captain Fantastic and the Brown Dirt Cowboy",
+      "release_date": "1975-05-19",
+      "type": "Album",
+      "mbid": "31edc094-37e7-3b02-b79b-f8442cc3fbdb"
+    },
+    {
+      "title": "The Fox",
+      "release_date": "1981",
+      "type": "Album",
+      "mbid": "3336dd5d-563d-38b0-af6f-3e1cedd471bb"
+    },
+    {
+      "title": "The One",
+      "release_date": "1992-02-22",
+      "type": "Album",
+      "mbid": "364607c7-ae6f-3ec8-bb1a-fcee332497a7"
+    },
+    {
+      "title": "Rock of the Westies",
+      "release_date": "1975-10-04",
+      "type": "Album",
+      "mbid": "375ad2c5-4fe6-3ede-a899-b7c4d259eea1"
+    },
+    {
+      "title": "Tumbleweed Connection",
+      "release_date": "1970-10-30",
+      "type": "Album",
+      "mbid": "4fed2c09-60cd-36ca-9db1-c9c016bb1f0b"
+    },
+    {
+      "title": "Breaking Hearts",
+      "release_date": "1984-07-09",
+      "type": "Album",
+      "mbid": "5276a1aa-cd46-3bc2-bcf7-4f1f8a21b771"
+    },
+    {
+      "title": "Elton John",
+      "release_date": "1970-07-22",
+      "type": "Album",
+      "mbid": "527eeafc-adbc-3c85-a048-0711acb4a932"
+    },
+    {
+      "title": "Your Songs",
+      "release_date": "1982",
+      "type": "Album",
+      "mbid": "52ca2dda-6ac8-46fb-ad4c-a5b61e45e960"
+    },
+    {
+      "title": "Caribou",
+      "release_date": "1974-06-24",
+      "type": "Album",
+      "mbid": "5a9e28b6-1a83-3581-82eb-eeedf5673b7f"
+    },
+    {
+      "title": "Sleeping With the Past",
+      "release_date": "1989-08-07",
+      "type": "Album",
+      "mbid": "67be09d7-0701-34fc-812e-ef6c93864285"
+    },
+    {
+      "title": "Empty Sky",
+      "release_date": "1969-06-03",
+      "type": "Album",
+      "mbid": "73924e33-3fe3-3dd4-94cf-b97529f6e9af"
+    },
+    {
+      "title": "Duets",
+      "release_date": "1993-11",
+      "type": "Album",
+      "mbid": "778c3991-2237-32a6-b8de-62f6562c64bb"
+    },
+    {
+      "title": "Leather Jackets",
+      "release_date": "1986",
+      "type": "Album",
+      "mbid": "78c4c7ef-c5b7-3089-ba1e-452d5d483a74"
+    },
+    {
+      "title": "Goodbye Yellow Brick Road",
+      "release_date": "1973-10-05",
+      "type": "Album",
+      "mbid": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a"
+    },
+    {
+      "title": "21 at 33",
+      "release_date": "1980-05-13",
+      "type": "Album",
+      "mbid": "86da5ad9-4742-35f1-a28e-7fd67b58ef5b"
+    },
+    {
+      "title": "Madman Across the Water",
+      "release_date": "1971-11-05",
+      "type": "Album",
+      "mbid": "9c371adb-37de-308c-88ea-8e52248ab1a1"
+    },
+    {
+      "title": "Jump Up!",
+      "release_date": "1982-04-09",
+      "type": "Album",
+      "mbid": "a4ffedd3-0c03-3477-8fbf-6ffc352721b6"
+    },
+    {
+      "title": "Ice on Fire",
+      "release_date": "1985-11-04",
+      "type": "Album",
+      "mbid": "c3faec37-3bc7-3bba-9e1f-143728881d3d"
+    },
+    {
+      "title": "Honky Château",
+      "release_date": "1972-05-19",
+      "type": "Album",
+      "mbid": "e17f2d6e-7849-37f9-a6d8-cda4d59cea28"
+    },
+    {
+      "title": "Victim of Love",
+      "release_date": "1979-10-13",
+      "type": "Album",
+      "mbid": "e32c3a29-14e1-3b47-a605-d134ea4363c1"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Mercury Records Ltd.",
+      "William A. Bong Ltd.",
+      "The Rocket Record Company",
+      "Big Pig Music Ltd."
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000481389"
+      },
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000796734"
+      },
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0001336698"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/26637"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/b83bc61f-8451-4a5d-8b8e-7e9ed295e822"
+      },
+      {
+        "type": "bookbrainz",
+        "url": "https://bookbrainz.org/author/fb5fcd43-631b-4477-8c9f-c2f6774cf50a"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.eltonography.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/452261"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/57103"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/413"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Elton_John_2011_Shankbone_2.JPG"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0005056/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Elton+John"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-3713/elton-john/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Elton-john"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Elton-John"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/eltonjohn"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.eltonjohn.com/"
+      },
+      {
+        "type": "online_community",
+        "url": "http://ej_fans.livejournal.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n80017866"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb13608247r"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://concerts50.com/artists/elton-john-tour-dates-usa"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/11880054X"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=69369"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/elton-john"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://musicmoz.org/Bands_and_Artists/J/John,_Elton/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6zk6fzk"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1248013"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/authors/OL481036A/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://soundtrackcollector.com/composer/1480/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/elton-john"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/elton-john"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/elton-john/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000030038/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.spirit-of-rock.com/en/band/Elton_John"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Elton-John/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/containsVIAFID/84034533"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=Auiuwbpgsnu54wxfsltmpl7tcby"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/gb/artist/id54657"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://uk.7digital.com/artist/elton-john"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/elton-john/38001"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.junodownload.com/artists/Elton+John/releases/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://tower.jp/artist/175643"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700317841"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/105"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/elton-john-63d6be6f.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/eltonofficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/EltonJohn"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/eltonjohn/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.pinterest.com/eltonjohndotcom/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@eltonjohn"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/371163"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/elton-john"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.co.uk/artists/B000QJK22G"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/54657"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/6890"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/elton-john"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/gb-en/interpreter/elton-john/download-streaming-albums"
+      },
+      {
+        "type": "vgmdb",
+        "url": "https://vgmdb.net/artist/19465"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/84034533"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2808"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCcd0tBtip8YzdTCUw3OVv_Q"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCn9i4cdLe14CbsOycTbKMoA"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Elton_John",
+    "musicbrainz": "https://musicbrainz.org/artist/b83bc61f-8451-4a5d-8b8e-7e9ed295e822"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Sir Elton Hercules John (born Reginald Kenneth Dwight; 25 March 1947) is a British singer, songwriter and pianist. His music and showmanship have had a significant, lasting impact on the music industry, and his songwriting partnership with lyricist Bernie Taupin is one of the most successful in history. John was the 19th EGOT winner in history. He has sold over 300 million records worldwide, making him one of the best-selling music artists of all time.\nJohn learned to play piano at an early age, winning a scholarship to the Royal Academy of Music. In the 1960s, he formed the blues band Bluesology, wrote songs for other artists alongside Taupin, and worked as a session musician, before releasing his debut album, Empty Sky (1969). Throughout the next six decades, John cemented his status as a cultural icon with 32 studio albums, including Honky Château (1972), Goodbye Yellow Brick Road (1973), Rock of the Westies (1975), Sleeping with the Past (1989), The One (1992), Songs from the West Coast (2001), The Diving Board (2013) and The Lockdown Sessions (2021). His catalog of hit singles includes \"Your Song\", \"Tiny Dancer\", \"Rocket Man\", \"Crocodile Rock\", \"Bennie and the Jets\", \"Don't Go...",
+    "summary": "Sir Elton Hercules John (born Reginald Kenneth Dwight; 25 March 1947) is a British singer, songwriter and pianist. His music and showmanship have had a significant, lasting impact on the music industry, and his songwriting partnership with lyricist Bernie Taupin is one of the most successful in history. John was the 19th EGOT winner in history. He has sold over 300 million records worldwide, making him one of the best-selling music artists of all time.\nJohn learned to play piano at an early age, winning a scholarship to the Royal Academy of Music. In the 1960s, he formed the blues band Bluesology, wrote songs for other artists alongside Taupin, and worked as a session musician, before releasing his debut album, Empty Sky (1969). Throughout the next six decades, John cemented his status as a cultural icon with 32 studio albums, including Honky Château (1972), Goodbye Yellow Brick Road (1973), Rock of the Westies (1975), Sleeping with the Past (1989), The One (1992), Songs from the West ...",
+    "url": "https://en.wikipedia.org/wiki/Elton_John",
+    "title": "Elton John",
+    "word_count": 197,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg/330px-EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+      "name": "Elton John",
+      "disambiguation": "English singer, songwriter, pianist, and composer",
+      "type": "Person",
+      "country": "GB",
+      "begin_area": "Pinner",
+      "life_span": {
+        "begin": "1947-03-25",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 4,
+      "instruments": 0,
+      "related_urls": 64
+    },
+    "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822"
+  },
+  "created_at": "2025-08-20T08:41:42.419935",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Sir Elton Hercules John (born Reginald Kenneth Dwight; 25 March 1947) is a British singer, songwriter and pianist. His music and showmanship have had a significant, lasting impact on the music industry, and his songwriting partnership with lyricist Bernie Taupin is one of the most successful in history. John was the 19th EGOT winner in history. He has sold over 300 million records worldwide, making him one of the best-selling music artists of all time.\nJohn learned to play piano at an early age, winning a scholarship to the Royal Academy of Music. In the 1960s, he formed the blues band Bluesology, wrote songs for other artists alongside Taupin, and worked as a session musician, before releasing his debut album, Empty Sky (1969). Throughout the next six decades, John cemented his status as a cultural icon with 32 studio albums, including Honky Château (1972), Goodbye Yellow Brick Road (1973), Rock of the Westies (1975), Sleeping with the Past (1989), The One (1992), Songs from the West Coast (2001), The Diving Board (2013) and The Lockdown Sessions (2021). His catalog of hit singles includes \"Your Song\", \"Tiny Dancer\", \"Rocket Man\", \"Crocodile Rock\", \"Bennie and the Jets\", \"Don't Go...",
+  "musicbrainz_info": {
+    "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+    "name": "Elton John",
+    "disambiguation": "English singer, songwriter, pianist, and composer",
+    "type": "Person",
+    "country": "GB",
+    "begin_area": "Pinner",
+    "life_span": {
+      "begin": "1947-03-25",
+      "end": null
+    }
+  }
+}

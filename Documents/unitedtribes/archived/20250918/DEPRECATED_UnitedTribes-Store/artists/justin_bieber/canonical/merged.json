@@ -1,0 +1,520 @@
+{
+  "artist_name": "Justin Bieber",
+  "works": [
+    {
+      "title": "Never Say Never: The Remixes",
+      "release_date": "2011-02-14",
+      "type": "Album",
+      "mbid": "04e3ec2a-75ed-4fdb-8e04-2268dd163745"
+    },
+    {
+      "title": "Justice",
+      "release_date": "2021-03-19",
+      "type": "Album",
+      "mbid": "0f9d5103-dd09-4fcd-8fe1-223612668f09"
+    },
+    {
+      "title": "Purpose",
+      "release_date": "2015-11-12",
+      "type": "Album",
+      "mbid": "2660de3c-56db-4bd1-bf99-e162c68e5712"
+    },
+    {
+      "title": "Journals",
+      "release_date": "2013-12-23",
+      "type": "Album",
+      "mbid": "37b21c23-b70c-40c1-8c24-191ff84242c1"
+    },
+    {
+      "title": "Sorry / Love Yourself (Remixes)",
+      "release_date": "2015",
+      "type": "Album",
+      "mbid": "5630fd72-87c3-43b4-a93f-5b1cebeb000e"
+    },
+    {
+      "title": "Under the Mistletoe",
+      "release_date": "2011-11-01",
+      "type": "Album",
+      "mbid": "5708e8f4-71a5-4f47-9b30-d36a0e3bdc56"
+    },
+    {
+      "title": "The Best",
+      "release_date": "2019-03-08",
+      "type": "Album",
+      "mbid": "698083ec-1ac9-4cc3-9d35-2d4b39565634"
+    },
+    {
+      "title": "Changes",
+      "release_date": "2020-02-14",
+      "type": "Album",
+      "mbid": "7f673bef-5e95-46a7-baa2-8f29df0624cf"
+    },
+    {
+      "title": "Never Say Never",
+      "release_date": "2011",
+      "type": "Album",
+      "mbid": "dcf480a6-ad0b-4979-a80e-2978ac28eed6"
+    },
+    {
+      "title": "Believe",
+      "release_date": "2012-01-19",
+      "type": "Album",
+      "mbid": "df46f245-7f62-4982-9d2c-e83d7be91cbf"
+    },
+    {
+      "title": "My Worlds",
+      "release_date": "2010-03-22",
+      "type": "Album",
+      "mbid": "e22521dc-ed45-489b-ac2c-d9a9a084a4b6"
+    },
+    {
+      "title": "My World 2.0",
+      "release_date": "2010-03-23",
+      "type": "Album",
+      "mbid": "eb68ecd6-fb1e-483a-9cda-b595fb4664a7"
+    },
+    {
+      "title": "Believe Acoustic",
+      "release_date": "2013-01-29",
+      "type": "Album",
+      "mbid": "f63dd98b-e613-4359-93a7-ae0c5b8b3c9a"
+    },
+    {
+      "title": "My Worlds Acoustic",
+      "release_date": "2010-11-26",
+      "type": "Album",
+      "mbid": "fae99ea3-2a04-4357-93c9-90ef560e5f85"
+    },
+    {
+      "title": "SWAG",
+      "release_date": "2025-07-11",
+      "type": "Album",
+      "mbid": "fe9cce8b-2f9e-4016-b6cb-859d4d3d0d5d"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Bieber Time Publishing"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0002165952"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/307871"
+      },
+      {
+        "type": "blog",
+        "url": "https://justinbieber.tumblr.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/1602787"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://thejustinbiebershrine.com/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/288166"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Justin_Bieber_ABC.jpg"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Justin_Bieber_NRJ_Music_Awards_2012.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm3595501/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Justin+Bieber"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-8583/justin-bieber/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Justin-bieber"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Justin-Bieber"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/justinbieber"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.justinbiebermusic.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2009188439"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://imvdb.com/n/justin-bieber"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb16209403n"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/140795472"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/9b05375a-8ca3-4ae7-a2d9-51d0823257d4"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL6832375A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/justin-bieber"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/justin-bieber/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000347908/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Justin-Bieber/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no2009188439"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/ca/artist/320569549"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/us-en/interpreter/justin-bieber/148205"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/ca/artist/id320569549"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/45405"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/justin-bieber-43d4f7ff.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/114501909900126662096"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/justinbieber"
+      },
+      {
+        "type": "social_network",
+        "url": "https://vk.com/justinbieberofficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/JustinBieber"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/justinbieber/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.threads.com/@justinbieber"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@justinbieber"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.weibo.com/u/7218012856"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/2596951"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/justinbieber"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/ca/artist/320569549"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/3639248"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/103075654"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q34086"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCHkj014U2CQ2Nv0UZeYpE_A"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCGvj8kfUV5Q6lzECIrGY19g"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Justin_Bieber",
+    "musicbrainz": "https://musicbrainz.org/artist/e0140a67-e4d1-4f13-8a01-364355bee46e"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Justin Drew Bieber ( BEE-bər; born March 1, 1994) is a Canadian singer and songwriter. Regarded as an influential figure in popular music, he is known for his multi-genre musical performances.\nBieber was discovered by Scooter Braun in 2008 and brought to the US by Usher, who jointly formed RBMG Records to sign Bieber. He rose to mainstream fame with his debut album, My World 2.0 (2010), which topped the US Billboard 200, making him the youngest solo male to do so in 47 years. Its lead single, \"Baby\" (featuring Ludacris), became a best selling single. Bieber's debut EP, My World (2009), was met with international recognition and established him as a teen idol. His second album, Under the Mistletoe (2011), became the first Christmas album by a male artist to debut atop the chart. Bieber shifted to dance-pop on his third album, Believe (2012); its acoustic re-release made him the first artist in Billboard history to have five US number-one albums by the age of 18.\nBieber transitioned to EDM with his 2015 single \"Where Are Ü Now\", which won the Grammy Award for Best Dance/Electronic Recording. It influenced his fourth album, Purpose (2015), which produced three Billboard Hot 100 number...",
+    "summary": "Justin Drew Bieber ( BEE-bər; born March 1, 1994) is a Canadian singer and songwriter. Regarded as an influential figure in popular music, he is known for his multi-genre musical performances.\nBieber was discovered by Scooter Braun in 2008 and brought to the US by Usher, who jointly formed RBMG Records to sign Bieber. He rose to mainstream fame with his debut album, My World 2.0 (2010), which topped the US Billboard 200, making him the youngest solo male to do so in 47 years. Its lead single, \"B...",
+    "url": "https://en.wikipedia.org/wiki/Justin_Bieber",
+    "title": "Justin Bieber",
+    "word_count": 202,
+    "categories": [
+      "Category:1994 births",
+      "Category:21st-century Canadian male singers",
+      "Category:21st-century Canadian memoirists",
+      "Category:21st-century Canadian philanthropists",
+      "Category:21st-century Canadian singers",
+      "Category:ARIA Award winners",
+      "Category:All Wikipedia articles written in Canadian English",
+      "Category:All articles with dead external links",
+      "Category:Articles containing suspected AI-generated texts from July 2025",
+      "Category:Articles with dead external links from July 2024",
+      "Category:Articles with dead external links from October 2023",
+      "Category:Articles with hCards",
+      "Category:Articles with permanently dead external links",
+      "Category:Articles with short description",
+      "Category:Baldwin family (show business)",
+      "Category:Biography with signature",
+      "Category:Boy sopranos",
+      "Category:Brit Award winners",
+      "Category:CS1: unfit URL",
+      "Category:CS1 Chinese-language sources (zh)",
+      "Category:CS1 Spanish-language sources (es)",
+      "Category:CS1 maint: numeric names: authors list",
+      "Category:Canadian Christians",
+      "Category:Canadian child singers",
+      "Category:Canadian expatriate male actors in the United States",
+      "Category:Canadian expatriate musicians in the United States",
+      "Category:Canadian male film actors",
+      "Category:Canadian male guitarists",
+      "Category:Canadian male television actors",
+      "Category:Canadian male voice actors",
+      "Category:Canadian music YouTubers",
+      "Category:Canadian people of English descent",
+      "Category:Canadian people of French descent",
+      "Category:Canadian people of German descent",
+      "Category:Canadian people of Irish descent",
+      "Category:Canadian people of Scottish descent",
+      "Category:Canadian people of Swiss-French descent",
+      "Category:Canadian pop singers",
+      "Category:Canadian tenors",
+      "Category:Canadian venture capitalists",
+      "Category:Child pop musicians",
+      "Category:Circle Chart Music Award winners",
+      "Category:Dance-pop musicians",
+      "Category:Electronic dance music musicians",
+      "Category:Grammy Award winners",
+      "Category:Grammy Award winners for dance and electronic music",
+      "Category:Island Records artists",
+      "Category:Juno Award for Pop Album of the Year winners",
+      "Category:Juno Fan Choice Award winners",
+      "Category:Justin Bieber"
+    ],
+    "internal_links": [
+      "'Til Tuesday",
+      "(Everything I Do) I Do It for You",
+      "1, 2 Step",
+      "10,000 Hours",
+      "10,000 Hours (song)",
+      "106 & Park",
+      "2010 Haiti earthquake",
+      "2010 MTV Video Music Awards",
+      "2011 Tōhoku earthquake and tsunami",
+      "2013 Billboard Music Awards",
+      "2017 National Hockey League All-Star Game",
+      "2021 Saudi Arabian Grand Prix",
+      "2022 FIFA World Cup",
+      "24kGoldn",
+      "2U (David Guetta song)",
+      "2 Chainz",
+      "4chan",
+      "50 Cent",
+      "52nd Annual Grammy Awards",
+      "58th Annual Grammy Awards",
+      "59th Annual Grammy Awards",
+      "5 Seconds of Summer",
+      "60th Annual Grammy Awards",
+      "63rd Annual Grammy Awards",
+      "64th Annual Grammy Awards",
+      "A+E Networks",
+      "A-ha",
+      "ABC News Radio",
+      "ASAP Rocky",
+      "A Song for Mama",
+      "A Woman's Worth",
+      "Abortion",
+      "Achy Breaky Heart",
+      "Acoustic music",
+      "Adele",
+      "Adidas",
+      "African-American culture",
+      "Alan Jackson",
+      "Alanis Morissette",
+      "Alicia Keys",
+      "Alive (Rüfüs Du Sol song)",
+      "AllMusic (identifier)",
+      "All Around the World (Justin Bieber song)",
+      "All Bad",
+      "All I Can Take",
+      "All I Want for Christmas Is You",
+      "All My Life (Lil Durk song)",
+      "All Saints (group)",
+      "All That Matters (Justin Bieber song)",
+      "All for You (Janet Jackson song)",
+      "All of Me (John Legend song)",
+      "Alma (Finnish singer)",
+      "Alprazolam",
+      "American Music Award for Artist of the Year",
+      "American Music Award for Collaboration of the Year",
+      "American Music Award for Favorite Country Song",
+      "American Music Award for Favorite Pop/Rock Male Artist",
+      "American Music Award for Favorite Pop/Rock Song",
+      "American Music Award for New Artist of the Year",
+      "American Music Awards",
+      "American Music Awards of 2010",
+      "American Red Cross",
+      "Amy Klobuchar",
+      "Amy Poehler",
+      "Anastacia",
+      "Androgyny",
+      "Anitta (singer)",
+      "Anne Frank House",
+      "Anne Murray",
+      "Another One Bites the Dust",
+      "Anti-Recidivism Coalition",
+      "Anxiety",
+      "Anxiolytic",
+      "Anyone (Justin Bieber song)",
+      "Apple Music",
+      "Argentina",
+      "Ariana Grande",
+      "As I Am (song)",
+      "As It Was",
+      "As Long as You Love Me (Justin Bieber song)",
+      "Ashley McBryde",
+      "Atlanta",
+      "Attention (Omah Lay and Justin Bieber song)",
+      "Austin Mahone",
+      "Australian Albums Chart",
+      "Ava Max",
+      "Available (song)",
+      "Avenged Sevenfold",
+      "Avril Lavigne",
+      "BBC News",
+      "BBC Online",
+      "BET",
+      "BET Award for Best Collaboration",
+      "BTS",
+      "Baby (Justin Bieber song)",
+      "Babyface (musician)",
+      "Babymetal",
+      "Backstreet Boys",
+      "Bad Bunny",
+      "Bad Day (Daniel Powter song)"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/330px-Justin_Bieber_in_2015.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+      "name": "Justin Bieber",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "CA",
+      "begin_area": "London",
+      "life_span": {
+        "begin": "1994-03-01",
+        "end": null
+      }
+    },
+    "total_works": 15,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 49
+    },
+    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e"
+  },
+  "created_at": "2025-08-19T19:45:45.622905",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Justin Drew Bieber ( BEE-bər; born March 1, 1994) is a Canadian singer and songwriter. Regarded as an influential figure in popular music, he is known for his multi-genre musical performances.\nBieber was discovered by Scooter Braun in 2008 and brought to the US by Usher, who jointly formed RBMG Records to sign Bieber. He rose to mainstream fame with his debut album, My World 2.0 (2010), which topped the US Billboard 200, making him the youngest solo male to do so in 47 years. Its lead single, \"Baby\" (featuring Ludacris), became a best selling single. Bieber's debut EP, My World (2009), was met with international recognition and established him as a teen idol. His second album, Under the Mistletoe (2011), became the first Christmas album by a male artist to debut atop the chart. Bieber shifted to dance-pop on his third album, Believe (2012); its acoustic re-release made him the first artist in Billboard history to have five US number-one albums by the age of 18.\nBieber transitioned to EDM with his 2015 single \"Where Are Ü Now\", which won the Grammy Award for Best Dance/Electronic Recording. It influenced his fourth album, Purpose (2015), which produced three Billboard Hot 100 number...",
+  "musicbrainz_info": {
+    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+    "name": "Justin Bieber",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "CA",
+    "begin_area": "London",
+    "life_span": {
+      "begin": "1994-03-01",
+      "end": null
+    }
+  },
+  "updated_at": "2025-08-20T08:12:52.967399"
+}

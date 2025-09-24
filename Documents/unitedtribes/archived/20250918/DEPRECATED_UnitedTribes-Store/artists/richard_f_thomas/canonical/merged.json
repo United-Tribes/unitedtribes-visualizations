@@ -1,0 +1,59 @@
+{
+  "author_name": "Richard F. Thomas",
+  "entity_type": "music_author",
+  "works": [],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": []
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_F._Thomas"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Richard F. Thomas (born September 26, 1950) is the George Martin Lane Professor of the Classics at Harvard University. His scholarship has focused on various critical approaches, metrics and prose stylistics (particularly Tacitus), genre studies, translation theory and practice, and the reception of Classical literature and culture, particularly with respect to Virgil. He has written extensively on the influence of classical literature on modern music and popular culture.",
+    "summary": "Richard F. Thomas (born September 26, 1950) is the George Martin Lane Professor of the Classics at Harvard University. He is known for his scholarship on classical literature and its reception in modern culture, including music.",
+    "url": "https://en.wikipedia.org/wiki/Richard_F._Thomas",
+    "title": "Richard F. Thomas",
+    "word_count": 85,
+    "categories": ["Harvard University faculty", "Classical scholars", "American academics"],
+    "internal_links": ["Harvard University", "Classics", "Virgil", "Tacitus"],
+    "thumbnail": ""
+  },
+  "musicbrainz": {
+    "artist_info": {},
+    "total_works": 0,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 0
+    },
+    "mbid": ""
+  },
+  "created_at": "2025-08-20T12:30:00.000000",
+  "sources_processed": [
+    "wikipedia"
+  ],
+  "wikipedia_summary": "Richard F. Thomas (born September 26, 1950) is the George Martin Lane Professor of the Classics at Harvard University. He is known for his scholarship on classical literature and its reception in modern culture, including music.",
+  "musicbrainz_info": {},
+  "validation_details": {
+    "corrected_mismatch": "Previously contained Richard Wagner (composer) data due to MusicBrainz false match",
+    "entity_type": "Harvard classics professor and author",
+    "correction_date": "2025-08-20"
+  }
+}

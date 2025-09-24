@@ -1,0 +1,2586 @@
+{
+  "publications": [
+    {
+      "domain": "pitchfork.com",
+      "display_name": "Pitchfork",
+      "score": 1190,
+      "counts": {
+        "links": 381,
+        "text_mentions": 381,
+        "title_mentions": 40
+      }
+    },
+    {
+      "domain": "spin.com",
+      "display_name": "Spin",
+      "score": 66,
+      "counts": {
+        "links": 0,
+        "text_mentions": 65,
+        "title_mentions": 1
+      }
+    },
+    {
+      "domain": "spotify.com",
+      "display_name": "the joe rogan experience",
+      "score": 44,
+      "counts": {
+        "links": 0,
+        "text_mentions": 44,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "nme.com",
+      "display_name": "Nme",
+      "score": 30,
+      "counts": {
+        "links": 0,
+        "text_mentions": 30,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "vice.com",
+      "display_name": "Vice",
+      "score": 29,
+      "counts": {
+        "links": 0,
+        "text_mentions": 29,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "complex.com",
+      "display_name": "Complex",
+      "score": 19,
+      "counts": {
+        "links": 0,
+        "text_mentions": 18,
+        "title_mentions": 1
+      }
+    },
+    {
+      "domain": "rollingstone.com",
+      "display_name": "Rolling Stone",
+      "score": 16,
+      "counts": {
+        "links": 0,
+        "text_mentions": 16,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "billboard.com",
+      "display_name": "Billboard",
+      "score": 13,
+      "counts": {
+        "links": 1,
+        "text_mentions": 11,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "variety.com",
+      "display_name": "Variety",
+      "score": 12,
+      "counts": {
+        "links": 0,
+        "text_mentions": 12,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "theguardian.com",
+      "display_name": "The Guardian",
+      "score": 12,
+      "counts": {
+        "links": 1,
+        "text_mentions": 2,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "nytimes.com",
+      "display_name": "The New York Times",
+      "score": 7,
+      "counts": {
+        "links": 0,
+        "text_mentions": 7,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "theatlantic.com",
+      "display_name": "The Atlantic",
+      "score": 3,
+      "counts": {
+        "links": 0,
+        "text_mentions": 3,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "consequence.net",
+      "display_name": "Consequence",
+      "score": 2,
+      "counts": {
+        "links": 0,
+        "text_mentions": 2,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "vulture.com",
+      "display_name": "Vulture",
+      "score": 2,
+      "counts": {
+        "links": 0,
+        "text_mentions": 2,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "vox.com",
+      "display_name": "Vox",
+      "score": 2,
+      "counts": {
+        "links": 0,
+        "text_mentions": 2,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wikipedia.org",
+      "display_name": "Wikipedia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musicbrainz.org",
+      "display_name": "Musicbrainz",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "allmusic.com",
+      "display_name": "Allmusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bbc.co.uk",
+      "display_name": "Bbc.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "discogs.com",
+      "display_name": "Discogs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "deezer.com",
+      "display_name": "Deezer",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wikimedia.org",
+      "display_name": "Wikimedia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "imdb.com",
+      "display_name": "Imdb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "last.fm",
+      "display_name": "Last.Fm",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "muzikum.eu",
+      "display_name": "Muzikum.Eu",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jonimitchell.com",
+      "display_name": "Jonimitchell",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "loc.gov",
+      "display_name": "Loc.Gov",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bnf.fr",
+      "display_name": "Bnf.Fr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "d-nb.info",
+      "display_name": "D-Nb.Info",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ibdb.com",
+      "display_name": "Ibdb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "imvdb.com",
+      "display_name": "Imvdb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "openlibrary.org",
+      "display_name": "Openlibrary",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "rateyourmusic.com",
+      "display_name": "Rateyourmusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "worldcat.org",
+      "display_name": "Worldcat",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "secondhandsongs.com",
+      "display_name": "Secondhandsongs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "twitter.com",
+      "display_name": "Twitter",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "facebook.com",
+      "display_name": "Facebook",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "instagram.com",
+      "display_name": "Instagram",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "songkick.com",
+      "display_name": "Songkick",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "apple.com",
+      "display_name": "Apple",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tidal.com",
+      "display_name": "Tidal",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "viaf.org",
+      "display_name": "Viaf",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wikidata.org",
+      "display_name": "Wikidata",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "youtube.com",
+      "display_name": "Youtube",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bandsintown.com",
+      "display_name": "Bandsintown",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "legacyrecordings.com",
+      "display_name": "Legacyrecordings",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "acdc-discography.com",
+      "display_name": "Acdc-Discography",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wordpress.com",
+      "display_name": "Wordpress",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "fandom.com",
+      "display_name": "Fandom",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "fanart.tv",
+      "display_name": "Fanart.Tv",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "acdc-italia.com",
+      "display_name": "Acdc-Italia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "joeroacdc.de",
+      "display_name": "Joeroacdc.De",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "genius.com",
+      "display_name": "Genius",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musixmatch.com",
+      "display_name": "Musixmatch",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "myspace.com",
+      "display_name": "Myspace",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "acdc.com",
+      "display_name": "Acdc",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "reddit.com",
+      "display_name": "Reddit",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jaxsta.com",
+      "display_name": "Jaxsta",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musicmoz.org",
+      "display_name": "Musicmoz",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "nla.gov.au",
+      "display_name": "Nla.Gov.Au",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "45cat.com",
+      "display_name": "45Cat",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "idref.fr",
+      "display_name": "Idref.Fr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "livefans.jp",
+      "display_name": "Livefans.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musik-sammler.de",
+      "display_name": "Musik-Sammler.De",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "muziekweb.nl",
+      "display_name": "Muziekweb.Nl",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "spirit-of-metal.com",
+      "display_name": "Spirit-Of-Metal",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "spirit-of-rock.com",
+      "display_name": "Spirit-Of-Rock",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "whosampled.com",
+      "display_name": "Whosampled",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "google.com",
+      "display_name": "Google",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "7digital.com",
+      "display_name": "7Digital",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "hdtracks.com",
+      "display_name": "Hdtracks",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "microsoft.com",
+      "display_name": "Microsoft",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "setlist.fm",
+      "display_name": "Setlist.Fm",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tiktok.com",
+      "display_name": "Tiktok",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "soundcloud.com",
+      "display_name": "Soundcloud",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "amazon.com.au",
+      "display_name": "Amazon.Au",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "napster.com",
+      "display_name": "Napster",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "amazon.com",
+      "display_name": "Amazon",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tumblr.com",
+      "display_name": "Tumblr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "thejustinbiebershrine.com",
+      "display_name": "Thejustinbiebershrine",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "justinbiebermusic.com",
+      "display_name": "Justinbiebermusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "qobuz.com",
+      "display_name": "Qobuz",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "vk.com",
+      "display_name": "Vk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "threads.com",
+      "display_name": "Threads",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "weibo.com",
+      "display_name": "Weibo",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "archive.org",
+      "display_name": "Archive",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "missnancywilson.com",
+      "display_name": "Missnancywilson",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "snaccooperative.org",
+      "display_name": "Snaccooperative",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "travisbarker.com",
+      "display_name": "Travisbarker",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "vgmdb.net",
+      "display_name": "Vgmdb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "blogspot.com",
+      "display_name": "Blogspot",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "eminem.net",
+      "display_name": "Eminem",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "trshady.com",
+      "display_name": "Trshady",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "pandora.com",
+      "display_name": "Pandora",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "eminem.com",
+      "display_name": "Eminem",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "beatport.com",
+      "display_name": "Beatport",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "junodownload.com",
+      "display_name": "Junodownload",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ticketmaster.com",
+      "display_name": "Ticketmaster",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "pbs.org",
+      "display_name": "Pbs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "redhotjazz.com",
+      "display_name": "Redhotjazz",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "dukeellington.com",
+      "display_name": "Dukeellington",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "dukeellingtonlegacy.com",
+      "display_name": "Dukeellingtonlegacy",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ucsb.edu",
+      "display_name": "Ucsb.Edu",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "michaelminn.net",
+      "display_name": "Michaelminn",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "mplcommunications.com",
+      "display_name": "Mplcommunications",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "paulmccartney.com",
+      "display_name": "Paulmccartney",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "castalbums.org",
+      "display_name": "Castalbums",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "mvdbase.com",
+      "display_name": "Mvdbase",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ocremix.org",
+      "display_name": "Ocremix",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "soundtrackcollector.com",
+      "display_name": "Soundtrackcollector",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "theatricalia.com",
+      "display_name": "Theatricalia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "onkyomusic.com",
+      "display_name": "Onkyomusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "giphy.com",
+      "display_name": "Giphy",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "joolsholland.org.uk",
+      "display_name": "Joolsholland.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "joolsholland.com",
+      "display_name": "Joolsholland",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "countrymusichalloffame.org",
+      "display_name": "Countrymusichalloffame",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "merlehaggard.com",
+      "display_name": "Merlehaggard",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musicalbums.ai",
+      "display_name": "Musicalbums.Ai",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "musicmeter.nl",
+      "display_name": "Musicmeter.Nl",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "aboutthebeatles.com",
+      "display_name": "Aboutthebeatles",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "beatlesfanclub.nl",
+      "display_name": "Beatlesfanclub.Nl",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "beatles.ru",
+      "display_name": "Beatles.Ru",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "dmbeatles.com",
+      "display_name": "Dmbeatles",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "britishbeatlesfanclub.co.uk",
+      "display_name": "Britishbeatlesfanclub.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "migu.cn",
+      "display_name": "Migu.Cn",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "anghami.com",
+      "display_name": "Anghami",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "boomplay.com",
+      "display_name": "Boomplay",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "kkbox.com",
+      "display_name": "Kkbox",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "thebeatles.com",
+      "display_name": "Thebeatles",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "oclc.org",
+      "display_name": "Oclc",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "progarchives.com",
+      "display_name": "Progarchives",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "mora.jp",
+      "display_name": "Mora.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "amazon.co.uk",
+      "display_name": "Amazon.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "cdjapan.co.jp",
+      "display_name": "Cdjapan.Co.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "yesasia.com",
+      "display_name": "Yesasia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "heart-music.com",
+      "display_name": "Heart-Music",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "theaudiodb.com",
+      "display_name": "Theaudiodb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "sofeminine.co.uk",
+      "display_name": "Sofeminine.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "metro.co.uk",
+      "display_name": "Metro.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "amywinehouse.com",
+      "display_name": "Amywinehouse",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "universal-music.co.jp",
+      "display_name": "Universal-Music.Co.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tower.jp",
+      "display_name": "Tower.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "purevolume.com",
+      "display_name": "Purevolume",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "berniemarsden.co.uk",
+      "display_name": "Berniemarsden.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "pro-quo.com",
+      "display_name": "Pro-Quo",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "aerosmithtemple.com",
+      "display_name": "Aerosmithtemple",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "aerosmith-lyrics.com",
+      "display_name": "Aerosmith-Lyrics",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "aerosmith.com",
+      "display_name": "Aerosmith",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "hln.be",
+      "display_name": "Hln.Be",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bonjovi.com",
+      "display_name": "Bonjovi",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "metalmusicarchives.com",
+      "display_name": "Metalmusicarchives",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "maniadb.com",
+      "display_name": "Maniadb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "its-official.com",
+      "display_name": "Its-Official",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "kissonline.com",
+      "display_name": "Kissonline",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "45worlds.com",
+      "display_name": "45Worlds",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "sabrinacarpenter.com",
+      "display_name": "Sabrinacarpenter",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "livenation.co.uk",
+      "display_name": "Livenation.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "yandex.com",
+      "display_name": "Yandex",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "iamchappellroan.com",
+      "display_name": "Iamchappellroan",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "themoviedb.org",
+      "display_name": "Themoviedb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wikidot.com",
+      "display_name": "Wikidot",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "questlove.com",
+      "display_name": "Questlove",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "annwilsonofheart.com",
+      "display_name": "Annwilsonofheart",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "50cent.com",
+      "display_name": "50Cent",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "reverbnation.com",
+      "display_name": "Reverbnation",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "2pac.com",
+      "display_name": "2Pac",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tinaturnerfanclub.eu",
+      "display_name": "Tinaturnerfanclub.Eu",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tinaturnerofficial.com",
+      "display_name": "Tinaturnerofficial",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ew.com",
+      "display_name": "Entertainment Weekly",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "timbaland.com",
+      "display_name": "Timbaland",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "timbalandmusic.com",
+      "display_name": "Timbalandmusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "wolfgangs.com",
+      "display_name": "Wolfgangs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jrd.org.uk",
+      "display_name": "Jrd.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jokerman.org.uk",
+      "display_name": "Jokerman.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "boblinks.com",
+      "display_name": "Boblinks",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bobsboots.com",
+      "display_name": "Bobsboots",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "searchingforagem.com",
+      "display_name": "Searchingforagem",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bobdylan.com",
+      "display_name": "Bobdylan",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "paulstanley.com",
+      "display_name": "Paulstanley",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "animenewsnetwork.com",
+      "display_name": "Animenewsnetwork",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "starzik.com",
+      "display_name": "Starzik",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "snakepit.org",
+      "display_name": "Snakepit",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "slashonline.com",
+      "display_name": "Slashonline",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "tmstor.es",
+      "display_name": "Tmstor.Es",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bandcamp.com",
+      "display_name": "Bandcamp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "sonicyouth.com",
+      "display_name": "Sonicyouth",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "blackcat.nl",
+      "display_name": "Blackcat.Nl",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "albumcredits.com",
+      "display_name": "Albumcredits",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "rcs-discography.com",
+      "display_name": "Rcs-Discography",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "lpdiscography.com",
+      "display_name": "Lpdiscography",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "rocky-52.net",
+      "display_name": "Rocky-52",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "cmt.com",
+      "display_name": "Cmt",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "gactv.com",
+      "display_name": "Gactv",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "losthighwayrecords.com",
+      "display_name": "Losthighwayrecords",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "johnnycash.com",
+      "display_name": "Johnnycash",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "ibighit.com",
+      "display_name": "Ibighit",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bts-official.jp",
+      "display_name": "Bts-Official.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "daum.net",
+      "display_name": "Daum",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "generasia.com",
+      "display_name": "Generasia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bugs.co.kr",
+      "display_name": "Bugs.Co.Kr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "genie.co.kr",
+      "display_name": "Genie.Co.Kr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "melon.com",
+      "display_name": "Melon",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "free.fr",
+      "display_name": "Free.Fr",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "atu2.com",
+      "display_name": "Atu2",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "u2songs.com",
+      "display_name": "U2Songs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "u2wanderer.org",
+      "display_name": "U2Wanderer",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "j-lyric.net",
+      "display_name": "J-Lyric",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "u2.com",
+      "display_name": "U2",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "livejournal.com",
+      "display_name": "Livejournal",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "goodreads.com",
+      "display_name": "Goodreads",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "librarything.com",
+      "display_name": "Librarything",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "bookbrainz.org",
+      "display_name": "Bookbrainz",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "eltonography.com",
+      "display_name": "Eltonography",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "eltonjohn.com",
+      "display_name": "Eltonjohn",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "concerts50.com",
+      "display_name": "Concerts50",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "pinterest.com",
+      "display_name": "Pinterest",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "melissaetheridge.com",
+      "display_name": "Melissaetheridge",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "rockhall.com",
+      "display_name": "Rockhall",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "billieholiday.be",
+      "display_name": "Billieholiday.Be",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "billieholidaysongs.com",
+      "display_name": "Billieholidaysongs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "billieholiday.com",
+      "display_name": "Billieholiday",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "muzines.co.uk",
+      "display_name": "Muzines.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "laurieanderson.com",
+      "display_name": "Laurieanderson",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "rockabilly.nl",
+      "display_name": "Rockabilly.Nl",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jpgr.co.uk",
+      "display_name": "Jpgr.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "johnlennon.com",
+      "display_name": "Johnlennon",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "findagrave.com",
+      "display_name": "Findagrave",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "officialjanis.com",
+      "display_name": "Officialjanis",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "janisjoplin.com",
+      "display_name": "Janisjoplin",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "metal-archives.com",
+      "display_name": "Metal-Archives",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "genesimmons.com",
+      "display_name": "Genesimmons",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "arrakis.es",
+      "display_name": "Arrakis.Es",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "loureed.it",
+      "display_name": "Loureed.It",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "loureed.com",
+      "display_name": "Loureed",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "loureed.org",
+      "display_name": "Loureed",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "kimaltheagordon.com",
+      "display_name": "Kimaltheagordon",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "jazzdisco.org",
+      "display_name": "Jazzdisco",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "kyushu-ns.ac.jp",
+      "display_name": "Kyushu-Ns.Ac.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "birdlives.co.uk",
+      "display_name": "Birdlives.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "taylorswift.com.br",
+      "display_name": "Taylorswift.Br",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "taylorswiftswitzerland.ch",
+      "display_name": "Taylorswiftswitzerland.Ch",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "taylorswiftweb.net",
+      "display_name": "Taylorswiftweb",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "webs.com",
+      "display_name": "Webs",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "metamus.ru",
+      "display_name": "Metamus.Ru",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "taylorswift.com",
+      "display_name": "Taylorswift",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "taylorswift.jp",
+      "display_name": "Taylorswift.Jp",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "umusic.ca",
+      "display_name": "Umusic.Ca",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "universal-music.de",
+      "display_name": "Universal-Music.De",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "avana.asia",
+      "display_name": "Avana.Asia",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "target.com",
+      "display_name": "Target",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "urbanoutfitters.com",
+      "display_name": "Urbanoutfitters",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "snapchat.com",
+      "display_name": "Snapchat",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "livenation.com",
+      "display_name": "Livenation",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "dailymotion.com",
+      "display_name": "Dailymotion",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "onedirection.net",
+      "display_name": "Onedirection",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "onedirectionmusic.com",
+      "display_name": "Onedirectionmusic",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    },
+    {
+      "domain": "blink182.com",
+      "display_name": "Blink182",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    }
+  ],
+  "podcasts": [
+    {
+      "domain": "telegraph.co.uk",
+      "display_name": "Telegraph.Co.Uk",
+      "score": 0,
+      "counts": {
+        "links": 0,
+        "text_mentions": 0,
+        "title_mentions": 0
+      }
+    }
+  ]
+}

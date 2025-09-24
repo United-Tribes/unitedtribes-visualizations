@@ -1,0 +1,537 @@
+{
+  "artist_name": "Billie Holiday",
+  "works": [
+    {
+      "title": "Lover Man",
+      "release_date": "1951",
+      "type": "Album",
+      "mbid": "01ca1df8-32b5-4f32-baef-3f8273fdd3d5"
+    },
+    {
+      "title": "In Europe 1954 - 1958",
+      "release_date": "2000",
+      "type": "Album",
+      "mbid": "0f3dbe63-f40c-480f-b2ec-b622fb92c4d1"
+    },
+    {
+      "title": "Songs for Distingué Lovers",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "16696277-f28c-3333-8c15-455a3e1fb898"
+    },
+    {
+      "title": "Songs & Conversations",
+      "release_date": "1973",
+      "type": "Album",
+      "mbid": "2f8a87a9-ac2f-41ed-8005-cbd1cd287492"
+    },
+    {
+      "title": "On The Sentimental Side",
+      "release_date": "1995",
+      "type": "Album",
+      "mbid": "4ba60e37-bbe9-4ed9-8d00-c706b57f5c11"
+    },
+    {
+      "title": "Billie Holiday",
+      "release_date": "1947-06",
+      "type": "Album",
+      "mbid": "588af5e9-52cb-406e-860c-896b41776056"
+    },
+    {
+      "title": "An Evening With Billie Holiday",
+      "release_date": "1953",
+      "type": "Album",
+      "mbid": "7226ee5a-1215-4aff-9622-c2ca6bd86d33"
+    },
+    {
+      "title": "Velvet Mood",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "77f721d9-1f36-493a-84c5-d52469bebc10"
+    },
+    {
+      "title": "Billie Holiday: Star Power",
+      "release_date": "2001",
+      "type": "Album",
+      "mbid": "794df662-5052-416e-8393-786668e9e0ec"
+    },
+    {
+      "title": "Billie and Stan",
+      "release_date": "1954",
+      "type": "Album",
+      "mbid": "79513b8d-ae9d-4f8b-bd5b-23fc4cbfb236"
+    },
+    {
+      "title": "Love Me or Leave Me",
+      "release_date": "1995-01-01",
+      "type": "Album",
+      "mbid": "7e87bfd6-5c4a-4fad-8490-bd20173c5830"
+    },
+    {
+      "title": "Body and Soul",
+      "release_date": "1957",
+      "type": "Album",
+      "mbid": "85dcbd74-e8f6-31be-a2e3-1c322a5d1f7b"
+    },
+    {
+      "title": "Music for Torching",
+      "release_date": "1955-10",
+      "type": "Album",
+      "mbid": "8bcacecc-7fa4-4604-ac5f-d7493ff24741"
+    },
+    {
+      "title": "Billie Holiday Sings",
+      "release_date": "1952",
+      "type": "Album",
+      "mbid": "903d2146-9b9e-40d0-b771-d147bc0e20bf"
+    },
+    {
+      "title": "Jazz Recital",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "97116717-fdf1-45f7-a03a-24d57c29a6ba"
+    },
+    {
+      "title": "Last Recording",
+      "release_date": "1959-07",
+      "type": "Album",
+      "mbid": "b265d7c1-d4ad-3dd7-a295-1579ce3f4258"
+    },
+    {
+      "title": "Billie Holiday: The GreatestJazz Singer of All Time!",
+      "release_date": "2002",
+      "type": "Album",
+      "mbid": "c218ffe8-7da3-4374-878a-7ea8bc3cbc0e"
+    },
+    {
+      "title": "Lady in Satin",
+      "release_date": "1958-06",
+      "type": "Album",
+      "mbid": "cf7bc239-a3ba-3d87-80e5-261f750cb560"
+    },
+    {
+      "title": "40 Great Songs",
+      "release_date": "1996",
+      "type": "Album",
+      "mbid": "cfe7a2f7-36b3-4b07-abab-112d23b3153a"
+    },
+    {
+      "title": "Billie Holiday",
+      "release_date": "1954",
+      "type": "Album",
+      "mbid": "d0d87a1b-a643-4173-bc75-149fcc30da36"
+    },
+    {
+      "title": "Lady Sings the Blues",
+      "release_date": "1956",
+      "type": "Album",
+      "mbid": "e723ff31-ea1c-3747-914e-f2ea221159f3"
+    },
+    {
+      "title": "Stay With Me",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "e9d61d62-fb2a-4320-b67e-6fc4a2755ab3"
+    },
+    {
+      "title": "Solitude",
+      "release_date": "1952-03-26",
+      "type": "Album",
+      "mbid": "ecfcf28e-ec0e-3f88-906b-5544d898521d"
+    },
+    {
+      "title": "Billie Holiday At Storyville",
+      "release_date": "1976",
+      "type": "Album",
+      "mbid": "fd42b086-244b-416b-81a9-4a75c3e55012"
+    },
+    {
+      "title": "The Blues Are Brewin’",
+      "release_date": "1958",
+      "type": "Album",
+      "mbid": "fe44ca66-a7e2-449b-9de4-740377b1dc8f"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "George Ockner",
+      "The Stardusters"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000079016"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/d59c4cda-11d9-48db-8bfe-b557ee602aed"
+      },
+      {
+        "type": "biography",
+        "url": "http://rockhall.com/inductees/billie-holiday/bio/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.billieholiday.be/"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://www.billieholidaysongs.com/"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/33589"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/1YzCsTRb22dQkh9lghPIrp"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1036"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0390507/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Billie+Holiday"
+      },
+      {
+        "type": "lyrics",
+        "url": "http://muzikum.eu/en/122-3857/billie-holiday/lyrics.html"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Billie-holiday"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/billieholiday"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://billieholiday.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://www.billieholiday.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/n50033023"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://adp.library.ucsb.edu/names/102008"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb12402944q"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/118706454"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://ibdb.com/person.php?id=45383"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6n87bns"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-862795"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://openlibrary.org/works/OL1349619A"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/billie_holiday"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/billie-holiday/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-n50033023"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id37299"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/37299"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/1496"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/billieholidayhq"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/BillieHoliday"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/billie-holiday-official"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/37299"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/37299"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/584"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/14857262"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q104358"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCwO6O7HAOHQ7_FgI28QWtvQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Billie_Holiday",
+    "musicbrainz": "https://musicbrainz.org/artist/d59c4cda-11d9-48db-8bfe-b557ee602aed"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Billie Holiday (born Eleanora Fagan; April 7, 1915 – July 17, 1959) was an American jazz and swing music singer. Nicknamed \"Lady Day\" by her friend and music partner, Lester Young, Holiday made significant contributions to jazz music and pop singing. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo. Holiday was known for her vocal delivery and improvisational skills.\nAfter a turbulent childhood, Holiday began singing in nightclubs in Harlem where she was heard by producer John Hammond, who liked her voice. Holiday signed a recording contract with Brunswick in 1935. Her collaboration with Teddy Wilson produced the hit \"What a Little Moonlight Can Do\", which became a jazz standard. Throughout the 1930s and 1940s, Holiday had mainstream success on labels such as Columbia and Decca. However, by the late 1940s, she was beset with legal troubles and drug abuse. After a short prison sentence, Holiday performed a sold-out concert at Carnegie Hall.\nShe was a successful concert performer throughout the 1950s, with two further sold-out shows at Carnegie Hall. Because of personal struggles and an altered voice, Holiday's final...",
+    "summary": "Billie Holiday (born Eleanora Fagan; April 7, 1915 – July 17, 1959) was an American jazz and swing music singer. Nicknamed \"Lady Day\" by her friend and music partner, Lester Young, Holiday made significant contributions to jazz music and pop singing. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo. Holiday was known for her vocal delivery and improvisational skills.\nAfter a turbulent childhood, Holiday began singing in nightclu...",
+    "url": "https://en.wikipedia.org/wiki/Billie_Holiday",
+    "title": "Billie Holiday",
+    "word_count": 189,
+    "categories": [
+      "Category:1915 births",
+      "Category:1959 deaths",
+      "Category:20th-century African-American women singers",
+      "Category:20th-century American LGBTQ people",
+      "Category:20th-century American singers",
+      "Category:20th-century American women singers",
+      "Category:African-American Catholics",
+      "Category:African-American LGBTQ people",
+      "Category:African-American women singer-songwriters",
+      "Category:Aladdin Records artists",
+      "Category:Alcohol-related deaths in New York City",
+      "Category:All Wikipedia articles written in American English",
+      "Category:All articles with unsourced statements",
+      "Category:American LGBTQ singers",
+      "Category:American LGBTQ songwriters",
+      "Category:American ballad musicians",
+      "Category:American bisexual musicians",
+      "Category:American bisexual women",
+      "Category:American contraltos",
+      "Category:American jazz singers",
+      "Category:American people convicted of drug offenses",
+      "Category:American prisoners and detainees",
+      "Category:American street performers",
+      "Category:American torch singers",
+      "Category:American women jazz singers",
+      "Category:American women singer-songwriters",
+      "Category:Articles with hCards",
+      "Category:Articles with short description",
+      "Category:Articles with unsourced statements from May 2024",
+      "Category:Articles with unsourced statements from September 2022",
+      "Category:Billie Holiday",
+      "Category:Biography with signature",
+      "Category:Burials at Saint Raymond's Cemetery (Bronx)",
+      "Category:CS1 interwiki-linked names",
+      "Category:CS1 maint: location missing publisher",
+      "Category:CS1 maint: multiple names: authors list",
+      "Category:CS1 maint: numeric names: authors list",
+      "Category:CS1 maint: numeric names: editors list",
+      "Category:Classic female blues singers",
+      "Category:Columbia Records artists",
+      "Category:Commons link from Wikidata",
+      "Category:Deaths from cirrhosis",
+      "Category:Decca Records artists",
+      "Category:DownBeat Jazz Hall of Fame members",
+      "Category:Grammy Lifetime Achievement Award winners",
+      "Category:IBDB name template using Wikidata",
+      "Category:IMDb title ID different from Wikidata",
+      "Category:Jazz musicians from Maryland",
+      "Category:Jazz musicians from Philadelphia",
+      "Category:LGBTQ people from Pennsylvania"
+    ],
+    "internal_links": [
+      "133rd Street (Manhattan)",
+      "35 mm movie film",
+      "50 Great Voices",
+      "52nd Street (Manhattan)",
+      "A&E Television Networks, LLC",
+      "ABC-Clio",
+      "ARChive of Contemporary Music",
+      "Abby Kelley Foster",
+      "Abel Meeropol",
+      "Abigail Adams",
+      "Academy Award for Best Actress",
+      "Academy Awards",
+      "Adelaide Hall",
+      "Adele Hagner Stamp",
+      "Adrienne A. Jones",
+      "Adventures in Jazz",
+      "African Americans",
+      "Agnes Kane Callum",
+      "Ahmad Jamal",
+      "Aimee Mullins",
+      "Ain't Nobody's Business",
+      "Al Green",
+      "Al McKay",
+      "Aladdin Records",
+      "Aladdin Records (US)",
+      "Alice Catherine Evans",
+      "Alice Hamilton",
+      "Alice Manicur",
+      "Alice Paul",
+      "Alice Waters",
+      "AllMusic",
+      "All Media Guide",
+      "All Media Network",
+      "All Music Guide",
+      "All Things Considered",
+      "All of Me (jazz standard)",
+      "All or Nothing at All (album)",
+      "Alliance Theatre",
+      "Allie B. Latimer",
+      "Almira Hart Lincoln Phelps",
+      "Alta Schrock",
+      "Althea Gibson",
+      "Alyn Shipton",
+      "Amanda Taylor Norris",
+      "Amelia Bloomer",
+      "Amelia Earhart",
+      "American Broadcasting Company",
+      "American Council of Learned Societies",
+      "American National Biography",
+      "American Society of Composers, Authors and Publishers",
+      "An Evening with Billie Holiday",
+      "Ana Sol Gutierrez",
+      "Ancestry.com",
+      "Andra Day",
+      "Andrew Woolfolk",
+      "André Previn",
+      "Andrés Segovia",
+      "Angel of Harlem",
+      "Angela Davis",
+      "Angelina Grimké",
+      "Ann Bancroft",
+      "Ann Wilson",
+      "Anna Ella Carroll",
+      "Anna Howard Shaw",
+      "Anna Schwartz",
+      "Anna Wessels Williams",
+      "Anne Catherine Hoof Green",
+      "Anne Dallas Dudley",
+      "Anne Hutchinson",
+      "Anne Morrow Lindbergh",
+      "Anne St. Clair Wright",
+      "Anne Sullivan",
+      "Annie Armstrong",
+      "Annie Dodge Wauneka",
+      "Annie Jump Cannon",
+      "Annie Oakley",
+      "Antoinette Brown Blackwell",
+      "Antonia Novello",
+      "Antônio Carlos Jobim",
+      "Arcadia Fund",
+      "Aretha Franklin",
+      "Arlene Francis",
+      "Arlington House Publishers",
+      "Armando Manzanero",
+      "Art Blakey",
+      "Art Tatum",
+      "Arthur Herzog Jr.",
+      "Arthur Murray",
+      "Arthur Rubinstein",
+      "Artie Shapiro",
+      "Artie Shaw",
+      "Artists and repertoire",
+      "Arturo Toscanini",
+      "Aruna Miller",
+      "As Time Goes By (song)",
+      "Associated Press",
+      "Audra McDonald",
+      "Augusta T. Chissell",
+      "B. B. King",
+      "Babe Didrikson Zaharias"
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/330px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed",
+      "name": "Billie Holiday",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Philadelphia",
+      "life_span": {
+        "begin": "1915-04-07",
+        "end": "1959-07-17"
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 2,
+      "producers": 0,
+      "composers": 0,
+      "labels": 0,
+      "instruments": 0,
+      "related_urls": 38
+    },
+    "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed"
+  },
+  "created_at": "2025-08-20T07:55:12.605499",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Billie Holiday (born Eleanora Fagan; April 7, 1915 – July 17, 1959) was an American jazz and swing music singer. Nicknamed \"Lady Day\" by her friend and music partner, Lester Young, Holiday made significant contributions to jazz music and pop singing. Her vocal style, strongly influenced by jazz instrumentalists, inspired a new way of manipulating phrasing and tempo. Holiday was known for her vocal delivery and improvisational skills.\nAfter a turbulent childhood, Holiday began singing in nightclubs in Harlem where she was heard by producer John Hammond, who liked her voice. Holiday signed a recording contract with Brunswick in 1935. Her collaboration with Teddy Wilson produced the hit \"What a Little Moonlight Can Do\", which became a jazz standard. Throughout the 1930s and 1940s, Holiday had mainstream success on labels such as Columbia and Decca. However, by the late 1940s, she was beset with legal troubles and drug abuse. After a short prison sentence, Holiday performed a sold-out concert at Carnegie Hall.\nShe was a successful concert performer throughout the 1950s, with two further sold-out shows at Carnegie Hall. Because of personal struggles and an altered voice, Holiday's final...",
+  "musicbrainz_info": {
+    "mbid": "d59c4cda-11d9-48db-8bfe-b557ee602aed",
+    "name": "Billie Holiday",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Philadelphia",
+    "life_span": {
+      "begin": "1915-04-07",
+      "end": "1959-07-17"
+    }
+  },
+  "updated_at": "2025-08-20T08:14:40.753764"
+}

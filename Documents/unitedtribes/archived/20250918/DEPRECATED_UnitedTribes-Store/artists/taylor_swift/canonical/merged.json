@@ -1,0 +1,607 @@
+{
+  "artist_name": "Taylor Swift",
+  "works": [
+    {
+      "title": "Speak Now (Taylor’s version)",
+      "release_date": "2023-07-07",
+      "type": "Album",
+      "mbid": "0441b1b2-de57-4a9a-b007-1f6e159921d5"
+    },
+    {
+      "title": "reputation Stadium Tour Surprise Song Playlist",
+      "release_date": "2018-11-30",
+      "type": "Album",
+      "mbid": "0a5a4bb3-3b68-4ab4-b36d-7523b5beff16"
+    },
+    {
+      "title": "Midnights",
+      "release_date": "2022-10-21",
+      "type": "Album",
+      "mbid": "0dcc84fb-c592-46e9-ba92-a52bb44dd553"
+    },
+    {
+      "title": "Taylor Swift (Taylor’s version)",
+      "release_date": "",
+      "type": "Album",
+      "mbid": "0debfb8e-7a5a-4881-97b1-0f57258473f9"
+    },
+    {
+      "title": "1989 (Taylor’s version)",
+      "release_date": "2023-10-27",
+      "type": "Album",
+      "mbid": "1c4770b3-b7a3-4d44-a7a9-8e2dbb74b85a"
+    },
+    {
+      "title": "Speak Now: World Tour Live",
+      "release_date": "2011-11-21",
+      "type": "Album",
+      "mbid": "2a8d9df8-c23f-456c-9153-12ab1ced21ce"
+    },
+    {
+      "title": "Lover",
+      "release_date": "2019-08-23",
+      "type": "Album",
+      "mbid": "30e9785b-7b50-4d29-b3d1-96fb55e3397f"
+    },
+    {
+      "title": "1989",
+      "release_date": "2014-10-24",
+      "type": "Album",
+      "mbid": "4d9ec1c2-58ec-48a4-aa0a-916718adead0"
+    },
+    {
+      "title": "Fearless",
+      "release_date": "2008-11-11",
+      "type": "Album",
+      "mbid": "63eba062-847c-3b73-8b0f-6baf27bba6fa"
+    },
+    {
+      "title": "Red (Taylor’s version)",
+      "release_date": "2021-11-11",
+      "type": "Album",
+      "mbid": "67727253-f1c0-4243-9270-f9f1401c3b8c"
+    },
+    {
+      "title": "THE TORTURED POETS DEPARTMENT",
+      "release_date": "2024-04-19",
+      "type": "Album",
+      "mbid": "71c3eed6-466c-4aef-ad12-65a36d19467a"
+    },
+    {
+      "title": "Live From Clear Channel Stripped 2008",
+      "release_date": "2020-04-24",
+      "type": "Album",
+      "mbid": "81a20a2d-e9cb-40ce-9e22-178337f381a0"
+    },
+    {
+      "title": "The Life of a Showgirl",
+      "release_date": "2025-10-03",
+      "type": "Album",
+      "mbid": "9ae7e7e9-ac40-4874-bd43-d77a9bb9b617"
+    },
+    {
+      "title": "Lover (live from Paris)",
+      "release_date": "2020-05-19",
+      "type": "Album",
+      "mbid": "9d8ee40d-075a-4cfe-b079-abfbe7002a21"
+    },
+    {
+      "title": "Red",
+      "release_date": "2012-08-10",
+      "type": "Album",
+      "mbid": "a73cecde-0923-40ad-aad1-e8c24ba6c3d2"
+    },
+    {
+      "title": "Complete Album Collection",
+      "release_date": "2013-11-22",
+      "type": "Album",
+      "mbid": "b58e2837-7645-496c-a28f-9a5a9f6af02f"
+    },
+    {
+      "title": "Speak Now",
+      "release_date": "2010-10-25",
+      "type": "Album",
+      "mbid": "ba1259eb-d41e-41c5-a70c-0e6fa73e6708"
+    },
+    {
+      "title": "Taylor Swift",
+      "release_date": "2006-10-24",
+      "type": "Album",
+      "mbid": "ba1d0c2a-bb07-38bc-835c-a880f76f1309"
+    },
+    {
+      "title": "Fearless (Taylor’s version)",
+      "release_date": "2021-04-09",
+      "type": "Album",
+      "mbid": "d2e4838d-90e1-471c-bda0-fd816dabb2d4"
+    },
+    {
+      "title": "folklore: the long pond studio sessions",
+      "release_date": "2020-11-25",
+      "type": "Album",
+      "mbid": "d931fda7-8710-4212-85c1-b1568d0617fd"
+    },
+    {
+      "title": "Taylor Swift Karaoke: Fearless",
+      "release_date": "2009-03-31",
+      "type": "Album",
+      "mbid": "e227abf9-eb09-4908-bf7b-1aa3dd8725cd"
+    },
+    {
+      "title": "evermore",
+      "release_date": "2020-12-11",
+      "type": "Album",
+      "mbid": "e86d6219-f5a2-4edd-bf2b-3f9eab190ae0"
+    },
+    {
+      "title": "reputation",
+      "release_date": "2017-11-10",
+      "type": "Album",
+      "mbid": "f060c8fd-bec9-426e-800e-8efc040a71e6"
+    },
+    {
+      "title": "Taylor Swift Karaoke: Taylor Swift",
+      "release_date": "2009-01-27",
+      "type": "Album",
+      "mbid": "f153b0ac-0816-4966-a4f6-70176dd4c301"
+    },
+    {
+      "title": "folklore",
+      "release_date": "2020-07-24",
+      "type": "Album",
+      "mbid": "f1d08326-c23b-4b43-be3b-20b33ab10bf6"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [
+      "The Starlights",
+      "The Agency"
+    ],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Universal Music Publishing Group",
+      "TAS Rights Management, LLC",
+      "Taylor Swift Music",
+      "RCA",
+      "Sony/ATV Music Publishing LLC",
+      "Big Machine Records",
+      "TASRM Publishing",
+      "Taylor Swift Productions, Inc.",
+      "Universal Music Group",
+      "Taylor Swift"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000472102"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/157"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/20244d07-534f-4eff-b4d4-930878889970"
+      },
+      {
+        "type": "blog",
+        "url": "https://taylorswift.tumblr.com/"
+      },
+      {
+        "type": "bookbrainz",
+        "url": "https://bookbrainz.org/author/9ebd399c-3e9d-4421-b4cb-b72f83023123"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/1124645"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/5023427"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://taylorswift.com.br/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://taylorswift.fandom.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://taylorswiftswitzerland.ch/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://www.taylorswiftweb.net/"
+      },
+      {
+        "type": "fanpage",
+        "url": "https://taylorswiftfanclubofficial.webs.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.metamus.ru/name/3933/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://music.migu.cn/v3/music/artist/288906"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://play.anghami.com/artist/4732"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://vk.com/artist/taylorswift"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.boomplay.com/artists/1910212"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/12246"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.kkbox.com/hk/en/artist/KqGSBUJYQwYgkNtSSR"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_4.png"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm2357847/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%A6%E3%82%A3%E3%83%95%E3%83%88"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Taylor+Swift"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Taylor-swift"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://muzikum.eu/en/taylor-swift/lyrics"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Taylor-Swift"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/taylorswift"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.taylorswift.com/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.universal-music.co.jp/taylor-swift/"
+      },
+      {
+        "type": "official_homepage",
+        "url": "http://taylorswift.jp/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no2007053238"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/S/Swift,_Taylor/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb16020410t"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/137997698"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/taylor-swift"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://jaxsta.com/profile/7cab09c9-8210-4bed-8f5b-d5eb747705de"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1680377"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/taylor-swift"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.livefans.jp/artists/2681"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/taylor-swift/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000299464/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Taylor-Swift/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://www.worldcat.org/identities/lccn-no2007053238/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=A4saifqiazru565jhrrm6d72jaa"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://mora.jp/artist/295541/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/159260351"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://store.taylorswift.com/collections/music-products"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/taylor-swift"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/taylor-swift/346932"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.junodownload.com/artists/Taylor+Swift/"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.melon.com/artist/detail.htm?artistId=325867"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.qobuz.com/us-en/interpreter/taylor-swift/download-streaming-albums"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://shop.umusic.ca/artist.html?a=taylor_swift"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://storeca.taylorswift.com/*/music/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://store.taylorswift.com/collections/music-products"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://storeuk.taylorswift.com/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://store.universal-music.co.jp/artist/taylor-swift/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://taylorswift.universal-music.de/"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://universalmusicshop.avana.asia/categories/67133"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.cdjapan.co.jp/person/700216318"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.target.com/c/-/N-54u4c"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.urbanoutfitters.com/taylor-swift-exclusive-collection"
+      },
+      {
+        "type": "purchase_for_mail-order",
+        "url": "https://www.yesasia.com/0-aid1895644-0-bpt.47-en/list.html"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/44127"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/taylor-swift-3bd6bc5c.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/102467684150504816942"
+      },
+      {
+        "type": "social_network",
+        "url": "https://snapchat.com/add/taylorswift"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/taylorswift13"
+      },
+      {
+        "type": "social_network",
+        "url": "https://vk.com/taylorswiftofficial"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/TaylorSwift"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/taylorswift/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.threads.com/@taylorswift"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@taylorswift"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.weibo.com/u/3981271467"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/217815"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/taylorswiftofficial"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B00157GJ20"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/159260351"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/3557299"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/taylor-swift"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.melon.com/artist/detail.htm?artistId=325867"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/us-en/interpreter/taylor-swift/download-streaming-albums"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.livenation.com/artist/K8vZ9175Tr0"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/1094215"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/88580701"
+      },
+      {
+        "type": "video_channel",
+        "url": "https://www.dailymotion.com/taylorswift"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q26876"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCANLZYMidaCbLQFWXBC95Jg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCPC0L1d253x-KuMNwa05TpA"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Taylor_Swift",
+    "musicbrainz": "https://musicbrainz.org/artist/20244d07-534f-4eff-b4d4-930878889970"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her autobiographical songwriting and artistic reinventions have made her a cultural icon of the 21st century. She is the highest-grossing live music artist, the wealthiest female musician, and one of the best-selling music artists of all time.\nSwift signed with Big Machine Records in 2005 and debuted as a country singer with the albums Taylor Swift (2006) and Fearless (2008). The singles \"Teardrops on My Guitar\", \"Love Story\", and \"You Belong with Me\" found crossover success on country and pop radio formats. Speak Now (2010) expanded her country pop sound with rock influences, and Red (2012) featured a pop-friendly production. She recalibrated her artistic identity from country to pop with the synth-pop album 1989 (2014) and the hip-hop-imbued Reputation (2017). Through the 2010s, she accumulated the Billboard Hot 100 number-one singles \"We Are Never Ever Getting Back Together\", \"Shake It Off\", \"Blank Space\", \"Bad Blood\", and \"Look What You Made Me Do\".\nAfter Swift signed with Republic Records in 2018, she re-recorded four of her Big Machine albums due to a dispute with the label, which prompted an industry discourse on artists' rights. She released the eclectic pop album Lover (2019), the indie folk albums Folklore and Evermore (both 2020), the electropop record Midnights (2022), and the double album The Tortured Poets Department (2024). Her Billboard Hot 100 number-one singles in the 2020s include \"Cardigan\", \"Willow\", \"All Too Well (10 Minute Version)\", \"Anti-Hero\", \"Cruel Summer\", \"Is It Over Now?\", and \"Fortnight\". Her Eras Tour (2023–2024) is the highest-grossing concert tour of all time. Its accompanying concert film, The Eras Tour (2023), became the highest-grossing in history.\nSwift is the first artist to have seven albums each sell over a million copies first-week in the US and named the IFPI Global Recording Artist of the Year five times. Publications such as Rolling Stone and Billboard have ranked her among the greatest artists of all time. She is the first individual from the arts to be named Time Person of the Year (2023). Her accolades include 14 Grammy Awards—including a record four Album of the Year wins—and a Primetime Emmy Award. She is the most-awarded artist of the American Music Awards, the Billboard Music Awards, and the MTV Video Music Awards. A subject of extensive media coverage, Swift has a global fanbase called Swifties.",
+    "summary": "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her autobiographical songwriting and artistic reinventions have made her a cultural icon of the 21st century. She is the highest-grossing live music artist, the wealthiest female musician, and one of the best-selling music artists of all time.\nSwift signed with Big Machine Records in 2005 and debuted as a country singer with the albums Taylor Swift (2006) and Fearless (2008). The singles \"Teardrops on My Guitar\", \"Love Story\", and \"You Belong with Me\" found crossover success on country and pop radio formats. Speak Now (2010) expanded her country pop sound with rock influences, and Red (2012) featured a pop-friendly production. She recalibrated her artistic identity from country to pop with the synth-pop album 1989 (2014) and the hip-hop-imbued Reputation (2017). Through the 2010s, she accumulated the Billboard Hot 100 number-one singles \"We Are Never Ever Getting Back Together\", \"Shake It Off\", \"Blank Space\"...",
+    "url": "https://en.wikipedia.org/wiki/Taylor_Swift",
+    "title": "Taylor Swift",
+    "word_count": 393,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/330px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+      "name": "Taylor Swift",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "West Reading",
+      "life_span": {
+        "begin": "1989-12-13",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 2,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 10,
+      "instruments": 0,
+      "related_urls": 91
+    },
+    "mbid": "20244d07-534f-4eff-b4d4-930878889970"
+  },
+  "created_at": "2025-08-19T10:29:50.128573",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter. Her autobiographical songwriting and artistic reinventions have made her a cultural icon of the 21st century. She is the highest-grossing live music artist, the wealthiest female musician, and one of the best-selling music artists of all time.\nSwift signed with Big Machine Records in 2005 and debuted as a country singer with the albums Taylor Swift (2006) and Fearless (2008). The singles \"Teardrops on My Guitar\", \"Love Story\", and \"You Belong with Me\" found crossover success on country and pop radio formats. Speak Now (2010) expanded her country pop sound with rock influences, and Red (2012) featured a pop-friendly production. She recalibrated her artistic identity from country to pop with the synth-pop album 1989 (2014) and the hip-hop-imbued Reputation (2017). Through the 2010s, she accumulated the Billboard Hot 100 number-one singles \"We Are Never Ever Getting Back Together\", \"Shake It Off\", \"Blank Space\", \"Bad Blood\", and \"Look What You Made Me Do\".\nAfter Swift signed with Republic Records in 2018, she re-recorded four of her Big Machine albums due to a dispute with the label, which prompted an industry discourse on artists' rights. She released the eclectic pop album Lover (2019), the indie folk albums Folklore and Evermore (both 2020), the electropop record Midnights (2022), and the double album The Tortured Poets Department (2024). Her Billboard Hot 100 number-one singles in the 2020s include \"Cardigan\", \"Willow\", \"All Too Well (10 Minute Version)\", \"Anti-Hero\", \"Cruel Summer\", \"Is It Over Now?\", and \"Fortnight\". Her Eras Tour (2023–2024) is the highest-grossing concert tour of all time. Its accompanying concert film, The Eras Tour (2023), became the highest-grossing in history.\nSwift is the first artist to have seven albums each sell over a million copies first-week in the US and named the IFPI Global Recording Artist of the Year five times. Publications such as Rolling Stone and Billboard have ranked her among the greatest artists of all time. She is the first individual from the arts to be named Time Person of the Year (2023). Her accolades include 14 Grammy Awards—including a record four Album of the Year wins—and a Primetime Emmy Award. She is the most-awarded artist of the American Music Awards, the Billboard Music Awards, and the MTV Video Music Awards. A subject of extensive media coverage, Swift has a global fanbase called Swifties.",
+  "musicbrainz_info": {
+    "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+    "name": "Taylor Swift",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "West Reading",
+    "life_span": {
+      "begin": "1989-12-13",
+      "end": null
+    }
+  }
+}

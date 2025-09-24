@@ -1,0 +1,42 @@
+{
+  "job_id": "scraper_job_20250919_201231",
+  "start_time": "2025-09-19T20:12:31.413240",
+  "config": {
+    "sources": [
+      "pitchfork",
+      "npr"
+    ],
+    "max_articles_per_source": 30,
+    "dry_run": false,
+    "enable_safety_checks": true,
+    "enable_s3_upload": true,
+    "log_level": "INFO",
+    "max_runtime_minutes": 60,
+    "notification_email": null
+  },
+  "sources_processed": [
+    {
+      "source": "pitchfork",
+      "discovered": 6,
+      "scraped": 3,
+      "validated": 3,
+      "uploaded": 3,
+      "success_rate": 0.5
+    },
+    {
+      "source": "npr",
+      "discovered": 6,
+      "scraped": 3,
+      "validated": 3,
+      "uploaded": 3,
+      "success_rate": 0.5
+    }
+  ],
+  "total_discovered": 12,
+  "total_scraped": 6,
+  "total_uploaded": 6,
+  "errors": [],
+  "end_time": "2025-09-19T20:12:42.372014",
+  "duration_minutes": 0.18264635,
+  "overall_success_rate": 0.5
+}

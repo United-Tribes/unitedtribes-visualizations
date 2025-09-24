@@ -1,0 +1,237 @@
+{
+  "artist_name": "Kim Gordon",
+  "works": [
+    {
+      "title": "SYR 5",
+      "release_date": "2000-08-29",
+      "type": "Album",
+      "mbid": "235d5b6c-22a6-34c4-954b-60b859cd24e4"
+    },
+    {
+      "title": "Girl In A Band: A Memoir",
+      "release_date": "2015-02-24",
+      "type": "Album",
+      "mbid": "3c08b3a9-2c9c-47c0-972d-b495018a0c4a"
+    },
+    {
+      "title": "No Home Record",
+      "release_date": "2019-10-11",
+      "type": "Album",
+      "mbid": "6dcdf820-c5c5-4f30-97fb-f4eee66a74f4"
+    },
+    {
+      "title": "At Issue",
+      "release_date": "2021-09-14",
+      "type": "Album",
+      "mbid": "712ab2dd-2d7d-4fe8-89e9-43c91010f1dd"
+    },
+    {
+      "title": "Sound for Andy Warhol’s KISS",
+      "release_date": "2019-05-16",
+      "type": "Album",
+      "mbid": "7b18e9d2-7f72-498b-8d3b-4e19302dedac"
+    },
+    {
+      "title": "Music For Inversions: A Live Ballet By Nick Mauss",
+      "release_date": "2015-07-14",
+      "type": "Album",
+      "mbid": "b7727a37-a2ef-427d-a560-3741e7774e36"
+    },
+    {
+      "title": "YOKOKIMTHURSTON",
+      "release_date": "2012-09-25",
+      "type": "Album",
+      "mbid": "c2f35de4-a08a-4ce9-8f05-cae185e72950"
+    },
+    {
+      "title": "The Collective",
+      "release_date": "2024-03-08",
+      "type": "Album",
+      "mbid": "c35d3885-e1a2-4959-81ff-9c005c319b22"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Freekit Music"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000083751"
+      },
+      {
+        "type": "bandcamp",
+        "url": "https://kimgordon.bandcamp.com/"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/19301485-ac9c-4dad-885b-cd8e8c8b4184"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/187676"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/3n8qeKQViV1waeCzZmS4Tx"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/1000022"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0330371/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Kim_Gordon"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://kimaltheagordon.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/nr2005015957"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb140449705"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/130170852"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6wt1440"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/kim_gordon"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-nr2005015957"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id27266002"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/kim-gordon-4bd6ebc2.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/kimletgordon"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/pages/Kim-Gordon/107846089236950"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/kimletgordon/"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/2090783"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/27266002"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/6939914"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/7589588"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q240570"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCGCyE2JoVAPqxO3CpcUIRXw"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCGCyE2JoVAPqxO3CpcUIRXw"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kim_Gordon",
+    "musicbrainz": "https://musicbrainz.org/artist/19301485-ac9c-4dad-885b-cd8e8c8b4184"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Kim Althea Gordon (born April 28, 1953) is an American musician, singer and songwriter best known as the bassist, guitarist, and vocalist of alternative rock band Sonic Youth. Born in Rochester, New York, she was raised in Los Angeles, California, where her father was a professor at the University of California, Los Angeles. After graduating from Los Angeles's Otis College of Art and Design, she moved to New York City to begin an art career. There, she formed Sonic Youth with Thurston Moore in 1981. She and Moore married in 1984, and the band released a total of six albums on independent labels before the end of the 1980s. It then released nine studio albums on the label DGC Records, beginning with Goo in 1990. Gordon was also a founding member of the musical project Free Kitten, which she formed with Julia Cafritz in 1993.\nSonic Youth released its 15th and final studio album, The Eternal (2009), on Matador Records before disbanding in 2011 after Gordon and Moore separated. After the dissolution of Sonic Youth and her divorce from Moore, Gordon formed the experimental duo Body/Head with Bill Nace, which releasing its debut album, Coming Apart, in 2013. She subsequently formed Glitterbust...",
+    "summary": "Kim Althea Gordon (born April 28, 1953) is an American musician, singer and songwriter best known as the bassist, guitarist, and vocalist of alternative rock band Sonic Youth. Born in Rochester, New York, she was raised in Los Angeles, California, where her father was a professor at the University of California, Los Angeles. After graduating from Los Angeles's Otis College of Art and Design, she moved to New York City to begin an art career. There, she formed Sonic Youth with Thurston Moore in 1981. She and Moore married in 1984, and the band released a total of six albums on independent labels before the end of the 1980s. It then released nine studio albums on the label DGC Records, beginning with Goo in 1990. Gordon was also a founding member of the musical project Free Kitten, which she formed with Julia Cafritz in 1993.\nSonic Youth released its 15th and final studio album, The Eternal (2009), on Matador Records before disbanding in 2011 after Gordon and Moore separated. After the d...",
+    "url": "https://en.wikipedia.org/wiki/Kim_Gordon",
+    "title": "Kim Gordon",
+    "word_count": 202,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sonic_Youth_in_2010_%285320093181%29.jpg/330px-Sonic_Youth_in_2010_%285320093181%29.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "19301485-ac9c-4dad-885b-cd8e8c8b4184",
+      "name": "Kim Gordon",
+      "disambiguation": "",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "Rochester",
+      "life_span": {
+        "begin": "1953-04-28",
+        "end": null
+      }
+    },
+    "total_works": 8,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 0,
+      "producers": 0,
+      "composers": 0,
+      "labels": 1,
+      "instruments": 0,
+      "related_urls": 27
+    },
+    "mbid": "19301485-ac9c-4dad-885b-cd8e8c8b4184"
+  },
+  "created_at": "2025-08-20T08:35:14.811298",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Kim Althea Gordon (born April 28, 1953) is an American musician, singer and songwriter best known as the bassist, guitarist, and vocalist of alternative rock band Sonic Youth. Born in Rochester, New York, she was raised in Los Angeles, California, where her father was a professor at the University of California, Los Angeles. After graduating from Los Angeles's Otis College of Art and Design, she moved to New York City to begin an art career. There, she formed Sonic Youth with Thurston Moore in 1981. She and Moore married in 1984, and the band released a total of six albums on independent labels before the end of the 1980s. It then released nine studio albums on the label DGC Records, beginning with Goo in 1990. Gordon was also a founding member of the musical project Free Kitten, which she formed with Julia Cafritz in 1993.\nSonic Youth released its 15th and final studio album, The Eternal (2009), on Matador Records before disbanding in 2011 after Gordon and Moore separated. After the dissolution of Sonic Youth and her divorce from Moore, Gordon formed the experimental duo Body/Head with Bill Nace, which releasing its debut album, Coming Apart, in 2013. She subsequently formed Glitterbust...",
+  "musicbrainz_info": {
+    "mbid": "19301485-ac9c-4dad-885b-cd8e8c8b4184",
+    "name": "Kim Gordon",
+    "disambiguation": "",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "Rochester",
+    "life_span": {
+      "begin": "1953-04-28",
+      "end": null
+    }
+  }
+}

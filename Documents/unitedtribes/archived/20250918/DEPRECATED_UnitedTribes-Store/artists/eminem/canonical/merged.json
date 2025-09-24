@@ -1,0 +1,494 @@
+{
+  "artist_name": "Eminem",
+  "works": [
+    {
+      "title": "White America 2",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "149e7dde-b353-4428-ae54-7e27bd8fd106"
+    },
+    {
+      "title": "The Shady Project",
+      "release_date": "2011-02-28",
+      "type": "Album",
+      "mbid": "16fe87d6-fe9c-439f-882d-7180c5cf1706"
+    },
+    {
+      "title": "Curtain Call: The Hits",
+      "release_date": "2005-12-02",
+      "type": "Album",
+      "mbid": "1a18928e-1d32-32f2-a10e-e1f76e86bc8b"
+    },
+    {
+      "title": "Encore",
+      "release_date": "2004-11-12",
+      "type": "Album",
+      "mbid": "38a1cae8-d480-3a44-835a-19b0fe768813"
+    },
+    {
+      "title": "Bottom of the Bottle",
+      "release_date": "2013-11-29",
+      "type": "Album",
+      "mbid": "3e80b693-ee31-4cc0-a554-6509cb4c6d9b"
+    },
+    {
+      "title": "The Death of Slim Shady (Coup de Grâce)",
+      "release_date": "2024-07-12",
+      "type": "Album",
+      "mbid": "3ec8da7f-a4c3-4951-a967-334321a24342"
+    },
+    {
+      "title": "The Anger Management Tour Live",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "406bd200-2586-39d2-96af-15a2c26c207d"
+    },
+    {
+      "title": "The Album Collection",
+      "release_date": "2005",
+      "type": "Album",
+      "mbid": "5eb3e409-ceec-4cae-9c62-92e0af86a175"
+    },
+    {
+      "title": "The Shady Project",
+      "release_date": "2013",
+      "type": "Album",
+      "mbid": "5ecf8ef8-cd5b-4ffd-9c44-a0b955b903a5"
+    },
+    {
+      "title": "Infinite",
+      "release_date": "1996-11-12",
+      "type": "Album",
+      "mbid": "715be5e7-3677-35c0-a39a-abf300ff9ba1"
+    },
+    {
+      "title": "Curtain Call 2",
+      "release_date": "2022-08-05",
+      "type": "Album",
+      "mbid": "77c24600-5610-473b-876e-09d8a42296b7"
+    },
+    {
+      "title": "Kamikaze",
+      "release_date": "2018-08-31",
+      "type": "Album",
+      "mbid": "802d62ee-65c3-4666-8f47-44844321a6a0"
+    },
+    {
+      "title": "E",
+      "release_date": "2004-12-12",
+      "type": "Album",
+      "mbid": "8dc8c77b-2396-3ef8-8fc5-efcebe00a105"
+    },
+    {
+      "title": "Shady Classics",
+      "release_date": "2014-11-22",
+      "type": "Album",
+      "mbid": "8f0b621b-5600-40ee-91dc-b9042c5a512b"
+    },
+    {
+      "title": "Recovery",
+      "release_date": "2010-06-18",
+      "type": "Album",
+      "mbid": "a5056c3b-730f-493b-b10e-52f678d72b85"
+    },
+    {
+      "title": "Raw & Uncut",
+      "release_date": "2006-10",
+      "type": "Album",
+      "mbid": "afb3c3d7-19fc-3d11-b24b-46bcf3becad2"
+    },
+    {
+      "title": "The Marshall Mathers LP",
+      "release_date": "2000-05-22",
+      "type": "Album",
+      "mbid": "b0fa91c8-0996-38f1-ab84-797f58d7c4eb"
+    },
+    {
+      "title": "The Marshall Mathers LP 2",
+      "release_date": "2013-11-05",
+      "type": "Album",
+      "mbid": "b1fdc9cc-8680-44da-abab-59edca6b2ad3"
+    },
+    {
+      "title": "Unreleased and Rare",
+      "release_date": "2010",
+      "type": "Album",
+      "mbid": "ba73af74-96df-4270-80a5-809b5b7de9e1"
+    },
+    {
+      "title": "Music to Be Murdered By",
+      "release_date": "2020-01-17",
+      "type": "Album",
+      "mbid": "bc217c64-db43-4311-9b73-fca6d25c4ac5"
+    },
+    {
+      "title": "The Slim Shady LP",
+      "release_date": "1999-02-23",
+      "type": "Album",
+      "mbid": "be725de4-4633-3c8a-9a03-f2c4392b6e0d"
+    },
+    {
+      "title": "Revival",
+      "release_date": "2017-12-15",
+      "type": "Album",
+      "mbid": "cfc62e61-686c-46cd-a453-608979646f71"
+    },
+    {
+      "title": "DJ Hero Renegade Edition",
+      "release_date": "2009-10-27",
+      "type": "Album",
+      "mbid": "cfd0f1c1-fc85-4cf1-8b7a-8a4e77951f8a"
+    },
+    {
+      "title": "The Eminem Show",
+      "release_date": "2002-05-27",
+      "type": "Album",
+      "mbid": "e9585ed4-d148-3711-bbee-55a97b58325a"
+    },
+    {
+      "title": "Relapse",
+      "release_date": "2009-05-15",
+      "type": "Album",
+      "mbid": "ea1d0073-b586-3545-8607-f2632d53b0c0"
+    }
+  ],
+  "relationships": {
+    "influenced_by": [],
+    "influences": [],
+    "collaborators": [],
+    "members": [],
+    "associated_acts": [
+      "The Shady Band"
+    ],
+    "producers": [],
+    "composers": [],
+    "labels": [
+      "Aftermath Entertainment",
+      "Shady Records"
+    ],
+    "instruments": [],
+    "related_urls": [
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0000157676"
+      },
+      {
+        "type": "allmusic",
+        "url": "https://www.allmusic.com/artist/mn0001892803"
+      },
+      {
+        "type": "bandsintown",
+        "url": "https://www.bandsintown.com/a/1754"
+      },
+      {
+        "type": "bbc_music_page",
+        "url": "https://www.bbc.co.uk/music/artists/b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
+      },
+      {
+        "type": "discography_page",
+        "url": "http://shady-media.blogspot.com/2014/07/list-of-all-eminem-songs-1988-2014_21.html"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/108184"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/38661"
+      },
+      {
+        "type": "discogs",
+        "url": "https://www.discogs.com/artist/644153"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://shady-media.blogspot.com/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.eminem.net/"
+      },
+      {
+        "type": "fanpage",
+        "url": "http://www.trshady.com/"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+      },
+      {
+        "type": "free_streaming",
+        "url": "https://www.deezer.com/artist/13"
+      },
+      {
+        "type": "free_streaming",
+        "url": "http://www.pandora.com/eminem"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/File:Eminem_DJ_Hero.jpg"
+      },
+      {
+        "type": "imdb",
+        "url": "https://www.imdb.com/name/nm0004896/"
+      },
+      {
+        "type": "last.fm",
+        "url": "https://www.last.fm/music/Eminem"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://genius.com/artists/Eminem"
+      },
+      {
+        "type": "lyrics",
+        "url": "https://www.musixmatch.com/artist/Eminem"
+      },
+      {
+        "type": "myspace",
+        "url": "https://myspace.com/eminem"
+      },
+      {
+        "type": "official_homepage",
+        "url": "https://www.eminem.com/"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://id.loc.gov/authorities/names/no00010805"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://musicmoz.org/Bands_and_Artists/E/Eminem/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb14025304j"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://d-nb.info/gnd/122621077"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://imvdb.com/n/eminem"
+      },
+      {
+        "type": "other_databases",
+        "url": "http://snaccooperative.org/ark:/99166/w6tq9d37"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://nla.gov.au/nla.party-1448152"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://rateyourmusic.com/artist/eminem"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.45cat.com/artist/eminem"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.ibdb.com/person.php?id=497693"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.musik-sammler.de/artist/eminem/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.muziekweb.nl/Link/M00000052618/POPULAR/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.whosampled.com/Eminem/"
+      },
+      {
+        "type": "other_databases",
+        "url": "https://www.worldcat.org/identities/lccn-no00010805"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://itunes.apple.com/us/artist/id111051"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://play.google.com/store/music/artist?id=As2n6c7fmjt6fyysxuwgjgynzp4"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://music.apple.com/us/artist/111051"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://us.7digital.com/artist/Eminem"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.7digital.com/artist/eminem"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.beatport.com/artist/eminem/48400"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.hdtracks.com/#/artist/Eminem"
+      },
+      {
+        "type": "purchase_for_download",
+        "url": "https://www.junodownload.com/artists/Eminem/releases/"
+      },
+      {
+        "type": "secondhandsongs",
+        "url": "https://secondhandsongs.com/artist/224"
+      },
+      {
+        "type": "setlistfm",
+        "url": "https://www.setlist.fm/setlists/eminem-bd68122.html"
+      },
+      {
+        "type": "social_network",
+        "url": "https://twitter.com/Eminem"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.facebook.com/eminem"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.instagram.com/eminem/"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.tiktok.com/@eminem"
+      },
+      {
+        "type": "social_network",
+        "url": "https://www.weibo.com/eminemcnbbs"
+      },
+      {
+        "type": "social_network",
+        "url": "https://plus.google.com/115506076351699721443"
+      },
+      {
+        "type": "songkick",
+        "url": "https://www.songkick.com/artists/182968"
+      },
+      {
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/eminemofficial"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.amazon.com/artists/B000S2JA4W"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/us/artist/111051"
+      },
+      {
+        "type": "streaming",
+        "url": "https://tidal.com/artist/17275"
+      },
+      {
+        "type": "streaming",
+        "url": "https://us.napster.com/artist/eminem"
+      },
+      {
+        "type": "streaming",
+        "url": "https://www.qobuz.com/us-en/interpreter/eminem/46971"
+      },
+      {
+        "type": "streaming",
+        "url": "https://music.apple.com/gb/artist/111051"
+      },
+      {
+        "type": "ticketing",
+        "url": "https://www.ticketmaster.com/artist/722998"
+      },
+      {
+        "type": "viaf",
+        "url": "http://viaf.org/viaf/72280391"
+      },
+      {
+        "type": "wikidata",
+        "url": "https://www.wikidata.org/wiki/Q5608"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/EminemMusic"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/user/EminemVEVO"
+      },
+      {
+        "type": "youtube_music",
+        "url": "https://music.youtube.com/channel/UCedvOgsKFzcK3hA5taf3KoQ"
+      }
+    ]
+  },
+  "canonical_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Eminem",
+    "musicbrainz": "https://musicbrainz.org/artist/b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
+  },
+  "articles": [],
+  "wikipedia": {
+    "full_article": "Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem, is an American rapper, songwriter, and record producer. Regarded as one of the greatest and most influential rappers of all time, he is credited with popularizing hip-hop in Middle America and breaking down racial barriers for the acceptance of white rappers in popular music. While much of his transgressive work during the late 1990s and early 2000s made him a controversial figure, he came to be a representation of popular angst of the American underclass.\nAfter the release of his debut album Infinite (1996) and the extended play Slim Shady EP (1997), Eminem signed with Dr. Dre's Aftermath Entertainment and subsequently achieved mainstream popularity in 1999 with The Slim Shady LP. His next two releases, The Marshall Mathers LP (2000) and The Eminem Show (2002), became worldwide successes. The latter was the best-selling album worldwide of that year, and the best selling hip-hop album of all time. Following the release of Encore (2004), Eminem took a hiatus due in part to struggles with prescription drug addiction. He returned to the music industry with the releases of Relapse (2009) and Recovery (2010...",
+    "summary": "Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem, is an American rapper, songwriter, and record producer. Regarded as one of the greatest and most influential rappers of all time, he is credited with popularizing hip-hop in Middle America and breaking down racial barriers for the acceptance of white rappers in popular music. While much of his transgressive work during the late 1990s and early 2000s made him a controversial figure, he came to be a representation of popular angst of the American underclass.\nAfter the release of his debut album Infinite (1996) and the extended play Slim Shady EP (1997), Eminem signed with Dr. Dre's Aftermath Entertainment and subsequently achieved mainstream popularity in 1999 with The Slim Shady LP. His next two releases, The Marshall Mathers LP (2000) and The Eminem Show (2002), became worldwide successes. The latter was the best-selling album worldwide of that year, and the best selling hip-hop album of all time. Follo...",
+    "url": "https://en.wikipedia.org/wiki/Eminem",
+    "title": "Eminem",
+    "word_count": 193,
+    "categories": [],
+    "internal_links": [],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/330px-Eminem_2021_Color_Corrected.jpg"
+  },
+  "musicbrainz": {
+    "artist_info": {
+      "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+      "name": "Eminem",
+      "disambiguation": "US rapper",
+      "type": "Person",
+      "country": "US",
+      "begin_area": "St. Joseph",
+      "life_span": {
+        "begin": "1972-10-17",
+        "end": null
+      }
+    },
+    "total_works": 25,
+    "relationship_counts": {
+      "influenced_by": 0,
+      "influences": 0,
+      "collaborators": 0,
+      "members": 0,
+      "associated_acts": 1,
+      "producers": 0,
+      "composers": 0,
+      "labels": 2,
+      "instruments": 0,
+      "related_urls": 65
+    },
+    "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4"
+  },
+  "created_at": "2025-08-20T08:26:16.098717",
+  "sources_processed": [
+    "wikipedia",
+    "musicbrainz"
+  ],
+  "wikipedia_summary": "Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem, is an American rapper, songwriter, and record producer. Regarded as one of the greatest and most influential rappers of all time, he is credited with popularizing hip-hop in Middle America and breaking down racial barriers for the acceptance of white rappers in popular music. While much of his transgressive work during the late 1990s and early 2000s made him a controversial figure, he came to be a representation of popular angst of the American underclass.\nAfter the release of his debut album Infinite (1996) and the extended play Slim Shady EP (1997), Eminem signed with Dr. Dre's Aftermath Entertainment and subsequently achieved mainstream popularity in 1999 with The Slim Shady LP. His next two releases, The Marshall Mathers LP (2000) and The Eminem Show (2002), became worldwide successes. The latter was the best-selling album worldwide of that year, and the best selling hip-hop album of all time. Following the release of Encore (2004), Eminem took a hiatus due in part to struggles with prescription drug addiction. He returned to the music industry with the releases of Relapse (2009) and Recovery (2010...",
+  "musicbrainz_info": {
+    "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+    "name": "Eminem",
+    "disambiguation": "US rapper",
+    "type": "Person",
+    "country": "US",
+    "begin_area": "St. Joseph",
+    "life_span": {
+      "begin": "1972-10-17",
+      "end": null
+    }
+  }
+}
