@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Kids - Complete Network (ALL Entities)</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #000;
+            padding: 0.75rem 1.5rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+
+        .interaction-hint {
+            text-align: center;
+            color: #666;
+            font-size: 0.7rem;
+            margin-top: 0.2rem;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .focused-mode {
+            color: #fff;
+            font-weight: 400;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: #000;
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(40, 40, 40, 0.9);
+            border-color: #555;
+        }
+
+        .legend {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 11px;
+            line-height: 1.4;
+            z-index: 1000;
+            max-width: 200px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        .legend-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .legend-circle {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        .stats {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 10px;
+            color: #888;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Just Kids - Complete Network</h1>
+            <div class="subtitle">ALL entities and relationships from comprehensive API data</div>
+            <div class="interaction-hint" id="interaction-hint">Click any entity to explore its connections</div>
+        </div>
+        <div class="network-container">
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="zoomIn()">+</button>
+                <button class="zoom-btn" onclick="zoomOut()">−</button>
+                <button class="zoom-btn" onclick="resetZoom()" style="font-size: 10px;">⌂</button>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #e91e63;"></div>
+                    <span>Central Figures</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #2196f3;"></div>
+                    <span>Musicians</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #9c27b0;"></div>
+                    <span>Writers & Poets</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #ff9800;"></div>
+                    <span>Artists & Visual</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #4caf50;"></div>
+                    <span>Venues & Places</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #f44336;"></div>
+                    <span>Albums</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #3f51b5;"></div>
+                    <span>Books</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #ffeb3b;"></div>
+                    <span>Songs</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #795548;"></div>
+                    <span>Movements</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #607d8b;"></div>
+                    <span>Other</span>
+                </div>
+            </div>
+            <div class="stats" id="stats">
+                Loading...
+            </div>
+            <svg id="network"></svg>
+        </div>
+    </div>
+
+    <script>
+        class CompleteJustKidsNetwork {
+            constructor() {
+                this.svg = d3.select("#network");
+                this.container = this.svg.append("g");
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg
+                    .attr("width", this.width)
+                    .attr("height", this.height);
+
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on("zoom", (event) => {
+                        this.container.attr("transform", event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                this.focusedEntity = null;
+                this.isEntityFocused = false;
+
+                // Load and process ALL data from API
+                this.loadData();
+
+                // Handle window resize
+                window.addEventListener('resize', () => this.handleResize());
+            }
+
+            async loadData() {
+                try {
+                    console.log('Loading complete Just Kids data...');
+                    const response = await fetch('updated-just-kids-data.json');
+                    const rawData = await response.json();
+
+                    console.log('Raw data loaded:', rawData);
+                    this.processAllData(rawData);
+                } catch (error) {
+                    console.error('Error loading data:', error);
+                    // Fallback to basic data if file doesn't exist
+                    this.createBasicNetwork();
+                }
+            }
+
+            processAllData(rawData) {
+                console.log('Processing ALL entities from API data...');
+
+                const nodes = new Map();
+                const links = [];
+
+                // Add central figures first
+                nodes.set('Just Kids', {
+                    id: 'Just Kids',
+                    type: 'book',
+                    size: 20
+                });
+
+                nodes.set('Patti Smith', {
+                    id: 'Patti Smith',
+                    type: 'central_figure',
+                    size: 18
+                });
+
+                nodes.set('Robert Mapplethorpe', {
+                    id: 'Robert Mapplethorpe',
+                    type: 'photographer',
+                    size: 18
+                });
+
+                // Process all query responses
+                Object.values(rawData.book_data || {}).forEach((queryData, index) => {
+                    const response = queryData.response;
+
+                    if (response && response.connections) {
+                        // Process direct connections
+                        if (response.connections.direct_connections) {
+                            response.connections.direct_connections.forEach(connection => {
+                                const entityName = connection.entity;
+
+                                // Add main entity
+                                if (!nodes.has(entityName)) {
+                                    nodes.set(entityName, {
+                                        id: entityName,
+                                        type: this.categorizeEntity(entityName),
+                                        size: Math.min(Math.max(connection.connection_count || 4, 4), 12)
+                                    });
+                                }
+
+                                // Process top connections
+                                if (connection.top_connections) {
+                                    connection.top_connections.forEach(topConn => {
+                                        const targetName = topConn.target;
+
+                                        // Add target entity
+                                        if (!nodes.has(targetName)) {
+                                            nodes.set(targetName, {
+                                                id: targetName,
+                                                type: this.categorizeEntity(targetName),
+                                                size: 6
+                                            });
+                                        }
+
+                                        // Add link
+                                        links.push({
+                                            source: entityName,
+                                            target: targetName,
+                                            type: topConn.type || 'connected_to',
+                                            confidence: topConn.confidence || 0.5
+                                        });
+                                    });
+                                }
+
+                                // Connect significant entities to central figures
+                                if (this.isJustKidsRelated(entityName)) {
+                                    links.push({
+                                        source: 'Patti Smith',
+                                        target: entityName,
+                                        type: 'central_connection',
+                                        confidence: 0.7
+                                    });
+                                }
+                            });
+                        }
+
+                        // Process influence networks
+                        if (response.connections.influence_networks) {
+                            response.connections.influence_networks.forEach(influence => {
+                                const influencer = influence.influencer;
+                                const influenced = influence.influenced;
+
+                                // Add both entities
+                                [influencer, influenced].forEach(entity => {
+                                    if (!nodes.has(entity)) {
+                                        nodes.set(entity, {
+                                            id: entity,
+                                            type: this.categorizeEntity(entity),
+                                            size: 6
+                                        });
+                                    }
+                                });
+
+                                // Add influence link
+                                links.push({
+                                    source: influencer,
+                                    target: influenced,
+                                    type: 'influenced',
+                                    confidence: influence.confidence || 0.6
+                                });
+                            });
+                        }
+
+                        // Process collaborative clusters
+                        if (response.connections.collaborative_clusters) {
+                            response.connections.collaborative_clusters.forEach(collab => {
+                                const entity1 = collab.entity1;
+                                const entity2 = collab.entity2;
+
+                                // Add both entities
+                                [entity1, entity2].forEach(entity => {
+                                    if (!nodes.has(entity)) {
+                                        nodes.set(entity, {
+                                            id: entity,
+                                            type: this.categorizeEntity(entity),
+                                            size: 6
+                                        });
+                                    }
+                                });
+
+                                // Add collaboration link
+                                links.push({
+                                    source: entity1,
+                                    target: entity2,
+                                    type: collab.type || 'collaboration',
+                                    confidence: 0.8
+                                });
+                            });
+                        }
+                    }
+                });
+
+                // Convert nodes map to array
+                this.data = {
+                    nodes: Array.from(nodes.values()),
+                    links: links
+                };
+
+                // Remove duplicates and clean data
+                this.cleanData();
+
+                // Assign clusters
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.getClusterForType(node.type);
+                });
+
+                // Update stats
+                document.getElementById('stats').innerHTML = `
+                    Nodes: ${this.data.nodes.length}<br>
+                    Links: ${this.data.links.length}<br>
+                    From: ${Object.keys(rawData.book_data || {}).length} API queries
+                `;
+
+                console.log('Processed complete network:', this.data);
+                this.initializeVisualization();
+            }
+
+            cleanData() {
+                // Remove duplicate links
+                const linkSet = new Set();
+                this.data.links = this.data.links.filter(link => {
+                    const key = `${link.source}-${link.target}-${link.type}`;
+                    if (linkSet.has(key)) return false;
+                    linkSet.add(key);
+                    return true;
+                });
+
+                // Filter out low-quality connections if too many nodes
+                if (this.data.nodes.length > 200) {
+                    console.log('Large network detected, filtering to most significant entities...');
+
+                    // Keep only nodes with multiple connections or high importance
+                    const nodeConnections = new Map();
+                    this.data.links.forEach(link => {
+                        nodeConnections.set(link.source, (nodeConnections.get(link.source) || 0) + 1);
+                        nodeConnections.set(link.target, (nodeConnections.get(link.target) || 0) + 1);
+                    });
+
+                    const significantNodes = new Set(['Just Kids', 'Patti Smith', 'Robert Mapplethorpe']);
+                    this.data.nodes.forEach(node => {
+                        const connections = nodeConnections.get(node.id) || 0;
+                        if (connections >= 2 || node.size >= 8 || this.isJustKidsRelated(node.id)) {
+                            significantNodes.add(node.id);
+                        }
+                    });
+
+                    // Filter nodes and links
+                    this.data.nodes = this.data.nodes.filter(node => significantNodes.has(node.id));
+                    this.data.links = this.data.links.filter(link =>
+                        significantNodes.has(link.source) && significantNodes.has(link.target)
+                    );
+                }
+            }
+
+            categorizeEntity(entityName) {
+                const name = entityName.toLowerCase();
+
+                // Central figures
+                if (name.includes('patti smith')) return 'central_figure';
+                if (name.includes('robert mapplethorpe')) return 'photographer';
+                if (name === 'just kids') return 'book';
+
+                // Albums (look for common album patterns)
+                if (name.includes('horses') || name.includes('easter') || name.includes('wave') ||
+                    name.includes('radio ethiopia') || name.includes('album') &&
+                    (name.includes('debut') || name.includes('release'))) return 'album';
+
+                // Songs (look for quoted titles or song patterns)
+                if (name.includes('gloria') || name.includes('because the night') ||
+                    name.includes('birdland') || name.includes('land') || name.includes('song')) return 'song';
+
+                // Books
+                if (name.includes('book') || name.includes('memoir') || name.includes('howl') ||
+                    name.includes('on the road') || name.includes('naked lunch')) return 'book';
+
+                // Musicians and bands
+                if (name.includes('beatles') || name.includes('bob dylan') || name.includes('lou reed') ||
+                    name.includes('jimi hendrix') || name.includes('aerosmith') || name.includes('radiohead') ||
+                    name.includes('bruce springsteen') || name.includes('amy winehouse') ||
+                    name.includes('musician') || name.includes('singer') || name.includes('band')) return 'musician';
+
+                // Writers and poets
+                if (name.includes('allen ginsberg') || name.includes('william burroughs') ||
+                    name.includes('jack kerouac') || name.includes('writer') || name.includes('poet')) return 'writer';
+
+                // Artists and photographers
+                if (name.includes('andy warhol') || name.includes('artist') || name.includes('photographer') ||
+                    name.includes('visual') || name.includes('painting')) return 'artist';
+
+                // Venues and places
+                if (name.includes('hotel') || name.includes('cbgb') || name.includes('venue') ||
+                    name.includes('studio') || name.includes('new york') || name.includes('chelsea')) return 'venue';
+
+                // Movements
+                if (name.includes('punk') || name.includes('beat') || name.includes('movement') ||
+                    name.includes('generation') || name.includes('scene')) return 'movement';
+
+                return 'other';
+            }
+
+            isJustKidsRelated(entityName) {
+                const justKidsEntities = [
+                    'Robert Mapplethorpe', 'Allen Ginsberg', 'William Burroughs', 'Jack Kerouac',
+                    'Bob Dylan', 'Lou Reed', 'Jimi Hendrix', 'Andy Warhol', 'Chelsea Hotel',
+                    'CBGB', 'Beat Generation', 'Punk', 'Horses', 'Gloria', 'Because the Night'
+                ];
+
+                return justKidsEntities.some(entity =>
+                    entityName.toLowerCase().includes(entity.toLowerCase())
+                );
+            }
+
+            createBasicNetwork() {
+                // Fallback if JSON file doesn't load
+                this.data = {
+                    nodes: [
+                        { id: "Just Kids", type: "book", size: 20 },
+                        { id: "Patti Smith", type: "central_figure", size: 18 },
+                        { id: "Robert Mapplethorpe", type: "photographer", size: 18 }
+                    ],
+                    links: [
+                        { source: "Just Kids", target: "Patti Smith", type: "central_connection" },
+                        { source: "Just Kids", target: "Robert Mapplethorpe", type: "central_connection" },
+                        { source: "Patti Smith", target: "Robert Mapplethorpe", type: "central_connection" }
+                    ]
+                };
+
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.getClusterForType(node.type);
+                });
+
+                document.getElementById('stats').innerHTML = `
+                    Nodes: ${this.data.nodes.length}<br>
+                    Links: ${this.data.links.length}<br>
+                    Status: Fallback data (API file not found)
+                `;
+
+                this.initializeVisualization();
+            }
+
+            getClusterForType(type) {
+                const clusterMap = {
+                    'central_figure': 'central',
+                    'book': 'central',
+                    'writer': 'writers_poets',
+                    'musician': 'musicians',
+                    'artist': 'artists_photographers',
+                    'photographer': 'artists_photographers',
+                    'venue': 'venues_places',
+                    'movement': 'cultural_movements',
+                    'album': 'creative_works',
+                    'song': 'creative_works',
+                    'other': 'other'
+                };
+                return clusterMap[type] || 'other';
+            }
+
+            getNodeColor(d) {
+                const colorMap = {
+                    'central_figure': '#e91e63',
+                    'writer': '#9c27b0',
+                    'musician': '#2196f3',
+                    'artist': '#ff9800',
+                    'photographer': '#ff9800',
+                    'venue': '#4caf50',
+                    'movement': '#795548',
+                    'album': '#f44336',
+                    'book': '#3f51b5',
+                    'song': '#ffeb3b',
+                    'other': '#607d8b'
+                };
+                return colorMap[d.type] || '#607d8b';
+            }
+
+            getNodeRadius(d) {
+                if (d.type === 'central_figure') return Math.max(d.size || 12, 12);
+                if (d.type === 'book' && d.id === 'Just Kids') return Math.max(d.size || 16, 16);
+                return Math.min(Math.max(d.size || 6, 4), 10);
+            }
+
+            initializeVisualization() {
+                console.log('Initializing complete network visualization...');
+
+                // Create force simulation
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force("link", d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => {
+                            if (d.type === 'central_connection') return 80;
+                            return 120;
+                        })
+                        .strength(0.3))
+                    .force("charge", d3.forceManyBody()
+                        .strength(d => {
+                            if (d.type === 'central_figure') return -1000;
+                            if (d.type === 'book') return -800;
+                            return -300;
+                        }))
+                    .force("center", d3.forceCenter(this.width / 2, this.height / 2))
+                    .force("collision", d3.forceCollide()
+                        .radius(d => this.getNodeRadius(d) + 3))
+                    .force("cluster", this.clusterForce())
+                    .alphaTarget(0)
+                    .alphaDecay(0.05)
+                    .velocityDecay(0.8);
+
+                this.createVisualization();
+            }
+
+            clusterForce() {
+                const strength = 0.1;
+
+                return (alpha) => {
+                    const centers = this.getClusterCenters();
+
+                    this.data.nodes.forEach(node => {
+                        const center = centers[node.cluster];
+                        if (center) {
+                            const dx = center.x - node.x;
+                            const dy = center.y - node.y;
+                            node.vx += dx * strength * alpha;
+                            node.vy += dy * strength * alpha;
+                        }
+                    });
+                };
+            }
+
+            getClusterCenters() {
+                if (this.isEntityFocused && this.focusedEntity) {
+                    return {
+                        'focused_entity': { x: this.width / 2, y: this.height / 2 },
+                        'connected_entities': {
+                            x: this.width / 2 + (this.hashCode(this.focusedEntity.id) % 150) - 75,
+                            y: this.height / 2 + (this.hashCode(this.focusedEntity.id + 'y') % 150) - 75
+                        },
+                        'background': { x: this.width * 0.85, y: this.height * 0.85 }
+                    };
+                }
+
+                return {
+                    'central': { x: this.width / 2, y: this.height / 2 },
+                    'writers_poets': { x: this.width * 0.25, y: this.height * 0.3 },
+                    'musicians': { x: this.width * 0.75, y: this.height * 0.3 },
+                    'artists_photographers': { x: this.width * 0.25, y: this.height * 0.7 },
+                    'venues_places': { x: this.width * 0.75, y: this.height * 0.7 },
+                    'cultural_movements': { x: this.width * 0.5, y: this.height * 0.15 },
+                    'creative_works': { x: this.width * 0.5, y: this.height * 0.85 },
+                    'other': { x: this.width * 0.1, y: this.height * 0.9 }
+                };
+            }
+
+            hashCode(str) {
+                let hash = 0;
+                for (let i = 0; i < str.length; i++) {
+                    const char = str.charCodeAt(i);
+                    hash = ((hash << 5) - hash) + char;
+                    hash = hash & hash;
+                }
+                return Math.abs(hash);
+            }
+
+            createVisualization() {
+                // Create links
+                this.linkGroup = this.container.append("g").attr("class", "links");
+                this.links = this.linkGroup.selectAll("line")
+                    .data(this.data.links)
+                    .enter().append("line")
+                    .attr('stroke-width', d => d.type === 'central_connection' ? 2 : 1)
+                    .attr('stroke', d => {
+                        if (d.type === 'central_connection') return '#e91e63';
+                        if (d.type === 'influenced' || d.type === 'influence') return '#d1c4e9';
+                        if (d.type === 'collaboration') return '#90a4ae';
+                        return '#333';
+                    })
+                    .attr('stroke-opacity', 0.6);
+
+                // Create nodes
+                this.nodeGroup = this.container.append("g").attr("class", "nodes");
+                this.nodes = this.nodeGroup.selectAll("circle")
+                    .data(this.data.nodes)
+                    .enter().append("circle")
+                    .attr("r", d => this.getNodeRadius(d))
+                    .attr("fill", d => this.getNodeColor(d))
+                    .attr("stroke", "#000")
+                    .attr("stroke-width", 1.5)
+                    .style("cursor", "pointer")
+                    .call(d3.drag()
+                        .on("start", (event, d) => this.dragstarted(event, d))
+                        .on("drag", (event, d) => this.dragged(event, d))
+                        .on("end", (event, d) => this.dragended(event, d)))
+                    .on("click", (event, d) => {
+                        event.stopPropagation();
+                        this.focusOnEntity(d);
+                    });
+
+                // Create labels
+                this.labelGroup = this.container.append("g").attr("class", "labels");
+                this.labels = this.labelGroup.selectAll("text")
+                    .data(this.data.nodes)
+                    .enter().append("text")
+                    .text(d => d.id)
+                    .attr("font-size", d => {
+                        if (d.type === 'central_figure') return '12px';
+                        if (d.type === 'book' && d.id === 'Just Kids') return '11px';
+                        return '9px';
+                    })
+                    .attr("font-weight", d => d.type === 'central_figure' ? 'bold' : 'normal')
+                    .attr("fill", "#fff")
+                    .attr("text-anchor", "middle")
+                    .attr("dy", d => this.getNodeRadius(d) + 12)
+                    .style("pointer-events", "none")
+                    .style("user-select", "none");
+
+                // Start simulation
+                this.simulation.on("tick", () => this.ticked());
+
+                // Click background to reset focus
+                this.svg.on("click", () => this.resetFocus());
+
+                console.log('Complete network visualization created');
+            }
+
+            focusOnEntity(entityNode) {
+                console.log('Focusing on entity:', entityNode.id);
+                this.focusedEntity = entityNode;
+                this.isEntityFocused = true;
+
+                // Update interaction hint
+                d3.select('#interaction-hint')
+                    .text(`Focused on: ${entityNode.id} - Click background to reset`)
+                    .classed('focused-mode', true);
+
+                // Find connected entities
+                const connectedEntities = new Set();
+                this.data.links.forEach(link => {
+                    const sourceId = link.source.id || link.source;
+                    const targetId = link.target.id || link.target;
+                    if (sourceId === entityNode.id) {
+                        connectedEntities.add(targetId);
+                    } else if (targetId === entityNode.id) {
+                        connectedEntities.add(sourceId);
+                    }
+                });
+
+                // Reassign clusters for focus mode
+                this.data.nodes.forEach(node => {
+                    if (node.id === entityNode.id) {
+                        node.cluster = 'focused_entity';
+                    } else if (connectedEntities.has(node.id)) {
+                        node.cluster = 'connected_entities';
+                    } else {
+                        node.cluster = 'background';
+                    }
+                });
+
+                this.updateFocusVisuals();
+                this.simulation.alpha(0.3).restart();
+            }
+
+            resetFocus() {
+                if (!this.isEntityFocused) return;
+
+                console.log('Resetting focus');
+                this.isEntityFocused = false;
+                this.focusedEntity = null;
+
+                // Reset interaction hint
+                d3.select('#interaction-hint')
+                    .text('Click any entity to explore its connections')
+                    .classed('focused-mode', false);
+
+                // Restore original clusters
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.getClusterForType(node.type);
+                });
+
+                this.updateFocusVisuals();
+                this.simulation.alpha(0.3).restart();
+            }
+
+            updateFocusVisuals() {
+                // Update node opacity and size
+                this.nodes
+                    .transition()
+                    .duration(300)
+                    .attr("opacity", d => {
+                        if (!this.isEntityFocused) return 1;
+                        return d.cluster === 'background' ? 0.2 : 1;
+                    })
+                    .attr("r", d => {
+                        const baseRadius = this.getNodeRadius(d);
+                        if (this.isEntityFocused && d.cluster === 'focused_entity') {
+                            return baseRadius * 1.3;
+                        }
+                        return baseRadius;
+                    });
+
+                // Update link opacity
+                this.links
+                    .transition()
+                    .duration(300)
+                    .attr("stroke-opacity", d => {
+                        if (!this.isEntityFocused) return 0.6;
+
+                        const sourceId = d.source.id || d.source;
+                        const targetId = d.target.id || d.target;
+                        const isFocusedLink = sourceId === this.focusedEntity.id ||
+                                            targetId === this.focusedEntity.id;
+
+                        return isFocusedLink ? 0.8 : 0.1;
+                    });
+
+                // Update label opacity
+                this.labels
+                    .transition()
+                    .duration(300)
+                    .attr("opacity", d => {
+                        if (!this.isEntityFocused) return 1;
+                        return d.cluster === 'background' ? 0.3 : 1;
+                    });
+            }
+
+            ticked() {
+                this.links
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                this.nodes
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                this.labels
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            }
+
+            dragstarted(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            dragended(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            handleResize() {
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg
+                    .attr("width", this.width)
+                    .attr("height", this.height);
+
+                this.simulation
+                    .force("center", d3.forceCenter(this.width / 2, this.height / 2))
+                    .alpha(0.3)
+                    .restart();
+            }
+        }
+
+        // Zoom controls
+        let networkViz;
+
+        function zoomIn() {
+            networkViz.svg.transition().duration(300).call(
+                networkViz.zoom.scaleBy, 1.5
+            );
+        }
+
+        function zoomOut() {
+            networkViz.svg.transition().duration(300).call(
+                networkViz.zoom.scaleBy, 1 / 1.5
+            );
+        }
+
+        function resetZoom() {
+            networkViz.svg.transition().duration(500).call(
+                networkViz.zoom.transform,
+                d3.zoomIdentity.translate(0, 0).scale(1)
+            );
+        }
+
+        // Initialize visualization when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            networkViz = new CompleteJustKidsNetwork();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Note Records - Comprehensive Visual Identity Explorer</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .explorer-container {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 300px 1fr 350px;
+            grid-template-rows: 80px 1fr;
+            grid-template-areas:
+                "header header header"
+                "sidebar main details";
+        }
+
+        .header {
+            grid-area: header;
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            border-bottom: 2px solid #4fc3f7;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 300;
+            background: linear-gradient(45deg, #4fc3f7, #81c784, #ffb74d);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .era-selector {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .era-btn {
+            padding: 0.5rem 1rem;
+            background: rgba(79, 195, 247, 0.1);
+            border: 1px solid #4fc3f7;
+            border-radius: 20px;
+            color: #4fc3f7;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .era-btn:hover, .era-btn.active {
+            background: rgba(79, 195, 247, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: linear-gradient(180deg, #1a1a1a, #0f0f0f);
+            border-right: 1px solid #3e3e42;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .category-section {
+            margin-bottom: 2rem;
+        }
+
+        .category-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #4fc3f7;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .entity-list {
+            list-style: none;
+        }
+
+        .entity-item {
+            padding: 0.5rem 0.75rem;
+            margin-bottom: 0.25rem;
+            background: rgba(79, 195, 247, 0.05);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .entity-item:hover {
+            background: rgba(79, 195, 247, 0.15);
+            transform: translateX(5px);
+        }
+
+        .entity-item.visual-designer { border-left: 3px solid #81c784; }
+        .entity-item.musician { border-left: 3px solid #4fc3f7; }
+        .entity-item.album { border-left: 3px solid #ba68c8; }
+        .entity-item.documentary { border-left: 3px solid #ffb74d; }
+
+        .main-visualization {
+            grid-area: main;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+            overflow: hidden;
+        }
+
+        #viz-canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .visualization-layers {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .layer-toggle {
+            padding: 0.5rem 1rem;
+            background: rgba(26, 26, 26, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 6px;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.85rem;
+        }
+
+        .layer-toggle:hover {
+            border-color: #4fc3f7;
+            background: rgba(79, 195, 247, 0.1);
+        }
+
+        .layer-toggle.active {
+            background: rgba(79, 195, 247, 0.2);
+            border-color: #4fc3f7;
+        }
+
+        .details-panel {
+            grid-area: details;
+            background: linear-gradient(180deg, #1a1a1a, #0f0f0f);
+            border-left: 1px solid #3e3e42;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .details-header {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #4fc3f7;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .detail-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .detail-section h3 {
+            color: #81c784;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-content {
+            color: #cccccc;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .connection-item {
+            background: rgba(79, 195, 247, 0.05);
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid #4fc3f7;
+        }
+
+        .connection-strength {
+            display: inline-block;
+            width: 60px;
+            height: 4px;
+            background: rgba(79, 195, 247, 0.3);
+            border-radius: 2px;
+            margin-right: 0.5rem;
+        }
+
+        .connection-strength.high {
+            background: #4fc3f7;
+        }
+
+        .connection-strength.medium {
+            background: #81c784;
+        }
+
+        .connection-strength.low {
+            background: #ffb74d;
+        }
+
+        .timeline-container {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            height: 60px;
+            background: rgba(26, 26, 26, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 1rem;
+            z-index: 1000;
+        }
+
+        .timeline-track {
+            width: 100%;
+            height: 20px;
+            background: rgba(79, 195, 247, 0.1);
+            border-radius: 10px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .timeline-marker {
+            position: absolute;
+            top: -5px;
+            width: 30px;
+            height: 30px;
+            background: #4fc3f7;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .timeline-marker:hover {
+            transform: scale(1.2);
+        }
+
+        .timeline-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: #888;
+        }
+
+        /* Interactive elements */
+        .node-cluster {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .node-cluster:hover {
+            filter: brightness(1.3);
+            transform: scale(1.05);
+        }
+
+        .connection-line {
+            stroke: #4fc3f7;
+            stroke-width: 2;
+            stroke-opacity: 0.6;
+            transition: all 0.2s ease;
+        }
+
+        .connection-line:hover {
+            stroke-opacity: 1;
+            stroke-width: 3;
+        }
+
+        .album-cover-preview {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #4fc3f7, #ba68c8);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            color: #000;
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+
+        .loading-indicator {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(26, 26, 26, 0.95);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            z-index: 10000;
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #3e3e42;
+            border-top: 3px solid #4fc3f7;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-indicator" id="loading">
+        <div class="loading-spinner"></div>
+        <div>Loading Blue Note Ecosystem Data...</div>
+    </div>
+
+    <div class="explorer-container" id="explorer" style="display: none;">
+        <div class="header">
+            <h1>Blue Note Records Visual Identity Explorer</h1>
+            <div class="era-selector">
+                <button class="era-btn active" data-era="founding">Founding</button>
+                <button class="era-btn" data-era="bebop">Bebop</button>
+                <button class="era-btn" data-era="civil_rights">Civil Rights</button>
+                <button class="era-btn" data-era="commercial">Commercial</button>
+                <button class="era-btn" data-era="revival">Revival</button>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="category-section">
+                <div class="category-title">Visual Design</div>
+                <ul class="entity-list" id="visual-designers">
+                    <li class="entity-item visual-designer" data-entity="Reid Miles">Reid Miles</li>
+                    <li class="entity-item visual-designer" data-entity="Francis Wolff">Francis Wolff</li>
+                    <li class="entity-item visual-designer" data-entity="Alfred Lion">Alfred Lion</li>
+                </ul>
+            </div>
+
+            <div class="category-section">
+                <div class="category-title">Iconic Artists</div>
+                <ul class="entity-list" id="iconic-artists">
+                    <li class="entity-item musician" data-entity="Lee Morgan">Lee Morgan</li>
+                    <li class="entity-item musician" data-entity="John Coltrane">John Coltrane</li>
+                    <li class="entity-item musician" data-entity="Art Blakey">Art Blakey</li>
+                    <li class="entity-item musician" data-entity="Horace Silver">Horace Silver</li>
+                    <li class="entity-item musician" data-entity="Thelonious Monk">Thelonious Monk</li>
+                </ul>
+            </div>
+
+            <div class="category-section">
+                <div class="category-title">Legendary Albums</div>
+                <ul class="entity-list" id="legendary-albums">
+                    <li class="entity-item album" data-entity="The Sidewinder">The Sidewinder</li>
+                    <li class="entity-item album" data-entity="Blue Train">Blue Train</li>
+                    <li class="entity-item album" data-entity="Moanin'">Moanin'</li>
+                    <li class="entity-item album" data-entity="Song for My Father">Song for My Father</li>
+                </ul>
+            </div>
+
+            <div class="category-section">
+                <div class="category-title">Contemporary Legacy</div>
+                <ul class="entity-list" id="contemporary-legacy">
+                    <li class="entity-item documentary" data-entity="Don Was">Don Was</li>
+                    <li class="entity-item documentary" data-entity="Blue Note Review">Blue Note Review</li>
+                    <li class="entity-item documentary" data-entity="Drop The Needle">Drop The Needle</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-visualization">
+            <svg id="viz-canvas"></svg>
+
+            <div class="visualization-layers">
+                <button class="layer-toggle active" data-layer="design">Visual Design</button>
+                <button class="layer-toggle" data-layer="musical">Musical Networks</button>
+                <button class="layer-toggle" data-layer="cultural">Cultural Impact</button>
+                <button class="layer-toggle" data-layer="timeline">Historical Timeline</button>
+                <button class="layer-toggle" data-layer="contemporary">Modern Legacy</button>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-track" id="timeline-track">
+                    <div class="timeline-marker" data-year="1939" style="left: 5%;"></div>
+                    <div class="timeline-marker" data-year="1955" style="left: 25%;"></div>
+                    <div class="timeline-marker" data-year="1965" style="left: 45%;"></div>
+                    <div class="timeline-marker" data-year="1975" style="left: 65%;"></div>
+                    <div class="timeline-marker" data-year="1995" style="left: 85%;"></div>
+                </div>
+                <div class="timeline-labels">
+                    <span>1939 - Founding</span>
+                    <span>1955 - Bebop Era</span>
+                    <span>1965 - Civil Rights</span>
+                    <span>1975 - Commercial Peak</span>
+                    <span>1995 - Revival</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="details-panel">
+            <div class="details-header" id="details-title">Blue Note Visual Identity</div>
+
+            <div class="detail-section">
+                <div class="album-cover-preview" id="album-preview">
+                    SELECT ENTITY
+                </div>
+
+                <h3>Visual Design Philosophy</h3>
+                <div class="detail-content" id="design-philosophy">
+                    Blue Note's visual identity revolutionized album cover design through Reid Miles' minimalist typography, Francis Wolff's intimate photography, and a consistent aesthetic that made the music visible.
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h3>Cultural Connections</h3>
+                <div class="detail-content" id="cultural-connections">
+                    <div class="connection-item">
+                        <span class="connection-strength high"></span>
+                        <strong>Civil Rights Movement</strong> - Album covers reflected social consciousness
+                    </div>
+                    <div class="connection-item">
+                        <span class="connection-strength medium"></span>
+                        <strong>NYC Art Scene</strong> - Connected to broader cultural movements
+                    </div>
+                    <div class="connection-item">
+                        <span class="connection-strength high"></span>
+                        <strong>Jazz Innovation</strong> - Visual design matched musical innovation
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h3>Contemporary Legacy</h3>
+                <div class="detail-content" id="contemporary-legacy-content">
+                    Don Was continues Blue Note's visual legacy with the Tone Poet series, maintaining the label's commitment to artistic presentation while introducing new collectors to the iconic designs.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class BlueNoteExplorer {
+            constructor() {
+                this.data = null;
+                this.currentEra = 'founding';
+                this.currentLayer = 'design';
+                this.selectedEntity = null;
+
+                this.svg = d3.select('#viz-canvas');
+                this.width = 0;
+                this.height = 0;
+
+                this.initializeExplorer();
+            }
+
+            async initializeExplorer() {
+                try {
+                    // Try to load comprehensive data, fallback to sample data
+                    this.data = await this.loadData();
+                    this.setupDimensions();
+                    this.bindEvents();
+                    this.createVisualization();
+                    this.hideLoading();
+                } catch (error) {
+                    console.error('Error initializing explorer:', error);
+                    this.loadSampleData();
+                    this.setupDimensions();
+                    this.bindEvents();
+                    this.createVisualization();
+                    this.hideLoading();
+                }
+            }
+
+            async loadData() {
+                // Try to load the comprehensive data we're collecting
+                try {
+                    const response = await fetch('blue-note-comprehensive-data.json');
+                    if (response.ok) {
+                        return await response.json();
+                    }
+                } catch (error) {
+                    console.log('Comprehensive data not ready, using sample data');
+                }
+
+                return this.getSampleData();
+            }
+
+            getSampleData() {
+                // Sample data structure matching what we're collecting
+                return {
+                    entity_categories: {
+                        visual_designers: {
+                            'Reid Miles': { connections: { direct_connections: [{ entity: 'Reid Miles', connection_count: 25 }] } },
+                            'Francis Wolff': { connections: { direct_connections: [{ entity: 'Francis Wolff', connection_count: 30 }] } },
+                            'Alfred Lion': { connections: { direct_connections: [{ entity: 'Alfred Lion', connection_count: 20 }] } }
+                        },
+                        magnificent_seven: {
+                            'Lee Morgan': { connections: { direct_connections: [{ entity: 'Lee Morgan', connection_count: 15 }] } },
+                            'John Coltrane': { connections: { direct_connections: [{ entity: 'John Coltrane', connection_count: 18 }] } },
+                            'Art Blakey': { connections: { direct_connections: [{ entity: 'Art Blakey', connection_count: 22 }] } },
+                            'Horace Silver': { connections: { direct_connections: [{ entity: 'Horace Silver', connection_count: 16 }] } }
+                        },
+                        iconic_albums: {
+                            'The Sidewinder': { connections: { direct_connections: [{ entity: 'The Sidewinder', connection_count: 12 }] } },
+                            'Blue Train': { connections: { direct_connections: [{ entity: 'Blue Train', connection_count: 14 }] } },
+                            'Moanin\'': { connections: { direct_connections: [{ entity: 'Moanin\'', connection_count: 10 }] } }
+                        }
+                    },
+                    documentary_content: {},
+                    historical_timeline: {},
+                    metadata: {
+                        total_entities: 50,
+                        categories_collected: 8
+                    }
+                };
+            }
+
+            setupDimensions() {
+                const vizContainer = document.querySelector('.main-visualization');
+                this.width = vizContainer.clientWidth;
+                this.height = vizContainer.clientHeight;
+
+                this.svg.attr('width', this.width).attr('height', this.height);
+            }
+
+            bindEvents() {
+                // Era selector
+                document.querySelectorAll('.era-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        document.querySelector('.era-btn.active').classList.remove('active');
+                        e.target.classList.add('active');
+                        this.currentEra = e.target.dataset.era;
+                        this.updateVisualization();
+                    });
+                });
+
+                // Layer toggles
+                document.querySelectorAll('.layer-toggle').forEach(toggle => {
+                    toggle.addEventListener('click', (e) => {
+                        document.querySelector('.layer-toggle.active').classList.remove('active');
+                        e.target.classList.add('active');
+                        this.currentLayer = e.target.dataset.layer;
+                        this.updateVisualization();
+                    });
+                });
+
+                // Entity selection
+                document.querySelectorAll('.entity-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        this.selectedEntity = e.target.dataset.entity;
+                        this.updateDetailsPanel();
+                        this.highlightEntity();
+                    });
+                });
+
+                // Timeline interaction
+                document.querySelectorAll('.timeline-marker').forEach(marker => {
+                    marker.addEventListener('click', (e) => {
+                        const year = e.target.dataset.year;
+                        this.jumpToYear(year);
+                    });
+                });
+
+                // Resize handling
+                window.addEventListener('resize', () => {
+                    this.setupDimensions();
+                    this.updateVisualization();
+                });
+            }
+
+            createVisualization() {
+                this.svg.selectAll('*').remove();
+
+                // Create main visualization group
+                this.mainGroup = this.svg.append('g').attr('class', 'main-viz');
+
+                this.updateVisualization();
+            }
+
+            updateVisualization() {
+                switch (this.currentLayer) {
+                    case 'design':
+                        this.renderDesignLayer();
+                        break;
+                    case 'musical':
+                        this.renderMusicalLayer();
+                        break;
+                    case 'cultural':
+                        this.renderCulturalLayer();
+                        break;
+                    case 'timeline':
+                        this.renderTimelineLayer();
+                        break;
+                    case 'contemporary':
+                        this.renderContemporaryLayer();
+                        break;
+                }
+            }
+
+            renderDesignLayer() {
+                const centerX = this.width / 2;
+                const centerY = this.height / 2;
+
+                // Clear existing
+                this.mainGroup.selectAll('*').remove();
+
+                // Central Blue Note hub
+                this.mainGroup.append('circle')
+                    .attr('cx', centerX)
+                    .attr('cy', centerY)
+                    .attr('r', 60)
+                    .attr('fill', '#4fc3f7')
+                    .attr('stroke', '#29b6f6')
+                    .attr('stroke-width', 3);
+
+                this.mainGroup.append('text')
+                    .attr('x', centerX)
+                    .attr('y', centerY)
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '0.35em')
+                    .attr('fill', '#000')
+                    .attr('font-weight', 'bold')
+                    .text('BLUE NOTE');
+
+                // Visual designers around the hub
+                const designers = ['Reid Miles', 'Francis Wolff', 'Alfred Lion'];
+                const angleStep = (2 * Math.PI) / designers.length;
+
+                designers.forEach((designer, i) => {
+                    const angle = i * angleStep - Math.PI / 2;
+                    const x = centerX + Math.cos(angle) * 200;
+                    const y = centerY + Math.sin(angle) * 200;
+
+                    // Connection line
+                    this.mainGroup.append('line')
+                        .attr('x1', centerX)
+                        .attr('y1', centerY)
+                        .attr('x2', x)
+                        .attr('y2', y)
+                        .attr('class', 'connection-line');
+
+                    // Designer node
+                    this.mainGroup.append('circle')
+                        .attr('cx', x)
+                        .attr('cy', y)
+                        .attr('r', 40)
+                        .attr('fill', '#81c784')
+                        .attr('stroke', '#66bb6a')
+                        .attr('stroke-width', 2)
+                        .attr('class', 'node-cluster')
+                        .on('click', () => {
+                            this.selectedEntity = designer;
+                            this.updateDetailsPanel();
+                        });
+
+                    this.mainGroup.append('text')
+                        .attr('x', x)
+                        .attr('y', y)
+                        .attr('text-anchor', 'middle')
+                        .attr('dy', '0.35em')
+                        .attr('fill', '#fff')
+                        .attr('font-size', '12px')
+                        .attr('font-weight', 'bold')
+                        .style('pointer-events', 'none')
+                        .text(designer.split(' ')[0]);
+                });
+            }
+
+            renderMusicalLayer() {
+                // Implement musical network visualization
+                console.log('Rendering musical layer for era:', this.currentEra);
+            }
+
+            renderCulturalLayer() {
+                // Implement cultural impact visualization
+                console.log('Rendering cultural layer for era:', this.currentEra);
+            }
+
+            renderTimelineLayer() {
+                // Implement timeline visualization
+                console.log('Rendering timeline layer');
+            }
+
+            renderContemporaryLayer() {
+                // Implement contemporary legacy visualization
+                console.log('Rendering contemporary layer');
+            }
+
+            updateDetailsPanel() {
+                if (!this.selectedEntity) return;
+
+                document.getElementById('details-title').textContent = this.selectedEntity;
+
+                // Update album preview
+                const preview = document.getElementById('album-preview');
+                preview.textContent = this.selectedEntity;
+
+                // Update content based on selected entity
+                const philosophy = document.getElementById('design-philosophy');
+                const connections = document.getElementById('cultural-connections');
+                const legacy = document.getElementById('contemporary-legacy-content');
+
+                if (this.selectedEntity === 'Reid Miles') {
+                    philosophy.textContent = 'Reid Miles revolutionized album cover design with his minimalist typography, bold use of negative space, and innovative layout compositions that made Blue Note covers instantly recognizable.';
+                } else if (this.selectedEntity === 'Francis Wolff') {
+                    philosophy.textContent = 'Francis Wolff\'s intimate photography captured the essence of jazz musicians in their creative moments, establishing a visual language that connected listeners to the artists.';
+                } else {
+                    philosophy.textContent = `${this.selectedEntity} contributed to Blue Note's rich visual and musical legacy through their unique artistic vision and cultural impact.`;
+                }
+            }
+
+            highlightEntity() {
+                // Add visual highlighting for selected entity
+                this.mainGroup.selectAll('.node-cluster')
+                    .attr('stroke-width', 2);
+
+                // Highlight selected
+                this.mainGroup.selectAll('.node-cluster')
+                    .filter(function() {
+                        return d3.select(this).datum() === this.selectedEntity;
+                    })
+                    .attr('stroke-width', 4);
+            }
+
+            jumpToYear(year) {
+                console.log('Jumping to year:', year);
+                // Implement timeline jumping
+            }
+
+            hideLoading() {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('explorer').style.display = 'grid';
+            }
+        }
+
+        // Initialize the explorer when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new BlueNoteExplorer();
+        });
+    </script>
+</body>
+</html>

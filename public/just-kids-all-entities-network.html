@@ -125,10 +125,73 @@
             align-items: center;
             margin-bottom: 6px;
             color: #fff;
+            cursor: pointer;
+            padding: 4px 6px;
+            border-radius: 3px;
+            transition: all 0.2s ease;
+            user-select: none;
         }
 
         .legend-item:last-child {
             margin-bottom: 0;
+        }
+
+        .legend-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateX(3px);
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .legend-item:hover .legend-circle {
+            transform: scale(1.3);
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        }
+
+        .legend-item.active {
+            background: rgba(255, 255, 255, 0.15);
+            font-weight: bold;
+            border-left: 3px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .legend-item.inactive {
+            opacity: 0.4;
+            color: #888;
+            border-left: 3px solid transparent;
+        }
+
+        .legend-item.inactive:hover {
+            opacity: 0.8;
+            color: #ccc;
+        }
+
+        .legend-controls {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #444;
+        }
+
+        .legend-btn {
+            background: rgba(40, 40, 40, 0.8);
+            border: 1px solid #555;
+            color: #fff;
+            padding: 3px 8px;
+            margin: 2px 4px 2px 0;
+            border-radius: 3px;
+            font-size: 9px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .legend-btn:hover {
+            background: rgba(60, 60, 60, 0.9);
+            border-color: #777;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+        }
+
+        .legend-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
         }
 
         .legend-circle {
@@ -137,6 +200,7 @@
             border-radius: 50%;
             margin-right: 8px;
             flex-shrink: 0;
+            transition: all 0.3s ease;
         }
 
         .stats {
@@ -194,7 +258,7 @@
         <div class="header">
             <h1>Just Kids - Complete Entity Network</h1>
             <div class="subtitle">154+ people • 8+ albums • 5+ books • 6+ songs • All entities from comprehensive API data</div>
-            <div class="interaction-hint" id="interaction-hint">Click any entity to explore its connections</div>
+            <div class="interaction-hint" id="interaction-hint">Click any entity to explore connections • Click legend items to filter by type</div>
         </div>
         <div class="network-container">
             <div class="zoom-controls">
@@ -203,49 +267,53 @@
                 <button class="zoom-btn" onclick="resetZoom()" style="font-size: 10px;">⌂</button>
             </div>
             <div class="legend">
-                <div class="legend-item">
+                <div class="legend-item active" data-type="central_figure">
                     <div class="legend-circle" style="background: #e91e63;"></div>
                     <span>Central Figures</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="musician">
                     <div class="legend-circle" style="background: #2196f3;"></div>
                     <span>Musicians</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="writer">
                     <div class="legend-circle" style="background: #9c27b0;"></div>
                     <span>Writers & Poets</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="artist">
                     <div class="legend-circle" style="background: #ff9800;"></div>
                     <span>Artists & Visual</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="venue">
                     <div class="legend-circle" style="background: #4caf50;"></div>
                     <span>Venues & Places</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="album">
                     <div class="legend-circle" style="background: #f44336;"></div>
                     <span>Albums</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="song">
                     <div class="legend-circle" style="background: #ffeb3b;"></div>
                     <span>Songs</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="book">
                     <div class="legend-circle" style="background: #3f51b5;"></div>
                     <span>Books</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="media">
                     <div class="legend-circle" style="background: #e91e63;"></div>
                     <span>Media</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="movement">
                     <div class="legend-circle" style="background: #795548;"></div>
                     <span>Movements</span>
                 </div>
-                <div class="legend-item">
+                <div class="legend-item active" data-type="other">
                     <div class="legend-circle" style="background: #607d8b;"></div>
                     <span>Other</span>
+                </div>
+                <div class="legend-controls">
+                    <button class="legend-btn" onclick="showAllTypes()">All</button>
+                    <button class="legend-btn" onclick="hideAllTypes()">None</button>
                 </div>
             </div>
             <div class="stats" id="stats">
@@ -353,8 +421,12 @@
                 this.focusedEntity = null;
                 this.isEntityFocused = false;
 
+                // Interactive legend state
+                this.activeTypes = new Set(['central_figure', 'musician', 'writer', 'artist', 'venue', 'album', 'song', 'book', 'media', 'movement', 'other']);
+
                 this.createNetworkData();
                 this.initializeVisualization();
+                this.initializeInteractiveLegend();
 
                 window.addEventListener('resize', () => this.handleResize());
             }
@@ -1106,6 +1178,110 @@
                     .alpha(0.3)
                     .restart();
             }
+
+            initializeInteractiveLegend() {
+                // Add click handlers to legend items
+                d3.selectAll('.legend-item')
+                    .on('click', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        if (this.activeTypes.has(type)) {
+                            this.activeTypes.delete(type);
+                            item.classList.remove('active');
+                            item.classList.add('inactive');
+                        } else {
+                            this.activeTypes.add(type);
+                            item.classList.remove('inactive');
+                            item.classList.add('active');
+                        }
+
+                        this.updateNodeVisibility();
+                    })
+                    .on('mouseenter', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        // Only show hover effect if this type is currently inactive
+                        if (!this.activeTypes.has(type)) {
+                            this.showHoverPreview(type);
+                        }
+                    })
+                    .on('mouseleave', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        // Only hide hover effect if this type is currently inactive
+                        if (!this.activeTypes.has(type)) {
+                            this.hideHoverPreview();
+                        }
+                    });
+            }
+
+            updateNodeVisibility() {
+                // Update node visibility based on active types
+                this.nodes
+                    .style('opacity', d => this.activeTypes.has(d.type) ? 1 : 0.1)
+                    .style('pointer-events', d => this.activeTypes.has(d.type) ? 'all' : 'none');
+
+                // Update links based on whether both source and target nodes are visible
+                this.links
+                    .style('opacity', d => {
+                        const sourceVisible = this.activeTypes.has(d.source.type);
+                        const targetVisible = this.activeTypes.has(d.target.type);
+                        return (sourceVisible && targetVisible) ? 0.6 : 0.1;
+                    });
+
+                // Update labels
+                this.labels
+                    .style('opacity', d => this.activeTypes.has(d.type) ? 1 : 0.1);
+
+                // Update stats
+                const visibleNodes = this.data.nodes.filter(n => this.activeTypes.has(n.type));
+                const stats = d3.select("#stats");
+                stats.html(`
+                    Entities: ${visibleNodes.length}/${this.data.nodes.length} •
+                    Links: ${this.data.links.length} •
+                    Click legend items to filter
+                `);
+            }
+
+            showHoverPreview(type) {
+                // Temporarily highlight nodes of the hovered type with a subtle glow
+                this.nodes
+                    .style('opacity', d => {
+                        if (this.activeTypes.has(d.type)) return 1; // Keep active types at full opacity
+                        return d.type === type ? 0.7 : 0.1; // Show hovered type, keep others dimmed
+                    })
+                    .style('stroke-width', d => {
+                        if (this.activeTypes.has(d.type)) return 1.5; // Keep active types normal
+                        return d.type === type ? 3 : 1; // Add glow to hovered type
+                    })
+                    .style('stroke', d => {
+                        if (this.activeTypes.has(d.type)) return '#000'; // Keep active types normal
+                        return d.type === type ? '#fff' : '#000'; // White glow for hovered type
+                    });
+
+                // Show labels for hovered type
+                this.labels
+                    .style('opacity', d => {
+                        if (this.activeTypes.has(d.type)) return 1; // Keep active types visible
+                        return d.type === type ? 0.8 : 0.1; // Show labels for hovered type
+                    });
+
+                // Show related links
+                this.links
+                    .style('opacity', d => {
+                        const sourceVisible = this.activeTypes.has(d.source.type) || d.source.type === type;
+                        const targetVisible = this.activeTypes.has(d.target.type) || d.target.type === type;
+                        return (sourceVisible && targetVisible) ? 0.4 : 0.1;
+                    });
+            }
+
+            hideHoverPreview() {
+                // Return to normal filtered state
+                this.updateNodeVisibility();
+            }
         }
 
         // Zoom controls
@@ -1128,6 +1304,29 @@
                 networkViz.zoom.transform,
                 d3.zoomIdentity.translate(0, 0).scale(1)
             );
+        }
+
+        // Legend control functions
+        function showAllTypes() {
+            networkViz.activeTypes = new Set(['central_figure', 'musician', 'writer', 'artist', 'venue', 'album', 'song', 'book', 'media', 'movement', 'other']);
+
+            // Update legend UI
+            d3.selectAll('.legend-item')
+                .classed('active', true)
+                .classed('inactive', false);
+
+            networkViz.updateNodeVisibility();
+        }
+
+        function hideAllTypes() {
+            networkViz.activeTypes = new Set();
+
+            // Update legend UI
+            d3.selectAll('.legend-item')
+                .classed('active', false)
+                .classed('inactive', true);
+
+            networkViz.updateNodeVisibility();
         }
 
         // Initialize visualization when page loads

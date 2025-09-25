@@ -145,7 +145,7 @@
 
         .legend {
             position: absolute;
-            bottom: 15px;
+            top: 15px;
             right: 15px;
             background: rgba(0, 0, 0, 0.9);
             border: 1px solid #333;
@@ -183,11 +183,45 @@
             margin-bottom: 3px;
             font-size: 10px;
             color: #ccc;
+            cursor: pointer;
+            padding: 3px 6px;
+            border-radius: 3px;
+            transition: all 0.2s ease;
+            user-select: none;
+        }
+
+        .legend-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateX(3px);
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .legend-item:hover .legend-color {
+            transform: scale(1.3);
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        }
+
+        .legend-item.active {
+            background: rgba(255, 255, 255, 0.15);
+            font-weight: bold;
+            border-left: 3px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .legend-item.inactive {
+            opacity: 0.4;
+            color: #888;
+            border-left: 3px solid transparent;
+        }
+
+        .legend-item.inactive:hover {
+            opacity: 0.8;
+            color: #ccc;
         }
 
         .legend-color {
             width: 8px;
             height: 8px;
+            transition: all 0.3s ease;
             border-radius: 50%;
             margin-right: 6px;
         }
@@ -205,7 +239,7 @@
         <div class="header">
             <h1>Blue Note Records - The Cover Art Book</h1>
             <div class="subtitle">Comprehensive Network • Complete Album Lineups • 29 Enhanced Queries</div>
-            <div id="interaction-hint" class="interaction-hint">Click any entity to focus on its connections • Click background to reset</div>
+            <div id="interaction-hint" class="interaction-hint">Click any entity to focus on connections • Click legend items to filter by cluster • Click background to reset</div>
         </div>
         <div class="network-container">
             <svg id="network"></svg>
@@ -220,7 +254,7 @@
 
                 <div class="legend-section">
                     <div class="legend-section-title">Core</div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="book">
                         <div class="legend-color" style="background: #64b5f6;"></div>
                         <span>The Book</span>
                     </div>
@@ -228,11 +262,11 @@
 
                 <div class="legend-section">
                     <div class="legend-section-title">Albums</div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="album">
                         <div class="legend-color" style="background: #ba68c8;"></div>
                         <span>Classic Albums</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="session">
                         <div class="legend-color" style="background: #ab47bc;"></div>
                         <span>Featured Sessions</span>
                     </div>
@@ -240,54 +274,50 @@
 
                 <div class="legend-section">
                     <div class="legend-section-title">Musicians</div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="bandleader">
                         <div class="legend-color" style="background: #4fc3f7;"></div>
                         <span>Bandleaders</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="house_musician">
                         <div class="legend-color" style="background: #29b6f6;"></div>
                         <span>House Musicians</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="sideman">
                         <div class="legend-color" style="background: #26c6da;"></div>
                         <span>Session Players</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="executive">
                         <div class="legend-color" style="background: #4dd0e1;"></div>
-                        <span>Sidemen</span>
+                        <span>Executives</span>
                     </div>
                 </div>
 
                 <div class="legend-section">
                     <div class="legend-section-title">Visual Design</div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="designer">
                         <div class="legend-color" style="background: #81c784;"></div>
                         <span>Designers</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="photographer">
                         <div class="legend-color" style="background: #ffb74d;"></div>
                         <span>Photographers</span>
                     </div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="design_element">
                         <div class="legend-color" style="background: #f48771;"></div>
-                        <span>Label Leaders</span>
+                        <span>Design Elements</span>
                     </div>
                 </div>
 
                 <div class="legend-section">
                     <div class="legend-section-title">Eras</div>
-                    <div class="legend-item">
+                    <div class="legend-item active" data-type="era">
                         <div class="legend-color" style="background: #a5d6a7;"></div>
-                        <span>Hard Bop Era</span>
+                        <span>Eras</span>
                     </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background: #c5e1a5;"></div>
-                        <span>Modal Jazz Era</span>
-                    </div>
-                    <div class="legend-item">
-                        <div class="legend-color" style="background: #dcedc8;"></div>
-                        <span>Avant-garde Era</span>
-                    </div>
+                </div>
+                <div class="legend-controls" style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #444;">
+                    <button class="legend-btn" onclick="showAllTypes()" style="background: rgba(40, 40, 40, 0.8); border: 1px solid #555; color: #fff; padding: 3px 8px; margin: 2px 4px 2px 0; border-radius: 3px; font-size: 9px; cursor: pointer; transition: all 0.2s ease;">All</button>
+                    <button class="legend-btn" onclick="hideAllTypes()" style="background: rgba(40, 40, 40, 0.8); border: 1px solid #555; color: #fff; padding: 3px 8px; margin: 2px 4px 2px 0; border-radius: 3px; font-size: 9px; cursor: pointer; transition: all 0.2s ease;">None</button>
                 </div>
             </div>
         </div>
@@ -623,6 +653,9 @@
                 this.originalClusters = {};
                 this.isEntityFocused = false;
 
+                // Interactive legend state
+                this.activeTypes = new Set(['album', 'bandleader', 'book', 'design_element', 'designer', 'era', 'executive', 'house_musician', 'photographer', 'session', 'sideman']);
+
                 // Store original cluster assignments
                 this.data.nodes.forEach(node => {
                     this.originalClusters[node.id] = node.cluster;
@@ -630,6 +663,7 @@
 
                 this.setupSimulation();
                 this.render();
+                this.initializeInteractiveLegend();
             }
 
             setupSimulation() {
@@ -1081,10 +1115,139 @@
                         return 0.4;
                     });
             }
+
+            initializeInteractiveLegend() {
+                // Add click handlers to legend items
+                d3.selectAll('.legend-item')
+                    .on('click', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        if (this.activeTypes.has(type)) {
+                            this.activeTypes.delete(type);
+                            item.classList.remove('active');
+                            item.classList.add('inactive');
+                        } else {
+                            this.activeTypes.add(type);
+                            item.classList.remove('inactive');
+                            item.classList.add('active');
+                        }
+
+                        this.updateNodeVisibility();
+                    })
+                    .on('mouseenter', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        // Only show hover effect if this type is currently inactive
+                        if (!this.activeTypes.has(type)) {
+                            this.showHoverPreview(type);
+                        }
+                    })
+                    .on('mouseleave', (event, d) => {
+                        const item = event.currentTarget;
+                        const type = item.dataset.type;
+
+                        // Only hide hover effect if this type is currently inactive
+                        if (!this.activeTypes.has(type)) {
+                            this.hideHoverPreview();
+                        }
+                    });
+            }
+
+            updateNodeVisibility() {
+                // Update node visibility based on active types
+                this.nodes
+                    .style('opacity', d => this.activeTypes.has(d.type) ? 1 : 0.1)
+                    .style('pointer-events', d => this.activeTypes.has(d.type) ? 'all' : 'none');
+
+                // Update links based on whether both source and target nodes are visible
+                this.links
+                    .style('opacity', d => {
+                        const sourceVisible = this.activeTypes.has(d.source.type);
+                        const targetVisible = this.activeTypes.has(d.target.type);
+                        return (sourceVisible && targetVisible) ? 0.6 : 0.1;
+                    });
+
+                // Update labels
+                this.labels
+                    .style('opacity', d => this.activeTypes.has(d.type) ? 1 : 0.1);
+
+                // Update stats
+                const visibleNodes = this.data.nodes.filter(n => this.activeTypes.has(n.type));
+                const stats = d3.select("#stats");
+                if (!stats.empty()) {
+                    stats.html(`
+                        Entities: ${visibleNodes.length}/${this.data.nodes.length} •
+                        Links: ${this.data.links.length} •
+                        Click legend items to filter
+                    `);
+                }
+            }
+
+            showHoverPreview(type) {
+                // Temporarily highlight nodes of the hovered type with a subtle glow
+                this.nodes
+                    .style('opacity', d => {
+                        if (this.activeTypes.has(d.type)) return 1; // Keep active types at full opacity
+                        return d.type === type ? 0.7 : 0.1; // Show hovered type, keep others dimmed
+                    })
+                    .style('stroke-width', d => {
+                        if (this.activeTypes.has(d.type)) return 1.5; // Keep active types normal
+                        return d.type === type ? 3 : 1; // Add glow to hovered type
+                    })
+                    .style('stroke', d => {
+                        if (this.activeTypes.has(d.type)) return '#000'; // Keep active types normal
+                        return d.type === type ? '#fff' : '#000'; // White glow for hovered type
+                    });
+
+                // Show labels for hovered type
+                this.labels
+                    .style('opacity', d => {
+                        if (this.activeTypes.has(d.type)) return 1; // Keep active types visible
+                        return d.type === type ? 0.8 : 0.1; // Show labels for hovered type
+                    });
+
+                // Show related links
+                this.links
+                    .style('opacity', d => {
+                        const sourceVisible = this.activeTypes.has(d.source.type) || d.source.type === type;
+                        const targetVisible = this.activeTypes.has(d.target.type) || d.target.type === type;
+                        return (sourceVisible && targetVisible) ? 0.4 : 0.1;
+                    });
+            }
+
+            hideHoverPreview() {
+                // Return to normal filtered state
+                this.updateNodeVisibility();
+            }
         }
 
         // Initialize the comprehensive network
         const network = new ComprehensiveBlueNoteNetwork(networkData);
+
+        // Legend control functions
+        function showAllTypes() {
+            network.activeTypes = new Set(['album', 'bandleader', 'book', 'design_element', 'designer', 'era', 'executive', 'house_musician', 'photographer', 'session', 'sideman']);
+
+            // Update legend UI
+            d3.selectAll('.legend-item')
+                .classed('active', true)
+                .classed('inactive', false);
+
+            network.updateNodeVisibility();
+        }
+
+        function hideAllTypes() {
+            network.activeTypes = new Set();
+
+            // Update legend UI
+            d3.selectAll('.legend-item')
+                .classed('active', false)
+                .classed('inactive', true);
+
+            network.updateNodeVisibility();
+        }
 
         // Handle window resize
         window.addEventListener('resize', () => {

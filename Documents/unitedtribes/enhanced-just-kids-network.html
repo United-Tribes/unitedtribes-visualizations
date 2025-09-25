@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Kids - Enhanced Cultural Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #e91e63, #9c27b0, #673ab7, #3f51b5);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(37, 37, 38, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(233, 30, 99, 0.8);
+            border-color: #e91e63;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            max-width: 280px;
+        }
+
+        .tooltip-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #e91e63;
+        }
+
+        .tooltip-type {
+            color: #9c27b0;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            max-height: 70vh;
+            overflow-y: auto;
+            min-width: 180px;
+        }
+
+        .legend-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #e91e63;
+            font-size: 14px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Just Kids</h1>
+            <div class="subtitle">Enhanced Cultural Network • Patti Smith • Robert Mapplethorpe • 1970s NYC Art Scene</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Cultural Network</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #64b5f6;"></div>
+                    <span>Just Kids Book</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e91e63;"></div>
+                    <span>Central Figures</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #9c27b0;"></div>
+                    <span>Beat Generation</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #673ab7;"></div>
+                    <span>Rock & Music Icons</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #3f51b5;"></div>
+                    <span>Visual Artists</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff5722;"></div>
+                    <span>Cultural Venues</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #795548;"></div>
+                    <span>Art Movements</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #607d8b;"></div>
+                    <span>Contemporary Legacy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced Just Kids network data based on updated API with 28 comprehensive queries
+        const networkData = {
+            nodes: [
+                // The Book (Central Hub)
+                { id: "Just Kids", type: "book", category: "book", size: 20, description: "Patti Smith's memoir chronicling her relationship with Robert Mapplethorpe in 1970s NYC" },
+
+                // Central Figures
+                { id: "Patti Smith", type: "central", category: "central", size: 18, description: "Poet, musician, punk pioneer - central figure of the memoir" },
+                { id: "Robert Mapplethorpe", type: "central", category: "central", size: 18, description: "Photographer and Smith's closest artistic partner and confidant" },
+
+                // Beat Generation Influences
+                { id: "Allen Ginsberg", type: "beat", category: "beat", size: 14, description: "Beat poet who mentored Smith and influenced her poetic approach" },
+                { id: "William Burroughs", type: "beat", category: "beat", size: 12, description: "Beat writer whose experimental prose shaped Smith's artistic vision" },
+                { id: "Jack Kerouac", type: "beat", category: "beat", size: 12, description: "Beat poet whose writing style influenced Smith's literary development" },
+
+                // Rock & Music Icons
+                { id: "Bob Dylan", type: "music", category: "music", size: 14, description: "Major artistic influence on Smith's music and poetry" },
+                { id: "Lou Reed", type: "music", category: "music", size: 13, description: "Velvet Underground leader who influenced Smith's musical direction" },
+                { id: "Jim Morrison", type: "music", category: "music", size: 12, description: "Doors frontman whose poetry and performance influenced Smith" },
+                { id: "Jimi Hendrix", type: "music", category: "music", size: 11, description: "Guitar legend Smith encountered at Electric Lady Studios" },
+
+                // Theatrical & Literary Collaborators
+                { id: "Sam Shepard", type: "collaborator", category: "central", size: 12, description: "Playwright and Smith's romantic and artistic collaborator" },
+
+                // Visual Art World
+                { id: "Andy Warhol", type: "visual", category: "visual", size: 14, description: "Pop art icon and Factory scene central figure Smith encountered" },
+                { id: "Factory Scene", type: "visual", category: "visual", size: 10, description: "Warhol's artistic community and cultural hub" },
+
+                // Cultural Venues & Scenes
+                { id: "Chelsea Hotel", type: "venue", category: "venue", size: 16, description: "Legendary hotel where Smith and Mapplethorpe lived and thrived" },
+                { id: "CBGB", type: "venue", category: "venue", size: 14, description: "Iconic club where punk rock emerged with Smith as pioneer" },
+                { id: "Max's Kansas City", type: "venue", category: "venue", size: 12, description: "Cultural hub and gathering place for NYC's artistic community" },
+
+                // NYC Cultural Context
+                { id: "1970s NYC Art Scene", type: "cultural", category: "cultural", size: 14, description: "The bohemian cultural milieu that nurtured Smith and Mapplethorpe" },
+                { id: "NYC Bohemian Community", type: "cultural", category: "cultural", size: 12, description: "Downtown artist community of 1970s New York" },
+
+                // Art Forms & Movements
+                { id: "Punk Rock Movement", type: "movement", category: "movement", size: 14, description: "Musical genre Smith pioneered and helped define" },
+                { id: "Photography as Art", type: "movement", category: "movement", size: 12, description: "Artistic movement Mapplethorpe advanced through his work" },
+                { id: "Poetry Performance", type: "movement", category: "movement", size: 11, description: "Spoken word tradition that influenced punk music development" },
+                { id: "Fashion & Style", type: "movement", category: "movement", size: 10, description: "1970s NYC artistic fashion aesthetic Smith and Mapplethorpe embodied" },
+
+                // Contemporary Legacy
+                { id: "Rock and Roll Hall of Fame", type: "legacy", category: "legacy", size: 10, description: "Smith's recognition and lasting influence on music" },
+                { id: "Mapplethorpe Museum Legacy", type: "legacy", category: "legacy", size: 10, description: "Robert's continued influence through museum exhibitions" },
+                { id: "Chelsea Hotel Legacy", type: "legacy", category: "legacy", size: 9, description: "Continued cultural impact of the legendary artist community" },
+                { id: "Contemporary Art Understanding", type: "legacy", category: "legacy", size: 8, description: "Just Kids' influence on understanding 1970s art scene" },
+
+                // Cultural Impact Elements
+                { id: "Music Industry Relationships", type: "industry", category: "central", size: 10, description: "Record label connections during Smith's career development" },
+                { id: "Literature & Poetry World", type: "literary", category: "beat", size: 11, description: "Literary influences on Smith's artistic development" }
+            ],
+            links: [
+                // Book as central hub
+                { source: "Just Kids", target: "Patti Smith", strength: 10 },
+                { source: "Just Kids", target: "Robert Mapplethorpe", strength: 10 },
+
+                // Central relationship (strongest bond)
+                { source: "Patti Smith", target: "Robert Mapplethorpe", strength: 10 },
+
+                // Beat Generation influences
+                { source: "Allen Ginsberg", target: "Patti Smith", strength: 9 },
+                { source: "William Burroughs", target: "Patti Smith", strength: 8 },
+                { source: "Jack Kerouac", target: "Patti Smith", strength: 7 },
+                { source: "Literature & Poetry World", target: "Patti Smith", strength: 8 },
+
+                // Music influences
+                { source: "Bob Dylan", target: "Patti Smith", strength: 9 },
+                { source: "Lou Reed", target: "Patti Smith", strength: 8 },
+                { source: "Jim Morrison", target: "Patti Smith", strength: 7 },
+                { source: "Jimi Hendrix", target: "Patti Smith", strength: 6 },
+
+                // Collaborations
+                { source: "Sam Shepard", target: "Patti Smith", strength: 8 },
+
+                // Visual art connections
+                { source: "Andy Warhol", target: "Patti Smith", strength: 7 },
+                { source: "Andy Warhol", target: "Robert Mapplethorpe", strength: 7 },
+                { source: "Factory Scene", target: "Andy Warhol", strength: 9 },
+                { source: "Photography as Art", target: "Robert Mapplethorpe", strength: 9 },
+
+                // Cultural venues
+                { source: "Chelsea Hotel", target: "Patti Smith", strength: 10 },
+                { source: "Chelsea Hotel", target: "Robert Mapplethorpe", strength: 10 },
+                { source: "CBGB", target: "Patti Smith", strength: 9 },
+                { source: "Max's Kansas City", target: "Patti Smith", strength: 8 },
+                { source: "Max's Kansas City", target: "Robert Mapplethorpe", strength: 7 },
+
+                // Cultural context
+                { source: "1970s NYC Art Scene", target: "Patti Smith", strength: 9 },
+                { source: "1970s NYC Art Scene", target: "Robert Mapplethorpe", strength: 9 },
+                { source: "NYC Bohemian Community", target: "Chelsea Hotel", strength: 8 },
+                { source: "NYC Bohemian Community", target: "1970s NYC Art Scene", strength: 8 },
+
+                // Art movements
+                { source: "Punk Rock Movement", target: "Patti Smith", strength: 10 },
+                { source: "Poetry Performance", target: "Patti Smith", strength: 8 },
+                { source: "Fashion & Style", target: "Patti Smith", strength: 7 },
+                { source: "Fashion & Style", target: "Robert Mapplethorpe", strength: 7 },
+
+                // Industry connections
+                { source: "Music Industry Relationships", target: "Patti Smith", strength: 7 },
+
+                // Contemporary legacy
+                { source: "Rock and Roll Hall of Fame", target: "Patti Smith", strength: 8 },
+                { source: "Mapplethorpe Museum Legacy", target: "Robert Mapplethorpe", strength: 8 },
+                { source: "Chelsea Hotel Legacy", target: "Chelsea Hotel", strength: 8 },
+                { source: "Contemporary Art Understanding", target: "Just Kids", strength: 7 },
+
+                // Cross-connections within Beat Generation
+                { source: "Allen Ginsberg", target: "William Burroughs", strength: 8 },
+                { source: "Allen Ginsberg", target: "Jack Kerouac", strength: 8 },
+                { source: "William Burroughs", target: "Jack Kerouac", strength: 7 },
+
+                // Music scene interconnections
+                { source: "Lou Reed", target: "Andy Warhol", strength: 8 },
+                { source: "CBGB", target: "Punk Rock Movement", strength: 9 },
+                { source: "Max's Kansas City", target: "Factory Scene", strength: 7 }
+            ]
+        };
+
+        // Color mapping for different entity types
+        const colorMap = {
+            book: '#64b5f6',
+            central: '#e91e63',
+            beat: '#9c27b0',
+            music: '#673ab7',
+            visual: '#3f51b5',
+            venue: '#ff5722',
+            cultural: '#ff5722',
+            movement: '#795548',
+            legacy: '#607d8b',
+            industry: '#e91e63',
+            literary: '#9c27b0',
+            collaborator: '#e91e63'
+        };
+
+        // Initialize network visualization
+        class JustKidsNetworkVisualization {
+            constructor(data) {
+                this.data = data;
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+                this.svg = d3.select('#network')
+                    .attr('width', this.width)
+                    .attr('height', this.height);
+
+                // Set up zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.g.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create main group for zoomable content
+                this.g = this.svg.append('g');
+
+                this.tooltip = d3.select('#tooltip');
+
+                this.setupSimulation();
+                this.render();
+            }
+
+            setupSimulation() {
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force('link', d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => 100 - (d.strength * 6))
+                        .strength(d => d.strength * 0.15))
+                    .force('charge', d3.forceManyBody()
+                        .strength(d => -400 - (d.size * 15)))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide()
+                        .radius(d => d.size + 3));
+            }
+
+            render() {
+                // Links
+                this.links = this.g.selectAll('.link')
+                    .data(this.data.links)
+                    .join('line')
+                    .attr('class', 'link')
+                    .attr('stroke', '#3e3e42')
+                    .attr('stroke-width', d => Math.sqrt(d.strength) * 1.2)
+                    .attr('stroke-opacity', 0.7);
+
+                // Nodes
+                this.nodes = this.g.selectAll('.node')
+                    .data(this.data.nodes)
+                    .join('circle')
+                    .attr('class', 'node')
+                    .attr('r', d => d.size || 8)
+                    .attr('fill', d => colorMap[d.category] || '#666')
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 2)
+                    .style('cursor', 'pointer')
+                    .call(this.drag());
+
+                // Node labels
+                this.labels = this.g.selectAll('.label')
+                    .data(this.data.nodes)
+                    .join('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('font-size', d => `${Math.max(10, d.size * 0.7)}px`)
+                    .style('fill', '#fff')
+                    .style('pointer-events', 'none')
+                    .style('text-shadow', '0 0 4px #000')
+                    .style('font-weight', d => d.category === 'central' ? 'bold' : 'normal')
+                    .text(d => {
+                        if (d.id.length > 18) return d.id.substring(0, 15) + '...';
+                        return d.id;
+                    });
+
+                // Event handlers
+                this.nodes
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Update positions on simulation tick
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            ticked() {
+                this.links
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodes
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            showTooltip(event, d) {
+                this.tooltip
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .style('opacity', 1)
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.type}</div>
+                        ${d.description ? `<div style="margin-top: 6px; color: #ccc;">${d.description}</div>` : ''}
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            zoomIn() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+        }
+
+        // Initialize the network
+        const network = new JustKidsNetworkVisualization(networkData);
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight - 120;
+
+            network.width = newWidth;
+            network.height = newHeight;
+            network.svg.attr('width', newWidth).attr('height', newHeight);
+            network.simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
+            network.simulation.alpha(1).restart();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Note Records - Clustered Album & Artist Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #000;
+            padding: 0.75rem 1.5rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+
+        .interaction-hint {
+            text-align: center;
+            color: #666;
+            font-size: 0.7rem;
+            margin-top: 0.2rem;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .focused-mode {
+            color: #fff;
+            font-weight: 400;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: #000;
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #555;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.95);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.2s ease;
+            z-index: 1000;
+            max-width: 250px;
+        }
+
+        .tooltip-title {
+            font-weight: 400;
+            margin-bottom: 2px;
+            color: #fff;
+        }
+
+        .tooltip-type {
+            color: #888;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-cluster {
+            color: #666;
+            font-size: 9px;
+            font-style: italic;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 12px;
+            z-index: 1000;
+            max-height: 60vh;
+            overflow-y: auto;
+            min-width: 160px;
+        }
+
+        .legend-title {
+            font-weight: 400;
+            margin-bottom: 8px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .legend-section {
+            margin-bottom: 10px;
+        }
+
+        .legend-section-title {
+            font-weight: 300;
+            color: #888;
+            font-size: 10px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3px;
+            font-size: 10px;
+            color: #ccc;
+        }
+
+        .legend-color {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+
+        .cluster-label {
+            font-size: 10px;
+            fill: #666;
+            text-anchor: middle;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Blue Note Records - The Cover Art Book</h1>
+            <div class="subtitle">Clustered Network • Albums • Artists • Visual Design • Cultural Connections</div>
+            <div id="interaction-hint" class="interaction-hint">Click any entity to focus on its connections • Click background to reset</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Network Clusters</div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Core</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #64b5f6;"></div>
+                        <span>The Book</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Album Cluster</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ba68c8;"></div>
+                        <span>Iconic Albums</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ab47bc;"></div>
+                        <span>Featured Albums</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Artist Cluster</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #4fc3f7;"></div>
+                        <span>Bandleaders</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #29b6f6;"></div>
+                        <span>House Musicians</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #26c6da;"></div>
+                        <span>Session Players</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Design Cluster</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #81c784;"></div>
+                        <span>Visual Designers</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ffb74d;"></div>
+                        <span>Photographers</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #f48771;"></div>
+                        <span>Label Executives</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Context Cluster</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #a5d6a7;"></div>
+                        <span>Cultural Movement</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ffcc80;"></div>
+                        <span>Historical Context</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Clustered Blue Note network data with focused album-artist relationships
+        const networkData = {
+            nodes: [
+                // CORE - The Book (Central Hub)
+                { id: "The Cover Art of Blue Note Records", type: "book", cluster: "core", size: 22, x: 0, y: 0,
+                  description: "Graham Marsh and Glyn Callingham's comprehensive book documenting Blue Note's visual identity" },
+
+                // ALBUM CLUSTER - Iconic Albums from the Book
+                { id: "Blue Train", type: "album", cluster: "albums", size: 16,
+                  description: "John Coltrane's 1957 masterpiece with iconic Reid Miles cover design" },
+                { id: "The Sidewinder", type: "album", cluster: "albums", size: 16,
+                  description: "Lee Morgan's 1963 commercial breakthrough with striking cover art" },
+                { id: "Moanin'", type: "album", cluster: "albums", size: 15,
+                  description: "Art Blakey & Jazz Messengers' 1958 hard bop classic" },
+                { id: "Song for My Father", type: "album", cluster: "albums", size: 15,
+                  description: "Horace Silver's 1964 album with distinctive cover photography" },
+                { id: "Maiden Voyage", type: "album", cluster: "albums", size: 14,
+                  description: "Herbie Hancock's 1965 modal jazz exploration" },
+                { id: "Point of Departure", type: "album", cluster: "albums", size: 14,
+                  description: "Andrew Hill's 1964 avant-garde statement" },
+                { id: "Page One", type: "album", cluster: "albums", size: 13,
+                  description: "Joe Henderson's 1963 debut as leader" },
+                { id: "Go!", type: "album", cluster: "albums", size: 13,
+                  description: "Dexter Gordon's 1962 return to form" },
+                { id: "Monk's Music", type: "album", cluster: "albums", size: 12,
+                  description: "Thelonious Monk's 1957 album with close-up piano hands cover" },
+                { id: "Six Pieces of Silver", type: "album", cluster: "albums", size: 12,
+                  description: "Horace Silver's 1956 album with Francis Wolff portrait" },
+                { id: "Una Mas", type: "album", cluster: "albums", size: 11,
+                  description: "Kenny Dorham's 1963 session with rising stars" },
+                { id: "Roll Call", type: "album", cluster: "albums", size: 11,
+                  description: "Hank Mobley's 1960 hard bop showcase" },
+
+                // ARTIST CLUSTER - Bandleaders (Most Prominent)
+                { id: "John Coltrane", type: "bandleader", cluster: "artists", size: 16,
+                  description: "Saxophone giant, Blue Train album leader" },
+                { id: "Art Blakey", type: "bandleader", cluster: "artists", size: 16,
+                  description: "Jazz Messengers leader, drummer on countless Blue Note sessions" },
+                { id: "Lee Morgan", type: "bandleader", cluster: "artists", size: 15,
+                  description: "Trumpet star, The Sidewinder album leader" },
+                { id: "Horace Silver", type: "bandleader", cluster: "artists", size: 15,
+                  description: "Pianist-composer, Song for My Father and Six Pieces of Silver leader" },
+                { id: "Herbie Hancock", type: "bandleader", cluster: "artists", size: 14,
+                  description: "Piano innovator, Maiden Voyage album leader" },
+                { id: "Joe Henderson", type: "bandleader", cluster: "artists", size: 14,
+                  description: "Tenor saxophone master, Page One album leader" },
+                { id: "Andrew Hill", type: "bandleader", cluster: "artists", size: 13,
+                  description: "Avant-garde pianist, Point of Departure album leader" },
+                { id: "Thelonious Monk", type: "bandleader", cluster: "artists", size: 13,
+                  description: "Bebop piano pioneer, Monk's Music album leader" },
+                { id: "Dexter Gordon", type: "bandleader", cluster: "artists", size: 12,
+                  description: "Tenor saxophone legend, Go! album leader" },
+                { id: "Kenny Dorham", type: "bandleader", cluster: "artists", size: 12,
+                  description: "Trumpet master, Una Mas album leader" },
+
+                // ARTIST CLUSTER - House Musicians (Frequently Appearing)
+                { id: "Paul Chambers", type: "house_musician", cluster: "artists", size: 14,
+                  description: "Bassist on Blue Train and numerous Blue Note sessions" },
+                { id: "Curtis Fuller", type: "house_musician", cluster: "artists", size: 13,
+                  description: "Trombonist on Blue Train and many Blue Note recordings" },
+                { id: "Billy Higgins", type: "house_musician", cluster: "artists", size: 12,
+                  description: "Drummer on The Sidewinder and multiple sessions" },
+                { id: "Kenny Burrell", type: "house_musician", cluster: "artists", size: 12,
+                  description: "Guitarist on numerous Blue Note albums" },
+                { id: "Hank Mobley", type: "house_musician", cluster: "artists", size: 12,
+                  description: "Tenor saxophonist, Roll Call leader and frequent sideman" },
+                { id: "Donald Byrd", type: "house_musician", cluster: "artists", size: 11,
+                  description: "Trumpeter on Song for My Father and Six Pieces of Silver" },
+                { id: "Blue Mitchell", type: "house_musician", cluster: "artists", size: 11,
+                  description: "Trumpeter on multiple Horace Silver sessions" },
+
+                // ARTIST CLUSTER - Key Session Players
+                { id: "Tony Williams", type: "session_player", cluster: "artists", size: 11,
+                  description: "Drummer on Maiden Voyage and Point of Departure" },
+                { id: "Ron Carter", type: "session_player", cluster: "artists", size: 10,
+                  description: "Bassist on Maiden Voyage" },
+                { id: "McCoy Tyner", type: "session_player", cluster: "artists", size: 10,
+                  description: "Pianist on Page One" },
+                { id: "Freddie Hubbard", type: "session_player", cluster: "artists", size: 10,
+                  description: "Trumpeter on Maiden Voyage and Roll Call" },
+                { id: "Benny Golson", type: "session_player", cluster: "artists", size: 10,
+                  description: "Tenor saxophonist and composer on Moanin'" },
+
+                // DESIGN CLUSTER - Visual Identity Team
+                { id: "Reid Miles", type: "designer", cluster: "design", size: 18,
+                  description: "Primary graphic designer, created over 500 Blue Note covers" },
+                { id: "Francis Wolff", type: "photographer", cluster: "design", size: 16,
+                  description: "Co-founder and photographer, captured intimate studio sessions" },
+                { id: "Alfred Lion", type: "executive", cluster: "design", size: 14,
+                  description: "Co-founder and visual identity decision-maker" },
+                { id: "Rudy Van Gelder", type: "engineer", cluster: "design", size: 12,
+                  description: "Recording engineer who also contributed to cover design" },
+
+                // CONTEXT CLUSTER - Cultural and Historical Context
+                { id: "Hard Bop Movement", type: "cultural", cluster: "context", size: 14,
+                  description: "Jazz style that defined Blue Note's 1950s-60s aesthetic" },
+                { id: "Mid-Century Modern Design", type: "cultural", cluster: "context", size: 12,
+                  description: "Design movement influencing Reid Miles' visual approach" },
+                { id: "New York Jazz Scene 1950s-60s", type: "historical", cluster: "context", size: 12,
+                  description: "Cultural milieu that shaped Blue Note's identity" },
+                { id: "Album Cover Art Movement", type: "cultural", cluster: "context", size: 11,
+                  description: "Blue Note's role in establishing album art as artistic medium" }
+            ],
+            links: [
+                // CORE CONNECTIONS - Book to major elements
+                { source: "The Cover Art of Blue Note Records", target: "Reid Miles", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Francis Wolff", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Blue Train", strength: 9 },
+                { source: "The Cover Art of Blue Note Records", target: "The Sidewinder", strength: 9 },
+                { source: "The Cover Art of Blue Note Records", target: "Moanin'", strength: 9 },
+
+                // ALBUM-ARTIST CONNECTIONS (Album Leaders)
+                { source: "Blue Train", target: "John Coltrane", strength: 10 },
+                { source: "The Sidewinder", target: "Lee Morgan", strength: 10 },
+                { source: "Moanin'", target: "Art Blakey", strength: 10 },
+                { source: "Song for My Father", target: "Horace Silver", strength: 10 },
+                { source: "Maiden Voyage", target: "Herbie Hancock", strength: 10 },
+                { source: "Point of Departure", target: "Andrew Hill", strength: 10 },
+                { source: "Page One", target: "Joe Henderson", strength: 10 },
+                { source: "Go!", target: "Dexter Gordon", strength: 10 },
+                { source: "Monk's Music", target: "Thelonious Monk", strength: 10 },
+                { source: "Six Pieces of Silver", target: "Horace Silver", strength: 10 },
+                { source: "Una Mas", target: "Kenny Dorham", strength: 10 },
+                { source: "Roll Call", target: "Hank Mobley", strength: 10 },
+
+                // ALBUM-SIDEMAN CONNECTIONS (Key Collaborations)
+                { source: "Blue Train", target: "Lee Morgan", strength: 8 },
+                { source: "Blue Train", target: "Curtis Fuller", strength: 8 },
+                { source: "Blue Train", target: "Paul Chambers", strength: 8 },
+                { source: "Blue Train", target: "Art Blakey", strength: 8 },
+
+                { source: "The Sidewinder", target: "Joe Henderson", strength: 8 },
+                { source: "The Sidewinder", target: "Billy Higgins", strength: 7 },
+
+                { source: "Song for My Father", target: "Donald Byrd", strength: 8 },
+                { source: "Song for My Father", target: "Joe Henderson", strength: 7 },
+
+                { source: "Maiden Voyage", target: "Freddie Hubbard", strength: 8 },
+                { source: "Maiden Voyage", target: "Ron Carter", strength: 8 },
+                { source: "Maiden Voyage", target: "Tony Williams", strength: 8 },
+
+                { source: "Point of Departure", target: "Kenny Dorham", strength: 8 },
+                { source: "Point of Departure", target: "Tony Williams", strength: 8 },
+
+                { source: "Page One", target: "Kenny Dorham", strength: 8 },
+                { source: "Page One", target: "McCoy Tyner", strength: 7 },
+
+                { source: "Six Pieces of Silver", target: "Donald Byrd", strength: 8 },
+                { source: "Six Pieces of Silver", target: "Hank Mobley", strength: 7 },
+
+                { source: "Roll Call", target: "Freddie Hubbard", strength: 8 },
+                { source: "Roll Call", target: "Art Blakey", strength: 7 },
+
+                { source: "Moanin'", target: "Lee Morgan", strength: 8 },
+                { source: "Moanin'", target: "Benny Golson", strength: 8 },
+
+                // DESIGN CONNECTIONS
+                { source: "Reid Miles", target: "Blue Train", strength: 9 },
+                { source: "Reid Miles", target: "The Sidewinder", strength: 9 },
+                { source: "Reid Miles", target: "Point of Departure", strength: 8 },
+                { source: "Reid Miles", target: "Monk's Music", strength: 8 },
+
+                { source: "Francis Wolff", target: "Song for My Father", strength: 8 },
+                { source: "Francis Wolff", target: "Six Pieces of Silver", strength: 8 },
+                { source: "Francis Wolff", target: "John Coltrane", strength: 7 },
+                { source: "Francis Wolff", target: "Art Blakey", strength: 7 },
+
+                { source: "Alfred Lion", target: "Reid Miles", strength: 8 },
+                { source: "Alfred Lion", target: "Francis Wolff", strength: 9 },
+
+                // ARTIST INTERCONNECTIONS (Musicians who played together frequently)
+                { source: "Paul Chambers", target: "Art Blakey", strength: 7 },
+                { source: "Curtis Fuller", target: "Lee Morgan", strength: 7 },
+                { source: "Kenny Dorham", target: "Joe Henderson", strength: 7 },
+                { source: "Freddie Hubbard", target: "Tony Williams", strength: 6 },
+                { source: "Donald Byrd", target: "Horace Silver", strength: 8 },
+
+                // CULTURAL CONTEXT CONNECTIONS
+                { source: "Hard Bop Movement", target: "Art Blakey", strength: 8 },
+                { source: "Hard Bop Movement", target: "Horace Silver", strength: 8 },
+                { source: "Hard Bop Movement", target: "Lee Morgan", strength: 7 },
+
+                { source: "Mid-Century Modern Design", target: "Reid Miles", strength: 8 },
+                { source: "Album Cover Art Movement", target: "Reid Miles", strength: 8 },
+                { source: "Album Cover Art Movement", target: "Francis Wolff", strength: 7 },
+
+                { source: "New York Jazz Scene 1950s-60s", target: "John Coltrane", strength: 7 },
+                { source: "New York Jazz Scene 1950s-60s", target: "Art Blakey", strength: 7 },
+                { source: "New York Jazz Scene 1950s-60s", target: "Thelonious Monk", strength: 7 }
+            ]
+        };
+
+        // Color mapping for different entity types and clusters
+        const colorMap = {
+            // Core
+            book: '#64b5f6',
+
+            // Albums
+            album: '#ba68c8',
+
+            // Artists
+            bandleader: '#4fc3f7',
+            house_musician: '#29b6f6',
+            session_player: '#26c6da',
+
+            // Design
+            designer: '#81c784',
+            photographer: '#ffb74d',
+            executive: '#f48771',
+            engineer: '#81c784',
+
+            // Context
+            cultural: '#a5d6a7',
+            historical: '#ffcc80'
+        };
+
+        // Cluster positioning for better layout - more spread out
+        const clusterCenters = {
+            core: { x: 0, y: 0 },
+            albums: { x: -300, y: -150 },
+            artists: { x: 300, y: 150 },
+            design: { x: -250, y: 200 },
+            context: { x: 200, y: -200 }
+        };
+
+        // Initialize clustered network visualization
+        class ClusteredBlueNoteNetwork {
+            constructor(data) {
+                this.data = data;
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+                this.svg = d3.select('#network')
+                    .attr('width', this.width)
+                    .attr('height', this.height);
+
+                // Set up zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.g.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create main group for zoomable content
+                this.g = this.svg.append('g');
+
+                this.tooltip = d3.select('#tooltip');
+
+                // Dynamic clustering state
+                this.focusedEntity = null;
+                this.originalClusters = {};
+                this.isEntityFocused = false;
+
+                // Store original cluster assignments
+                this.data.nodes.forEach(node => {
+                    this.originalClusters[node.id] = node.cluster;
+                });
+
+                this.setupSimulation();
+                this.render();
+            }
+
+            setupSimulation() {
+                // Enhanced simulation with smoother transitions
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force('link', d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => {
+                            const sourceNode = this.data.nodes.find(n => n.id === (d.source.id || d.source));
+                            const targetNode = this.data.nodes.find(n => n.id === (d.target.id || d.target));
+                            const sourceCluster = sourceNode?.cluster;
+                            const targetCluster = targetNode?.cluster;
+
+                            // In focus mode, much tighter clustering
+                            if (this.isEntityFocused) {
+                                if (sourceCluster === 'connected_entities' && targetCluster === 'focused_entity') return 80;
+                                if (sourceCluster === 'focused_entity' && targetCluster === 'connected_entities') return 80;
+                                if (sourceCluster === targetCluster && sourceCluster === 'connected_entities') return 50;
+                                return 200; // Push other connections far away
+                            }
+
+                            // Normal mode
+                            if (sourceCluster === targetCluster) {
+                                return 60;
+                            } else {
+                                return 120;
+                            }
+                        })
+                        .strength(d => {
+                            const sourceNode = this.data.nodes.find(n => n.id === (d.source.id || d.source));
+                            const targetNode = this.data.nodes.find(n => n.id === (d.target.id || d.target));
+                            const sourceCluster = sourceNode?.cluster;
+                            const targetCluster = targetNode?.cluster;
+
+                            // In focus mode, stronger forces for entity cluster
+                            if (this.isEntityFocused) {
+                                if ((sourceCluster === 'connected_entities' && targetCluster === 'focused_entity') ||
+                                    (sourceCluster === 'focused_entity' && targetCluster === 'connected_entities')) {
+                                    return d.strength * 0.4;
+                                }
+                                if (sourceCluster === targetCluster) return d.strength * 0.15;
+                                return d.strength * 0.05;
+                            }
+
+                            return sourceCluster === targetCluster ? d.strength * 0.15 : d.strength * 0.08;
+                        }))
+                    .force('charge', d3.forceManyBody()
+                        .strength(d => {
+                            if (this.isEntityFocused) {
+                                if (d.cluster === 'focused_entity') return -200;
+                                if (d.cluster === 'connected_entities') return -150;
+                                return -50; // Much less repulsion for background nodes
+                            }
+                            return -250 - (d.size * 8);
+                        }))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide()
+                        .radius(d => d.size + 3))
+                    .force('cluster', this.clusterForce())
+                    .force('clusterCollision', this.clusterCollision())
+                    .alphaDecay(0.05) // Faster cooling for quicker settling
+                    .velocityDecay(0.6); // More friction for smoother movement
+            }
+
+            clusterForce() {
+                return (alpha) => {
+                    // Adaptive cluster force based on mode
+                    const strength = this.isEntityFocused ? 0.4 * alpha : 0.2 * alpha;
+
+                    this.data.nodes.forEach(d => {
+                        let clusterCenter;
+
+                        // If entity is focused, use simplified dynamic clustering
+                        if (this.isEntityFocused && this.focusedEntity) {
+                            if (d.id === this.focusedEntity.id) {
+                                // Focused entity stays at center
+                                clusterCenter = { x: 0, y: 0 };
+                            } else if (d.cluster === 'connected_entities') {
+                                // Connected entities form a tight circle around the focused entity
+                                // Use consistent positioning based on node ID for stability
+                                const hash = this.simpleHash(d.id);
+                                const angle = (hash % 360) * (Math.PI / 180);
+                                const radius = 120;
+                                clusterCenter = {
+                                    x: Math.cos(angle) * radius,
+                                    y: Math.sin(angle) * radius
+                                };
+                            } else {
+                                // Background nodes move to a distant periphery
+                                const cluster = clusterCenters[this.originalClusters[d.id]] || { x: 0, y: 0 };
+                                clusterCenter = {
+                                    x: cluster.x * 2,
+                                    y: cluster.y * 2
+                                };
+                            }
+                        } else {
+                            // Default clustering with original positions
+                            const cluster = clusterCenters[d.cluster];
+                            if (cluster) {
+                                clusterCenter = cluster;
+                            }
+                        }
+
+                        if (clusterCenter) {
+                            const centerX = this.width / 2 + clusterCenter.x;
+                            const centerY = this.height / 2 + clusterCenter.y;
+                            d.vx += (centerX - d.x) * strength;
+                            d.vy += (centerY - d.y) * strength;
+                        }
+                    });
+                };
+            }
+
+            // Simple hash function for consistent positioning
+            simpleHash(str) {
+                let hash = 0;
+                for (let i = 0; i < str.length; i++) {
+                    const char = str.charCodeAt(i);
+                    hash = ((hash << 5) - hash) + char;
+                    hash = hash & hash; // Convert to 32-bit integer
+                }
+                return Math.abs(hash);
+            }
+
+            clusterCollision() {
+                return (alpha) => {
+                    const strength = 0.1 * alpha;
+                    const clusters = Object.keys(clusterCenters);
+
+                    // Calculate cluster centers based on actual node positions
+                    const actualClusters = {};
+                    clusters.forEach(cluster => {
+                        const clusterNodes = this.data.nodes.filter(n => n.cluster === cluster);
+                        if (clusterNodes.length > 0) {
+                            actualClusters[cluster] = {
+                                x: d3.mean(clusterNodes, n => n.x),
+                                y: d3.mean(clusterNodes, n => n.y),
+                                nodes: clusterNodes
+                            };
+                        }
+                    });
+
+                    // Apply separation between different clusters
+                    clusters.forEach(clusterA => {
+                        clusters.forEach(clusterB => {
+                            if (clusterA !== clusterB && actualClusters[clusterA] && actualClusters[clusterB]) {
+                                const clusterACenter = actualClusters[clusterA];
+                                const clusterBCenter = actualClusters[clusterB];
+
+                                const dx = clusterBCenter.x - clusterACenter.x;
+                                const dy = clusterBCenter.y - clusterACenter.y;
+                                const distance = Math.sqrt(dx * dx + dy * dy);
+                                const minDistance = 200; // Minimum distance between cluster centers
+
+                                if (distance < minDistance && distance > 0) {
+                                    const force = (minDistance - distance) / distance * strength;
+                                    const fx = dx * force;
+                                    const fy = dy * force;
+
+                                    // Push nodes in cluster A away from cluster B
+                                    clusterACenter.nodes.forEach(node => {
+                                        node.vx -= fx * 0.5;
+                                        node.vy -= fy * 0.5;
+                                    });
+
+                                    // Push nodes in cluster B away from cluster A
+                                    clusterBCenter.nodes.forEach(node => {
+                                        node.vx += fx * 0.5;
+                                        node.vy += fy * 0.5;
+                                    });
+                                }
+                            }
+                        });
+                    });
+                };
+            }
+
+            render() {
+                // Links
+                this.links = this.g.selectAll('.link')
+                    .data(this.data.links)
+                    .join('line')
+                    .attr('class', 'link')
+                    .attr('stroke', d => {
+                        // Different link colors based on connection type
+                        const sourceType = this.data.nodes.find(n => n.id === d.source.id || n.id === d.source)?.type;
+                        const targetType = this.data.nodes.find(n => n.id === d.target.id || n.id === d.target)?.type;
+
+                        if (sourceType === 'album' && targetType !== 'album') return '#ba68c8';
+                        if (sourceType !== 'album' && targetType === 'album') return '#ba68c8';
+                        return '#3e3e42';
+                    })
+                    .attr('stroke-width', d => Math.sqrt(d.strength) * 1.2)
+                    .attr('stroke-opacity', 0.6);
+
+                // Nodes
+                this.nodes = this.g.selectAll('.node')
+                    .data(this.data.nodes)
+                    .join('circle')
+                    .attr('class', 'node')
+                    .attr('r', d => d.size || 8)
+                    .attr('fill', d => colorMap[d.type] || '#666')
+                    .attr('stroke', d => {
+                        // Cluster-based stroke colors
+                        const clusterColors = {
+                            core: '#64b5f6',
+                            albums: '#ba68c8',
+                            artists: '#4fc3f7',
+                            design: '#81c784',
+                            context: '#a5d6a7'
+                        };
+                        return clusterColors[d.cluster] || '#fff';
+                    })
+                    .attr('stroke-width', d => d.cluster === 'core' ? 3 : 2)
+                    .style('cursor', 'pointer')
+                    .call(this.drag());
+
+                // Node labels
+                this.labels = this.g.selectAll('.label')
+                    .data(this.data.nodes)
+                    .join('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('font-size', d => `${Math.max(9, d.size * 0.7)}px`)
+                    .style('fill', '#fff')
+                    .style('pointer-events', 'none')
+                    .style('text-shadow', '0 0 4px #000')
+                    .style('font-weight', d => d.cluster === 'core' ? 'bold' : 'normal')
+                    .text(d => {
+                        if (d.id.length > 16) return d.id.substring(0, 13) + '...';
+                        return d.id;
+                    });
+
+                // Event handlers
+                this.nodes
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip())
+                    .on('click', (event, d) => {
+                        event.stopPropagation();
+                        this.focusOnEntity(d);
+                    });
+
+                // Click on background to reset
+                this.svg.on('click', () => {
+                    if (this.isEntityFocused) {
+                        this.resetClustering();
+                    }
+                });
+
+                // Update positions on simulation tick
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            ticked() {
+                this.links
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodes
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            showTooltip(event, d) {
+                this.tooltip
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .style('opacity', 1)
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.type.replace('_', ' ')}</div>
+                        <div class="tooltip-cluster">Cluster: ${d.cluster}</div>
+                        ${d.description ? `<div style="margin-top: 6px; color: #ccc;">${d.description}</div>` : ''}
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            zoomIn() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+
+            focusOnEntity(entityNode) {
+                console.log('Focusing on entity:', entityNode.id);
+                this.focusedEntity = entityNode;
+                this.isEntityFocused = true;
+
+                // Find all entities connected to this entity
+                const connectedEntities = new Set();
+                this.data.links.forEach(link => {
+                    const sourceId = link.source.id || link.source;
+                    const targetId = link.target.id || link.target;
+
+                    if (sourceId === entityNode.id) {
+                        connectedEntities.add(targetId);
+                    } else if (targetId === entityNode.id) {
+                        connectedEntities.add(sourceId);
+                    }
+                });
+
+                console.log('Connected entities:', Array.from(connectedEntities));
+
+                // Reassign clusters for dynamic view
+                this.data.nodes.forEach(node => {
+                    if (node.id === entityNode.id) {
+                        node.cluster = 'focused_entity';
+                    } else if (connectedEntities.has(node.id)) {
+                        node.cluster = 'connected_entities';
+                    } else {
+                        node.cluster = 'background';
+                    }
+                });
+
+                // Update header text
+                d3.select('#interaction-hint')
+                    .html(`<span class="focused-mode">Focused on "${entityNode.id}"</span> • Click background to reset`)
+                    .classed('focused-mode', true);
+
+                // Update simulation parameters for focus mode
+                this.simulation
+                    .alphaDecay(0.1) // Much faster cooling in focus mode
+                    .velocityDecay(0.8); // High friction for quick settling
+
+                // Update node styling for focus mode
+                this.updateNodeStyling();
+
+                // Restart simulation with controlled energy
+                this.simulation.alpha(0.8).restart();
+            }
+
+            resetClustering() {
+                console.log('Resetting clustering');
+                this.isEntityFocused = false;
+                this.focusedEntity = null;
+
+                // Restore original clusters
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.originalClusters[node.id];
+                });
+
+                // Reset header text
+                d3.select('#interaction-hint')
+                    .html('Click any entity to focus on its connections • Click background to reset')
+                    .classed('focused-mode', false);
+
+                // Reset simulation parameters to normal mode
+                this.simulation
+                    .alphaDecay(0.05) // Back to slower cooling
+                    .velocityDecay(0.6); // Normal friction
+
+                // Reset node styling
+                this.updateNodeStyling();
+
+                // Restart simulation with moderate energy
+                this.simulation.alpha(0.6).restart();
+            }
+
+            updateNodeStyling() {
+                this.nodes
+                    .attr('stroke-width', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 3;
+                            if (d.cluster === 'connected_entities') return 2;
+                            return 1;
+                        }
+                        return d.cluster === 'core' ? 2 : 1;
+                    })
+                    .attr('opacity', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 1;
+                            if (d.cluster === 'connected_entities') return 1;
+                            return 0.3;
+                        }
+                        return 1;
+                    });
+
+                this.labels
+                    .attr('opacity', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 1;
+                            if (d.cluster === 'connected_entities') return 1;
+                            return 0.3;
+                        }
+                        return 1;
+                    });
+
+                this.links
+                    .attr('stroke-opacity', d => {
+                        if (this.isEntityFocused) {
+                            const sourceId = d.source.id || d.source;
+                            const targetId = d.target.id || d.target;
+
+                            if (sourceId === this.focusedEntity?.id || targetId === this.focusedEntity?.id) {
+                                return 0.8;
+                            }
+                            return 0.1;
+                        }
+                        return 0.4;
+                    });
+            }
+        }
+
+        // Initialize the network
+        const network = new ClusteredBlueNoteNetwork(networkData);
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight - 120;
+
+            network.width = newWidth;
+            network.height = newHeight;
+            network.svg.attr('width', newWidth).attr('height', newHeight);
+            network.simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
+            network.simulation.alpha(1).restart();
+        });
+    </script>
+</body>
+</html>

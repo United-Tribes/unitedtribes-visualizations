@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cover Art of Blue Note Records - Enhanced Entity Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #4fc3f7, #81c784, #ffb74d);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(37, 37, 38, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(79, 195, 247, 0.8);
+            border-color: #4fc3f7;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            max-width: 280px;
+        }
+
+        .tooltip-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #4fc3f7;
+        }
+
+        .tooltip-type {
+            color: #81c784;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(20, 20, 20, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            max-height: 70vh;
+            overflow-y: auto;
+            min-width: 160px;
+        }
+
+        .legend-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #4fc3f7;
+            font-size: 14px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>The Cover Art of Blue Note Records</h1>
+            <div class="subtitle">Enhanced Entity Network • 26 Comprehensive Queries • Visual Heritage & Cultural Impact</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Entity Types</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #64b5f6;"></div>
+                    <span>The Book</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #81c784;"></div>
+                    <span>Visual Designers</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffb74d;"></div>
+                    <span>Photographers</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f48771;"></div>
+                    <span>Label Leaders</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4fc3f7;"></div>
+                    <span>Jazz Musicians</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ba68c8;"></div>
+                    <span>Iconic Albums</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #a5d6a7;"></div>
+                    <span>Design Movement</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffcc80;"></div>
+                    <span>Cultural Context</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #bcaaa4;"></div>
+                    <span>Contemporary</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced Blue Note Records network data based on updated API with 26 comprehensive queries
+        const networkData = {
+            nodes: [
+                // The Book (Central Node)
+                { id: "The Cover Art of Blue Note Records", type: "book", category: "book", size: 20, description: "Comprehensive analysis of Blue Note's visual identity and album covers" },
+
+                // Core Visual Identity Team
+                { id: "Reid Miles", type: "designer", category: "designer", size: 16, description: "Primary graphic designer for Blue Note album covers, modernist aesthetic pioneer" },
+                { id: "Francis Wolff", type: "photographer", category: "photographer", size: 16, description: "Co-founder and photographer, captured intimate studio sessions" },
+                { id: "Alfred Lion", type: "label", category: "label", size: 16, description: "Co-founder and visual identity decision-maker" },
+
+                // Key Jazz Artists (from updated queries)
+                { id: "Art Blakey", type: "artist", category: "artist", size: 14, description: "Jazz Messengers leader, frequent Blue Note cover subject" },
+                { id: "Horace Silver", type: "artist", category: "artist", size: 14, description: "Hard bop pianist with distinctive album visual presentations" },
+                { id: "Thelonious Monk", type: "artist", category: "artist", size: 14, description: "Bebop pioneer with artistic Blue Note album covers" },
+                { id: "John Coltrane", type: "artist", category: "artist", size: 14, description: "Blue Train album cover became iconic visual reference" },
+                { id: "Lee Morgan", type: "artist", category: "artist", size: 14, description: "The Sidewinder album achieved commercial and visual success" },
+                { id: "Jimmy Smith", type: "artist", category: "artist", size: 12, description: "Organ jazz pioneer with strong visual identity branding" },
+
+                // Iconic Album Covers (from book analysis)
+                { id: "Blue Train", type: "album", category: "album", size: 12, description: "John Coltrane's iconic album with memorable cover design" },
+                { id: "The Sidewinder", type: "album", category: "album", size: 12, description: "Lee Morgan's commercial breakthrough with striking cover" },
+                { id: "Moanin'", type: "album", category: "album", size: 12, description: "Art Blakey album with classic Blue Note visual treatment" },
+                { id: "Song for My Father", type: "album", category: "album", size: 12, description: "Horace Silver album with distinctive cover art" },
+                { id: "Go!", type: "album", category: "album", size: 10, description: "Dexter Gordon album with bold visual design" },
+                { id: "Maiden Voyage", type: "album", category: "album", size: 10, description: "Herbie Hancock album with innovative cover art" },
+                { id: "Point of Departure", type: "album", category: "album", size: 10, description: "Andrew Hill album with modernist design approach" },
+
+                // Design & Cultural Context (from comprehensive queries)
+                { id: "Mid-Century Modern Design", type: "movement", category: "movement", size: 12, description: "Design movement influencing Blue Note visual aesthetic" },
+                { id: "Art Deco Movement", type: "movement", category: "movement", size: 10, description: "Earlier design influence on Blue Note covers" },
+                { id: "Bauhaus Movement", type: "movement", category: "movement", size: 10, description: "Modernist principles reflected in Blue Note design" },
+
+                // New York Cultural Scene
+                { id: "New York City 1950s-60s", type: "cultural", category: "cultural", size: 12, description: "Cultural scene that shaped Blue Note's visual identity" },
+                { id: "Jazz Photography Studios", type: "cultural", category: "cultural", size: 10, description: "Studio photography influencing album cover aesthetics" },
+
+                // Typography and Design Elements
+                { id: "Blue Note Typography", type: "design", category: "design", size: 10, description: "Distinctive text treatment and typeface choices" },
+                { id: "Color Palette Philosophy", type: "design", category: "design", size: 10, description: "Strategic color choices in Blue Note album design" },
+
+                // Contemporary Influence (from updated queries)
+                { id: "Modern Album Design", type: "contemporary", category: "contemporary", size: 10, description: "Blue Note's lasting influence on contemporary album covers" },
+                { id: "Vinyl Collector Culture", type: "contemporary", category: "contemporary", size: 10, description: "Appreciation for Blue Note cover art in collector community" },
+                { id: "Blue Note Reissue Program", type: "contemporary", category: "contemporary", size: 8, description: "Modern reissue programs maintaining visual presentation" },
+                { id: "Graphic Design Education", type: "contemporary", category: "contemporary", size: 8, description: "Blue Note covers studied in design programs" },
+
+                // Cultural Significance
+                { id: "Jazz Album Cover History", type: "cultural", category: "cultural", size: 10, description: "Blue Note's role in establishing album cover as art form" },
+                { id: "Record Industry Standards", type: "cultural", category: "cultural", size: 8, description: "Blue Note's impact on industry design standards" }
+            ],
+            links: [
+                // Book connections (central hub)
+                { source: "The Cover Art of Blue Note Records", target: "Reid Miles", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Francis Wolff", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Alfred Lion", strength: 8 },
+
+                // Artist to Designer relationships
+                { source: "Reid Miles", target: "Art Blakey", strength: 8 },
+                { source: "Reid Miles", target: "Horace Silver", strength: 8 },
+                { source: "Reid Miles", target: "Thelonious Monk", strength: 8 },
+                { source: "Reid Miles", target: "John Coltrane", strength: 8 },
+                { source: "Reid Miles", target: "Lee Morgan", strength: 8 },
+                { source: "Reid Miles", target: "Jimmy Smith", strength: 6 },
+
+                // Photographer to Artist relationships
+                { source: "Francis Wolff", target: "Art Blakey", strength: 9 },
+                { source: "Francis Wolff", target: "Horace Silver", strength: 8 },
+                { source: "Francis Wolff", target: "Thelonious Monk", strength: 8 },
+                { source: "Francis Wolff", target: "John Coltrane", strength: 7 },
+
+                // Artist to Album relationships
+                { source: "John Coltrane", target: "Blue Train", strength: 10 },
+                { source: "Lee Morgan", target: "The Sidewinder", strength: 10 },
+                { source: "Art Blakey", target: "Moanin'", strength: 10 },
+                { source: "Horace Silver", target: "Song for My Father", strength: 10 },
+
+                // Design to Album relationships
+                { source: "Reid Miles", target: "Blue Train", strength: 9 },
+                { source: "Reid Miles", target: "The Sidewinder", strength: 9 },
+                { source: "Reid Miles", target: "Moanin'", strength: 8 },
+                { source: "Reid Miles", target: "Point of Departure", strength: 8 },
+
+                // Cultural context connections
+                { source: "Mid-Century Modern Design", target: "Reid Miles", strength: 8 },
+                { source: "Art Deco Movement", target: "Reid Miles", strength: 6 },
+                { source: "Bauhaus Movement", target: "Reid Miles", strength: 7 },
+                { source: "New York City 1950s-60s", target: "Francis Wolff", strength: 8 },
+                { source: "New York City 1950s-60s", target: "Alfred Lion", strength: 8 },
+
+                // Design elements
+                { source: "Blue Note Typography", target: "Reid Miles", strength: 9 },
+                { source: "Color Palette Philosophy", target: "Reid Miles", strength: 8 },
+                { source: "Jazz Photography Studios", target: "Francis Wolff", strength: 8 },
+
+                // Contemporary influence
+                { source: "Modern Album Design", target: "Reid Miles", strength: 7 },
+                { source: "Vinyl Collector Culture", target: "The Cover Art of Blue Note Records", strength: 8 },
+                { source: "Blue Note Reissue Program", target: "The Cover Art of Blue Note Records", strength: 6 },
+                { source: "Graphic Design Education", target: "Reid Miles", strength: 7 },
+
+                // Cultural significance
+                { source: "Jazz Album Cover History", target: "The Cover Art of Blue Note Records", strength: 9 },
+                { source: "Record Industry Standards", target: "Reid Miles", strength: 7 }
+            ]
+        };
+
+        // Color mapping for different entity types
+        const colorMap = {
+            book: '#64b5f6',
+            designer: '#81c784',
+            photographer: '#ffb74d',
+            label: '#f48771',
+            artist: '#4fc3f7',
+            album: '#ba68c8',
+            movement: '#a5d6a7',
+            cultural: '#ffcc80',
+            contemporary: '#bcaaa4',
+            design: '#81c784'
+        };
+
+        // Initialize network visualization
+        class NetworkVisualization {
+            constructor(data) {
+                this.data = data;
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+                this.svg = d3.select('#network')
+                    .attr('width', this.width)
+                    .attr('height', this.height);
+
+                // Set up zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.g.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create main group for zoomable content
+                this.g = this.svg.append('g');
+
+                this.tooltip = d3.select('#tooltip');
+
+                this.setupSimulation();
+                this.render();
+            }
+
+            setupSimulation() {
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force('link', d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => 120 - (d.strength * 8))
+                        .strength(d => d.strength * 0.1))
+                    .force('charge', d3.forceManyBody()
+                        .strength(d => -300 - (d.size * 20)))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide()
+                        .radius(d => d.size + 2));
+            }
+
+            render() {
+                // Links
+                this.links = this.g.selectAll('.link')
+                    .data(this.data.links)
+                    .join('line')
+                    .attr('class', 'link')
+                    .attr('stroke', '#3e3e42')
+                    .attr('stroke-width', d => Math.sqrt(d.strength))
+                    .attr('stroke-opacity', 0.6);
+
+                // Nodes
+                this.nodes = this.g.selectAll('.node')
+                    .data(this.data.nodes)
+                    .join('circle')
+                    .attr('class', 'node')
+                    .attr('r', d => d.size || 8)
+                    .attr('fill', d => colorMap[d.category] || '#666')
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 1.5)
+                    .style('cursor', 'pointer')
+                    .call(this.drag());
+
+                // Node labels
+                this.labels = this.g.selectAll('.label')
+                    .data(this.data.nodes)
+                    .join('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('font-size', d => `${Math.max(10, d.size * 0.8)}px`)
+                    .style('fill', '#fff')
+                    .style('pointer-events', 'none')
+                    .style('text-shadow', '0 0 3px #000')
+                    .text(d => {
+                        if (d.id.length > 20) return d.id.substring(0, 17) + '...';
+                        return d.id;
+                    });
+
+                // Event handlers
+                this.nodes
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Update positions on simulation tick
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            ticked() {
+                this.links
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodes
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            showTooltip(event, d) {
+                this.tooltip
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .style('opacity', 1)
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.type}</div>
+                        ${d.description ? `<div style="margin-top: 6px; color: #ccc;">${d.description}</div>` : ''}
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            zoomIn() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+        }
+
+        // Initialize the network
+        const network = new NetworkVisualization(networkData);
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight - 120;
+
+            network.width = newWidth;
+            network.height = newHeight;
+            network.svg.attr('width', newWidth).attr('height', newHeight);
+            network.simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
+            network.simulation.alpha(1).restart();
+        });
+    </script>
+</body>
+</html>

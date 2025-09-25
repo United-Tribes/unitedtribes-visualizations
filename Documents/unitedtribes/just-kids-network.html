@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Kids - Patti Smith Cultural Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #f48771, #ba68c8, #4fc3f7);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(37, 37, 38, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(79, 195, 247, 0.8);
+            border-color: #4fc3f7;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(26, 26, 26, 0.95);
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #f48771;
+            font-size: 14px;
+            line-height: 1.4;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            max-width: 300px;
+            z-index: 2000;
+        }
+
+        .tooltip-title {
+            font-weight: bold;
+            color: #f48771;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-type {
+            color: #ba68c8;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tooltip-evidence {
+            margin-top: 6px;
+            color: #cccccc;
+            font-size: 13px;
+        }
+
+        .node {
+            cursor: pointer;
+            stroke-width: 2;
+            transition: all 0.2s ease;
+        }
+
+        .node.central { fill: #f48771; stroke: #ff7043; }
+        .node.musician { fill: #4fc3f7; stroke: #29b6f6; }
+        .node.poet { fill: #ba68c8; stroke: #ab47bc; }
+        .node.visual_artist { fill: #81c784; stroke: #66bb6a; }
+        .node.writer { fill: #ffb74d; stroke: #ffa726; }
+        .node.venue { fill: #a1887f; stroke: #8d6e63; }
+        .node.book { fill: #64b5f6; stroke: #42a5f5; }
+        .node.album { fill: #e1bee7; stroke: #ce93d8; }
+
+        .node:hover {
+            stroke-width: 3;
+            filter: brightness(1.3);
+        }
+
+        .link {
+            stroke: #666;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5;
+            transition: all 0.2s ease;
+        }
+
+        .link.mentor_student { stroke: #f48771; }
+        .link.collaboration { stroke: #4fc3f7; }
+        .link.contemporary { stroke: #ba68c8; }
+        .link.influence { stroke: #81c784; }
+        .link.lived_with { stroke: #ff7043; }
+        .link.cultural_space { stroke: #a1887f; }
+        .link.created { stroke: #64b5f6; }
+
+        .link:hover {
+            stroke-opacity: 1;
+            stroke-width: 2;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(26, 26, 26, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            font-size: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #f48771;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Just Kids</h1>
+            <div class="subtitle">Patti Smith & Robert Mapplethorpe • Chelsea Hotel Era • NYC Art Scene 1960s-70s</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Entity Types</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f48771;"></div>
+                    <span>Central Figures</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4fc3f7;"></div>
+                    <span>Musicians</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ba68c8;"></div>
+                    <span>Poets</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #81c784;"></div>
+                    <span>Visual Artists</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffb74d;"></div>
+                    <span>Writers</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #a1887f;"></div>
+                    <span>Venues</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #64b5f6;"></div>
+                    <span>Books/Albums</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Just Kids book network data based on API discoveries
+        const networkData = {
+            nodes: [
+                // Central figures
+                { id: "Patti Smith", type: "central", category: "central" },
+                { id: "Robert Mapplethorpe", type: "central", category: "central" },
+
+                // The Book
+                { id: "Just Kids", type: "book", category: "book" },
+
+                // Major Visual Artists
+                { id: "Andy Warhol", type: "visual_artist", category: "visual_artist" },
+                { id: "Pablo Picasso", type: "visual_artist", category: "visual_artist" },
+
+                // Beat Generation & Writers
+                { id: "Allen Ginsberg", type: "poet", category: "poet" },
+                { id: "Arthur Rimbaud", type: "poet", category: "poet" },
+                { id: "William Burroughs", type: "writer", category: "writer" },
+                { id: "Jean Genet", type: "writer", category: "writer" },
+                { id: "Jim Carroll", type: "poet", category: "poet" },
+                { id: "Sam Shepard", type: "writer", category: "writer" },
+
+                // Literary Figures
+                { id: "Virginia Woolf", type: "writer", category: "writer" },
+                { id: "Charles Bukowski", type: "writer", category: "writer" },
+
+                // Musicians - Rock Icons
+                { id: "Bob Dylan", type: "musician", category: "musician" },
+                { id: "Jimi Hendrix", type: "musician", category: "musician" },
+                { id: "Janis Joplin", type: "musician", category: "musician" },
+                { id: "Lou Reed", type: "musician", category: "musician" },
+                { id: "Jim Morrison", type: "musician", category: "musician" },
+                { id: "John Coltrane", type: "musician", category: "musician" },
+                { id: "Brian Jones", type: "musician", category: "musician" },
+                { id: "Pete Townshend", type: "musician", category: "musician" },
+
+                // Contemporary Figures
+                { id: "Johnny Depp", type: "actor", category: "visual_artist" },
+                { id: "Michael Stipe", type: "musician", category: "musician" },
+                { id: "Neil Young", type: "musician", category: "musician" },
+
+                // Cultural Spaces
+                { id: "Chelsea Hotel", type: "venue", category: "venue" },
+                { id: "CBGB", type: "venue", category: "venue" },
+                { id: "Max's Kansas City", type: "venue", category: "venue" },
+                { id: "Electric Lady Studios", type: "venue", category: "venue" },
+
+                // Albums/Works
+                { id: "Horses", type: "album", category: "album" },
+                { id: "The Doors", type: "album", category: "album" }
+            ],
+
+            links: [
+                // Core relationship
+                { source: "Patti Smith", target: "Robert Mapplethorpe", relationship_type: "mentor_student", confidence: 0.95, evidence: "Patti Smith discusses living with and being mentored by Robert Mapplethorpe in the Chelsea Hotel in the late 1960s.", entity_type: "central" },
+
+                // Book connections
+                { source: "Patti Smith", target: "Just Kids", relationship_type: "created", confidence: 1.0, evidence: "Just Kids is Patti Smith's National Book Award-winning memoir about her relationship with Robert Mapplethorpe.", entity_type: "book" },
+                { source: "Robert Mapplethorpe", target: "Just Kids", relationship_type: "subject", confidence: 1.0, evidence: "Robert Mapplethorpe is the central subject of Just Kids memoir.", entity_type: "book" },
+
+                // Chelsea Hotel scene
+                { source: "Patti Smith", target: "Chelsea Hotel", relationship_type: "cultural_space", confidence: 0.9, evidence: "The Chelsea Hotel was central to Patti Smith's artistic development and relationship with Robert Mapplethorpe.", entity_type: "venue" },
+                { source: "Robert Mapplethorpe", target: "Chelsea Hotel", relationship_type: "cultural_space", confidence: 0.9, evidence: "Robert Mapplethorpe lived at the Chelsea Hotel with Patti Smith during their formative years.", entity_type: "venue" },
+
+                // Musical connections from API data
+                { source: "Patti Smith", target: "Jimi Hendrix", relationship_type: "contemporary", confidence: 0.9, evidence: "Patti Smith recounts meeting Jimi Hendrix at the opening party for Electric Lady Studios in 1970, just weeks before his death.", entity_type: "musician" },
+                { source: "Patti Smith", target: "Janis Joplin", relationship_type: "collaboration", confidence: 0.9, evidence: "Patti Smith talks about 'hanging out with and writing lyrics for Janis Joplin'.", entity_type: "musician" },
+                { source: "Patti Smith", target: "Bob Dylan", relationship_type: "influence", confidence: 0.8, evidence: "Bob Dylan was a major influence on Patti Smith's artistic development.", entity_type: "musician" },
+                { source: "Patti Smith", target: "Lou Reed", relationship_type: "contemporary", confidence: 0.8, evidence: "Lou Reed was part of the NYC art scene that influenced Patti Smith.", entity_type: "musician" },
+                { source: "Patti Smith", target: "John Coltrane", relationship_type: "influence", confidence: 0.7, evidence: "John Coltrane's spiritual approach to music influenced Patti Smith's artistic philosophy.", entity_type: "musician" },
+
+                // Beat Generation connections
+                { source: "Patti Smith", target: "Allen Ginsberg", relationship_type: "influence", confidence: 0.8, evidence: "Allen Ginsberg was a major influence on Patti Smith's poetry and worldview.", entity_type: "poet" },
+                { source: "Patti Smith", target: "Arthur Rimbaud", relationship_type: "influence", confidence: 0.9, evidence: "Arthur Rimbaud was a major literary influence on Patti Smith's poetic style.", entity_type: "poet" },
+                { source: "Patti Smith", target: "William Burroughs", relationship_type: "influence", confidence: 0.7, evidence: "William Burroughs influenced the counterculture scene Patti Smith was part of.", entity_type: "writer" },
+                { source: "Patti Smith", target: "Jim Carroll", relationship_type: "contemporary", confidence: 0.8, evidence: "Jim Carroll was part of the same NYC artistic scene as Patti Smith.", entity_type: "poet" },
+
+                // Visual Art connections
+                { source: "Patti Smith", target: "Andy Warhol", relationship_type: "contemporary", confidence: 0.8, evidence: "Andy Warhol was a central figure in the NYC art scene that Patti Smith inhabited.", entity_type: "visual_artist" },
+                { source: "Robert Mapplethorpe", target: "Andy Warhol", relationship_type: "contemporary", confidence: 0.7, evidence: "Both were part of the NYC visual art scene of the 1970s.", entity_type: "visual_artist" },
+                { source: "Patti Smith", target: "Pablo Picasso", relationship_type: "influence", confidence: 0.6, evidence: "Picasso's revolutionary approach to art influenced the avant-garde scene.", entity_type: "visual_artist" },
+
+                // Literary influences
+                { source: "Patti Smith", target: "Virginia Woolf", relationship_type: "influence", confidence: 0.7, evidence: "Virginia Woolf's modernist writing influenced Patti Smith's literary development.", entity_type: "writer" },
+                { source: "Patti Smith", target: "Charles Bukowski", relationship_type: "influence", confidence: 0.6, evidence: "Bukowski's raw, honest writing style resonated with the counterculture movement.", entity_type: "writer" },
+                { source: "Patti Smith", target: "Jean Genet", relationship_type: "influence", confidence: 0.7, evidence: "Jean Genet's avant-garde writing influenced artistic circles.", entity_type: "writer" },
+                { source: "Patti Smith", target: "Sam Shepard", relationship_type: "contemporary", confidence: 0.7, evidence: "Sam Shepard was part of the same artistic circle as Patti Smith.", entity_type: "writer" },
+
+                // Venue connections
+                { source: "Patti Smith", target: "CBGB", relationship_type: "cultural_space", confidence: 0.8, evidence: "CBGB was the iconic venue where Patti Smith helped launch the punk movement.", entity_type: "venue" },
+                { source: "Patti Smith", target: "Max's Kansas City", relationship_type: "cultural_space", confidence: 0.7, evidence: "Max's Kansas City was a key venue in the NYC art/music scene.", entity_type: "venue" },
+                { source: "Jimi Hendrix", target: "Electric Lady Studios", relationship_type: "cultural_space", confidence: 0.9, evidence: "Jimi Hendrix owned and operated Electric Lady Studios.", entity_type: "venue" },
+
+                // Creative works
+                { source: "Patti Smith", target: "Horses", relationship_type: "created", confidence: 1.0, evidence: "Horses (1975) was Patti Smith's groundbreaking debut album.", entity_type: "album" },
+                { source: "Jim Morrison", target: "The Doors", relationship_type: "created", confidence: 1.0, evidence: "Jim Morrison was the lead singer and primary lyricist of The Doors.", entity_type: "album" },
+
+                // Cross-connections between figures
+                { source: "Allen Ginsberg", target: "William Burroughs", relationship_type: "collaboration", confidence: 0.8, evidence: "Both were central figures in the Beat Generation movement.", entity_type: "writer" },
+                { source: "Arthur Rimbaud", target: "Jim Morrison", relationship_type: "influence", confidence: 0.7, evidence: "Rimbaud's poetry heavily influenced Jim Morrison's lyrical style.", entity_type: "poet" },
+                { source: "Bob Dylan", target: "Allen Ginsberg", relationship_type: "influence", confidence: 0.7, evidence: "Allen Ginsberg influenced Bob Dylan's poetic approach to songwriting.", entity_type: "poet" },
+
+                // Contemporary connections
+                { source: "Patti Smith", target: "Johnny Depp", relationship_type: "contemporary", confidence: 0.5, evidence: "Johnny Depp shares artistic sensibilities with the alternative culture Patti Smith represents.", entity_type: "visual_artist" },
+                { source: "Patti Smith", target: "Michael Stipe", relationship_type: "influence", confidence: 0.6, evidence: "Patti Smith influenced later alternative rock artists like Michael Stipe.", entity_type: "musician" },
+                { source: "Patti Smith", target: "Neil Young", relationship_type: "contemporary", confidence: 0.6, evidence: "Both were part of the broader folk/rock artistic community.", entity_type: "musician" }
+            ]
+        };
+
+        class JustKidsNetwork {
+            constructor() {
+                this.svg = d3.select('#network');
+                this.tooltip = d3.select('#tooltip');
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg.attr('width', this.width).attr('height', this.height);
+
+                this.processData();
+                this.createVisualization();
+                this.setupResize();
+            }
+
+            processData() {
+                // Create unique nodes
+                this.nodes = [...new Map(networkData.nodes.map(d => [d.id, d])).values()];
+                this.links = networkData.links;
+
+                // Create force simulation
+                this.simulation = d3.forceSimulation(this.nodes)
+                    .force('link', d3.forceLink(this.links).id(d => d.id).distance(d => {
+                        // Shorter distance for central figures
+                        if (d.source.category === 'central' || d.target.category === 'central') {
+                            return 100;
+                        }
+                        return 150;
+                    }).strength(0.6))
+                    .force('charge', d3.forceManyBody().strength(d => {
+                        return d.category === 'central' ? -600 : -300;
+                    }))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide().radius(d => this.getNodeSize(d) + 5));
+            }
+
+            createVisualization() {
+                // Create container group for zooming
+                this.container = this.svg.append('g')
+                    .attr('class', 'zoom-container');
+
+                // Create zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.container.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create links
+                this.linkElements = this.container
+                    .selectAll('.link')
+                    .data(this.links)
+                    .enter()
+                    .append('line')
+                    .attr('class', d => `link ${d.relationship_type.replace(/\s+/g, '_')}`)
+                    .attr('stroke-width', d => Math.sqrt(d.confidence * 4));
+
+                // Create nodes
+                this.nodeElements = this.container
+                    .selectAll('.node')
+                    .data(this.nodes)
+                    .enter()
+                    .append('circle')
+                    .attr('class', d => `node ${d.category}`)
+                    .attr('r', d => this.getNodeSize(d))
+                    .call(d3.drag()
+                        .on('start', (event, d) => this.dragStarted(event, d))
+                        .on('drag', (event, d) => this.dragged(event, d))
+                        .on('end', (event, d) => this.dragEnded(event, d)));
+
+                // Add labels
+                this.labelElements = this.container
+                    .selectAll('.label')
+                    .data(this.nodes)
+                    .enter()
+                    .append('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('fill', '#fff')
+                    .style('font-size', d => d.category === 'central' ? '14px' : '12px')
+                    .style('font-weight', d => d.category === 'central' ? 'bold' : 'normal')
+                    .style('text-shadow', '1px 1px 2px rgba(0,0,0,0.8)')
+                    .style('pointer-events', 'none')
+                    .text(d => this.truncateText(d.id, d.category === 'central' ? 20 : 15));
+
+                // Add event listeners
+                this.nodeElements
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip())
+                    .on('click', (event, d) => this.handleNodeClick(event, d));
+
+                this.linkElements
+                    .on('mouseover', (event, d) => this.showLinkTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Start simulation
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            getNodeSize(d) {
+                const sizes = {
+                    central: 30,
+                    musician: 18,
+                    poet: 16,
+                    visual_artist: 18,
+                    writer: 16,
+                    venue: 14,
+                    book: 20,
+                    album: 15,
+                    actor: 14
+                };
+                return sizes[d.category] || 12;
+            }
+
+            truncateText(text, maxLength) {
+                return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+            }
+
+            ticked() {
+                this.linkElements
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodeElements
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labelElements
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            showTooltip(event, d) {
+                const connections = this.links.filter(link =>
+                    link.source.id === d.id || link.target.id === d.id
+                ).length;
+
+                this.tooltip
+                    .style('opacity', 1)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.category.replace('_', ' ')}</div>
+                        <div class="tooltip-evidence">Connections: ${connections}</div>
+                    `);
+            }
+
+            showLinkTooltip(event, d) {
+                this.tooltip
+                    .style('opacity', 1)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <div class="tooltip-title">${d.source.id} → ${d.target.id}</div>
+                        <div class="tooltip-type">${d.relationship_type.replace('_', ' ')}</div>
+                        <div class="tooltip-evidence">${d.evidence}</div>
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            handleNodeClick(event, d) {
+                console.log('Clicked node:', d);
+                // Could implement additional interactions here
+            }
+
+            dragStarted(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            dragEnded(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            zoomIn() {
+                this.svg.transition().duration(300).call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().duration(300).call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().duration(500).call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+
+            setupResize() {
+                window.addEventListener('resize', () => {
+                    this.width = window.innerWidth;
+                    this.height = window.innerHeight - 120;
+
+                    this.svg.attr('width', this.width).attr('height', this.height);
+                    this.simulation.force('center', d3.forceCenter(this.width / 2, this.height / 2));
+                    this.simulation.alpha(0.3).restart();
+                });
+            }
+        }
+
+        // Initialize the network
+        let network;
+        document.addEventListener('DOMContentLoaded', function() {
+            network = new JustKidsNetwork();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cover Art of Blue Note Records - Entity Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a1a, #2d2d30);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #3e3e42;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #4fc3f7, #81c784, #ffb74d);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #cccccc;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: radial-gradient(circle at center, #1a1a1a, #0a0a0a);
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 40px;
+            height: 40px;
+            background: rgba(37, 37, 38, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(79, 195, 247, 0.8);
+            border-color: #4fc3f7;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(26, 26, 26, 0.95);
+            color: #fff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #4fc3f7;
+            font-size: 14px;
+            line-height: 1.4;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            max-width: 300px;
+            z-index: 2000;
+        }
+
+        .tooltip-title {
+            font-weight: bold;
+            color: #4fc3f7;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-type {
+            color: #81c784;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tooltip-evidence {
+            margin-top: 6px;
+            color: #cccccc;
+            font-size: 13px;
+        }
+
+        .node {
+            cursor: pointer;
+            stroke-width: 2;
+            transition: all 0.2s ease;
+        }
+
+        .node.artist { fill: #4fc3f7; stroke: #29b6f6; }
+        .node.designer { fill: #81c784; stroke: #66bb6a; }
+        .node.photographer { fill: #ffb74d; stroke: #ffa726; }
+        .node.album { fill: #ba68c8; stroke: #ab47bc; }
+        .node.label { fill: #f48771; stroke: #ff7043; }
+        .node.book { fill: #64b5f6; stroke: #42a5f5; }
+        .node.venue { fill: #a1887f; stroke: #8d6e63; }
+
+        .node:hover {
+            stroke-width: 3;
+            filter: brightness(1.3);
+        }
+
+        .link {
+            stroke: #666;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5;
+            transition: all 0.2s ease;
+        }
+
+        .link.collaboration { stroke: #4fc3f7; }
+        .link.designed { stroke: #81c784; }
+        .link.photographed { stroke: #ffb74d; }
+        .link.released_on { stroke: #f48771; }
+        .link.featured_in { stroke: #64b5f6; }
+        .link.recorded_at { stroke: #a1887f; }
+
+        .link:hover {
+            stroke-opacity: 1;
+            stroke-width: 2;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(26, 26, 26, 0.9);
+            border: 1px solid #3e3e42;
+            border-radius: 8px;
+            padding: 16px;
+            font-size: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #4fc3f7;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>The Cover Art of Blue Note Records</h1>
+            <div class="subtitle">Entity Network • Artists • Designers • Albums • Visual Heritage</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Entity Types</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4fc3f7;"></div>
+                    <span>Musicians</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #81c784;"></div>
+                    <span>Designers</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffb74d;"></div>
+                    <span>Photographers</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ba68c8;"></div>
+                    <span>Albums</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f48771;"></div>
+                    <span>Record Label</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #64b5f6;"></div>
+                    <span>Book</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Blue Note Records book network data based on API discoveries
+        const networkData = {
+            nodes: [
+                // The Book
+                { id: "The Cover Art of Blue Note Records", type: "book", category: "book" },
+
+                // Key Visual Designers
+                { id: "Reid Miles", type: "designer", category: "designer" },
+                { id: "Francis Wolff", type: "photographer", category: "photographer" },
+
+                // Label Founders
+                { id: "Alfred Lion", type: "label", category: "label" },
+                { id: "Blue Note Records", type: "label", category: "label" },
+
+                // Key Artists Featured
+                { id: "Lee Morgan", type: "artist", category: "artist" },
+                { id: "John Coltrane", type: "artist", category: "artist" },
+                { id: "Art Blakey", type: "artist", category: "artist" },
+                { id: "Herbie Hancock", type: "artist", category: "artist" },
+                { id: "Joe Henderson", type: "artist", category: "artist" },
+                { id: "Dexter Gordon", type: "artist", category: "artist" },
+                { id: "Jackie McLean", type: "artist", category: "artist" },
+                { id: "Hank Mobley", type: "artist", category: "artist" },
+                { id: "Tony Williams", type: "artist", category: "artist" },
+                { id: "Kenny Dorham", type: "artist", category: "artist" },
+                { id: "Freddie Roach", type: "artist", category: "artist" },
+                { id: "Andrew Hill", type: "artist", category: "artist" },
+
+                // Iconic Albums (with famous covers)
+                { id: "The Sidewinder", type: "album", category: "album" },
+                { id: "Blue Train", type: "album", category: "album" },
+                { id: "Moanin'", type: "album", category: "album" },
+                { id: "Maiden Voyage", type: "album", category: "album" },
+                { id: "Page One", type: "album", category: "album" },
+                { id: "Go!", type: "album", category: "album" },
+                { id: "Destination... Out!", type: "album", category: "album" },
+                { id: "Roll Call", type: "album", category: "album" },
+                { id: "Spring", type: "album", category: "album" },
+                { id: "Una Mas", type: "album", category: "album" },
+                { id: "Down and Out Blues", type: "album", category: "album" },
+                { id: "Point of Departure", type: "album", category: "album" },
+
+                // Producer/Archivist
+                { id: "Michael Cuscuna", type: "producer", category: "producer" },
+                { id: "Rudy Van Gelder", type: "engineer", category: "engineer" },
+
+                // Studios
+                { id: "Van Gelder Studio", type: "venue", category: "venue" },
+                { id: "Reeves Sound Studios", type: "venue", category: "venue" }
+            ],
+
+            links: [
+                // Book connections
+                { source: "The Cover Art of Blue Note Records", target: "Reid Miles", relationship_type: "features", confidence: 1.0, evidence: "Reid Miles is the primary album cover designer featured extensively in the book.", entity_type: "designer" },
+                { source: "The Cover Art of Blue Note Records", target: "Francis Wolff", relationship_type: "features", confidence: 1.0, evidence: "Francis Wolff's photography is central to Blue Note's visual identity.", entity_type: "photographer" },
+                { source: "The Cover Art of Blue Note Records", target: "Alfred Lion", relationship_type: "features", confidence: 1.0, evidence: "Alfred Lion co-founded Blue Note and shaped its artistic vision.", entity_type: "label" },
+                { source: "The Cover Art of Blue Note Records", target: "Blue Note Records", relationship_type: "about", confidence: 1.0, evidence: "The book documents the visual history of Blue Note Records.", entity_type: "label" },
+
+                // Reid Miles design work
+                { source: "Reid Miles", target: "The Sidewinder", relationship_type: "designed", confidence: 1.0, evidence: "Reid Miles designed the iconic Sidewinder album cover.", entity_type: "album" },
+                { source: "Reid Miles", target: "Blue Train", relationship_type: "designed", confidence: 1.0, evidence: "Reid Miles designed the Blue Train album cover.", entity_type: "album" },
+                { source: "Reid Miles", target: "Maiden Voyage", relationship_type: "designed", confidence: 1.0, evidence: "Reid Miles designed the Maiden Voyage album cover.", entity_type: "album" },
+                { source: "Reid Miles", target: "Page One", relationship_type: "designed", confidence: 1.0, evidence: "Reid Miles designed the Page One album cover.", entity_type: "album" },
+                { source: "Reid Miles", target: "Point of Departure", relationship_type: "designed", confidence: 1.0, evidence: "Reid Miles designed the Point of Departure album cover.", entity_type: "album" },
+
+                // Francis Wolff photography
+                { source: "Francis Wolff", target: "Lee Morgan", relationship_type: "photographed", confidence: 1.0, evidence: "Francis Wolff photographed Lee Morgan for Blue Note sessions.", entity_type: "artist" },
+                { source: "Francis Wolff", target: "John Coltrane", relationship_type: "photographed", confidence: 1.0, evidence: "Francis Wolff photographed John Coltrane for Blue Note recordings.", entity_type: "artist" },
+                { source: "Francis Wolff", target: "Art Blakey", relationship_type: "photographed", confidence: 1.0, evidence: "Francis Wolff photographed Art Blakey extensively.", entity_type: "artist" },
+                { source: "Francis Wolff", target: "Herbie Hancock", relationship_type: "photographed", confidence: 1.0, evidence: "Francis Wolff photographed Herbie Hancock sessions.", entity_type: "artist" },
+
+                // Artist-Album relationships
+                { source: "Lee Morgan", target: "The Sidewinder", relationship_type: "recorded", confidence: 1.0, evidence: "The Sidewinder is Lee Morgan's most famous album.", entity_type: "album" },
+                { source: "John Coltrane", target: "Blue Train", relationship_type: "recorded", confidence: 1.0, evidence: "Blue Train is John Coltrane's classic Blue Note album.", entity_type: "album" },
+                { source: "Art Blakey", target: "Moanin'", relationship_type: "recorded", confidence: 1.0, evidence: "Moanin' is an Art Blakey and the Jazz Messengers album.", entity_type: "album" },
+                { source: "Herbie Hancock", target: "Maiden Voyage", relationship_type: "recorded", confidence: 1.0, evidence: "Maiden Voyage is Herbie Hancock's breakthrough album.", entity_type: "album" },
+                { source: "Joe Henderson", target: "Page One", relationship_type: "recorded", confidence: 1.0, evidence: "Page One is Joe Henderson's debut album.", entity_type: "album" },
+                { source: "Dexter Gordon", target: "Go!", relationship_type: "recorded", confidence: 1.0, evidence: "Go! is a classic Dexter Gordon album.", entity_type: "album" },
+                { source: "Andrew Hill", target: "Point of Departure", relationship_type: "recorded", confidence: 1.0, evidence: "Point of Departure is Andrew Hill's avant-garde masterpiece.", entity_type: "album" },
+
+                // Blue Note Records connections
+                { source: "Blue Note Records", target: "Alfred Lion", relationship_type: "founded_by", confidence: 1.0, evidence: "Alfred Lion co-founded Blue Note Records.", entity_type: "label" },
+                { source: "Blue Note Records", target: "Francis Wolff", relationship_type: "founded_by", confidence: 1.0, evidence: "Francis Wolff co-founded Blue Note Records.", entity_type: "photographer" },
+                { source: "Blue Note Records", target: "Reid Miles", relationship_type: "employed", confidence: 1.0, evidence: "Reid Miles was Blue Note's primary visual designer.", entity_type: "designer" },
+                { source: "Blue Note Records", target: "Rudy Van Gelder", relationship_type: "recorded_with", confidence: 1.0, evidence: "Rudy Van Gelder engineered most Blue Note recordings.", entity_type: "engineer" },
+
+                // Production connections
+                { source: "Michael Cuscuna", target: "Blue Note Records", relationship_type: "producer", confidence: 1.0, evidence: "Michael Cuscuna was a key Blue Note producer and archivist.", entity_type: "label" },
+                { source: "Rudy Van Gelder", target: "Van Gelder Studio", relationship_type: "owned", confidence: 1.0, evidence: "Rudy Van Gelder operated his famous recording studio.", entity_type: "venue" },
+
+                // Studio connections
+                { source: "Van Gelder Studio", target: "John Coltrane", relationship_type: "recorded_at", confidence: 1.0, evidence: "John Coltrane recorded many albums at Van Gelder Studio.", entity_type: "artist" },
+                { source: "Van Gelder Studio", target: "Lee Morgan", relationship_type: "recorded_at", confidence: 1.0, evidence: "Lee Morgan recorded The Sidewinder at Van Gelder Studio.", entity_type: "artist" },
+                { source: "Van Gelder Studio", target: "Art Blakey", relationship_type: "recorded_at", confidence: 1.0, evidence: "Art Blakey recorded many Jazz Messengers albums there.", entity_type: "artist" },
+
+                // Musical collaborations
+                { source: "Lee Morgan", target: "Art Blakey", relationship_type: "collaboration", confidence: 1.0, evidence: "Lee Morgan was a member of Art Blakey's Jazz Messengers.", entity_type: "artist" },
+                { source: "John Coltrane", target: "Lee Morgan", relationship_type: "collaboration", confidence: 0.9, evidence: "Both were part of the Blue Note family of artists.", entity_type: "artist" },
+                { source: "Tony Williams", target: "Herbie Hancock", relationship_type: "collaboration", confidence: 0.9, evidence: "Tony Williams played on Herbie Hancock sessions.", entity_type: "artist" },
+                { source: "Kenny Dorham", target: "Joe Henderson", relationship_type: "collaboration", confidence: 0.8, evidence: "Kenny Dorham and Joe Henderson both recorded for Blue Note.", entity_type: "artist" }
+            ]
+        };
+
+        class BlueNoteBookNetwork {
+            constructor() {
+                this.svg = d3.select('#network');
+                this.tooltip = d3.select('#tooltip');
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg.attr('width', this.width).attr('height', this.height);
+
+                this.processData();
+                this.createVisualization();
+                this.setupResize();
+            }
+
+            processData() {
+                // Create unique nodes
+                this.nodes = [...new Map(networkData.nodes.map(d => [d.id, d])).values()];
+                this.links = networkData.links;
+
+                // Create force simulation
+                this.simulation = d3.forceSimulation(this.nodes)
+                    .force('link', d3.forceLink(this.links).id(d => d.id).distance(150).strength(0.5))
+                    .force('charge', d3.forceManyBody().strength(-400))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide().radius(30));
+            }
+
+            createVisualization() {
+                // Create container group for zooming
+                this.container = this.svg.append('g')
+                    .attr('class', 'zoom-container');
+
+                // Create zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.container.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create links
+                this.linkElements = this.container
+                    .selectAll('.link')
+                    .data(this.links)
+                    .enter()
+                    .append('line')
+                    .attr('class', d => `link ${d.relationship_type.replace(/\s+/g, '_')}`)
+                    .attr('stroke-width', d => Math.sqrt(d.confidence * 3));
+
+                // Create nodes
+                this.nodeElements = this.container
+                    .selectAll('.node')
+                    .data(this.nodes)
+                    .enter()
+                    .append('circle')
+                    .attr('class', d => `node ${d.category}`)
+                    .attr('r', d => this.getNodeSize(d))
+                    .call(d3.drag()
+                        .on('start', (event, d) => this.dragStarted(event, d))
+                        .on('drag', (event, d) => this.dragged(event, d))
+                        .on('end', (event, d) => this.dragEnded(event, d)));
+
+                // Add labels
+                this.labelElements = this.container
+                    .selectAll('.label')
+                    .data(this.nodes)
+                    .enter()
+                    .append('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('fill', '#fff')
+                    .style('font-size', '12px')
+                    .style('font-weight', 'bold')
+                    .style('text-shadow', '1px 1px 2px rgba(0,0,0,0.8)')
+                    .style('pointer-events', 'none')
+                    .text(d => this.truncateText(d.id, d.category === 'book' ? 25 : 15));
+
+                // Add event listeners
+                this.nodeElements
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip())
+                    .on('click', (event, d) => this.handleNodeClick(event, d));
+
+                this.linkElements
+                    .on('mouseover', (event, d) => this.showLinkTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip());
+
+                // Start simulation
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            getNodeSize(d) {
+                const sizes = {
+                    book: 25,
+                    designer: 20,
+                    photographer: 20,
+                    label: 22,
+                    artist: 18,
+                    album: 15,
+                    producer: 16,
+                    engineer: 16,
+                    venue: 14
+                };
+                return sizes[d.category] || 12;
+            }
+
+            truncateText(text, maxLength) {
+                return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+            }
+
+            ticked() {
+                this.linkElements
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodeElements
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labelElements
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            showTooltip(event, d) {
+                const connections = this.links.filter(link =>
+                    link.source.id === d.id || link.target.id === d.id
+                ).length;
+
+                this.tooltip
+                    .style('opacity', 1)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.category}</div>
+                        <div class="tooltip-evidence">Connections: ${connections}</div>
+                    `);
+            }
+
+            showLinkTooltip(event, d) {
+                this.tooltip
+                    .style('opacity', 1)
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .html(`
+                        <div class="tooltip-title">${d.source.id} → ${d.target.id}</div>
+                        <div class="tooltip-type">${d.relationship_type}</div>
+                        <div class="tooltip-evidence">${d.evidence}</div>
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            handleNodeClick(event, d) {
+                console.log('Clicked node:', d);
+                // Could implement additional interactions here
+            }
+
+            dragStarted(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            dragEnded(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            zoomIn() {
+                this.svg.transition().duration(300).call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().duration(300).call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().duration(500).call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+
+            setupResize() {
+                window.addEventListener('resize', () => {
+                    this.width = window.innerWidth;
+                    this.height = window.innerHeight - 120;
+
+                    this.svg.attr('width', this.width).attr('height', this.height);
+                    this.simulation.force('center', d3.forceCenter(this.width / 2, this.height / 2));
+                    this.simulation.alpha(0.3).restart();
+                });
+            }
+        }
+
+        // Initialize the network
+        let network;
+        document.addEventListener('DOMContentLoaded', function() {
+            network = new BlueNoteBookNetwork();
+        });
+    </script>
+</body>
+</html>
