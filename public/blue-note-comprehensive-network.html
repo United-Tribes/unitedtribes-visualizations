@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Note Records - Comprehensive Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #000;
+            padding: 0.75rem 1.5rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+
+        .interaction-hint {
+            text-align: center;
+            color: #666;
+            font-size: 0.7rem;
+            margin-top: 0.2rem;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .focused-mode {
+            color: #fff;
+            font-weight: 400;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: #000;
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #555;
+        }
+
+        .zoom-btn:active {
+            transform: scale(0.95);
+        }
+
+        #tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.95);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.2s ease;
+            z-index: 1000;
+            max-width: 250px;
+        }
+
+        .tooltip-title {
+            font-weight: 400;
+            margin-bottom: 2px;
+            color: #fff;
+        }
+
+        .tooltip-type {
+            color: #888;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .tooltip-cluster {
+            color: #666;
+            font-size: 9px;
+            font-style: italic;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 12px;
+            z-index: 1000;
+            max-height: 60vh;
+            overflow-y: auto;
+            min-width: 160px;
+        }
+
+        .legend-title {
+            font-weight: 400;
+            margin-bottom: 8px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .legend-section {
+            margin-bottom: 10px;
+        }
+
+        .legend-section-title {
+            font-weight: 300;
+            color: #888;
+            font-size: 10px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3px;
+            font-size: 10px;
+            color: #ccc;
+        }
+
+        .legend-color {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+
+        .cluster-label {
+            font-size: 10px;
+            fill: #666;
+            text-anchor: middle;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Blue Note Records - The Cover Art Book</h1>
+            <div class="subtitle">Comprehensive Network • Complete Album Lineups • 29 Enhanced Queries</div>
+            <div id="interaction-hint" class="interaction-hint">Click any entity to focus on its connections • Click background to reset</div>
+        </div>
+        <div class="network-container">
+            <svg id="network"></svg>
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="network.zoomIn()">+</button>
+                <button class="zoom-btn" onclick="network.zoomOut()">−</button>
+                <button class="zoom-btn" onclick="network.resetZoom()" style="font-size: 14px;">⌂</button>
+            </div>
+            <div id="tooltip"></div>
+            <div class="legend">
+                <div class="legend-title">Network Clusters</div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Core</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #64b5f6;"></div>
+                        <span>The Book</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Albums</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ba68c8;"></div>
+                        <span>Classic Albums</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ab47bc;"></div>
+                        <span>Featured Sessions</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Musicians</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #4fc3f7;"></div>
+                        <span>Bandleaders</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #29b6f6;"></div>
+                        <span>House Musicians</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #26c6da;"></div>
+                        <span>Session Players</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #4dd0e1;"></div>
+                        <span>Sidemen</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Visual Design</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #81c784;"></div>
+                        <span>Designers</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #ffb74d;"></div>
+                        <span>Photographers</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #f48771;"></div>
+                        <span>Label Leaders</span>
+                    </div>
+                </div>
+
+                <div class="legend-section">
+                    <div class="legend-section-title">Eras</div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #a5d6a7;"></div>
+                        <span>Hard Bop Era</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #c5e1a5;"></div>
+                        <span>Modal Jazz Era</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #dcedc8;"></div>
+                        <span>Avant-garde Era</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive Blue Note network data with detailed album lineups
+        const networkData = {
+            nodes: [
+                // CORE - The Book (Central Hub)
+                { id: "The Cover Art of Blue Note Records", type: "book", cluster: "core", size: 24,
+                  description: "Comprehensive book documenting Blue Note's complete visual identity and cultural legacy" },
+
+                // CLASSIC ALBUMS - From comprehensive queries with complete lineups
+                { id: "Blue Train", type: "album", cluster: "albums", size: 18,
+                  description: "John Coltrane 1957 - Lee Morgan, Curtis Fuller, Kenny Drew, Paul Chambers, Art Blakey" },
+                { id: "The Sidewinder", type: "album", cluster: "albums", size: 17,
+                  description: "Lee Morgan 1963 - Joe Henderson, Barry Harris, Bob Cranshaw, Billy Higgins" },
+                { id: "Moanin'", type: "album", cluster: "albums", size: 17,
+                  description: "Art Blakey & Jazz Messengers 1958 - Lee Morgan, Benny Golson, Bobby Timmons" },
+                { id: "Song for My Father", type: "album", cluster: "albums", size: 16,
+                  description: "Horace Silver 1964 - Carmell Jones, Joe Henderson, Roger Davis, Donald Byrd" },
+                { id: "Maiden Voyage", type: "album", cluster: "albums", size: 16,
+                  description: "Herbie Hancock 1965 - Freddie Hubbard, George Coleman, Ron Carter, Tony Williams" },
+                { id: "Page One", type: "album", cluster: "albums", size: 15,
+                  description: "Joe Henderson 1963 - Kenny Dorham, McCoy Tyner, Butch Warren, Pete La Roca" },
+                { id: "Go!", type: "album", cluster: "albums", size: 15,
+                  description: "Dexter Gordon 1962 - Sonny Clark, Butch Warren, Billy Higgins" },
+                { id: "Point of Departure", type: "album", cluster: "albums", size: 15,
+                  description: "Andrew Hill 1964 - Kenny Dorham, Eric Dolphy, Joe Henderson, Richard Davis, Tony Williams" },
+                { id: "Una Mas", type: "album", cluster: "albums", size: 14,
+                  description: "Kenny Dorham 1963 - Joe Henderson, Herbie Hancock, Butch Warren, Tony Williams" },
+                { id: "Spring", type: "album", cluster: "albums", size: 14,
+                  description: "Tony Williams 1965 - Sam Rivers, Wayne Shorter, Herbie Hancock, Gary Peacock" },
+                { id: "Monk's Music", type: "album", cluster: "albums", size: 14,
+                  description: "Thelonious Monk 1957 - Ray Copeland, Gigi Gryce, Coleman Hawkins, John Coltrane, Wilbur Ware, Art Blakey" },
+                { id: "Six Pieces of Silver", type: "album", cluster: "albums", size: 13,
+                  description: "Horace Silver 1956 - Donald Byrd, Hank Mobley, Doug Watkins, Louis Hayes" },
+                { id: "Roll Call", type: "album", cluster: "albums", size: 13,
+                  description: "Hank Mobley 1960 - Freddie Hubbard, Wynton Kelly, Paul Chambers, Art Blakey" },
+                { id: "Destination Out", type: "session", cluster: "albums", size: 12,
+                  description: "Jackie McLean 1963 - Grachan Moncur III, Bobby Hutcherson, Larry Ridley, Roy Haynes" },
+                { id: "Down and Out Blues", type: "session", cluster: "albums", size: 12,
+                  description: "Sonny Clark 1957 - Ike Quebec, Grant Green, Sam Jones, Louis Hayes" },
+
+                // BANDLEADERS - From comprehensive musician queries
+                { id: "John Coltrane", type: "bandleader", cluster: "artists", size: 18,
+                  description: "Saxophone giant featured on Blue Train, Monk's Music - key transitional figure" },
+                { id: "Art Blakey", type: "bandleader", cluster: "artists", size: 18,
+                  description: "Jazz Messengers leader, drummer on Blue Train, Moanin', Roll Call, Monk's Music" },
+                { id: "Lee Morgan", type: "bandleader", cluster: "artists", size: 17,
+                  description: "Trumpet star on The Sidewinder, Blue Train, Moanin' - commercial breakthrough artist" },
+                { id: "Horace Silver", type: "bandleader", cluster: "artists", size: 17,
+                  description: "Pianist-composer on Song for My Father, Six Pieces of Silver - hard bop architect" },
+                { id: "Joe Henderson", type: "bandleader", cluster: "artists", size: 16,
+                  description: "Tenor saxophone master on Page One, The Sidewinder, Song for My Father, Una Mas, Point of Departure" },
+                { id: "Herbie Hancock", type: "bandleader", cluster: "artists", size: 16,
+                  description: "Piano innovator on Maiden Voyage, Una Mas, Spring - modal jazz pioneer" },
+                { id: "Kenny Dorham", type: "bandleader", cluster: "artists", size: 15,
+                  description: "Trumpet master on Una Mas, Page One, Point of Departure - bebop to hard bop bridge" },
+                { id: "Thelonious Monk", type: "bandleader", cluster: "artists", size: 15,
+                  description: "Bebop piano pioneer on Monk's Music - unique compositional voice" },
+                { id: "Tony Williams", type: "bandleader", cluster: "artists", size: 15,
+                  description: "Revolutionary drummer on Spring, Maiden Voyage, Una Mas, Point of Departure" },
+                { id: "Andrew Hill", type: "bandleader", cluster: "artists", size: 14,
+                  description: "Avant-garde pianist on Point of Departure - pushing harmonic boundaries" },
+                { id: "Dexter Gordon", type: "bandleader", cluster: "artists", size: 14,
+                  description: "Tenor saxophone legend on Go! - bebop to hard bop master" },
+                { id: "Hank Mobley", type: "bandleader", cluster: "artists", size: 14,
+                  description: "Tenor saxophonist on Roll Call, Six Pieces of Silver - soul jazz pioneer" },
+
+                // HOUSE MUSICIANS - Key Blue Note regulars from queries
+                { id: "Paul Chambers", type: "house_musician", cluster: "artists", size: 16,
+                  description: "Legendary bassist on Blue Train, Roll Call - Miles Davis Quintet member" },
+                { id: "Curtis Fuller", type: "house_musician", cluster: "artists", size: 15,
+                  description: "Trombonist on Blue Train - hard bop trombone master" },
+                { id: "Billy Higgins", type: "house_musician", cluster: "artists", size: 14,
+                  description: "Drummer on The Sidewinder, Go! - West Coast hard bop connection" },
+                { id: "Kenny Burrell", type: "house_musician", cluster: "artists", size: 14,
+                  description: "Guitarist on numerous Blue Note sessions - Detroit hard bop sound" },
+                { id: "Freddie Hubbard", type: "house_musician", cluster: "artists", size: 14,
+                  description: "Trumpeter on Maiden Voyage, Roll Call - hard bop to post-bop bridge" },
+                { id: "Blue Mitchell", type: "house_musician", cluster: "artists", size: 13,
+                  description: "Trumpeter on multiple Horace Silver sessions - soulful hard bop style" },
+                { id: "Donald Byrd", type: "house_musician", cluster: "artists", size: 13,
+                  description: "Trumpeter on Song for My Father, Six Pieces of Silver - Detroit hard bop pioneer" },
+
+                // SESSION PLAYERS & SIDEMEN - From detailed album lineups
+                { id: "Kenny Drew", type: "sideman", cluster: "artists", size: 12,
+                  description: "Pianist on Blue Train - bebop piano foundation" },
+                { id: "McCoy Tyner", type: "sideman", cluster: "artists", size: 12,
+                  description: "Pianist on Page One - later Coltrane Quartet member" },
+                { id: "Ron Carter", type: "sideman", cluster: "artists", size: 12,
+                  description: "Bassist on Maiden Voyage - Miles Davis Quintet member" },
+                { id: "Benny Golson", type: "sideman", cluster: "artists", size: 11,
+                  description: "Tenor saxophonist and composer on Moanin' - Jazz Messengers architect" },
+                { id: "Barry Harris", type: "sideman", cluster: "artists", size: 11,
+                  description: "Pianist on The Sidewinder - Detroit bebop master" },
+                { id: "Sonny Clark", type: "sideman", cluster: "artists", size: 11,
+                  description: "Pianist on Go! and session leader on Down and Out Blues" },
+                { id: "Butch Warren", type: "sideman", cluster: "artists", size: 10,
+                  description: "Bassist on Page One, Go!, Una Mas - reliable rhythm section" },
+                { id: "Wayne Shorter", type: "sideman", cluster: "artists", size: 10,
+                  description: "Tenor saxophonist on Spring - later Miles Davis Quintet member" },
+                { id: "Sam Rivers", type: "sideman", cluster: "artists", size: 10,
+                  description: "Tenor saxophonist on Spring - avant-garde exploration" },
+                { id: "Eric Dolphy", type: "sideman", cluster: "artists", size: 10,
+                  description: "Multi-instrumentalist on Point of Departure - avant-garde pioneer" },
+                { id: "Coleman Hawkins", type: "sideman", cluster: "artists", size: 10,
+                  description: "Tenor saxophone legend on Monk's Music - swing to bebop bridge" },
+                { id: "Bobby Hutcherson", type: "sideman", cluster: "artists", size: 9,
+                  description: "Vibraphonist on Destination Out - post-bop exploration" },
+                { id: "Grant Green", type: "sideman", cluster: "artists", size: 9,
+                  description: "Guitarist on Down and Out Blues - soul jazz guitar master" },
+
+                // VISUAL IDENTITY TEAM - Enhanced from cover art queries
+                { id: "Reid Miles", type: "designer", cluster: "design", size: 20,
+                  description: "Primary graphic designer - created over 500 Blue Note covers with modernist aesthetic" },
+                { id: "Francis Wolff", type: "photographer", cluster: "design", size: 18,
+                  description: "Co-founder and photographer - captured intimate studio sessions, album cover portraits" },
+                { id: "Alfred Lion", type: "executive", cluster: "design", size: 16,
+                  description: "Co-founder and visual identity decision-maker - established Blue Note aesthetic vision" },
+
+                // MUSICAL ERAS - From era-based queries
+                { id: "Hard Bop Era 1956-1963", type: "era", cluster: "context", size: 16,
+                  description: "Art Blakey, Horace Silver, Clifford Brown era - driving rhythms and blues influence" },
+                { id: "Modal Jazz Era 1959-1965", type: "era", cluster: "context", size: 15,
+                  description: "John Coltrane, Joe Henderson, Andrew Hill era - harmonic exploration" },
+                { id: "Avant-garde Era 1963-1968", type: "era", cluster: "context", size: 14,
+                  description: "Jackie McLean, Eric Dolphy, Sam Rivers era - boundary-pushing experimentation" },
+
+                // DESIGN ELEMENTS - From visual design queries
+                { id: "Blue Note Typography", type: "design_element", cluster: "design", size: 12,
+                  description: "Reid Miles' distinctive typography and text treatment approach" },
+                { id: "Cover Art Photography", type: "design_element", cluster: "design", size: 12,
+                  description: "Francis Wolff's session photography and portrait work for album covers" },
+                { id: "Color Design Principles", type: "design_element", cluster: "design", size: 11,
+                  description: "Strategic color palette choices and visual design patterns" }
+            ],
+
+            links: [
+                // BOOK TO CORE ELEMENTS
+                { source: "The Cover Art of Blue Note Records", target: "Reid Miles", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Francis Wolff", strength: 10 },
+                { source: "The Cover Art of Blue Note Records", target: "Blue Train", strength: 9 },
+                { source: "The Cover Art of Blue Note Records", target: "The Sidewinder", strength: 9 },
+                { source: "The Cover Art of Blue Note Records", target: "Moanin'", strength: 9 },
+
+                // COMPLETE ALBUM LINEUPS - Based on comprehensive queries
+                // Blue Train lineup
+                { source: "Blue Train", target: "John Coltrane", strength: 10 },
+                { source: "Blue Train", target: "Lee Morgan", strength: 9 },
+                { source: "Blue Train", target: "Curtis Fuller", strength: 9 },
+                { source: "Blue Train", target: "Kenny Drew", strength: 8 },
+                { source: "Blue Train", target: "Paul Chambers", strength: 9 },
+                { source: "Blue Train", target: "Art Blakey", strength: 9 },
+
+                // The Sidewinder lineup
+                { source: "The Sidewinder", target: "Lee Morgan", strength: 10 },
+                { source: "The Sidewinder", target: "Joe Henderson", strength: 9 },
+                { source: "The Sidewinder", target: "Barry Harris", strength: 8 },
+                { source: "The Sidewinder", target: "Billy Higgins", strength: 8 },
+
+                // Moanin' lineup
+                { source: "Moanin'", target: "Art Blakey", strength: 10 },
+                { source: "Moanin'", target: "Lee Morgan", strength: 9 },
+                { source: "Moanin'", target: "Benny Golson", strength: 9 },
+
+                // Song for My Father lineup
+                { source: "Song for My Father", target: "Horace Silver", strength: 10 },
+                { source: "Song for My Father", target: "Joe Henderson", strength: 8 },
+                { source: "Song for My Father", target: "Donald Byrd", strength: 8 },
+
+                // Maiden Voyage lineup
+                { source: "Maiden Voyage", target: "Herbie Hancock", strength: 10 },
+                { source: "Maiden Voyage", target: "Freddie Hubbard", strength: 9 },
+                { source: "Maiden Voyage", target: "Ron Carter", strength: 9 },
+                { source: "Maiden Voyage", target: "Tony Williams", strength: 9 },
+
+                // Page One lineup
+                { source: "Page One", target: "Joe Henderson", strength: 10 },
+                { source: "Page One", target: "Kenny Dorham", strength: 9 },
+                { source: "Page One", target: "McCoy Tyner", strength: 8 },
+                { source: "Page One", target: "Butch Warren", strength: 7 },
+
+                // Point of Departure lineup
+                { source: "Point of Departure", target: "Andrew Hill", strength: 10 },
+                { source: "Point of Departure", target: "Kenny Dorham", strength: 8 },
+                { source: "Point of Departure", target: "Eric Dolphy", strength: 9 },
+                { source: "Point of Departure", target: "Joe Henderson", strength: 8 },
+                { source: "Point of Departure", target: "Tony Williams", strength: 8 },
+
+                // Una Mas lineup
+                { source: "Una Mas", target: "Kenny Dorham", strength: 10 },
+                { source: "Una Mas", target: "Joe Henderson", strength: 8 },
+                { source: "Una Mas", target: "Herbie Hancock", strength: 8 },
+                { source: "Una Mas", target: "Tony Williams", strength: 7 },
+
+                // Spring lineup
+                { source: "Spring", target: "Tony Williams", strength: 10 },
+                { source: "Spring", target: "Sam Rivers", strength: 8 },
+                { source: "Spring", target: "Wayne Shorter", strength: 8 },
+                { source: "Spring", target: "Herbie Hancock", strength: 7 },
+
+                // Go! lineup
+                { source: "Go!", target: "Dexter Gordon", strength: 10 },
+                { source: "Go!", target: "Sonny Clark", strength: 8 },
+                { source: "Go!", target: "Butch Warren", strength: 7 },
+                { source: "Go!", target: "Billy Higgins", strength: 8 },
+
+                // Monk's Music lineup
+                { source: "Monk's Music", target: "Thelonious Monk", strength: 10 },
+                { source: "Monk's Music", target: "John Coltrane", strength: 8 },
+                { source: "Monk's Music", target: "Coleman Hawkins", strength: 8 },
+                { source: "Monk's Music", target: "Art Blakey", strength: 7 },
+
+                // Six Pieces of Silver lineup
+                { source: "Six Pieces of Silver", target: "Horace Silver", strength: 10 },
+                { source: "Six Pieces of Silver", target: "Donald Byrd", strength: 8 },
+                { source: "Six Pieces of Silver", target: "Hank Mobley", strength: 8 },
+
+                // Roll Call lineup
+                { source: "Roll Call", target: "Hank Mobley", strength: 10 },
+                { source: "Roll Call", target: "Freddie Hubbard", strength: 9 },
+                { source: "Roll Call", target: "Paul Chambers", strength: 8 },
+                { source: "Roll Call", target: "Art Blakey", strength: 8 },
+
+                // Down and Out Blues lineup
+                { source: "Down and Out Blues", target: "Sonny Clark", strength: 10 },
+                { source: "Down and Out Blues", target: "Grant Green", strength: 8 },
+
+                // Destination Out lineup
+                { source: "Destination Out", target: "Bobby Hutcherson", strength: 8 },
+
+                // MUSICIAN CROSS-CONNECTIONS (frequent collaborators)
+                { source: "Paul Chambers", target: "Art Blakey", strength: 7 },
+                { source: "Joe Henderson", target: "Kenny Dorham", strength: 8 },
+                { source: "Herbie Hancock", target: "Tony Williams", strength: 8 },
+                { source: "Freddie Hubbard", target: "Tony Williams", strength: 7 },
+                { source: "Lee Morgan", target: "Art Blakey", strength: 8 },
+                { source: "Curtis Fuller", target: "Art Blakey", strength: 7 },
+                { source: "Donald Byrd", target: "Horace Silver", strength: 8 },
+
+                // DESIGN CONNECTIONS - Enhanced from visual queries
+                { source: "Reid Miles", target: "Blue Train", strength: 9 },
+                { source: "Reid Miles", target: "The Sidewinder", strength: 9 },
+                { source: "Reid Miles", target: "Point of Departure", strength: 8 },
+                { source: "Reid Miles", target: "Blue Note Typography", strength: 9 },
+                { source: "Reid Miles", target: "Color Design Principles", strength: 8 },
+
+                { source: "Francis Wolff", target: "Song for My Father", strength: 8 },
+                { source: "Francis Wolff", target: "Six Pieces of Silver", strength: 8 },
+                { source: "Francis Wolff", target: "Cover Art Photography", strength: 9 },
+                { source: "Francis Wolff", target: "Alfred Lion", strength: 9 },
+
+                // ERA CONNECTIONS - From era-based queries
+                { source: "Hard Bop Era 1956-1963", target: "Art Blakey", strength: 9 },
+                { source: "Hard Bop Era 1956-1963", target: "Horace Silver", strength: 9 },
+                { source: "Hard Bop Era 1956-1963", target: "Lee Morgan", strength: 8 },
+                { source: "Hard Bop Era 1956-1963", target: "Hank Mobley", strength: 7 },
+
+                { source: "Modal Jazz Era 1959-1965", target: "John Coltrane", strength: 8 },
+                { source: "Modal Jazz Era 1959-1965", target: "Joe Henderson", strength: 8 },
+                { source: "Modal Jazz Era 1959-1965", target: "Andrew Hill", strength: 7 },
+                { source: "Modal Jazz Era 1959-1965", target: "Herbie Hancock", strength: 7 },
+
+                { source: "Avant-garde Era 1963-1968", target: "Eric Dolphy", strength: 8 },
+                { source: "Avant-garde Era 1963-1968", target: "Sam Rivers", strength: 7 },
+                { source: "Avant-garde Era 1963-1968", target: "Andrew Hill", strength: 7 },
+                { source: "Avant-garde Era 1963-1968", target: "Tony Williams", strength: 6 }
+            ]
+        };
+
+        // Enhanced color mapping for comprehensive network
+        const colorMap = {
+            // Core
+            book: '#64b5f6',
+
+            // Albums
+            album: '#ba68c8',
+            session: '#ab47bc',
+
+            // Musicians
+            bandleader: '#4fc3f7',
+            house_musician: '#29b6f6',
+            sideman: '#4dd0e1',
+
+            // Design
+            designer: '#81c784',
+            photographer: '#ffb74d',
+            executive: '#f48771',
+            design_element: '#66bb6a',
+
+            // Context
+            era: '#a5d6a7'
+        };
+
+        // Cluster positioning for comprehensive layout
+        const clusterCenters = {
+            core: { x: 0, y: 0 },
+            albums: { x: -350, y: -100 },
+            artists: { x: 400, y: 200 },
+            design: { x: -300, y: 250 },
+            context: { x: 200, y: -300 }
+        };
+
+        // Initialize comprehensive network visualization
+        class ComprehensiveBlueNoteNetwork {
+            constructor(data) {
+                this.data = data;
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+                this.svg = d3.select('#network')
+                    .attr('width', this.width)
+                    .attr('height', this.height);
+
+                // Set up zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on('zoom', (event) => {
+                        this.g.attr('transform', event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                // Create main group for zoomable content
+                this.g = this.svg.append('g');
+
+                this.tooltip = d3.select('#tooltip');
+
+                // Dynamic clustering state
+                this.focusedEntity = null;
+                this.originalClusters = {};
+                this.isEntityFocused = false;
+
+                // Store original cluster assignments
+                this.data.nodes.forEach(node => {
+                    this.originalClusters[node.id] = node.cluster;
+                });
+
+                this.setupSimulation();
+                this.render();
+            }
+
+            setupSimulation() {
+                // Enhanced simulation for comprehensive network
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force('link', d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => {
+                            const sourceNode = this.data.nodes.find(n => n.id === (d.source.id || d.source));
+                            const targetNode = this.data.nodes.find(n => n.id === (d.target.id || d.target));
+                            const sourceCluster = sourceNode?.cluster;
+                            const targetCluster = targetNode?.cluster;
+
+                            // In focus mode, much tighter clustering
+                            if (this.isEntityFocused) {
+                                if (sourceCluster === 'connected_entities' && targetCluster === 'focused_entity') return 80;
+                                if (sourceCluster === 'focused_entity' && targetCluster === 'connected_entities') return 80;
+                                if (sourceCluster === targetCluster && sourceCluster === 'connected_entities') return 50;
+                                return 200; // Push other connections far away
+                            }
+
+                            // Normal mode with adjusted distances for larger network
+                            if (sourceCluster === targetCluster) {
+                                return 70;
+                            } else {
+                                return 140;
+                            }
+                        })
+                        .strength(d => {
+                            const sourceNode = this.data.nodes.find(n => n.id === (d.source.id || d.source));
+                            const targetNode = this.data.nodes.find(n => n.id === (d.target.id || d.target));
+                            const sourceCluster = sourceNode?.cluster;
+                            const targetCluster = targetNode?.cluster;
+
+                            // In focus mode, stronger forces for entity cluster
+                            if (this.isEntityFocused) {
+                                if ((sourceCluster === 'connected_entities' && targetCluster === 'focused_entity') ||
+                                    (sourceCluster === 'focused_entity' && targetCluster === 'connected_entities')) {
+                                    return d.strength * 0.4;
+                                }
+                                if (sourceCluster === targetCluster) return d.strength * 0.15;
+                                return d.strength * 0.05;
+                            }
+
+                            return sourceCluster === targetCluster ? d.strength * 0.12 : d.strength * 0.06;
+                        }))
+                    .force('charge', d3.forceManyBody()
+                        .strength(d => {
+                            if (this.isEntityFocused) {
+                                if (d.cluster === 'focused_entity') return -200;
+                                if (d.cluster === 'connected_entities') return -150;
+                                return -50; // Much less repulsion for background nodes
+                            }
+                            return -200 - (d.size * 6); // Adjusted for larger network
+                        }))
+                    .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+                    .force('collision', d3.forceCollide()
+                        .radius(d => d.size + 2))
+                    .force('cluster', this.clusterForce())
+                    .force('clusterCollision', this.clusterCollision())
+                    .alphaDecay(0.04) // Faster cooling for larger network
+                    .velocityDecay(0.6);
+            }
+
+            clusterForce() {
+                return (alpha) => {
+                    // Adaptive cluster force based on mode
+                    const strength = this.isEntityFocused ? 0.4 * alpha : 0.15 * alpha;
+
+                    this.data.nodes.forEach(d => {
+                        let clusterCenter;
+
+                        // If entity is focused, use simplified dynamic clustering
+                        if (this.isEntityFocused && this.focusedEntity) {
+                            if (d.id === this.focusedEntity.id) {
+                                // Focused entity stays at center
+                                clusterCenter = { x: 0, y: 0 };
+                            } else if (d.cluster === 'connected_entities') {
+                                // Connected entities form a tight circle around the focused entity
+                                // Use consistent positioning based on node ID for stability
+                                const hash = this.simpleHash(d.id);
+                                const angle = (hash % 360) * (Math.PI / 180);
+                                const radius = 150;
+                                clusterCenter = {
+                                    x: Math.cos(angle) * radius,
+                                    y: Math.sin(angle) * radius
+                                };
+                            } else {
+                                // Background nodes move to a distant periphery
+                                const cluster = clusterCenters[this.originalClusters[d.id]] || { x: 0, y: 0 };
+                                clusterCenter = {
+                                    x: cluster.x * 2,
+                                    y: cluster.y * 2
+                                };
+                            }
+                        } else {
+                            // Default clustering with original positions
+                            const cluster = clusterCenters[d.cluster];
+                            if (cluster) {
+                                clusterCenter = cluster;
+                            }
+                        }
+
+                        if (clusterCenter) {
+                            const centerX = this.width / 2 + clusterCenter.x;
+                            const centerY = this.height / 2 + clusterCenter.y;
+                            d.vx += (centerX - d.x) * strength;
+                            d.vy += (centerY - d.y) * strength;
+                        }
+                    });
+                };
+            }
+
+            // Simple hash function for consistent positioning
+            simpleHash(str) {
+                let hash = 0;
+                for (let i = 0; i < str.length; i++) {
+                    const char = str.charCodeAt(i);
+                    hash = ((hash << 5) - hash) + char;
+                    hash = hash & hash; // Convert to 32-bit integer
+                }
+                return Math.abs(hash);
+            }
+
+            clusterCollision() {
+                return (alpha) => {
+                    const strength = 0.08 * alpha; // Gentler for larger network
+                    const clusters = Object.keys(clusterCenters);
+
+                    // Calculate cluster centers based on actual node positions
+                    const actualClusters = {};
+                    clusters.forEach(cluster => {
+                        const clusterNodes = this.data.nodes.filter(n => n.cluster === cluster);
+                        if (clusterNodes.length > 0) {
+                            actualClusters[cluster] = {
+                                x: d3.mean(clusterNodes, n => n.x),
+                                y: d3.mean(clusterNodes, n => n.y),
+                                nodes: clusterNodes
+                            };
+                        }
+                    });
+
+                    // Apply separation between different clusters
+                    clusters.forEach(clusterA => {
+                        clusters.forEach(clusterB => {
+                            if (clusterA !== clusterB && actualClusters[clusterA] && actualClusters[clusterB]) {
+                                const clusterACenter = actualClusters[clusterA];
+                                const clusterBCenter = actualClusters[clusterB];
+
+                                const dx = clusterBCenter.x - clusterACenter.x;
+                                const dy = clusterBCenter.y - clusterACenter.y;
+                                const distance = Math.sqrt(dx * dx + dy * dy);
+                                const minDistance = 250; // Larger minimum distance for comprehensive network
+
+                                if (distance < minDistance && distance > 0) {
+                                    const force = (minDistance - distance) / distance * strength;
+                                    const fx = dx * force;
+                                    const fy = dy * force;
+
+                                    // Push nodes in cluster A away from cluster B
+                                    clusterACenter.nodes.forEach(node => {
+                                        node.vx -= fx * 0.5;
+                                        node.vy -= fy * 0.5;
+                                    });
+
+                                    // Push nodes in cluster B away from cluster A
+                                    clusterBCenter.nodes.forEach(node => {
+                                        node.vx += fx * 0.5;
+                                        node.vy += fy * 0.5;
+                                    });
+                                }
+                            }
+                        });
+                    });
+                };
+            }
+
+            render() {
+                // Links
+                this.links = this.g.selectAll('.link')
+                    .data(this.data.links)
+                    .join('line')
+                    .attr('class', 'link')
+                    .attr('stroke', d => {
+                        // Different link colors based on connection type
+                        const sourceNode = this.data.nodes.find(n => n.id === (d.source.id || d.source));
+                        const targetNode = this.data.nodes.find(n => n.id === (d.target.id || d.target));
+                        const sourceType = sourceNode?.type;
+                        const targetType = targetNode?.type;
+
+                        // Album-musician connections (lighter purple)
+                        if ((sourceType === 'album' || sourceType === 'session') &&
+                            (targetType !== 'album' && targetType !== 'session')) return '#d1c4e9';
+                        if ((sourceType !== 'album' && sourceType !== 'session') &&
+                            (targetType === 'album' || targetType === 'session')) return '#d1c4e9';
+
+                        // Era-artist connections (darker)
+                        if (sourceType === 'era' || targetType === 'era') return '#2e2e2e';
+
+                        return '#333';
+                    })
+                    .attr('stroke-width', d => Math.sqrt(d.strength) * 0.8) // Thinner for comprehensive network
+                    .attr('stroke-opacity', 0.4);
+
+                // Nodes
+                this.nodes = this.g.selectAll('.node')
+                    .data(this.data.nodes)
+                    .join('circle')
+                    .attr('class', 'node')
+                    .attr('r', d => d.size || 8)
+                    .attr('fill', d => colorMap[d.type] || '#666')
+                    .attr('stroke', d => {
+                        // Cluster-based stroke colors
+                        const clusterColors = {
+                            core: '#64b5f6',
+                            albums: '#ba68c8',
+                            artists: '#4fc3f7',
+                            design: '#81c784',
+                            context: '#a5d6a7'
+                        };
+                        return clusterColors[d.cluster] || '#fff';
+                    })
+                    .attr('stroke-width', d => d.cluster === 'core' ? 2 : 1)
+                    .style('cursor', 'pointer')
+                    .call(this.drag());
+
+                // Node labels
+                this.labels = this.g.selectAll('.label')
+                    .data(this.data.nodes)
+                    .join('text')
+                    .attr('class', 'label')
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('font-size', d => `${Math.max(8, d.size * 0.6)}px`) // Smaller for comprehensive network
+                    .style('fill', '#fff')
+                    .style('pointer-events', 'none')
+                    .style('text-shadow', '0 0 4px #000')
+                    .style('font-weight', d => d.cluster === 'core' ? 'bold' : 'normal')
+                    .text(d => {
+                        if (d.id.length > 14) return d.id.substring(0, 11) + '...';
+                        return d.id;
+                    });
+
+                // Event handlers
+                this.nodes
+                    .on('mouseover', (event, d) => this.showTooltip(event, d))
+                    .on('mouseout', () => this.hideTooltip())
+                    .on('click', (event, d) => {
+                        event.stopPropagation();
+                        this.focusOnEntity(d);
+                    });
+
+                // Click on background to reset
+                this.svg.on('click', () => {
+                    if (this.isEntityFocused) {
+                        this.resetClustering();
+                    }
+                });
+
+                // Update positions on simulation tick
+                this.simulation.on('tick', () => this.ticked());
+            }
+
+            ticked() {
+                this.links
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                this.nodes
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                this.labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            }
+
+            drag() {
+                return d3.drag()
+                    .on('start', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on('drag', (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on('end', (event, d) => {
+                        if (!event.active) this.simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            showTooltip(event, d) {
+                this.tooltip
+                    .style('left', (event.pageX + 10) + 'px')
+                    .style('top', (event.pageY - 10) + 'px')
+                    .style('opacity', 1)
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-type">${d.type.replace('_', ' ')}</div>
+                        <div class="tooltip-cluster">Cluster: ${d.cluster}</div>
+                        ${d.description ? `<div style="margin-top: 6px; color: #ccc;">${d.description}</div>` : ''}
+                    `);
+            }
+
+            hideTooltip() {
+                this.tooltip.style('opacity', 0);
+            }
+
+            zoomIn() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1.5
+                );
+            }
+
+            zoomOut() {
+                this.svg.transition().call(
+                    this.zoom.scaleBy, 1 / 1.5
+                );
+            }
+
+            resetZoom() {
+                this.svg.transition().call(
+                    this.zoom.transform,
+                    d3.zoomIdentity
+                );
+            }
+
+            focusOnEntity(entityNode) {
+                console.log('Focusing on entity:', entityNode.id);
+                this.focusedEntity = entityNode;
+                this.isEntityFocused = true;
+
+                // Find all entities connected to this entity
+                const connectedEntities = new Set();
+                this.data.links.forEach(link => {
+                    const sourceId = link.source.id || link.source;
+                    const targetId = link.target.id || link.target;
+
+                    if (sourceId === entityNode.id) {
+                        connectedEntities.add(targetId);
+                    } else if (targetId === entityNode.id) {
+                        connectedEntities.add(sourceId);
+                    }
+                });
+
+                console.log('Connected entities:', Array.from(connectedEntities));
+
+                // Reassign clusters for dynamic view
+                this.data.nodes.forEach(node => {
+                    if (node.id === entityNode.id) {
+                        node.cluster = 'focused_entity';
+                    } else if (connectedEntities.has(node.id)) {
+                        node.cluster = 'connected_entities';
+                    } else {
+                        node.cluster = 'background';
+                    }
+                });
+
+                // Update header text
+                d3.select('#interaction-hint')
+                    .html(`<span class="focused-mode">Focused on "${entityNode.id}"</span> • Click background to reset`)
+                    .classed('focused-mode', true);
+
+                // Update simulation parameters for focus mode
+                this.simulation
+                    .alphaDecay(0.1) // Much faster cooling in focus mode
+                    .velocityDecay(0.8); // High friction for quick settling
+
+                // Update node styling for focus mode
+                this.updateNodeStyling();
+
+                // Restart simulation with controlled energy
+                this.simulation.alpha(0.8).restart();
+            }
+
+            resetClustering() {
+                console.log('Resetting clustering');
+                this.isEntityFocused = false;
+                this.focusedEntity = null;
+
+                // Restore original clusters
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.originalClusters[node.id];
+                });
+
+                // Reset header text
+                d3.select('#interaction-hint')
+                    .html('Click any entity to focus on its connections • Click background to reset')
+                    .classed('focused-mode', false);
+
+                // Reset simulation parameters to normal mode
+                this.simulation
+                    .alphaDecay(0.04) // Back to slower cooling
+                    .velocityDecay(0.6); // Normal friction
+
+                // Reset node styling
+                this.updateNodeStyling();
+
+                // Restart simulation with moderate energy
+                this.simulation.alpha(0.6).restart();
+            }
+
+            updateNodeStyling() {
+                this.nodes
+                    .attr('stroke-width', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 3;
+                            if (d.cluster === 'connected_entities') return 2;
+                            return 1;
+                        }
+                        return d.cluster === 'core' ? 2 : 1;
+                    })
+                    .attr('opacity', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 1;
+                            if (d.cluster === 'connected_entities') return 1;
+                            return 0.3;
+                        }
+                        return 1;
+                    });
+
+                this.labels
+                    .attr('opacity', d => {
+                        if (this.isEntityFocused) {
+                            if (d.id === this.focusedEntity?.id) return 1;
+                            if (d.cluster === 'connected_entities') return 1;
+                            return 0.3;
+                        }
+                        return 1;
+                    });
+
+                this.links
+                    .attr('stroke-opacity', d => {
+                        if (this.isEntityFocused) {
+                            const sourceId = d.source.id || d.source;
+                            const targetId = d.target.id || d.target;
+
+                            if (sourceId === this.focusedEntity?.id || targetId === this.focusedEntity?.id) {
+                                return 0.8;
+                            }
+                            return 0.1;
+                        }
+                        return 0.4;
+                    });
+            }
+        }
+
+        // Initialize the comprehensive network
+        const network = new ComprehensiveBlueNoteNetwork(networkData);
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight - 120;
+
+            network.width = newWidth;
+            network.height = newHeight;
+            network.svg.attr('width', newWidth).attr('height', newHeight);
+            network.simulation.force('center', d3.forceCenter(newWidth / 2, newHeight / 2));
+            network.simulation.alpha(1).restart();
+        });
+    </script>
+</body>
+</html>

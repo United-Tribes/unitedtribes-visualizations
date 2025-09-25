@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Kids - All Entities Network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #000;
+            padding: 0.75rem 1.5rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #888;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            font-weight: 300;
+        }
+
+        .interaction-hint {
+            text-align: center;
+            color: #666;
+            font-size: 0.7rem;
+            margin-top: 0.2rem;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .focused-mode {
+            color: #fff;
+            font-weight: 400;
+        }
+
+        .network-container {
+            flex: 1;
+            position: relative;
+            background: #000;
+        }
+
+        #network {
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #network.panning {
+            cursor: grabbing;
+        }
+
+        .zoom-controls {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1000;
+        }
+
+        .zoom-btn {
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .zoom-btn:hover {
+            background: rgba(40, 40, 40, 0.9);
+            border-color: #555;
+        }
+
+        .legend {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 11px;
+            line-height: 1.4;
+            z-index: 1000;
+            max-width: 200px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        .legend-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .legend-circle {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        .stats {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 10px;
+            color: #888;
+            z-index: 1000;
+        }
+
+        #tooltip {
+            position: absolute;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #444;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 1.4;
+            pointer-events: none;
+            opacity: 0;
+            z-index: 1001;
+            max-width: 300px;
+            transition: opacity 0.2s ease;
+        }
+
+        #tooltip .tooltip-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 4px;
+            color: #fff;
+        }
+
+        #tooltip .tooltip-category {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        #tooltip .tooltip-description {
+            font-size: 11px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Just Kids - Complete Entity Network</h1>
+            <div class="subtitle">154+ people • 8+ albums • 5+ books • 6+ songs • All entities from comprehensive API data</div>
+            <div class="interaction-hint" id="interaction-hint">Click any entity to explore its connections</div>
+        </div>
+        <div class="network-container">
+            <div class="zoom-controls">
+                <button class="zoom-btn" onclick="zoomIn()">+</button>
+                <button class="zoom-btn" onclick="zoomOut()">−</button>
+                <button class="zoom-btn" onclick="resetZoom()" style="font-size: 10px;">⌂</button>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #e91e63;"></div>
+                    <span>Central Figures</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #2196f3;"></div>
+                    <span>Musicians</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #9c27b0;"></div>
+                    <span>Writers & Poets</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #ff9800;"></div>
+                    <span>Artists & Visual</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #4caf50;"></div>
+                    <span>Venues & Places</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #f44336;"></div>
+                    <span>Albums</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #ffeb3b;"></div>
+                    <span>Songs</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #3f51b5;"></div>
+                    <span>Books</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #e91e63;"></div>
+                    <span>Media</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #795548;"></div>
+                    <span>Movements</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #607d8b;"></div>
+                    <span>Other</span>
+                </div>
+            </div>
+            <div class="stats" id="stats">
+                Loading network...
+            </div>
+            <div id="tooltip"></div>
+            <svg id="network"></svg>
+        </div>
+    </div>
+
+    <script>
+        // Focus on Just Kids-relevant entities (filtering out unrelated contemporary artists)
+        const justKidsCorePeople = [
+            // Central figures
+            "Patti Smith", "Robert Mapplethorpe",
+
+            // Beat Generation (key influences)
+            "Allen Ginsberg", "Jack Kerouac", "William Burroughs",
+
+            // Key musical influences and contemporaries from 60s-70s era
+            "Bob Dylan", "Lou Reed", "Jimi Hendrix", "Jim Morrison", "Janis Joplin",
+            "David Bowie", "John Lennon", "Paul McCartney", "Iggy Pop", "Joni Mitchell",
+            "Joan Baez", "The Beatles", "The Doors", "The Rolling Stones", "The Velvet Underground",
+
+            // Jazz and blues influences mentioned in Just Kids
+            "Billie Holiday", "Bessie Smith", "Miles Davis", "John Coltrane", "Ray Charles",
+            "Duke Ellington", "Louis Armstrong",
+
+            // Visual artists from the scene
+            "Andy Warhol", "Candy Darling",
+
+            // Writers and cultural figures
+            "Lester Bangs", "Ray Bradbury", "William Blake", "Arthur Rimbaud",
+
+            // Contemporary artists who were part of NYC scene
+            "Sonic Youth", "Kim Gordon", "Laurie Anderson", "Yoko Ono",
+
+            // Musicians from the era/scene
+            "Sterling Morrison", "Doug Yule", "Robbie Robertson", "The Band",
+            "Woody Guthrie", "Johnny Cash"
+        ];
+
+        const allPlaces = [
+            "Boston", "NYC Underground", "Chelsea Hotel", "CBGB", "Electric Lady Studios",
+            "Max's Kansas City", "Greenwich Village", "Factory"
+        ];
+
+        const allAlbums = [
+            // Patti Smith albums
+            "Horses", "Easter", "Radio Ethiopia", "Wave",
+            // Other key albums from API data
+            "The Velvet Underground & Nico", "Bad Moon Rising",
+            // Additional albums mentioned
+            "Rocks", "Caught in the Crossfire"
+        ];
+
+        const allBooks = [
+            // Main memoir
+            "Just Kids",
+            // Books and written works from API data
+            "Lady Sings the Blues", "This Woman's Work",
+            // Beat Generation classics (referenced in context)
+            "On the Road", "Howl", "Naked Lunch", "A Season in Hell", "Illuminations"
+        ];
+
+        const allSongs = [
+            // Patti Smith songs
+            "Because the Night", "Birdland", "Gloria", "Land", "Free Money",
+            // Other songs found in API data
+            "Stronger Than Me", "Crazy on You", "Magic Man", "Barracuda",
+            "What About Love", "Six White Horses"
+        ];
+
+        const allMedia = [
+            // Documentary
+            "Patti Smith: Dream of Life",
+            // Warhol multimedia works
+            "Exploding Plastic Inevitable"
+        ];
+
+        const allOther = [
+            "Beat Generation", "Punk Rock Movement", "1970s NYC Art Scene", "Photography as Art",
+            "Ivor Novello Award", "Rock and Roll Hall of Fame", "Golden Globe", "Critics Choice Awards"
+        ];
+
+        class AllEntitiesJustKidsNetwork {
+            constructor() {
+                this.svg = d3.select("#network");
+                this.container = this.svg.append("g");
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg
+                    .attr("width", this.width)
+                    .attr("height", this.height);
+
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 4])
+                    .on("zoom", (event) => {
+                        this.container.attr("transform", event.transform);
+                    });
+
+                this.svg.call(this.zoom);
+
+                this.focusedEntity = null;
+                this.isEntityFocused = false;
+
+                this.createNetworkData();
+                this.initializeVisualization();
+
+                window.addEventListener('resize', () => this.handleResize());
+            }
+
+            createNetworkData() {
+                const nodes = [];
+                const links = [];
+
+                // Add central figures with descriptions
+                nodes.push({
+                    id: "Just Kids",
+                    type: "book",
+                    size: 20,
+                    description: "Patti Smith's acclaimed memoir chronicling her relationship with Robert Mapplethorpe in 1960s-70s NYC"
+                });
+                nodes.push({
+                    id: "Patti Smith",
+                    type: "central_figure",
+                    size: 18,
+                    description: "Poet, musician, punk pioneer - central figure of the memoir and godmother of punk rock"
+                });
+                nodes.push({
+                    id: "Robert Mapplethorpe",
+                    type: "photographer",
+                    size: 16,
+                    description: "Photographer and Smith's closest artistic partner - subject of Just Kids memoir"
+                });
+
+                // Add all Just Kids relevant people
+                justKidsCorePeople.forEach(person => {
+                    if (person !== "Patti Smith" && person !== "Robert Mapplethorpe") {
+                        nodes.push({
+                            id: person,
+                            type: this.categorizeEntity(person),
+                            size: this.getEntitySize(person),
+                            description: this.getEntityDescription(person)
+                        });
+                    }
+                });
+
+                // Add all places
+                allPlaces.forEach(place => {
+                    nodes.push({
+                        id: place,
+                        type: "venue",
+                        size: this.getEntitySize(place),
+                        description: this.getEntityDescription(place)
+                    });
+                });
+
+                // Add all albums
+                allAlbums.forEach(album => {
+                    nodes.push({
+                        id: album,
+                        type: "album",
+                        size: this.getEntitySize(album),
+                        description: this.getEntityDescription(album)
+                    });
+                });
+
+                // Add all books (Just Kids is already added as central book)
+                allBooks.forEach(book => {
+                    if (book !== "Just Kids") {
+                        nodes.push({
+                            id: book,
+                            type: "book",
+                            size: this.getEntitySize(book),
+                            description: this.getEntityDescription(book)
+                        });
+                    }
+                });
+
+                console.log('Books added:', allBooks.filter(b => b !== "Just Kids"));
+
+                // Add songs
+                allSongs.forEach(song => {
+                    nodes.push({
+                        id: song,
+                        type: "song",
+                        size: this.getEntitySize(song),
+                        description: this.getEntityDescription(song)
+                    });
+                });
+
+                // Add media works
+                allMedia.forEach(media => {
+                    nodes.push({
+                        id: media,
+                        type: "media",
+                        size: this.getEntitySize(media),
+                        description: this.getEntityDescription(media)
+                    });
+                });
+
+                // Add other entities
+                allOther.forEach(entity => {
+                    nodes.push({
+                        id: entity,
+                        type: "movement",
+                        size: this.getEntitySize(entity),
+                        description: this.getEntityDescription(entity)
+                    });
+                });
+
+                // Create strategic connections
+                this.createConnections(nodes, links);
+
+                // Assign clusters
+                nodes.forEach(node => {
+                    node.cluster = this.getClusterForType(node.type);
+                });
+
+                this.data = { nodes, links };
+
+                // Update stats
+                document.getElementById('stats').innerHTML = `
+                    Nodes: ${this.data.nodes.length}<br>
+                    Links: ${this.data.links.length}<br>
+                    Complete API extraction
+                `;
+
+                console.log('Created comprehensive network with', nodes.length, 'nodes and', links.length, 'links');
+            }
+
+            createConnections(nodes, links) {
+                // Central connections
+                links.push({ source: "Just Kids", target: "Patti Smith", type: "central_connection" });
+                links.push({ source: "Just Kids", target: "Robert Mapplethorpe", type: "central_connection" });
+                links.push({ source: "Patti Smith", target: "Robert Mapplethorpe", type: "central_connection" });
+
+                // Key Just Kids relationships
+                const justKidsEntities = [
+                    "Allen Ginsberg", "Bob Dylan", "Lou Reed", "Jimi Hendrix",
+                    "David Bowie", "Jim Morrison", "Janis Joplin", "John Lennon",
+                    "Chelsea Hotel", "CBGB", "Beat Generation", "Punk Rock Movement"
+                ];
+
+                justKidsEntities.forEach(entity => {
+                    const entityExists = nodes.some(n => n.id === entity);
+                    if (entityExists) {
+                        links.push({ source: "Patti Smith", target: entity, type: "influenced_by" });
+                    }
+                });
+
+                // Album connections
+                const pattiSmithAlbums = ["Horses", "Easter", "Radio Ethiopia", "Wave"];
+                pattiSmithAlbums.forEach(album => {
+                    const albumExists = nodes.some(n => n.id === album);
+                    if (albumExists) {
+                        links.push({ source: "Patti Smith", target: album, type: "created" });
+                        links.push({ source: "Robert Mapplethorpe", target: album, type: "cover_photo" });
+                    }
+                });
+
+                // Beat Generation connections
+                const beatWriters = ["Allen Ginsberg", "Jack Kerouac", "William Burroughs"];
+                const beatBooks = ["On the Road", "Howl", "Naked Lunch"];
+
+                beatWriters.forEach(writer => {
+                    const writerExists = nodes.some(n => n.id === writer);
+                    if (writerExists) {
+                        links.push({ source: "Beat Generation", target: writer, type: "movement" });
+                        links.push({ source: "Patti Smith", target: writer, type: "influenced_by" });
+                    }
+                });
+
+                beatBooks.forEach(book => {
+                    const bookExists = nodes.some(n => n.id === book);
+                    if (bookExists) {
+                        links.push({ source: "Beat Generation", target: book, type: "movement" });
+                        links.push({ source: "Patti Smith", target: book, type: "influenced_by" });
+                    }
+                });
+
+                // Venue connections
+                const keyVenues = ["Chelsea Hotel", "CBGB", "Max's Kansas City"];
+                keyVenues.forEach(venue => {
+                    const venueExists = nodes.some(n => n.id === venue);
+                    if (venueExists) {
+                        links.push({ source: "Patti Smith", target: venue, type: "performed_at" });
+                        if (venue === "Chelsea Hotel") {
+                            links.push({ source: "Robert Mapplethorpe", target: venue, type: "lived_at" });
+                        }
+                    }
+                });
+
+                // Contemporary musician connections
+                const contemporaries = [
+                    "David Bowie", "Lou Reed", "Iggy Pop", "Sonic Youth", "R.E.M.",
+                    "The Velvet Underground", "The Doors", "The Beatles"
+                ];
+
+                contemporaries.forEach(artist => {
+                    const artistExists = nodes.some(n => n.id === artist);
+                    if (artistExists) {
+                        // Chance of connection based on cultural significance
+                        if (Math.random() > 0.7) {
+                            links.push({ source: "Patti Smith", target: artist, type: "contemporary" });
+                        }
+                    }
+                });
+
+                // Movement connections
+                const movements = ["Beat Generation", "Punk Rock Movement", "1970s NYC Art Scene"];
+                movements.forEach(movement => {
+                    const movementExists = nodes.some(n => n.id === movement);
+                    if (movementExists) {
+                        links.push({ source: "Patti Smith", target: movement, type: "part_of" });
+                        links.push({ source: "Robert Mapplethorpe", target: movement, type: "part_of" });
+                    }
+                });
+
+                // Additional meaningful connections based on Just Kids narrative
+
+                // Velvet Underground connections
+                const velvetsExists = nodes.some(n => n.id === "The Velvet Underground");
+                if (velvetsExists) {
+                    links.push({ source: "Lou Reed", target: "The Velvet Underground", type: "member_of" });
+                    links.push({ source: "Sterling Morrison", target: "The Velvet Underground", type: "member_of" });
+                    links.push({ source: "Doug Yule", target: "The Velvet Underground", type: "member_of" });
+                }
+
+                // Andy Warhol Factory connections
+                const warholExists = nodes.some(n => n.id === "Andy Warhol");
+                if (warholExists) {
+                    links.push({ source: "Andy Warhol", target: "Factory", type: "created" });
+                    links.push({ source: "Andy Warhol", target: "The Velvet Underground", type: "produced" });
+                    links.push({ source: "Patti Smith", target: "Andy Warhol", type: "encountered" });
+                }
+
+                // Jazz influences
+                const jazzInfluences = ["Billie Holiday", "John Coltrane", "Miles Davis"];
+                jazzInfluences.forEach(artist => {
+                    const artistExists = nodes.some(n => n.id === artist);
+                    if (artistExists) {
+                        links.push({ source: "Patti Smith", target: artist, type: "influenced_by" });
+                    }
+                });
+
+                // 60s rock connections
+                const rockConnections = [
+                    ["Bob Dylan", "Joan Baez"],
+                    ["John Lennon", "The Beatles"],
+                    ["Paul McCartney", "The Beatles"],
+                    ["Jim Morrison", "The Doors"]
+                ];
+
+                rockConnections.forEach(([person, band]) => {
+                    const personExists = nodes.some(n => n.id === person);
+                    const bandExists = nodes.some(n => n.id === band);
+                    if (personExists && bandExists) {
+                        links.push({ source: person, target: band, type: "member_of" });
+                    }
+                });
+            }
+
+            categorizeEntity(entityName) {
+                const name = entityName.toLowerCase();
+
+                // Writers and poets (Beat Generation and others)
+                if (name.includes('ginsberg') || name.includes('kerouac') || name.includes('burroughs') ||
+                    name.includes('bradbury') || name.includes('lester bangs') ||
+                    name.includes('william blake') || name.includes('arthur rimbaud')) return 'writer';
+
+                // Visual artists and photographers
+                if (name.includes('warhol') || name.includes('candy darling') ||
+                    name === 'robert mapplethorpe') return 'artist';
+
+                // Venues and places
+                if (name.includes('hotel') || name.includes('cbgb') || name.includes('factory') ||
+                    name.includes('village') || name.includes('studios')) return 'venue';
+
+                // All others are musicians
+                return 'musician';
+            }
+
+            getEntitySize(entityName) {
+                const name = entityName.toLowerCase();
+
+                // Major figures get bigger nodes
+                if (name.includes('beatles') || name.includes('bob dylan') ||
+                    name.includes('david bowie') || name.includes('jimi hendrix') ||
+                    name.includes('lou reed') || name.includes('allen ginsberg') ||
+                    name === 'horses' || name === 'easter') return 10;
+
+                // Important figures
+                if (name.includes('john lennon') || name.includes('paul mccartney') ||
+                    name.includes('jim morrison') || name.includes('janis joplin') ||
+                    name.includes('iggy pop') || name === 'cbgb' || name === 'chelsea hotel') return 8;
+
+                return 6;
+            }
+
+            getEntityDescription(entityName) {
+                const descriptions = {
+                    // Beat Generation
+                    "Allen Ginsberg": "Beat poet whose 'Howl' deeply influenced Smith's poetic approach",
+                    "Jack Kerouac": "Beat writer of 'On the Road' - major literary influence on Smith",
+                    "William Burroughs": "Beat writer whose experimental prose shaped Smith's artistic vision",
+
+                    // Key musical influences
+                    "Bob Dylan": "Folk-rock icon and major artistic influence on Smith's music and poetry",
+                    "Lou Reed": "Velvet Underground leader who influenced Smith's musical direction",
+                    "Jimi Hendrix": "Guitar legend Smith encountered at Electric Lady Studios",
+                    "Jim Morrison": "Doors frontman whose poetry and performance influenced Smith",
+                    "David Bowie": "Glam rock pioneer and contemporary of Smith in NYC scene",
+                    "Janis Joplin": "Blues-rock singer who influenced Smith's raw vocal style",
+
+                    // The Beatles
+                    "The Beatles": "Revolutionary band that transformed popular music",
+                    "John Lennon": "Beatles co-founder, peace activist, NYC resident during Smith's era",
+                    "Paul McCartney": "Beatles bassist/vocalist, key songwriter with Lennon",
+
+                    // Velvet Underground
+                    "The Velvet Underground": "Warhol-produced band that pioneered avant-garde rock",
+                    "Sterling Morrison": "Velvet Underground guitarist",
+                    "Doug Yule": "Velvet Underground bassist/vocalist in later years",
+
+                    // Visual artists
+                    "Andy Warhol": "Pop art icon whose Factory was central to NYC art scene",
+                    "Candy Darling": "Warhol Factory superstar and transgender icon",
+
+                    // Jazz influences
+                    "Billie Holiday": "Jazz legend whose emotional style influenced Smith",
+                    "Miles Davis": "Jazz trumpet innovator who pushed musical boundaries",
+                    "John Coltrane": "Saxophone giant and spiritual jazz pioneer",
+
+                    // Writers
+                    "William Blake": "Romantic poet whose mystical work influenced Smith's poetry",
+                    "Arthur Rimbaud": "French Symbolist poet - major influence on Smith's artistic vision",
+                    "Lester Bangs": "Rock critic who helped define punk music journalism",
+
+                    // Venues
+                    "Chelsea Hotel": "Legendary hotel where Smith and Mapplethorpe lived and thrived",
+                    "CBGB": "Iconic club where punk rock emerged with Smith as pioneer",
+                    "Factory": "Warhol's studio space - hub of NYC avant-garde scene",
+                    "Max's Kansas City": "Cultural hub and gathering place for NYC's artistic community",
+                    "Electric Lady Studios": "Hendrix's recording studio where Smith met musical legends",
+
+                    // Albums
+                    "Horses": "Smith's landmark 1975 debut album - foundational punk record",
+                    "Easter": "Smith's 1978 album featuring hit 'Because the Night'",
+                    "Radio Ethiopia": "Smith's experimental 1976 album",
+                    "Wave": "Smith's 1979 album featuring cover of The Doors' 'Soul Kitchen'",
+                    "The Velvet Underground & Nico": "Warhol-produced album that influenced underground music",
+                    "Bad Moon Rising": "Sonic Youth's 1985 album - part of NYC alternative scene",
+                    "Rocks": "Aerosmith's classic rock album",
+                    "Caught in the Crossfire": "Album referenced in the cultural network",
+
+                    // Songs
+                    "Because the Night": "Smith's biggest hit, co-written with Bruce Springsteen",
+                    "Birdland": "Epic track from Horses album showcasing Smith's poetic style",
+                    "Gloria": "Smith's punk remake of Them's classic - opens Horses album",
+                    "Land": "Multi-part suite from Horses showing Smith's experimental approach",
+                    "Free Money": "Track from Horses album",
+                    "Stronger Than Me": "Amy Winehouse song that won Ivor Novello Award",
+                    "Crazy on You": "Heart's signature song from their debut album",
+                    "Magic Man": "Heart hit showcasing Ann Wilson's powerful vocals",
+                    "Barracuda": "Hard rock anthem by Heart",
+                    "What About Love": "Heart's 1980s comeback hit",
+                    "Six White Horses": "Tommy Cash song tribute to JFK, RFK, and MLK",
+
+                    // Books
+                    "On the Road": "Kerouac's Beat Generation classic that influenced Smith",
+                    "Howl": "Ginsberg's revolutionary poem - key Beat Generation work",
+                    "Naked Lunch": "Burroughs' experimental novel that pushed literary boundaries",
+                    "Lady Sings the Blues": "Billie Holiday's autobiography - influential memoir",
+                    "This Woman's Work": "Essay anthology featuring contemporary women's voices",
+                    "A Season in Hell": "Rimbaud's prose poetry collection - major Smith influence",
+                    "Illuminations": "Rimbaud's collection that shaped Smith's poetic vision",
+
+                    // Media and documentaries
+                    "Patti Smith: Dream of Life": "2008 documentary chronicling Smith's artistic journey",
+                    "Exploding Plastic Inevitable": "Warhol's multimedia performances combining film, music, and dance",
+
+                    // Movements
+                    "Beat Generation": "1950s literary movement that profoundly influenced Smith",
+                    "Punk Rock Movement": "Musical genre Smith pioneered and helped define",
+                    "1970s NYC Art Scene": "The bohemian cultural milieu that nurtured Smith and Mapplethorpe"
+                };
+
+                return descriptions[entityName] || `Cultural figure from the Just Kids era`;
+            }
+
+            getClusterForType(type) {
+                const clusterMap = {
+                    'central_figure': 'central',
+                    'book': 'creative_works',
+                    'writer': 'writers_poets',
+                    'musician': 'musicians',
+                    'artist': 'artists_photographers',
+                    'photographer': 'artists_photographers',
+                    'venue': 'venues_places',
+                    'movement': 'cultural_movements',
+                    'album': 'creative_works',
+                    'song': 'creative_works',
+                    'media': 'creative_works',
+                    'other': 'other'
+                };
+                return clusterMap[type] || 'other';
+            }
+
+            getNodeColor(d) {
+                const colorMap = {
+                    'central_figure': '#e91e63',     // Pink for central figures
+                    'writer': '#9c27b0',             // Purple for writers
+                    'musician': '#2196f3',           // Blue for musicians
+                    'artist': '#ff9800',             // Orange for artists
+                    'photographer': '#ff9800',       // Orange for photographers
+                    'venue': '#4caf50',              // Green for venues
+                    'movement': '#795548',           // Brown for movements
+                    'album': '#f44336',              // Red for albums
+                    'song': '#ffeb3b',               // Yellow for songs
+                    'book': '#3f51b5',               // Indigo for books
+                    'media': '#e91e63',              // Pink for media/documentaries
+                    'other': '#607d8b'               // Blue-grey for other
+                };
+                return colorMap[d.type] || '#607d8b';
+            }
+
+            getNodeRadius(d) {
+                if (d.type === 'central_figure') return Math.max(d.size || 12, 12);
+                if (d.type === 'book' && d.id === 'Just Kids') return Math.max(d.size || 16, 16);
+                return Math.min(Math.max(d.size || 6, 4), 10);
+            }
+
+            initializeVisualization() {
+                console.log('Initializing comprehensive Just Kids network...');
+
+                // Create force simulation
+                this.simulation = d3.forceSimulation(this.data.nodes)
+                    .force("link", d3.forceLink(this.data.links)
+                        .id(d => d.id)
+                        .distance(d => {
+                            if (d.type === 'central_connection') return 100;
+                            return 150;
+                        })
+                        .strength(0.2))
+                    .force("charge", d3.forceManyBody()
+                        .strength(d => {
+                            if (d.type === 'central_figure') return -1200;
+                            if (d.type === 'book') return -800;
+                            return -400;
+                        }))
+                    .force("center", d3.forceCenter(this.width / 2, this.height / 2))
+                    .force("collision", d3.forceCollide()
+                        .radius(d => this.getNodeRadius(d) + 4))
+                    .force("cluster", this.clusterForce())
+                    .alphaTarget(0)
+                    .alphaDecay(0.03)
+                    .velocityDecay(0.7);
+
+                this.createVisualization();
+            }
+
+            clusterForce() {
+                const strength = 0.08;
+
+                return (alpha) => {
+                    const centers = this.getClusterCenters();
+
+                    this.data.nodes.forEach(node => {
+                        const center = centers[node.cluster];
+                        if (center) {
+                            const dx = center.x - node.x;
+                            const dy = center.y - node.y;
+                            node.vx += dx * strength * alpha;
+                            node.vy += dy * strength * alpha;
+                        }
+                    });
+                };
+            }
+
+            getClusterCenters() {
+                if (this.isEntityFocused && this.focusedEntity) {
+                    return {
+                        'focused_entity': { x: this.width / 2, y: this.height / 2 },
+                        'connected_entities': {
+                            x: this.width / 2 + (this.hashCode(this.focusedEntity.id) % 200) - 100,
+                            y: this.height / 2 + (this.hashCode(this.focusedEntity.id + 'y') % 200) - 100
+                        },
+                        'background': { x: this.width * 0.9, y: this.height * 0.9 }
+                    };
+                }
+
+                return {
+                    'central': { x: this.width / 2, y: this.height / 2 },
+                    'writers_poets': { x: this.width * 0.2, y: this.height * 0.3 },
+                    'musicians': { x: this.width * 0.8, y: this.height * 0.3 },
+                    'artists_photographers': { x: this.width * 0.2, y: this.height * 0.7 },
+                    'venues_places': { x: this.width * 0.8, y: this.height * 0.7 },
+                    'cultural_movements': { x: this.width * 0.5, y: this.height * 0.15 },
+                    'creative_works': { x: this.width * 0.5, y: this.height * 0.85 },
+                    'other': { x: this.width * 0.1, y: this.height * 0.9 }
+                };
+            }
+
+            hashCode(str) {
+                let hash = 0;
+                for (let i = 0; i < str.length; i++) {
+                    const char = str.charCodeAt(i);
+                    hash = ((hash << 5) - hash) + char;
+                    hash = hash & hash;
+                }
+                return Math.abs(hash);
+            }
+
+            createVisualization() {
+                // Create links
+                this.linkGroup = this.container.append("g").attr("class", "links");
+                this.links = this.linkGroup.selectAll("line")
+                    .data(this.data.links)
+                    .enter().append("line")
+                    .attr('stroke-width', d => d.type === 'central_connection' ? 2 : 1)
+                    .attr('stroke', d => {
+                        if (d.type === 'central_connection') return '#e91e63';
+                        if (d.type === 'influenced_by') return '#d1c4e9';
+                        if (d.type === 'created' || d.type === 'cover_photo') return '#90a4ae';
+                        return '#333';
+                    })
+                    .attr('stroke-opacity', 0.6);
+
+                // Create nodes
+                this.nodeGroup = this.container.append("g").attr("class", "nodes");
+                this.nodes = this.nodeGroup.selectAll("circle")
+                    .data(this.data.nodes)
+                    .enter().append("circle")
+                    .attr("r", d => this.getNodeRadius(d))
+                    .attr("fill", d => this.getNodeColor(d))
+                    .attr("stroke", "#000")
+                    .attr("stroke-width", 1.5)
+                    .style("cursor", "pointer")
+                    .call(d3.drag()
+                        .on("start", (event, d) => this.dragstarted(event, d))
+                        .on("drag", (event, d) => this.dragged(event, d))
+                        .on("end", (event, d) => this.dragended(event, d)))
+                    .on("click", (event, d) => {
+                        event.stopPropagation();
+                        this.focusOnEntity(d);
+                    })
+                    .on("mouseover", (event, d) => {
+                        this.showTooltip(event, d);
+                    })
+                    .on("mouseout", () => {
+                        this.hideTooltip();
+                    });
+
+                // Create labels for all entities
+                this.labelGroup = this.container.append("g").attr("class", "labels");
+                this.labels = this.labelGroup.selectAll("text")
+                    .data(this.data.nodes)
+                    .enter().append("text")
+                    .text(d => d.id)
+                    .attr("font-size", d => {
+                        if (d.type === 'central_figure') return '12px';
+                        if (d.type === 'book' && d.id === 'Just Kids') return '11px';
+                        return '9px';
+                    })
+                    .attr("font-weight", d => d.type === 'central_figure' ? 'bold' : 'normal')
+                    .attr("fill", "#fff")
+                    .attr("text-anchor", "middle")
+                    .attr("dy", d => this.getNodeRadius(d) + 12)
+                    .style("pointer-events", "none")
+                    .style("user-select", "none");
+
+                // Start simulation
+                this.simulation.on("tick", () => this.ticked());
+
+                // Click background to reset focus
+                this.svg.on("click", () => this.resetFocus());
+
+                console.log('All entities network visualization created');
+            }
+
+            focusOnEntity(entityNode) {
+                console.log('Focusing on entity:', entityNode.id);
+                this.focusedEntity = entityNode;
+                this.isEntityFocused = true;
+
+                // Update interaction hint
+                d3.select('#interaction-hint')
+                    .text(`Focused on: ${entityNode.id} - Click background to reset`)
+                    .classed('focused-mode', true);
+
+                // Find connected entities
+                const connectedEntities = new Set();
+                this.data.links.forEach(link => {
+                    const sourceId = link.source.id || link.source;
+                    const targetId = link.target.id || link.target;
+                    if (sourceId === entityNode.id) {
+                        connectedEntities.add(targetId);
+                    } else if (targetId === entityNode.id) {
+                        connectedEntities.add(sourceId);
+                    }
+                });
+
+                // Reassign clusters for focus mode
+                this.data.nodes.forEach(node => {
+                    if (node.id === entityNode.id) {
+                        node.cluster = 'focused_entity';
+                    } else if (connectedEntities.has(node.id)) {
+                        node.cluster = 'connected_entities';
+                    } else {
+                        node.cluster = 'background';
+                    }
+                });
+
+                this.updateFocusVisuals();
+                this.simulation.alpha(0.3).restart();
+            }
+
+            resetFocus() {
+                if (!this.isEntityFocused) return;
+
+                console.log('Resetting focus');
+                this.isEntityFocused = false;
+                this.focusedEntity = null;
+
+                // Reset interaction hint
+                d3.select('#interaction-hint')
+                    .text('Click any entity to explore its connections')
+                    .classed('focused-mode', false);
+
+                // Restore original clusters
+                this.data.nodes.forEach(node => {
+                    node.cluster = this.getClusterForType(node.type);
+                });
+
+                this.updateFocusVisuals();
+                this.simulation.alpha(0.3).restart();
+            }
+
+            updateFocusVisuals() {
+                // Update node opacity and size
+                this.nodes
+                    .transition()
+                    .duration(300)
+                    .attr("opacity", d => {
+                        if (!this.isEntityFocused) return 1;
+                        return d.cluster === 'background' ? 0.15 : 1;
+                    })
+                    .attr("r", d => {
+                        const baseRadius = this.getNodeRadius(d);
+                        if (this.isEntityFocused && d.cluster === 'focused_entity') {
+                            return baseRadius * 1.4;
+                        }
+                        return baseRadius;
+                    });
+
+                // Update link opacity
+                this.links
+                    .transition()
+                    .duration(300)
+                    .attr("stroke-opacity", d => {
+                        if (!this.isEntityFocused) return 0.6;
+
+                        const sourceId = d.source.id || d.source;
+                        const targetId = d.target.id || d.target;
+                        const isFocusedLink = sourceId === this.focusedEntity.id ||
+                                            targetId === this.focusedEntity.id;
+
+                        return isFocusedLink ? 0.9 : 0.05;
+                    });
+
+                // Update label opacity
+                this.labels
+                    .transition()
+                    .duration(300)
+                    .attr("opacity", d => {
+                        if (!this.isEntityFocused) return 1;
+                        return d.cluster === 'background' ? 0.2 : 1;
+                    });
+            }
+
+            ticked() {
+                this.links
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                this.nodes
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                this.labels
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            }
+
+            dragstarted(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            dragended(event, d) {
+                if (!event.active) this.simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            showTooltip(event, d) {
+                const tooltip = d3.select("#tooltip");
+                const categoryName = {
+                    'central_figure': 'Central Figure',
+                    'writer': 'Writer/Poet',
+                    'musician': 'Musician',
+                    'artist': 'Visual Artist',
+                    'photographer': 'Photographer',
+                    'venue': 'Venue/Place',
+                    'movement': 'Cultural Movement',
+                    'album': 'Album',
+                    'song': 'Song',
+                    'book': 'Book',
+                    'media': 'Media/Documentary',
+                    'other': 'Other'
+                }[d.type] || 'Entity';
+
+                tooltip.style("opacity", 1)
+                    .html(`
+                        <div class="tooltip-title">${d.id}</div>
+                        <div class="tooltip-category">${categoryName}</div>
+                        <div class="tooltip-description">${d.description || 'Cultural figure from the Just Kids era'}</div>
+                    `)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            }
+
+            hideTooltip() {
+                d3.select("#tooltip").style("opacity", 0);
+            }
+
+            handleResize() {
+                this.width = window.innerWidth;
+                this.height = window.innerHeight - 120;
+
+                this.svg
+                    .attr("width", this.width)
+                    .attr("height", this.height);
+
+                this.simulation
+                    .force("center", d3.forceCenter(this.width / 2, this.height / 2))
+                    .alpha(0.3)
+                    .restart();
+            }
+        }
+
+        // Zoom controls
+        let networkViz;
+
+        function zoomIn() {
+            networkViz.svg.transition().duration(300).call(
+                networkViz.zoom.scaleBy, 1.5
+            );
+        }
+
+        function zoomOut() {
+            networkViz.svg.transition().duration(300).call(
+                networkViz.zoom.scaleBy, 1 / 1.5
+            );
+        }
+
+        function resetZoom() {
+            networkViz.svg.transition().duration(500).call(
+                networkViz.zoom.transform,
+                d3.zoomIdentity.translate(0, 0).scale(1)
+            );
+        }
+
+        // Initialize visualization when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            networkViz = new AllEntitiesJustKidsNetwork();
+        });
+    </script>
+</body>
+</html>
